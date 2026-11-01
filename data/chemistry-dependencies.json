@@ -1,0 +1,2036 @@
+[
+  {
+    "topicId": "cnc_002",
+    "prerequisiteId": "cnc_001",
+    "strength": "hard",
+    "reason": "区分性质前需理解化学变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_004",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "空气的组成需要混合物概念（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_005",
+    "prerequisiteId": "cnc_002",
+    "strength": "hard",
+    "reason": "需区分物理性质和化学性质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_005",
+    "prerequisiteId": "cnc_004",
+    "strength": "hard",
+    "reason": "需认识空气中的氧气（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_006",
+    "prerequisiteId": "cnc_001",
+    "strength": "hard",
+    "reason": "需要确认发生化学变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_007",
+    "prerequisiteId": "cnc_006",
+    "strength": "hard",
+    "reason": "理解分解反应有助于分析催化作用（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_009",
+    "prerequisiteId": "cnc_001",
+    "strength": "hard",
+    "reason": "需区分两类变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_009",
+    "prerequisiteId": "cnc_008",
+    "strength": "hard",
+    "reason": "需认识微观粒子（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_010",
+    "prerequisiteId": "cnc_009",
+    "strength": "hard",
+    "reason": "需理解原子概念（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_011",
+    "prerequisiteId": "cnc_010",
+    "strength": "hard",
+    "reason": "元素定义需要质子数概念（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_011",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "单质与化合物首先是纯净物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_012",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需认识元素及化合物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_013",
+    "prerequisiteId": "cnc_012",
+    "strength": "hard",
+    "reason": "计算需读懂化学式中的原子数（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_014",
+    "prerequisiteId": "cnc_013",
+    "strength": "hard",
+    "reason": "需要先求相对分子质量（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_015",
+    "prerequisiteId": "cnc_009",
+    "strength": "hard",
+    "reason": "从原子重新组合理解电解水（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_015",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需区分元素与物质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_016",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "需区分混合物与纯净物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_017",
+    "prerequisiteId": "cnc_009",
+    "strength": "hard",
+    "reason": "原子重新组合解释质量守恒（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_018",
+    "prerequisiteId": "cnc_017",
+    "strength": "hard",
+    "reason": "配平依据质量守恒（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_018",
+    "prerequisiteId": "cnc_012",
+    "strength": "hard",
+    "reason": "需正确读取化学式（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_019",
+    "prerequisiteId": "cnc_018",
+    "strength": "hard",
+    "reason": "需使用配平后的方程式（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_019",
+    "prerequisiteId": "cnc_013",
+    "strength": "hard",
+    "reason": "需要计算物质的相对质量（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_020",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需理解单质与元素（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_020",
+    "prerequisiteId": "cnc_002",
+    "strength": "hard",
+    "reason": "需区分物理性质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_021",
+    "prerequisiteId": "cnc_002",
+    "strength": "hard",
+    "reason": "需分析物质的不同性质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_021",
+    "prerequisiteId": "cnc_012",
+    "strength": "hard",
+    "reason": "需读懂二氧化碳和碳酸的化学式（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_022",
+    "prerequisiteId": "cnc_012",
+    "strength": "hard",
+    "reason": "需区分两种化学式（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_022",
+    "prerequisiteId": "cnc_021",
+    "strength": "hard",
+    "reason": "需认识二氧化碳（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_023",
+    "prerequisiteId": "cnc_005",
+    "strength": "hard",
+    "reason": "需理解氧气的助燃性（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_024",
+    "prerequisiteId": "cnc_023",
+    "strength": "hard",
+    "reason": "能源利用涉及燃料燃烧（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_024",
+    "prerequisiteId": "cnc_021",
+    "strength": "hard",
+    "reason": "需认识二氧化碳（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_025",
+    "prerequisiteId": "cnc_002",
+    "strength": "hard",
+    "reason": "需区分物理性质与化学性质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_026",
+    "prerequisiteId": "cnc_025",
+    "strength": "hard",
+    "reason": "需了解金属材料的性质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_026",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "需认识混合物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_027",
+    "prerequisiteId": "cnc_006",
+    "strength": "hard",
+    "reason": "需掌握按反应物和生成物分类（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_027",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需区分单质与化合物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_028",
+    "prerequisiteId": "cnc_027",
+    "strength": "hard",
+    "reason": "需理解置换反应（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_029",
+    "prerequisiteId": "cnc_019",
+    "strength": "hard",
+    "reason": "需会根据化学方程式计算（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_029",
+    "prerequisiteId": "cnc_022",
+    "strength": "hard",
+    "reason": "需认识一氧化碳（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_030",
+    "prerequisiteId": "cnc_001",
+    "strength": "hard",
+    "reason": "生锈属于化学变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_030",
+    "prerequisiteId": "cnc_025",
+    "strength": "hard",
+    "reason": "需联系金属性质与用途（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_031",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "需理解混合物（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_031",
+    "prerequisiteId": "cnc_008",
+    "strength": "hard",
+    "reason": "从微观角度理解分散（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_032",
+    "prerequisiteId": "cnc_031",
+    "strength": "hard",
+    "reason": "需分清溶质和溶剂（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_033",
+    "prerequisiteId": "cnc_032",
+    "strength": "hard",
+    "reason": "需理解饱和状态（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_034",
+    "prerequisiteId": "cnc_031",
+    "strength": "hard",
+    "reason": "需分清溶液与溶质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_035",
+    "prerequisiteId": "cnc_034",
+    "strength": "hard",
+    "reason": "需用质量分数计算溶质质量（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_036",
+    "prerequisiteId": "cnc_016",
+    "strength": "hard",
+    "reason": "需理解过滤的分离对象（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_036",
+    "prerequisiteId": "cnc_032",
+    "strength": "hard",
+    "reason": "需理解结晶（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_037",
+    "prerequisiteId": "cnc_031",
+    "strength": "hard",
+    "reason": "需认识溶液（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_038",
+    "prerequisiteId": "cnc_037",
+    "strength": "hard",
+    "reason": "需认识酸性、碱性和中性（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_039",
+    "prerequisiteId": "cnc_010",
+    "strength": "hard",
+    "reason": "需理解离子（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_039",
+    "prerequisiteId": "cnc_037",
+    "strength": "hard",
+    "reason": "需认识酸碱性（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_040",
+    "prerequisiteId": "cnc_039",
+    "strength": "hard",
+    "reason": "需先辨别酸与碱（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_040",
+    "prerequisiteId": "cnc_018",
+    "strength": "hard",
+    "reason": "需读懂配平的方程式（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_041",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需会按组成进行分类（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_041",
+    "prerequisiteId": "cnc_039",
+    "strength": "hard",
+    "reason": "需区分碱与盐（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_042",
+    "prerequisiteId": "cnc_041",
+    "strength": "hard",
+    "reason": "需认识盐（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_042",
+    "prerequisiteId": "cnc_040",
+    "strength": "hard",
+    "reason": "中和反应提供交换成分的例子（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_043",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需从化学式识别元素（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_044",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "需理解组成不同的物质（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_045",
+    "prerequisiteId": "cnc_026",
+    "strength": "hard",
+    "reason": "需理解组成与性能的关系（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_046",
+    "prerequisiteId": "cnc_015",
+    "strength": "hard",
+    "reason": "需理解水与氢气的转化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_046",
+    "prerequisiteId": "cnc_024",
+    "strength": "hard",
+    "reason": "需理解能源合理利用（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_047",
+    "prerequisiteId": "cnc_045",
+    "strength": "hard",
+    "reason": "需认识不同材料（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_048",
+    "prerequisiteId": "cnc_031",
+    "strength": "hard",
+    "reason": "需理解溶解过程（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h001",
+    "prerequisiteId": "cnc_003",
+    "strength": "hard",
+    "reason": "先修内容“混合物与纯净物”说明：分类依据是物质的种类数，不是元素种类数，也不是看起来是否均一。本主题据此把物质的组成信息转成分类依据，并检查同素异形体混合时的分类。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h001",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "先修内容“元素与物质分类”说明：元素按核内质子数分类。本主题据此把物质的组成信息转成分类依据，并检查同素异形体混合时的分类。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h002",
+    "prerequisiteId": "cnc_h001",
+    "strength": "hard",
+    "reason": "先修内容“物质分类与转化关系”说明：物质分类取决于所选依据。本主题据此在分散系中区分粒子尺度，并解释光散射为何不同于生成新物质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h002",
+    "prerequisiteId": "cnc_008",
+    "strength": "hard",
+    "reason": "先修内容“分子运动与间隔”说明：分子在不断运动。本主题据此在分散系中区分粒子尺度，并解释光散射为何不同于生成新物质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h003",
+    "prerequisiteId": "cnc_010",
+    "strength": "hard",
+    "reason": "先修内容“原子结构与离子”说明：原子由原子核和电子构成。本主题据此把化合物的组成与可迁移离子的产生联系起来，而不是只看是否导电。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h003",
+    "prerequisiteId": "cnc_039",
+    "strength": "hard",
+    "reason": "先修内容“常见酸和碱的组成”说明：酸、碱的某些共同性质可从溶液中共同的离子理解。本主题据此把化合物的组成与可迁移离子的产生联系起来，而不是只看是否导电。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h004",
+    "prerequisiteId": "cnc_h003",
+    "strength": "hard",
+    "reason": "先修内容“电解质与电离”说明：电解质是在水溶液中或熔融状态下能够因自身电离而导电的化合物。本主题据此辨明真实参加反应的微粒，兼顾沉淀生成以及原子、电荷守恒。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h004",
+    "prerequisiteId": "cnc_042",
+    "strength": "hard",
+    "reason": "先修内容“复分解反应及发生条件”说明：水溶液中的两种化合物交换成分时，要结合沉淀、气体或水的生成判断反应能否发生。本主题据此辨明真实参加反应的微粒，兼顾沉淀生成以及原子、电荷守恒。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h005",
+    "prerequisiteId": "cnc_012",
+    "strength": "hard",
+    "reason": "先修内容“化学式与化合价”说明：化学式表达物质组成。本主题据此通过反应前后元素化合价和反应计量识别电子转移的双方。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h005",
+    "prerequisiteId": "cnc_018",
+    "strength": "hard",
+    "reason": "先修内容“化学方程式配平”说明：通过改变化学式前的系数，使反应前后每种原子数相等。本主题据此通过反应前后元素化合价和反应计量识别电子转移的双方。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h006",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此把每个粒子的化合价改变量累加，检验得到与失去电子是否相等。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h007",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此判断水和盐溶液中先发生的氧化还原，再分析生成OH⁻引起的反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h007",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此判断水和盐溶液中先发生的氧化还原，再分析生成OH⁻引起的反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h008",
+    "prerequisiteId": "cnc_h007",
+    "strength": "hard",
+    "reason": "先修内容“钠与水及盐溶液的反应”说明：钠与水反应生成NaOH和H₂并放热。本主题据此分辨钠氧化物的氧化态，核对释放氧气的电子和原子来源。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h008",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此分辨钠氧化物的氧化态，核对释放氧气的电子和原子来源。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h009",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此围绕碳酸根、碳酸氢根与H⁺的关系比较酸耗量和转化条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h009",
+    "prerequisiteId": "cnc_041",
+    "strength": "hard",
+    "reason": "先修内容“常见盐与碳酸盐”说明：化学中的盐是一类物质，食盐只是其中一种。本主题据此围绕碳酸根、碳酸氢根与H⁺的关系比较酸耗量和转化条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h010",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此把氯的价态变化与氯水中生成的微粒联系起来，解释漂白及酸化风险。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h010",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此把氯的价态变化与氯水中生成的微粒联系起来，解释漂白及酸化风险。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h011",
+    "prerequisiteId": "cnc_h010",
+    "strength": "hard",
+    "reason": "先修内容“氯气、氯水与次氯酸盐”说明：Cl₂与水发生可逆反应生成HCl和HClO。本主题据此从沉淀反应识别Cl⁻，同时排除试剂带入待测离子的假阳性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h011",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此从沉淀反应识别Cl⁻，同时排除试剂带入待测离子的假阳性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h012",
+    "prerequisiteId": "cnc_009",
+    "strength": "hard",
+    "reason": "先修内容“分子、原子与化学变化”说明：由分子构成的物质发生化学变化时，原子重新组合。本主题据此明确计数对象是分子、原子还是离子，再用统一计数单位表达数量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h012",
+    "prerequisiteId": "cnc_013",
+    "strength": "soft",
+    "reason": "相对分子质量为下一步摩尔质量计算提供联系，物质的量作为计数单位本身不依赖质量换算。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h013",
+    "prerequisiteId": "cnc_h012",
+    "strength": "hard",
+    "reason": "先修内容“物质的量与阿伏加德罗常数”说明：物质的量n用mol作单位，N=nN_A。本主题据此把粒子计数、质量和方程式比例联立，并判定限量反应物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h013",
+    "prerequisiteId": "cnc_019",
+    "strength": "hard",
+    "reason": "先修内容“根据化学方程式计算”说明：用已配平方程式确定质量比，再计算实际参与反应或生成物的质量。本主题据此把粒子计数、质量和方程式比例联立，并判定限量反应物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h014",
+    "prerequisiteId": "cnc_h012",
+    "strength": "hard",
+    "reason": "先修内容“物质的量与阿伏加德罗常数”说明：物质的量n用mol作单位，N=nN_A。本主题据此把指定温压下的气体体积换算成物质的量，避免把气体规则用于液体。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h015",
+    "prerequisiteId": "cnc_h012",
+    "strength": "hard",
+    "reason": "先修内容“物质的量与阿伏加德罗常数”说明：物质的量n用mol作单位，N=nN_A。本主题据此以溶液总体积为分母，同时用稀释时溶质不变约束计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h015",
+    "prerequisiteId": "cnc_035",
+    "strength": "hard",
+    "reason": "先修内容“溶液稀释与配制”说明：加水稀释且无反应、挥发或损失时，溶质质量保持不变。本主题据此以溶液总体积为分母，同时用稀释时溶质不变约束计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h016",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "先修内容“物质的量浓度与稀释”说明：物质的量浓度c=n/V，V为溶液总体积且常用L。本主题据此把理论溶质质量转换成定量转移与定容操作，并据n/V分析误差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h016",
+    "prerequisiteId": "cnc_h013",
+    "strength": "hard",
+    "reason": "先修内容“摩尔质量与化学计量”说明：摩尔质量M=m/n，常用g·mol⁻¹。本主题据此把理论溶质质量转换成定量转移与定容操作，并据n/V分析误差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h017",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此以氧化还原强弱和电子守恒区分铁生成+2或+3价的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h017",
+    "prerequisiteId": "cnc_028",
+    "strength": "hard",
+    "reason": "先修内容“金属活动性顺序”说明：在常见水溶液反应中，活动性顺序可帮助预测金属与稀酸、盐溶液的反应。本主题据此以氧化还原强弱和电子守恒区分铁生成+2或+3价的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h018",
+    "prerequisiteId": "cnc_h017",
+    "strength": "hard",
+    "reason": "先修内容“铁的价态转化”说明：铁常见0、+2、+3价，可用氧化剂或还原剂控制转化。本主题据此由铁价态与沉淀反应解释Fe(OH)₂被空气氧化后的颜色变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h018",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此由铁价态与沉淀反应解释Fe(OH)₂被空气氧化后的颜色变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h019",
+    "prerequisiteId": "cnc_h017",
+    "strength": "hard",
+    "reason": "先修内容“铁的价态转化”说明：铁常见0、+2、+3价，可用氧化剂或还原剂控制转化。本主题据此将显色检验与Fe²⁺被氧化的前后对照联系，避免只凭阴性现象定性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h020",
+    "prerequisiteId": "cnc_026",
+    "strength": "hard",
+    "reason": "先修内容“合金与纯金属”说明：合金含金属成分并具有金属特征，常与组成它的纯金属性能不同。本主题据此从多组分金属材料的结构变化解释性能差异，不把经验趋势写成必然规律。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h021",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此区分表面氧化保护与酸碱反应，用电荷守恒检查碱性水溶液中的产物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h021",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此区分表面氧化保护与酸碱反应，用电荷守恒检查碱性水溶液中的产物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h022",
+    "prerequisiteId": "cnc_h019",
+    "strength": "hard",
+    "reason": "先修内容“Fe²⁺与Fe³⁺的检验”说明：Fe³⁺与SCN⁻形成显红色的配合物，可用于检验但需注意干扰。本主题据此把价态检验和沉淀变化组合成有空白对照的实验链条。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h022",
+    "prerequisiteId": "cnc_h018",
+    "strength": "hard",
+    "reason": "先修内容“铁的氧化物与氢氧化物”说明：FeO、Fe₂O₃、Fe₃O₄含不同铁价态，Fe₃O₄中兼有+2和+3价。本主题据此把价态检验和沉淀变化组合成有空白对照的实验链条。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h023",
+    "prerequisiteId": "cnc_010",
+    "strength": "hard",
+    "reason": "先修内容“原子结构与离子”说明：原子由原子核和电子构成。本主题据此以质子数固定元素种类，再区分中子改变与电子得失。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h023",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "先修内容“元素与物质分类”说明：元素按核内质子数分类。本主题据此以质子数固定元素种类，再区分中子改变与电子得失。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h024",
+    "prerequisiteId": "cnc_010",
+    "strength": "hard",
+    "reason": "先修内容“原子结构与离子”说明：原子由原子核和电子构成。本主题据此在核电荷和离子电荷基础上计算核外电子数，再讨论分层分布。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h024",
+    "prerequisiteId": "cnc_h023",
+    "strength": "soft",
+    "reason": "同位素讨论核组成，可与核外电子结构对照；电子分层不以同位素计数为必要前提。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h025",
+    "prerequisiteId": "cnc_h024",
+    "strength": "hard",
+    "reason": "先修内容“核外电子分层与离子结构”说明：核外电子按能量等规律分布在不同能层，不能把电子层当作固定行星轨道。本主题据此把电子层数和主族价电子特征对应到元素在表中的位置。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h026",
+    "prerequisiteId": "cnc_h025",
+    "strength": "hard",
+    "reason": "先修内容“元素周期表的位置与结构”说明：周期和族反映电子结构的周期性。本主题据此限定同周期或同主族比较对象，再解释半径与化学性质的递变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h027",
+    "prerequisiteId": "cnc_h026",
+    "strength": "hard",
+    "reason": "先修内容“原子半径与性质的周期变化”说明：同周期主族元素从左到右，原子半径总体减小、非金属性总体增强。本主题据此将失得电子倾向转成可比较的实验性质，并审查比较范围。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h027",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此将失得电子倾向转成可比较的实验性质，并审查比较范围。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h028",
+    "prerequisiteId": "cnc_h024",
+    "strength": "hard",
+    "reason": "先修内容“核外电子分层与离子结构”说明：核外电子按能量等规律分布在不同能层，不能把电子层当作固定行星轨道。本主题据此由价电子和离子结构解释共用电子对或静电结合，区分微观成键方式。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h029",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此把成键电子对和孤电子对明确画出，防止把电子式误作真实空间构型。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h030",
+    "prerequisiteId": "cnc_h027",
+    "strength": "hard",
+    "reason": "先修内容“金属性与非金属性的证据”说明：金属性可由失电子倾向及最高价氧化物水化物的碱性等证据比较。本主题据此选择与金属性、非金属性相关的指标，并控制表面积和表面膜等干扰。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h031",
+    "prerequisiteId": "cnc_011",
+    "strength": "hard",
+    "reason": "先修内容“元素与物质分类”说明：元素按核内质子数分类。本主题据此先确认待识别的是元素，而不是据一种颜色断言某种具体盐的全部组成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h031",
+    "prerequisiteId": "cnc_h024",
+    "strength": "soft",
+    "reason": "电子分层为后续理解特征发光提供解释，但入门焰色观察不要求先掌握完整电子结构。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h031",
+    "prerequisiteId": "cnc_h007",
+    "strength": "soft",
+    "reason": "钠的水反应与焰色都是钠性质的例子，二者互相补充而非必要先后。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h032",
+    "prerequisiteId": "cnc_h010",
+    "strength": "hard",
+    "reason": "先修内容“氯气、氯水与次氯酸盐”说明：Cl₂与水发生可逆反应生成HCl和HClO。本主题据此说明Cl⁻被氧化为Cl₂的电子来源，配平反应并核对生成气体的性质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h032",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此说明Cl⁻被氧化为Cl₂的电子来源，配平反应并核对生成气体的性质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h032",
+    "prerequisiteId": "cnc_h011",
+    "strength": "soft",
+    "reason": "氯离子检验帮助连接氯元素不同存在形式，但不是学习制氯氧化还原原理的必要前提。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h033",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此根据中间硫价态判断氧化或还原方向，再解释褪色现象的不同机理。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h033",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此根据中间硫价态判断氧化或还原方向，再解释褪色现象的不同机理。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h034",
+    "prerequisiteId": "cnc_h033",
+    "strength": "hard",
+    "reason": "先修内容“硫、二氧化硫与价态转化”说明：硫常见−2、0、+4、+6价。本主题据此结合硫价态与电子转移判断浓硫酸的还原产物，区分浓、稀反应条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h034",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此结合硫价态与电子转移判断浓硫酸的还原产物，区分浓、稀反应条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h035",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此配平含氮氧化物与氧气、水之间的转化，并追踪氮价态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h035",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此配平含氮氧化物与氧气、水之间的转化，并追踪氮价态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h036",
+    "prerequisiteId": "cnc_h003",
+    "strength": "hard",
+    "reason": "先修内容“电解质与电离”说明：电解质是在水溶液中或熔融状态下能够因自身电离而导电的化合物。本主题据此从NH₄⁺与OH⁻的微粒反应解释放氨及湿润试纸检验。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h036",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此从NH₄⁺与OH⁻的微粒反应解释放氨及湿润试纸检验。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h037",
+    "prerequisiteId": "cnc_h035",
+    "strength": "hard",
+    "reason": "先修内容“氮气、一氧化氮与二氧化氮”说明：N₂常温下较稳定，与O₂在放电或高温条件下可形成NO。本主题据此把硝酸浓度与氮氧化物产物、电子守恒一起分析，不套用普通酸放氢规律。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h037",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此把硝酸浓度与氮氧化物产物、电子守恒一起分析，不套用普通酸放氢规律。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h038",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此比较CO₂与SiO₂的组成分类和共价网络结构，识别不能直接类推的性质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h038",
+    "prerequisiteId": "cnc_h001",
+    "strength": "hard",
+    "reason": "先修内容“物质分类与转化关系”说明：物质分类取决于所选依据。本主题据此比较CO₂与SiO₂的组成分类和共价网络结构，识别不能直接类推的性质。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h039",
+    "prerequisiteId": "cnc_h038",
+    "strength": "hard",
+    "reason": "先修内容“硅、二氧化硅与硅酸盐”说明：SiO₂是共价网络结构，不能按CO₂分子结构类推。本主题据此把含硅等无机物的结构与材料用途对应，区分同元素组成的不同材料。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h039",
+    "prerequisiteId": "cnc_045",
+    "strength": "hard",
+    "reason": "先修内容“合成材料与复合材料”说明：塑料、合成橡胶和合成纤维属于常见合成材料。本主题据此把含硅等无机物的结构与材料用途对应，区分同元素组成的不同材料。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h040",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此依沉淀生成条件安排试剂次序，同时去掉过量试剂带来的新离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h040",
+    "prerequisiteId": "cnc_h009",
+    "strength": "hard",
+    "reason": "先修内容“碳酸钠与碳酸氢钠”说明：Na₂CO₃和NaHCO₃都能与足量酸生成CO₂，但酸耗量不同。本主题据此依沉淀生成条件安排试剂次序，同时去掉过量试剂带来的新离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h041",
+    "prerequisiteId": "cnc_h033",
+    "strength": "hard",
+    "reason": "先修内容“硫、二氧化硫与价态转化”说明：硫常见−2、0、+4、+6价。本主题据此把硫的价态变化落实为目标产物的检验，并区分反应证据与一般颜色变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h041",
+    "prerequisiteId": "cnc_h034",
+    "strength": "hard",
+    "reason": "先修内容“硫酸的浓度效应与硫酸根检验”说明：稀硫酸与浓硫酸性质不同。本主题据此把硫的价态变化落实为目标产物的检验，并区分反应证据与一般颜色变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h042",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此把断键需能量与成键放能量合并，区分反应总热效应和启动条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h042",
+    "prerequisiteId": "cnc_048",
+    "strength": "soft",
+    "reason": "溶解吸放热可作为能量变化的经验对照，不能直接等同于化学键反应热。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h043",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此将氧化与还原分开到两个电极，利用电子转移解释外电路电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h043",
+    "prerequisiteId": "cnc_046",
+    "strength": "hard",
+    "reason": "先修内容“化学与能源转化”说明：化学能可以转化为电能等能量形式。本主题据此将氧化与还原分开到两个电极，利用电子转移解释外电路电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h044",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "先修内容“物质的量浓度与稀释”说明：物质的量浓度c=n/V，V为溶液总体积且常用L。本主题据此以单位体积中的物质的量变化定义快慢，并统一时间与浓度单位。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h045",
+    "prerequisiteId": "cnc_h044",
+    "strength": "hard",
+    "reason": "先修内容“化学反应速率的表示”说明：平均反应速率可用一定时间内反应物浓度的减小量或生成物浓度的增加量表示，常取非负值。本主题据此比较正逆两方向速率，解释宏观浓度稳定但微观反应持续。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h046",
+    "prerequisiteId": "cnc_h043",
+    "strength": "hard",
+    "reason": "先修内容“化学能转化为电能的条件”说明：原电池将自发氧化还原反应的部分化学能转化为电能，需要形成电子与离子迁移通路。本主题据此把电子和离子通路都接通，再用通断路对照检查装置能否持续输出电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h047",
+    "prerequisiteId": "cnc_h044",
+    "strength": "hard",
+    "reason": "先修内容“化学反应速率的表示”说明：平均反应速率可用一定时间内反应物浓度的减小量或生成物浓度的增加量表示，常取非负值。本主题据此用相同时间的变化量或相同变化量的时间比较快慢，保持控制变量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h047",
+    "prerequisiteId": "cnc_007",
+    "strength": "hard",
+    "reason": "先修内容“催化剂”说明：催化剂改变反应速率，其质量和化学性质在反应前后保持不变。本主题据此用相同时间的变化量或相同变化量的时间比较快慢，保持控制变量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h048",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此以碳的成键方式解释饱和链烃通式，并判断取代而非加成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h049",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此从碳骨架连接差异识别同分异构，区分同系物组成变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h050",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此由双键结构判断加成部位和试剂比例，不把所有褪色都归为同一反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h050",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此由双键结构判断加成部位和试剂比例，不把所有褪色都归为同一反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h051",
+    "prerequisiteId": "cnc_h050",
+    "strength": "hard",
+    "reason": "先修内容“乙烯的结构与加成”说明：乙烯含碳碳双键，可与溴等发生加成。本主题据此将乙烯的双键变化延伸为单体间连接，识别重复单元和主链。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h051",
+    "prerequisiteId": "cnc_045",
+    "strength": "hard",
+    "reason": "先修内容“合成材料与复合材料”说明：塑料、合成橡胶和合成纤维属于常见合成材料。本主题据此将乙烯的双键变化延伸为单体间连接，识别重复单元和主链。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h052",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此把羟基参与的反应与电子转移相连，解释催化氧化与钠反应的计量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h052",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此把羟基参与的反应与电子转移相连，解释催化氧化与钠反应的计量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h053",
+    "prerequisiteId": "cnc_h052",
+    "strength": "hard",
+    "reason": "先修内容“乙醇的羟基与氧化”说明：乙醇的官能团为羟基，能与活泼金属反应，也可在铜等催化剂和加热条件下被氧化成乙醛。本主题据此由羧基的酸性及醇羟基反应识别中和和酯化两条不同转化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h053",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此由羧基的酸性及醇羟基反应识别中和和酯化两条不同转化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h054",
+    "prerequisiteId": "cnc_044",
+    "strength": "hard",
+    "reason": "先修内容“食物中的营养物质”说明：食物含水、糖类、蛋白质、油脂、无机盐和维生素等成分。本主题据此在营养物质分类上区分单糖与多糖，并选择各自适用的检验方法。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h055",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此用酯结构解释营养油脂的皂化产物，避免与矿物油及高分子混同。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h055",
+    "prerequisiteId": "cnc_044",
+    "strength": "hard",
+    "reason": "先修内容“食物中的营养物质”说明：食物含水、糖类、蛋白质、油脂、无机盐和维生素等成分。本主题据此用酯结构解释营养油脂的皂化产物，避免与矿物油及高分子混同。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h056",
+    "prerequisiteId": "cnc_044",
+    "strength": "hard",
+    "reason": "先修内容“食物中的营养物质”说明：食物含水、糖类、蛋白质、油脂、无机盐和维生素等成分。本主题据此将蛋白质这一营养物质对应到氨基酸单元，区分空间结构变化与水解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h057",
+    "prerequisiteId": "cnc_h049",
+    "strength": "hard",
+    "reason": "先修内容“碳骨架与同分异构”说明：同分异构体具有相同分子式而结构不同。本主题据此在原子连接与电子成键约束下搭建模型，再利用整体旋转排除重复结构。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h057",
+    "prerequisiteId": "cnc_h029",
+    "strength": "hard",
+    "reason": "先修内容“电子式与成键电子计数”说明：电子式表达价电子与共用电子对，离子需标明电荷。本主题据此在原子连接与电子成键约束下搭建模型，再利用整体旋转排除重复结构。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h058",
+    "prerequisiteId": "cnc_h052",
+    "strength": "hard",
+    "reason": "先修内容“乙醇的羟基与氧化”说明：乙醇的官能团为羟基，能与活泼金属反应，也可在铜等催化剂和加热条件下被氧化成乙醛。本主题据此根据羟基与羧基的性质差别选择有辨识力的试剂和对照。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h058",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此根据羟基与羧基的性质差别选择有辨识力的试剂和对照。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h059",
+    "prerequisiteId": "cnc_h027",
+    "strength": "hard",
+    "reason": "先修内容“金属性与非金属性的证据”说明：金属性可由失电子倾向及最高价氧化物水化物的碱性等证据比较。本主题据此根据金属失电子倾向选择冶炼路线，并核对还原或电解所需电子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h059",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此根据金属失电子倾向选择冶炼路线，并核对还原或电解所需电子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h060",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此以烃组成和燃料资源知识区分物理分馏与改变分子结构的加工。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h060",
+    "prerequisiteId": "cnc_024",
+    "strength": "hard",
+    "reason": "先修内容“化石能源与低碳利用”说明：煤、石油和天然气属于不可再生能源。本主题据此以烃组成和燃料资源知识区分物理分馏与改变分子结构的加工。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h061",
+    "prerequisiteId": "cnc_043",
+    "strength": "hard",
+    "reason": "先修内容“化肥与营养元素”说明：氮、磷、钾是常见肥料关注的营养元素。本主题据此把营养、肥料等用途与剂量及环境去向联系，判断合理使用条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h061",
+    "prerequisiteId": "cnc_044",
+    "strength": "hard",
+    "reason": "先修内容“食物中的营养物质”说明：食物含水、糖类、蛋白质、油脂、无机盐和维生素等成分。本主题据此把营养、肥料等用途与剂量及环境去向联系，判断合理使用条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h062",
+    "prerequisiteId": "cnc_h060",
+    "strength": "hard",
+    "reason": "先修内容“煤石油天然气的综合利用”说明：石油分馏主要是物理分离，裂化、裂解和煤干馏涉及化学变化。本主题据此将资源加工和回收放入完整工艺比较，避免只看末端排放。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h062",
+    "prerequisiteId": "cnc_047",
+    "strength": "hard",
+    "reason": "先修内容“资源循环与材料回收”说明：材料从资源开采到使用、回收都有环境影响。本主题据此将资源加工和回收放入完整工艺比较，避免只看末端排放。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h063",
+    "prerequisiteId": "cnc_h042",
+    "strength": "hard",
+    "reason": "先修内容“化学键与反应吸放热”说明：断裂化学键需要能量，形成化学键释放能量。本主题据此把体系吸放热转为焓变符号，并明确恒压和做功条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h064",
+    "prerequisiteId": "cnc_h063",
+    "strength": "hard",
+    "reason": "先修内容“反应热、焓变与体系条件”说明：焓变ΔH=H(产物)−H(反应物)。本主题据此将物质的量、反应计量和物态共同写入热效应表达。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h064",
+    "prerequisiteId": "cnc_h013",
+    "strength": "hard",
+    "reason": "先修内容“摩尔质量与化学计量”说明：摩尔质量M=m/n，常用g·mol⁻¹。本主题据此将物质的量、反应计量和物态共同写入热效应表达。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h065",
+    "prerequisiteId": "cnc_h063",
+    "strength": "hard",
+    "reason": "先修内容“反应热、焓变与体系条件”说明：焓变ΔH=H(产物)−H(反应物)。本主题据此利用取样浓度判断中和量，再将溶液温升换算为体系放热。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h065",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "先修内容“物质的量浓度与稀释”说明：物质的量浓度c=n/V，V为溶液总体积且常用L。本主题据此利用取样浓度判断中和量，再将溶液温升换算为体系放热。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h066",
+    "prerequisiteId": "cnc_h064",
+    "strength": "hard",
+    "reason": "先修内容“热化学方程式与燃烧焓”说明：热化学方程式需标明物态，焓变随化学计量数同步倍增或变号。本主题据此将反应式的代数加减与焓变同步处理，并核对中间物状态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h067",
+    "prerequisiteId": "cnc_h042",
+    "strength": "hard",
+    "reason": "先修内容“化学键与反应吸放热”说明：断裂化学键需要能量，形成化学键释放能量。本主题据此把需要断开与形成的各类键分别计数，按能量守恒估算总焓变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h067",
+    "prerequisiteId": "cnc_h066",
+    "strength": "hard",
+    "reason": "先修内容“盖斯定律与反应路径”说明：焓是状态函数，始态和终态相同，总焓变与中间路径无关。本主题据此把需要断开与形成的各类键分别计数，按能量守恒估算总焓变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h068",
+    "prerequisiteId": "cnc_h044",
+    "strength": "hard",
+    "reason": "先修内容“化学反应速率的表示”说明：平均反应速率可用一定时间内反应物浓度的减小量或生成物浓度的增加量表示，常取非负值。本主题据此在恒容定义基础上用计量系数归一化不同物质表示的速率。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h069",
+    "prerequisiteId": "cnc_h042",
+    "strength": "hard",
+    "reason": "先修内容“化学键与反应吸放热”说明：断裂化学键需要能量，形成化学键释放能量。本主题据此把反应快慢与能量门槛联系，说明催化改变路径而不改变总焓变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h069",
+    "prerequisiteId": "cnc_h044",
+    "strength": "hard",
+    "reason": "先修内容“化学反应速率的表示”说明：平均反应速率可用一定时间内反应物浓度的减小量或生成物浓度的增加量表示，常取非负值。本主题据此把反应快慢与能量门槛联系，说明催化改变路径而不改变总焓变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h069",
+    "prerequisiteId": "cnc_h047",
+    "strength": "soft",
+    "reason": "速率实验为催化和温度效应提供观察证据，与微观活化能解释相互印证。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h070",
+    "prerequisiteId": "cnc_h045",
+    "strength": "hard",
+    "reason": "先修内容“可逆反应与动态平衡”说明：一定条件下可逆反应达到平衡时，正逆反应速率相等且通常不为零，宏观组成不再变化。本主题据此从动态平衡的组成建立浓度比式，按反应系数确定指数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h070",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "先修内容“物质的量浓度与稀释”说明：物质的量浓度c=n/V，V为溶液总体积且常用L。本主题据此从动态平衡的组成建立浓度比式，按反应系数确定指数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h071",
+    "prerequisiteId": "cnc_h070",
+    "strength": "hard",
+    "reason": "先修内容“化学平衡常数的表达”说明：对给定反应式，平衡常数以平衡态的活度构成。本主题据此用与K相同的表达式代入当前浓度，再比较离平衡的方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h072",
+    "prerequisiteId": "cnc_h071",
+    "strength": "hard",
+    "reason": "先修内容“浓度商与反应方向”说明：在相同温度、相同反应式和同一表达约定下比较Q与K：Q<K趋向正向，Q>K趋向逆向，Q=K处于平衡。本主题据此分析温度、体积等操作如何改变Q或K，而不把总压变化一概视作压缩。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h073",
+    "prerequisiteId": "cnc_h063",
+    "strength": "hard",
+    "reason": "先修内容“反应热、焓变与体系条件”说明：焓变ΔH=H(产物)−H(反应物)。本主题据此把反应焓效应与熵、温度一起讨论方向，并区分平衡与速率。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h073",
+    "prerequisiteId": "cnc_h045",
+    "strength": "hard",
+    "reason": "先修内容“可逆反应与动态平衡”说明：一定条件下可逆反应达到平衡时，正逆反应速率相等且通常不为零，宏观组成不再变化。本主题据此把反应焓效应与熵、温度一起讨论方向，并区分平衡与速率。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h074",
+    "prerequisiteId": "cnc_h072",
+    "strength": "hard",
+    "reason": "先修内容“平衡移动与温度压强条件”说明：改变条件后，体系可通过净反应部分减弱该改变。本主题据此同时利用平衡与动力学约束解释温压、催化和循环的实际折中。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h074",
+    "prerequisiteId": "cnc_h069",
+    "strength": "hard",
+    "reason": "先修内容“活化能、有效碰撞与催化剂”说明：有效碰撞需满足能量和取向等条件。本主题据此同时利用平衡与动力学约束解释温压、催化和循环的实际折中。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h075",
+    "prerequisiteId": "cnc_h072",
+    "strength": "hard",
+    "reason": "先修内容“平衡移动与温度压强条件”说明：改变条件后，体系可通过净反应部分减弱该改变。本主题据此根据平衡移动判据审查颜色证据，并单独排除稀释与光程变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h076",
+    "prerequisiteId": "cnc_h003",
+    "strength": "hard",
+    "reason": "先修内容“电解质与电离”说明：电解质是在水溶液中或熔融状态下能够因自身电离而导电的化合物。本主题据此把部分电离视为可逆动态过程，分开讨论电离程度与浓度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h076",
+    "prerequisiteId": "cnc_h045",
+    "strength": "hard",
+    "reason": "先修内容“可逆反应与动态平衡”说明：一定条件下可逆反应达到平衡时，正逆反应速率相等且通常不为零，宏观组成不再变化。本主题据此把部分电离视为可逆动态过程，分开讨论电离程度与浓度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h077",
+    "prerequisiteId": "cnc_h076",
+    "strength": "hard",
+    "reason": "先修内容“弱电解质的电离平衡”说明：弱电解质在水中部分电离，存在动态平衡。本主题据此将弱酸电离方程式写成平衡常数，并检验近似求根的适用范围。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h077",
+    "prerequisiteId": "cnc_h070",
+    "strength": "hard",
+    "reason": "先修内容“化学平衡常数的表达”说明：对给定反应式，平衡常数以平衡态的活度构成。本主题据此将弱酸电离方程式写成平衡常数，并检验近似求根的适用范围。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h078",
+    "prerequisiteId": "cnc_h077",
+    "strength": "hard",
+    "reason": "先修内容“电离常数与弱酸定量”说明：一元弱酸HA的常用表达K_a=c(H⁺)c(A⁻)/c(HA)，固定温度下近似为常数。本主题据此将水自身电离纳入浓度乘积，辨明温度改变时的中性判据。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h079",
+    "prerequisiteId": "cnc_h078",
+    "strength": "hard",
+    "reason": "先修内容“水的离子积与中性条件”说明：K_w=c(H⁺)c(OH⁻)在给定温度下近似为常数，25 ℃时常用1.0×10⁻¹⁴。本主题据此先用物质的量守恒处理酸碱混合，再用水的离子积计算剩余离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h079",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "先修内容“物质的量浓度与稀释”说明：物质的量浓度c=n/V，V为溶液总体积且常用L。本主题据此先用物质的量守恒处理酸碱混合，再用水的离子积计算剩余离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h080",
+    "prerequisiteId": "cnc_h079",
+    "strength": "hard",
+    "reason": "先修内容“pH与酸碱混合计算”说明：稀水溶液常用pH≈−lg c(H⁺)，严格定义与H⁺活度有关。本主题据此以离子中和计量确定等量点，再区别指示剂变色与理论终点。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h080",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此以离子中和计量确定等量点，再区别指示剂变色与理论终点。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h081",
+    "prerequisiteId": "cnc_h076",
+    "strength": "hard",
+    "reason": "先修内容“弱电解质的电离平衡”说明：弱电解质在水中部分电离，存在动态平衡。本主题据此以水电离和弱电解质形成解释盐离子为何改变溶液酸碱性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h081",
+    "prerequisiteId": "cnc_h078",
+    "strength": "hard",
+    "reason": "先修内容“水的离子积与中性条件”说明：K_w=c(H⁺)c(OH⁻)在给定温度下近似为常数，25 ℃时常用1.0×10⁻¹⁴。本主题据此以水电离和弱电解质形成解释盐离子为何改变溶液酸碱性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h082",
+    "prerequisiteId": "cnc_h070",
+    "strength": "hard",
+    "reason": "先修内容“化学平衡常数的表达”说明：对给定反应式，平衡常数以平衡态的活度构成。本主题据此把难溶盐的溶解看作离子平衡，按计量系数建立浓度乘积。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h082",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此把难溶盐的溶解看作离子平衡，按计量系数建立浓度乘积。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h083",
+    "prerequisiteId": "cnc_h082",
+    "strength": "hard",
+    "reason": "先修内容“难溶电解质与溶度积”说明：难溶不等于完全不溶，饱和溶液中存在溶解与沉淀的动态平衡。本主题据此将当前离子积与饱和常数比较，预测沉淀生成或溶解方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h083",
+    "prerequisiteId": "cnc_h071",
+    "strength": "hard",
+    "reason": "先修内容“浓度商与反应方向”说明：在相同温度、相同反应式和同一表达约定下比较Q与K：Q<K趋向正向，Q>K趋向逆向，Q=K处于平衡。本主题据此将当前离子积与饱和常数比较，预测沉淀生成或溶解方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h084",
+    "prerequisiteId": "cnc_h080",
+    "strength": "hard",
+    "reason": "先修内容“酸碱滴定的计量与终点”说明：酸碱滴定以反应计量关系求浓度，应区分理论等量点与指示剂终点。本主题据此把理论耗量落实为滴定管读数，追踪漏液、气泡或额外样品造成的误差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h085",
+    "prerequisiteId": "cnc_h081",
+    "strength": "hard",
+    "reason": "先修内容“盐类水解与溶液酸碱性”说明：盐中可水解离子与水作用，改变H⁺或OH⁻浓度。本主题据此依据水解产生H⁺或OH⁻的关系，选择抑制或促进水解的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h086",
+    "prerequisiteId": "cnc_h043",
+    "strength": "hard",
+    "reason": "先修内容“化学能转化为电能的条件”说明：原电池将自发氧化还原反应的部分化学能转化为电能，需要形成电子与离子迁移通路。本主题据此用电子守恒写两极半反应，再分开说明电子和盐桥离子的迁移。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h086",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原中的电子守恒”说明：同一氧化还原过程，失去与得到的电子总数相等。本主题据此用电子守恒写两极半反应，再分开说明电子和盐桥离子的迁移。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h087",
+    "prerequisiteId": "cnc_h086",
+    "strength": "hard",
+    "reason": "先修内容“双液原电池与电极反应”说明：原电池负极氧化、正极还原，电子经外电路流动，盐桥中离子迁移维持电中性。本主题据此以原电池放电为参照解释充电需要外界做功，并保持氧化还原定义一致。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h088",
+    "prerequisiteId": "cnc_h086",
+    "strength": "hard",
+    "reason": "先修内容“双液原电池与电极反应”说明：原电池负极氧化、正极还原，电子经外电路流动，盐桥中离子迁移维持电中性。本主题据此把外电源驱动与离子竞争反应结合，按介质和电极材料选择产物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h088",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此把外电源驱动与离子竞争反应结合，按介质和电极材料选择产物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h089",
+    "prerequisiteId": "cnc_h088",
+    "strength": "hard",
+    "reason": "先修内容“电解池与介质相关产物”说明：电解池把电能转为化学能：阳极氧化、阴极还原。本主题据此先用电量求电子物质的量，再按半反应系数换算物质产量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h089",
+    "prerequisiteId": "cnc_h012",
+    "strength": "hard",
+    "reason": "先修内容“物质的量与阿伏加德罗常数”说明：物质的量n用mol作单位，N=nN_A。本主题据此先用电量求电子物质的量，再按半反应系数换算物质产量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h090",
+    "prerequisiteId": "cnc_h086",
+    "strength": "hard",
+    "reason": "先修内容“双液原电池与电极反应”说明：原电池负极氧化、正极还原，电子经外电路流动，盐桥中离子迁移维持电中性。本主题据此把铁锈蚀分解为微区电极反应，并解释隔绝与阴极保护的差异。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h090",
+    "prerequisiteId": "cnc_030",
+    "strength": "hard",
+    "reason": "先修内容“铁的锈蚀与金属资源保护”说明：普通铁制品锈蚀与接触氧气和水有关。本主题据此把铁锈蚀分解为微区电极反应，并解释隔绝与阴极保护的差异。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h091",
+    "prerequisiteId": "cnc_h088",
+    "strength": "hard",
+    "reason": "先修内容“电解池与介质相关产物”说明：电解池把电能转为化学能：阳极氧化、阴极还原。本主题据此把待镀件放在还原电极，同时用电子计量联系电流与镀层量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h091",
+    "prerequisiteId": "cnc_h089",
+    "strength": "hard",
+    "reason": "先修内容“电化学中的电子守恒与电量”说明：电化学定量用Q=It、n(e⁻)=Q/F，再按半反应计量换算。本主题据此把待镀件放在还原电极，同时用电子计量联系电流与镀层量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h092",
+    "prerequisiteId": "cnc_h086",
+    "strength": "hard",
+    "reason": "先修内容“双液原电池与电极反应”说明：原电池负极氧化、正极还原，电子经外电路流动，盐桥中离子迁移维持电中性。本主题据此根据介质补齐H⁺、OH⁻或H₂O，合并半反应检验总反应守恒。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h092",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此根据介质补齐H⁺、OH⁻或H₂O，合并半反应检验总反应守恒。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h093",
+    "prerequisiteId": "cnc_h024",
+    "strength": "hard",
+    "reason": "先修内容“核外电子分层与离子结构”说明：核外电子按能量等规律分布在不同能层，不能把电子层当作固定行星轨道。本主题据此从电子分层过渡到轨道概率模型，区分能级容量与经典轨迹。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h094",
+    "prerequisiteId": "cnc_h093",
+    "strength": "hard",
+    "reason": "先修内容“能层、能级与原子轨道”说明：原子轨道表示电子空间状态和概率分布，不是电子的确定轨迹。本主题据此把轨道数和容量约束落实为电子排布，并用规则与实测例外核查。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h095",
+    "prerequisiteId": "cnc_h093",
+    "strength": "hard",
+    "reason": "先修内容“能层、能级与原子轨道”说明：原子轨道表示电子空间状态和概率分布，不是电子的确定轨迹。本主题据此用离散能级间的能量差解释光子的吸收、发射与特征谱线。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h095",
+    "prerequisiteId": "cnc_h031",
+    "strength": "soft",
+    "reason": "焰色是原子发光的观察例子，可用能级跃迁进一步解释。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h096",
+    "prerequisiteId": "cnc_h094",
+    "strength": "hard",
+    "reason": "先修内容“基态电子排布与排布原则”说明：基态电子排布遵循能量最低、泡利不相容和洪特规则等规律，并以实验为依据。本主题据此从基态排布及半径变化解释气态失去一个电子的能量代价。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h096",
+    "prerequisiteId": "cnc_h026",
+    "strength": "hard",
+    "reason": "先修内容“原子半径与性质的周期变化”说明：同周期主族元素从左到右，原子半径总体减小、非金属性总体增强。本主题据此从基态排布及半径变化解释气态失去一个电子的能量代价。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h097",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此把成键电子的偏向与元素性质递变联系，区分键极性和失电子能量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h097",
+    "prerequisiteId": "cnc_h026",
+    "strength": "hard",
+    "reason": "先修内容“原子半径与性质的周期变化”说明：同周期主族元素从左到右，原子半径总体减小、非金属性总体增强。本主题据此把成键电子的偏向与元素性质递变联系，区分键极性和失电子能量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h098",
+    "prerequisiteId": "cnc_h093",
+    "strength": "hard",
+    "reason": "先修内容“能层、能级与原子轨道”说明：原子轨道表示电子空间状态和概率分布，不是电子的确定轨迹。本主题据此以轨道重叠方向拆分单、双、三键的组成并计数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h098",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此以轨道重叠方向拆分单、双、三键的组成并计数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h099",
+    "prerequisiteId": "cnc_h067",
+    "strength": "hard",
+    "reason": "先修内容“键能估算反应焓变”说明：利用平均键能估算气相反应时，ΔH≈ΣE(断键)−ΣE(成键)。本主题据此把成键类型、强度与几何量对应，避免把键角当作能量参数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h099",
+    "prerequisiteId": "cnc_h098",
+    "strength": "hard",
+    "reason": "先修内容“σ键、π键与键的组成”说明：常见共价单键为σ键，双键通常含1个σ和1个π，三键通常含1个σ和2个π。本主题据此把成键类型、强度与几何量对应，避免把键角当作能量参数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h100",
+    "prerequisiteId": "cnc_h029",
+    "strength": "hard",
+    "reason": "先修内容“电子式与成键电子计数”说明：电子式表达价电子与共用电子对，离子需标明电荷。本主题据此同时计入成键方向与孤电子对，区分电子域排布和原子构型。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h100",
+    "prerequisiteId": "cnc_h093",
+    "strength": "hard",
+    "reason": "先修内容“能层、能级与原子轨道”说明：原子轨道表示电子空间状态和概率分布，不是电子的确定轨迹。本主题据此同时计入成键方向与孤电子对，区分电子域排布和原子构型。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h101",
+    "prerequisiteId": "cnc_h100",
+    "strength": "hard",
+    "reason": "先修内容“价层电子对互斥与分子形状”说明：VSEPR先统计中心原子的电子域，成键域与孤电子对共同决定排布。本主题据此用σ、π成键需要和空间构型检验杂化模型的适用性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h101",
+    "prerequisiteId": "cnc_h098",
+    "strength": "hard",
+    "reason": "先修内容“σ键、π键与键的组成”说明：常见共价单键为σ键，双键通常含1个σ和1个π，三键通常含1个σ和2个π。本主题据此用σ、π成键需要和空间构型检验杂化模型的适用性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h102",
+    "prerequisiteId": "cnc_h097",
+    "strength": "hard",
+    "reason": "先修内容“电负性与键的极性”说明：电负性描述原子在化合物中吸引成键电子的相对能力，可辅助判断键的极性。本主题据此结合键偶极与空间对称性判断合偶极，而不只看某一个极性键。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h102",
+    "prerequisiteId": "cnc_h100",
+    "strength": "hard",
+    "reason": "先修内容“价层电子对互斥与分子形状”说明：VSEPR先统计中心原子的电子域，成键域与孤电子对共同决定排布。本主题据此结合键偶极与空间对称性判断合偶极，而不只看某一个极性键。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h103",
+    "prerequisiteId": "cnc_h102",
+    "strength": "hard",
+    "reason": "先修内容“键极性与分子极性”说明：分子极性取决于各键偶极及空间构型的合成，含极性键的分子也可能非极性，如CO₂。本主题据此在分子已形成的前提下讨论分子间吸引，解释沸腾而非化学分解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h104",
+    "prerequisiteId": "cnc_h100",
+    "strength": "hard",
+    "reason": "先修内容“价层电子对互斥与分子形状”说明：VSEPR先统计中心原子的电子域，成键域与孤电子对共同决定排布。本主题据此用三维构型和结构等同关系检验镜像能否重合。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h104",
+    "prerequisiteId": "cnc_h049",
+    "strength": "hard",
+    "reason": "先修内容“碳骨架与同分异构”说明：同分异构体具有相同分子式而结构不同。本主题据此用三维构型和结构等同关系检验镜像能否重合。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h105",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此把粒子种类、结合方式与空间有序排列区分，避免仅凭外形判断晶态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h105",
+    "prerequisiteId": "cnc_008",
+    "strength": "hard",
+    "reason": "先修内容“分子运动与间隔”说明：分子在不断运动。本主题据此把粒子种类、结合方式与空间有序排列区分，避免仅凭外形判断晶态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h105",
+    "prerequisiteId": "cnc_h039",
+    "strength": "soft",
+    "reason": "玻璃、晶体硅等材料可用来比较晶态与非晶态，但不是晶体定义的必要基础。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h106",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "先修内容“晶体、非晶体与晶体结构证据”说明：晶体内部结构具有长程有序特征，可由X射线衍射等研究。本主题据此按共享关系求每晶胞粒子数，再用摩尔质量和体积计算密度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h106",
+    "prerequisiteId": "cnc_h013",
+    "strength": "hard",
+    "reason": "先修内容“摩尔质量与化学计量”说明：摩尔质量M=m/n，常用g·mol⁻¹。本主题据此按共享关系求每晶胞粒子数，再用摩尔质量和体积计算密度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h107",
+    "prerequisiteId": "cnc_h103",
+    "strength": "hard",
+    "reason": "先修内容“分子间作用力与氢键”说明：分子间作用力通常弱于化学键，影响物态和物理性质。本主题据此以分子为结构单元解释晶体中的分子间结合和熔化过程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h107",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "先修内容“晶体、非晶体与晶体结构证据”说明：晶体内部结构具有长程有序特征，可由X射线衍射等研究。本主题据此以分子为结构单元解释晶体中的分子间结合和熔化过程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h108",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此将局部共价成键延伸为网络，说明为何不能按独立分子计数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h108",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "先修内容“晶体、非晶体与晶体结构证据”说明：晶体内部结构具有长程有序特征，可由X射线衍射等研究。本主题据此将局部共价成键延伸为网络，说明为何不能按独立分子计数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h109",
+    "prerequisiteId": "cnc_h020",
+    "strength": "hard",
+    "reason": "先修内容“合金与金属材料的选择”说明：合金保留金属特征，性能取决于组成与结构。本主题据此把金属材料的导电和延展性归因于离域电子与有序离子实的共同作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h109",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "先修内容“晶体、非晶体与晶体结构证据”说明：晶体内部结构具有长程有序特征，可由X射线衍射等研究。本主题据此把金属材料的导电和延展性归因于离域电子与有序离子实的共同作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h110",
+    "prerequisiteId": "cnc_h028",
+    "strength": "hard",
+    "reason": "先修内容“离子键、共价键与物质结构”说明：离子键是阴阳离子间的强相互作用，共价键与共用电子对有关。本主题据此以带电粒子排列解释固态和熔融态导电性差异及组成比。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h110",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "先修内容“晶体、非晶体与晶体结构证据”说明：晶体内部结构具有长程有序特征，可由X射线衍射等研究。本主题据此以带电粒子排列解释固态和熔融态导电性差异及组成比。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h111",
+    "prerequisiteId": "cnc_h029",
+    "strength": "hard",
+    "reason": "先修内容“电子式与成键电子计数”说明：电子式表达价电子与共用电子对，离子需标明电荷。本主题据此用孤电子对提供与电荷核算解释中心粒子、配体和配合离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h111",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此用孤电子对提供与电荷核算解释中心粒子、配体和配合离子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h112",
+    "prerequisiteId": "cnc_h103",
+    "strength": "hard",
+    "reason": "先修内容“分子间作用力与氢键”说明：分子间作用力通常弱于化学键，影响物态和物理性质。本主题据此将非共价吸引与选择性配位等作用作对照，解释形状和位点匹配。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h112",
+    "prerequisiteId": "cnc_h111",
+    "strength": "hard",
+    "reason": "先修内容“配位键与配合物”说明：配位键中的共用电子对由一方提供，可视为共价键的一种形成方式。本主题据此将非共价吸引与选择性配位等作用作对照，解释形状和位点匹配。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h113",
+    "prerequisiteId": "cnc_h111",
+    "strength": "hard",
+    "reason": "先修内容“配位键与配合物”说明：配位键中的共用电子对由一方提供，可视为共价键的一种形成方式。本主题据此用配位形成关系解释沉淀再溶解，同时排除pH造成的竞争变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h114",
+    "prerequisiteId": "cnc_h049",
+    "strength": "hard",
+    "reason": "先修内容“碳骨架与同分异构”说明：同分异构体具有相同分子式而结构不同。本主题据此从碳骨架与已有羟基、羧基例子归纳官能团，并辨明其连接环境。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h114",
+    "prerequisiteId": "cnc_h052",
+    "strength": "hard",
+    "reason": "先修内容“乙醇的羟基与氧化”说明：乙醇的官能团为羟基，能与活泼金属反应，也可在铜等催化剂和加热条件下被氧化成乙醛。本主题据此从碳骨架与已有羟基、羧基例子归纳官能团，并辨明其连接环境。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h114",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此从碳骨架与已有羟基、羧基例子归纳官能团，并辨明其连接环境。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h115",
+    "prerequisiteId": "cnc_h049",
+    "strength": "hard",
+    "reason": "先修内容“碳骨架与同分异构”说明：同分异构体具有相同分子式而结构不同。本主题据此固定分子式后改变骨架、位置或官能团，利用对称关系去重。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h115",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此固定分子式后改变骨架、位置或官能团，利用对称关系去重。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h116",
+    "prerequisiteId": "cnc_h115",
+    "strength": "hard",
+    "reason": "先修内容“结构异构与异构体计数”说明：结构异构可来自碳骨架、官能团位置或官能团类别差异。本主题据此用碳连接关系选择主链和编号，避免把同一骨架写成不同名称。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h117",
+    "prerequisiteId": "cnc_036",
+    "strength": "hard",
+    "reason": "先修内容“粗盐提纯与分离限度”说明：溶解、过滤、蒸发能去除粗盐中的难溶杂质，但不能据此认定可溶性杂质也全部被除去。本主题据此利用溶解度随温度、饱和与结晶过程设计重结晶，同时选择合适分离操作。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h117",
+    "prerequisiteId": "cnc_033",
+    "strength": "hard",
+    "reason": "先修内容“固体溶解度与温度”说明：固体溶解度需同时注明温度、100 g溶剂与饱和状态。本主题据此利用溶解度随温度、饱和与结晶过程设计重结晶，同时选择合适分离操作。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h117",
+    "prerequisiteId": "cnc_032",
+    "strength": "hard",
+    "reason": "先修内容“饱和溶液与结晶”说明：饱和必须对应指定温度、一定量溶剂和特定溶质。本主题据此利用溶解度随温度、饱和与结晶过程设计重结晶，同时选择合适分离操作。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h117",
+    "prerequisiteId": "cnc_h060",
+    "strength": "soft",
+    "reason": "石油分馏提供蒸馏应用的对照实例，重结晶的直接依据则是溶解度与结晶。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h118",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此把分子式约束与官能团、等效氢证据合并，逐步排除结构候选。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h118",
+    "prerequisiteId": "cnc_h115",
+    "strength": "hard",
+    "reason": "先修内容“结构异构与异构体计数”说明：结构异构可来自碳骨架、官能团位置或官能团类别差异。本主题据此把分子式约束与官能团、等效氢证据合并，逐步排除结构候选。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h119",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此在饱和链烃通式基础上比较碳数与支化对物理性质的影响。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h119",
+    "prerequisiteId": "cnc_h116",
+    "strength": "soft",
+    "reason": "系统命名帮助沟通不同碳骨架，但同系规律和物性比较并不依赖先完成命名训练。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h120",
+    "prerequisiteId": "cnc_h048",
+    "strength": "hard",
+    "reason": "先修内容“甲烷、烷烃与取代反应”说明：烷烃是饱和链烃，通式CₙH₂ₙ₊₂适用于无环烷烃。本主题据此由等效氢和取代规则限定一卤代物计数，区分进一步取代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h120",
+    "prerequisiteId": "cnc_h115",
+    "strength": "hard",
+    "reason": "先修内容“结构异构与异构体计数”说明：结构异构可来自碳骨架、官能团位置或官能团类别差异。本主题据此由等效氢和取代规则限定一卤代物计数，区分进一步取代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h121",
+    "prerequisiteId": "cnc_h050",
+    "strength": "hard",
+    "reason": "先修内容“乙烯的结构与加成”说明：乙烯含碳碳双键，可与溴等发生加成。本主题据此由双键的成键与旋转限制判断加成和顺反异构的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h121",
+    "prerequisiteId": "cnc_h098",
+    "strength": "hard",
+    "reason": "先修内容“σ键、π键与键的组成”说明：常见共价单键为σ键，双键通常含1个σ和1个π，三键通常含1个σ和2个π。本主题据此由双键的成键与旋转限制判断加成和顺反异构的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h122",
+    "prerequisiteId": "cnc_h098",
+    "strength": "hard",
+    "reason": "先修内容“σ键、π键与键的组成”说明：常见共价单键为σ键，双键通常含1个σ和1个π，三键通常含1个σ和2个π。本主题据此按三键含两个π键的结构计量完全加成，并与双键反应对照。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h122",
+    "prerequisiteId": "cnc_h050",
+    "strength": "hard",
+    "reason": "先修内容“乙烯的结构与加成”说明：乙烯含碳碳双键，可与溴等发生加成。本主题据此按三键含两个π键的结构计量完全加成，并与双键反应对照。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h123",
+    "prerequisiteId": "cnc_h098",
+    "strength": "hard",
+    "reason": "先修内容“σ键、π键与键的组成”说明：常见共价单键为σ键，双键通常含1个σ和1个π，三键通常含1个σ和2个π。本主题据此用成键模型解释苯环与普通烯烃的区别，避免把萃取误作加成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h123",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此用成键模型解释苯环与普通烯烃的区别，避免把萃取误作加成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h124",
+    "prerequisiteId": "cnc_h123",
+    "strength": "hard",
+    "reason": "先修内容“苯的结构与典型反应”说明：苯的六个碳形成平面环，碳碳键不能简单理解为三根普通单键和三根普通双键交替。本主题据此在苯环骨架上分析侧链的氧化位点，区分苯环与侧链反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h124",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此在苯环骨架上分析侧链的氧化位点，区分苯环与侧链反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h125",
+    "prerequisiteId": "cnc_h004",
+    "strength": "hard",
+    "reason": "先修内容“离子方程式与共存条件”说明：离子方程式只拆写水溶液中可溶的强电解质。本主题据此将有机结合态卤素先转为离子，再用沉淀反应检验并排除干扰。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h125",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此将有机结合态卤素先转为离子，再用沉淀反应检验并排除干扰。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h126",
+    "prerequisiteId": "cnc_h125",
+    "strength": "hard",
+    "reason": "先修内容“卤代烃水解与卤素检验”说明：卤代烃的C—X键可在适当条件下水解产生醇等。本主题据此在卤代烃取代基础上检查邻位氢和溶剂条件，判断双键能否形成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h126",
+    "prerequisiteId": "cnc_h050",
+    "strength": "hard",
+    "reason": "先修内容“乙烯的结构与加成”说明：乙烯含碳碳双键，可与溴等发生加成。本主题据此在卤代烃取代基础上检查邻位氢和溶剂条件，判断双键能否形成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h127",
+    "prerequisiteId": "cnc_h052",
+    "strength": "hard",
+    "reason": "先修内容“乙醇的羟基与氧化”说明：乙醇的官能团为羟基，能与活泼金属反应，也可在铜等催化剂和加热条件下被氧化成乙醛。本主题据此从乙醇反应推广到不同羟基碳结构，判定氧化和脱水可能产物。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h127",
+    "prerequisiteId": "cnc_h126",
+    "strength": "soft",
+    "reason": "醇与卤代烃的消去可比较邻位氢和反应条件，二者不构成必须按此顺序学习的关系。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h128",
+    "prerequisiteId": "cnc_h123",
+    "strength": "hard",
+    "reason": "先修内容“苯的结构与典型反应”说明：苯的六个碳形成平面环，碳碳键不能简单理解为三根普通单键和三根普通双键交替。本主题据此比较羟基直接连芳环与连脂肪碳的环境，解释酸性和苯环取代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h128",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此比较羟基直接连芳环与连脂肪碳的环境，解释酸性和苯环取代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h129",
+    "prerequisiteId": "cnc_h052",
+    "strength": "hard",
+    "reason": "先修内容“乙醇的羟基与氧化”说明：乙醇的官能团为羟基，能与活泼金属反应，也可在铜等催化剂和加热条件下被氧化成乙醛。本主题据此由乙醇氧化所得醛的结构继续分析电子转移，解释银和铜的还原检验。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h129",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "先修内容“氧化还原与氧化剂还原剂”说明：氧化还原反应伴随元素化合价变化，实质是电子转移。本主题据此由乙醇氧化所得醛的结构继续分析电子转移，解释银和铜的还原检验。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h130",
+    "prerequisiteId": "cnc_h129",
+    "strength": "hard",
+    "reason": "先修内容“醛基与银镜和铜还原反应”说明：醛基可被适当氧化剂氧化，常用银氨溶液或新制Cu(OH)₂在规定条件下检验。本主题据此比较羰基所连基团与醛的差别，判断加氢产物及温和氧化表现。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h130",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此比较羰基所连基团与醛的差别，判断加氢产物及温和氧化表现。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h131",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此按羧基数和其他官能团逐一计算中和或酯化，不以氧原子总数替代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h131",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此按羧基数和其他官能团逐一计算中和或酯化，不以氧原子总数替代。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h132",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此将酯化的连接关系反向拆解，区分酸性平衡与碱性成盐的推动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h132",
+    "prerequisiteId": "cnc_h055",
+    "strength": "soft",
+    "reason": "油脂皂化是酯碱性水解的实例，可在掌握通则后回看。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h133",
+    "prerequisiteId": "cnc_h125",
+    "strength": "hard",
+    "reason": "先修内容“卤代烃水解与卤素检验”说明：卤代烃的C—X键可在适当条件下水解产生醇等。本主题据此把卤代、醇、酸和酯的转化组合为连续路线，并核查条件选择性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h133",
+    "prerequisiteId": "cnc_h127",
+    "strength": "hard",
+    "reason": "先修内容“醇的氧化与消去条件”说明：醇的氧化产物取决于羟基所连碳的结构。本主题据此把卤代、醇、酸和酯的转化组合为连续路线，并核查条件选择性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h133",
+    "prerequisiteId": "cnc_h132",
+    "strength": "hard",
+    "reason": "先修内容“酯、酰胺与水解”说明：酯可在酸或碱条件下水解，酸性水解可逆，碱性水解生成羧酸盐通常有利于反应进行。本主题据此把卤代、醇、酸和酯的转化组合为连续路线，并核查条件选择性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h134",
+    "prerequisiteId": "cnc_h053",
+    "strength": "hard",
+    "reason": "先修内容“乙酸的酸性与酯化”说明：乙酸含羧基，是弱酸，可与碳酸盐反应。本主题据此把可逆酯化和水解规律用于制备、洗涤与分离，检查产率和纯度证据。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h134",
+    "prerequisiteId": "cnc_h132",
+    "strength": "hard",
+    "reason": "先修内容“酯、酰胺与水解”说明：酯可在酸或碱条件下水解，酸性水解可逆，碱性水解生成羧酸盐通常有利于反应进行。本主题据此把可逆酯化和水解规律用于制备、洗涤与分离，检查产率和纯度证据。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h135",
+    "prerequisiteId": "cnc_h129",
+    "strength": "hard",
+    "reason": "先修内容“醛基与银镜和铜还原反应”说明：醛基可被适当氧化剂氧化，常用银氨溶液或新制Cu(OH)₂在规定条件下检验。本主题据此结合各官能团的阳性反应安排分样与顺序，排除同一试剂的多种反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h135",
+    "prerequisiteId": "cnc_h128",
+    "strength": "hard",
+    "reason": "先修内容“酚的弱酸性与检验”说明：苯酚的羟基直接连苯环，表现弱酸性，通常能与NaOH反应而不能像乙酸那样与NaHCO₃明显放出CO₂。本主题据此结合各官能团的阳性反应安排分样与顺序，排除同一试剂的多种反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h135",
+    "prerequisiteId": "cnc_h121",
+    "strength": "hard",
+    "reason": "先修内容“烯烃的加成、氧化与顺反条件”说明：烯烃的C=C可发生加成、氧化和加聚。本主题据此结合各官能团的阳性反应安排分样与顺序，排除同一试剂的多种反应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h136",
+    "prerequisiteId": "cnc_h054",
+    "strength": "hard",
+    "reason": "先修内容“葡萄糖、淀粉与糖类”说明：糖类包括单糖、二糖和多糖，不是所有糖都有甜味或严格符合“碳水化合物”式。本主题据此把糖类结构与还原性检验联系，并考虑碱性条件下的结构互变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h136",
+    "prerequisiteId": "cnc_h129",
+    "strength": "hard",
+    "reason": "先修内容“醛基与银镜和铜还原反应”说明：醛基可被适当氧化剂氧化，常用银氨溶液或新制Cu(OH)₂在规定条件下检验。本主题据此把糖类结构与还原性检验联系，并考虑碱性条件下的结构互变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h137",
+    "prerequisiteId": "cnc_h054",
+    "strength": "hard",
+    "reason": "先修内容“葡萄糖、淀粉与糖类”说明：糖类包括单糖、二糖和多糖，不是所有糖都有甜味或严格符合“碳水化合物”式。本主题据此从糖单元与化学计量分析二糖和多糖水解，区分相同通式的不同连接。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h137",
+    "prerequisiteId": "cnc_h013",
+    "strength": "hard",
+    "reason": "先修内容“摩尔质量与化学计量”说明：摩尔质量M=m/n，常用g·mol⁻¹。本主题据此从糖单元与化学计量分析二糖和多糖水解，区分相同通式的不同连接。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h138",
+    "prerequisiteId": "cnc_h131",
+    "strength": "hard",
+    "reason": "先修内容“羧酸的反应与多官能团”说明：羧酸的羧基可发生酸碱反应和酯化。本主题据此把羧基的酸性与氨基的受质子能力放在同一分子中，分析两性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h138",
+    "prerequisiteId": "cnc_h056",
+    "strength": "soft",
+    "reason": "蛋白质提供氨基酸的生物应用背景，但两性来自氨基和羧基本身。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h139",
+    "prerequisiteId": "cnc_h138",
+    "strength": "hard",
+    "reason": "先修内容“氨基酸的两性与结构”说明：氨基酸含氨基和羧基等，可表现酸碱两性，溶液中存在形式随pH变化。本主题据此把氨基酸端基的缩合与酰胺水解联系，按实际连接点计数失水。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h139",
+    "prerequisiteId": "cnc_h132",
+    "strength": "hard",
+    "reason": "先修内容“酯、酰胺与水解”说明：酯可在酸或碱条件下水解，酸性水解可逆，碱性水解生成羧酸盐通常有利于反应进行。本主题据此把氨基酸端基的缩合与酰胺水解联系，按实际连接点计数失水。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h140",
+    "prerequisiteId": "cnc_h139",
+    "strength": "hard",
+    "reason": "先修内容“肽键与蛋白质水解”说明：氨基酸通过脱水缩合形成肽键—CO—NH—。本主题据此区分主链肽键与空间结构中的分子间作用，解释盐析、变性和水解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h140",
+    "prerequisiteId": "cnc_h103",
+    "strength": "hard",
+    "reason": "先修内容“分子间作用力与氢键”说明：分子间作用力通常弱于化学键，影响物态和物理性质。本主题据此区分主链肽键与空间结构中的分子间作用，解释盐析、变性和水解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h141",
+    "prerequisiteId": "cnc_h054",
+    "strength": "hard",
+    "reason": "先修内容“葡萄糖、淀粉与糖类”说明：糖类包括单糖、二糖和多糖，不是所有糖都有甜味或严格符合“碳水化合物”式。本主题据此把糖类单元与官能团连接知识用于识别碱基、戊糖和磷酸三部分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h141",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "先修内容“有机化合物分类与官能团”说明：有机化合物可按碳骨架和官能团分类，同一分子可含多种官能团。本主题据此把糖类单元与官能团连接知识用于识别碱基、戊糖和磷酸三部分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h142",
+    "prerequisiteId": "cnc_h141",
+    "strength": "hard",
+    "reason": "先修内容“核苷酸与核酸的组成”说明：核酸由核苷酸单元连接，核苷酸由含氮碱基、戊糖与磷酸基团构成。本主题据此在核苷酸组成上分开讨论链内共价连接和链间氢键等作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h142",
+    "prerequisiteId": "cnc_h103",
+    "strength": "hard",
+    "reason": "先修内容“分子间作用力与氢键”说明：分子间作用力通常弱于化学键，影响物态和物理性质。本主题据此在核苷酸组成上分开讨论链内共价连接和链间氢键等作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h142",
+    "prerequisiteId": "cnc_h112",
+    "strength": "soft",
+    "reason": "核酸互补识别可与主客体识别对照；理解核酸结构不必先学完整超分子内容。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h143",
+    "prerequisiteId": "cnc_h137",
+    "strength": "hard",
+    "reason": "先修内容“二糖、多糖与水解计量”说明：蔗糖、麦芽糖和多糖可在适当条件下水解，产物由结构决定。本主题据此将水解计量与醛类检验条件结合，排除残余酸对碱性试剂的干扰。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h143",
+    "prerequisiteId": "cnc_h129",
+    "strength": "hard",
+    "reason": "先修内容“醛基与银镜和铜还原反应”说明：醛基可被适当氧化剂氧化，常用银氨溶液或新制Cu(OH)₂在规定条件下检验。本主题据此将水解计量与醛类检验条件结合，排除残余酸对碱性试剂的干扰。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h144",
+    "prerequisiteId": "cnc_h051",
+    "strength": "hard",
+    "reason": "先修内容“加聚与聚乙烯”说明：加聚反应由含不饱和键等单体连接成高分子。本主题据此从重复单元主链恢复烯类单体双键，保持原子组成与侧基位置。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h144",
+    "prerequisiteId": "cnc_h115",
+    "strength": "soft",
+    "reason": "异构分析有助于更复杂的单体判断，但简单重复单元反推不需要先掌握异构体计数。（AI 整理的关联建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h145",
+    "prerequisiteId": "cnc_h139",
+    "strength": "hard",
+    "reason": "先修内容“肽键与蛋白质水解”说明：氨基酸通过脱水缩合形成肽键—CO—NH—。本主题据此用酯键或肽键形成时的脱水计量解释缩聚，并对有限链核对端基。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h145",
+    "prerequisiteId": "cnc_h132",
+    "strength": "hard",
+    "reason": "先修内容“酯、酰胺与水解”说明：酯可在酸或碱条件下水解，酸性水解可逆，碱性水解生成羧酸盐通常有利于反应进行。本主题据此用酯键或肽键形成时的脱水计量解释缩聚，并对有限链核对端基。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h146",
+    "prerequisiteId": "cnc_h144",
+    "strength": "hard",
+    "reason": "先修内容“加聚反应与单体反推”说明：加聚常由含不饱和键的单体形成高分子，重复单元与单体的原子组成通常对应。本主题据此比较加聚、缩聚得到的链与交联结构，联系热塑、热固和弹性差异。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h146",
+    "prerequisiteId": "cnc_h145",
+    "strength": "hard",
+    "reason": "先修内容“缩聚与双官能团单体”说明：缩聚由多官能团单体反复反应，常伴随小分子生成。本主题据此比较加聚、缩聚得到的链与交联结构，联系热塑、热固和弹性差异。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h147",
+    "prerequisiteId": "cnc_h146",
+    "strength": "hard",
+    "reason": "先修内容“塑料、纤维、橡胶与结构性能”说明：高分子材料的性能与主链、侧基、链间作用和交联有关。本主题据此把材料结构与使用、回收环境共同评价，区分原料来源与降解条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnc_h147",
+    "prerequisiteId": "cnc_h062",
+    "strength": "hard",
+    "reason": "先修内容“污染防治与绿色化学”说明：绿色化学强调从源头减少危险物质、废物和资源消耗，不仅是末端治理。本主题据此把材料结构与使用、回收环境共同评价，区分原料来源与降解条件。（AI 整理的学习建议，未经教师审核）"
+  }
+]

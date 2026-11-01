@@ -1,0 +1,1038 @@
+{
+  "subject": "chemistry",
+  "checked_date": "2026-10-29",
+  "basis": "人教版现行普通高中教科书五册的章、节及18项章末实验；知识与诊断题为原创归纳。",
+  "curriculum_version": "普通高中化学课程标准日常修订版（2017年版2025年修订）",
+  "curriculum_verification": "仅核实2025修订版版本信息；未逐项对照该课标全部条文。",
+  "latest_printing_verification": "未完成2026秋各册具体印次逐页比对；不把新印次与新版本混为一谈。",
+  "grade_mapping_note": "10/11/12年级与上/下学期为建议学习顺序，不是全国统一开课年级；册次是内容筛选的主要依据。",
+  "coverage_unit": "正文节或教材章末实验，不包含每个阅读、科学史、研究与实践栏目、习题或所有例题。",
+  "summary": {
+    "books": 5,
+    "chapters": 20,
+    "core_sections": 60,
+    "experiments": 18,
+    "topics": 147,
+    "questions": 294,
+    "new_dependencies": 273
+  },
+  "books": [
+    {
+      "book": "chem_h_b1",
+      "volume": "必修第一册",
+      "curriculum_level": "必修",
+      "sections": [
+        {
+          "chapter": "第一章 物质及其变化",
+          "section": "第一节 物质的分类及转化",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h001",
+            "cnc_h002"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第一章 物质及其变化",
+          "section": "第二节 离子反应",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h003",
+            "cnc_h004"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第一章 物质及其变化",
+          "section": "第三节 氧化还原反应",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h005",
+            "cnc_h006"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第一节 钠及其化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h007",
+            "cnc_h008",
+            "cnc_h009",
+            "cnc_h031"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第二节 氯及其化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h010",
+            "cnc_h011",
+            "cnc_h032"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h012",
+            "cnc_h013",
+            "cnc_h014",
+            "cnc_h015"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "实验活动1 配制一定物质的量浓度的溶液",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h016"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 铁 金属材料",
+          "section": "第一节 铁及其化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h017",
+            "cnc_h018",
+            "cnc_h019"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 铁 金属材料",
+          "section": "第二节 金属材料",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h020",
+            "cnc_h021"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 铁 金属材料",
+          "section": "实验活动2 铁及其化合物的性质",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h022"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第一节 原子结构与元素周期表",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h023",
+            "cnc_h024",
+            "cnc_h025"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第二节 元素周期律",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h026",
+            "cnc_h027"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第三节 化学键",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h028",
+            "cnc_h029"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "实验活动3 同周期、同主族元素性质的递变",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h030"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        }
+      ]
+    },
+    {
+      "book": "chem_h_b2",
+      "volume": "必修第二册",
+      "curriculum_level": "必修",
+      "sections": [
+        {
+          "chapter": "第五章 化工生产中的重要非金属元素",
+          "section": "第一节 硫及其化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h033",
+            "cnc_h034"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 化工生产中的重要非金属元素",
+          "section": "第二节 氮及其化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h035",
+            "cnc_h036",
+            "cnc_h037"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 化工生产中的重要非金属元素",
+          "section": "第三节 无机非金属材料",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h038",
+            "cnc_h039"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 化工生产中的重要非金属元素",
+          "section": "实验活动4 用化学沉淀法去除粗盐中的杂质离子",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h040"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 化工生产中的重要非金属元素",
+          "section": "实验活动5 不同价态含硫物质的转化",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h041"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第六章 化学反应与能量",
+          "section": "第一节 化学反应与能量变化",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h042",
+            "cnc_h043"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第六章 化学反应与能量",
+          "section": "第二节 化学反应的速率与限度",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h044",
+            "cnc_h045"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第六章 化学反应与能量",
+          "section": "实验活动6 化学能转化成电能",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h046"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第六章 化学反应与能量",
+          "section": "实验活动7 化学反应速率的影响因素",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h047"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "第一节 认识有机化合物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h048",
+            "cnc_h049"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "第二节 乙烯与有机高分子材料",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h050",
+            "cnc_h051"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "第三节 乙醇与乙酸",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h052",
+            "cnc_h053"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "第四节 基本营养物质",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h054",
+            "cnc_h055",
+            "cnc_h056"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "实验活动8 搭建球棍模型认识有机化合物分子结构的特点",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h057"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第七章 有机化合物",
+          "section": "实验活动9 乙醇、乙酸的主要性质",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h058"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第八章 化学与可持续发展",
+          "section": "第一节 自然资源的开发利用",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h059",
+            "cnc_h060"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第八章 化学与可持续发展",
+          "section": "第二节 化学品的合理使用",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h061"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第八章 化学与可持续发展",
+          "section": "第三节 环境保护与绿色化学",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h062"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        }
+      ]
+    },
+    {
+      "book": "chem_h_s1",
+      "volume": "选择性必修1 化学反应原理",
+      "curriculum_level": "选择性必修",
+      "sections": [
+        {
+          "chapter": "第一章 化学反应的热效应",
+          "section": "第一节 反应热",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h063",
+            "cnc_h064",
+            "cnc_h065"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第一章 化学反应的热效应",
+          "section": "第二节 反应热的计算",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h066",
+            "cnc_h067"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第一节 化学反应速率",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h068",
+            "cnc_h069"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第二节 化学平衡",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h070",
+            "cnc_h071",
+            "cnc_h072"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第三节 化学反应的方向",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h073"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第四节 化学反应的调控",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h074"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "实验活动1 探究影响化学平衡移动的因素",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h075"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第一节 电离平衡",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h076",
+            "cnc_h077"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第二节 水的电离和溶液的pH",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h078",
+            "cnc_h079",
+            "cnc_h080"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第三节 盐类的水解",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h081"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第四节 沉淀溶解平衡",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h082",
+            "cnc_h083"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "实验活动2 强酸与强碱的中和滴定",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h084"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "实验活动3 盐类水解的应用",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h085"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 化学反应与电能",
+          "section": "第一节 原电池",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h086",
+            "cnc_h087"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 化学反应与电能",
+          "section": "第二节 电解池",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h088",
+            "cnc_h089"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 化学反应与电能",
+          "section": "第三节 金属的腐蚀与防护",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h090"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 化学反应与电能",
+          "section": "实验活动4 简单的电镀实验",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h091"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 化学反应与电能",
+          "section": "实验活动5 制作简单的燃料电池",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h092"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        }
+      ]
+    },
+    {
+      "book": "chem_h_s2",
+      "volume": "选择性必修2 物质结构与性质",
+      "curriculum_level": "选择性必修",
+      "sections": [
+        {
+          "chapter": "第一章 原子结构与性质",
+          "section": "第一节 原子结构",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h093",
+            "cnc_h094",
+            "cnc_h095"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第一章 原子结构与性质",
+          "section": "第二节 原子结构与元素的性质",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h096",
+            "cnc_h097"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 分子结构与性质",
+          "section": "第一节 共价键",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h098",
+            "cnc_h099"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 分子结构与性质",
+          "section": "第二节 分子的空间结构",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h100",
+            "cnc_h101"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 分子结构与性质",
+          "section": "第三节 分子结构与物质的性质",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h102",
+            "cnc_h103",
+            "cnc_h104"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第一节 物质的聚集状态与晶体的常识",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h105",
+            "cnc_h106"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第二节 分子晶体与共价晶体",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h107",
+            "cnc_h108"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第三节 金属晶体与离子晶体",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h109",
+            "cnc_h110"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第四节 配合物与超分子",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h111",
+            "cnc_h112"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 晶体结构与性质",
+          "section": "实验活动 简单配合物的形成",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h113"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        }
+      ]
+    },
+    {
+      "book": "chem_h_s3",
+      "volume": "选择性必修3 有机化学基础",
+      "curriculum_level": "选择性必修",
+      "sections": [
+        {
+          "chapter": "第一章 有机化合物的结构特点与研究方法",
+          "section": "第一节 有机化合物的结构特点",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h114",
+            "cnc_h115",
+            "cnc_h116"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第一章 有机化合物的结构特点与研究方法",
+          "section": "第二节 研究有机化合物的一般方法",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h117",
+            "cnc_h118"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 烃",
+          "section": "第一节 烷烃",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h119",
+            "cnc_h120"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 烃",
+          "section": "第二节 烯烃 炔烃",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h121",
+            "cnc_h122"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第二章 烃",
+          "section": "第三节 芳香烃",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h123",
+            "cnc_h124"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "第一节 卤代烃",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h125",
+            "cnc_h126"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "第二节 醇 酚",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h127",
+            "cnc_h128"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "第三节 醛 酮",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h129",
+            "cnc_h130"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "第四节 羧酸 羧酸衍生物",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h131",
+            "cnc_h132"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "第五节 有机合成",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h133"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "实验活动1 乙酸乙酯的制备与性质",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h134"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第三章 烃的衍生物",
+          "section": "实验活动2 有机化合物中常见官能团的检验",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h135"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 生物大分子",
+          "section": "第一节 糖类",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h136",
+            "cnc_h137"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 生物大分子",
+          "section": "第二节 蛋白质",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h138",
+            "cnc_h139",
+            "cnc_h140"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 生物大分子",
+          "section": "第三节 核酸",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h141",
+            "cnc_h142"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第四章 生物大分子",
+          "section": "实验活动3 糖类的性质",
+          "kind": "experiment",
+          "topicIds": [
+            "cnc_h143"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 合成高分子",
+          "section": "第一节 合成高分子的基本方法",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h144",
+            "cnc_h145"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        },
+        {
+          "chapter": "第五章 合成高分子",
+          "section": "第二节 高分子材料",
+          "kind": "core",
+          "topicIds": [
+            "cnc_h146",
+            "cnc_h147"
+          ],
+          "status": "covered",
+          "coverage_note": "已建核心概念与适用条件节点；不等于逐页复刻或完成真实实验。"
+        }
+      ]
+    }
+  ],
+  "not_separately_required": [
+    "各册绪言、整理与提升、名词索引、教材原题",
+    "科学·技术·社会、研究与实践等非独立正文节栏目；相关必要知识按主题归入节点"
+  ],
+  "review_status": "AI 整理与交叉检查，未经教师审核",
+  "required_experiment_index": [
+    {
+      "topicId": "cnc_h016",
+      "textbook_section": "实验活动1 配制一定物质的量浓度的溶液",
+      "official_index_name": "配制一定物质的量浓度的溶液",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h022",
+      "textbook_section": "实验活动2 铁及其化合物的性质",
+      "official_index_name": "铁及其化合物的性质",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h030",
+      "textbook_section": "实验活动3 同周期、同主族元素性质的递变",
+      "official_index_name": "同周期、同主族元素性质的递变",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h040",
+      "textbook_section": "实验活动4 用化学沉淀法去除粗盐中的杂质离子",
+      "official_index_name": "用化学沉淀法去除粗盐中的杂质离子",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h041",
+      "textbook_section": "实验活动5 不同价态含硫物质的转化",
+      "official_index_name": "不同价态含硫物质的转化",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h046",
+      "textbook_section": "实验活动6 化学能转化成电能",
+      "official_index_name": "化学能转化成电能",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h047",
+      "textbook_section": "实验活动7 化学反应速率的影响因素",
+      "official_index_name": "化学反应速率的影响因素",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h057",
+      "textbook_section": "实验活动8 搭建球棍模型认识有机化合物分子结构的特点",
+      "official_index_name": "搭建球棍模型认识有机化合物分子结构的特点",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h058",
+      "textbook_section": "实验活动9 乙醇、乙酸的主要性质",
+      "official_index_name": "乙醇、乙酸的主要性质",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h075",
+      "textbook_section": "实验活动1 探究影响化学平衡移动的因素",
+      "official_index_name": "探究影响化学平衡移动的因素",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h084",
+      "textbook_section": "实验活动2 强酸与强碱的中和滴定",
+      "official_index_name": "强酸与强碱的中和滴定",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h085",
+      "textbook_section": "实验活动3 盐类水解的应用",
+      "official_index_name": "盐类水解的应用",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h091",
+      "textbook_section": "实验活动4 简单的电镀实验",
+      "official_index_name": "简单的电镀实验",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h092",
+      "textbook_section": "实验活动5 制作简单的燃料电池",
+      "official_index_name": "制作简单的燃料电池",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h113",
+      "textbook_section": "实验活动 简单配合物的形成",
+      "official_index_name": "简单配合物的制备",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h134",
+      "textbook_section": "实验活动1 乙酸乙酯的制备与性质",
+      "official_index_name": "乙酸乙酯的制备与性质",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h135",
+      "textbook_section": "实验活动2 有机化合物中常见官能团的检验",
+      "official_index_name": "有机化合物中常见官能团的检验",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    },
+    {
+      "topicId": "cnc_h143",
+      "textbook_section": "实验活动3 糖类的性质",
+      "official_index_name": "糖类的性质",
+      "source_url": "https://jyt.hunan.gov.cn/jyt/sjyt/jyzbc/zbczcwj/syjx/202506/t20250605_33692362.html",
+      "verification": "已对照公开官方表格中的学生必做实验索引；这是知识与诊断覆盖，不表示已开展真实实验。"
+    }
+  ]
+}

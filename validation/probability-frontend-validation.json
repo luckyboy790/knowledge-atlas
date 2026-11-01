@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-01T10:52:44.150Z",
+  "reviewer": "/root/probability_frontend",
+  "status": "PASS_WITHOUT_BASELINE",
+  "scope": "Portable author-side syntax, offline runtime, route and minimal DOM contract checks; this is not a real-browser layout test or independent content audit.",
+  "baseline_path": null,
+  "existing_json_preserved": null,
+  "core_engine_unchanged": null,
+  "runtime_files_verified": 53,
+  "probability_topics": 100,
+  "probability_questions": 200,
+  "checks": [
+    "changed browser scripts and all HTML inline scripts parse",
+    "probability remains mathematics and all ten subject identities remain present",
+    "all page navigations retain exactly ten subjects; course card and grade option are present",
+    "homepage legacy hash redirect accepts probability IDs",
+    "new probability options shuffle reproducibly without changing grading identity or input",
+    "five probability JSON files are present in the runtime manifest with exact matching payloads",
+    "mathematics runtime merges base, unchanged university data and probability without aliasing",
+    "all probability topic IDs, eight textbook chapters and metadata survive engine normalization",
+    "whole-course, volume, chapter and individual-target URLs resolve only the requested scope",
+    "native append in the grade chooser never renders conditional null text",
+    "explore grade 17 and university filtering include probability while old grade behavior is retained",
+    "probability detail displays modern mathematics, scope provenance, source and all three assessment routes",
+    "new-course result uses textbook review sources while pre-existing calculus retains v14 result behavior",
+    "source page renders actual counts, eight chapter routes and official textbook/exam bibliography"
+  ],
+  "check_groups": 14,
+  "skipped_checks": [
+    "No v14 baseline supplied; exact existing configuration, data and engine preservation were not checked."
+  ],
+  "remaining_limits": [
+    "实际浏览器交互、窄屏布局和导出由单独浏览器验收记录覆盖。",
+    "题目数学正确性、教材内容及考研范围核验由独立内容审查记录覆盖。"
+  ],
+  "changed_file_sha256": {
+    "assets/subjects.js": "aff8a4c89449b090587c70f09c4eebab325ef092dc616c2de3ed4814c74022ca",
+    "assets/home.js": "a479e285bc38897786fbb54e4e64f153c16fac6581adef12d2aba57e9793a9bd",
+    "assets/probability-sources.js": "5865a5d9bd30bfbc1c94ce2311f4e070f8d04b43e4468c4329fdfd4131b8ddde",
+    "explore/app.js": "7a932c2e9a4795076bad5c39d2a382441e57f864ee6e5a9880fb6bba9bfda0be",
+    "explore/index.html": "0ad7f33de4731ee5372d5e1825b82ca150d10d975c4d99086079814ff9f125ee",
+    "diagnose/app.js": "8e471a6f86c29b88500e870076f358879e7078acf6258dbf22d11859a919c359",
+    "diagnose/choice-order.js": "e83d92359f4c6df433e2e8fbf8d9c6db1a5de09d6dba791e3d5569cc5052481b",
+    "index.html": "a437a291e2b0d76ae4009f16fde631717dfcf83d72f38c6c7af11e6a2d15261e",
+    "sources.html": "50e8a57fb4c0e650d565b88cf297b50b71b375a8a9fcd4d987af6747a38e650a",
+    "scripts/build_runtime.py": "5de294a2bfe4f6bb97535fed78bcc44da9b3294d1107d5f255b14a769a4442a2",
+    "scripts/validate_probability_frontend.cjs": "8efef5160ced230bf5eb2dbc52e8405d553f256f29a9d20e6adc3033cf81b62c",
+    "assets/data-manifest.js": "e3dd940f9ebeb0ed4440669f83a2426874ac8bf47d2a8c53796f5d9a594956dd"
+  }
+}

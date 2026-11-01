@@ -1,0 +1,1035 @@
+{
+  "subject": "herbal",
+  "checked_date": "2026-10-31",
+  "scope": "本科中药学六门核心课程；明确选择核心主题，不声称全文逐条覆盖",
+  "topic_count": 104,
+  "question_count": 208,
+  "courses": [
+    {
+      "id": "materia",
+      "name": "中药学",
+      "grade": 41,
+      "book": "herbal_book_materia6",
+      "topic_count": 28,
+      "question_count": 56,
+      "units": [
+        {
+          "unit": "学科对象与药性术语",
+          "chapter": "第1章 学科对象与药性术语",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "中药材、饮片与中成药",
+              "topicIds": [
+                "herbal_materia_001"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：中药材、饮片与中成药；无原书节号或页码主张"
+            },
+            {
+              "point": "四气的传统药性含义",
+              "topicIds": [
+                "herbal_materia_002"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：四气的传统药性含义；无原书节号或页码主张"
+            },
+            {
+              "point": "五味与传统作用归纳",
+              "topicIds": [
+                "herbal_materia_003"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：五味与传统作用归纳；无原书节号或页码主张"
+            },
+            {
+              "point": "升降浮沉与作用趋向",
+              "topicIds": [
+                "herbal_materia_004"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：升降浮沉与作用趋向；无原书节号或页码主张"
+            },
+            {
+              "point": "归经及其解释边界",
+              "topicIds": [
+                "herbal_materia_005"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：归经及其解释边界；无原书节号或页码主张"
+            },
+            {
+              "point": "功效、主治与证候语境",
+              "topicIds": [
+                "herbal_materia_006"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：功效、主治与证候语境；无原书节号或页码主张"
+            },
+            {
+              "point": "七情配伍的关系类型",
+              "topicIds": [
+                "herbal_materia_007"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：七情配伍的关系类型；无原书节号或页码主张"
+            },
+            {
+              "point": "传统药性与现代成分证据的区分",
+              "topicIds": [
+                "herbal_materia_008"
+              ],
+              "textbook_chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+              "textbook_section": "主题定位：传统药性与现代成分证据的区分；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "常用药类与代表药",
+          "chapter": "第2章 常用药类与代表药",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "解表药及薄荷、桂枝",
+              "topicIds": [
+                "herbal_materia_009"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：解表药及薄荷、桂枝；无原书节号或页码主张"
+            },
+            {
+              "point": "清热药的分型与黄连、石膏",
+              "topicIds": [
+                "herbal_materia_010"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：清热药的分型与黄连、石膏；无原书节号或页码主张"
+            },
+            {
+              "point": "泻下药与大黄、火麻仁",
+              "topicIds": [
+                "herbal_materia_011"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：泻下药与大黄、火麻仁；无原书节号或页码主张"
+            },
+            {
+              "point": "祛风湿药与独活、桑寄生",
+              "topicIds": [
+                "herbal_materia_012"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：祛风湿药与独活、桑寄生；无原书节号或页码主张"
+            },
+            {
+              "point": "化湿药与广藿香、苍术",
+              "topicIds": [
+                "herbal_materia_013"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：化湿药与广藿香、苍术；无原书节号或页码主张"
+            },
+            {
+              "point": "利水渗湿药与茯苓、泽泻",
+              "topicIds": [
+                "herbal_materia_014"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：利水渗湿药与茯苓、泽泻；无原书节号或页码主张"
+            },
+            {
+              "point": "温里药与干姜、肉桂",
+              "topicIds": [
+                "herbal_materia_015"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：温里药与干姜、肉桂；无原书节号或页码主张"
+            },
+            {
+              "point": "理气药与陈皮、枳实",
+              "topicIds": [
+                "herbal_materia_016"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：理气药与陈皮、枳实；无原书节号或页码主张"
+            },
+            {
+              "point": "消食药与山楂、麦芽",
+              "topicIds": [
+                "herbal_materia_017"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：消食药与山楂、麦芽；无原书节号或页码主张"
+            },
+            {
+              "point": "驱虫药及使君子、槟榔",
+              "topicIds": [
+                "herbal_materia_018"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：驱虫药及使君子、槟榔；无原书节号或页码主张"
+            },
+            {
+              "point": "止血药与三七、地榆",
+              "topicIds": [
+                "herbal_materia_019"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：止血药与三七、地榆；无原书节号或页码主张"
+            },
+            {
+              "point": "活血化瘀药与丹参、川芎",
+              "topicIds": [
+                "herbal_materia_020"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：活血化瘀药与丹参、川芎；无原书节号或页码主张"
+            },
+            {
+              "point": "化痰止咳平喘药的分型",
+              "topicIds": [
+                "herbal_materia_021"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：化痰止咳平喘药的分型；无原书节号或页码主张"
+            },
+            {
+              "point": "安神药与酸枣仁、柏子仁",
+              "topicIds": [
+                "herbal_materia_022"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：安神药与酸枣仁、柏子仁；无原书节号或页码主张"
+            },
+            {
+              "point": "平肝息风药与天麻、钩藤",
+              "topicIds": [
+                "herbal_materia_023"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：平肝息风药与天麻、钩藤；无原书节号或页码主张"
+            },
+            {
+              "point": "开窍药与传统闭证语境",
+              "topicIds": [
+                "herbal_materia_024"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：开窍药与传统闭证语境；无原书节号或页码主张"
+            },
+            {
+              "point": "补虚药的四类与代表药",
+              "topicIds": [
+                "herbal_materia_025"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：补虚药的四类与代表药；无原书节号或页码主张"
+            },
+            {
+              "point": "收涩药与五味子、乌梅",
+              "topicIds": [
+                "herbal_materia_026"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：收涩药与五味子、乌梅；无原书节号或页码主张"
+            },
+            {
+              "point": "攻毒杀虫止痒药的外用功效分类",
+              "topicIds": [
+                "herbal_materia_027"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：攻毒杀虫止痒药的外用功效分类；无原书节号或页码主张"
+            },
+            {
+              "point": "拔毒化腐生肌药的传统类别",
+              "topicIds": [
+                "herbal_materia_028"
+              ],
+              "textbook_chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+              "textbook_section": "主题定位：拔毒化腐生肌药的传统类别；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identification",
+      "name": "中药鉴定学",
+      "grade": 42,
+      "book": "herbal_book_identification6",
+      "topic_count": 20,
+      "question_count": 40,
+      "units": [
+        {
+          "unit": "基原与供应链",
+          "chapter": "第1章 基原与供应链",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "药材身份的基原与药用部位",
+              "topicIds": [
+                "herbal_identification_001"
+              ],
+              "textbook_chapter": "主题定位：基原与供应链（未据原书目录核定章序）",
+              "textbook_section": "主题定位：药材身份的基原与药用部位；无原书节号或页码主张"
+            },
+            {
+              "point": "同名异物、同物异名与规范名称",
+              "topicIds": [
+                "herbal_identification_002"
+              ],
+              "textbook_chapter": "主题定位：基原与供应链（未据原书目录核定章序）",
+              "textbook_section": "主题定位：同名异物、同物异名与规范名称；无原书节号或页码主张"
+            },
+            {
+              "point": "采收与产地初加工的质量影响",
+              "topicIds": [
+                "herbal_identification_003"
+              ],
+              "textbook_chapter": "主题定位：基原与供应链（未据原书目录核定章序）",
+              "textbook_section": "主题定位：采收与产地初加工的质量影响；无原书节号或页码主张"
+            },
+            {
+              "point": "道地药材与批次质量",
+              "topicIds": [
+                "herbal_identification_004"
+              ],
+              "textbook_chapter": "主题定位：基原与供应链（未据原书目录核定章序）",
+              "textbook_section": "主题定位：道地药材与批次质量；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "鉴别方法",
+          "chapter": "第2章 鉴别方法",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "来源鉴定与凭证标本",
+              "topicIds": [
+                "herbal_identification_005"
+              ],
+              "textbook_chapter": "主题定位：鉴别方法（未据原书目录核定章序）",
+              "textbook_section": "主题定位：来源鉴定与凭证标本；无原书节号或页码主张"
+            },
+            {
+              "point": "性状鉴定的特征组合",
+              "topicIds": [
+                "herbal_identification_006"
+              ],
+              "textbook_chapter": "主题定位：鉴别方法（未据原书目录核定章序）",
+              "textbook_section": "主题定位：性状鉴定的特征组合；无原书节号或页码主张"
+            },
+            {
+              "point": "显微鉴定与组织特征",
+              "topicIds": [
+                "herbal_identification_007"
+              ],
+              "textbook_chapter": "主题定位：鉴别方法（未据原书目录核定章序）",
+              "textbook_section": "主题定位：显微鉴定与组织特征；无原书节号或页码主张"
+            },
+            {
+              "point": "理化鉴别与对照证据",
+              "topicIds": [
+                "herbal_identification_008"
+              ],
+              "textbook_chapter": "主题定位：鉴别方法（未据原书目录核定章序）",
+              "textbook_section": "主题定位：理化鉴别与对照证据；无原书节号或页码主张"
+            },
+            {
+              "point": "DNA鉴别的用途与局限",
+              "topicIds": [
+                "herbal_identification_009"
+              ],
+              "textbook_chapter": "主题定位：鉴别方法（未据原书目录核定章序）",
+              "textbook_section": "主题定位：DNA鉴别的用途与局限；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "质量标准与评价",
+          "chapter": "第3章 质量标准与评价",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "2025年版药典的标准层次",
+              "topicIds": [
+                "herbal_identification_010"
+              ],
+              "textbook_chapter": "主题定位：质量标准与评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：2025年版药典的标准层次；无原书节号或页码主张"
+            },
+            {
+              "point": "水分、灰分与浸出物的含义",
+              "topicIds": [
+                "herbal_identification_011"
+              ],
+              "textbook_chapter": "主题定位：质量标准与评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：水分、灰分与浸出物的含义；无原书节号或页码主张"
+            },
+            {
+              "point": "含量测定与指纹图谱的互补性",
+              "topicIds": [
+                "herbal_identification_012"
+              ],
+              "textbook_chapter": "主题定位：质量标准与评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：含量测定与指纹图谱的互补性；无原书节号或页码主张"
+            },
+            {
+              "point": "污染物与安全相关质量检查",
+              "topicIds": [
+                "herbal_identification_013"
+              ],
+              "textbook_chapter": "主题定位：质量标准与评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：污染物与安全相关质量检查；无原书节号或页码主张"
+            },
+            {
+              "point": "贮藏变化与批次追溯",
+              "topicIds": [
+                "herbal_identification_014"
+              ],
+              "textbook_chapter": "主题定位：质量标准与评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：贮藏变化与批次追溯；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "代表药材与药用部位",
+          "chapter": "第4章 代表药材与药用部位",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "根与根茎的药用部位区别",
+              "topicIds": [
+                "herbal_identification_015"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：根与根茎的药用部位区别；无原书节号或页码主张"
+            },
+            {
+              "point": "人参与西洋参的来源区分",
+              "topicIds": [
+                "herbal_identification_016"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：人参与西洋参的来源区分；无原书节号或页码主张"
+            },
+            {
+              "point": "黄芩与黄连的部位和来源",
+              "topicIds": [
+                "herbal_identification_017"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：黄芩与黄连的部位和来源；无原书节号或页码主张"
+            },
+            {
+              "point": "皮类药材与肉桂、杜仲",
+              "topicIds": [
+                "herbal_identification_018"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：皮类药材与肉桂、杜仲；无原书节号或页码主张"
+            },
+            {
+              "point": "花、果实与果皮类药材",
+              "topicIds": [
+                "herbal_identification_019"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：花、果实与果皮类药材；无原书节号或页码主张"
+            },
+            {
+              "point": "真菌与矿物药材的身份字段",
+              "topicIds": [
+                "herbal_identification_020"
+              ],
+              "textbook_chapter": "主题定位：代表药材与药用部位（未据原书目录核定章序）",
+              "textbook_section": "主题定位：真菌与矿物药材的身份字段；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "中药化学",
+      "grade": 43,
+      "book": "herbal_book_chemistry5",
+      "topic_count": 14,
+      "question_count": 28,
+      "units": [
+        {
+          "unit": "物质基础与结构类别",
+          "chapter": "第1章 物质基础与结构类别",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "化学成分、指标成分与药效物质",
+              "topicIds": [
+                "herbal_chemistry_001"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：化学成分、指标成分与药效物质；无原书节号或页码主张"
+            },
+            {
+              "point": "苷、糖基与苷元",
+              "topicIds": [
+                "herbal_chemistry_002"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：苷、糖基与苷元；无原书节号或页码主张"
+            },
+            {
+              "point": "糖与多糖的结构信息",
+              "topicIds": [
+                "herbal_chemistry_003"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：糖与多糖的结构信息；无原书节号或页码主张"
+            },
+            {
+              "point": "醌类与蒽醌骨架",
+              "topicIds": [
+                "herbal_chemistry_004"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：醌类与蒽醌骨架；无原书节号或页码主张"
+            },
+            {
+              "point": "黄酮类的基本骨架与变体",
+              "topicIds": [
+                "herbal_chemistry_005"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：黄酮类的基本骨架与变体；无原书节号或页码主张"
+            },
+            {
+              "point": "苯丙素与香豆素类",
+              "topicIds": [
+                "herbal_chemistry_006"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：苯丙素与香豆素类；无原书节号或页码主张"
+            },
+            {
+              "point": "木脂素的结构单元",
+              "topicIds": [
+                "herbal_chemistry_007"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：木脂素的结构单元；无原书节号或页码主张"
+            },
+            {
+              "point": "萜类与异戊二烯单位",
+              "topicIds": [
+                "herbal_chemistry_008"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：萜类与异戊二烯单位；无原书节号或页码主张"
+            },
+            {
+              "point": "挥发油与脂肪油的差别",
+              "topicIds": [
+                "herbal_chemistry_009"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：挥发油与脂肪油的差别；无原书节号或页码主张"
+            },
+            {
+              "point": "皂苷与三萜、甾体苷元",
+              "topicIds": [
+                "herbal_chemistry_010"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：皂苷与三萜、甾体苷元；无原书节号或页码主张"
+            },
+            {
+              "point": "生物碱与含氮成分的界限",
+              "topicIds": [
+                "herbal_chemistry_011"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：生物碱与含氮成分的界限；无原书节号或页码主张"
+            },
+            {
+              "point": "鞣质的结构分类与相互作用",
+              "topicIds": [
+                "herbal_chemistry_012"
+              ],
+              "textbook_chapter": "主题定位：物质基础与结构类别（未据原书目录核定章序）",
+              "textbook_section": "主题定位：鞣质的结构分类与相互作用；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "分析与结构证据",
+          "chapter": "第2章 分析与结构证据",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "色谱分离与峰的解释",
+              "topicIds": [
+                "herbal_chemistry_013"
+              ],
+              "textbook_chapter": "主题定位：分析与结构证据（未据原书目录核定章序）",
+              "textbook_section": "主题定位：色谱分离与峰的解释；无原书节号或页码主张"
+            },
+            {
+              "point": "光谱、质谱与结构互证",
+              "topicIds": [
+                "herbal_chemistry_014"
+              ],
+              "textbook_chapter": "主题定位：分析与结构证据（未据原书目录核定章序）",
+              "textbook_section": "主题定位：光谱、质谱与结构互证；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processing",
+      "name": "中药炮制学",
+      "grade": 44,
+      "book": "herbal_book_processing6",
+      "topic_count": 10,
+      "question_count": 20,
+      "units": [
+        {
+          "unit": "炮制的对象与原理",
+          "chapter": "第1章 炮制的对象与原理",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "炮制目的与物质变化",
+              "topicIds": [
+                "herbal_processing_001"
+              ],
+              "textbook_chapter": "主题定位：炮制的对象与原理（未据原书目录核定章序）",
+              "textbook_section": "主题定位：炮制目的与物质变化；无原书节号或页码主张"
+            },
+            {
+              "point": "净制与切制的作用层次",
+              "topicIds": [
+                "herbal_processing_002"
+              ],
+              "textbook_chapter": "主题定位：炮制的对象与原理（未据原书目录核定章序）",
+              "textbook_section": "主题定位：净制与切制的作用层次；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "主要方法的概念分类",
+          "chapter": "第2章 主要方法的概念分类",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "炒法与辅料的分类作用",
+              "topicIds": [
+                "herbal_processing_003"
+              ],
+              "textbook_chapter": "主题定位：主要方法的概念分类（未据原书目录核定章序）",
+              "textbook_section": "主题定位：炒法与辅料的分类作用；无原书节号或页码主张"
+            },
+            {
+              "point": "炙法与液体辅料",
+              "topicIds": [
+                "herbal_processing_004"
+              ],
+              "textbook_chapter": "主题定位：主要方法的概念分类（未据原书目录核定章序）",
+              "textbook_section": "主题定位：炙法与液体辅料；无原书节号或页码主张"
+            },
+            {
+              "point": "蒸、煮、燀等水火共制概念",
+              "topicIds": [
+                "herbal_processing_005"
+              ],
+              "textbook_chapter": "主题定位：主要方法的概念分类（未据原书目录核定章序）",
+              "textbook_section": "主题定位：蒸、煮、燀等水火共制概念；无原书节号或页码主张"
+            },
+            {
+              "point": "煅制与矿物药的物相变化",
+              "topicIds": [
+                "herbal_processing_006"
+              ],
+              "textbook_chapter": "主题定位：主要方法的概念分类（未据原书目录核定章序）",
+              "textbook_section": "主题定位：煅制与矿物药的物相变化；无原书节号或页码主张"
+            },
+            {
+              "point": "发酵与发芽的生物过程",
+              "topicIds": [
+                "herbal_processing_007"
+              ],
+              "textbook_chapter": "主题定位：主要方法的概念分类（未据原书目录核定章序）",
+              "textbook_section": "主题定位：发酵与发芽的生物过程；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "炮制品评价",
+          "chapter": "第3章 炮制品评价",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "降低毒性与风险消除的区别",
+              "topicIds": [
+                "herbal_processing_008"
+              ],
+              "textbook_chapter": "主题定位：炮制品评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：降低毒性与风险消除的区别；无原书节号或页码主张"
+            },
+            {
+              "point": "原药材与饮片的独立质量要求",
+              "topicIds": [
+                "herbal_processing_009"
+              ],
+              "textbook_chapter": "主题定位：炮制品评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：原药材与饮片的独立质量要求；无原书节号或页码主张"
+            },
+            {
+              "point": "过程变更与质量可比性",
+              "topicIds": [
+                "herbal_processing_010"
+              ],
+              "textbook_chapter": "主题定位：炮制品评价（未据原书目录核定章序）",
+              "textbook_section": "主题定位：过程变更与质量可比性；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmaceutics",
+      "name": "中药药剂学",
+      "grade": 45,
+      "book": "herbal_book_pharmaceutics6",
+      "topic_count": 16,
+      "question_count": 32,
+      "units": [
+        {
+          "unit": "剂型与制剂基础",
+          "chapter": "第1章 剂型与制剂基础",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "剂型、制剂与给药途径",
+              "topicIds": [
+                "herbal_pharmaceutics_001"
+              ],
+              "textbook_chapter": "主题定位：剂型与制剂基础（未据原书目录核定章序）",
+              "textbook_section": "主题定位：剂型、制剂与给药途径；无原书节号或页码主张"
+            },
+            {
+              "point": "辅料的功能与相容性",
+              "topicIds": [
+                "herbal_pharmaceutics_002"
+              ],
+              "textbook_chapter": "主题定位：剂型与制剂基础（未据原书目录核定章序）",
+              "textbook_section": "主题定位：辅料的功能与相容性；无原书节号或页码主张"
+            },
+            {
+              "point": "粒度、比表面积与均匀性",
+              "topicIds": [
+                "herbal_pharmaceutics_003"
+              ],
+              "textbook_chapter": "主题定位：剂型与制剂基础（未据原书目录核定章序）",
+              "textbook_section": "主题定位：粒度、比表面积与均匀性；无原书节号或页码主张"
+            },
+            {
+              "point": "溶解度与溶出速度",
+              "topicIds": [
+                "herbal_pharmaceutics_004"
+              ],
+              "textbook_chapter": "主题定位：剂型与制剂基础（未据原书目录核定章序）",
+              "textbook_section": "主题定位：溶解度与溶出速度；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "分散系统与常见剂型",
+          "chapter": "第2章 分散系统与常见剂型",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "溶液、混悬液与乳剂",
+              "topicIds": [
+                "herbal_pharmaceutics_005"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：溶液、混悬液与乳剂；无原书节号或页码主张"
+            },
+            {
+              "point": "提取物与原料的质量对应",
+              "topicIds": [
+                "herbal_pharmaceutics_006"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：提取物与原料的质量对应；无原书节号或页码主张"
+            },
+            {
+              "point": "散剂与颗粒剂的结构区别",
+              "topicIds": [
+                "herbal_pharmaceutics_007"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：散剂与颗粒剂的结构区别；无原书节号或页码主张"
+            },
+            {
+              "point": "丸剂与成型黏合体系",
+              "topicIds": [
+                "herbal_pharmaceutics_008"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：丸剂与成型黏合体系；无原书节号或页码主张"
+            },
+            {
+              "point": "片剂的崩解、硬度与溶出",
+              "topicIds": [
+                "herbal_pharmaceutics_009"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：片剂的崩解、硬度与溶出；无原书节号或页码主张"
+            },
+            {
+              "point": "胶囊壳与填充物的相容性",
+              "topicIds": [
+                "herbal_pharmaceutics_010"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：胶囊壳与填充物的相容性；无原书节号或页码主张"
+            },
+            {
+              "point": "外用半固体制剂与基质",
+              "topicIds": [
+                "herbal_pharmaceutics_011"
+              ],
+              "textbook_chapter": "主题定位：分散系统与常见剂型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：外用半固体制剂与基质；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "制剂质量与性能",
+          "chapter": "第3章 制剂质量与性能",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "注射剂的多维质量要求",
+              "topicIds": [
+                "herbal_pharmaceutics_012"
+              ],
+              "textbook_chapter": "主题定位：制剂质量与性能（未据原书目录核定章序）",
+              "textbook_section": "主题定位：注射剂的多维质量要求；无原书节号或页码主张"
+            },
+            {
+              "point": "无菌、微生物限度与内毒素",
+              "topicIds": [
+                "herbal_pharmaceutics_013"
+              ],
+              "textbook_chapter": "主题定位：制剂质量与性能（未据原书目录核定章序）",
+              "textbook_section": "主题定位：无菌、微生物限度与内毒素；无原书节号或页码主张"
+            },
+            {
+              "point": "稳定性、包装与有效期依据",
+              "topicIds": [
+                "herbal_pharmaceutics_014"
+              ],
+              "textbook_chapter": "主题定位：制剂质量与性能（未据原书目录核定章序）",
+              "textbook_section": "主题定位：稳定性、包装与有效期依据；无原书节号或页码主张"
+            },
+            {
+              "point": "缓释、控释与延迟释放",
+              "topicIds": [
+                "herbal_pharmaceutics_015"
+              ],
+              "textbook_chapter": "主题定位：制剂质量与性能（未据原书目录核定章序）",
+              "textbook_section": "主题定位：缓释、控释与延迟释放；无原书节号或页码主张"
+            },
+            {
+              "point": "生物利用度的制剂学意义",
+              "topicIds": [
+                "herbal_pharmaceutics_016"
+              ],
+              "textbook_chapter": "主题定位：制剂质量与性能（未据原书目录核定章序）",
+              "textbook_section": "主题定位：生物利用度的制剂学意义；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology",
+      "name": "中药药理学",
+      "grade": 46,
+      "book": "herbal_book_pharmacology6",
+      "topic_count": 16,
+      "question_count": 32,
+      "units": [
+        {
+          "unit": "药效与体内过程",
+          "chapter": "第1章 药效与体内过程",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "药效动力学与药动学的分工",
+              "topicIds": [
+                "herbal_pharmacology_001"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：药效动力学与药动学的分工；无原书节号或页码主张"
+            },
+            {
+              "point": "浓度效应关系与EC50",
+              "topicIds": [
+                "herbal_pharmacology_002"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：浓度效应关系与EC50；无原书节号或页码主张"
+            },
+            {
+              "point": "效价与最大效能",
+              "topicIds": [
+                "herbal_pharmacology_003"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：效价与最大效能；无原书节号或页码主张"
+            },
+            {
+              "point": "时效关系与暴露效应差异",
+              "topicIds": [
+                "herbal_pharmacology_004"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：时效关系与暴露效应差异；无原书节号或页码主张"
+            },
+            {
+              "point": "吸收、分布、代谢与排泄",
+              "topicIds": [
+                "herbal_pharmacology_005"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：吸收、分布、代谢与排泄；无原书节号或页码主张"
+            },
+            {
+              "point": "AUC、峰浓度与达峰时间",
+              "topicIds": [
+                "herbal_pharmacology_006"
+              ],
+              "textbook_chapter": "主题定位：药效与体内过程（未据原书目录核定章序）",
+              "textbook_section": "主题定位：AUC、峰浓度与达峰时间；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "复方与实验模型",
+          "chapter": "第2章 复方与实验模型",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "单体、提取物与复方的研究对象",
+              "topicIds": [
+                "herbal_pharmacology_007"
+              ],
+              "textbook_chapter": "主题定位：复方与实验模型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：单体、提取物与复方的研究对象；无原书节号或页码主张"
+            },
+            {
+              "point": "药动与药效相互作用",
+              "topicIds": [
+                "herbal_pharmacology_008"
+              ],
+              "textbook_chapter": "主题定位：复方与实验模型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：药动与药效相互作用；无原书节号或页码主张"
+            },
+            {
+              "point": "实验模型的效度与适用范围",
+              "topicIds": [
+                "herbal_pharmacology_009"
+              ],
+              "textbook_chapter": "主题定位：复方与实验模型（未据原书目录核定章序）",
+              "textbook_section": "主题定位：实验模型的效度与适用范围；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "研究设计与证据解释",
+          "chapter": "第3章 研究设计与证据解释",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "对照、随机化与盲法",
+              "topicIds": [
+                "herbal_pharmacology_010"
+              ],
+              "textbook_chapter": "主题定位：研究设计与证据解释（未据原书目录核定章序）",
+              "textbook_section": "主题定位：对照、随机化与盲法；无原书节号或页码主张"
+            },
+            {
+              "point": "统计显著性、效应量与不确定性",
+              "topicIds": [
+                "herbal_pharmacology_011"
+              ],
+              "textbook_chapter": "主题定位：研究设计与证据解释（未据原书目录核定章序）",
+              "textbook_section": "主题定位：统计显著性、效应量与不确定性；无原书节号或页码主张"
+            },
+            {
+              "point": "体外、动物与人体证据的层级",
+              "topicIds": [
+                "herbal_pharmacology_012"
+              ],
+              "textbook_chapter": "主题定位：研究设计与证据解释（未据原书目录核定章序）",
+              "textbook_section": "主题定位：体外、动物与人体证据的层级；无原书节号或页码主张"
+            },
+            {
+              "point": "网络药理学与对接预测的边界",
+              "topicIds": [
+                "herbal_pharmacology_013"
+              ],
+              "textbook_chapter": "主题定位：研究设计与证据解释（未据原书目录核定章序）",
+              "textbook_section": "主题定位：网络药理学与对接预测的边界；无原书节号或页码主张"
+            }
+          ]
+        },
+        {
+          "unit": "毒理与整体证据",
+          "chapter": "第4章 毒理与整体证据",
+          "chapter_basis": "项目学习单元，非原书章序",
+          "points": [
+            {
+              "point": "毒性、暴露与靶器官",
+              "topicIds": [
+                "herbal_pharmacology_014"
+              ],
+              "textbook_chapter": "主题定位：毒理与整体证据（未据原书目录核定章序）",
+              "textbook_section": "主题定位：毒性、暴露与靶器官；无原书节号或页码主张"
+            },
+            {
+              "point": "不良事件与因果评价",
+              "topicIds": [
+                "herbal_pharmacology_015"
+              ],
+              "textbook_chapter": "主题定位：毒理与整体证据（未据原书目录核定章序）",
+              "textbook_section": "主题定位：不良事件与因果评价；无原书节号或页码主张"
+            },
+            {
+              "point": "整体证据、异质性与可推广性",
+              "topicIds": [
+                "herbal_pharmacology_016"
+              ],
+              "textbook_chapter": "主题定位：毒理与整体证据（未据原书目录核定章序）",
+              "textbook_section": "主题定位：整体证据、异质性与可推广性；无原书节号或页码主张"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scope_limits": [
+    "没有逐页读取最新教材全文；所有节点和测验为原创课程学习整理，主题定位不是原书章号、节号或页码。",
+    "中药学出版月有不同书目记录；中药药理学微商城出版月与高校定稿会报道冲突，均已披露并待版权页复核。",
+    "本版为六门课程的核心学习图谱，不是中药学专业全部课程、全部药材或全部药典标准的完整覆盖。",
+    "传统药性和功效按传统理论标记，实验或质量标准不得无条件推断人体疗效。",
+    "没有处方剂量、毒性药材加工参数、家庭用药或制剂操作方案。",
+    "AI原创与作者自查不等于药学教师、临床药师或临床专家审核。"
+  ]
+}

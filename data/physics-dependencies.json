@@ -1,0 +1,1994 @@
+[
+  {
+    "topicId": "cnp_003",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "计算速度前要统一路程和时间单位（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_003",
+    "prerequisiteId": "cnp_002",
+    "strength": "hard",
+    "reason": "描述速度前先确定运动参照（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_005",
+    "prerequisiteId": "cnp_004",
+    "strength": "hard",
+    "reason": "先理解振动发声，才能区分振动快慢（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_007",
+    "prerequisiteId": "cnp_006",
+    "strength": "hard",
+    "reason": "分析熔化过程需要区分温度与冷热感觉（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_008",
+    "prerequisiteId": "cnp_006",
+    "strength": "hard",
+    "reason": "判断沸腾特点需要读取温度变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_010",
+    "prerequisiteId": "cnp_009",
+    "strength": "hard",
+    "reason": "先理解光路表示，再分析反射方向（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_011",
+    "prerequisiteId": "cnp_009",
+    "strength": "hard",
+    "reason": "成像分析需要跟踪光的传播路径（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_012",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "计算密度需统一质量和体积单位（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_014",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "重力是物体所受力的一种（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_015",
+    "prerequisiteId": "cnp_002",
+    "strength": "hard",
+    "reason": "需要先区分运动和静止（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_015",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "需要区分受力与运动状态变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_016",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "需要知道受力对象和力的方向（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_016",
+    "prerequisiteId": "cnp_015",
+    "strength": "hard",
+    "reason": "平衡状态包含静止和匀速直线运动（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_017",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "摩擦力是接触物体间的作用（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_018",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "需先明确压力及其作用面（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_019",
+    "prerequisiteId": "cnp_012",
+    "strength": "hard",
+    "reason": "液体密度影响压强（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_019",
+    "prerequisiteId": "cnp_018",
+    "strength": "hard",
+    "reason": "需要先理解压强（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_020",
+    "prerequisiteId": "cnp_014",
+    "strength": "hard",
+    "reason": "称重法需比较重力和拉力（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_020",
+    "prerequisiteId": "cnp_019",
+    "strength": "hard",
+    "reason": "浮力可联系液体压强理解（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_021",
+    "prerequisiteId": "cnp_020",
+    "strength": "hard",
+    "reason": "先识别浮力（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_021",
+    "prerequisiteId": "cnp_012",
+    "strength": "hard",
+    "reason": "排开液体的质量需由密度与体积求得（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_022",
+    "prerequisiteId": "cnp_016",
+    "strength": "hard",
+    "reason": "漂浮与悬浮需要二力平衡（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_022",
+    "prerequisiteId": "cnp_021",
+    "strength": "hard",
+    "reason": "需要求出或比较浮力（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_023",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "需要识别施力和受力对象（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_023",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "位移计算需要长度单位（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_024",
+    "prerequisiteId": "cnp_023",
+    "strength": "hard",
+    "reason": "功率计算需要先知道做功多少（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_025",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "需要知道力的作用线（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_025",
+    "prerequisiteId": "cnp_016",
+    "strength": "hard",
+    "reason": "杠杆分析以平衡为条件（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_031",
+    "prerequisiteId": "cnp_006",
+    "strength": "hard",
+    "reason": "比热容涉及温度变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_031",
+    "prerequisiteId": "cnp_007",
+    "strength": "hard",
+    "reason": "需注意吸热也可能伴随物态改变（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_033",
+    "prerequisiteId": "cnp_032",
+    "strength": "hard",
+    "reason": "需要理解分子的运动和相互作用（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_034",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "分析摩擦生热需知道内能（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_034",
+    "prerequisiteId": "cnp_023",
+    "strength": "hard",
+    "reason": "做功可以联系能量变化（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_036",
+    "prerequisiteId": "cnp_035",
+    "strength": "hard",
+    "reason": "需先认识闭合电路（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_037",
+    "prerequisiteId": "cnp_035",
+    "strength": "hard",
+    "reason": "测量前需理解电流和通路（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_038",
+    "prerequisiteId": "cnp_035",
+    "strength": "hard",
+    "reason": "需先识别元件及其两端（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_039",
+    "prerequisiteId": "cnp_035",
+    "strength": "hard",
+    "reason": "电阻描述导体对电流的作用（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_040",
+    "prerequisiteId": "cnp_036",
+    "strength": "hard",
+    "reason": "先判断串联还是并联（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_040",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "需要理解电流读数（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_041",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "电功计算需电压（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_041",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "电功计算需电流（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_042",
+    "prerequisiteId": "cnp_041",
+    "strength": "hard",
+    "reason": "电功率涉及做功与时间（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_042",
+    "prerequisiteId": "cnp_024",
+    "strength": "hard",
+    "reason": "先理解功率描述做功快慢（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_043",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "应用定律要理解电流及单位（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_043",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "应用定律要理解两端电压（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_043",
+    "prerequisiteId": "cnp_039",
+    "strength": "hard",
+    "reason": "应用定律要理解电阻（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_044",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "需理解电流大小（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_044",
+    "prerequisiteId": "cnp_039",
+    "strength": "hard",
+    "reason": "需理解电阻大小（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_044",
+    "prerequisiteId": "cnp_031",
+    "strength": "hard",
+    "reason": "需区分热量与温度（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h001",
+    "prerequisiteId": "cnp_002",
+    "strength": "hard",
+    "reason": "参考系的选择决定位置与运动的描述；这里先用初中“相对谁运动”的概念，再引入质点近似。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h002",
+    "prerequisiteId": "cnp_h001",
+    "strength": "hard",
+    "reason": "比较初、末位置必须先指定同一参考系；本边依赖参考系概念，不要求先掌握所有质点化问题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h002",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "位移和路程都要使用一致的长度单位，才能进行位置相减及长度相加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h003",
+    "prerequisiteId": "cnp_h002",
+    "strength": "hard",
+    "reason": "高中平均速度按位移除以对应时间间隔定义，必须先区分位移、路程和时间间隔。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h003",
+    "prerequisiteId": "cnp_003",
+    "strength": "soft",
+    "reason": "初中“路程除以时间”的经验用于对比平均速率，不能直接代替高中平均速度的位移定义。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h004",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "加速度计算需要先把初、末速度作为带方向的量，求速度变化而非只比较速率大小。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h005",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "纸带相邻计数点的位移和时间用于估计短时平均速度，再近似对应时刻的速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h005",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "从v–t图斜率判断加速度是否近似恒定，需要理解速度变化率。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h006",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "在加速度恒定的条件下，将a=Δv/Δt改写为v=v₀+at，并保留速度与加速度的正负号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h007",
+    "prerequisiteId": "cnp_h006",
+    "strength": "hard",
+    "reason": "位移可由v–t图的有向面积得到，匀变速速度规律给出该直线图像。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h007",
+    "prerequisiteId": "cnp_h002",
+    "strength": "hard",
+    "reason": "位移公式计算的是带方向的位置变化；运动反向时还要与路程区分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h008",
+    "prerequisiteId": "cnp_h007",
+    "strength": "hard",
+    "reason": "自由落体的位移计算是在匀变速直线模型中取v₀=0、a=g得到的。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h008",
+    "prerequisiteId": "cnp_014",
+    "strength": "hard",
+    "reason": "“仅受重力”是自由落体模型的受力条件，需知道重力及其近地面方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h009",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "弹力与重力都是物体间的作用，先明确受力物体、施力物体和力的方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h009",
+    "prerequisiteId": "cnp_014",
+    "strength": "hard",
+    "reason": "本节点直接使用G=mg，并把重力与接触产生的弹力区分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h010",
+    "prerequisiteId": "cnp_h009",
+    "strength": "hard",
+    "reason": "滑动摩擦公式中的N是接触面法向弹力，需能辨认其方向，不能直接把N都当作mg。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h010",
+    "prerequisiteId": "cnp_017",
+    "strength": "hard",
+    "reason": "以相对滑动及f=μN为基础，进一步区分静摩擦的实际值与最大值。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h011",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "识别作用力与反作用力必须先区分力的施力物体和受力物体，两个力分别作用于不同物体。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h012",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "合成力需要同时考虑每个力的大小和方向，不能只把测力计读数相加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h012",
+    "prerequisiteId": "cnp_h002",
+    "strength": "soft",
+    "reason": "位移的方向和正负号可帮助理解矢量表示，但不是学习力的平行四边形定则的必经章节。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h013",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "共点力平衡需先求各力的矢量和，或分别求水平、竖直分量之和。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h013",
+    "prerequisiteId": "cnp_016",
+    "strength": "soft",
+    "reason": "二力平衡是合力为零的特殊情形，可用于向多力平衡迁移，不应要求任意两力都成对平衡。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h014",
+    "prerequisiteId": "cnp_015",
+    "strength": "hard",
+    "reason": "以已有惯性和零合力时运动状态不变的概念为基础，进一步明确惯性参考系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h014",
+    "prerequisiteId": "cnp_h013",
+    "strength": "soft",
+    "reason": "多力平衡提供零合力的例子；理解第一定律并不要求先解完整的共点力平衡题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h015",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "实验要测量并比较a=Δv/Δt，不能把速度大小本身当作加速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h015",
+    "prerequisiteId": "cnp_h010",
+    "strength": "soft",
+    "reason": "摩擦知识用于识别和控制小车实验中的额外外力；它属于具体装置的误差分析。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h016",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "F合=ma中的F合是所有外力的矢量和，需先完成力的合成或分解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h016",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "牛顿第二定律联系的是力与速度变化率，需要先理解加速度的大小和方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h017",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "由F=ma可确定1 N=1 kg·m/s²，此处只使用该量纲关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h017",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "单位换算必须保持同一物理量的大小不变，长度的进率是SI换算的基础。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h018",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "先由实际外力的合力求加速度，或由加速度反求未知力。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h018",
+    "prerequisiteId": "cnp_h007",
+    "strength": "hard",
+    "reason": "得到恒定加速度后，再用相应的位移与速度规律连接初、末运动状态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h019",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "视重由竖直方向的N−mg=ma决定，超重失重应按加速度而非速度方向判断。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h019",
+    "prerequisiteId": "cnp_014",
+    "strength": "hard",
+    "reason": "必须区分地球施加的重力mg和测力计或支撑物给出的视重。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h020",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "曲线运动中的速度既有大小又有方向，沿轨迹切线，方向改变也构成速度变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h020",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "说明合力与速度不共线会使轨迹弯曲，需要用合力决定加速度方向的关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h021",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "分运动的位置、速度、加速度均按矢量合成，使用分量运算而非大小直接相加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h021",
+    "prerequisiteId": "cnp_h020",
+    "strength": "soft",
+    "reason": "曲线运动是应用运动分解的重要情境，但分解方法也适用于其他平面运动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h022",
+    "prerequisiteId": "cnp_h021",
+    "strength": "hard",
+    "reason": "同一时刻分别记录水平和竖直位移，需理解分运动的同时性与独立分量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h022",
+    "prerequisiteId": "cnp_h008",
+    "strength": "hard",
+    "reason": "平抛实验要把竖直分运动与同高度、零竖直初速度的自由落体规律比较。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h023",
+    "prerequisiteId": "cnp_h021",
+    "strength": "hard",
+    "reason": "抛体轨迹要由同一时间内的水平、竖直运动合成，斜抛还需分解初速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h023",
+    "prerequisiteId": "cnp_h008",
+    "strength": "hard",
+    "reason": "近地面抛体的竖直加速度为g；平抛的竖直分运动是零初速自由落体。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h024",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "线速度描述沿轨迹切线的运动快慢；必须区分速率不变和矢量速度不变。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h024",
+    "prerequisiteId": "cnp_h020",
+    "strength": "soft",
+    "reason": "圆周运动是曲线运动的一个例子，可借助切线方向理解其速度方向变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h025",
+    "prerequisiteId": "cnp_h024",
+    "strength": "hard",
+    "reason": "计算mv²/r或mω²r，需先明确半径、线速度和角速度及v=ωr。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h025",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "“向心力”是实际力的径向合力，计算依据是径向的F合=ma。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h026",
+    "prerequisiteId": "cnp_h024",
+    "strength": "hard",
+    "reason": "aₙ=v²/r=ω²r中的线速度、角速度与半径来自圆周运动的运动学描述。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h026",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "向心加速度来自速度方向变化，即使速率不变也不为零。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h027",
+    "prerequisiteId": "cnp_h025",
+    "strength": "hard",
+    "reason": "拱桥、转弯与圆轨道题需把指向圆心的实际合力写成mv²/r。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h027",
+    "prerequisiteId": "cnp_h019",
+    "strength": "soft",
+    "reason": "支持力与重力的比较可类比超重失重，但圆周运动问题应以实际向心方向重新列式。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h028",
+    "prerequisiteId": "cnp_h024",
+    "strength": "soft",
+    "reason": "周期是比较天体运行所用的共同量；开普勒椭圆轨道规律不能由匀速圆周模型直接代替。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h029",
+    "prerequisiteId": "cnp_h016",
+    "strength": "soft",
+    "reason": "牛顿第二定律用于理解引力如何改变天体运动，并非陈述平方反比引力定律的定义前提。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h029",
+    "prerequisiteId": "cnp_h028",
+    "strength": "soft",
+    "reason": "行星经验规律为引力理论提供历史和观测背景，不要求先会所有开普勒计算才能使用引力公式。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h030",
+    "prerequisiteId": "cnp_h029",
+    "strength": "hard",
+    "reason": "估算中心天体质量需要GMm/r²及距中心的正确半径。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h030",
+    "prerequisiteId": "cnp_h025",
+    "strength": "hard",
+    "reason": "近圆轨道中将引力等于m4π²r/T²，才能用周期和轨道半径反求质量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h031",
+    "prerequisiteId": "cnp_h030",
+    "strength": "hard",
+    "reason": "圆轨道卫星的速度与周期由万有引力提供向心力的方程得到，使用同一中心天体参数GM。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h032",
+    "prerequisiteId": "cnp_h014",
+    "strength": "hard",
+    "reason": "真空光速不变等陈述要说明惯性参考系，不能忽略观察者的参考系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h032",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "比较不同观察者测得的速度，需先理解速度相对于参考系定义。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h033",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "恒力做功只取力在位移方向的分量，Fcosθ来自矢量分解。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h033",
+    "prerequisiteId": "cnp_023",
+    "strength": "hard",
+    "reason": "以力沿位移方向做功的基础定义为起点，推广到任意夹角及负功。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h033",
+    "prerequisiteId": "cnp_024",
+    "strength": "hard",
+    "reason": "平均功率是单位时间的做功量，此后才能区分平均功率与瞬时Fvcosθ。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h034",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "势能变化以保守力做功的相反数定义，需要先能判断功的正负。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h034",
+    "prerequisiteId": "cnp_h009",
+    "strength": "hard",
+    "reason": "重力势能使用mg，理想弹簧势能使用弹性限度内的k和形变量x。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h035",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "动能定理比较的是各外力总功和动能变化，必须把各力的功连同符号一起计入。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h035",
+    "prerequisiteId": "cnp_h016",
+    "strength": "soft",
+    "reason": "可由牛顿第二定律推导动能定理，但使用已建立的功能关系不必每次先求加速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h036",
+    "prerequisiteId": "cnp_h034",
+    "strength": "hard",
+    "reason": "机械能包含选定系统的重力或弹性势能，需明确零点和势能变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h036",
+    "prerequisiteId": "cnp_h035",
+    "strength": "hard",
+    "reason": "判断机械能转化需计算动能，借助总功与动能变化识别非保守作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h037",
+    "prerequisiteId": "cnp_h005",
+    "strength": "soft",
+    "reason": "纸带法是一种可用的独立测速方案；也可采用经验证的光电门或运动传感器方案。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h037",
+    "prerequisiteId": "cnp_h036",
+    "strength": "hard",
+    "reason": "实验需要明确比较的量是动能增加与重力势能减少，并说明阻力可能使机械能减小。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h038",
+    "prerequisiteId": "cnp_035",
+    "strength": "soft",
+    "reason": "已有电荷定向运动的电流经验可帮助理解电荷转移，但起电与电荷守恒可先独立学习。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h039",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "库仑力的大小和方向使用电荷量及其正负号，需先区分同号、异号和净电荷。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h039",
+    "prerequisiteId": "cnp_h012",
+    "strength": "soft",
+    "reason": "多个电荷共同作用时需矢量叠加；只研究两个点电荷时不必先掌握全部合力计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h040",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "E=F/q和正负试探电荷的受力方向，都需要先识别电荷量的符号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h040",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "多个场源的场强按矢量叠加，不能只把场强大小直接相加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h040",
+    "prerequisiteId": "cnp_h039",
+    "strength": "soft",
+    "reason": "点电荷的库仑力可用于构造场强实例，但电场强度定义E=F/q不只适用于点电荷场。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h041",
+    "prerequisiteId": "cnp_h040",
+    "strength": "hard",
+    "reason": "理解静电平衡需知道电场会使自由电荷受力移动，以及多个电场可相互叠加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h041",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "导体感应和接地涉及电荷重新分布或转移，不是电荷凭空产生或消失。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h042",
+    "prerequisiteId": "cnp_h040",
+    "strength": "hard",
+    "reason": "电势能对应电荷在静电场中的相互作用，需知道电场力的方向由场和电荷符号决定。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h042",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "电场力做功与电势能变化互为相反数，必须能判断正功和负功。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h042",
+    "prerequisiteId": "cnp_h034",
+    "strength": "soft",
+    "reason": "重力势能的零点与势能差可作类比，但电势并不是重力势能公式的直接套用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h043",
+    "prerequisiteId": "cnp_h042",
+    "strength": "hard",
+    "reason": "电势差是两点电势相减，W=qU又由电势能变化得到。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h043",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "计算电场力做功需按电荷位移过程判断正负，并区分功与能量状态量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h044",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "UAB=φA−φB的起终点次序决定电势差的正负。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h044",
+    "prerequisiteId": "cnp_h040",
+    "strength": "hard",
+    "reason": "U=Ed只用于匀强场的相应投影距离，需先明确场强方向和匀强条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h044",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "任意两点的位移要投影到电场方向，不能把几何距离无条件当作d。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h045",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "电容C=Q/U使用两极板间的电势差，不能把某一点电势代替两板电压。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h045",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "Q表示单块极板电荷量的绝对值，分析断电后的电容器还需使用电荷守恒。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h046",
+    "prerequisiteId": "cnp_h035",
+    "strength": "hard",
+    "reason": "电场加速问题以电场力做功等于动能变化求速度，需先会ΔEₖ的计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h046",
+    "prerequisiteId": "cnp_h044",
+    "strength": "hard",
+    "reason": "偏转和加速计算需把场强、板间电压及距离在匀强条件下联系起来。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h046",
+    "prerequisiteId": "cnp_h021",
+    "strength": "hard",
+    "reason": "粒子横向匀速、沿场匀加速的两个分运动必须使用同一时间合成；无需先完成所有抛体题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h047",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "I=Δq/Δt使用通过截面的净电荷量，电子运动方向还取决于其负电荷符号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h047",
+    "prerequisiteId": "cnp_035",
+    "strength": "hard",
+    "reason": "先区分约定电流方向与闭合导电路径，才能解释电源维持电流的作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h048",
+    "prerequisiteId": "cnp_039",
+    "strength": "hard",
+    "reason": "电阻是导体对电流的作用，而电阻率是材料属性，需先明确二者并非同一量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h048",
+    "prerequisiteId": "cnp_043",
+    "strength": "hard",
+    "reason": "由伏安测量得到R=U/I，再研究R与长度、截面积和材料的关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h049",
+    "prerequisiteId": "cnp_h048",
+    "strength": "hard",
+    "reason": "根据R=ρL/S反求ρ，并将直径换成截面积，需先明确电阻定律的适用条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h049",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "伏安法需正确串联电流表并读取被测支路电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h049",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "伏安法需正确并联电压表并读取待测导线两端电压。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h050",
+    "prerequisiteId": "cnp_043",
+    "strength": "hard",
+    "reason": "等效电阻、分压与表头改装的数值计算都使用线性元件的U=IR。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h050",
+    "prerequisiteId": "cnp_036",
+    "strength": "hard",
+    "reason": "先辨认串联或并联的节点连接，才能选择分压或分流关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h050",
+    "prerequisiteId": "cnp_040",
+    "strength": "hard",
+    "reason": "改装电流表和分析支路分流需使用并联电流相加、串联电流相同的约束。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h051",
+    "prerequisiteId": "cnp_h050",
+    "strength": "soft",
+    "reason": "串并联与电表内阻有助于分析测量误差；基本电表操作不要求先完成全部表头改装计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h051",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "多用电表的电流挡仍须串联，且需选择适当量程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h051",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "多用电表的电压挡仍须并联，直流测量时还要注意极性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h052",
+    "prerequisiteId": "cnp_041",
+    "strength": "hard",
+    "reason": "输入电能按电流做功计算，需先明确电功W=UIt。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h052",
+    "prerequisiteId": "cnp_042",
+    "strength": "hard",
+    "reason": "比较输入和输出的能量转化速率，需要使用电功率P=UI。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h052",
+    "prerequisiteId": "cnp_044",
+    "strength": "hard",
+    "reason": "发热只取Q=I²Rt；与总电功比较才能区分纯电阻和含电动机的电路。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h053",
+    "prerequisiteId": "cnp_h050",
+    "strength": "hard",
+    "reason": "内阻与外电阻属于同一闭合回路，计算总电流和分压需使用串联关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h053",
+    "prerequisiteId": "cnp_h052",
+    "strength": "hard",
+    "reason": "电动势涉及电源向单位电荷提供能量；需把电源供能与内外电路能量转化区分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h054",
+    "prerequisiteId": "cnp_h053",
+    "strength": "hard",
+    "reason": "U–I图的纵截距和负斜率分别对应ε与r，来自U=ε−Ir。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h054",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "测量支路电流需正确串联电流表并控制放电电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h054",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "电压表测的是电池路端电压，需并联在电池两端。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h055",
+    "prerequisiteId": "cnp_034",
+    "strength": "hard",
+    "reason": "评价能源效率需追踪能量输入、输出和转化，不能把未成为有用输出的能量称为消失。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h055",
+    "prerequisiteId": "cnp_h052",
+    "strength": "soft",
+    "reason": "电能向机械能和内能转化可作为效率的具体例子，能源议题不限于电路。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h056",
+    "prerequisiteId": "cnp_h047",
+    "strength": "hard",
+    "reason": "判断电流磁场方向要使用约定电流方向，金属电子漂移方向不能直接当电流方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h056",
+    "prerequisiteId": "cnp_h040",
+    "strength": "soft",
+    "reason": "电场线可帮助理解“用线描述场”的方法，但磁感线闭合等性质需单独建立。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h057",
+    "prerequisiteId": "cnp_h056",
+    "strength": "hard",
+    "reason": "磁通量计算必须先知道穿过面积的磁场方向，磁感应强度还描述局部磁场强弱。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h057",
+    "prerequisiteId": "cnp_h012",
+    "strength": "soft",
+    "reason": "分量与投影方法有助于理解面积法线夹角；不必先会全部力的合成题才能学习磁通量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h058",
+    "prerequisiteId": "cnp_h057",
+    "strength": "hard",
+    "reason": "产生感应的判断量是穿过回路的磁通量变化，而不是仅仅有无磁场。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h058",
+    "prerequisiteId": "cnp_h047",
+    "strength": "hard",
+    "reason": "有感应电动势不等于一定有回路电流，还要检查电荷是否具有闭合的导电路径。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h059",
+    "prerequisiteId": "cnp_h058",
+    "strength": "soft",
+    "reason": "变化磁场产生电效应是理解电磁联系的背景，但入门认识电磁波不要求先完成感应计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h059",
+    "prerequisiteId": "cnp_004",
+    "strength": "soft",
+    "reason": "声波需要介质，可用于对照电磁波能在真空传播的区别。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h060",
+    "prerequisiteId": "cnp_h059",
+    "strength": "hard",
+    "reason": "单光子能量E=hν使用电磁波频率，需先认识频率与波长的区别。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h060",
+    "prerequisiteId": "cnp_034",
+    "strength": "soft",
+    "reason": "能量转移的已有经验有助于理解能量子，但经典连续能量图像不能替代量子假设。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h061",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "动量p=mv是矢量，动量变化要用带方向的末速度减初速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h061",
+    "prerequisiteId": "cnp_h035",
+    "strength": "soft",
+    "reason": "动能可作为对照：等速率反向时动能不变而动量改变；定义动量并不依赖动能定理。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h062",
+    "prerequisiteId": "cnp_h061",
+    "strength": "hard",
+    "reason": "动量定理的右侧是Δp，需先会计算初末动量及其矢量差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h062",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "合力与加速度的关系在一定时间内累积得到合力冲量与动量变化的联系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h063",
+    "prerequisiteId": "cnp_h062",
+    "strength": "hard",
+    "reason": "判断系统动量是否守恒，要检查所选时间内的合外力冲量是否为零或可忽略。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h063",
+    "prerequisiteId": "cnp_h011",
+    "strength": "hard",
+    "reason": "系统内相互作用力成对等大反向，使内力冲量在总动量变化中相互抵消。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h064",
+    "prerequisiteId": "cnp_h063",
+    "strength": "hard",
+    "reason": "实验需明确系统边界、守恒方向及碰撞时间内外力冲量可忽略的条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h064",
+    "prerequisiteId": "cnp_h005",
+    "strength": "soft",
+    "reason": "位移—时间记录可提供独立速度测量；光电门或其他已校验测速方法也可替代纸带法。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h065",
+    "prerequisiteId": "cnp_h063",
+    "strength": "hard",
+    "reason": "碰撞速度关系首先由系统总动量守恒建立，并保留各速度方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h065",
+    "prerequisiteId": "cnp_h035",
+    "strength": "hard",
+    "reason": "弹性与非弹性碰撞按系统动能是否守恒区分，要能计算碰撞前后总动能。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h066",
+    "prerequisiteId": "cnp_h063",
+    "strength": "hard",
+    "reason": "把喷出物与剩余物体合为系统，利用总动量守恒解释相反方向的运动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h067",
+    "prerequisiteId": "cnp_h002",
+    "strength": "hard",
+    "reason": "简谐振动的位移以平衡位置为原点并带正负号；它不按匀加速位移公式变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h067",
+    "prerequisiteId": "cnp_h009",
+    "strength": "soft",
+    "reason": "理想弹簧是简谐运动的一种实例，认识正弦位移图像不要求先解决全部弹力计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h068",
+    "prerequisiteId": "cnp_h067",
+    "strength": "hard",
+    "reason": "振幅、周期和初相位都描述同一个以平衡位置为原点的正弦位移过程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h068",
+    "prerequisiteId": "cnp_h024",
+    "strength": "soft",
+    "reason": "角速度与周期的2π关系可帮助理解角频率，但简谐运动并不要求物体实际绕圆运动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h069",
+    "prerequisiteId": "cnp_h067",
+    "strength": "hard",
+    "reason": "回复力以相对平衡位置的位移x表示，必须先明确振幅、端点和平衡位置。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h069",
+    "prerequisiteId": "cnp_h016",
+    "strength": "hard",
+    "reason": "由F=−kx判断加速度的方向和大小，使用a=F/m。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h069",
+    "prerequisiteId": "cnp_h036",
+    "strength": "hard",
+    "reason": "无耗散振子在动能与弹性势能之间转换，需按系统机械能守恒比较端点和平衡位置。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h070",
+    "prerequisiteId": "cnp_h069",
+    "strength": "hard",
+    "reason": "小角度下的重力切向分量近似与位移成反向正比，因此可建立单摆的简谐模型。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h070",
+    "prerequisiteId": "cnp_014",
+    "strength": "hard",
+    "reason": "单摆回复作用来自重力分量，周期公式中的g描述当地重力作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h071",
+    "prerequisiteId": "cnp_h070",
+    "strength": "hard",
+    "reason": "由T=2π√(L/g)反求g，需知道摆长是悬点到球心的距离及小角度条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h071",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "摆长必须以正确长度单位记录；与以秒记录的周期一起代入后才得到m/s²。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h072",
+    "prerequisiteId": "cnp_h068",
+    "strength": "hard",
+    "reason": "比较受迫频率与固有频率，需要先分清频率、周期和振幅。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h072",
+    "prerequisiteId": "cnp_h036",
+    "strength": "soft",
+    "reason": "能量转化有助于解释阻尼和持续驱动；受迫频率的基本判断不依赖机械能守恒计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h073",
+    "prerequisiteId": "cnp_h067",
+    "strength": "soft",
+    "reason": "简谐振子可提供清晰的振源例子，但机械波的振动不必全部是简谐运动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h073",
+    "prerequisiteId": "cnp_004",
+    "strength": "hard",
+    "reason": "机械波需要振动源和能传递振动的介质，声音的基础概念已给出这两个必要条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h074",
+    "prerequisiteId": "cnp_h073",
+    "strength": "hard",
+    "reason": "波形图描述同一时刻不同介质质点，必须先区分波传播与质点局部振动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h074",
+    "prerequisiteId": "cnp_h068",
+    "strength": "hard",
+    "reason": "周期波的f=1/T及相位比较使用时间周期；正弦波还用振幅描述最大位移。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h075",
+    "prerequisiteId": "cnp_h074",
+    "strength": "hard",
+    "reason": "比较跨介质的频率、波速和波长，以及孔宽相对波长的大小，需先明确v=λf中的各量。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h076",
+    "prerequisiteId": "cnp_h074",
+    "strength": "hard",
+    "reason": "路程差是否为整倍或半奇数倍波长，需要明确波长与传播相位的关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h076",
+    "prerequisiteId": "cnp_h068",
+    "strength": "hard",
+    "reason": "稳定干涉要求频率相同和相位差稳定，需理解相位而非只比较瞬时位移。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h077",
+    "prerequisiteId": "cnp_h074",
+    "strength": "hard",
+    "reason": "接收频率由相邻波峰到达的时间间隔决定，需区分波源周期、频率与波速。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h077",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "判断接近或远离需指定波源、观察者及介质的相对运动方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h078",
+    "prerequisiteId": "cnp_009",
+    "strength": "hard",
+    "reason": "折射光路以光线描述各均匀介质中的传播方向，并在界面处比较相对法线的角度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h078",
+    "prerequisiteId": "cnp_h074",
+    "strength": "soft",
+    "reason": "波速、波长与频率的关系有助于解释跨介质的变化；使用折射定律不必先完成机械波图像题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h079",
+    "prerequisiteId": "cnp_h078",
+    "strength": "hard",
+    "reason": "临界角来自折射定律的r=90°极限，须先知道折射率大小和入射、折射角均相对法线。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h080",
+    "prerequisiteId": "cnp_h076",
+    "strength": "hard",
+    "reason": "光的稳定干涉使用相干条件与路径相位差，需先理解叠加加强和减弱。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h080",
+    "prerequisiteId": "cnp_h078",
+    "strength": "soft",
+    "reason": "介质折射率和光速关系有助于理解薄膜光程；简单空气中双缝干涉不必先完成所有折射题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h081",
+    "prerequisiteId": "cnp_h080",
+    "strength": "hard",
+    "reason": "从亮纹间距反求波长需明确双缝的相干条件、亮纹形成及相邻条纹间隔。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h081",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "缝距、缝屏距离和条纹间距必须统一长度单位，并将米正确换算成纳米。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h082",
+    "prerequisiteId": "cnp_h074",
+    "strength": "hard",
+    "reason": "判断光的衍射明显程度需比较波长与孔缝尺寸，先明确波长的物理意义。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h082",
+    "prerequisiteId": "cnp_h075",
+    "strength": "soft",
+    "reason": "机械波绕过障碍的现象可作迁移类比，但光的衍射应由光学实验另行建立。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h082",
+    "prerequisiteId": "cnp_h080",
+    "strength": "soft",
+    "reason": "与双缝条纹比较有助于辨认单缝衍射图样，并非衍射现象存在的前提。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h083",
+    "prerequisiteId": "cnp_h080",
+    "strength": "soft",
+    "reason": "干涉中的相干性有助于说明激光的一项特性，但偏振概念并不要求先掌握薄膜干涉。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h083",
+    "prerequisiteId": "cnp_h073",
+    "strength": "hard",
+    "reason": "偏振以振动方向与传播方向的关系为基础，需先区分横波和纵波。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h084",
+    "prerequisiteId": "cnp_h057",
+    "strength": "hard",
+    "reason": "安培力计算使用磁感应强度B，而不是磁通量Φ；需先分清两个量及B的单位。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h084",
+    "prerequisiteId": "cnp_h012",
+    "strength": "hard",
+    "reason": "导线受力有方向，倾斜时还要取垂直磁场的有效分量，不能只作标量相加。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h085",
+    "prerequisiteId": "cnp_h084",
+    "strength": "soft",
+    "reason": "电流磁力的方向规则可帮助迁移到单个运动电荷，但洛伦兹力可独立由电荷运动建立。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h085",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "电荷正负决定磁力方向是否需要反转，力的大小使用|q|。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h085",
+    "prerequisiteId": "cnp_h035",
+    "strength": "hard",
+    "reason": "判断磁力只改变方向而不改变速率，使用做功为零则动能不变的关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h086",
+    "prerequisiteId": "cnp_h085",
+    "strength": "hard",
+    "reason": "纯磁力垂直速度且不做功，垂直入射时其大小为|q|vB。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h086",
+    "prerequisiteId": "cnp_h025",
+    "strength": "hard",
+    "reason": "以|q|vB=mv²/r求圆轨道半径，并将圆周运动关系用于周期。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h087",
+    "prerequisiteId": "cnp_h086",
+    "strength": "hard",
+    "reason": "质谱磁偏转和回旋周期使用r=mv/(|q|B)、T=2πm/(|q|B)的低速关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h087",
+    "prerequisiteId": "cnp_h046",
+    "strength": "hard",
+    "reason": "电场负责加速及速度选择中的电场力，要能用qE和qU描述其作用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h088",
+    "prerequisiteId": "cnp_h058",
+    "strength": "hard",
+    "reason": "先确认回路磁通量确实变化，再判断感应电流如何阻碍这一变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h088",
+    "prerequisiteId": "cnp_h056",
+    "strength": "hard",
+    "reason": "由需要的感应磁场方向反推线圈电流方向，要使用电流磁效应和右手定则。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h089",
+    "prerequisiteId": "cnp_h088",
+    "strength": "soft",
+    "reason": "楞次定律补充感应方向；求n|ΔΦ/Δt|的大小本身不依赖预先确定电流方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h089",
+    "prerequisiteId": "cnp_h057",
+    "strength": "hard",
+    "reason": "感应电动势由每匝磁通量的变化率确定，必须先会判断B、面积和夹角怎样改变Φ。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h090",
+    "prerequisiteId": "cnp_h058",
+    "strength": "hard",
+    "reason": "导体内部涡流来自穿过闭合导电通路的磁通变化，需先满足电磁感应条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h090",
+    "prerequisiteId": "cnp_h052",
+    "strength": "hard",
+    "reason": "涡流发热与电磁制动的能量去向使用电流的焦耳热和能量转化关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h091",
+    "prerequisiteId": "cnp_h089",
+    "strength": "hard",
+    "reason": "自感和互感都是电流改变磁通后产生电动势，需要磁通变化率的定量关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h091",
+    "prerequisiteId": "cnp_h088",
+    "strength": "hard",
+    "reason": "自感电动势的方向必须阻碍原电流的变化，增加与减小时需分别判断。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h092",
+    "prerequisiteId": "cnp_h089",
+    "strength": "hard",
+    "reason": "转动线圈的磁通量周期变化，感应电动势由变化率决定而非由磁通量大小直接决定。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h092",
+    "prerequisiteId": "cnp_h024",
+    "strength": "hard",
+    "reason": "匀速转动给出角位移ωt和周期，峰值nBSω直接使用角速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h093",
+    "prerequisiteId": "cnp_h092",
+    "strength": "hard",
+    "reason": "区分正弦交流的瞬时值、周期和峰值后，才能使用峰值除以√2的有效值关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h093",
+    "prerequisiteId": "cnp_h052",
+    "strength": "hard",
+    "reason": "有效值按同一电阻、同一时间的热效应定义，需使用I²R或I²Rt。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h093",
+    "prerequisiteId": "cnp_h045",
+    "strength": "hard",
+    "reason": "解释电容对交流和直流的不同响应，要知道极板储存电荷及电压随充放电变化。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h094",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "变压器电压、电流比通常比较稳定交流的有效值，不能混用峰值与有效值。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h094",
+    "prerequisiteId": "cnp_h091",
+    "strength": "hard",
+    "reason": "原副线圈靠互感耦合，稳定变化的磁通在副线圈产生电动势。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h095",
+    "prerequisiteId": "cnp_h094",
+    "strength": "soft",
+    "reason": "变压器说明工程上怎样升压降压；在给定输电电压后计算损耗可直接用功率和电阻关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h095",
+    "prerequisiteId": "cnp_h052",
+    "strength": "hard",
+    "reason": "高压减损的计算由同功率P=UI和导线发热P损=I²R共同得到。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h096",
+    "prerequisiteId": "cnp_h045",
+    "strength": "hard",
+    "reason": "LC振荡中电容器储存电荷与电场能，需区分充电最大和电荷为零的状态。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h096",
+    "prerequisiteId": "cnp_h091",
+    "strength": "hard",
+    "reason": "电感的自感作用使电流不能突变，并与磁场储能联系，形成周期能量交换。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h096",
+    "prerequisiteId": "cnp_034",
+    "strength": "hard",
+    "reason": "理想LC回路需守恒总能量，电场能减少对应磁场能增加；这里不要求先掌握机械能题型。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h097",
+    "prerequisiteId": "cnp_h096",
+    "strength": "soft",
+    "reason": "LC电路可作为变化电场与磁场的例子，但不是陈述传播电磁波全部性质的必要前置。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h097",
+    "prerequisiteId": "cnp_h059",
+    "strength": "hard",
+    "reason": "先区分电磁波与需要介质的机械波，再讨论电场、磁场和传播方向的关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h097",
+    "prerequisiteId": "cnp_h083",
+    "strength": "soft",
+    "reason": "光的偏振提供电磁波横向性质的实验联系，不要求先会所有激光或干涉应用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h098",
+    "prerequisiteId": "cnp_h097",
+    "strength": "hard",
+    "reason": "发射、传播和接收的信息载体是电磁波，需知道它可在空间携带能量与信息。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h098",
+    "prerequisiteId": "cnp_h096",
+    "strength": "soft",
+    "reason": "LC固有频率帮助解释一种调谐电路；无线电通信也可用其他实现选频的方法。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h099",
+    "prerequisiteId": "cnp_h059",
+    "strength": "hard",
+    "reason": "电磁波谱按频率或波长排列，使用真空中c=λf和各波段同速的基础关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h099",
+    "prerequisiteId": "cnp_h060",
+    "strength": "hard",
+    "reason": "比较不同波段单个光子的能量需要E=hν，而不能只凭光强或亮度判断。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h100",
+    "prerequisiteId": "cnp_h048",
+    "strength": "soft",
+    "reason": "阻值随材料和条件变化提供一种传感机制，但传感器还可输出电压、光或其他信号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h100",
+    "prerequisiteId": "cnp_038",
+    "strength": "soft",
+    "reason": "电压测量是读取传感器信号的一种方法；认识传感器和标定不依赖完整的电势能计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h101",
+    "prerequisiteId": "cnp_h100",
+    "strength": "hard",
+    "reason": "具体器件分析要先明确输入物理量、输出信号和标定关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h101",
+    "prerequisiteId": "cnp_h050",
+    "strength": "hard",
+    "reason": "热敏或光敏电阻接入分压电路后，输出电压要由串联电流与各段电阻共同确定。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h102",
+    "prerequisiteId": "cnp_h101",
+    "strength": "hard",
+    "reason": "选择与触发条件匹配的传感器，需先知道输入变化会怎样改变其电阻或输出信号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h102",
+    "prerequisiteId": "cnp_h050",
+    "strength": "hard",
+    "reason": "检测、执行器和电源需正确接成可工作的低压电路，阈值调节也涉及分压与支路。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h103",
+    "prerequisiteId": "cnp_032",
+    "strength": "hard",
+    "reason": "以分子无规则运动及扩散的已有证据为基础，区分直接可见微粒与不可直接看见的分子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h103",
+    "prerequisiteId": "cnp_033",
+    "strength": "soft",
+    "reason": "内能提供微观运动的热学背景，但建立分子组成和相互作用图像不必先做内能计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h104",
+    "prerequisiteId": "cnp_h103",
+    "strength": "hard",
+    "reason": "油膜估测采用物质由大量分子组成、油膜近似单分子层的模型；本边不要求先辨析布朗运动。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h104",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "V/S得到分子尺度前需统一体积和面积的长度单位，避免cm、m及其平方立方混用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h105",
+    "prerequisiteId": "cnp_h103",
+    "strength": "hard",
+    "reason": "速率分布描述大量分子的无规则运动，不能把它看成所有分子共有一个确定速率。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h105",
+    "prerequisiteId": "cnp_006",
+    "strength": "hard",
+    "reason": "比较不同温度下的统计分布，需知道温度描述冷热程度并有可测量的数值。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h106",
+    "prerequisiteId": "cnp_h105",
+    "strength": "hard",
+    "reason": "温度关联平均平动动能，而非指定分子的某一瞬时动能；需先区分统计平均与个体。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h106",
+    "prerequisiteId": "cnp_h034",
+    "strength": "soft",
+    "reason": "势能变化与相互作用力做功的联系可迁移到分子，但分子势能不能套用mgh或kx²/2。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h106",
+    "prerequisiteId": "cnp_033",
+    "strength": "hard",
+    "reason": "内能是物体内部微观运动和相互作用的能量总和，需与整体机械运动能量区分。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h107",
+    "prerequisiteId": "cnp_006",
+    "strength": "hard",
+    "reason": "从摄氏温度换到热力学温度，需要先区分温度读数与温差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h107",
+    "prerequisiteId": "cnp_h106",
+    "strength": "soft",
+    "reason": "平均动能给出温度的微观解释，但热平衡和温标换算可先独立建立。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h108",
+    "prerequisiteId": "cnp_h107",
+    "strength": "hard",
+    "reason": "等温条件要求温度保持不变，比较气体状态时还需区分温度值和温差。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h108",
+    "prerequisiteId": "cnp_018",
+    "strength": "hard",
+    "reason": "pV中的p是气体绝对压强，需先知道压强的含义和单位。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h109",
+    "prerequisiteId": "cnp_h108",
+    "strength": "soft",
+    "reason": "pV恒定是一般状态关系的等温特例，有助于比较不同过程，但不能强制把所有变化看成等温。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h109",
+    "prerequisiteId": "cnp_h107",
+    "strength": "hard",
+    "reason": "等压、等容和状态方程中的温度比必须用K，不能用摄氏温度直接取比。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h109",
+    "prerequisiteId": "cnp_018",
+    "strength": "hard",
+    "reason": "状态方程使用绝对压强，须知道压强的量值、单位及与表压的区别。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h110",
+    "prerequisiteId": "cnp_h103",
+    "strength": "hard",
+    "reason": "晶体与非晶体的区别涉及微观粒子排列和相互作用；此处依赖粒子模型，不依赖布朗运动分类。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h110",
+    "prerequisiteId": "cnp_007",
+    "strength": "soft",
+    "reason": "晶体熔化的已有现象用于联系宏观熔点与微观有序结构。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h111",
+    "prerequisiteId": "cnp_h106",
+    "strength": "hard",
+    "reason": "液面收缩、浸润和汽液平衡涉及分子相互作用与热运动，需用这些微观概念解释。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h111",
+    "prerequisiteId": "cnp_008",
+    "strength": "soft",
+    "reason": "沸腾经验有助于对比蒸发、饱和汽压与温度的关系，但表面张力可单独学习。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h111",
+    "prerequisiteId": "cnp_019",
+    "strength": "hard",
+    "reason": "解释毛细管液面达到平衡及压强差时，需要液体压强随高度变化的概念。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h112",
+    "prerequisiteId": "cnp_h106",
+    "strength": "hard",
+    "reason": "区分热量和内能需先明确内能是微观能量的状态量，而热量表示传递过程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h112",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "压缩或膨胀时要能判断外力做功及能量转移方向，不能把功直接等同于温度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h113",
+    "prerequisiteId": "cnp_h112",
+    "strength": "hard",
+    "reason": "ΔU=Q+W中的Q和W代表不同传递方式，需先区分热传递、做功及各自方向。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h113",
+    "prerequisiteId": "cnp_034",
+    "strength": "hard",
+    "reason": "热力学第一定律是能量守恒在热过程中的应用，要把吸热、放热和功统一计入。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h114",
+    "prerequisiteId": "cnp_h113",
+    "strength": "hard",
+    "reason": "识别热机或储能装置的能量收支时，需要把内能变化、功与热一并核算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h114",
+    "prerequisiteId": "cnp_h036",
+    "strength": "soft",
+    "reason": "机械能只在特定条件下守恒，可作为区别“单种能量守恒”与“总能量守恒”的例子。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h115",
+    "prerequisiteId": "cnp_h113",
+    "strength": "hard",
+    "reason": "评价循环热机先用能量守恒确定吸热、放热和功；第二定律再约束过程方向和完全转功的可能性。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h116",
+    "prerequisiteId": "cnp_h060",
+    "strength": "hard",
+    "reason": "普朗克能量子假说使用E=hν，需要明确频率决定单个能量子的大小。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h116",
+    "prerequisiteId": "cnp_h107",
+    "strength": "soft",
+    "reason": "温度影响热辐射谱，热力学温标有助于比较辐射条件；量子假设本身不是温标换算公式。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h117",
+    "prerequisiteId": "cnp_h060",
+    "strength": "hard",
+    "reason": "光电效应直接使用单光子能量E=hν：先满足hν≥W₀，剩余能量才能成为电子动能；不必先掌握黑体定义。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h117",
+    "prerequisiteId": "cnp_h035",
+    "strength": "hard",
+    "reason": "爱因斯坦方程中的最大初动能是电子运动能量，需能把动能增减与能量收支对应。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h117",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "遏止电压通过电场力做功阻止电子，使用eUc=Eₖmax而非仅比较电压数值。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h118",
+    "prerequisiteId": "cnp_h039",
+    "strength": "hard",
+    "reason": "α粒子与集中正电荷接近时受到库仑斥力，强偏转提供原子核尺寸与电荷集中性的证据。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h118",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "散射解释要知道α粒子带正电、电子带负电，并区别电荷分布与质量分布。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h119",
+    "prerequisiteId": "cnp_h118",
+    "strength": "hard",
+    "reason": "玻尔氢原子模型建立在核外电子和小尺度正原子核的结构图像上，并修正经典轨道稳定性问题。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h119",
+    "prerequisiteId": "cnp_h060",
+    "strength": "hard",
+    "reason": "能级跃迁发射或吸收的光子满足hν等于能级差，所需前置是光子能量而不是黑体外观定义。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h120",
+    "prerequisiteId": "cnp_h061",
+    "strength": "hard",
+    "reason": "德布罗意关系λ=h/p直接使用粒子动量，需区分动量与动能。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h120",
+    "prerequisiteId": "cnp_h082",
+    "strength": "soft",
+    "reason": "已知光的衍射图样有助于识别电子衍射中的波动证据，但物质波不是光学衍射公式的直接照搬。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h120",
+    "prerequisiteId": "cnp_h119",
+    "strength": "soft",
+    "reason": "分立能级展示经典图像的局限，可作为量子理论的发展背景，不是λ=h/p的计算前提。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h121",
+    "prerequisiteId": "cnp_h118",
+    "strength": "hard",
+    "reason": "先区分原子核与核外电子，才能讨论核内质子、中子以及质量数。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h121",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "原子序数对应核中正电荷的元电荷数，需认识质子、电子的电荷符号。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h122",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "衰变方程和同位素变化需先用A、Z及N=A−Z识别核组成。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h122",
+    "prerequisiteId": "cnp_h114",
+    "strength": "soft",
+    "reason": "总能量守恒有助于追踪衰变释放的能量；半衰期比例与A、Z守恒计算不要求先学热机章节。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h123",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "比较核质量与自由核子质量、计算平均结合能，须知道核子组成和质量数A。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h123",
+    "prerequisiteId": "cnp_034",
+    "strength": "hard",
+    "reason": "质量差对应其他形式能量变化，需用总能量转化而非“能量消失”来理解ΔE=Δmc²。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h124",
+    "prerequisiteId": "cnp_h123",
+    "strength": "hard",
+    "reason": "典型裂变和聚变是否放能要比较反应前后结合能或静质量，不能只看核变大还是变小。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h124",
+    "prerequisiteId": "cnp_h039",
+    "strength": "hard",
+    "reason": "轻核都带正电，需理解它们的库仑斥力才能说明聚变的接近条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h125",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "质子、中子与电子在原子中的角色是继续区分核子、夸克和轻子的起点。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h125",
+    "prerequisiteId": "cnp_h120",
+    "strength": "soft",
+    "reason": "量子实验证据有助于理解微观模型的适用边界，但粒子分类不要求先做物质波计算。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h126",
+    "prerequisiteId": "cnp_h003",
+    "strength": "hard",
+    "reason": "光电门所得有限时间平均速度只有在速度变化足够小等条件下才近似瞬时速度。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h126",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "测速需正确测遮光片宽度，并统一长度和时间单位；不需要先学牛顿单位的量纲推导。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h127",
+    "prerequisiteId": "cnp_h009",
+    "strength": "hard",
+    "reason": "实验变量是弹力与相对原长的形变量，先明确这两个量；实验数据用于检验而非预设F=kx成立。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h127",
+    "prerequisiteId": "cnp_016",
+    "strength": "hard",
+    "reason": "砝码静止时其重力与弹簧拉力平衡，才能用已知砝码重力确定拉力。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h127",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "测量原长和加载后长度并相减，需正确读数及统一长度单位。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h128",
+    "prerequisiteId": "cnp_013",
+    "strength": "hard",
+    "reason": "测力计记录的每个力都要有大小和方向，先明确施力效果与受力对象。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h128",
+    "prerequisiteId": "cnp_h012",
+    "strength": "soft",
+    "reason": "矢量作图用于把实验结果与平行四边形模型比较，不应把该模型已成立当作测量前提。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h128",
+    "prerequisiteId": "cnp_h013",
+    "strength": "soft",
+    "reason": "静力平衡有助于解释拉到同一点的等效作用；实验核心是保持同一橡皮条形变效果。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h129",
+    "prerequisiteId": "cnp_h025",
+    "strength": "hard",
+    "reason": "先明确所测拉力等实际力的径向合力作为向心力，避免额外再添加一个“向心力”。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h129",
+    "prerequisiteId": "cnp_h024",
+    "strength": "hard",
+    "reason": "控制半径、角速度和线速度时要区分这些量，并利用v=ωr说明不同控制方式。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h130",
+    "prerequisiteId": "cnp_h045",
+    "strength": "hard",
+    "reason": "充放电观察需把极板电荷量与两端电压联系起来，并区分接电源和断电源条件。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h130",
+    "prerequisiteId": "cnp_h047",
+    "strength": "hard",
+    "reason": "电流对应电荷积累或释放的速率，电流趋零不代表充电开始时也没有电流。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h130",
+    "prerequisiteId": "cnp_034",
+    "strength": "hard",
+    "reason": "完全放电时减少的电场能转为电阻内能等，需要按能量守恒解释热量来源。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h131",
+    "prerequisiteId": "cnp_001",
+    "strength": "hard",
+    "reason": "游标和测微器读数仍需识别零点、分度值与长度单位，正零偏要从读数中扣除。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h132",
+    "prerequisiteId": "cnp_h078",
+    "strength": "hard",
+    "reason": "从测得光路求n=sin i/sin r，必须在界面法线两侧正确识别入射角和玻璃内折射角。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h133",
+    "prerequisiteId": "cnp_h058",
+    "strength": "hard",
+    "reason": "实验先要改变穿过闭合线圈的磁通量，并用磁铁静止时无持续感应电流作对照。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h133",
+    "prerequisiteId": "cnp_037",
+    "strength": "hard",
+    "reason": "需把电流计的正负偏转标定为两个电流方向，才能比较靠近、远离和磁极变化的结果。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h133",
+    "prerequisiteId": "cnp_h088",
+    "strength": "soft",
+    "reason": "实验结果可与楞次定律预测比较，但探究电流方向时不应先假定所有测得方向必与预测相同。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h134",
+    "prerequisiteId": "cnp_h094",
+    "strength": "hard",
+    "reason": "先识别原副线圈、交变磁通及空载或轻载条件，再以多组实测数据检验电压比；不强求数据预先精确满足匝数比。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h134",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "交流电压表所测值应在适用频段按有效值比较，不能将一侧峰值与另一侧有效值混用。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h134",
+    "prerequisiteId": "cnp_038",
+    "strength": "hard",
+    "reason": "电压表应并联在各线圈两端，并选用与低压交流测量相符的量程。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h135",
+    "prerequisiteId": "cnp_h108",
+    "strength": "hard",
+    "reason": "实验要保持同一定量气体的温度不变，并用绝对压强和总体积检验等温关系。（AI 整理的学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "cnp_h135",
+    "prerequisiteId": "cnp_h113",
+    "strength": "soft",
+    "reason": "压缩做功可升温，热力学第一定律帮助解释快速读数的误差；基本等温测量不必先解完整热力学题。（AI 整理的学习建议，未经教师审核）"
+  }
+]

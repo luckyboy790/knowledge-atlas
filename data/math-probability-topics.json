@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "cnm_ps001",
+    "name": "随机试验、样本空间与事件",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "样本空间列出一次随机试验所有可能的基本结果，事件是其中可判定的结果集合。描述结果时须保留试验关心的信息；有序抽取与无序抽取对应的样本空间不同，不能先随意合并结果再假定等可能。",
+    "mastery_criteria": [
+      "能按试验是否记录顺序列出样本空间和事件集合",
+      "能判断多个所列事件是否覆盖全部结果并且互不相交"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§2 样本空间、随机事件",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "先后各抛一次硬币并记录顺序。表示“恰有一次正面”的事件是哪一个？",
+      "answer": "{正反，反正}"
+    }
+  },
+  {
+    "id": "cnm_ps002",
+    "name": "事件运算与德摩根律",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "并事件表示至少一个发生，交事件表示同时发生，差事件A\\B表示A发生且B不发生。补集相对于给定样本空间定义；(A∪B)的补为A的补与B的补之交，(A∩B)的补为两补事件之并。",
+    "mastery_criteria": [
+      "能将“至少一个、恰好一个、均不发生”译为集合运算",
+      "能用德摩根律和差事件化简事件表达式"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§2 样本空间、随机事件（本节内主题：事件运算）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "事件A、B均不发生应表示为哪个事件？",
+      "answer": "Aᶜ∩Bᶜ"
+    }
+  },
+  {
+    "id": "cnm_ps003",
+    "name": "概率公理与零概率事件",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "概率满足非负性、样本空间概率为1以及可列可加性，因而P(Aᶜ)=1−P(A)。不可能事件概率为0，但一般不能反推概率为0的事件不可能；在连续均匀模型中，单个点可以属于样本空间而概率为0。“几乎必然”表示概率为1。",
+    "mastery_criteria": [
+      "能利用概率公理判断补事件概率和概率的取值范围",
+      "能区分不可能与概率为0、必然与几乎必然"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§3 频率与概率",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "已知P(A)=0.37，P(Aᶜ)等于多少？",
+      "answer": "0.63"
+    }
+  },
+  {
+    "id": "cnm_ps004",
+    "name": "加法公式与容斥原理",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "一般事件满足P(A∪B)=P(A)+P(B)−P(A∩B)。三个事件的并须先减去三项两两交，再加回三重交。只有交事件概率为0时，两个事件的并概率才等于各自概率之和；互斥是充分条件。",
+    "mastery_criteria": [
+      "能从并概率反求交概率或差事件概率",
+      "能正确计算三个事件的并以及恰好一个事件发生的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§3 频率与概率（本节内主题：加法公式）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "P(A)=0.5，P(B)=0.4，P(A∩B)=0.2，则P(A∪B)为多少？",
+      "answer": "0.7"
+    }
+  },
+  {
+    "id": "cnm_ps005",
+    "name": "古典概型与等可能计数",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "有限且基本结果等可能时，事件概率等于有利结果数除以总结果数。排列、组合只是计数工具，分子与分母必须使用同一种是否计序的约定；有放回与不放回抽样的结果结构也不同。",
+    "mastery_criteria": [
+      "能检验有限等可能假设并统一分子分母的计数方式",
+      "能用组合数计算不放回抽样中指定类别出现的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§4 等可能概型",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "掷一枚均匀六面骰子一次，点数为质数的概率是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps006",
+    "name": "几何概型与均匀取点",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "在有限长度、面积或体积区域中均匀取点时，事件概率可由相应几何测度之比计算。均匀性必须相对于具体取样区域和测度说明；改变生成随机对象的方式可能改变概率，不能只凭图形对称就省略模型。",
+    "mastery_criteria": [
+      "能将连续均匀取点事件改写为线段或平面区域",
+      "能用长度比或面积比计算概率并说明边界的零概率影响"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§4 等可能概型（本节内主题：连续均匀的几何概率）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "在区间[0,10]内均匀取X，P(2≤X≤5)等于多少？",
+      "answer": "3/10"
+    }
+  },
+  {
+    "id": "cnm_ps007",
+    "name": "条件概率与条件样本空间",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "当P(B)>0时，P(A|B)=P(A∩B)/P(B)，表示已知B发生后对A的概率重新归一化。条件事件不能与待求事件随意交换。P(B)=0时，这个比值定义不适用；连续变量的条件密度需另外定义。",
+    "mastery_criteria": [
+      "能识别条件事件并检查其概率是否大于0",
+      "能根据条件概率和交概率关系完成正向或反向计算"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§5 条件概率",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "P(B)=0.4，P(A∩B)=0.1，则P(A|B)是多少？",
+      "answer": "1/4"
+    }
+  },
+  {
+    "id": "cnm_ps008",
+    "name": "乘法公式与分步抽样",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "由条件概率可得P(A∩B)=P(A)P(B|A)，其中P(A)>0。若相关前缀交事件的概率均大于0，多个事件的交可按顺序乘以给定前面事件均发生时的条件概率；不放回抽样中后续概率会改变，不能直接用相同边际概率连乘。",
+    "mastery_criteria": [
+      "能把连续成功或指定抽样路径写成条件概率乘积",
+      "能识别不放回抽样的分母和类别数量随步骤改变"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§5 条件概率（本节内主题：乘法公式）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "P(A)=0.6，P(B|A)=0.5，则P(A∩B)为多少？",
+      "answer": "0.3"
+    }
+  },
+  {
+    "id": "cnm_ps009",
+    "name": "全概率公式与完备事件组",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "若B₁,…,Bₖ互斥、并为样本空间且P(Bᵢ)>0，则P(A)=ΣP(Bᵢ)P(A|Bᵢ)。先按来源或状态分层，再把每层发生A的概率加权求和。权重是各层原有概率，不应直接对条件概率取算术平均。",
+    "mastery_criteria": [
+      "能检验分层事件是否互斥且覆盖全部情况",
+      "能由来源比例和层内发生率计算总体发生率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§5 条件概率（本节内主题：全概率公式）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两台机器产量占比分别为0.7、0.3，次品率分别为0.02、0.05。随机抽一件产品为次品的概率是多少？",
+      "answer": "0.029"
+    }
+  },
+  {
+    "id": "cnm_ps010",
+    "name": "贝叶斯公式与逆向归因",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "贝叶斯公式由P(Bⱼ|A)=P(Bⱼ)P(A|Bⱼ)/P(A)得到，其中P(A)>0且P(Bⱼ)>0，分母可由全概率公式计算。先验是观察A以前的来源概率，后验是观察A以后更新的概率；P(A|B)与P(B|A)一般不同。",
+    "mastery_criteria": [
+      "能区分先验、似然方向和后验条件概率",
+      "能利用全概率分母求观察结果后的来源概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§5 条件概率（本节内主题：贝叶斯公式）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "P(B)=0.2，P(A|B)=0.5，P(A)=0.25，则P(B|A)是多少？",
+      "answer": "0.4"
+    }
+  },
+  {
+    "id": "cnm_ps011",
+    "name": "事件独立性与补事件",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "A、B独立定义为P(A∩B)=P(A)P(B)，不要求两概率为正。若P(B)>0，独立等价于P(A|B)=P(A)。独立性可传给补事件；互斥且两概率均正的事件反而不独立。",
+    "mastery_criteria": [
+      "能用乘积定义判断独立性并区别独立与互斥",
+      "能由独立性计算补事件组合或至少一次成功的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§6 独立性",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "A、B独立，P(A)=0.4，P(B)=0.5，则P(Aᶜ∩B)为多少？",
+      "answer": "0.3"
+    }
+  },
+  {
+    "id": "cnm_ps012",
+    "name": "两两独立与相互独立",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "events",
+    "chapter": "概率论与数理统计 第一章 概率论的基本概念 1",
+    "type": "conceptual",
+    "description": "多个事件相互独立要求每个含至少两个事件的子集合都满足交概率等于边际概率乘积。三个事件两两独立还须检查三重交，才能判定相互独立；不能只检查整体交或只检查成对关系。",
+    "mastery_criteria": [
+      "能列出三个事件相互独立须满足的全部乘积等式",
+      "能用反例识别两两独立不足以推出相互独立"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第一章 概率论的基本概念",
+      "section": "§6 独立性（本节内主题：多个事件的独立性）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "三个事件A、B、C已知两两独立，还需哪项等式才能推出它们相互独立？",
+      "answer": "P(A∩B∩C)=P(A)P(B)P(C)"
+    }
+  },
+  {
+    "id": "cnm_ps013",
+    "name": "随机变量与分布类型",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "随机变量把试验结果映射为实数，概率仍由原样本空间上的事件决定，例如{X≤x}是其逆像事件。取有限或可列值的是离散型变量；具有概率密度的是绝对连续型变量。一般随机变量不必属于这两类之一，还可有离散与连续成分并存的混合分布。",
+    "mastery_criteria": [
+      "能根据试验定义随机变量并写出数值事件对应的结果集合",
+      "能区分离散、具有密度的连续分布和简单混合分布"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§1 随机变量",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两枚硬币抛掷后，令X为正面枚数。X的可能取值集合是什么？",
+      "answer": "{0,1,2}"
+    }
+  },
+  {
+    "id": "cnm_ps014",
+    "name": "离散分布律与归一化",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "离散分布律给出每个可能取值的点概率，要求各概率非负且总和为1。事件概率为符合条件的点概率之和。归一化只能确定概率参数，不能省略对所有概率非负性的检查。",
+    "mastery_criteria": [
+      "能通过非负性和总和为1确定分布律中的参数",
+      "能对指定取值集合求和并计算其补事件概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§2 离散型随机变量及其分布律",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X取0、1、2的概率分别为c、2c、3c，c是多少？",
+      "answer": "1/6"
+    }
+  },
+  {
+    "id": "cnm_ps015",
+    "name": "分布函数性质与区间概率",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "分布函数F(x)=P(X≤x)适用于所有实随机变量。它单调不减、右连续，且在负无穷和正无穷的极限分别为0和1。区间(a,b]的概率为F(b)−F(a)；改变开闭端点时须考虑点概率，不能一律忽略端点。",
+    "mastery_criteria": [
+      "能检查分段函数是否满足分布函数的基本性质",
+      "能按开闭端点利用F或左极限计算区间概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§3 随机变量的分布函数",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "已知F(1)=0.3、F(4)=0.8，则P(1<X≤4)是多少？",
+      "answer": "0.5"
+    }
+  },
+  {
+    "id": "cnm_ps016",
+    "name": "分布函数跳跃与点概率",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "分布函数在a点的跳跃量F(a)−F(a−)等于P(X=a)，其中F(a−)为从左侧趋近a的极限。因而P(X<a)=F(a−)。连续分布函数没有点质量，但“无点质量”本身不保证一定存在普通密度。",
+    "mastery_criteria": [
+      "能从分布函数的跳跃大小读出点概率",
+      "能结合左右端点的点概率计算含闭端点的区间概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§3 随机变量的分布函数（本节内主题：跳跃与点概率）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "F(2)=0.7，F(2−)=0.4，则P(X=2)是多少？",
+      "answer": "0.3"
+    }
+  },
+  {
+    "id": "cnm_ps017",
+    "name": "0–1分布与指示变量",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "0–1分布只在1和0取值，概率分别为p和1−p，其中0≤p≤1。事件A的指示变量I_A在A发生时等于1，否则等于0，因此服从参数P(A)的0–1分布。此模型可把事件计数转化为随机变量求和。",
+    "mastery_criteria": [
+      "能用0–1变量表示一次试验的成功或某事件是否发生",
+      "能通过变量变换求补事件指示变量的分布"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§2 离散型随机变量及其分布律（本节内主题：0–1分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "P(A)=0.3，I_A为A的指示变量，则P(I_A=0)是多少？",
+      "answer": "0.7"
+    }
+  },
+  {
+    "id": "cnm_ps018",
+    "name": "二项分布与伯努利试验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "n次相互独立、成功概率均为p的0–1试验中，成功总次数X服从B(n,p)，P(X=k)=C(n,k)p^k(1−p)^(n−k)。独立、次数固定和成功概率相同是该模型的条件；不放回有限总体抽样通常不是二项模型。",
+    "mastery_criteria": [
+      "能检查试验是否满足二项模型的三个主要条件",
+      "能计算恰好若干次成功或至少一次成功的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§2 离散型随机变量及其分布律（本节内主题：二项分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "独立做3次成功概率为1/2的试验，恰好成功2次的概率是多少？",
+      "answer": "3/8"
+    }
+  },
+  {
+    "id": "cnm_ps019",
+    "name": "泊松分布与事件计数",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "参数λ>0的泊松分布在非负整数k处取概率e^(−λ)λ^k/k!，常用于一定区间内的事件计数模型。参数λ代表该计数的均值；是否可用泊松模型仍需试验机制支持，不能只因变量是计数就断定为泊松分布。",
+    "mastery_criteria": [
+      "能写出泊松分布的支持集并计算指定计数概率",
+      "能用相邻概率比或补事件计算计数范围概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§2 离散型随机变量及其分布律（本节内主题：泊松分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从参数2的泊松分布，则P(X=0)是多少？",
+      "answer": "e^(−2)"
+    }
+  },
+  {
+    "id": "cnm_ps020",
+    "name": "二项分布的泊松近似",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "当n大、p小且np保持在有限量级时，可用参数λ=np的泊松分布近似B(n,p)。严格极限定理考虑n→∞、p_n→0、np_n→λ；有限样本的准确性还取决于n、p和所求事件，近似值应与精确值区分。",
+    "mastery_criteria": [
+      "能根据稀有事件条件选取泊松近似参数np",
+      "能把二项事件概率改写为泊松近似并保留近似符号"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§2 离散型随机变量及其分布律（本节内主题：泊松近似）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从B(1000,0.002)。采用泊松近似时应选取哪个参数？",
+      "answer": "λ=2"
+    }
+  },
+  {
+    "id": "cnm_ps021",
+    "name": "概率密度与积分求概率",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "具有密度f的变量满足F(x)=∫_{−∞}^x f(t)dt，f≥0且全轴积分为1。区间概率由密度积分给出，f(x)本身不是点概率，也不必小于1；单点概率为0，修改有限个点的密度值不改变分布。",
+    "mastery_criteria": [
+      "能检查函数的非负性和全轴积分以判定或归一化密度",
+      "能以积分计算区间概率并区分密度值与概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§4 连续型随机变量及其概率密度",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "f(x)=c（0<x<1/2），其他处为0。使其成为密度的c是多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_ps022",
+    "name": "均匀分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "X服从U(a,b)（a<b）时，在(a,b)上的密度为1/(b−a)，外部为0。区间内同长度子区间具有相同概率；分布函数在区间内线性增长。a、b是支持边界，不是期望与方差参数。",
+    "mastery_criteria": [
+      "能写出均匀分布的分段密度和分布函数",
+      "能将概率条件转成支持区间内的长度或分位点"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§4 连续型随机变量及其概率密度（本节内主题：均匀分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从U(2,8)，P(X≤5)是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps023",
+    "name": "指数分布与无记忆性",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "以率参数λ>0记指数分布，其密度为λe^(−λx)（x>0），生存函数P(X>t)=e^(−λt)（t≥0）。无记忆性为P(X>s+t|X>s)=P(X>t)，其中s,t≥0。采用尺度参数时均值为该尺度，不能与率参数混用。",
+    "mastery_criteria": [
+      "能在率参数约定下计算尾概率并识别支持集",
+      "能用条件概率推导或运用指数分布的无记忆性"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§4 连续型随机变量及其概率密度（本节内主题：指数分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从率参数为2的指数分布，则P(X>1)是多少？",
+      "answer": "e^(−2)"
+    }
+  },
+  {
+    "id": "cnm_ps024",
+    "name": "正态分布与标准化",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "记X服从N(μ,σ²)，其中第二参数是方差，σ>0为标准差。标准化Z=(X−μ)/σ服从N(0,1)，以Φ表示其分布函数。计算正态区间概率须先减均值再除标准差，不能除以方差。",
+    "mastery_criteria": [
+      "能正确识别N(μ,σ²)的方差并完成标准化",
+      "能用给定Φ值计算一般正态变量的单侧或双侧概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§4 连续型随机变量及其概率密度（本节内主题：正态分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从N(3,4)，哪个变量服从标准正态分布？",
+      "answer": "(X−3)/2"
+    }
+  },
+  {
+    "id": "cnm_ps025",
+    "name": "正态分布对称性与分位数",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "标准正态满足Φ(−z)=1−Φ(z)。本图谱把z_p定义为下侧p分位数，即P(Z≤z_p)=p；因此上侧α尾的临界值为z_(1−α)。一般正态的p分位数为μ+σz_p，双侧中央概率1−α对应±z_(1−α/2)。",
+    "mastery_criteria": [
+      "能在下侧分位数和上侧尾概率间正确转换",
+      "能由标准正态分位数求一般正态的分位点或中央区间"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§4 连续型随机变量及其概率密度（本节内主题：正态分位数）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "若z_0.975=1.96，则标准正态变量满足P(Z>1.96)等于多少？",
+      "answer": "0.025"
+    }
+  },
+  {
+    "id": "cnm_ps026",
+    "name": "离散随机变量函数的分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "求Y=g(X)的离散分布时，先列出不同的函数值，再把所有映到同一数值的原概率相加。若g不是一一对应，不能保留重复取值各占一行而不合并，也不能把原取值直接当成新的概率。",
+    "mastery_criteria": [
+      "能识别变换后重复出现的取值并合并概率",
+      "能求平方、绝对值或简单指示变换后的离散分布"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§5 随机变量的函数的分布",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X取−1、0、1的概率分别为1/4、1/2、1/4。令Y=X²，则P(Y=1)是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps027",
+    "name": "单调变换的密度公式",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "若X有密度，变换g在相关支持区间严格单调且其逆函数h可微，则在适用区间f_Y(y)=f_X(h(y))|h′(y)|。绝对值处理递减变换，支持集须随变换更新。条件不满足时可改用分布函数法。",
+    "mastery_criteria": [
+      "能求逆变换和导数绝对值并确定变换后的支持集",
+      "能计算线性或简单指数变换后的密度"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§5 随机变量的函数的分布（本节内主题：单调变换）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从U(0,1)，Y=3X+2。Y的分布是什么？",
+      "answer": "U(2,5)"
+    }
+  },
+  {
+    "id": "cnm_ps028",
+    "name": "非单调变换与分布函数法",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "univariate",
+    "chapter": "概率论与数理统计 第二章 随机变量及其分布 2",
+    "type": "conceptual",
+    "description": "当变换非单调时，可先计算F_Y(y)=P(g(X)≤y)，把不等式还原为X的取值区域，再对适用区间求导。平方变换通常有正、负两支，密度相加时必须考虑每一支是否落在X的支持集内。",
+    "mastery_criteria": [
+      "能把平方或绝对值变换事件拆成原变量的区间",
+      "能求分段分布函数并正确处理正负分支和支持边界"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第二章 随机变量及其分布",
+      "section": "§5 随机变量的函数的分布（本节内主题：非单调变换）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从U(−1,1)，Y=X²。对0≤y≤1，F_Y(y)是多少？",
+      "answer": "√y"
+    }
+  },
+  {
+    "id": "cnm_ps029",
+    "name": "联合分布函数与矩形概率",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "二维分布函数F(x,y)=P(X≤x,Y≤y)同时记录两个变量的累计概率。矩形(a,b]×(c,d]的概率为F(b,d)−F(a,d)−F(b,c)+F(a,c)，这个矩形增量必须非负；仅对每个坐标单调不减并不足以成为联合分布函数。",
+    "mastery_criteria": [
+      "能把二维累计事件与矩形事件转换为联合分布函数表达式",
+      "能用四角容斥公式计算矩形概率并检查其非负性"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§1 二维随机变量",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "F(x,y)是(X,Y)的联合分布函数，它表示哪个事件的概率？",
+      "answer": "X≤x且Y≤y"
+    }
+  },
+  {
+    "id": "cnm_ps030",
+    "name": "二维离散联合分布律",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "联合分布律pᵢⱼ=P(X=xᵢ,Y=yⱼ)给出所有取值对的概率，各项非负且双重求和为1。求事件概率时，应在满足二维条件的格点上求和，不能把两条边缘概率无条件相乘。",
+    "mastery_criteria": [
+      "能检查联合分布表是否归一化并确定未知概率",
+      "能在联合分布表中筛选满足和、大小或相等条件的格点"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§1 二维随机变量（本节内主题：联合分布律）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y都只取0、1，联合概率p₀₀=0.1、p₀₁=0.2、p₁₀=0.3。p₁₁应是多少？",
+      "answer": "0.4"
+    }
+  },
+  {
+    "id": "cnm_ps031",
+    "name": "联合概率密度与支持区域",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "联合密度f(x,y)在平面上非负，二重积分为1；二维事件概率是其区域上的二重积分。积分限须由密度非零区域与事件区域的交集确定。三角形支持常导致变量相关，不能只把坐标的取值区间当成整个支持矩形。",
+    "mastery_criteria": [
+      "能根据支持区域写出二重积分并确定归一化常数",
+      "能把事件不等式与支持区域相交后计算概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§1 二维随机变量（本节内主题：联合密度）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "f(x,y)=c在0<x<y<1内非零，其他处为0。归一化常数c是多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_ps032",
+    "name": "离散边缘分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "由联合分布律对另一个变量的全部取值求和，得到当前变量的边缘分布，例如P(X=xᵢ)=Σⱼpᵢⱼ。边缘分布一般不能唯一恢复联合分布；相同的边缘分布可对应不同的依赖结构。",
+    "mastery_criteria": [
+      "能对联合分布表按行或列求边缘概率并保持变量方向一致",
+      "能说明仅凭边缘分布不能判断联合概率或独立性"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§2 边缘分布",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "联合概率p₀₀=0.1、p₀₁=0.2、p₁₀=0.3、p₁₁=0.4，其中第一下标对应X。P(X=1)是多少？",
+      "answer": "0.7"
+    }
+  },
+  {
+    "id": "cnm_ps033",
+    "name": "连续边缘密度",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "由联合密度对另一个变量积分得到边缘密度，如f_X(x)=∫f(x,y)dy。实际积分限随固定的x与支持区域而变；在非矩形支持中，盲目使用固定上下限会得到错误的边缘密度。",
+    "mastery_criteria": [
+      "能固定一个变量后由联合支持区域确定另一个变量的积分限",
+      "能求边缘密度并复查其支持集和归一化"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§2 边缘分布（本节内主题：边缘密度）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "f(x,y)=2在0<x<y<1内，其他处为0。对0<x<1，f_X(x)是多少？",
+      "answer": "2(1−x)"
+    }
+  },
+  {
+    "id": "cnm_ps034",
+    "name": "离散条件分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "当P(X=xᵢ)>0时，P(Y=yⱼ|X=xᵢ)=pᵢⱼ/P(X=xᵢ)。在联合表中，这相当于固定X的一行后重新归一化。条件分布随条件值变化，而边缘分布汇总了所有条件层。",
+    "mastery_criteria": [
+      "能从联合表提取给定条件的一行或一列并正确归一化",
+      "能用条件分布计算条件下变量函数的事件概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§3 条件分布",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "联合概率p₀₀=0.1、p₀₁=0.2、p₁₀=0.3、p₁₁=0.4。P(Y=1|X=0)是多少？",
+      "answer": "2/3"
+    }
+  },
+  {
+    "id": "cnm_ps035",
+    "name": "连续条件密度",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "在f_X(x)>0的适用点，可用f_{Y|X}(y|x)=f(x,y)/f_X(x)选取条件密度的一个版本，其关于y的积分为1。它不是P(Y=y|X=x)的普通比值；连续变量的单点条件事件通常概率为0。条件密度按几乎处处意义确定。",
+    "mastery_criteria": [
+      "能在正边缘密度的条件下求条件密度并写出条件支持",
+      "能对条件密度积分计算条件区间概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§3 条件分布（本节内主题：条件密度）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "f(x,y)=2在0<x<y<1内，其他处为0。给定0<x<1时，Y|X=x的条件密度在x<y<1上是多少？",
+      "answer": "1/(1−x)"
+    }
+  },
+  {
+    "id": "cnm_ps036",
+    "name": "离散随机变量的独立性",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "离散X、Y独立等价于所有取值对满足pᵢⱼ=P(X=xᵢ)P(Y=yⱼ)。检验时须覆盖全表，不能只验证一个格点；若两变量各只有两个取值且边缘已定，一个格点的等式可结合总和推出其余，但这是特定结构的结果。",
+    "mastery_criteria": [
+      "能用联合分布与边缘乘积逐项检验独立性",
+      "能在独立假设下从边缘分布构造联合概率并计算事件"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§4 相互独立的随机变量",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立，P(X=0)=0.3，P(Y=1)=0.4，则P(X=0,Y=1)是多少？",
+      "answer": "0.12"
+    }
+  },
+  {
+    "id": "cnm_ps037",
+    "name": "连续随机变量的独立性",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "具有联合密度的X、Y独立，当且仅当f(x,y)=f_X(x)f_Y(y)几乎处处成立。判断时必须包含密度为0的区域；仅在非矩形支持内部把表达式写成两个单变量函数的乘积，不能保证独立。",
+    "mastery_criteria": [
+      "能同时检查密度表达式与支持区域来判断独立性",
+      "能利用独立性分解联合密度或二维区间概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§4 相互独立的随机变量（本节内主题：连续独立性）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "f(x,y)=4xy在0<x<1、0<y<1内，其他处为0。X、Y是否独立？",
+      "answer": "独立，边缘密度分别为2x和2y"
+    }
+  },
+  {
+    "id": "cnm_ps038",
+    "name": "离散随机变量之和的分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "离散和Z=X+Y的概率可对满足x+y=z的联合概率求和。若X、Y独立，联合项可换为边缘概率乘积，形成离散卷积。独立泊松变量的和仍为泊松分布，参数相加；缺少独立性时不能直接套用。",
+    "mastery_criteria": [
+      "能沿联合分布表的相同和取值求和得到Z的分布",
+      "能利用独立性完成离散卷积或泊松和的参数计算"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§5 两个随机变量的函数的分布",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立，均服从参数1/2的0–1分布。P(X+Y=1)是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps039",
+    "name": "连续和的卷积与积分限",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "独立连续变量之和Z=X+Y的密度为f_Z(z)=∫f_X(x)f_Y(z−x)dx；一般情形可对联合密度f(x,z−x)积分。积分限由x和z−x分别落入各自支持集的共同条件决定，常需按z分段。",
+    "mastery_criteria": [
+      "能依据两个变量支持集为卷积确定分段积分限",
+      "能求两个独立均匀变量之和的密度或区间概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§5 两个随机变量的函数的分布（本节内主题：和的密度）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立且均服从U(0,1)，Z=X+Y。在0<z<1时f_Z(z)是多少？",
+      "answer": "z"
+    }
+  },
+  {
+    "id": "cnm_ps040",
+    "name": "独立正态变量的线性组合",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "相互独立的正态变量Xᵢ~N(μᵢ,σᵢ²)的线性组合ΣaᵢXᵢ+b仍为正态，均值为Σaᵢμᵢ+b，方差为Σaᵢ²σᵢ²；方差为0时退化为常数。仅各边缘为正态而没有独立或联合正态条件，不能据此断言组合正态。",
+    "mastery_criteria": [
+      "能在独立条件下计算正态线性组合的两个参数",
+      "能区分系数对均值的一次作用与对方差的平方作用"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§5 两个随机变量的函数的分布（本节内主题：独立正态变量的线性组合）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立，X~N(1,4)，Y~N(2,9)。X+Y的分布是什么？",
+      "answer": "N(3,13)"
+    }
+  },
+  {
+    "id": "cnm_ps041",
+    "name": "最大值与最小值的分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "对于相互独立变量，最大值M满足P(M≤z)=∏Fᵢ(z)，因为所有变量都须≤z；最小值m满足P(m>z)=∏[1−Fᵢ(z)]。先写事件再求概率可以避免最大、最小公式混淆；相同分布时相应乘积变为幂。",
+    "mastery_criteria": [
+      "能用“全部不超过”或“全部超过”把极值事件分解",
+      "能求独立同分布样本的极值分布函数和尾概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§5 两个随机变量的函数的分布（本节内主题：最大值与最小值）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立且均服从U(0,1)。P(max(X,Y)≤1/2)是多少？",
+      "answer": "1/4"
+    }
+  },
+  {
+    "id": "cnm_ps042",
+    "name": "二维函数分布与事件区域",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "multivariate",
+    "chapter": "概率论与数理统计 第三章 多维随机变量及其分布 3",
+    "type": "conceptual",
+    "description": "求Z=g(X,Y)的分布时，可用F_Z(z)=P(g(X,Y)≤z)把问题转成联合密度上的区域积分。乘积与商的不等式需结合变量符号和支持区间；商要求分母不为0，若分母为0只在零概率集合上发生，可在那里另作定义而不改变分布。",
+    "mastery_criteria": [
+      "能把乘积或商事件转换成正确的二维积分区域",
+      "能识别区域随阈值的分段变化并说明零概率分母的处理"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第三章 多维随机变量及其分布",
+      "section": "§5 两个随机变量的函数的分布（本节内主题：乘积与商）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立且均服从U(0,1)，令Z=Y/X。P(Z≤1/2)是多少？",
+      "answer": "1/4"
+    }
+  },
+  {
+    "id": "cnm_ps043",
+    "name": "离散数学期望与存在条件",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "离散变量的有限数学期望为E(X)=Σxᵢpᵢ，要求Σ|xᵢ|pᵢ<∞。非负变量允许扩展期望为+∞；有限分布一定可直接加权求和。期望是概率加权平均，不必是变量能够实际取到的数。",
+    "mastery_criteria": [
+      "能对有限离散分布计算加权期望并解释其不必为可能取值",
+      "能检查简单无穷离散分布的绝对可积性或非负期望发散"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X取−1、2的概率分别为2/3、1/3。E(X)是多少？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnm_ps044",
+    "name": "连续数学期望",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "具有密度f的变量，在∫|x|f(x)dx<∞时有E(X)=∫xf(x)dx。积分范围是密度支持集；若正负两部分均发散，不能用对称抵消或柯西主值充当通常的数学期望。",
+    "mastery_criteria": [
+      "能由密度写出并计算期望积分",
+      "能识别对称分布仍需绝对可积条件才能断言期望等于对称中心"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望（本节内主题：连续期望）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X的密度为2x（0<x<1），其他处为0。E(X)是多少？",
+      "answer": "2/3"
+    }
+  },
+  {
+    "id": "cnm_ps045",
+    "name": "随机变量函数的期望",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "若g(X)可积，可直接按X的分布计算E[g(X)]，无需先求g(X)的分布。二维函数可对联合分布求和或积分；一般E[g(X)]不等于g(E(X))，非线性运算不能移出期望。",
+    "mastery_criteria": [
+      "能直接用原分布计算平方、绝对值或乘积函数的期望",
+      "能识别非线性函数与期望交换的错误"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望（本节内主题：函数的期望）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X取−1、1的概率均为1/2。E(X²)是多少？",
+      "answer": "1"
+    }
+  },
+  {
+    "id": "cnm_ps046",
+    "name": "期望线性性与指示变量计数",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "对有限个可积变量，E(ΣaᵢXᵢ+b)=ΣaᵢE(Xᵢ)+b，不要求独立。计数变量可写为指示变量之和，再用E(I_A)=P(A)求期望；即使各计数事件相关，线性性仍适用。",
+    "mastery_criteria": [
+      "能在不假设独立的情况下计算线性组合的期望",
+      "能用指示变量分解计数并逐项相加求期望"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望（本节内主题：线性性）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "E(X)=2，E(Y)=3，不知道X、Y是否独立。E(2X−Y+4)是多少？",
+      "answer": "5"
+    }
+  },
+  {
+    "id": "cnm_ps047",
+    "name": "方差定义与二阶矩公式",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "当E(X²)<∞时，Var(X)=E[(X−E(X))²]=E(X²)−[E(X)]²，度量对均值的平方偏离。方差非负，方差为0等价于X以概率1等于某个常数；这不要求样本空间每一个零概率结果都取同一数值。",
+    "mastery_criteria": [
+      "能用二阶原点矩和均值计算方差",
+      "能解释零方差的几乎必然常数含义并区别标准差"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§2 方差",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "E(X)=2，E(X²)=7，则Var(X)是多少？",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_ps048",
+    "name": "线性变换的方差",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "对常数a、b和有限二阶矩变量，Var(aX+b)=a²Var(X)，标准差变为|a|倍。加常数只改变位置，不改变离散程度；方差的量纲是原变量量纲的平方，不能沿用期望的线性规则。",
+    "mastery_criteria": [
+      "能计算平移、缩放和负系数变换的方差",
+      "能区分均值、方差与标准差在单位换算中的变化"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§2 方差（本节内主题：线性变换）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Var(X)=3，则Var(−2X+5)是多少？",
+      "answer": "12"
+    }
+  },
+  {
+    "id": "cnm_ps049",
+    "name": "常见离散分布的期望与方差",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "0–1(p)分布的均值为p、方差为p(1−p)；B(n,p)的均值为np、方差为np(1−p)；Poisson(λ)的均值与方差都为λ。这些公式需与对应模型条件结合使用，均值和方差相等并不能单独证明分布为泊松分布。",
+    "mastery_criteria": [
+      "能正确配对0–1、二项和泊松模型的均值方差公式",
+      "能由二项均值与方差反求合法的n、p"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望；§2 方差（本节内主题：离散分布数字特征）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从B(10,0.2)，它的均值与方差分别是多少？",
+      "answer": "2和1.6"
+    }
+  },
+  {
+    "id": "cnm_ps050",
+    "name": "常见连续分布的期望与方差",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "U(a,b)的均值为(a+b)/2、方差为(b−a)²/12；率参数λ的指数分布均值为1/λ、方差为1/λ²；N(μ,σ²)的均值为μ、方差为σ²。不同书写约定下的指数参数应先核对是率还是尺度。",
+    "mastery_criteria": [
+      "能从均匀、指数或正态参数计算均值和方差",
+      "能依据给定均值反求指数率参数或均匀支持宽度"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§1 数学期望；§2 方差（本节内主题：连续分布数字特征）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从U(2,8)，其均值与方差分别是多少？",
+      "answer": "5和3"
+    }
+  },
+  {
+    "id": "cnm_ps051",
+    "name": "协方差与乘积期望",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "对有限二阶矩变量，Cov(X,Y)=E[(X−E(X))(Y−E(Y))]=E(XY)−E(X)E(Y)。协方差对两个位置分别线性，常数平移不影响它；符号反映共同线性变动方向，但大小依赖变量单位。",
+    "mastery_criteria": [
+      "能由联合分布或给定乘积期望计算协方差",
+      "能对平移和缩放后的两个变量应用协方差双线性"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§3 协方差及相关系数",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "E(X)=1，E(Y)=2，E(XY)=5，则Cov(X,Y)是多少？",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_ps052",
+    "name": "随机变量之和的方差",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "Var(aX+bY)=a²Var(X)+b²Var(Y)+2abCov(X,Y)。独立且二阶矩有限时协方差为0，可以省略交叉项；只要不相关也足以使方差相加。相减的方差同样不能直接相减。",
+    "mastery_criteria": [
+      "能保留协方差项计算线性组合方差",
+      "能判断何时允许方差相加并检查所得方差非负"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§3 协方差及相关系数（本节内主题：和的方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Var(X)=4，Var(Y)=9，Cov(X,Y)=1，则Var(X+Y)是多少？",
+      "answer": "15"
+    }
+  },
+  {
+    "id": "cnm_ps053",
+    "name": "相关系数与线性相关",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "当两个方差有限且均为正时，ρ=Cov(X,Y)/(σ_Xσ_Y)，满足−1≤ρ≤1。|ρ|=1当且仅当两变量几乎必然满足非退化线性关系；ρ=0只表示不存在线性相关，不表示完全无依赖。常数变量的相关系数未定义。",
+    "mastery_criteria": [
+      "能在正方差条件下计算相关系数并检查取值范围",
+      "能由线性变换符号判定完全相关的方向"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§3 协方差及相关系数（本节内主题：相关系数）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Cov(X,Y)=3，Var(X)=4，Var(Y)=9，则相关系数是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps054",
+    "name": "独立与不相关的区别",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "二阶矩有限时，独立推出E(XY)=E(X)E(Y)，从而协方差为0；反向一般不成立。非线性依赖可以与零协方差并存。只有在额外结构成立时，例如联合正态变量，零相关才与独立等价。",
+    "mastery_criteria": [
+      "能说明独立推出不相关所需的有限矩条件",
+      "能用平方关系构造不相关但不独立的例子"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§3 协方差及相关系数（本节内主题：独立与不相关）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y独立且二阶矩有限，一定成立的是哪项？",
+      "answer": "Cov(X,Y)=0"
+    }
+  },
+  {
+    "id": "cnm_ps055",
+    "name": "二维正态分布与协方差矩阵",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "二维变量的协方差矩阵对角项为各自方差，非对角项为相互协方差。对于联合正态的X、Y，零协方差与独立等价，且线性组合仍为正态。仅两个边缘均为正态不足以保证联合正态，不能省略联合结构条件。",
+    "mastery_criteria": [
+      "能由方差和相关系数写出二维协方差矩阵",
+      "能在联合正态条件下用零协方差判定独立并识别条件缺失"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§4 协方差矩阵与多元正态分布",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X、Y联合正态，方差都大于0且Cov(X,Y)=0。哪项成立？",
+      "answer": "X、Y相互独立"
+    }
+  },
+  {
+    "id": "cnm_ps056",
+    "name": "原点矩与中心矩",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "moments",
+    "chapter": "概率论与数理统计 第四章 随机变量的数字特征 4",
+    "type": "conceptual",
+    "description": "在相应绝对矩有限时，k阶原点矩为E(X^k)，k阶中心矩为E[(X−E(X))^k]。一阶中心矩为0，二阶中心矩就是方差；二阶原点矩一般不等于方差。矩是描述分布的数字特征，有限个矩通常不能唯一确定任意分布。",
+    "mastery_criteria": [
+      "能区分原点矩与中心矩并将二阶矩相互转换",
+      "能展开三阶中心矩并据给定原点矩计算其值"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第四章 随机变量的数字特征",
+      "section": "§5 其他数字特征（本节内主题：原点矩与中心矩）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X的均值为3、二阶原点矩为11，其二阶中心矩是多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_ps057",
+    "name": "切比雪夫不等式",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "若E(X)=μ、Var(X)=σ²<∞，则对ε>0有P(|X−μ|≥ε)≤σ²/ε²。此界不要求已知分布类型，但可能较保守；概率上界超过1时应结合概率最多为1。使用≥尾事件可推出开区间内概率的下界。",
+    "mastery_criteria": [
+      "能以均值、方差和偏差阈值给出分布无关的尾概率上界",
+      "能区分不等式界与精确概率并判断给出的界是否有信息"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律（本节内主题：切比雪夫不等式）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "E(X)=10、Var(X)=4。切比雪夫不等式给出的P(|X−10|≥4)上界是多少？",
+      "answer": "1/4"
+    }
+  },
+  {
+    "id": "cnm_ps058",
+    "name": "依概率收敛",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "X_n依概率收敛于a，指对每个ε>0，P(|X_n−a|>ε)→0。它控制偏离概率而非每个结果路径，也不自动保证期望收敛；极少出现但数值很大的结果可能持续影响期望。",
+    "mastery_criteria": [
+      "能用任意正阈值的尾概率描述依概率收敛",
+      "能识别依概率收敛与数值逐点收敛、期望收敛的差别"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律（本节内主题：依概率收敛）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X_n依概率收敛于常数a的定义是哪项？",
+      "answer": "对每个ε>0，P(|X_n−a|>ε)→0"
+    }
+  },
+  {
+    "id": "cnm_ps059",
+    "name": "独立变量的切比雪夫大数定律",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "若X₁,…相互独立、方差有限，且(1/n²)ΣVar(Xᵢ)→0，则平均值减去其期望的差依概率收敛于0。各变量方差有共同有限上界是充分条件，不要求同分布；若期望不同，中心应是各期望的平均而非任意固定μ。",
+    "mastery_criteria": [
+      "能验证独立性与方差和条件并选择正确的中心化项",
+      "能用方差上界给平均误差的概率界及样本量界"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律（本节内主题：切比雪夫大数定律）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "独立变量Xᵢ的方差都不超过常数C。对前n项平均值，其方差的上界是什么？",
+      "answer": "C/n"
+    }
+  },
+  {
+    "id": "cnm_ps060",
+    "name": "伯努利大数定律与频率稳定",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "相互独立、成功概率同为p的伯努利试验中，成功频率S_n/n依概率收敛于p。其均值为p，方差为p(1−p)/n；这说明频率在概率意义下趋稳，不保证增加一次试验后误差必然减小。",
+    "mastery_criteria": [
+      "能把成功频率写成0–1变量平均值并给出其方差",
+      "能通过切比雪夫界估算频率偏差概率或保守样本量"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律（本节内主题：伯努利大数定律）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "400次相互独立试验的成功概率都为1/2。成功频率的方差是多少？",
+      "answer": "1/1600"
+    }
+  },
+  {
+    "id": "cnm_ps061",
+    "name": "辛钦大数定律",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "独立同分布变量若具有有限数学期望μ，即E|X₁|<∞，其样本平均值依概率收敛于μ；这里无需假设方差有限。这一结论与用有限方差证明的特殊大数定律不能混同，也不适用于任意相关的同分布序列。",
+    "mastery_criteria": [
+      "能识别独立同分布和有限绝对一阶矩的条件",
+      "能判断无限方差但有限均值的模型是否仍满足该大数定律"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律（本节内主题：辛钦大数定律）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "辛钦大数定律的一组充分条件是哪项？",
+      "answer": "独立同分布且E|X₁|<∞"
+    }
+  },
+  {
+    "id": "cnm_ps062",
+    "name": "独立同分布中心极限定理",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "若Xᵢ独立同分布且均值μ、方差σ²∈(0,∞)，则(ΣXᵢ−nμ)/(σ√n)依分布趋于N(0,1)。等价地，√n(X̄_n−μ)/σ渐近标准正态。有限n下通常是近似；不能把原始平均值直接称作标准正态。",
+    "mastery_criteria": [
+      "能为和或平均值选择正确的中心和标准化尺度",
+      "能用给定标准正态分布函数值近似计算大样本和的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§2 中心极限定理",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Xᵢ独立同分布，均值μ、方差σ²>0且有限。哪个标准化量由中心极限定理渐近标准正态？",
+      "answer": "√n(X̄_n−μ)/σ"
+    }
+  },
+  {
+    "id": "cnm_ps063",
+    "name": "二项分布的正态近似与连续性修正",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "固定0<p<1时，B(n,p)经(np,np(1−p))标准化渐近标准正态。有限n近似需两端计数np、n(1−p)不太小；将整数区间a≤X≤b换成连续区间a−0.5<Y<b+0.5可作连续性修正，但修正仍只是近似。",
+    "mastery_criteria": [
+      "能为二项计数确定正态近似的均值和方差",
+      "能按含端点的整数事件正确应用0.5连续性修正"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§2 中心极限定理（本节内主题：棣莫弗–拉普拉斯定理）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从B(100,1/2)。正态近似模型的均值与标准差分别是多少？",
+      "answer": "50和5"
+    }
+  },
+  {
+    "id": "cnm_ps064",
+    "name": "大数定律与中心极限定理的分工",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "limits",
+    "chapter": "概率论与数理统计 第五章 大数定律及中心极限定理 5",
+    "type": "conceptual",
+    "description": "大数定律说明平均值的极限位置，中心极限定理说明以√n尺度放大后的中心波动的渐近分布。独立同分布、有限正方差情形下，两者可以同时成立；平均值趋于常数并不意味着标准化误差也趋于0。",
+    "mastery_criteria": [
+      "能区分平均值本身的概率极限与标准化误差的分布极限",
+      "能判断将样本量增大若干倍时标准误差的变化"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第五章 大数定律及中心极限定理",
+      "section": "§1 大数定律；§2 中心极限定理（本节内主题：收敛目标与波动尺度）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "独立同分布样本的总体方差为有限正数。把样本量从n增为4n，样本平均值的标准差变为原来的多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps065",
+    "name": "总体与简单随机样本",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "数理统计中的简单随机样本X₁,…,X_n通常指与总体同分布且相互独立的一组变量；观测后得到的x₁,…,x_n是样本值。有限总体不放回抽样一般有依赖性，不能未经说明直接当作独立同分布样本。",
+    "mastery_criteria": [
+      "能区分总体分布、随机样本和已观测样本值",
+      "能检查同分布与相互独立这两个简单随机样本条件"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§1 随机样本",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "统计学中把X₁,…,X_n称为来自总体F的简单随机样本，通常要求什么？",
+      "answer": "各变量相互独立且均服从F"
+    }
+  },
+  {
+    "id": "cnm_ps066",
+    "name": "统计量与抽样分布",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "统计量是样本的已知可测函数，表达式不能含有未指定的未知参数；其随重复抽样产生的分布称为抽样分布。含未知总体参数的标准化表达式可能是枢轴量，但按此定义不是仅由样本确定的统计量。",
+    "mastery_criteria": [
+      "能依据是否含未知参数识别样本函数是否为统计量",
+      "能区分总体分布与统计量的抽样分布"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§1 随机样本（本节内主题：统计量）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "总体均值μ未知。下列哪一个一定是统计量？",
+      "answer": "X̄=(X₁+…+X_n)/n"
+    }
+  },
+  {
+    "id": "cnm_ps067",
+    "name": "样本均值的数字特征",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "对均值μ、方差σ²有限的独立同分布样本，X̄=(1/n)ΣXᵢ满足E(X̄)=μ、Var(X̄)=σ²/n。其标准差σ/√n称均值的标准误差；方差下降依赖抽样独立性，相关样本须加入协方差项。",
+    "mastery_criteria": [
+      "能从总体均值方差与样本量推得样本均值的均值方差",
+      "能区别总体标准差与样本均值的标准误差"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§1 随机样本（本节内主题：样本均值）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "总体均值为5、方差为16，独立同分布样本量为4。样本均值的均值与方差分别是多少？",
+      "answer": "5和4"
+    }
+  },
+  {
+    "id": "cnm_ps068",
+    "name": "样本方差与n−1校正",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "对n≥2的样本，常用样本方差S²=Σ(Xᵢ−X̄)²/(n−1)。独立同分布且二阶矩有限时，E(S²)=σ²；分母取n的经验二阶中心矩期望为(n−1)σ²/n。减去估计的样本均值会消耗一个线性自由度。",
+    "mastery_criteria": [
+      "能用n−1作分母计算样本方差并与经验中心矩区分",
+      "能解释n−1校正后的无偏性及未校正量的期望"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§1 随机样本（本节内主题：样本方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "样本值为2、4、6，采用分母n−1的样本方差是多少？",
+      "answer": "4"
+    }
+  },
+  {
+    "id": "cnm_ps069",
+    "name": "样本原点矩与中心矩",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "k阶样本原点矩为A_k=(1/n)ΣXᵢ^k，k阶样本中心矩为B_k=(1/n)Σ(Xᵢ−X̄)^k。A₁=X̄，B₁=0，B₂=A₂−A₁²=(n−1)S²/n。矩估计通常将总体原点矩与对应样本矩相等，再解参数。",
+    "mastery_criteria": [
+      "能由数据计算一阶和二阶样本原点矩",
+      "能利用B₂=A₂−A₁²转换样本中心矩与样本方差"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§1 随机样本（本节内主题：样本矩）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "样本值为1、2、3。二阶样本原点矩A₂是多少？",
+      "answer": "14/3"
+    }
+  },
+  {
+    "id": "cnm_ps070",
+    "name": "χ²分布及自由度",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "n个相互独立标准正态变量的平方和服从自由度n的χ²分布。其均值为n、方差为2n；独立χ²变量相加仍为χ²分布，自由度相加。没有独立性时不能直接使用平方和或可加性结论。",
+    "mastery_criteria": [
+      "能从独立标准正态平方和识别χ²分布和自由度",
+      "能利用独立χ²分布的可加性计算合并自由度"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§3 抽样分布（本节内主题：χ²分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Z₁,…,Z₄相互独立且均服从N(0,1)。ΣZᵢ²服从什么分布？",
+      "answer": "χ²(4)"
+    }
+  },
+  {
+    "id": "cnm_ps071",
+    "name": "t分布的构造与自由度",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "若Z~N(0,1)、U~χ²(ν)且独立，则T=Z/√(U/ν)服从t(ν)。t分布关于0对称，有限自由度时尾部比标准正态更厚，自由度增大时趋近标准正态。分母须除以χ²变量的自由度再开方。",
+    "mastery_criteria": [
+      "能检查独立条件并将标准正态与χ²组合识别为t分布",
+      "能识别遗漏自由度缩放或缺少独立性造成的错误构造"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§3 抽样分布（本节内主题：t分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "Z~N(0,1)、U~χ²(9)且独立。哪个变量服从t(9)？",
+      "answer": "Z/√(U/9)"
+    }
+  },
+  {
+    "id": "cnm_ps072",
+    "name": "F分布与倒数关系",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "若U~χ²(m)、V~χ²(n)且独立，则F=(U/m)/(V/n)服从F(m,n)。两个自由度有顺序，分别对应分子与分母。倒数1/F服从F(n,m)；t(ν)变量的平方服从F(1,ν)。",
+    "mastery_criteria": [
+      "能将两个独立χ²变量按各自自由度缩放后构造F变量",
+      "能应用倒数交换自由度及t平方与F的关系"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§3 抽样分布（本节内主题：F分布）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "U~χ²(4)、V~χ²(7)且独立。(U/4)/(V/7)服从什么分布？",
+      "answer": "F(4,7)"
+    }
+  },
+  {
+    "id": "cnm_ps073",
+    "name": "正态样本均值与方差的联合性质",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "若X₁,…,X_n为N(μ,σ²)的简单随机样本，n≥2且σ²>0，则X̄~N(μ,σ²/n)，(n−1)S²/σ²~χ²(n−1)，并且X̄与S²相互独立。这些精确分布与独立性依赖正态总体，不能对任意总体无条件照搬。",
+    "mastery_criteria": [
+      "能使用正态样本抽样定理确定样本均值与方差的精确分布",
+      "能识别正态总体下样本均值和样本方差独立的适用条件"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§3 抽样分布（本节内主题：正态总体抽样定理）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "容量为10的样本来自非退化正态总体N(μ,σ²)，S²采用分母9。9S²/σ²服从什么分布？",
+      "answer": "χ²(9)"
+    }
+  },
+  {
+    "id": "cnm_ps074",
+    "name": "正态样本的t与F枢轴量",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "sampling",
+    "chapter": "概率论与数理统计 第六章 样本及抽样分布 6",
+    "type": "conceptual",
+    "description": "正态总体方差σ²>0且样本量n≥2时，√n(X̄−μ)/S~t(n−1)，因为标准化均值与校正方差独立。两个相互独立、总体方差均为正且容量n₁,n₂均≥2的正态样本，满足(S₁²/σ₁²)/(S₂²/σ₂²)~F(n₁−1,n₂−1)。这些含未知参数的表达式是枢轴量，其分布不含未知参数。",
+    "mastery_criteria": [
+      "能由正态样本均值与样本方差构造t枢轴量",
+      "能为两个独立正态样本的标准化方差比确定有序自由度"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第六章 样本及抽样分布",
+      "section": "§3 抽样分布（本节内主题：样本构造的t与F量）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X₁,…,X₁₆来自非退化正态总体N(μ,σ²)，S²采用分母15。4(X̄−μ)/S服从什么分布？",
+      "answer": "t(15)"
+    }
+  },
+  {
+    "id": "cnm_ps075",
+    "name": "点估计、估计量与估计值",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "点估计用统计量θ̂=T(X₁,…,X_n)估计未知参数θ。抽样前θ̂是随机变量，观测后θ̂的具体数值是估计值；同一个样本可产生不同方法的估计量。点估计本身不量化全部不确定性，需要进一步研究误差或区间。",
+    "mastery_criteria": [
+      "能区分未知参数、随机估计量和观测后的估计值",
+      "能根据给定估计规则对样本计算具体参数估计值"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "用样本均值X̄估计总体均值μ。抽样之前，X̄属于哪一类？",
+      "answer": "随机估计量"
+    }
+  },
+  {
+    "id": "cnm_ps076",
+    "name": "单参数矩估计",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "矩估计将含未知参数的总体矩等同于对应样本矩，再解方程。单参数模型常从E(X)=m(θ)与X̄=m(θ̂)求解；须检查方程是否可解、解是否唯一以及是否落在参数空间内。",
+    "mastery_criteria": [
+      "能写出一阶总体矩与样本均值相等的估计方程",
+      "能解出参数并检查率参数、长度等参数的合法范围"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：矩估计）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "X服从率参数λ>0的指数分布。样本为2、3、5，用一阶矩估计得到λ̂是多少？",
+      "answer": "3/10"
+    }
+  },
+  {
+    "id": "cnm_ps077",
+    "name": "双参数矩估计",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "估计两个参数通常需要两个可识别的矩方程，例如把E(X)与E(X²)分别等同于A₁与A₂。样本二阶中心矩为A₂−A₁²，分母是n；把它擅自改为n−1会改变矩估计方法。",
+    "mastery_criteria": [
+      "能建立两个原点矩方程并联立求出两个参数",
+      "能将样本原点矩转为中心矩并检查尺度或边界的合法性"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：多参数矩估计）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态总体的μ、σ²均未知，样本为1、2、3。用前两阶矩估计得到(μ̂,σ̂²)是什么？",
+      "answer": "(2,2/3)"
+    }
+  },
+  {
+    "id": "cnm_ps078",
+    "name": "似然函数与离散模型的最大似然估计",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "独立样本的似然把已观测数据固定，将联合分布律或联合密度视为参数的函数。最大似然估计在允许的参数空间内最大化该函数；内点可用对数似然求导，边界仍须检查。允许0≤p≤1时，0–1模型的p̂为样本均值。泊松模型在样本均值为正或允许λ=0时有λ̂=X̄；若参数严格要求λ>0且全体观测为0，只有λ↓0的似然上确界而无最大值。",
+    "mastery_criteria": [
+      "能把独立样本的概率乘积写成参数的似然函数",
+      "能求0–1或泊松参数的最大似然估计并检查参数边界"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：最大似然估计）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "10次独立伯努利试验成功7次，参数空间0≤p≤1。p的最大似然估计是多少？",
+      "answer": "0.7"
+    }
+  },
+  {
+    "id": "cnm_ps079",
+    "name": "指数分布的最大似然估计与参数约定",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "率参数模型f(x;λ)=λe^(−λx)、x>0、λ>0中，正样本和给出λ̂=n/ΣXᵢ。若改用尺度θ=1/λ，最大似然估计为θ̂=X̄。求导前应固定参数约定，并保留支持与参数约束。",
+    "mastery_criteria": [
+      "能从指数样本的对数似然推导率参数估计",
+      "能在率与尺度参数之间转换并核对单位"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：指数模型最大似然估计）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "率参数λ的指数分布样本为1、2、3。λ的最大似然估计是多少？",
+      "answer": "1/2"
+    }
+  },
+  {
+    "id": "cnm_ps080",
+    "name": "正态模型的最大似然估计",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "对非恒定的正态样本，μ、σ²同时未知时，最大似然估计为μ̂=X̄、σ̂²=Σ(Xᵢ−X̄)²/n；方差估计的分母是n，通常有偏。若μ已知，方差最大似然估计改用已知μ作中心。全体观测相同而σ²>0时可能只有无界似然，须留意退化边界。",
+    "mastery_criteria": [
+      "能同时求正态均值和方差的最大似然估计并使用正确分母",
+      "能区分均值已知与未知时方差估计的中心"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：正态模型最大似然估计）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态总体μ、σ²均未知，观测为1、1、3、3。最大似然估计(μ̂,σ̂²)是什么？",
+      "answer": "(2,1)"
+    }
+  },
+  {
+    "id": "cnm_ps081",
+    "name": "参数依赖支持与最大似然边界",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "当分布支持依赖参数时，似然必须保留指示函数。采用f(x;θ)=θ^(−1)I(0≤x≤θ)、θ>0的密度版本，正最大观测值给U(0,θ)的估计θ̂=max Xᵢ。不能只对对数似然求导而忽略可行区间；某些模型的最大值还可能不唯一。",
+    "mastery_criteria": [
+      "能从样本落入支持集的条件确定参数可行区间",
+      "能比较边界似然并识别最大似然估计非唯一的情况"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§1 点估计（本节内主题：参数边界与支持）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "shared",
+      "label": "数一/数三共用基础",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "采用f(x;θ)=1/θ（0≤x≤θ，θ>0），支持外密度为0。观测为2、5、3，θ的最大似然估计是多少？",
+      "answer": "5"
+    }
+  },
+  {
+    "id": "cnm_ps082",
+    "name": "无偏性与偏差",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "偏差为Bias_θ(θ̂)=E_θ(θ̂)−θ；对参数空间中每个θ都为0才称无偏。无偏是重复抽样平均意义上的性质，不保证某一次估计接近真值，也不表示方差小。对估计量作非线性变换通常不保持无偏。",
+    "mastery_criteria": [
+      "能按参数的全部合法取值检查估计量期望是否等于目标",
+      "能对有偏估计量做简单常数校正并避免非线性无偏误推"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§3 估计量的评选标准（本节内主题：无偏性）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "独立同分布样本量n≥2、总体方差有限。哪一个是σ²的无偏估计量？",
+      "answer": "Σ(Xᵢ−X̄)²/(n−1)"
+    }
+  },
+  {
+    "id": "cnm_ps083",
+    "name": "均方误差与有效性比较",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "平方损失下MSE_θ(θ̂)=E_θ[(θ̂−θ)²]=Var_θ(θ̂)+Bias_θ(θ̂)²。在无偏估计量之间，可用方差较小比较有效性；有偏与无偏方法的总体误差比较应看MSE，不能只比较方差。",
+    "mastery_criteria": [
+      "能将均方误差分解为方差与偏差平方",
+      "能在相同目标参数和抽样模型下比较无偏估计量的方差"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§3 估计量的评选标准（本节内主题：有效性与均方误差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "某估计量方差为3、偏差为2，其均方误差是多少？",
+      "answer": "7"
+    }
+  },
+  {
+    "id": "cnm_ps084",
+    "name": "估计量的一致性",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "估计量序列θ̂_n一致，指在每个固定参数值下θ̂_n依概率收敛于θ。无偏性描述有限样本期望，一致性描述样本增大后的收敛，两者不互相推出。偏差趋零且方差趋零是具有有限二阶矩时的一组充分条件。",
+    "mastery_criteria": [
+      "能用依概率收敛表述一致性并区别有限样本无偏性",
+      "能用偏差和方差的极限判断简单估计量是否一致"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§3 估计量的评选标准（本节内主题：一致性）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "θ̂_n是一致估计量的含义是什么？",
+      "answer": "对每个ε>0，P_θ(|θ̂_n−θ|>ε)→0"
+    }
+  },
+  {
+    "id": "cnm_ps085",
+    "name": "置信区间与置信水平",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "频率学派置信区间[L(X),U(X)]是随机区间，覆盖固定未知参数θ的概率为给定置信水平或至少达到该水平。数据观测后区间端点已确定，不能把95%置信水平解释成θ落入这一个固定区间的后验概率95%。",
+    "mastery_criteria": [
+      "能用重复抽样覆盖率解释置信水平",
+      "能区分随机区间覆盖固定参数与参数后验概率的含义"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§4 区间估计",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "某构造产生精确95%覆盖率的置信区间。正确的频率学派解释是哪项？",
+      "answer": "重复抽样得到的区间长期约95%覆盖固定真参数"
+    }
+  },
+  {
+    "id": "cnm_ps086",
+    "name": "正态均值的已知方差区间与单侧界",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "正态总体σ已知时，均值的双侧1−α置信区间为X̄±z_(1−α/2)σ/√n；本图谱z_p满足P(Z≤z_p)=p。单侧下置信界为X̄−z_(1−α)σ/√n，上置信界为X̄+z_(1−α)σ/√n。单侧与双侧临界值不能混用。",
+    "mastery_criteria": [
+      "能使用已知标准差构造精确双侧正态均值区间",
+      "能按单侧覆盖方向选取分位数和端点符号"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§5 正态总体均值与方差的区间估计；§7 单侧置信区间（本节内主题：已知方差均值区间）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态总体标准差σ=4已知，n=16，X̄=10。下侧分位数定义为P(Z≤z_p)=p，给定z_0.975=1.96。μ的95%双侧置信区间是什么？",
+      "answer": "[8.04,11.96]"
+    }
+  },
+  {
+    "id": "cnm_ps087",
+    "name": "正态均值的未知方差t区间",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "正态总体方差未知且n≥2时，用S代替σ须同时将临界值改为t分布：X̄±t_(1−α/2)(n−1)S/√n。这里t_p(ν)为下侧p分位数。精确覆盖依赖正态样本；样本方差应采用n−1分母。",
+    "mastery_criteria": [
+      "能以样本标准差和n−1自由度构造精确t区间",
+      "能根据区间半宽反求样本标准差或比较错误的z代替"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§5 正态总体均值与方差的区间估计（本节内主题：未知方差均值区间）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态总体方差未知，n=9，X̄=10，样本标准差S=3。t_p(ν)定义为P(T≤t_p(ν))=p，给定t_0.975(8)=2.306。95%双侧均值区间是什么？",
+      "answer": "[7.694,12.306]"
+    }
+  },
+  {
+    "id": "cnm_ps088",
+    "name": "正态总体方差的χ²置信区间",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "正态样本中Q=(n−1)S²/σ²~χ²(n−1)。若χ²_p(ν)为下侧p分位数，方差双侧区间为[(n−1)S²/χ²_(1−α/2),(n−1)S²/χ²_(α/2)]。反解正数分母会交换上下端分位数；标准差区间需再逐端开平方。",
+    "mastery_criteria": [
+      "能从χ²枢轴量反解σ²区间并正确交换分位数位置",
+      "能区分方差与标准差区间以及非对称区间端点"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§5 正态总体均值与方差的区间估计（本节内主题：方差区间）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态样本n=10，S²=4。χ²_p(ν)满足P(Q≤χ²_p(ν))=p，给定χ²_0.025(9)=2.700、χ²_0.975(9)=19.023。σ²的95%区间是哪一个？",
+      "answer": "[36/19.023,36/2.700]"
+    }
+  },
+  {
+    "id": "cnm_ps089",
+    "name": "两个正态总体均值差的区间",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "两个相互独立正态样本、方差已知时，均值差的标准误差为√(σ₁²/n₁+σ₂²/n₂)，使用正态分位数。方差未知但可假定相等时，用合并方差S_p²=[(n₁−1)S₁²+(n₂−1)S₂²]/(n₁+n₂−2)，t自由度为n₁+n₂−2；不等方差时不能照用合并公式。",
+    "mastery_criteria": [
+      "能在独立且方差已知情形构造均值差正态区间",
+      "能在共同未知方差假设下计算合并方差与t区间"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§5 正态总体均值与方差的区间估计（本节内主题：两个总体均值差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两个独立正态总体的已知方差均为4，两组样本量均为8，样本均值差为3。z_p为下侧分位数，P(Z≤z_p)=p，z_0.975=1.96。均值差95%区间是什么？",
+      "answer": "[1.04,4.96]"
+    }
+  },
+  {
+    "id": "cnm_ps090",
+    "name": "两个正态总体方差比的F区间",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "estimation",
+    "chapter": "概率论与数理统计 第七章 参数估计 7",
+    "type": "conceptual",
+    "description": "对两个独立正态样本，令R=S₁²/S₂²、θ=σ₁²/σ₂²，则R/θ~F(n₁−1,n₂−1)。F_p为下侧分位数时，θ的双侧区间为[R/F_(1−α/2),R/F_(α/2)]，自由度顺序不可交换；交换两总体后区间应逐端取倒数并交换端点。",
+    "mastery_criteria": [
+      "能以正态样本方差比构造F枢轴量并反解参数比值区间",
+      "能正确处理两个自由度顺序及交换总体后的倒数区间"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第七章 参数估计",
+      "section": "§5 正态总体均值与方差的区间估计（本节内主题：方差比区间）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两个独立正态样本量分别为6、9，样本方差比R=S₁²/S₂²=2。定义P(F≤F_p(a,b))=p。σ₁²/σ₂²的95%区间是哪一个？",
+      "answer": "[2/F_0.975(5,8),2/F_0.025(5,8)]"
+    }
+  },
+  {
+    "id": "cnm_ps091",
+    "name": "原假设与备择假设",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "假设检验先规定原假设H₀、备择H₁和检验方向，再依据样本决定是否拒绝H₀。单侧检验针对事先确定的增大或减小方向；不能观察结果后再挑选单侧方向却沿用原显著性水平。未拒绝H₀表示证据不足，不等于证明H₀为真。",
+    "mastery_criteria": [
+      "能根据研究问题事先写出双侧或单侧假设",
+      "能正确表述拒绝与未拒绝原假设的证据含义"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§1 假设检验",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "检验结果“未拒绝H₀”的正确含义是什么？",
+      "answer": "在所用检验和显著性水平下，拒绝H₀的证据不足"
+    }
+  },
+  {
+    "id": "cnm_ps092",
+    "name": "两类错误与检验功效",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "第一类错误是在H₀成立时拒绝H₀；第二类错误是在某个备择参数值下未拒绝H₀，其概率β通常随真实备择参数改变。检验功效为1−β。固定样本量和模型时，降低第一类错误上限通常会扩大不拒绝区域并损失部分功效。",
+    "mastery_criteria": [
+      "能根据真实假设与检验决定识别两类错误",
+      "能在指定备择参数下用抽样分布计算β和功效"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§1 假设检验（本节内主题：两类错误）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "H₀实际上成立，但根据样本拒绝了H₀，这称为什么？",
+      "answer": "第一类错误"
+    }
+  },
+  {
+    "id": "cnm_ps093",
+    "name": "显著性水平与拒绝域",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "检验的显著性水平α约束H₀参数范围内第一类错误概率的上确界不超过α。连续枢轴量可按分位数构造精确拒绝域；离散分布在不随机化时常只能使实际错误概率小于目标水平。拒绝域与单侧或双侧备择方向一致。",
+    "mastery_criteria": [
+      "能用零假设下的分布与临界值判断样本是否进入拒绝域",
+      "能区分名义显著性水平与离散检验的实际第一类错误率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§1 假设检验（本节内主题：拒绝域）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "H₀下Z~N(0,1)，双侧拒绝域为|Z|>1.96。观测z=2.10时应作何决定？",
+      "answer": "拒绝H₀"
+    }
+  },
+  {
+    "id": "cnm_ps094",
+    "name": "正态均值的已知方差z检验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "正态总体σ>0已知时，以Z=√n(X̄−μ₀)/σ检验均值。双侧拒绝域为|Z|>z_(1−α/2)；上侧备择μ>μ₀用Z>z_(1−α)，对H₀:μ≤μ₀可在边界μ₀控制水平。这里z_p采用下侧累计概率定义。",
+    "mastery_criteria": [
+      "能计算已知方差均值检验的z值并作双侧决定",
+      "能按事先确定的单侧备择选择正确临界值与不拒绝表述"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§2 正态总体均值的假设检验（本节内主题：已知方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态总体σ=10已知，n=25、X̄=104，检验H₀:μ=100对H₁:μ≠100。下侧分位数满足P(Z≤z_p)=p，z_0.975=1.96。α=0.05时结论是什么？",
+      "answer": "z=2，拒绝H₀"
+    }
+  },
+  {
+    "id": "cnm_ps095",
+    "name": "正态均值的未知方差t检验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "正态总体σ²>0未知、n≥2时，T=√n(X̄−μ₀)/S在H₀的边界均值下服从t(n−1)。双侧、上侧、下侧拒绝域分别用对应t分位数和方向；n−1来自样本方差的自由度，不能把S²当作标准差放进分母。",
+    "mastery_criteria": [
+      "能用样本标准差构造单样本t检验并选取n−1自由度",
+      "能在双侧与单侧备择之间正确改变尾概率和比较方向"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§2 正态总体均值的假设检验（本节内主题：未知方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "非退化正态总体方差未知，n=9、X̄=12、S=3。检验H₀:μ=10对H₁:μ≠10。定义P(T≤t_p(ν))=p，t_0.975(8)=2.306。α=0.05时结论是什么？",
+      "answer": "t=2，未拒绝H₀"
+    }
+  },
+  {
+    "id": "cnm_ps096",
+    "name": "正态总体方差的χ²检验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "对非退化正态样本、n≥2，检验H₀:σ²=σ₀²时使用Q=(n−1)S²/σ₀²~χ²(n−1)。双侧拒绝域为Q低于下侧α/2分位数或高于下侧1−α/2分位数；方差增加的单侧备择只用上尾。χ²分布不对称，不能照搬±同一临界值。",
+    "mastery_criteria": [
+      "能用假设方差构造χ²统计量并正确确定自由度",
+      "能区分双尾与单上尾方差检验的拒绝规则"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§3 正态总体方差的假设检验（本节内主题：单总体方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "非退化正态样本n=10，S²=4，检验H₀:σ²=4对双侧备择。定义P(Q≤χ²_p(ν))=p，χ²_0.025(9)=2.700、χ²_0.975(9)=19.023。α=0.05时结论是什么？",
+      "answer": "Q=9，未拒绝H₀"
+    }
+  },
+  {
+    "id": "cnm_ps097",
+    "name": "两个正态均值的合并方差t检验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "两个样本相互独立、各自来自正态总体且具有相同未知正方差时，可用合并方差S_p²构造T=[X̄−Ȳ−δ₀]/[S_p√(1/n₁+1/n₂)]，在H₀:μ₁−μ₂=δ₀下服从t(n₁+n₂−2)。等方差条件或样本独立性缺失时，不能直接使用这个精确检验。",
+    "mastery_criteria": [
+      "能计算两组样本的合并方差和均值差检验统计量",
+      "能检查独立、正态与共同未知方差三个模型条件"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§2 正态总体均值的假设检验（本节内主题：两个总体均值）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两个独立正态总体具有相同未知正方差，n₁=n₂=5，S₁²=4、S₂²=9。合并方差S_p²是多少？",
+      "answer": "6.5"
+    }
+  },
+  {
+    "id": "cnm_ps098",
+    "name": "两个正态总体方差比的F检验",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "两个独立非退化正态样本检验H₀:σ₁²/σ₂²=r₀时，F=(S₁²/S₂²)/r₀在H₀下服从F(n₁−1,n₂−1)。双侧检验使用两个不同的下侧分位数作界；不能事后把较大样本方差总放分子，却仍使用未调整的单侧规则。",
+    "mastery_criteria": [
+      "能依据指定总体顺序构造方差比统计量并确定两个自由度",
+      "能按双侧或预先指定单侧备择比较F分位数"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§3 正态总体方差的假设检验（本节内主题：两个总体方差）",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "两个独立非退化正态样本n₁=6、n₂=9，S₁²=8、S₂²=4。检验H₀:σ₁²=σ₂²时，F值及其零假设分布是什么？",
+      "answer": "F=2，服从F(5,8)"
+    }
+  },
+  {
+    "id": "cnm_ps099",
+    "name": "p值的定义与解释",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "p值在零假设模型下衡量出现当前及更不支持H₀的检验统计量结果的概率，方向由事先规定的备择和统计量决定。标准正态双侧检验中p=2[1−Φ(|z_obs|)]。p值不是H₀为真的后验概率，也不直接表示效应大小。",
+    "mastery_criteria": [
+      "能按单侧或双侧备择计算尾概率形式的p值",
+      "能将p值与预设α比较并避免把它解释为零假设的概率"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§8 假设检验问题的p值法",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "正态均值双侧z检验观测|z|=2，给定Φ(2)=0.97725。p值是多少？",
+      "answer": "0.0455"
+    }
+  },
+  {
+    "id": "cnm_ps100",
+    "name": "置信区间与双侧检验的对应",
+    "subject": "math",
+    "domain": "概率论与数理统计",
+    "grade": 17,
+    "semester": "全",
+    "module": "testing",
+    "chapter": "概率论与数理统计 第八章 假设检验 8",
+    "type": "conceptual",
+    "description": "用同一统计模型、枢轴量和双侧尾部规则构造时，1−α置信区间可由所有未被α水平检验拒绝的参数值组成。因此假设值落在对应区间外就被拒绝。此对应需保持方法与方向一致，不能把任意区间与任意检验混用；边界须遵循相同的开闭约定。",
+    "mastery_criteria": [
+      "能用对应双侧置信区间判断某个假设值是否被拒绝",
+      "能说明区间与检验对应所需的一致模型、方法和尾部规则"
+    ],
+    "external": false,
+    "standards": [],
+    "epistemic_status": "modern_mathematics",
+    "textbook": {
+      "book": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "edition": 6,
+      "volume": "概率论与数理统计",
+      "chapter": "第八章 假设检验",
+      "section": "§4 置信区间与假设检验之间的关系",
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方公开目录的父节定位已核验；括号内为本图谱的主题定位，不代表教材另设小节；教材正文未逐页核验；摘要与题目为原创整理。"
+    },
+    "exam_scope": {
+      "track": "math1",
+      "label": "数一方向",
+      "verification": "依据出版社公开备考目录分类；2027大纲全文未逐条核验",
+      "basis_ids": [
+        "prep_2026_810",
+        "prep_2023_solutions"
+      ]
+    },
+    "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/probability-content-review.json",
+    "diagnostic_question": {
+      "question": "某正态均值的95%双侧t区间为[2,5]。使用同一模型与t枢轴量，在α=0.05的双侧检验中对H₀:μ=6作何决定？",
+      "answer": "拒绝H₀"
+    }
+  }
+]

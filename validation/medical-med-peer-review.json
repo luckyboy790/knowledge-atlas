@@ -1,0 +1,658 @@
+{
+  "subject": "med",
+  "review_date": "2026-10-31",
+  "schema_version": 1,
+  "reviewer": {
+    "agent": "/root/materia_medica_curriculum",
+    "role": "独立AI内容复核者",
+    "is_original_med_author": false,
+    "original_med_author": "/root/medicine_curriculum",
+    "human_expert_review": false,
+    "identity_note": "这是另一AI对原创医学学习图谱的独立复核；不是教师、临床专家或出版机构审定。"
+  },
+  "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+  "decision": "在所声明的本科核心概念学习范围内完成独立AI复核；13项发现已解决，无已知未解决的答案键或多正确选项问题；可交集成与教师审核。",
+  "actual_read_scope": {
+    "topic_descriptions_and_mastery_criteria": 124,
+    "complete_questions_including_four_options_answer_and_explanation": 248,
+    "dependency_endpoints_strength_and_reasons": 122,
+    "bibliography_records_and_primary_publisher_book_pages": 10,
+    "coverage_topic_mappings": 124,
+    "full_text_textbooks": 0,
+    "final_changed_topics_reread": 2,
+    "final_changed_questions_reread": 9,
+    "final_changed_dependencies_reread": 3,
+    "method": "先逐条读知识点、掌握要求、教材映射和依赖，再分课程逐题审题；修订后复读所有修改项及作者日志关键修订。结构程序不替代这轮语义审阅。"
+  },
+  "course_review_counts": [
+    {
+      "id": "anatomy",
+      "name": "系统解剖学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "histology",
+      "name": "组织学与胚胎学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "physiology",
+      "name": "生理学",
+      "topics_read": 14,
+      "questions_read": 28
+    },
+    {
+      "id": "biochem",
+      "name": "生物化学与分子生物学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "immunology",
+      "name": "医学免疫学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "microbiology",
+      "name": "医学微生物学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "pathology",
+      "name": "病理学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "pathophys",
+      "name": "病理生理学",
+      "topics_read": 14,
+      "questions_read": 28
+    },
+    {
+      "id": "pharmacology",
+      "name": "药理学",
+      "topics_read": 12,
+      "questions_read": 24
+    },
+    {
+      "id": "diagnostics",
+      "name": "诊断学",
+      "topics_read": 12,
+      "questions_read": 24
+    }
+  ],
+  "findings": [
+    {
+      "id": "MED-PR-001",
+      "severity": "medium",
+      "targets": [
+        "med_pathology_005"
+      ],
+      "finding": "血栓定义只说活体心血管内固体质块，遗漏血液成分来源，范围过宽。",
+      "resolution": "补明由血液成分凝固、聚集等形成。",
+      "status": "resolved",
+      "evidence_urls": [
+        "https://www.gxtcmu.edu.cn/rklc/jysjs/blxjys/jxyhygl13/blslx/content_31851"
+      ],
+      "evidence_limit": "官方院校旧教案仅用于稳定基本概念交叉检查，不用于证明最新版教材内容。"
+    },
+    {
+      "id": "MED-PR-002",
+      "severity": "medium",
+      "targets": [
+        "med_microbiology_008",
+        "med_microbiology_008_q2"
+      ],
+      "finding": "掌握要求的“持续大量产毒”易被理解为产毒素，且病毒持续存在不等于持续高产量复制；持续感染与潜伏感染的关系需更清楚。",
+      "resolution": "改为产生子代病毒；描述说明潜伏感染可为病毒持续存在的一种状态；同步题干和慢性感染干扰项。",
+      "status": "resolved",
+      "evidence_urls": [
+        "https://news.whu.edu.cn/info/1015/489307.htm"
+      ],
+      "evidence_limit": "院校研究报道中疱疹病毒潜伏/子代病毒的概念例证；未把特定病毒机制泛化为所有病毒，也未引入实验操作。"
+    },
+    {
+      "id": "MED-PR-003",
+      "severity": "medium",
+      "targets": [
+        "med_immunology_002_q1"
+      ],
+      "finding": "解析“后三者”在选项洗牌后包含正确选项胸腺，造成错误指代。",
+      "resolution": "解析直接点名扁桃体、脾和淋巴结为外周淋巴组织，消除对选项位置的依赖。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-004",
+      "severity": "low",
+      "targets": [
+        "med_diagnostics_002 <- med_diagnostics_001"
+      ],
+      "finding": "症状与体征的区别并不要求先掌握问诊。",
+      "resolution": "hard改为soft，并明确问诊为理解背景。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-005",
+      "severity": "low",
+      "targets": [
+        "med_diagnostics_009 <- med_diagnostics_008"
+      ],
+      "finding": "特异度与灵敏度是并列条件指标，强制先后关系过强。",
+      "resolution": "hard改为soft，保留对不同条件分母的比较理由。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-006",
+      "severity": "low",
+      "targets": [
+        "med_pathology_012 <- med_pathology_009"
+      ],
+      "finding": "病理取材与辅助技术还适用于非肿瘤病变，不必以肿瘤基础为必要前置。",
+      "resolution": "hard改为soft，将肿瘤定位为辅助技术的应用背景之一。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-007",
+      "severity": "low",
+      "targets": [
+        "med_physiology_001_q2"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：负反馈、正反馈与前馈的概念混淆；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-008",
+      "severity": "low",
+      "targets": [
+        "med_biochem_004_q2"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：糖异生共享可逆步骤、绕过不可逆步骤和能量投入；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-009",
+      "severity": "low",
+      "targets": [
+        "med_biochem_007_q2"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：转氨、脱氨、脱羧与尿素合成的区别；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-010",
+      "severity": "low",
+      "targets": [
+        "med_biochem_008_q1"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：ATP能量耦联与核酸模板、脱氧核苷酸和tRNA作用的区别；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-011",
+      "severity": "low",
+      "targets": [
+        "med_pathology_006_q2"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：淋巴回流障碍与其他水肿机制的区别；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-012",
+      "severity": "low",
+      "targets": [
+        "med_pathophys_001_q1"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：病因、发病条件、发病机制和转归的区别；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    },
+    {
+      "id": "MED-PR-013",
+      "severity": "low",
+      "targets": [
+        "med_pathophys_012_q1"
+      ],
+      "finding": "原干扰项包含明显跨概念或容易排除的错误，概念区分力有限。",
+      "resolution": "改为同课程常见混淆：肾脏对水、电解质和酸碱稳态的共同贡献；保留原正确答案，并复读最终四选项确认唯一答案。",
+      "status": "resolved"
+    }
+  ],
+  "finding_count": 13,
+  "unresolved_findings": [],
+  "semantic_review_conclusions": [
+    "逐题检查题干假设、单位、选项互斥、唯一答案和解析；未发现修订后仍需保留的事实性答案错误或多正确选项。",
+    "生理和药理模型附必要条件；实验指标不自动等同临床获益，诊断指标区分条件分母、阈值与参考区间。",
+    "病例/数值内容为教学示例，不提供个体化治疗剂量、处方、侵入操作或病原体操作流程。",
+    "基础与标准题主要检验核心概念，不代表临床操作能力、全专业知识覆盖或经过心理测量验证的题库。",
+    "依赖逐条检查后保留85条hard、37条soft；它们是学习建议，不声称官方唯一教学顺序。",
+    "其余课程内容与所选本科主题定位一致，但核心知识样本数量明显少于各教材完整章节，未声称全书覆盖。"
+  ],
+  "source_review": {
+    "selected_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+    "series_url": "https://medu.pmph.com/community/toCommunity.action?id=2130",
+    "series_page_read": true,
+    "books": [
+      {
+        "id": "med_anatomy_pmph10",
+        "title": "系统解剖学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "崔慧先",
+          "刘学政"
+        ],
+        "isbn": "9787117365918",
+        "publication_date": "2024-08-14",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32510",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_histology_pmph10",
+        "title": "组织学与胚胎学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "李继承",
+          "邵淑娟"
+        ],
+        "isbn": "9787117363433",
+        "publication_date": "2024-07-25",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32413",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_physiology_pmph10",
+        "title": "生理学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "罗自强",
+          "管又飞"
+        ],
+        "isbn": "9787117364256",
+        "publication_date": "2024-07-25",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32415",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节",
+        "date_discrepancy_review": {
+          "e_teaching_date": "2025-04-15",
+          "publisher_store_date": "2024-07-25",
+          "publisher_store_url": "https://wap.pmphmall.com/gdsdetail/653054-331651",
+          "status": "两页日期差异已独立复现；保留商城日期与说明，不把平台日期差异认定为新版"
+        }
+      },
+      {
+        "id": "med_biochem_pmph10",
+        "title": "生物化学与分子生物学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "高国全",
+          "汤其群"
+        ],
+        "isbn": "9787117363365",
+        "publication_date": "2024-07-30",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32418",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_immunology_pmph8",
+        "title": "医学免疫学（第8版）",
+        "edition": "第8版",
+        "authors": [
+          "曹雪涛"
+        ],
+        "isbn": "9787117366144",
+        "publication_date": "2024-09-05",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32664",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_microbiology_pmph10",
+        "title": "医学微生物学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "郭晓奎",
+          "彭宜红"
+        ],
+        "isbn": "9787117365932",
+        "publication_date": "2024-08-19",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32524",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_pathology_pmph10",
+        "title": "病理学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "卞修武",
+          "李一雷"
+        ],
+        "isbn": "9787117364683",
+        "publication_date": "2024-07-31",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32439",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_pathophys_pmph10",
+        "title": "病理生理学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "陈国强",
+          "钱睿哲"
+        ],
+        "isbn": "9787117363006",
+        "publication_date": "2024-07-30",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32443",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节",
+        "date_discrepancy_review": {
+          "e_teaching_date": "2025-04-02",
+          "publisher_store_date": "2024-07-30",
+          "publisher_store_url": "https://wap.pmphmall.com/gdsdetail/653095-331692",
+          "status": "两页日期差异已独立复现；保留商城日期与说明，不把平台日期差异认定为新版"
+        }
+      },
+      {
+        "id": "med_pharmacology_pmph10",
+        "title": "药理学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "杨宝峰",
+          "陈建国"
+        ],
+        "isbn": "9787117364287",
+        "publication_date": "2024-07-25",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32422",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      },
+      {
+        "id": "med_diagnostics_pmph10",
+        "title": "诊断学（第10版）",
+        "edition": "第10版",
+        "authors": [
+          "万学红",
+          "卢雪峰"
+        ],
+        "isbn": "9787117363631",
+        "publication_date": "2024-07-25",
+        "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32419",
+        "publisher_metadata_read": true,
+        "edition_authors_isbn_match": true,
+        "full_text_read": false,
+        "chapter_verification": "仅按出版社简介核对主题范围；未读取完整目录和全部教材章节"
+      }
+    ],
+    "edition_note": "第十轮是系列轮次，医学免疫学实际为第8版；其余九册为第10版，均按各书书目记录。",
+    "latest_search_scope": "截至核验日，复核出版社现行第十轮临床系列与所选10册公开书目；官方检索未找到已正式出版且替代这些书目的五年制临床第十一轮。不能由检索未发现推出全国所有出版社、所有院校不存在其他较新教材。",
+    "policy_notice_boundary": "出版社2026年十五五药学类第十轮修订通知属于另一专业系列，不能当作五年制临床教材已换版的证据。",
+    "policy_notice_url": "https://medu.pmph.com/homepage/tohomepage.action",
+    "full_text_boundary": "教材书目、简介与有限官方教学材料提供版本和主题依据；本复核没有逐页读取教材全文或核验每一原书节号、页码。"
+  },
+  "author_revision_log_review": {
+    "log_file": "med/author_revision_log.json",
+    "logged_distinct_questions": 158,
+    "all_logged_questions_included_in_full_question_review": true,
+    "key_revisions": [
+      {
+        "question_id": "med_physiology_003_q2",
+        "check": "已写明任何强度第二刺激均不能引发新动作电位，用于绝对不应期区分。",
+        "result": "confirmed"
+      },
+      {
+        "question_id": "med_physiology_007_q2",
+        "check": "同长、同黏度、理想刚性圆管层流条件齐全，半径四次方计算正确。",
+        "result": "confirmed"
+      },
+      {
+        "question_id": "med_pharmacology_002_q2",
+        "check": "绝对生物利用度说明按给药量归一化、静脉AUC参照及线性等适用条件。",
+        "result": "confirmed"
+      },
+      {
+        "question_id": "med_pharmacology_007_q2",
+        "check": "效价比较限定按各自Emax的50%定义EC50；最大效能另作比较，禁止无条件推广至相同绝对效应。",
+        "result": "confirmed"
+      }
+    ],
+    "author_checkpoint_preserved": true,
+    "author_checkpoint_file": "med/author_self_check.json"
+  },
+  "independent_recomputations": [
+    {
+      "question_id": "med_physiology_006_q1",
+      "formula": "70 mL/搏 × 60 搏/分 ÷ 1000 mL/L",
+      "recomputed_value": 4.2,
+      "unit": "L/分",
+      "stored_answer_key": "A",
+      "stored_answer_text": "4.2 L/分",
+      "passed": true
+    },
+    {
+      "question_id": "med_physiology_006_q2",
+      "formula": "(120 − 50) / 120 × 100%",
+      "recomputed_value": 58.333333333333336,
+      "unit": "%，取最接近整数",
+      "stored_answer_key": "B",
+      "stored_answer_text": "58%",
+      "passed": true
+    },
+    {
+      "question_id": "med_physiology_007_q1",
+      "formula": "ΔP不变，R增为2倍：Q新/Q旧 = 1/2",
+      "recomputed_value": 0.5,
+      "unit": "倍",
+      "stored_answer_key": "D",
+      "stored_answer_text": "变为原来的一半",
+      "passed": true
+    },
+    {
+      "question_id": "med_physiology_007_q2",
+      "formula": "同长同黏度刚性圆管层流，R∝r⁻⁴：1/(1/2)^4",
+      "recomputed_value": 16.0,
+      "unit": "倍",
+      "stored_answer_key": "C",
+      "stored_answer_text": "原来的16倍",
+      "passed": true
+    },
+    {
+      "question_id": "med_physiology_008_q2",
+      "formula": "(500 − 150) mL × 12/分 ÷ 1000 mL/L",
+      "recomputed_value": 4.2,
+      "unit": "L/分",
+      "stored_answer_key": "B",
+      "stored_answer_text": "4.2 L/分",
+      "passed": true
+    },
+    {
+      "question_id": "med_physiology_010_q2",
+      "formula": "(100 mg/L ÷ 2 mg/L) × 1 mL/分",
+      "recomputed_value": 50.0,
+      "unit": "mL/分；不能自动等同GFR",
+      "stored_answer_key": "A",
+      "stored_answer_text": "50 mL/分",
+      "passed": true
+    },
+    {
+      "question_id": "med_microbiology_003_q1",
+      "formula": "无死亡的理想二分裂模型：1 × 2³",
+      "recomputed_value": 8,
+      "unit": "个",
+      "stored_answer_key": "A",
+      "stored_answer_text": "8个",
+      "passed": true
+    },
+    {
+      "question_id": "med_pharmacology_005_q2",
+      "formula": "一级消除且无新增输入：(1/2)^(8/4) × 100%",
+      "recomputed_value": 25.0,
+      "unit": "%",
+      "stored_answer_key": "B",
+      "stored_answer_text": "25%",
+      "passed": true
+    },
+    {
+      "question_id": "med_diagnostics_007_q1",
+      "formula": "100% − 95%",
+      "recomputed_value": 5,
+      "unit": "%；参考人群约有此比例在中间95%区间外",
+      "stored_answer_key": "D",
+      "stored_answer_text": "5%",
+      "passed": true
+    },
+    {
+      "question_id": "med_diagnostics_008_q1",
+      "formula": "真阳性90 / 有病100 × 100%",
+      "recomputed_value": 90.0,
+      "unit": "%",
+      "stored_answer_key": "A",
+      "stored_answer_text": "90%",
+      "passed": true
+    },
+    {
+      "question_id": "med_diagnostics_009_q1",
+      "formula": "真阴性180 / 无病200 × 100%",
+      "recomputed_value": 90.0,
+      "unit": "%",
+      "stored_answer_key": "B",
+      "stored_answer_text": "90%",
+      "passed": true
+    },
+    {
+      "question_id": "med_diagnostics_010_q1",
+      "formula": "真阳性90 / (真阳性90 + 假阳性90) × 100%",
+      "recomputed_value": 50.0,
+      "unit": "%",
+      "stored_answer_key": "A",
+      "stored_answer_text": "50%",
+      "passed": true
+    }
+  ],
+  "sequence_check": {
+    "question_id": "med_biochem_003_q2",
+    "input_5_to_3": "ATGC",
+    "reverse_complement_5_to_3": "GCAT",
+    "stored_answer_text": "5′-GCAT-3′",
+    "passed": true
+  },
+  "symbolic_checks": [
+    {
+      "question_id": "med_pharmacology_002_q2",
+      "formula": "F=(AUC_nonIV/D_nonIV)/(AUC_IV/D_IV)",
+      "result": "题目答案与解析相符，限相关线性等适用条件"
+    },
+    {
+      "question_id": "med_diagnostics_010_q2",
+      "result": "灵敏度和特异度等条件相同时，低患病率使阳性预测值通常下降；检查与灵敏度分母区分。"
+    }
+  ],
+  "structural_checks": {
+    "passed": true,
+    "errors": [],
+    "topics": 124,
+    "questions": 248,
+    "dependencies": 122,
+    "books": 10,
+    "courses": 10,
+    "coverage_mapping_count": 124,
+    "graph_acyclic": true,
+    "graph_roots": 29,
+    "dependency_strength_counts": {
+      "hard": 85,
+      "soft": 37
+    },
+    "answer_distribution": {
+      "B": 64,
+      "D": 70,
+      "A": 62,
+      "C": 52
+    },
+    "all_review_markers_synchronized": true
+  },
+  "validator_rerun": {
+    "command": "python task_med/med/validate_med.py --output task_med/med/program_validation_after_peer_review.json",
+    "passed": true,
+    "output_file": "med/program_validation_after_peer_review.json",
+    "note": "复跑作者程序用于结构和算术检查；原作者自查文件未覆盖，程序输出内的作者自查描述仍属阶段记录，不替代本独立内容复核。"
+  },
+  "regeneration": {
+    "entry_point": "med/build_med.py",
+    "author_sources_synchronized": true,
+    "repeat_build_same_sha256": true,
+    "peer_patch_script": "med/apply_peer_review.py",
+    "detailed_before_after_log": "med/peer_review_revision_log.json"
+  },
+  "display_answer_note": "原始A/B/C/D为题库内部答案键。主项目按会话稳定洗牌显示选项，界面序号可能不同；本复核按选项文本检查，未为位置分布重新扰动整套数据。",
+  "limitations": [
+    "未逐页核对最新版教材全文，不能声称出版社内容认证。",
+    "复核者是另一AI，尚无医学教师、临床专业人员或命题专家审核。",
+    "课程只覆盖本科核心概念，不含完整内外妇儿专科、全部药物或执业考试范围。",
+    "未做实际学习者难度、区分度、信度或效度研究。",
+    "不能把图谱通过复核等同于患者诊疗建议或临床能力认证。"
+  ],
+  "final_read_files": [
+    {
+      "file": "topics.json",
+      "sha256": "3b800f1c08683883a90370efcd397cc6b265701273ba622fb4ee5eb3e420f063",
+      "bytes": 278167
+    },
+    {
+      "file": "questions.json",
+      "sha256": "0562cb1820ac5727c2f142326b6f64da4dd4297a7306f14ba230db5ee9a79e41",
+      "bytes": 435018
+    },
+    {
+      "file": "dependencies.json",
+      "sha256": "d3423ff9c900263ce6615baf15330854fd2dbfab4a74014e854d00ad9e033d79",
+      "bytes": 27155
+    },
+    {
+      "file": "sources.json",
+      "sha256": "08a079fb8ebd040b8918a553b81ee65c9e9813abd6e058d30cb6eb214bf8cda4",
+      "bytes": 12793
+    },
+    {
+      "file": "coverage.json",
+      "sha256": "603844880b79f2c30112fbd475999de78a71f912fddb9387aa8704bde49dc688",
+      "bytes": 57750
+    }
+  ],
+  "sha256": {
+    "topics": "3b800f1c08683883a90370efcd397cc6b265701273ba622fb4ee5eb3e420f063",
+    "questions": "0562cb1820ac5727c2f142326b6f64da4dd4297a7306f14ba230db5ee9a79e41",
+    "dependencies": "d3423ff9c900263ce6615baf15330854fd2dbfab4a74014e854d00ad9e033d79",
+    "sources": "08a079fb8ebd040b8918a553b81ee65c9e9813abd6e058d30cb6eb214bf8cda4",
+    "coverage": "603844880b79f2c30112fbd475999de78a71f912fddb9387aa8704bde49dc688"
+  }
+}

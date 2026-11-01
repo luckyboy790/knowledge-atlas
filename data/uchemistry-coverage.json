@@ -1,0 +1,1583 @@
+{
+  "subject": "uchemistry",
+  "checked_date": "2026-10-31",
+  "scope": "本科大学化学核心原理、微观结构、反应热力学与动力学、溶液、电化学及有机/分析基础",
+  "mapping_policy": "学习单元编号为项目自编；textbook.chapter/section为已经读取的出版社目录主题定位，不引用未读正文页码。",
+  "courses": [
+    {
+      "id": "structure",
+      "name": "物质结构基础",
+      "grade": 61,
+      "book": "uch_general_tju3",
+      "topic_count": 24,
+      "question_count": 48,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "气体模型",
+          "chapter": "第1章 气体模型",
+          "points": [
+            {
+              "point": "理想气体状态方程",
+              "topicIds": [
+                "uch_structure_001"
+              ],
+              "textbook_chapter": "第1章 气体和等离子体",
+              "textbook_section": "1.1.1 理想气体状态方程式和分压定律"
+            },
+            {
+              "point": "理想混合气体的分压",
+              "topicIds": [
+                "uch_structure_002"
+              ],
+              "textbook_chapter": "第1章 气体和等离子体",
+              "textbook_section": "1.1.1 理想气体状态方程式和分压定律"
+            },
+            {
+              "point": "真实气体的压缩因子",
+              "topicIds": [
+                "uch_structure_003"
+              ],
+              "textbook_chapter": "第1章 气体和等离子体",
+              "textbook_section": "1.1.2 实际气体"
+            }
+          ]
+        },
+        {
+          "unit": "原子结构",
+          "chapter": "第2章 原子结构",
+          "points": [
+            {
+              "point": "原子轨道的量子数",
+              "topicIds": [
+                "uch_structure_004"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.2.2 波函数和量子数"
+            },
+            {
+              "point": "波函数与电子概率密度",
+              "topicIds": [
+                "uch_structure_005"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.2.3 电子云"
+            },
+            {
+              "point": "轨道数与电子容量",
+              "topicIds": [
+                "uch_structure_006"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.2.2 波函数和量子数"
+            },
+            {
+              "point": "泡利不相容原理",
+              "topicIds": [
+                "uch_structure_007"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.3.2 核外电子排布原则"
+            },
+            {
+              "point": "洪特规则与未成对电子",
+              "topicIds": [
+                "uch_structure_008"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.3.2 核外电子排布原则"
+            },
+            {
+              "point": "过渡元素离子的电子排布",
+              "topicIds": [
+                "uch_structure_009"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.3.3 各元素原子的电子层结构"
+            },
+            {
+              "point": "有效核电荷与原子半径",
+              "topicIds": [
+                "uch_structure_010"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.3.7 元素一些性质的周期性"
+            },
+            {
+              "point": "逐级电离能",
+              "topicIds": [
+                "uch_structure_011"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.3.7 元素一些性质的周期性"
+            }
+          ]
+        },
+        {
+          "unit": "化学键与分子",
+          "chapter": "第3章 化学键与分子",
+          "points": [
+            {
+              "point": "路易斯结构与形式电荷",
+              "topicIds": [
+                "uch_structure_012"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.1 化学键的电子理论"
+            },
+            {
+              "point": "电子域与分子空间构型",
+              "topicIds": [
+                "uch_structure_013"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.3 杂化轨道理论与分子的空间构型"
+            },
+            {
+              "point": "杂化轨道与σ、π键",
+              "topicIds": [
+                "uch_structure_014"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.3 杂化轨道理论与分子的空间构型"
+            },
+            {
+              "point": "分子轨道的成键与反键",
+              "topicIds": [
+                "uch_structure_015"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.4 分子轨道理论"
+            },
+            {
+              "point": "键级与分子磁性",
+              "topicIds": [
+                "uch_structure_016"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.4 分子轨道理论"
+            },
+            {
+              "point": "键偶极与分子极性",
+              "topicIds": [
+                "uch_structure_017"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.5 分子间作用力和氢键"
+            },
+            {
+              "point": "色散力与分子间作用",
+              "topicIds": [
+                "uch_structure_018"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.5 分子间作用力和氢键"
+            },
+            {
+              "point": "氢键的供体与受体",
+              "topicIds": [
+                "uch_structure_019"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.4.5 分子间作用力和氢键"
+            }
+          ]
+        },
+        {
+          "unit": "晶体与配位",
+          "chapter": "第4章 晶体与配位",
+          "points": [
+            {
+              "point": "晶胞与粒子分摊",
+              "topicIds": [
+                "uch_structure_020"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.5.2 晶体的微观结构"
+            },
+            {
+              "point": "布拉格衍射条件",
+              "topicIds": [
+                "uch_structure_021"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.5.6 晶体结构和表征晶体结构的X射线衍射技术"
+            },
+            {
+              "point": "晶体缺陷与性质",
+              "topicIds": [
+                "uch_structure_022"
+              ],
+              "textbook_chapter": "第6章 物质结构基础",
+              "textbook_section": "6.5.5 晶体中的缺陷"
+            },
+            {
+              "point": "配位数与配体齿数",
+              "topicIds": [
+                "uch_structure_023"
+              ],
+              "textbook_chapter": "第7章 配位化合物",
+              "textbook_section": "7.1.1 配位化合物的组成"
+            },
+            {
+              "point": "配合物构型与未成对电子",
+              "topicIds": [
+                "uch_structure_024"
+              ],
+              "textbook_chapter": "第7章 配位化合物",
+              "textbook_section": "7.2.2 配位化合物的空间构型、键型和磁性"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_general_tju3"
+      ]
+    },
+    {
+      "id": "thermodynamics",
+      "name": "化学热力学与平衡",
+      "grade": 62,
+      "book": "uch_physical_tju7a",
+      "topic_count": 24,
+      "question_count": 48,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "热力学第一定律",
+          "chapter": "第1章 热力学第一定律",
+          "points": [
+            {
+              "point": "状态函数与过程量",
+              "topicIds": [
+                "uch_thermodynamics_001"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.1 基本概念及术语"
+            },
+            {
+              "point": "热力学第一定律与符号约定",
+              "topicIds": [
+                "uch_thermodynamics_002"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.2 热力学第一定律"
+            },
+            {
+              "point": "体积功与外压",
+              "topicIds": [
+                "uch_thermodynamics_003"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.10 可逆过程与可逆体积功"
+            },
+            {
+              "point": "摩尔热容及理想气体关系",
+              "topicIds": [
+                "uch_thermodynamics_004"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.4 摩尔热容"
+            },
+            {
+              "point": "焓与恒压热",
+              "topicIds": [
+                "uch_thermodynamics_005"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.3 恒容热、恒压热及焓"
+            },
+            {
+              "point": "赫斯定律与反应焓",
+              "topicIds": [
+                "uch_thermodynamics_006"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.8 标准摩尔反应焓的计算"
+            },
+            {
+              "point": "反应焓的温度修正",
+              "topicIds": [
+                "uch_thermodynamics_007"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.8 标准摩尔反应焓的计算：基尔霍夫公式"
+            }
+          ]
+        },
+        {
+          "unit": "热力学第二定律",
+          "chapter": "第2章 热力学第二定律",
+          "points": [
+            {
+              "point": "可逆过程与准静态条件",
+              "topicIds": [
+                "uch_thermodynamics_008"
+              ],
+              "textbook_chapter": "第二章 热力学第一定律",
+              "textbook_section": "§2.10 可逆过程与可逆体积功"
+            },
+            {
+              "point": "熵的定义与熵变计算",
+              "topicIds": [
+                "uch_thermodynamics_009"
+              ],
+              "textbook_chapter": "第三章 热力学第二定律",
+              "textbook_section": "§3.3 熵与克劳修斯不等式；§3.4 熵变的计算"
+            },
+            {
+              "point": "总熵判据与熵产生",
+              "topicIds": [
+                "uch_thermodynamics_010"
+              ],
+              "textbook_chapter": "第三章 热力学第二定律",
+              "textbook_section": "§3.3 熵与克劳修斯不等式"
+            },
+            {
+              "point": "吉布斯函数与恒温恒压判据",
+              "topicIds": [
+                "uch_thermodynamics_011"
+              ],
+              "textbook_chapter": "第三章 热力学第二定律",
+              "textbook_section": "§3.6 亥姆霍兹函数和吉布斯函数"
+            },
+            {
+              "point": "亥姆霍兹函数与恒温恒容判据",
+              "topicIds": [
+                "uch_thermodynamics_012"
+              ],
+              "textbook_chapter": "第三章 热力学第二定律",
+              "textbook_section": "§3.6 亥姆霍兹函数和吉布斯函数"
+            }
+          ]
+        },
+        {
+          "unit": "多组分系统",
+          "chapter": "第3章 多组分系统",
+          "points": [
+            {
+              "point": "化学势与物质迁移",
+              "topicIds": [
+                "uch_thermodynamics_013"
+              ],
+              "textbook_chapter": "第四章 多组分系统热力学",
+              "textbook_section": "§4.2 化学势"
+            },
+            {
+              "point": "偏摩尔量与体积非加和性",
+              "topicIds": [
+                "uch_thermodynamics_014"
+              ],
+              "textbook_chapter": "第四章 多组分系统热力学",
+              "textbook_section": "§4.1 偏摩尔量"
+            },
+            {
+              "point": "活度与无量纲标准态",
+              "topicIds": [
+                "uch_thermodynamics_015"
+              ],
+              "textbook_chapter": "第四章 多组分系统热力学",
+              "textbook_section": "§4.8 活度及活度因子"
+            },
+            {
+              "point": "拉乌尔定律与亨利定律",
+              "topicIds": [
+                "uch_thermodynamics_023"
+              ],
+              "textbook_chapter": "第四章 多组分系统热力学",
+              "textbook_section": "§4.5 拉乌尔定律和亨利定律"
+            }
+          ]
+        },
+        {
+          "unit": "化学平衡",
+          "chapter": "第4章 化学平衡",
+          "points": [
+            {
+              "point": "反应商与反应方向",
+              "topicIds": [
+                "uch_thermodynamics_016"
+              ],
+              "textbook_chapter": "第五章 化学平衡",
+              "textbook_section": "§5.1 化学反应的方向及平衡条件；§5.2 理想气体反应的等温方程及标准平衡常数"
+            },
+            {
+              "point": "标准平衡常数与标准自由能",
+              "topicIds": [
+                "uch_thermodynamics_017"
+              ],
+              "textbook_chapter": "第五章 化学平衡",
+              "textbook_section": "§5.2 理想气体反应的等温方程及标准平衡常数"
+            },
+            {
+              "point": "反应变换与平衡常数",
+              "topicIds": [
+                "uch_thermodynamics_018"
+              ],
+              "textbook_chapter": "第五章 化学平衡",
+              "textbook_section": "§5.2 相关化学反应标准平衡常数之间的关系"
+            },
+            {
+              "point": "温度对平衡常数的影响",
+              "topicIds": [
+                "uch_thermodynamics_019"
+              ],
+              "textbook_chapter": "第五章 化学平衡",
+              "textbook_section": "§5.4 温度对标准平衡常数的影响"
+            },
+            {
+              "point": "压力与惰性气体对平衡的影响",
+              "topicIds": [
+                "uch_thermodynamics_020"
+              ],
+              "textbook_chapter": "第五章 化学平衡",
+              "textbook_section": "§5.5 其他因素对理想气体反应平衡移动的影响"
+            }
+          ]
+        },
+        {
+          "unit": "相平衡",
+          "chapter": "第5章 相平衡",
+          "points": [
+            {
+              "point": "相律与自由度",
+              "topicIds": [
+                "uch_thermodynamics_021"
+              ],
+              "textbook_chapter": "第六章 相平衡",
+              "textbook_section": "§6.1 相律"
+            },
+            {
+              "point": "相变曲线与克拉佩龙方程",
+              "topicIds": [
+                "uch_thermodynamics_022"
+              ],
+              "textbook_chapter": "第三章 热力学第二定律",
+              "textbook_section": "§3.8 克拉佩龙方程"
+            },
+            {
+              "point": "两相组成与杠杆规则",
+              "topicIds": [
+                "uch_thermodynamics_024"
+              ],
+              "textbook_chapter": "第六章 相平衡",
+              "textbook_section": "§6.3 二组分系统理想液态混合物的气－液平衡相图：杠杆规则"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_physical_tju7a"
+      ]
+    },
+    {
+      "id": "kinetics",
+      "name": "化学动力学与界面",
+      "grade": 63,
+      "book": "uch_physical_tju7b",
+      "topic_count": 18,
+      "question_count": 36,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "速率方程",
+          "chapter": "第1章 速率方程",
+          "points": [
+            {
+              "point": "反应速率的计量归一化",
+              "topicIds": [
+                "uch_kinetics_001"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.1 化学反应的反应速率及速率方程"
+            },
+            {
+              "point": "经验速率方程与反应级数",
+              "topicIds": [
+                "uch_kinetics_002"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.1 化学反应的反应速率及速率方程"
+            },
+            {
+              "point": "初始速率法",
+              "topicIds": [
+                "uch_kinetics_003"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.3 速率方程的确定"
+            },
+            {
+              "point": "速率常数的量纲",
+              "topicIds": [
+                "uch_kinetics_004"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.1 化学反应的反应速率及速率方程"
+            }
+          ]
+        },
+        {
+          "unit": "积分速率方程",
+          "chapter": "第2章 积分速率方程",
+          "points": [
+            {
+              "point": "零级反应的积分形式",
+              "topicIds": [
+                "uch_kinetics_005"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.2 速率方程的积分形式"
+            },
+            {
+              "point": "一级反应与半衰期",
+              "topicIds": [
+                "uch_kinetics_006"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.2 速率方程的积分形式"
+            },
+            {
+              "point": "二级消耗与初浓度效应",
+              "topicIds": [
+                "uch_kinetics_007"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.2 速率方程的积分形式"
+            },
+            {
+              "point": "准一级与隔离法",
+              "topicIds": [
+                "uch_kinetics_008"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.3 速率方程的确定：隔离法"
+            }
+          ]
+        },
+        {
+          "unit": "温度与机理",
+          "chapter": "第3章 温度与机理",
+          "points": [
+            {
+              "point": "阿伦尼乌斯关系",
+              "topicIds": [
+                "uch_kinetics_009"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.4 温度对反应速率的影响，活化能"
+            },
+            {
+              "point": "活化能与反应能量差",
+              "topicIds": [
+                "uch_kinetics_010"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.4 温度对反应速率的影响，活化能"
+            },
+            {
+              "point": "基元反应与分子数",
+              "topicIds": [
+                "uch_kinetics_011"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.1 化学反应的反应速率及速率方程"
+            },
+            {
+              "point": "稳态近似与中间体",
+              "topicIds": [
+                "uch_kinetics_012"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.6 复合反应速率的近似处理法"
+            },
+            {
+              "point": "连串反应中的中间产物",
+              "topicIds": [
+                "uch_kinetics_013"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.5 典型复合反应"
+            },
+            {
+              "point": "催化剂与平衡",
+              "topicIds": [
+                "uch_kinetics_014"
+              ],
+              "textbook_chapter": "第十一章 化学动力学",
+              "textbook_section": "§11.13 催化作用的通性"
+            }
+          ]
+        },
+        {
+          "unit": "界面现象",
+          "chapter": "第4章 界面现象",
+          "points": [
+            {
+              "point": "朗缪尔吸附模型",
+              "topicIds": [
+                "uch_kinetics_015"
+              ],
+              "textbook_chapter": "第十章 界面现象",
+              "textbook_section": "§10.3 固体表面"
+            },
+            {
+              "point": "表面张力与表面功",
+              "topicIds": [
+                "uch_kinetics_016"
+              ],
+              "textbook_chapter": "第十章 界面现象",
+              "textbook_section": "§10.1 界面张力"
+            },
+            {
+              "point": "曲面附加压力",
+              "topicIds": [
+                "uch_kinetics_017"
+              ],
+              "textbook_chapter": "第十章 界面现象",
+              "textbook_section": "§10.2 弯曲液面的附加压力及其后果"
+            },
+            {
+              "point": "接触角与润湿",
+              "topicIds": [
+                "uch_kinetics_018"
+              ],
+              "textbook_chapter": "第十章 界面现象",
+              "textbook_section": "§10.4 固－液界面"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_physical_tju7b"
+      ]
+    },
+    {
+      "id": "solution",
+      "name": "溶液与离子平衡",
+      "grade": 64,
+      "book": "uch_general_tju3",
+      "topic_count": 22,
+      "question_count": 44,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "溶液与依数性",
+          "chapter": "第1章 溶液与依数性",
+          "points": [
+            {
+              "point": "溶液组成的不同标度",
+              "topicIds": [
+                "uch_solution_001"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.1.2 溶液浓度的表示方法"
+            },
+            {
+              "point": "活度系数与离子强度",
+              "topicIds": [
+                "uch_solution_002"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.4 电解质溶液的活度、活度因子及德拜－休克尔极限公式"
+            },
+            {
+              "point": "非挥发溶质与蒸气压下降",
+              "topicIds": [
+                "uch_solution_003"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.2.1 稀溶液的蒸气压下降"
+            },
+            {
+              "point": "凝固点降低与沸点升高",
+              "topicIds": [
+                "uch_solution_004"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.2.2 稀溶液的沸点升高和凝固点降低"
+            },
+            {
+              "point": "渗透压与半透膜",
+              "topicIds": [
+                "uch_solution_005"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.2.3 渗透压"
+            }
+          ]
+        },
+        {
+          "unit": "酸碱平衡",
+          "chapter": "第2章 酸碱平衡",
+          "points": [
+            {
+              "point": "质子酸碱与共轭对",
+              "topicIds": [
+                "uch_solution_006"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.4.1 共轭酸碱对"
+            },
+            {
+              "point": "共轭酸碱常数的联系",
+              "topicIds": [
+                "uch_solution_007"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.1 弱电解质的解离平衡；4.4 酸碱质子理论"
+            },
+            {
+              "point": "pH的活度定义与中性条件",
+              "topicIds": [
+                "uch_solution_008"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3 单相离子平衡"
+            },
+            {
+              "point": "一元弱酸的近似计算",
+              "topicIds": [
+                "uch_solution_009"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.1 弱电解质的解离平衡"
+            },
+            {
+              "point": "一元弱碱的近似计算",
+              "topicIds": [
+                "uch_solution_010"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.1 弱电解质的解离平衡"
+            },
+            {
+              "point": "多元酸的逐级解离",
+              "topicIds": [
+                "uch_solution_011"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.1 弱电解质的解离平衡"
+            },
+            {
+              "point": "缓冲溶液的酸碱比",
+              "topicIds": [
+                "uch_solution_012"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.2 同离子效应和缓冲溶液"
+            },
+            {
+              "point": "缓冲容量与稀释",
+              "topicIds": [
+                "uch_solution_013"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.2 同离子效应和缓冲溶液"
+            },
+            {
+              "point": "盐的水解与溶液酸碱性",
+              "topicIds": [
+                "uch_solution_014"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3.1 弱电解质的解离平衡"
+            },
+            {
+              "point": "一元酸的分布分数",
+              "topicIds": [
+                "uch_solution_015"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.3 单相离子平衡"
+            }
+          ]
+        },
+        {
+          "unit": "沉淀平衡",
+          "chapter": "第3章 沉淀平衡",
+          "points": [
+            {
+              "point": "溶度积与化学计量",
+              "topicIds": [
+                "uch_solution_016"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.5.1 溶度积；4.5.2 溶度积和溶解度"
+            },
+            {
+              "point": "离子积与沉淀判断",
+              "topicIds": [
+                "uch_solution_017"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.5.3 溶度积规则"
+            },
+            {
+              "point": "同离子效应与溶解度",
+              "topicIds": [
+                "uch_solution_018"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.5.4 多相离子平衡移动"
+            },
+            {
+              "point": "选择性沉淀的阈值",
+              "topicIds": [
+                "uch_solution_019"
+              ],
+              "textbook_chapter": "第4章 溶液和离子平衡",
+              "textbook_section": "4.5.4 多相离子平衡移动"
+            }
+          ]
+        },
+        {
+          "unit": "配位平衡",
+          "chapter": "第4章 配位平衡",
+          "points": [
+            {
+              "point": "逐级与累积配位常数",
+              "topicIds": [
+                "uch_solution_020"
+              ],
+              "textbook_chapter": "第7章 配位化合物",
+              "textbook_section": "7.3.1 配位平衡及其平衡常数"
+            },
+            {
+              "point": "副反应与条件形成常数",
+              "topicIds": [
+                "uch_solution_021"
+              ],
+              "textbook_chapter": "第7章 配位化合物",
+              "textbook_section": "7.3.2 配位平衡的移动"
+            },
+            {
+              "point": "螯合效应与稳定性比较",
+              "topicIds": [
+                "uch_solution_022"
+              ],
+              "textbook_chapter": "第7章 配位化合物",
+              "textbook_section": "7.4.2 螯合物"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_general_tju3",
+        "uch_physical_tju7b"
+      ]
+    },
+    {
+      "id": "electrochemistry",
+      "name": "电化学",
+      "grade": 65,
+      "book": "uch_physical_tju7b",
+      "topic_count": 18,
+      "question_count": 36,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "电极与电池",
+          "chapter": "第1章 电极与电池",
+          "points": [
+            {
+              "point": "阳极、阴极与电池类型",
+              "topicIds": [
+                "uch_electrochemistry_001"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.1 电极过程、电解质溶液及法拉第定律"
+            },
+            {
+              "point": "电池符号与相界面",
+              "topicIds": [
+                "uch_electrochemistry_002"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.9 原电池的设计"
+            },
+            {
+              "point": "标准电极电势与参比约定",
+              "topicIds": [
+                "uch_electrochemistry_003"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.7 电极电势和液体接界电势"
+            }
+          ]
+        },
+        {
+          "unit": "电池热力学",
+          "chapter": "第2章 电池热力学",
+          "points": [
+            {
+              "point": "能斯特方程与温度",
+              "topicIds": [
+                "uch_electrochemistry_004"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.6 原电池热力学：能斯特方程"
+            },
+            {
+              "point": "电池反应商的构造",
+              "topicIds": [
+                "uch_electrochemistry_005"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.6 原电池热力学：能斯特方程"
+            },
+            {
+              "point": "电动势与反应吉布斯能",
+              "topicIds": [
+                "uch_electrochemistry_006"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.6 原电池热力学"
+            },
+            {
+              "point": "标准电动势与平衡常数",
+              "topicIds": [
+                "uch_electrochemistry_007"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.6 原电池热力学"
+            },
+            {
+              "point": "浓差电池的驱动力",
+              "topicIds": [
+                "uch_electrochemistry_008"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.9 原电池的设计：扩散过程——浓差电池"
+            },
+            {
+              "point": "pH和配位对氧化还原电势的影响",
+              "topicIds": [
+                "uch_electrochemistry_009"
+              ],
+              "textbook_chapter": "第5章 氧化还原反应与电化学基础",
+              "textbook_section": "5.2.6 影响电极电势的因素"
+            }
+          ]
+        },
+        {
+          "unit": "电解与传输",
+          "chapter": "第3章 电解与传输",
+          "points": [
+            {
+              "point": "法拉第定律与电子计量",
+              "topicIds": [
+                "uch_electrochemistry_010"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.1 电极过程、电解质溶液及法拉第定律"
+            },
+            {
+              "point": "电流效率",
+              "topicIds": [
+                "uch_electrochemistry_011"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.12 电解时的电极反应"
+            },
+            {
+              "point": "电导、电导率与几何因素",
+              "topicIds": [
+                "uch_electrochemistry_012"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.3 电导、电导率和摩尔电导"
+            },
+            {
+              "point": "摩尔电导率与稀释",
+              "topicIds": [
+                "uch_electrochemistry_013"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.3 电导、电导率和摩尔电导"
+            },
+            {
+              "point": "离子迁移数",
+              "topicIds": [
+                "uch_electrochemistry_014"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.2 离子的迁移数"
+            }
+          ]
+        },
+        {
+          "unit": "电极过程",
+          "chapter": "第4章 电极过程",
+          "points": [
+            {
+              "point": "电极极化与过电势",
+              "topicIds": [
+                "uch_electrochemistry_015"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.11 极化作用"
+            },
+            {
+              "point": "可逆分解电压与实际电解电压",
+              "topicIds": [
+                "uch_electrochemistry_016"
+              ],
+              "textbook_chapter": "第七章 电化学",
+              "textbook_section": "§7.10 分解电压"
+            },
+            {
+              "point": "电化学腐蚀与局部电池",
+              "topicIds": [
+                "uch_electrochemistry_017"
+              ],
+              "textbook_chapter": "第5章 氧化还原反应与电化学基础",
+              "textbook_section": "5.6 金属的腐蚀及防护"
+            },
+            {
+              "point": "电池容量与能量的区别",
+              "topicIds": [
+                "uch_electrochemistry_018"
+              ],
+              "textbook_chapter": "第5章 氧化还原反应与电化学基础",
+              "textbook_section": "5.5 锂离子电池和燃料电池"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_physical_tju7b",
+        "uch_general_tju3"
+      ]
+    },
+    {
+      "id": "organic",
+      "name": "基础有机化学",
+      "grade": 66,
+      "book": "uch_organic_tju7",
+      "topic_count": 26,
+      "question_count": 52,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "结构与电子效应",
+          "chapter": "第1章 结构与电子效应",
+          "points": [
+            {
+              "point": "均裂、异裂与电子箭头",
+              "topicIds": [
+                "uch_organic_001"
+              ],
+              "textbook_chapter": "第一章 绪论",
+              "textbook_section": "1.4.3 共价键的断裂和有机反应的类型"
+            },
+            {
+              "point": "亲核性、亲电性与酸碱性",
+              "topicIds": [
+                "uch_organic_002"
+              ],
+              "textbook_chapter": "第一章 绪论",
+              "textbook_section": "1.4 共价键；1.6 酸碱的概念"
+            },
+            {
+              "point": "共振式与真实离域结构",
+              "topicIds": [
+                "uch_organic_003"
+              ],
+              "textbook_chapter": "第四章 二烯烃共轭体系",
+              "textbook_section": "4.4 共振论"
+            },
+            {
+              "point": "诱导效应与共轭碱稳定性",
+              "topicIds": [
+                "uch_organic_004"
+              ],
+              "textbook_chapter": "第十二章 羧酸",
+              "textbook_section": "12.5.1 羧酸的酸性和极化效应"
+            },
+            {
+              "point": "构造异构与官能团",
+              "topicIds": [
+                "uch_organic_005"
+              ],
+              "textbook_chapter": "第一章 绪论",
+              "textbook_section": "1.3 分子结构和结构式；1.7 有机化合物的分类"
+            }
+          ]
+        },
+        {
+          "unit": "立体化学",
+          "chapter": "第2章 立体化学",
+          "points": [
+            {
+              "point": "构象与环己烷椅式",
+              "topicIds": [
+                "uch_organic_006"
+              ],
+              "textbook_chapter": "第二章 烷烃和环烷烃",
+              "textbook_section": "2.4 烷烃和环烷烃的构象"
+            },
+            {
+              "point": "手性与镜像重合",
+              "topicIds": [
+                "uch_organic_007"
+              ],
+              "textbook_chapter": "第六章 立体化学",
+              "textbook_section": "6.2 手性和对称性"
+            },
+            {
+              "point": "CIP顺序与R/S标记",
+              "topicIds": [
+                "uch_organic_008"
+              ],
+              "textbook_chapter": "第六章 立体化学",
+              "textbook_section": "6.4.3 构型的标记法"
+            },
+            {
+              "point": "对映体、非对映体与内消旋",
+              "topicIds": [
+                "uch_organic_009"
+              ],
+              "textbook_chapter": "第六章 立体化学",
+              "textbook_section": "6.5 含两个手性中心化合物的构型异构"
+            },
+            {
+              "point": "烯烃的E/Z构型",
+              "topicIds": [
+                "uch_organic_010"
+              ],
+              "textbook_chapter": "第三章 烯烃和炔烃",
+              "textbook_section": "3.3.3 烯烃顺反异构体的命名"
+            }
+          ]
+        },
+        {
+          "unit": "烃的反应",
+          "chapter": "第3章 烃的反应",
+          "points": [
+            {
+              "point": "烯烃亲电加成与区域选择性",
+              "topicIds": [
+                "uch_organic_011"
+              ],
+              "textbook_chapter": "第三章 烯烃和炔烃",
+              "textbook_section": "3.5.2 离子型加成反应"
+            },
+            {
+              "point": "芳香性与共轭环体系",
+              "topicIds": [
+                "uch_organic_012"
+              ],
+              "textbook_chapter": "第五章 芳烃芳香性",
+              "textbook_section": "5.7 芳香性"
+            },
+            {
+              "point": "芳环取代定位与活性",
+              "topicIds": [
+                "uch_organic_013"
+              ],
+              "textbook_chapter": "第五章 芳烃芳香性",
+              "textbook_section": "5.5 苯环上亲电取代反应的定位规则"
+            }
+          ]
+        },
+        {
+          "unit": "取代与消除",
+          "chapter": "第4章 取代与消除",
+          "points": [
+            {
+              "point": "SN2机理与构型翻转",
+              "topicIds": [
+                "uch_organic_014"
+              ],
+              "textbook_chapter": "第七章 卤代烃",
+              "textbook_section": "7.6.1 双分子亲核取代反应（SN2）机理"
+            },
+            {
+              "point": "SN1机理与碳正离子",
+              "topicIds": [
+                "uch_organic_015"
+              ],
+              "textbook_chapter": "第七章 卤代烃",
+              "textbook_section": "7.6.2 单分子亲核取代反应（SN1）机理"
+            },
+            {
+              "point": "E2消除与反式共平面",
+              "topicIds": [
+                "uch_organic_016"
+              ],
+              "textbook_chapter": "第七章 卤代烃",
+              "textbook_section": "7.7.1 双分子消除反应（E2）机理"
+            },
+            {
+              "point": "取代与消除的竞争",
+              "topicIds": [
+                "uch_organic_017"
+              ],
+              "textbook_chapter": "第七章 卤代烃",
+              "textbook_section": "7.8 影响亲核取代反应和消除反应的因素"
+            }
+          ]
+        },
+        {
+          "unit": "含氧官能团",
+          "chapter": "第5章 含氧官能团",
+          "points": [
+            {
+              "point": "醇的结构与氧化层次",
+              "topicIds": [
+                "uch_organic_018"
+              ],
+              "textbook_chapter": "第九章 醇和酚",
+              "textbook_section": "9.5.6 氧化反应"
+            },
+            {
+              "point": "酚与醇的酸性差异",
+              "topicIds": [
+                "uch_organic_019"
+              ],
+              "textbook_chapter": "第九章 醇和酚",
+              "textbook_section": "9.6.1 酚的酸性"
+            },
+            {
+              "point": "羰基亲核加成",
+              "topicIds": [
+                "uch_organic_020"
+              ],
+              "textbook_chapter": "第十一章 醛、酮和醌",
+              "textbook_section": "11.5.1 羰基的亲核加成反应"
+            },
+            {
+              "point": "α-氢与烯醇/烯醇负离子",
+              "topicIds": [
+                "uch_organic_021"
+              ],
+              "textbook_chapter": "第十一章 醛、酮和醌",
+              "textbook_section": "11.5.2 α-氢原子的反应；第十四章 β-二羰基化合物"
+            }
+          ]
+        },
+        {
+          "unit": "羧酸及衍生物",
+          "chapter": "第6章 羧酸及衍生物",
+          "points": [
+            {
+              "point": "酰基亲核取代",
+              "topicIds": [
+                "uch_organic_022"
+              ],
+              "textbook_chapter": "第十三章 羧酸衍生物",
+              "textbook_section": "13.3.1 酰基上的亲核取代反应；13.3.2 机理及相对反应活性"
+            },
+            {
+              "point": "酰胺共振与键的性质",
+              "topicIds": [
+                "uch_organic_023"
+              ],
+              "textbook_chapter": "第十三章 羧酸衍生物",
+              "textbook_section": "13.3.5 酰胺的特性"
+            }
+          ]
+        },
+        {
+          "unit": "含氮与材料",
+          "chapter": "第7章 含氮与材料",
+          "points": [
+            {
+              "point": "胺的碱性与溶剂效应",
+              "topicIds": [
+                "uch_organic_024"
+              ],
+              "textbook_chapter": "第十五章 胺",
+              "textbook_section": "15.5.1 碱性"
+            },
+            {
+              "point": "吡啶与吡咯的孤电子对",
+              "topicIds": [
+                "uch_organic_025"
+              ],
+              "textbook_chapter": "第十七章 杂环化合物",
+              "textbook_section": "17.1.2 结构和芳香性；17.2 五元杂环化合物；17.3 六元杂环化合物"
+            },
+            {
+              "point": "链增长与逐步聚合的区分",
+              "topicIds": [
+                "uch_organic_026"
+              ],
+              "textbook_chapter": "第8章 材料化学基础",
+              "textbook_section": "8.5.3 高分子化合物的合成"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_organic_tju7",
+        "uch_general_tju3"
+      ]
+    },
+    {
+      "id": "analysis",
+      "name": "分析化学",
+      "grade": 67,
+      "book": "uch_analytical_101",
+      "topic_count": 28,
+      "question_count": 56,
+      "scope": "大学化学核心知识模块；不等于一门专业课程或整本教材的全量覆盖",
+      "units": [
+        {
+          "unit": "数据与质量",
+          "chapter": "第1章 数据与质量",
+          "points": [
+            {
+              "point": "代表性采样与分析过程",
+              "topicIds": [
+                "uch_analysis_001"
+              ],
+              "textbook_chapter": "第一章 分析化学概述",
+              "textbook_section": "1.2 分析过程与样品采集及制备"
+            },
+            {
+              "point": "空白试验与质量控制",
+              "topicIds": [
+                "uch_analysis_002"
+              ],
+              "textbook_chapter": "第一章 分析化学概述",
+              "textbook_section": "1.3 分析质量保证与质量控制"
+            },
+            {
+              "point": "精密度与系统偏差",
+              "topicIds": [
+                "uch_analysis_003"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.1 分析测量误差"
+            },
+            {
+              "point": "误差的绝对与相对表示",
+              "topicIds": [
+                "uch_analysis_004"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.1.2 误差的表示"
+            },
+            {
+              "point": "有效数字与报告精度",
+              "topicIds": [
+                "uch_analysis_005"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.1.6 有效数字及其运算规则"
+            },
+            {
+              "point": "样本均值与标准差",
+              "topicIds": [
+                "uch_analysis_006"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.2 分析数据的统计处理"
+            },
+            {
+              "point": "均值置信区间与假设",
+              "topicIds": [
+                "uch_analysis_007"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.2 分析数据的统计处理"
+            },
+            {
+              "point": "异常值与事先规定的检验",
+              "topicIds": [
+                "uch_analysis_008"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.2.2 显著性检验"
+            }
+          ]
+        },
+        {
+          "unit": "校准与滴定",
+          "chapter": "第2章 校准与滴定",
+          "points": [
+            {
+              "point": "外标校准与线性范围",
+              "topicIds": [
+                "uch_analysis_009"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.3 定量校正模型和方法"
+            },
+            {
+              "point": "标准加入法与基体效应",
+              "topicIds": [
+                "uch_analysis_010"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.3.1 单变量校正模型和方法"
+            },
+            {
+              "point": "内标法与响应比",
+              "topicIds": [
+                "uch_analysis_011"
+              ],
+              "textbook_chapter": "第二章 分析数据处理",
+              "textbook_section": "2.3.1 单变量校正模型和方法"
+            },
+            {
+              "point": "检出限、定量限与噪声",
+              "topicIds": [
+                "uch_analysis_012"
+              ],
+              "textbook_chapter": "第一章 分析化学概述",
+              "textbook_section": "1.3 分析质量保证与质量控制；第二章 分析数据处理"
+            },
+            {
+              "point": "化学计量点与滴定终点",
+              "topicIds": [
+                "uch_analysis_013"
+              ],
+              "textbook_chapter": "第三章 化学平衡与滴定分析",
+              "textbook_section": "3.2.1 滴定分析简介"
+            },
+            {
+              "point": "酸碱滴定曲线与指示范围",
+              "topicIds": [
+                "uch_analysis_014"
+              ],
+              "textbook_chapter": "第三章 化学平衡与滴定分析",
+              "textbook_section": "3.2.2 酸碱滴定法"
+            },
+            {
+              "point": "配位滴定与条件稳定性",
+              "topicIds": [
+                "uch_analysis_015"
+              ],
+              "textbook_chapter": "第三章 化学平衡与滴定分析",
+              "textbook_section": "3.2.3 络合滴定法"
+            },
+            {
+              "point": "氧化还原滴定的电子守恒",
+              "topicIds": [
+                "uch_analysis_016"
+              ],
+              "textbook_chapter": "第三章 化学平衡与滴定分析",
+              "textbook_section": "3.2.4 氧化还原滴定法"
+            },
+            {
+              "point": "沉淀滴定与反应完全程度",
+              "topicIds": [
+                "uch_analysis_017"
+              ],
+              "textbook_chapter": "第三章 化学平衡与滴定分析",
+              "textbook_section": "3.2.5 沉淀滴定法"
+            }
+          ]
+        },
+        {
+          "unit": "分子与原子光谱",
+          "chapter": "第3章 分子与原子光谱",
+          "points": [
+            {
+              "point": "比尔定律与线性吸收",
+              "topicIds": [
+                "uch_analysis_018"
+              ],
+              "textbook_chapter": "第四章 分子光谱法",
+              "textbook_section": "4.2.2 光的吸收定律"
+            },
+            {
+              "point": "透光率与吸光度",
+              "topicIds": [
+                "uch_analysis_019"
+              ],
+              "textbook_chapter": "第四章 分子光谱法",
+              "textbook_section": "4.2.2 光的吸收定律"
+            },
+            {
+              "point": "红外与拉曼的选择规则",
+              "topicIds": [
+                "uch_analysis_020"
+              ],
+              "textbook_chapter": "第四章 分子光谱法",
+              "textbook_section": "4.3 红外吸收光谱法；4.4 拉曼光谱法"
+            },
+            {
+              "point": "荧光、斯托克斯位移与淬灭",
+              "topicIds": [
+                "uch_analysis_021"
+              ],
+              "textbook_chapter": "第四章 分子光谱法",
+              "textbook_section": "4.5 荧光与磷光光谱分析"
+            },
+            {
+              "point": "原子吸收与原子发射",
+              "topicIds": [
+                "uch_analysis_022"
+              ],
+              "textbook_chapter": "第五章 原子光谱法",
+              "textbook_section": "5.1 原子发射光谱法；5.2 原子吸收与原子荧光光谱法"
+            }
+          ]
+        },
+        {
+          "unit": "分离与结构表征",
+          "chapter": "第4章 分离与结构表征",
+          "points": [
+            {
+              "point": "质谱的质荷比与离子化",
+              "topicIds": [
+                "uch_analysis_023"
+              ],
+              "textbook_chapter": "第六章 质谱法",
+              "textbook_section": "6.1 质谱法基本原理"
+            },
+            {
+              "point": "色谱保留与保留因子",
+              "topicIds": [
+                "uch_analysis_024"
+              ],
+              "textbook_chapter": "第八章 色谱分析",
+              "textbook_section": "8.1 色谱理论基础"
+            },
+            {
+              "point": "色谱分离度与峰展宽",
+              "topicIds": [
+                "uch_analysis_025"
+              ],
+              "textbook_chapter": "第八章 色谱分析",
+              "textbook_section": "8.1 色谱理论基础"
+            },
+            {
+              "point": "气相与液相色谱的适用性",
+              "topicIds": [
+                "uch_analysis_026"
+              ],
+              "textbook_chapter": "第八章 色谱分析",
+              "textbook_section": "8.2 气相色谱法；8.3 液相色谱法"
+            },
+            {
+              "point": "核磁共振化学位移与积分",
+              "topicIds": [
+                "uch_analysis_027"
+              ],
+              "textbook_chapter": "第九章 核磁共振波谱法",
+              "textbook_section": "9.2 核磁共振氢谱分析"
+            },
+            {
+              "point": "X射线光电子能谱与表面信息",
+              "topicIds": [
+                "uch_analysis_028"
+              ],
+              "textbook_chapter": "第十章 表界面分析技术",
+              "textbook_section": "10.1.2 X射线光电子能谱分析方法"
+            }
+          ]
+        }
+      ],
+      "books": [
+        "uch_analytical_101"
+      ]
+    }
+  ],
+  "topic_count": 160,
+  "question_count": 320
+}

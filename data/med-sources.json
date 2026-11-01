@@ -1,0 +1,253 @@
+{
+  "subject": "med",
+  "checked_date": "2026-10-31",
+  "schema_version": 1,
+  "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+  "series_url": "https://medu.pmph.com/community/toCommunity.action?id=2130",
+  "reference_policy": "按截至核验日出版社可核实的五年制临床医学第十轮规划教材组织本科基础核心课程；这是所选官方规划教材体系，不声称全国所有院校唯一指定。版次与上架、更新、重印日期分开。",
+  "books": [
+    {
+      "id": "med_anatomy_pmph10",
+      "module": "anatomy",
+      "grade": 21,
+      "title": "系统解剖学（第10版）",
+      "course_name": "系统解剖学",
+      "authors": [
+        "崔慧先",
+        "刘学政"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117365918",
+      "publication_date": "2024-08-14",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32510",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32510",
+      "verification": "已核实出版社版次、作者、ISBN及简介中的九系统编排；具体节号与教材全文未逐项核验。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    },
+    {
+      "id": "med_histology_pmph10",
+      "module": "histology",
+      "grade": 22,
+      "title": "组织学与胚胎学（第10版）",
+      "course_name": "组织学与胚胎学",
+      "authors": [
+        "李继承",
+        "邵淑娟"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117363433",
+      "publication_date": "2024-07-25",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32413",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32413",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    },
+    {
+      "id": "med_physiology_pmph10",
+      "module": "physiology",
+      "grade": 23,
+      "title": "生理学（第10版）",
+      "course_name": "生理学",
+      "authors": [
+        "罗自强",
+        "管又飞"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117364256",
+      "publication_date": "2024-07-25",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32415",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32415",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31",
+      "secondary_source_url": "https://www.pmphmall.com/gdsdetail/653054-331651",
+      "publication_date_note": "人卫商城列2024-07（移动页2024-07-25），E教页列2025-04-15；采用商城出版信息，未把平台日期差异视为新版。"
+    },
+    {
+      "id": "med_biochem_pmph10",
+      "module": "biochem",
+      "grade": 24,
+      "title": "生物化学与分子生物学（第10版）",
+      "course_name": "生物化学与分子生物学",
+      "authors": [
+        "高国全",
+        "汤其群"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117363365",
+      "publication_date": "2024-07-30",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32418",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32418",
+      "verification": "已核实出版社版次、作者、ISBN及简介列举的四篇主题；未逐页读取全书，未核实每一具体节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31",
+      "secondary_source_url": "https://wap.pmphmall.com/gdsdetail/653057-331654?adid=&linktype=1"
+    },
+    {
+      "id": "med_immunology_pmph8",
+      "module": "immunology",
+      "grade": 25,
+      "title": "医学免疫学（第8版）",
+      "course_name": "医学免疫学",
+      "authors": [
+        "曹雪涛"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第8版",
+      "isbn": "9787117366144",
+      "publication_date": "2024-09-05",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32664",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32664",
+      "verification": "已核实出版社第十轮中的第8版及五篇主题；第十轮不等于第10版，完整目录和全文未逐项核验。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31",
+      "secondary_source_url": "https://www.pmphmall.com/gdsdetail/653435-332032"
+    },
+    {
+      "id": "med_microbiology_pmph10",
+      "module": "microbiology",
+      "grade": 26,
+      "title": "医学微生物学（第10版）",
+      "course_name": "医学微生物学",
+      "authors": [
+        "郭晓奎",
+        "彭宜红"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117365932",
+      "publication_date": "2024-08-19",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32524",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32524",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    },
+    {
+      "id": "med_pathology_pmph10",
+      "module": "pathology",
+      "grade": 27,
+      "title": "病理学（第10版）",
+      "course_name": "病理学",
+      "authors": [
+        "卞修武",
+        "李一雷"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117364683",
+      "publication_date": "2024-07-31",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32439",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32439",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    },
+    {
+      "id": "med_pathophys_pmph10",
+      "module": "pathophys",
+      "grade": 28,
+      "title": "病理生理学（第10版）",
+      "course_name": "病理生理学",
+      "authors": [
+        "陈国强",
+        "钱睿哲"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117363006",
+      "publication_date": "2024-07-30",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32443",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32443",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31",
+      "secondary_source_url": "https://wap.pmphmall.com/gdsdetail/653095-331692",
+      "publication_date_note": "人卫商城列2024-07-30，E教页列2025-04-02；采用商城出版信息，未把平台日期差异视为新版。"
+    },
+    {
+      "id": "med_pharmacology_pmph10",
+      "module": "pharmacology",
+      "grade": 29,
+      "title": "药理学（第10版）",
+      "course_name": "药理学",
+      "authors": [
+        "杨宝峰",
+        "陈建国"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117364287",
+      "publication_date": "2024-07-25",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32422",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32422",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    },
+    {
+      "id": "med_diagnostics_pmph10",
+      "module": "diagnostics",
+      "grade": 30,
+      "title": "诊断学（第10版）",
+      "course_name": "诊断学",
+      "authors": [
+        "万学红",
+        "卢雪峰"
+      ],
+      "publisher": "人民卫生出版社",
+      "edition": "第10版",
+      "isbn": "9787117363631",
+      "publication_date": "2024-07-25",
+      "source_url": "https://medu.pmph.com/readdetail/todetail.action?id=32419",
+      "catalog_url": "https://medu.pmph.com/readdetail/todetail.action?id=32419",
+      "verification": "已核实出版社公开版次、作者、ISBN及简介；未取得完整可读目录或教材全文。章节采用课程主题定位，不虚构原书节号、页码。",
+      "official_series": "全国高等学校五年制本科临床医学专业第十轮规划教材（国家卫生健康委员会十四五规划教材）",
+      "full_text_verified": false,
+      "catalog_verification": "publisher_metadata_and_synopsis_only",
+      "checked_date": "2026-10-31"
+    }
+  ],
+  "knowledge_policy": "描述和题目为原创课程知识整理；教材记录用于版本与主题对应，不表示每条释义已逐页核对最新教材。纯教学数据示例不用于个体诊疗决策。",
+  "limits": [
+    "未获得并逐页阅读所选教材全文，部分只有出版社简介，无完整可读目录。",
+    "各课程选择核心基础主题，不声称覆盖全部临床医学专业、全书章节或执业医师考试。",
+    "所列依赖关系是学习建议，不代表唯一官方教学顺序。",
+    "学习测验只检测概念理解，不能替代实验、标本辨识、病史采集、体格检查或临床带教。",
+    "药理与诊断学内容不含个体化处方、剂量或实际操作指导。"
+  ],
+  "date_discrepancies": [
+    {
+      "module": "physiology",
+      "note": "人卫商城列2024-07（移动页2024-07-25），E教页列2025-04-15；采用商城出版信息，未把平台日期差异视为新版。"
+    },
+    {
+      "module": "pathophys",
+      "note": "人卫商城列2024-07-30，E教页列2025-04-02；采用商城出版信息，未把平台日期差异视为新版。"
+    }
+  ]
+}

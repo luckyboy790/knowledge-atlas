@@ -1,0 +1,5134 @@
+[
+  {
+    "id": "cnm_u001_q1",
+    "topicId": "cnm_u001",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x→2 时，(x²−4)/(x−2) 的极限是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "不存在"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "x≠2 时原式等于 x+2，趋近 2 时得到 4。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.2 The Limit of a Function",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u001_q2",
+    "topicId": "cnm_u001",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=|x|/x（x≠0）。x→0 时的双侧极限如何？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "等于 −1"
+      },
+      {
+        "key": "B",
+        "text": "不存在"
+      },
+      {
+        "key": "C",
+        "text": "等于 0"
+      },
+      {
+        "key": "D",
+        "text": "等于 1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "左极限为 −1，右极限为 1，二者不相等。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.2 The Limit of a Function",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u002_q1",
+    "topicId": "cnm_u002",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "当 x→0 时，x²sin(1/x) 的极限为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不存在"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "−1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "由 −x²≤x²sin(1/x)≤x²，夹逼可得 0。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.3 The Limit Laws",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u002_q2",
+    "topicId": "cnm_u002",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若 f(x)→6、g(x)→2，则 f(x)/g(x)→多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "explanation": "分母极限 2 非零，商的极限为 6/2=3。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.3 The Limit Laws",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u003_q1",
+    "topicId": "cnm_u003",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x≠1 时 f(x)=(x²−1)/(x−1)，要使 f 在 1 连续，应令 f(1)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "任意实数"
+      }
+    ],
+    "answer": "A",
+    "explanation": "x≠1 时 f(x)=x+1，极限为 2，补定义为 2。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.4 Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u003_q2",
+    "topicId": "cnm_u003",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f 在 [0,2] 连续，f(0)=−3、f(2)=5。能保证什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "恰有一个零点"
+      },
+      {
+        "key": "B",
+        "text": "零点一定是 1"
+      },
+      {
+        "key": "C",
+        "text": "没有零点"
+      },
+      {
+        "key": "D",
+        "text": "(0,2) 内至少有一个零点"
+      }
+    ],
+    "answer": "D",
+    "explanation": "连续函数在端点异号时，介值定理保证至少一个零点，不能保证唯一或位置。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.4 Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u004_q1",
+    "topicId": "cnm_u004",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用定义或求导计算，f(x)=x² 在 x=3 处的导数为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "差商 ((3+h)²−9)/h=6+h，h→0 时为 6。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.1 Defining the Derivative",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u004_q2",
+    "topicId": "cnm_u004",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=|x| 在 x=0 的性质是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "既不连续也不可导"
+      },
+      {
+        "key": "B",
+        "text": "可导且导数为 0"
+      },
+      {
+        "key": "C",
+        "text": "连续但不可导"
+      },
+      {
+        "key": "D",
+        "text": "可导但不连续"
+      }
+    ],
+    "answer": "C",
+    "explanation": "函数值趋于 0，但左右导数分别为 −1 和 1。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.1 Defining the Derivative",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u005_q1",
+    "topicId": "cnm_u005",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=x³+4x，则 f′(2)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "f′(x)=3x²+4，代入 2 得 16。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.3 Differentiation Rules",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u005_q2",
+    "topicId": "cnm_u005",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=x eˣ，则 f′(0)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−1"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "乘积法则给出 f′(x)=eˣ+x eˣ，在 0 为 1。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.3 Differentiation Rules",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u006_q1",
+    "topicId": "cnm_u006",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=(3x+1)²，则 f′(1)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "B",
+    "explanation": "f′(x)=2(3x+1)×3，x=1 时为 24。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.6 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u006_q2",
+    "topicId": "cnm_u006",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=sin(2x)，则 f′(0)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "−2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "f′(x)=2cos(2x)，在 0 处为 2。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.6 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u007_q1",
+    "topicId": "cnm_u007",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "由 x²+y²=25，求点 (3,4) 处的 y′。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−3/4"
+      },
+      {
+        "key": "B",
+        "text": "3/4"
+      },
+      {
+        "key": "C",
+        "text": "−4/3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "2x+2yy′=0，y′=−x/y=−3/4。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.8 Implicit Differentiation",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u007_q2",
+    "topicId": "cnm_u007",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "由 xy=8，求点 (2,4) 处的 y′。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "−1/2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "−2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "y+xy′=0，所以 y′=−y/x=−2。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.8 Implicit Differentiation",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u008_q1",
+    "topicId": "cnm_u008",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=x² 在 [1,3] 上满足中值定理，f′(c)=[f(3)−f(1)]/2 的 c 是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "割线斜率为 4；2c=4，所以 c=2，且在 (1,3) 内。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.4 The Mean Value Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u008_q2",
+    "topicId": "cnm_u008",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "仅知道函数在 [a,b] 连续，能直接应用拉格朗日中值定理吗？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "能，但端点值必须相等"
+      },
+      {
+        "key": "B",
+        "text": "不能，因为函数必须是二次函数"
+      },
+      {
+        "key": "C",
+        "text": "不能，还需在 (a,b) 可导"
+      },
+      {
+        "key": "D",
+        "text": "能，连续已足够"
+      }
+    ],
+    "answer": "C",
+    "explanation": "定理同时要求闭区间连续、开区间可导。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.4 The Mean Value Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u009_q1",
+    "topicId": "cnm_u009",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x→0 时 (eˣ−1)/x 的极限是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "e"
+      },
+      {
+        "key": "B",
+        "text": "不存在"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "这是 0/0 型，求导后为 eˣ/1，极限是 1。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.8 L’Hôpital’s Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u009_q2",
+    "topicId": "cnm_u009",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x→0 时 (1+x)/(2+x) 应怎样求极限？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "属于 0/0 型"
+      },
+      {
+        "key": "B",
+        "text": "直接代入，结果 1/2"
+      },
+      {
+        "key": "C",
+        "text": "两边求导，结果 1"
+      },
+      {
+        "key": "D",
+        "text": "结果 0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "分母极限 2 非零；原式并非洛必达法则的未定式。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.8 L’Hôpital’s Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u010_q1",
+    "topicId": "cnm_u010",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=x²−6x+11 的最小值为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−2"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answer": "B",
+    "explanation": "配方为 (x−3)²+2；导数在 3 左负右正。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.5 Derivatives and the Shape of a Graph",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u010_q2",
+    "topicId": "cnm_u010",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x)=x³ 的 x=0 是什么点？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "导数为零但不是极值点"
+      },
+      {
+        "key": "B",
+        "text": "极大值点"
+      },
+      {
+        "key": "C",
+        "text": "极小值点"
+      },
+      {
+        "key": "D",
+        "text": "不可导点"
+      }
+    ],
+    "answer": "A",
+    "explanation": "f′(0)=0，但函数在零点两侧都递增。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.5 Derivatives and the Shape of a Graph",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u011_q1",
+    "topicId": "cnm_u011",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫6x² dx 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x³+C"
+      },
+      {
+        "key": "B",
+        "text": "6x³+C"
+      },
+      {
+        "key": "C",
+        "text": "3x²+C"
+      },
+      {
+        "key": "D",
+        "text": "2x+C"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(2x³)′=6x²，积分常数 C 任意。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.10 Antiderivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u011_q2",
+    "topicId": "cnm_u011",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在 x>0 上，∫(1/x) dx 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/x²+C"
+      },
+      {
+        "key": "B",
+        "text": "−1/x²+C"
+      },
+      {
+        "key": "C",
+        "text": "eˣ+C"
+      },
+      {
+        "key": "D",
+        "text": "ln x+C"
+      }
+    ],
+    "answer": "D",
+    "explanation": "ln x 在正半轴的导数是 1/x。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.10 Antiderivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u012_q1",
+    "topicId": "cnm_u012",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫2x cos(x²) dx 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2sin(x²)+C"
+      },
+      {
+        "key": "B",
+        "text": "cos(x²)+C"
+      },
+      {
+        "key": "C",
+        "text": "sin x+C"
+      },
+      {
+        "key": "D",
+        "text": "sin(x²)+C"
+      }
+    ],
+    "answer": "D",
+    "explanation": "令 u=x²，du=2x dx，积分成为 ∫cos u du。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.5 Substitution",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u012_q2",
+    "topicId": "cnm_u012",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₀¹ 2x e^(x²) dx 的值是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2e−2"
+      },
+      {
+        "key": "C",
+        "text": "e−1"
+      },
+      {
+        "key": "D",
+        "text": "e"
+      }
+    ],
+    "answer": "C",
+    "explanation": "令 u=x²，上下限为 0、1，得到 ∫₀¹ eᵘ du=e−1。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.5 Substitution",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u013_q1",
+    "topicId": "cnm_u013",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫x eˣ dx 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(x+1)eˣ+C"
+      },
+      {
+        "key": "B",
+        "text": "eˣ+C"
+      },
+      {
+        "key": "C",
+        "text": "(x−1)eˣ+C"
+      },
+      {
+        "key": "D",
+        "text": "x eˣ+C"
+      }
+    ],
+    "answer": "C",
+    "explanation": "取 u=x、dv=eˣdx，得到 x eˣ−∫eˣdx。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.1 Integration by Parts",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u013_q2",
+    "topicId": "cnm_u013",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₀¹ x eˣ dx 的值是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "e−1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "原函数为 (x−1)eˣ，代入 1 与 0 相减得 1。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.1 Integration by Parts",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u014_q1",
+    "topicId": "cnm_u014",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₀² (−3) dx 的值为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "−6"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "−3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "常函数积分等于常数乘区间长度，−3×2=−6。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.2 The Definite Integral",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u014_q2",
+    "topicId": "cnm_u014",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₋₁¹ x dx 的值为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "−1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "左右两侧的有向面积相消；积分值不同于总几何面积。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.2 The Definite Integral",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u015_q1",
+    "topicId": "cnm_u015",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F(x)=∫₀ˣ (t²+1) dt，F′(2)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "10/3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "基本定理给出 F′(x)=x²+1，所以 F′(2)=5。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.3 The Fundamental Theorem of Calculus",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u015_q2",
+    "topicId": "cnm_u015",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₀² 3x² dx 的值是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "D",
+    "explanation": "原函数 x³ 的端点差是 8−0。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.3 The Fundamental Theorem of Calculus",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u016_q1",
+    "topicId": "cnm_u016",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "y=x 与 x 轴在 0≤x≤2 间的面积为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "面积为 ∫₀² x dx=2。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "6.2 Determining Volumes by Slicing",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u016_q2",
+    "topicId": "cnm_u016",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "把 0≤x≤1、0≤y≤x 区域绕 x 轴旋转，体积为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2π/3"
+      },
+      {
+        "key": "B",
+        "text": "π/2"
+      },
+      {
+        "key": "C",
+        "text": "π/3"
+      },
+      {
+        "key": "D",
+        "text": "π"
+      }
+    ],
+    "answer": "C",
+    "explanation": "圆盘半径为 x，体积 ∫₀¹ πx²dx=π/3。",
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "6.2 Determining Volumes by Slicing",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u017_q1",
+    "topicId": "cnm_u017",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₁^∞ 1/x² dx 的值为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "发散"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先积分到 R，得到 1−1/R，R→∞ 时为 1。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.7 Improper Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u017_q2",
+    "topicId": "cnm_u017",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∫₁^∞ 1/x dx 的敛散性是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "收敛到 ln 2"
+      },
+      {
+        "key": "B",
+        "text": "发散"
+      },
+      {
+        "key": "C",
+        "text": "收敛到 0"
+      },
+      {
+        "key": "D",
+        "text": "收敛到 1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "截断积分为 ln R，R→∞ 时无界。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.7 Improper Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u018_q1",
+    "topicId": "cnm_u018",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "y′=2y，y(0)=3 的解是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y=e^(2x)"
+      },
+      {
+        "key": "B",
+        "text": "y=3e^(2x)"
+      },
+      {
+        "key": "C",
+        "text": "y=2e^(3x)"
+      },
+      {
+        "key": "D",
+        "text": "y=3+2x"
+      }
+    ],
+    "answer": "B",
+    "explanation": "分离变量得 y=C e^(2x)，初值给出 C=3。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.3 Separable Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u018_q2",
+    "topicId": "cnm_u018",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "分离 y′=y(1−y) 并除以 y(1−y) 前，应单独保留哪些常数解？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y=0 和 y=1"
+      },
+      {
+        "key": "B",
+        "text": "只有 y=−1"
+      },
+      {
+        "key": "C",
+        "text": "所有常数都为解"
+      },
+      {
+        "key": "D",
+        "text": "没有常数解"
+      }
+    ],
+    "answer": "A",
+    "explanation": "将常数解代入，0=y(1−y)，得到 0 和 1。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.3 Separable Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u019_q1",
+    "topicId": "cnm_u019",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "y′+y=2，y(0)=0 的解是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y=2−2e^(−x)"
+      },
+      {
+        "key": "B",
+        "text": "y=2+2e^(−x)"
+      },
+      {
+        "key": "C",
+        "text": "y=2x"
+      },
+      {
+        "key": "D",
+        "text": "y=eˣ−1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "通解为 2+C e^(−x)，由初值得 C=−2。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.5 First-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u019_q2",
+    "topicId": "cnm_u019",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程 y′+3y=x 的一个积分因子是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x"
+      },
+      {
+        "key": "B",
+        "text": "e^(−3x)"
+      },
+      {
+        "key": "C",
+        "text": "x³"
+      },
+      {
+        "key": "D",
+        "text": "e^(3x)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "积分因子为 exp(∫3dx)=e^(3x)。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.5 First-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u020_q1",
+    "topicId": "cnm_u020",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "y″−3y′+2y=0 的通解是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "C₁e^(−x)+C₂e^(−2x)"
+      },
+      {
+        "key": "B",
+        "text": "C₁+C₂x"
+      },
+      {
+        "key": "C",
+        "text": "C₁sin x+C₂cos x"
+      },
+      {
+        "key": "D",
+        "text": "C₁eˣ+C₂e^(2x)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "特征方程 r²−3r+2=(r−1)(r−2)=0。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "7.1 Second-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u020_q2",
+    "topicId": "cnm_u020",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "y″−2y′+y=0 的通解是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "C₁eˣ+C₂e^(−x)"
+      },
+      {
+        "key": "B",
+        "text": "C₁+C₂x"
+      },
+      {
+        "key": "C",
+        "text": "(C₁+C₂x)eˣ"
+      },
+      {
+        "key": "D",
+        "text": "C₁eˣ+C₂eˣ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "特征方程 (r−1)²=0，有重根 1。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "7.1 Second-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u021_q1",
+    "topicId": "cnm_u021",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "aₙ=n/(n+2)，n→∞ 时的极限是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "不存在"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分子分母同除以 n，得到 1/(1+2/n)→1。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.1 Sequences",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u021_q2",
+    "topicId": "cnm_u021",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "数列 aₙ=(−1)ⁿ 的性质是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "无界"
+      },
+      {
+        "key": "B",
+        "text": "有界但不收敛"
+      },
+      {
+        "key": "C",
+        "text": "收敛到 1"
+      },
+      {
+        "key": "D",
+        "text": "收敛到 −1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "奇偶子列分别为 −1 与 1，没有同一个极限。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.1 Sequences",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u022_q1",
+    "topicId": "cnm_u022",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∑ₙ₌₀^∞ (1/3)ⁿ 的和是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "3/2"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "等比级数的比为 1/3，和为 1/(1−1/3)=3/2。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.2 Infinite Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u022_q2",
+    "topicId": "cnm_u022",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "若 ∑aₙ 收敛，必然成立的是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "aₙ→0"
+      },
+      {
+        "key": "B",
+        "text": "aₙ 恒为正"
+      },
+      {
+        "key": "C",
+        "text": "∑|aₙ| 必收敛"
+      },
+      {
+        "key": "D",
+        "text": "aₙ 必严格单调"
+      }
+    ],
+    "answer": "A",
+    "explanation": "收敛级数的通项必须趋于零；其余条件不一定成立。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.2 Infinite Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u023_q1",
+    "topicId": "cnm_u023",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "级数 ∑ₙ₌₁^∞ 1/n² 的敛散性是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "收敛"
+      },
+      {
+        "key": "B",
+        "text": "发散，因为无限多项"
+      },
+      {
+        "key": "C",
+        "text": "发散，因为通项趋于零"
+      },
+      {
+        "key": "D",
+        "text": "和等于 1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "p=2>1，可由积分判别证明收敛，但级数和不是对应积分值。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.3 The Divergence and Integral Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u023_q2",
+    "topicId": "cnm_u023",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "级数 ∑ₙ₌₁^∞ 1/n 的敛散性是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "收敛到 1"
+      },
+      {
+        "key": "B",
+        "text": "因通项趋于零而收敛"
+      },
+      {
+        "key": "C",
+        "text": "有限项求和"
+      },
+      {
+        "key": "D",
+        "text": "发散"
+      }
+    ],
+    "answer": "D",
+    "explanation": "调和级数虽然通项趋于零，但积分 ∫₁^∞1/x dx 发散。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.3 The Divergence and Integral Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u024_q1",
+    "topicId": "cnm_u024",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∑ₙ₌₁^∞ (−1)^(n+1)/n 属于哪一种？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "绝对收敛"
+      },
+      {
+        "key": "B",
+        "text": "发散"
+      },
+      {
+        "key": "C",
+        "text": "通项不趋于零"
+      },
+      {
+        "key": "D",
+        "text": "条件收敛"
+      }
+    ],
+    "answer": "D",
+    "explanation": "由交错级数判别收敛，而绝对值后的调和级数发散。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.5 Alternating Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u024_q2",
+    "topicId": "cnm_u024",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用交错级数判别估计余项时，余项绝对值不超过什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "最后已加项的倒数"
+      },
+      {
+        "key": "B",
+        "text": "必等于 0"
+      },
+      {
+        "key": "C",
+        "text": "下一项的绝对值"
+      },
+      {
+        "key": "D",
+        "text": "已加各项绝对值之和"
+      }
+    ],
+    "answer": "C",
+    "explanation": "在项大小单调趋零的条件下，余项绝对值不超过首个未加项。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.5 Alternating Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u025_q1",
+    "topicId": "cnm_u025",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用比值判别 ∑ₙ₌₁^∞ 1/n!，得到什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "比值趋于 ∞，收敛"
+      },
+      {
+        "key": "B",
+        "text": "比值恒为 2"
+      },
+      {
+        "key": "C",
+        "text": "比值趋于 0，绝对收敛"
+      },
+      {
+        "key": "D",
+        "text": "比值趋于 1，发散"
+      }
+    ],
+    "answer": "C",
+    "explanation": "相邻项绝对值比为 1/(n+1)→0。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.6 Ratio and Root Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u025_q2",
+    "topicId": "cnm_u025",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "比值判别中极限等于 1，能得出什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "和等于 1"
+      },
+      {
+        "key": "B",
+        "text": "该方法不能确定敛散性"
+      },
+      {
+        "key": "C",
+        "text": "必收敛"
+      },
+      {
+        "key": "D",
+        "text": "必发散"
+      }
+    ],
+    "answer": "B",
+    "explanation": "如 ∑1/n 与 ∑1/n² 比值极限都是 1，但敛散性不同。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.6 Ratio and Root Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u026_q1",
+    "topicId": "cnm_u026",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "∑ₙ₌₀^∞ (x/2)ⁿ 的收敛区间是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "所有实数"
+      },
+      {
+        "key": "B",
+        "text": "−2<x<2"
+      },
+      {
+        "key": "C",
+        "text": "−2≤x≤2"
+      },
+      {
+        "key": "D",
+        "text": "x>2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "等比级数要求 |x/2|<1；两端点通项均不趋于零。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.1 Power Series and Functions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u026_q2",
+    "topicId": "cnm_u026",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "已知幂级数收敛半径 R=3，中心为 1，关于 x=4 的收敛性如何？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "需要单独检查"
+      },
+      {
+        "key": "B",
+        "text": "必收敛"
+      },
+      {
+        "key": "C",
+        "text": "必发散"
+      },
+      {
+        "key": "D",
+        "text": "必绝对收敛"
+      }
+    ],
+    "answer": "A",
+    "explanation": "x=4 是距离中心 3 的端点，半径本身不决定端点。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.1 Power Series and Functions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u027_q1",
+    "topicId": "cnm_u027",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "eˣ 在 0 处的二阶泰勒多项式是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1+x+x²/2"
+      },
+      {
+        "key": "B",
+        "text": "1+x+x²"
+      },
+      {
+        "key": "C",
+        "text": "x+x²/2"
+      },
+      {
+        "key": "D",
+        "text": "1−x+x²/2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "eˣ 的各阶导数在 0 都是 1，二次项须除以 2!。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.3 Taylor and Maclaurin Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u027_q2",
+    "topicId": "cnm_u027",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "sin x 在 0 处展开，x³ 项的系数是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "−1/3"
+      },
+      {
+        "key": "C",
+        "text": "1/3"
+      },
+      {
+        "key": "D",
+        "text": "−1/6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "sin x=x−x³/3!+…，系数为 −1/6。",
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.3 Taylor and Maclaurin Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u028_q1",
+    "topicId": "cnm_u028",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "标准单位向量 i×j 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−k"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "i+j"
+      },
+      {
+        "key": "D",
+        "text": "k"
+      }
+    ],
+    "answer": "D",
+    "explanation": "右手规则给出 i×j=k。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.4 The Cross Product",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u028_q2",
+    "topicId": "cnm_u028",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "向量 (2,0,0) 与 (0,3,0) 张成的平行四边形面积是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "叉积为 (0,0,6)，其模为 6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.4 The Cross Product",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u029_q1",
+    "topicId": "cnm_u029",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "平面 2x−y+3z=7 的一个法向量是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(1,2,3)"
+      },
+      {
+        "key": "B",
+        "text": "(2,1,−3)"
+      },
+      {
+        "key": "C",
+        "text": "(2,−1,3)"
+      },
+      {
+        "key": "D",
+        "text": "(7,7,7)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "平面方程三个坐标的系数组成法向量。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.5 Equations of Lines and Planes in Space",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u029_q2",
+    "topicId": "cnm_u029",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "直线 (x,y,z)=(1,2,3)+t(2,0,−1) 的方向向量是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(0,0,0)"
+      },
+      {
+        "key": "B",
+        "text": "(2,0,−1)"
+      },
+      {
+        "key": "C",
+        "text": "(1,2,3)"
+      },
+      {
+        "key": "D",
+        "text": "(3,2,2)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "参数 t 的系数向量就是方向向量。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.5 Equations of Lines and Planes in Space",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u030_q1",
+    "topicId": "cnm_u030",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x,y)=xy/(x²+y²)。沿 y=0 与 y=x 趋于原点，能说明什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "函数必连续"
+      },
+      {
+        "key": "B",
+        "text": "原点处极限不存在"
+      },
+      {
+        "key": "C",
+        "text": "极限为 0"
+      },
+      {
+        "key": "D",
+        "text": "极限为 1/2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "两路径所得值分别为 0 与 1/2，故不存在统一极限。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.2 Limits and Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u030_q2",
+    "topicId": "cnm_u030",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(x,y)→(0,0) 时，x²+y² 的极限是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "不存在"
+      }
+    ],
+    "answer": "A",
+    "explanation": "这是连续多项式，在原点值为 0。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.2 Limits and Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u031_q1",
+    "topicId": "cnm_u031",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x,y)=x²y+y³，fₓ(1,2)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answer": "A",
+    "explanation": "对 x 求导得 2xy，代入得 4。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.3 Partial Derivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u031_q2",
+    "topicId": "cnm_u031",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f(x,y)=x²y³，则先对 x 后对 y 求导的结果是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2xy³"
+      },
+      {
+        "key": "B",
+        "text": "3x²y²"
+      },
+      {
+        "key": "C",
+        "text": "6x²y"
+      },
+      {
+        "key": "D",
+        "text": "6xy²"
+      }
+    ],
+    "answer": "D",
+    "explanation": "fₓ=2xy³，再对 y 求导得 6xy²。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.3 Partial Derivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u032_q1",
+    "topicId": "cnm_u032",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x²+y² 在 (1,2) 处的全微分为？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "df=dx+dy"
+      },
+      {
+        "key": "B",
+        "text": "df=4dx+2dy"
+      },
+      {
+        "key": "C",
+        "text": "df=5dx+5dy"
+      },
+      {
+        "key": "D",
+        "text": "df=2dx+4dy"
+      }
+    ],
+    "answer": "D",
+    "explanation": "df=fₓdx+fᵧdy，两个偏导在该点为 2 和 4。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.4 Tangent Planes and Linear Approximations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u032_q2",
+    "topicId": "cnm_u032",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x²+y²，在 (1,2) 附近 dx=0.01、dy=0，用全微分近似 Δf。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.0001"
+      },
+      {
+        "key": "B",
+        "text": "0.04"
+      },
+      {
+        "key": "C",
+        "text": "0.02"
+      },
+      {
+        "key": "D",
+        "text": "0.01"
+      }
+    ],
+    "answer": "C",
+    "explanation": "线性近似 Δf≈2×0.01+4×0=0.02；不是精确增量。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.4 Tangent Planes and Linear Approximations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u033_q1",
+    "topicId": "cnm_u033",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "z=x²+y，x=t、y=t²，则 dz/dt 在 t=2 为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "z=2t²，导数为 4t；也可按两条链式路径相加。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.5 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u033_q2",
+    "topicId": "cnm_u033",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "z=xy，x=t²、y=t³，则 dz/dt 在 t=1 为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "z=t⁵，导数为 5t⁴，代入 1 得 5。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.5 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u034_q1",
+    "topicId": "cnm_u034",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x²+y² 在 (1,2) 的梯度是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(2,2)"
+      },
+      {
+        "key": "B",
+        "text": "(2,4)"
+      },
+      {
+        "key": "C",
+        "text": "(1,2)"
+      },
+      {
+        "key": "D",
+        "text": "(4,2)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "梯度由偏导组成，即 (2x,2y)。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.6 Directional Derivatives and the Gradient",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u034_q2",
+    "topicId": "cnm_u034",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x+2y，沿单位方向 (3/5,4/5) 的方向导数是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "11/5"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7/5"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answer": "A",
+    "explanation": "梯度 (1,2) 与单位方向点积为 3/5+8/5=11/5。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.6 Directional Derivatives and the Gradient",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u035_q1",
+    "topicId": "cnm_u035",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x²+y² 在 (0,0) 是什么类型？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "严格极小值点"
+      },
+      {
+        "key": "B",
+        "text": "极大值点"
+      },
+      {
+        "key": "C",
+        "text": "鞍点"
+      },
+      {
+        "key": "D",
+        "text": "无定义"
+      }
+    ],
+    "answer": "A",
+    "explanation": "非原点处 x²+y²>0，原点取 0。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.7 Maxima/Minima Problems",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u035_q2",
+    "topicId": "cnm_u035",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "f=x²−y² 在 (0,0) 是什么类型？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "极小值点"
+      },
+      {
+        "key": "B",
+        "text": "极大值点"
+      },
+      {
+        "key": "C",
+        "text": "不可导点"
+      },
+      {
+        "key": "D",
+        "text": "鞍点"
+      }
+    ],
+    "answer": "D",
+    "explanation": "沿 x 轴函数增大，沿 y 轴函数减小。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.7 Maxima/Minima Problems",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u036_q1",
+    "topicId": "cnm_u036",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在 x+y=4 下，x²+y² 的最小值是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "D",
+    "explanation": "梯度条件给出 x=y，再用约束得 x=y=2，值为 8。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.8 Lagrange Multipliers",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u036_q2",
+    "topicId": "cnm_u036",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在 x²+y²=1 下，x+y 的最大值是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "√2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "C",
+    "explanation": "由柯西不等式或乘数法，最大值 √2 在 x=y=1/√2 处取得。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.8 Lagrange Multipliers",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u037_q1",
+    "topicId": "cnm_u037",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在矩形 0≤x≤1、0≤y≤2 上，∬(x+y)dA 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "x 项积分为 1，y 项积分为 2，总和 3。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.2 Double Integrals over General Regions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u037_q2",
+    "topicId": "cnm_u037",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "区域 0≤x≤1、0≤y≤x 上的 ∬1 dA 是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "它是该三角形面积，或算 ∫₀¹∫₀ˣ1 dy dx=1/2。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.2 Double Integrals over General Regions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u038_q1",
+    "topicId": "cnm_u038",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "单位圆盘上的 ∬1 dA 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "π/2"
+      },
+      {
+        "key": "B",
+        "text": "π"
+      },
+      {
+        "key": "C",
+        "text": "2π"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "积分为 ∫₀^(2π)∫₀¹ r dr dθ=π。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.3 Double Integrals in Polar Coordinates",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u038_q2",
+    "topicId": "cnm_u038",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "极坐标变换的面积元 dA 是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "r dr dθ"
+      },
+      {
+        "key": "B",
+        "text": "dr dθ"
+      },
+      {
+        "key": "C",
+        "text": "r² dr dθ"
+      },
+      {
+        "key": "D",
+        "text": "(1/r) dr dθ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "半径方向与角方向的面积缩放给出因子 r。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.3 Double Integrals in Polar Coordinates",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u039_q1",
+    "topicId": "cnm_u039",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在长方体 [0,1]×[0,2]×[0,3] 上，∭1 dV 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "体积为 1×2×3=6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.4 Triple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u039_q2",
+    "topicId": "cnm_u039",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "在单位立方体 [0,1]³ 上，∭z dV 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "1/3"
+      },
+      {
+        "key": "C",
+        "text": "3/2"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "x、y 两次积分各给因子 1，∫₀¹z dz=1/2。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.4 Triple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u040_q1",
+    "topicId": "cnm_u040",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x=2u、y=3v 时，二重积分面积元的缩放因子为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "−6"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "雅可比矩阵 diag(2,3) 的行列式绝对值为 6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.7 Change of Variables in Multiple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u040_q2",
+    "topicId": "cnm_u040",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "x=u、y=−2v 时，面积元 dA 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "du dv"
+      },
+      {
+        "key": "B",
+        "text": "(1/2) du dv"
+      },
+      {
+        "key": "C",
+        "text": "2 du dv"
+      },
+      {
+        "key": "D",
+        "text": "−2 du dv"
+      }
+    ],
+    "answer": "C",
+    "explanation": "行列式为 −2，换元取绝对值得到 2。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.7 Change of Variables in Multiple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u041_q1",
+    "topicId": "cnm_u041",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "沿线段 (0,0)→(2,0)，∫C 1 ds 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "对常数 1 的弧长积分就是线段长度。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.2 Line Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u041_q2",
+    "topicId": "cnm_u041",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "常向量场 F=(3,0)，沿 (0,0)→(2,0) 的做功积分是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "F·dr=3dx，x 从 0 到 2，积分为 6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.2 Line Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u042_q1",
+    "topicId": "cnm_u042",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "C 为单位圆逆时针边界，∮C x dy 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2π"
+      },
+      {
+        "key": "B",
+        "text": "π"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "−π"
+      }
+    ],
+    "answer": "B",
+    "explanation": "P=0、Q=x，偏导差为 1，对单位圆盘积分得 π。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.4 Green’s Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u042_q2",
+    "topicId": "cnm_u042",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "同一个单位圆改为顺时针，∮C x dy 等于多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−π"
+      },
+      {
+        "key": "B",
+        "text": "π"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "2π"
+      }
+    ],
+    "answer": "A",
+    "explanation": "做功型曲线积分反向变号。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.4 Green’s Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u043_q1",
+    "topicId": "cnm_u043",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(0,0,3) 穿过 z=0 平面内面积为 2 的面片，取向上法向，通量是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "−6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "F·n=3，乘面片面积 2 得 6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.6 Surface Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u043_q2",
+    "topicId": "cnm_u043",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "相同向量场与面片改取向下法向，通量是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "−6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "法向反转，点积及通量均变号。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.6 Surface Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u044_q1",
+    "topicId": "cnm_u044",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(x,2y,3z) 的散度是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "(1,2,3)"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "散度为 1+2+3=6。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.5 Divergence and Curl",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u044_q2",
+    "topicId": "cnm_u044",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(−y,x,0) 的旋度是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(0,0,−2)"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "(0,0,2)"
+      },
+      {
+        "key": "D",
+        "text": "(0,0,0)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "z 分量为 ∂x/∂x−∂(−y)/∂y=2，其余为零。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.5 Divergence and Curl",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u045_q1",
+    "topicId": "cnm_u045",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(x,y,z) 穿过单位立方体闭合表面的向外通量是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "散度恒为 3，体积为 1，通量为 3。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.8 The Divergence Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u045_q2",
+    "topicId": "cnm_u045",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(1,0,0) 穿过任意光滑有界体的闭合表面，向外总通量是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "等于表面积"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "等于体积"
+      }
+    ],
+    "answer": "B",
+    "explanation": "常向量场散度为零，闭合表面的总通量为零。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.8 The Divergence Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u046_q1",
+    "topicId": "cnm_u046",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "F=(−y/2,x/2,0)，C 是从 +z 方向看逆时针的单位圆。∮C F·dr=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−π"
+      },
+      {
+        "key": "B",
+        "text": "π"
+      },
+      {
+        "key": "C",
+        "text": "2π"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "旋度为 (0,0,1)，对向上的单位圆盘积分得 π。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.7 Stokes’ Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_u046_q2",
+    "topicId": "cnm_u046",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "斯托克斯公式中，若只反转边界方向却保持曲面法向，公式是否仍按原符号成立？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不能，二者定向必须匹配"
+      },
+      {
+        "key": "B",
+        "text": "总成立"
+      },
+      {
+        "key": "C",
+        "text": "只有向量场常量时才需要匹配"
+      },
+      {
+        "key": "D",
+        "text": "方向完全无关"
+      }
+    ],
+    "answer": "A",
+    "explanation": "反转曲线方向使环流变号；曲面法向也应相应反转。",
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.7 Stokes’ Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l001_q1",
+    "topicId": "cnm_l001",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A=[[1,2],[3,4]]，2A 的第二行第一列元素是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "C",
+    "explanation": "数乘逐元素进行，该元素由 3 变为 6。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l001_q2",
+    "topicId": "cnm_l001",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "2×3 矩阵与 3×2 矩阵是否能直接相加？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "能，得到 3×3 矩阵"
+      },
+      {
+        "key": "B",
+        "text": "不能，矩阵形状不同"
+      },
+      {
+        "key": "C",
+        "text": "能，元素总数相等"
+      },
+      {
+        "key": "D",
+        "text": "能，得到 2×2 矩阵"
+      }
+    ],
+    "answer": "B",
+    "explanation": "矩阵加法要求行数、列数分别相等。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l002_q1",
+    "topicId": "cnm_l002",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A=[[1,2],[0,1]]，B=[[2,0],[3,1]]。AB 的第一行第一列元素是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第一行 (1,2) 点乘第一列 (2,3)，得到 2+6=8。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l002_q2",
+    "topicId": "cnm_l002",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A 为 2×3，B 为 3×4，则 AB 的形状是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2×4"
+      },
+      {
+        "key": "B",
+        "text": "3×3"
+      },
+      {
+        "key": "C",
+        "text": "4×2"
+      },
+      {
+        "key": "D",
+        "text": "不能相乘"
+      }
+    ],
+    "answer": "A",
+    "explanation": "中间维度 3 相同，结果保留 A 的行数和 B 的列数。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l003_q1",
+    "topicId": "cnm_l003",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "哪项不是保持解集的合法初等行变换？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把一整行乘以 0"
+      },
+      {
+        "key": "B",
+        "text": "交换两行"
+      },
+      {
+        "key": "C",
+        "text": "把一行乘以 2"
+      },
+      {
+        "key": "D",
+        "text": "把第一行的 3 倍加到第二行"
+      }
+    ],
+    "answer": "A",
+    "explanation": "乘以零会丢失原方程信息，非零数乘才可逆。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l003_q2",
+    "topicId": "cnm_l003",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "增广行 [1,2|5] 与 [2,5|12]，令 R₂←R₂−2R₁，第二行变为？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "[0,3|7]"
+      },
+      {
+        "key": "B",
+        "text": "[1,3|7]"
+      },
+      {
+        "key": "C",
+        "text": "[0,1|12]"
+      },
+      {
+        "key": "D",
+        "text": "[0,1|2]"
+      }
+    ],
+    "answer": "D",
+    "explanation": "每个位置同时相减：2−2=0，5−4=1，12−10=2。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l004_q1",
+    "topicId": "cnm_l004",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "方程组 x+y=5、x−y=1 的解为？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x=2，y=3"
+      },
+      {
+        "key": "B",
+        "text": "x=5，y=1"
+      },
+      {
+        "key": "C",
+        "text": "无解"
+      },
+      {
+        "key": "D",
+        "text": "x=3，y=2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "两式相加得 2x=6，代回得 y=2。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l004_q2",
+    "topicId": "cnm_l004",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "消元后出现增广行 [0,0|4]，说明什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "有两个自由变量"
+      },
+      {
+        "key": "B",
+        "text": "所有变量为 0"
+      },
+      {
+        "key": "C",
+        "text": "方程组无解"
+      },
+      {
+        "key": "D",
+        "text": "唯一解"
+      }
+    ],
+    "answer": "C",
+    "explanation": "该行表示 0=4，矛盾。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l005_q1",
+    "topicId": "cnm_l005",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩阵 [[1,2],[2,4]] 的秩是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "第二行是第一行的 2 倍，只有一个主元。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l005_q2",
+    "topicId": "cnm_l005",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一个 3×5 矩阵最多有多少个主元？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "B",
+    "explanation": "每个主元占不同的一行和一列，最多 min(3,5)=3。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l006_q1",
+    "topicId": "cnm_l006",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩阵 [[3,1],[2,4]] 的行列式为多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "B",
+    "explanation": "3×4−1×2=10。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l006_q2",
+    "topicId": "cnm_l006",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "三角矩阵 [[2,1,3],[0,−1,2],[0,0,4]] 的行列式是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−8"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "三角矩阵行列式为对角线元素乘积 2×(−1)×4=−8。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l007_q1",
+    "topicId": "cnm_l007",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "det(A)=5，B 由 A 交换两行得到。det(B)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−5"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "交换两行改变行列式符号。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l007_q2",
+    "topicId": "cnm_l007",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A 是 3×3 矩阵且 det(A)=2，det(2A)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "D",
+    "explanation": "三行都乘以 2，行列式乘 2³，得到 16。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l008_q1",
+    "topicId": "cnm_l008",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A=diag(2,5)，A⁻¹ 是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "diag(2,5)"
+      },
+      {
+        "key": "B",
+        "text": "diag(−2,−5)"
+      },
+      {
+        "key": "C",
+        "text": "diag(5,2)"
+      },
+      {
+        "key": "D",
+        "text": "diag(1/2,1/5)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "对角矩阵的非零对角元素分别取倒数。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.5",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-inverses.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l008_q2",
+    "topicId": "cnm_l008",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩阵 [[1,2],[2,4]] 是否可逆？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "可逆，因为矩阵是方阵"
+      },
+      {
+        "key": "B",
+        "text": "不可逆，因为行列式为 1"
+      },
+      {
+        "key": "C",
+        "text": "不可逆，因为行列式为 0"
+      },
+      {
+        "key": "D",
+        "text": "可逆，因为元素非零"
+      }
+    ],
+    "answer": "C",
+    "explanation": "行列式 1×4−2×2=0。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.5",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-inverses.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l009_q1",
+    "topicId": "cnm_l009",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "2x+y=7、x−y=2，用克拉默法则求 x。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "系数行列式为 −3，替换第一列后为 −9，x=(−9)/(−3)=3。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.2",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l009_q2",
+    "topicId": "cnm_l009",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "直接应用克拉默法则求唯一解，关键前提是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "方程右端必须全为 0"
+      },
+      {
+        "key": "B",
+        "text": "系数矩阵为方阵且行列式非零"
+      },
+      {
+        "key": "C",
+        "text": "行列式等于 0"
+      },
+      {
+        "key": "D",
+        "text": "所有元素都为正"
+      }
+    ],
+    "answer": "B",
+    "explanation": "分母为系数行列式，必须非零。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.2",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l010_q1",
+    "topicId": "cnm_l010",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "v₁=(1,0)、v₂=(0,1)，2v₁−3v₂ 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(−1,−1)"
+      },
+      {
+        "key": "B",
+        "text": "(2,−3)"
+      },
+      {
+        "key": "C",
+        "text": "(−3,2)"
+      },
+      {
+        "key": "D",
+        "text": "(2,3)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "逐坐标相加得到 (2,−3)。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.2",
+      "url": "https://textbooks.math.gatech.edu/ila/spans.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l010_q2",
+    "topicId": "cnm_l010",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(1,2) 与 (2,4) 的张成空间是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "过原点的一条直线"
+      },
+      {
+        "key": "B",
+        "text": "整个 R²"
+      },
+      {
+        "key": "C",
+        "text": "不经过原点的直线"
+      },
+      {
+        "key": "D",
+        "text": "只有零向量"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第二个向量为第一个的倍数，所有组合仍在该方向上。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.2",
+      "url": "https://textbooks.math.gatech.edu/ila/spans.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l011_q1",
+    "topicId": "cnm_l011",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "向量 (1,0)、(0,1) 是否线性无关？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "线性无关"
+      },
+      {
+        "key": "B",
+        "text": "线性相关"
+      },
+      {
+        "key": "C",
+        "text": "因为均非零所以任何向量组都无关"
+      },
+      {
+        "key": "D",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "A",
+    "explanation": "a(1,0)+b(0,1)=0 迫使 a=b=0。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.5",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l011_q2",
+    "topicId": "cnm_l011",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "一个向量组含零向量，必有什么性质？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "线性无关"
+      },
+      {
+        "key": "B",
+        "text": "张成整个空间"
+      },
+      {
+        "key": "C",
+        "text": "秩等于向量个数"
+      },
+      {
+        "key": "D",
+        "text": "线性相关"
+      }
+    ],
+    "answer": "D",
+    "explanation": "给零向量系数 1、其他系数 0，即得非平凡零组合。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.5",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l012_q1",
+    "topicId": "cnm_l012",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列 R² 的子集中，哪个是子空间？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "{(x,y): y=2x+1}"
+      },
+      {
+        "key": "B",
+        "text": "{(x,y): x²+y²=1}"
+      },
+      {
+        "key": "C",
+        "text": "{(x,y): x>0}"
+      },
+      {
+        "key": "D",
+        "text": "{(x,y): y=2x}"
+      }
+    ],
+    "answer": "D",
+    "explanation": "过原点的直线对加法、数乘封闭并包含零向量。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.6",
+      "url": "https://textbooks.math.gatech.edu/ila/subspaces.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l012_q2",
+    "topicId": "cnm_l012",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "齐次方程 Ax=0 的解集是否一定含零向量？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "仅 A 可逆才含"
+      },
+      {
+        "key": "B",
+        "text": "仅 A 为零矩阵才含"
+      },
+      {
+        "key": "C",
+        "text": "一定包含"
+      },
+      {
+        "key": "D",
+        "text": "一定不含"
+      }
+    ],
+    "answer": "C",
+    "explanation": "任何矩阵乘零向量都为零。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.6",
+      "url": "https://textbooks.math.gatech.edu/ila/subspaces.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l013_q1",
+    "topicId": "cnm_l013",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "R³ 的一组基包含多少个向量？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "任意个"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "R³ 的维数是 3，基向量个数等于维数。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.7",
+      "url": "https://textbooks.math.gatech.edu/ila/dimension.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l013_q2",
+    "topicId": "cnm_l013",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "R² 中 {(1,0),(0,1),(1,1)} 为什么不是一组基？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "有两个向量平行"
+      },
+      {
+        "key": "B",
+        "text": "它线性相关"
+      },
+      {
+        "key": "C",
+        "text": "不能张成 R²"
+      },
+      {
+        "key": "D",
+        "text": "含零向量"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第三个向量是前两个的和，虽然能张成 R²，但不线性无关。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.7",
+      "url": "https://textbooks.math.gatech.edu/ila/dimension.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l014_q1",
+    "topicId": "cnm_l014",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A 有 5 列、秩为 3，则 Ax=0 的解空间维数是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "秩零化度定理：5−3=2。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l014_q2",
+    "topicId": "cnm_l014",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "n×n 矩阵 A 满秩，Ax=0 有什么解？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只有零解"
+      },
+      {
+        "key": "B",
+        "text": "无解"
+      },
+      {
+        "key": "C",
+        "text": "无穷多非零解"
+      },
+      {
+        "key": "D",
+        "text": "恰有两个解"
+      }
+    ],
+    "answer": "A",
+    "explanation": "零空间维数 n−n=0，因此只有零向量。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l015_q1",
+    "topicId": "cnm_l015",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下列 R→R 的映射哪个是线性的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "T(x)=3x"
+      },
+      {
+        "key": "B",
+        "text": "T(x)=x+1"
+      },
+      {
+        "key": "C",
+        "text": "T(x)=x²"
+      },
+      {
+        "key": "D",
+        "text": "T(x)=|x|"
+      }
+    ],
+    "answer": "A",
+    "explanation": "3x 保持加法、数乘且 T(0)=0，其余不满足全部条件。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.3",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l015_q2",
+    "topicId": "cnm_l015",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "T:R²→R²，T(e₁)=(2,0)、T(e₂)=(1,3)。标准矩阵是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "[[2,0],[1,3]]"
+      },
+      {
+        "key": "B",
+        "text": "[[1,2],[3,0]]"
+      },
+      {
+        "key": "C",
+        "text": "[[0,2],[3,1]]"
+      },
+      {
+        "key": "D",
+        "text": "[[2,1],[0,3]]"
+      }
+    ],
+    "answer": "D",
+    "explanation": "将标准基向量的像按列排列。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.3",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l016_q1",
+    "topicId": "cnm_l016",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "基 B=((1,0),(1,1)) 下，v=(3,2) 的坐标是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(3,2)"
+      },
+      {
+        "key": "B",
+        "text": "(2,1)"
+      },
+      {
+        "key": "C",
+        "text": "(5,2)"
+      },
+      {
+        "key": "D",
+        "text": "(1,2)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "v=1(1,0)+2(1,1)。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.8",
+      "url": "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l016_q2",
+    "topicId": "cnm_l016",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "基 B=((2,0),(0,3)) 下坐标为 (1,2)，标准坐标是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(1,2)"
+      },
+      {
+        "key": "B",
+        "text": "(3,5)"
+      },
+      {
+        "key": "C",
+        "text": "(2,6)"
+      },
+      {
+        "key": "D",
+        "text": "(1/2,2/3)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "按基线性组合：1(2,0)+2(0,3)=(2,6)。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.8",
+      "url": "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l017_q1",
+    "topicId": "cnm_l017",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩阵 [[2,1],[0,5]] 的特征值是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0 和 7"
+      },
+      {
+        "key": "B",
+        "text": "只有 7"
+      },
+      {
+        "key": "C",
+        "text": "2 和 5"
+      },
+      {
+        "key": "D",
+        "text": "1 和 5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "三角矩阵的特征值就是对角线元素。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.2",
+      "url": "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l017_q2",
+    "topicId": "cnm_l017",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A=diag(3,4)，det(A−λI) 等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7−λ"
+      },
+      {
+        "key": "B",
+        "text": "(3−λ)(4−λ)"
+      },
+      {
+        "key": "C",
+        "text": "(3+λ)(4+λ)"
+      },
+      {
+        "key": "D",
+        "text": "12−λ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A−λI 为 diag(3−λ,4−λ)，行列式为二者之积。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.2",
+      "url": "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l018_q1",
+    "topicId": "cnm_l018",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "A=diag(2,3)，哪个是特征值 2 的特征向量？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(0,0)"
+      },
+      {
+        "key": "B",
+        "text": "(1,0)"
+      },
+      {
+        "key": "C",
+        "text": "(0,1)"
+      },
+      {
+        "key": "D",
+        "text": "(1,1)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A(1,0)=2(1,0)；零向量不称为特征向量。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.1",
+      "url": "https://textbooks.math.gatech.edu/ila/eigenvectors.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l018_q2",
+    "topicId": "cnm_l018",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Av=λv 中，对特征向量 v 有什么必要要求？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "v≠0"
+      },
+      {
+        "key": "B",
+        "text": "v 必须单位长度"
+      },
+      {
+        "key": "C",
+        "text": "v 所有分量都非零"
+      },
+      {
+        "key": "D",
+        "text": "λ 必须非零"
+      }
+    ],
+    "answer": "A",
+    "explanation": "v 必须非零，允许任意非零倍数；特征值可以为零。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.1",
+      "url": "https://textbooks.math.gatech.edu/ila/eigenvectors.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l019_q1",
+    "topicId": "cnm_l019",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "B=P⁻¹AP 且 P 可逆。若 det(A)=6，det(B)=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "−6"
+      },
+      {
+        "key": "D",
+        "text": "取决于 det(P)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "乘积行列式中 det(P⁻¹) 与 det(P) 抵消。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.3",
+      "url": "https://textbooks.math.gatech.edu/ila/similarity.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l019_q2",
+    "topicId": "cnm_l019",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "相似矩阵一定相同的是哪项？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "每个矩阵元素"
+      },
+      {
+        "key": "B",
+        "text": "每个特征向量的标准坐标"
+      },
+      {
+        "key": "C",
+        "text": "每一行的和"
+      },
+      {
+        "key": "D",
+        "text": "特征多项式"
+      }
+    ],
+    "answer": "D",
+    "explanation": "换基改变具体矩阵元素，但特征多项式不变。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.3",
+      "url": "https://textbooks.math.gatech.edu/ila/similarity.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l020_q1",
+    "topicId": "cnm_l020",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "2×2 实矩阵有两个不同的实特征值，是否能在实数域对角化？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不能，因为不是对角矩阵"
+      },
+      {
+        "key": "B",
+        "text": "仅迹为 0 才能"
+      },
+      {
+        "key": "C",
+        "text": "仅行列式为 1 才能"
+      },
+      {
+        "key": "D",
+        "text": "能，因为对应特征向量线性无关"
+      }
+    ],
+    "answer": "D",
+    "explanation": "不同特征值对应的特征向量线性无关，足够组成基。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.4",
+      "url": "https://textbooks.math.gatech.edu/ila/diagonalization.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l020_q2",
+    "topicId": "cnm_l020",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "矩阵 [[1,1],[0,1]] 能否对角化？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "能，因为矩阵可逆"
+      },
+      {
+        "key": "B",
+        "text": "能，因为矩阵为三角形"
+      },
+      {
+        "key": "C",
+        "text": "不能，只有一个独立特征向量方向"
+      },
+      {
+        "key": "D",
+        "text": "能，因为特征值为 1"
+      }
+    ],
+    "answer": "C",
+    "explanation": "唯一特征值 1 的特征空间要求第二坐标为 0，维数只有 1。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.4",
+      "url": "https://textbooks.math.gatech.edu/ila/diagonalization.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l021_q1",
+    "topicId": "cnm_l021",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "(1,2) 与 (2,−1) 的内积是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−4"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1×2+2×(−1)=0，因此两向量正交。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.1",
+      "url": "https://textbooks.math.gatech.edu/ila/dot-product.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l021_q2",
+    "topicId": "cnm_l021",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "向量 (3,4) 的欧氏范数是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "范数为 √(3²+4²)=5。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.1",
+      "url": "https://textbooks.math.gatech.edu/ila/dot-product.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l022_q1",
+    "topicId": "cnm_l022",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "v₁=(1,0)、v₂=(1,2)，先取 u₁=v₁，减去 v₂ 在 u₁ 上的投影后 u₂ 是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(0,0)"
+      },
+      {
+        "key": "B",
+        "text": "(0,2)"
+      },
+      {
+        "key": "C",
+        "text": "(1,2)"
+      },
+      {
+        "key": "D",
+        "text": "(2,2)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "投影为 (1,0)，相减得到 (0,2)。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.4",
+      "url": "https://textbooks.math.gatech.edu/ila/orthogonal.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l022_q2",
+    "topicId": "cnm_l022",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "把非零正交向量 u=(0,2) 归一化，得到什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(0,1)"
+      },
+      {
+        "key": "B",
+        "text": "(0,2)"
+      },
+      {
+        "key": "C",
+        "text": "(1,0)"
+      },
+      {
+        "key": "D",
+        "text": "(0,4)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "除以范数 2 得到 (0,1)。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.4",
+      "url": "https://textbooks.math.gatech.edu/ila/orthogonal.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l023_q1",
+    "topicId": "cnm_l023",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "把 b=(3,4) 正交投影到 x 轴，结果是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(3,0)"
+      },
+      {
+        "key": "B",
+        "text": "(0,4)"
+      },
+      {
+        "key": "C",
+        "text": "(3,4)"
+      },
+      {
+        "key": "D",
+        "text": "(4,0)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "投影保留 x 方向分量，残差 (0,4) 与 x 轴正交。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.5",
+      "url": "https://textbooks.math.gatech.edu/ila/least-squares.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l023_q2",
+    "topicId": "cnm_l023",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "用常数 c 拟合观测 1、3、5，使 (c−1)²+(c−3)²+(c−5)² 最小，c=？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "D",
+    "explanation": "导数为 6c−18，极小点 c=3，也就是均值。",
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.5",
+      "url": "https://textbooks.math.gatech.edu/ila/least-squares.html"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l024_q1",
+    "topicId": "cnm_l024",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "Q 为实正交方阵，其逆矩阵等于什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "−Q"
+      },
+      {
+        "key": "B",
+        "text": "Q²"
+      },
+      {
+        "key": "C",
+        "text": "零矩阵"
+      },
+      {
+        "key": "D",
+        "text": "Qᵀ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "QᵀQ=I，故 Q⁻¹=Qᵀ。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.2",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.02:_Orthogonal_Diagonalization"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l024_q2",
+    "topicId": "cnm_l024",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "任意实对称矩阵一定具有什么性质？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "行列式一定非零"
+      },
+      {
+        "key": "B",
+        "text": "所有元素相同"
+      },
+      {
+        "key": "C",
+        "text": "可在实数域正交对角化"
+      },
+      {
+        "key": "D",
+        "text": "所有特征值都为正"
+      }
+    ],
+    "answer": "C",
+    "explanation": "实谱定理保证正交对角化，不保证正定或可逆。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.2",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.02:_Orthogonal_Diagonalization"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l025_q1",
+    "topicId": "cnm_l025",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "q(x,y)=2x²+6xy+5y² 的对称矩阵是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "[[2,0],[0,5]]"
+      },
+      {
+        "key": "B",
+        "text": "[[2,6],[0,5]]"
+      },
+      {
+        "key": "C",
+        "text": "[[2,3],[3,5]]"
+      },
+      {
+        "key": "D",
+        "text": "[[2,6],[6,5]]"
+      }
+    ],
+    "answer": "C",
+    "explanation": "对称位置各为 3，合起来给交叉项 6xy；最后一个矩阵虽给同一形式，但不对称。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.9",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.09:_An_Application_to_Quadratic_Forms"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l025_q2",
+    "topicId": "cnm_l025",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "二次型矩阵 A 在可逆代换 x=Py 后变为什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A+P"
+      },
+      {
+        "key": "B",
+        "text": "PᵀAP"
+      },
+      {
+        "key": "C",
+        "text": "P⁻¹AP"
+      },
+      {
+        "key": "D",
+        "text": "PAP⁻¹"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(Py)ᵀA(Py)=yᵀ(PᵀAP)y，这是合同变换。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.9",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.09:_An_Application_to_Quadratic_Forms"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l026_q1",
+    "topicId": "cnm_l026",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "q(x,y)=2x²+3y² 的类型是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "恒为 0"
+      },
+      {
+        "key": "B",
+        "text": "正定"
+      },
+      {
+        "key": "C",
+        "text": "负定"
+      },
+      {
+        "key": "D",
+        "text": "不定"
+      }
+    ],
+    "answer": "B",
+    "explanation": "非零向量至少一个分量不为零，两个平方项系数均为正。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.3",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.03:_Positive_Definite_Matrices"
+    },
+    "origin": "原创练习，不是教材原题"
+  },
+  {
+    "id": "cnm_l026_q2",
+    "topicId": "cnm_l026",
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "实对称矩阵 A=[[-1,0],[0,−2]] 行列式为正，是否正定？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不是，它是负定的"
+      },
+      {
+        "key": "B",
+        "text": "是，只要行列式为正"
+      },
+      {
+        "key": "C",
+        "text": "是，因为对角矩阵都正定"
+      },
+      {
+        "key": "D",
+        "text": "无法判断任何性质"
+      }
+    ],
+    "answer": "A",
+    "explanation": "行列式正不足够；特征值 −1、−2 均负。",
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.3",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.03:_Positive_Definite_Matrices"
+    },
+    "origin": "原创练习，不是教材原题"
+  }
+]

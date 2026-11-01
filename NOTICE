@@ -1,0 +1,10 @@
+Derived from xiaoyang111222/cn-math-taxonomy
+https://github.com/xiaoyang111222/cn-math-taxonomy
+Original material: CC BY-NC 4.0, see LICENSE.
+University mathematics extension: CC BY-NC-SA 4.0, see UNIVERSITY-NOTICE.md.
+Third-party components retain their own licenses; see THIRD_PARTY_NOTICES.md.
+
+Changes include Toy adaptation, interface and curriculum extensions through V15,
+public-source documentation, exclusion of internal QA materials, and replacement
+of 157 verbatim curriculum-standard texts with source-reference placeholders.
+No endorsement by original authors, textbook publishers or institutions is implied.

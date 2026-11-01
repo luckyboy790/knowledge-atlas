@@ -1,0 +1,208 @@
+{
+  "subject": "herbal",
+  "date": "2026-10-31",
+  "reviewer": "medicine_curriculum（非中药作者）",
+  "review_type": "独立AI语义通读、书目交叉核验与程序完整性检查；未经药学教师审定",
+  "status": "passed_with_documented_source_limits",
+  "read_counts": {
+    "topics": 104,
+    "questions": 208,
+    "dependencies": 136,
+    "books": 6,
+    "course_modules": 6
+  },
+  "reading_record": [
+    {
+      "module": "materia",
+      "topics_read": 28,
+      "questions_read": 56,
+      "assessment": "逐项核对传统药性、七情配伍、19类代表药归类及药材/饮片/成药层级；传统功效均有理论语境标注，未将清热直接等同抗菌或活血等同抗凝。"
+    },
+    {
+      "module": "identification",
+      "topics_read": 20,
+      "questions_read": 40,
+      "assessment": "核对基原、药用部位、根/根茎、参类、黄芩/黄连、肉桂/桂枝、花序/果实、茯苓菌核与石膏矿物信息；来源、性状、显微、理化和DNA各方法边界合理。"
+    },
+    {
+      "module": "chemistry",
+      "topics_read": 14,
+      "questions_read": 28,
+      "assessment": "核对苷和苷元、醌母核、黄酮C6-C3-C6、苯丙素C6-C3、木脂素二聚、萜类碳数、挥发油与脂肪油、皂苷、生物碱、鞣质、色谱和谱学概念；正确答案唯一，未用总量替代结构鉴定。"
+    },
+    {
+      "module": "processing",
+      "topics_read": 10,
+      "questions_read": 20,
+      "assessment": "核对净制、切制、炒、炙、水火共制、煅制、发酵/发芽的概念层次和质量评价；没有给出有毒药材家庭加工参数，没有把毒性指标下降等同无毒。"
+    },
+    {
+      "module": "pharmaceutics",
+      "topics_read": 16,
+      "questions_read": 32,
+      "assessment": "核对剂型与途径、辅料、颗粒表面积、溶解度/溶出、分散体系、片丸胶囊、外用制剂、注射剂质量、无菌/内毒素、稳定性和释放类型；生物利用度定义补明原形药物。"
+    },
+    {
+      "module": "pharmacology",
+      "topics_read": 16,
+      "questions_read": 32,
+      "assessment": "核对PK/PD、EC50/效价/最大效能、ADME、AUC/峰值/时程、协同与相加模型、随机盲法、显著性与效应、外推边界和安全因果；明确EC50比较为同系统操作性指标。"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "HERBAL-R1",
+      "severity": "minor_precision",
+      "target": "herbal_pharmaceutics_016及_q1",
+      "finding": "生物利用度定义中的“药物”可被误读为包括任意代谢产物的总量。",
+      "resolution": "补明本节点采用原形药物进入体循环的定义，保留多成分被测对象边界；更新描述、正确选项、解析与diagnostic_question。"
+    },
+    {
+      "id": "HERBAL-R2",
+      "severity": "minor_precision",
+      "target": "herbal_pharmacology_003_q2",
+      "finding": "最大效能不同下“EC50较低→效价较高”的比较需要说明操作性指标。",
+      "resolution": "题干明确同实验系统和各自50%最大效应的EC50，答案明确按该指标比较；解析不再无条件外推所有相同绝对效应水平。"
+    },
+    {
+      "id": "HERBAL-R3",
+      "severity": "minor_assessment_clarity",
+      "target": "herbal_materia_020_q2",
+      "finding": "“最主要错误”下面部分干扰项是较窄的相近错误表述，易造成合理性争议。",
+      "resolution": "改为对无条件活血→抗凝改写的直接评价；三个干扰项为可明确排除的概念陈述，正确答案保持跨框架混淆。"
+    },
+    {
+      "id": "HERBAL-R4",
+      "severity": "minor_traceability",
+      "target": [
+        "herbal_materia_002 <- herbal_materia_001",
+        "herbal_identification_001 <- herbal_materia_001",
+        "herbal_pharmaceutics_001 <- herbal_materia_001"
+      ],
+      "finding": "通用先修理由没有准确表达身份/制品层级联系。",
+      "resolution": "分别改为药性记录对象、基原部位状态字段和剂型的制剂层级；保留soft学习建议，无强制门槛。"
+    },
+    {
+      "id": "HERBAL-R5",
+      "severity": "minor_explanation_quality",
+      "target": "herbal_materia_025_q1",
+      "finding": "主程序复核发现原解析仅重复麦冬归类，缺少分类对照。",
+      "resolution": "补写麦冬在传统补虚药分类中属补阴药，并与补气、补血、补阳三类对照；保留原正确答案，说明同属补虚药不能混为一类。"
+    }
+  ],
+  "source_cross_checks": [
+    {
+      "books": [
+        "中药学第6版",
+        "中药鉴定学第6版",
+        "中药化学第5版"
+      ],
+      "url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "observed": "高校2026秋教材表列相应ISBN、作者、月份及版次；化学表仅列夏永刚，由出版社页面补核邱峰。"
+    },
+    {
+      "books": [
+        "中药学第6版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585&from_source=gbox_seo",
+      "observed": "中医书院列钟赣生/杨柏灿、9787524700265、第6版、2026-03。仍保留原记录其他平台日期差异。"
+    },
+    {
+      "books": [
+        "中药鉴定学第6版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=3f58nl70vvmfhnt&from_source=gbox_seo",
+      "observed": "中医书院列闫永红/张慧、9787524704287、第6版、2026-05。"
+    },
+    {
+      "books": [
+        "中药化学第5版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=364i9524c5rtcu2&from_source=gbox_seo",
+      "observed": "出版社官方旗舰店标题明确夏永刚/邱峰、第5版；出版社官网新书栏亦列两位作者。"
+    },
+    {
+      "books": [
+        "中药炮制学第6版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=3ewm8xoordanhbe&from_source=gbox_seo",
+      "observed": "中医书院列钟凌云、9787524700562、第6版、2026-03；湖北中医药大学2025审稿新闻支持主编与系列身份。"
+    },
+    {
+      "books": [
+        "中药药剂学第6版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=3emqmhox7ne4dj9&from_source=gbox_seo",
+      "observed": "中医书院列朱卫丰/唐志书、9787524703259、第6版、2026-05；数据保守记录2026年不冲突。"
+    },
+    {
+      "books": [
+        "中药药理学第6版"
+      ],
+      "url": "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z&from_source=gbox_seo",
+      "observed": "中医书院列彭成/许钒、9787524700364、第6版、2026-02；未据此解决高校2026年定稿报道的时间冲突。"
+    },
+    {
+      "books": [
+        "中药药理学第6版"
+      ],
+      "url": "https://www.cdutcm.edu.cn/yxy/info/1046/1602.htm",
+      "observed": "2026-10-15页面报道9月12日定稿会，主编一致但日期与商品页不一致；继续保留明确待核事项。"
+    },
+    {
+      "standard": "2025年版中国药典",
+      "url": "https://yjj.sh.gov.cn/qtgzwj/20250325/8c2d17aff8c44dcab1785165cca1bb1a.html",
+      "observed": "药监局官方转载确认2025-10-01实施，结构含凡例、品种正文、通用技术要求和指导原则，指导原则为推荐技术要求。"
+    }
+  ],
+  "numeric_review": [
+    {
+      "question": "herbal_pharmaceutics_003_q2",
+      "derivation": "实心球表面积/质量=(πd²)/(ρπd³/6)=6/(ρd)，d减半时比表面积加倍。",
+      "answer": "2倍",
+      "passed": true
+    }
+  ],
+  "dependency_review": {
+    "all_136_read": true,
+    "strength_distribution": {
+      "soft": 136
+    },
+    "assessment": "全部为soft学习建议，未形成强制单链；药材身份→鉴定、结构→制剂、暴露→药理的联系合理，3条笼统理由已具体化。",
+    "dag": true,
+    "roots": 1
+  },
+  "choice_order_review": {
+    "position_dependent_explanations": [],
+    "observation": "原始正确答案位置有固定均衡模式。root确认前端按会话稳定洗牌，因此保留原始顺序；正文“前者/后者”均指题干命名对象，不依赖选项位置。"
+  },
+  "validation": {
+    "errors": [],
+    "passed": true,
+    "book_isbn_checksum_passed": true,
+    "coverage_complete": true,
+    "q1_diagnostic_sync": true
+  },
+  "unresolved_limits": [
+    "6本书均未逐页读取最新教材全文，目录图片未转录；通过版本与主题核查不等于全书内容逐项审定。",
+    "中药药理学商品页出版月与高校定稿会日期冲突尚未解决；中药学出版月亦有异文，原有披露保留。",
+    "图谱仅覆盖6门课程选定核心主题，不是所有药材或所有药典正文。",
+    "独立AI复核不能替代药学教师、临床药师或专业命题专家审定。"
+  ],
+  "sha256": {
+    "topics": "31d2a881137a5e7412188f918c36f65d595df2d770804e99240cca482c122e64",
+    "questions": "0941a9c42a27d4d1d864f9c807afefacc1fc855c35849aa2cc57b469ac60d39f",
+    "dependencies": "30b1b40904a1ee4bbdcf93cb364205dc532aeee518bb5b0700cef40b6545d306",
+    "sources": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+    "coverage": "8d040579eff4bad1368d0489de642ff625dbc110f0196a7c586ab49439c15b6c"
+  },
+  "generator_sha256": "10388ba61a3f711bb8d1cbdcccd4872c61cad2849eedd94ead86ee285579d584",
+  "review_metadata": {
+    "topics_and_questions_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-herbal-peer-review.json",
+    "author_stage_report_preserved": "herbal/author-review.json",
+    "post_peer_generator_check": "herbal/post-peer-generation-check.json",
+    "note": "作者阶段报告作为阶段证据保留，独立复核后再次生成的结构检查另存，不覆盖为作者自查完成独立审阅的表述。"
+  },
+  "mutations": "仅修改herbal staging生成器并重新生成5JSON；未改正式项目，也未再修改med。"
+}

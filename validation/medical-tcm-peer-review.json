@@ -1,0 +1,149 @@
+{
+  "subject": "tcm",
+  "date": "2026-10-31",
+  "reviewer": "root（独立于 tcm_curriculum 作者的 AI）",
+  "review_type": "分7批逐条阅读109节点、218题与145条依赖；结合公开目录图像抽查，不是教师审定或教材全文校对",
+  "status": "passed_with_documented_source_limits",
+  "read_counts": {
+    "topics": 109,
+    "questions": 218,
+    "dependencies": 145,
+    "books": 4,
+    "course_modules": 4
+  },
+  "reading_batches": [
+    {
+      "module": "basics",
+      "range": "001-020",
+      "topics": 20,
+      "questions": 40
+    },
+    {
+      "module": "basics",
+      "range": "021-040",
+      "topics": 20,
+      "questions": 40
+    },
+    {
+      "module": "diagnostics",
+      "range": "001-014",
+      "topics": 14,
+      "questions": 28
+    },
+    {
+      "module": "diagnostics",
+      "range": "015-028",
+      "topics": 14,
+      "questions": 28
+    },
+    {
+      "module": "formulas",
+      "range": "001-014",
+      "topics": 14,
+      "questions": 28
+    },
+    {
+      "module": "formulas",
+      "range": "015-027",
+      "topics": 13,
+      "questions": 26
+    },
+    {
+      "module": "meridians",
+      "range": "001-014",
+      "topics": 14,
+      "questions": 28
+    }
+  ],
+  "semantic_checks": [
+    "逐条读取名称、描述、掌握要求、教材主题定位及每条先修的强度和理由。",
+    "逐题独立辨认正确答案，核对四选项是否存在第二个合理正确答案，解析是否依赖显示字母或位置。",
+    "气、阴阳、五行、藏象、经络、脏腑证候保持传统理论语境，未自动改写为现代结构或疾病诊断。",
+    "方剂21类及代表方的分类、五输/八会/八脉交会的区别、经脉走向与表里配对的概念一致。",
+    "题目不提供剂量、个体处方、针刺参数；知识测评与实际临床能力区分。"
+  ],
+  "resolved_findings": [
+    {
+      "id": "TCM-PEER-001",
+      "target": "tcm_basics_020_q1",
+      "finding": "原解析将其他中医分类称为不同学科概念，分类层次不准确。",
+      "resolution": "明确其余选项分别混入精血津液、六淫和八纲等不同分类。",
+      "answer_unchanged": true
+    },
+    {
+      "id": "TCM-PEER-002",
+      "target": "tcm_basics_037_q1",
+      "finding": "“教材编写之前”等干扰项与治未病阶段无关，不能形成有效概念对照。",
+      "resolution": "改为未病预防、既病防变、起病当前表现等阶段性干扰项。",
+      "answer_unchanged": true
+    },
+    {
+      "id": "TCM-PEER-003",
+      "targets": [
+        "tcm_formulas_012_q1",
+        "tcm_formulas_013_q1",
+        "tcm_formulas_014_q1",
+        "tcm_formulas_017_q1",
+        "tcm_formulas_018_q1",
+        "tcm_formulas_022_q1",
+        "tcm_formulas_023_q1",
+        "tcm_formulas_024_q1",
+        "tcm_formulas_027_q1"
+      ],
+      "finding": "九条归类题的原解析仅短句重复答案，缺少相邻类别对照。",
+      "resolution": "补写同章或相关方剂类别区别；未改变正确归类和答案键。",
+      "answer_unchanged": true
+    }
+  ],
+  "source_review": {
+    "book_records_read": 4,
+    "publisher_fulltext_read": false,
+    "independent_catalogue_image_spot_checks": [
+      {
+        "book": "方剂学（第6版）",
+        "url": "https://img01.yzcdn.cn/upload_files/2026/07/15/Fs45fTw0GJd2i3MNQiPNXw6CuBb9.jpg",
+        "observed": "第18-21章及保和丸/健脾丸、乌梅丸、瓜蒂散、仙方活命饮/透脓散/内补黄芪汤的目录归属与本图谱一致。"
+      },
+      {
+        "book": "针灸学（第6版）",
+        "url": "https://img01.yzcdn.cn/upload_files/2026/08/13/FoJAlvM4jk1szrnGnmsxL5fe3LGO.jpg",
+        "observed": "经络系统、腧穴分类命名、五输原络背俞募八会八脉交会、定位方法的目录分类一致。"
+      },
+      {
+        "book": "中医基础理论（第6版）",
+        "url": "https://img01.yzcdn.cn/upload_files/2026/06/30/Fr7H5-f3OiKQ1xAOBeyTj6Lq_ccg.jpg",
+        "observed": "第一章哲学基础、第二章中医学的主要思维方式、第三章藏象；图谱未沿用旧章序。"
+      },
+      {
+        "book": "中医诊断学（第6版）",
+        "url": "https://img01.yzcdn.cn/upload_files/2026/03/31/Fuhy4WXM2oJcU_CE85NcCPEpnSuJ.jpg",
+        "observed": "图像上部辨症/辨证/辨病/辨人可读，下部未完整读取；未据不可读区域新增内容。"
+      }
+    ],
+    "series_primary_report": "https://www.tjutcm.edu.cn/info/1047/3128.htm",
+    "access_limits": "本轮 web open 四个有赞商品页及一张目录URL失败，未据失败结果推断书不存在；复用作者已下载的四张原始公开目录图，以 view_image 实读上述内容。其余目录页的直接读取记录属于作者核验，未冒称 root 已全部重读。"
+  },
+  "dependency_review": {
+    "all_read": true,
+    "invalid_semantic_edges_found": 0,
+    "assessment": "硬先修围绕定义、分类基础和相关分析维度；平行或辅助联系主要使用soft。跨课程边可解释且方向一致。先修仍为学习建议，非教材官方顺序。"
+  },
+  "generator_sync": true,
+  "review_metadata": {
+    "status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json"
+  },
+  "unresolved_limits": [
+    "未逐页读完四本最新版教材；主题归纳不是教材原文转录或完整专业培养计划。",
+    "针灸学公开书目出版月份有7月/8月差异，继续仅记年份。",
+    "方剂ISBN与月份通过公开书目交叉核对，未直接看到版权页。",
+    "AI独立复核未包含教师或临床专家审定。"
+  ],
+  "sha256": {
+    "topics": "0cb7241efc45dccf5f053666371267835fd18e968b85956ef7b27fccb77ff489",
+    "questions": "1791e35703ba323b5339647badff02cccaeca20bcd588ff9ac869c7de6e457a7",
+    "dependencies": "e282a5e27089254f206dd37ddbb5f527c276216f56b89d854e7dd76535e99c7f",
+    "sources": "ec89243e08c197b2ba2d41ae902177a57431cfb9b6c41e3519e5cea14afe830c",
+    "coverage": "cbb7bb9d8a2e276120c0c4803448edfab6b52ee627f813bf8818a125a046ad13"
+  }
+}

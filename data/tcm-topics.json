@@ -1,0 +1,5452 @@
+[
+  {
+    "id": "tcm_basics_001",
+    "name": "整体观念",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "中医学以人体内部各部分的联系，以及人与自然、社会环境的联系理解生命和健康。这是中医理论的整体观察框架；它不意味着忽略局部病变、检查证据或不同研究层次。",
+    "mastery_criteria": [
+      "能说明人体整体与人与环境联系两个层面。",
+      "能区分整体观察框架与具体因果证据。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "绪论",
+      "section": "中医学理论体系的主要特点",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "整体观念"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "整体观念",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪项最符合中医整体观念的课程含义？",
+      "answer": "联系人体各部分及其与环境的关系进行观察"
+    }
+  },
+  {
+    "id": "tcm_basics_002",
+    "name": "辨证论治与同病异治、异病同治",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "辨证是依据四诊资料，在中医理论中分析病位、病性及病势等并形成证的判断；论治据此讨论相应治法。病与证的观察层次不同，教材用同病异治、异病同治说明证与治法的联系，不等同于现代疾病诊断。",
+    "mastery_criteria": [
+      "能说明辨证与论治的先后关系。",
+      "能解释病名相同不必具有相同证候。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "绪论",
+      "section": "中医学理论体系的主要特点",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "辨证论治与同病异治、异病同治"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "辨证论治与同病异治、异病同治",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】辨证论治中，“辨证”的直接学习任务是什么？",
+      "answer": "综合四诊资料形成中医证的判断"
+    }
+  },
+  {
+    "id": "tcm_basics_003",
+    "name": "气一元论的哲学语境",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "气一元论是教材介绍的中国古代哲学观点，以气及其运动变化解释事物的构成与演变。这里的哲学“气”、中医人体之气和现代物理学气体概念处于不同语境，不能直接互换。",
+    "mastery_criteria": [
+      "能指出气一元论属于古代哲学基础。",
+      "能区分哲学气与现代气体概念。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第一章 中医学的哲学基础",
+      "section": "第一节 气一元论",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "气一元论的哲学语境"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "气一元论的哲学语境",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "historical_philosophical_framework",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】教材将气一元论首先放在哪一种知识语境中？",
+      "answer": "中国古代哲学基础"
+    }
+  },
+  {
+    "id": "tcm_basics_004",
+    "name": "阴阳的相对性、对立与互根",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "阴阳是中医借用的相对分类和关系模型。比较对象、参照范围和条件决定阴阳归属；对立描述相反的方面，互根说明相关双方的依存关系，不能把阴阳理解为两种固定解剖实体。",
+    "mastery_criteria": [
+      "能在明确参照下说明阴阳属性的相对性。",
+      "能区分阴阳对立与互根的含义。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第一章 中医学的哲学基础",
+      "section": "第二节 阴阳学说：概念与归类、基本内容",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "阴阳的相对性、对立与互根"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "阴阳的相对性、对立与互根",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】确定某一事物的阴阳属性时，最应先明确什么？",
+      "answer": "比较对象与参照条件"
+    }
+  },
+  {
+    "id": "tcm_basics_005",
+    "name": "阴阳消长与转化",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "在阴阳学说中，消长描述相对力量或状态的增减变化，转化描述在一定条件下属性向相反方面改变。二者都需要讨论条件与过程，不能将任何数量增加都称为阴阳转化。",
+    "mastery_criteria": [
+      "能区分消长变化与属性转化。",
+      "能说明转化需要特定条件。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第一章 中医学的哲学基础",
+      "section": "第二节 阴阳学说：基本内容",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "阴阳消长与转化"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "阴阳消长与转化",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】阴阳双方的相对增减首先属于哪种关系？",
+      "answer": "阴阳消长"
+    }
+  },
+  {
+    "id": "tcm_basics_006",
+    "name": "五行生克关系",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "五行学说以木、火、土、金、水的属性取类与关系组织传统理论。相生次序为木、火、土、金、水再回到木；相克关系为木克土、土克水、水克火、火克金、金克木。这些是传统模型关系，不是现代元素周期表。",
+    "mastery_criteria": [
+      "能正确辨认五行相生和相克关系。",
+      "能区分五行取类与化学元素分类。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第一章 中医学的哲学基础",
+      "section": "第三节 五行学说：概念与归类、基本内容",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "五行生克关系"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "五行生克关系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】按五行相生次序，木之后相生的是哪一行？",
+      "answer": "火"
+    }
+  },
+  {
+    "id": "tcm_basics_007",
+    "name": "五行相乘与相侮",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "理论框架与哲学基础",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第1章 理论框架与哲学基础",
+    "type": "conceptual",
+    "description": "在五行模型中，相乘是沿相克方向的过度制约，相侮是逆相克方向的反向制约。判断时先辨认正常生克方向，再分析异常关系；不能用这组术语直接替代现代疾病的病理机制。",
+    "mastery_criteria": [
+      "能依据相克方向区分乘与侮。",
+      "能说明五行异常关系属于传统理论分析。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第一章 中医学的哲学基础",
+      "section": "第三节 五行学说：基本内容",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理论框架与哲学基础",
+      "point": "五行相乘与相侮"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "理论框架与哲学基础",
+      "point": "五行相乘与相侮",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】沿原相克方向出现过度制约，传统术语称为什么？",
+      "answer": "相乘"
+    }
+  },
+  {
+    "id": "tcm_basics_008",
+    "name": "象思维与取象比类",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "中医思维方式",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第2章 中医思维方式",
+    "type": "conceptual",
+    "description": "教材以形象、意象、应象等讨论象思维，强调通过可感知的表现及类比建立认识。类比能帮助形成解释与学习线索，但类比关系本身不能替代实证检验或证明两个对象具有相同结构。",
+    "mastery_criteria": [
+      "能辨认取象比类的思维特点。",
+      "能区分类比启发与因果证明。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第二章 中医学的主要思维方式",
+      "section": "第一节 象思维",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "中医思维方式",
+      "point": "象思维与取象比类"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "中医思维方式",
+      "point": "象思维与取象比类",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】用熟悉事物的特征帮助理解另一对象，最接近哪种思维方式？",
+      "answer": "取象比类"
+    }
+  },
+  {
+    "id": "tcm_basics_009",
+    "name": "系统思维与形神合一",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "中医思维方式",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第2章 中医思维方式",
+    "type": "conceptual",
+    "description": "中医系统思维从整体联系理解人，教材讨论整体宏观、天人合一与形神合一等观点。形与神在此为传统身心联系的表述，研究具体心理和生理机制时仍需各自的方法与证据。",
+    "mastery_criteria": [
+      "能识别系统思维重视关系和层次的特点。",
+      "能说明形神合一的传统理论语境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第二章 中医学的主要思维方式",
+      "section": "第二节 系统思维",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "中医思维方式",
+      "point": "系统思维与形神合一"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "中医思维方式",
+      "point": "系统思维与形神合一",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】系统思维在本课程中主要强调什么？",
+      "answer": "组成部分之间及其与整体的联系"
+    }
+  },
+  {
+    "id": "tcm_basics_010",
+    "name": "变易思维与动态观察",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "中医思维方式",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第2章 中医思维方式",
+    "type": "conceptual",
+    "description": "变易思维关注状态随时间、条件而变化，教材讨论恒动变化与动静相召。学习时应记录变化过程与情境，避免把一次观察永久固定为同一状态。",
+    "mastery_criteria": [
+      "能说明动态观察需要时间与条件信息。",
+      "能识别把暂时状态当作固定属性的错误。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第二章 中医学的主要思维方式",
+      "section": "第三节 变易思维",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "中医思维方式",
+      "point": "变易思维与动态观察"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "中医思维方式",
+      "point": "变易思维与动态观察",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪项资料最能支持动态观察？",
+      "answer": "同一对象在不同时间和条件下的变化记录"
+    }
+  },
+  {
+    "id": "tcm_basics_011",
+    "name": "藏象与现代解剖概念的边界",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "藏象学说通过脏腑及其外在表现组织传统功能关系。中医脏腑名称虽与解剖器官共享部分字词，概念范围并不一一对应；“脾主运化”等是中医理论命题，不能据名称直接推导现代器官病变。",
+    "mastery_criteria": [
+      "能说明藏象强调传统功能及外在联系。",
+      "能避免把中医脏腑直接等同现代器官诊断。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第一节 概述",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "藏象与现代解剖概念的边界"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "藏象与现代解剖概念的边界",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】学习藏象时，处理中医“脾”和解剖脾脏的关系，哪项正确？",
+      "answer": "应区分各自理论语境，不能直接等同"
+    }
+  },
+  {
+    "id": "tcm_basics_012",
+    "name": "心的传统功能：血脉与神志",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "藏象理论将主血脉、藏神等归于心的功能框架，并将心与脉、面、舌等建立传统联系。这是教材中的功能模型，不代表这些关系都等同于现代心脏生理学的完整解释。",
+    "mastery_criteria": [
+      "能辨认心主血脉和藏神的教材表述。",
+      "能在传统功能框架内说明心的概念。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第二节 五脏：心",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "心的传统功能：血脉与神志"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "心的传统功能：血脉与神志",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】在藏象理论中，哪组功能主要归于心？",
+      "answer": "主血脉、藏神"
+    }
+  },
+  {
+    "id": "tcm_basics_013",
+    "name": "肺的传统功能：主气、宣发与肃降",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "在藏象理论中，肺主气、司呼吸，宣发与肃降描述相关功能活动的方向和配合，并以通调水道等说明传统功能联系。宣发、肃降属于中医术语，不能仅按字面理解为一种解剖运动。",
+    "mastery_criteria": [
+      "能辨认宣发与肃降的不同方向。",
+      "能说明两者在传统肺功能中的配合。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第二节 五脏：肺",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "肺的传统功能：主气、宣发与肃降"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "肺的传统功能：主气、宣发与肃降",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医肺的两种相互配合的功能术语是哪一组？",
+      "answer": "宣发与肃降"
+    }
+  },
+  {
+    "id": "tcm_basics_014",
+    "name": "脾的传统功能：运化与统血",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "中医脾的主要功能包括运化与统血。运化涉及水谷和水液的传统转输、转化关系，统血描述血液循行的约束功能；这些概念不等同于现代解剖脾脏的功能清单。",
+    "mastery_criteria": [
+      "能区分运化与统血的教材含义。",
+      "能避免将脾运化与解剖脾脏功能直接等同。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第二节 五脏：脾",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "脾的传统功能：运化与统血"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "脾的传统功能：运化与统血",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医脾的“运化”主要属于哪种表述？",
+      "answer": "对水谷、水液转输转化的传统功能概括"
+    }
+  },
+  {
+    "id": "tcm_basics_015",
+    "name": "肝的传统功能：疏泄与藏血",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "藏象理论以疏泄描述肝与气机调畅等功能联系，以藏血描述其与血的贮藏及调节的传统关系。中医“肝”的概念范围与现代肝脏结构、酶学指标不能直接互换。",
+    "mastery_criteria": [
+      "能辨认疏泄和藏血的传统归属。",
+      "能区分传统肝功能术语与现代检查指标。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第二节 五脏：肝",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "肝的传统功能：疏泄与藏血"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "肝的传统功能：疏泄与藏血",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医理论中，与气机调畅密切相关的肝功能术语是什么？",
+      "answer": "疏泄"
+    }
+  },
+  {
+    "id": "tcm_basics_016",
+    "name": "肾的传统功能：藏精与生长发育",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "中医肾的功能模型包括藏精、主水、纳气等，并将生长、发育、生殖等纳入其传统联系。这里的“肾”不只是现代解剖肾脏，不能从“肾虚”等证名直接推定肾功能检查异常。",
+    "mastery_criteria": [
+      "能辨认肾藏精等传统功能术语。",
+      "能区分中医肾的证名与现代肾功能诊断。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第二节 五脏：肾",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "肾的传统功能：藏精与生长发育"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "肾的传统功能：藏精与生长发育",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪一项是藏象理论中肾的主要功能术语？",
+      "answer": "藏精"
+    }
+  },
+  {
+    "id": "tcm_basics_017",
+    "name": "六腑与传化功能",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "六腑包括胆、胃、小肠、大肠、膀胱、三焦。教材以传化物等概括其传统功能特点，并分别讨论各腑；三焦是中医功能区域概念，不能直接当作某个单一解剖器官。",
+    "mastery_criteria": [
+      "能列举六腑的组成。",
+      "能区分六腑总括特点与各腑具体功能。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第三节 六腑",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "六腑与传化功能"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "六腑与传化功能",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪一项列出的对象全部属于六腑？",
+      "answer": "胃、小肠、大肠"
+    }
+  },
+  {
+    "id": "tcm_basics_018",
+    "name": "奇恒之腑的分类特点",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "藏象理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第3章 藏象理论",
+    "type": "conceptual",
+    "description": "奇恒之腑通常包括脑、髓、骨、脉、胆、女子胞。教材借形态与功能特点讨论其与一般脏腑分类的差异；胆既列入六腑又列入奇恒之腑，说明传统分类可以从不同角度组织。",
+    "mastery_criteria": [
+      "能辨认奇恒之腑的常见组成。",
+      "能解释胆在两种传统分类中出现。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第三章 藏象",
+      "section": "第四节 奇恒之腑；第三节 六腑",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "藏象理论",
+      "point": "奇恒之腑的分类特点"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "藏象理论",
+      "point": "奇恒之腑的分类特点",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪一组属于奇恒之腑？",
+      "answer": "脑、髓、骨"
+    }
+  },
+  {
+    "id": "tcm_basics_019",
+    "name": "精的传统概念与先后天联系",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "中医之精是教材组织生命活动物质基础的传统概念，讨论先天之精、后天之精及其联系。先天与后天是形成来源的理论区分，不能把精简单等同为某一种激素或单一生殖细胞。",
+    "mastery_criteria": [
+      "能区分先天之精与后天之精的来源语境。",
+      "能避免将精直接等同单一现代物质。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第一节 精",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "精的传统概念与先后天联系"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "精的传统概念与先后天联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“先天之精”和“后天之精”的区分主要涉及哪一方面？",
+      "answer": "传统理论中形成来源的不同"
+    }
+  },
+  {
+    "id": "tcm_basics_020",
+    "name": "人体之气与元气、宗气、营气、卫气",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "教材在人身功能语境下讨论气的形成、功能和分类，元气、宗气、营气、卫气是常见类型。人体之气不同于哲学气一元论的全部论域，也不能直接解释为氧气或物理能量单位。",
+    "mastery_criteria": [
+      "能识别元气、宗气、营气、卫气的分类。",
+      "能区分人体之气与现代物理量。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第二节 气：基本概念、生成、功能、分类",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "人体之气与元气、宗气、营气、卫气"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "人体之气与元气、宗气、营气、卫气",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪组是中医人体之气的常见分类？",
+      "answer": "元气、宗气、营气、卫气"
+    }
+  },
+  {
+    "id": "tcm_basics_021",
+    "name": "气机与气化",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "气机指中医之气的运动，常以升、降、出、入概括；气化指气的运动所体现的各种变化过程。运动方向和转化过程是两个相关观察角度，不能将两词视作完全同义。",
+    "mastery_criteria": [
+      "能指出气机的基本运动形式。",
+      "能区分气机与气化的关注点。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第二节 气：运动与变化",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "气机与气化"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "气机与气化",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】升、降、出、入主要用于概括什么？",
+      "answer": "气机的基本运动形式"
+    }
+  },
+  {
+    "id": "tcm_basics_022",
+    "name": "血与气血关系",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "教材以中医血的生成、运行与濡养功能组织知识，并用气与血的相互联系说明相关生理病理模型。“气为血之帅、血为气之母”概括传统关系，不能直接写成现代血液学定量规律。",
+    "mastery_criteria": [
+      "能说明血的传统濡养功能。",
+      "能识别气血关系是传统理论概括。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第三节 血；第六节 精气血津液神之间的关系：气与血",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "血与气血关系"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "血与气血关系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医教材对血的主要功能概括包含哪一项？",
+      "answer": "濡养"
+    }
+  },
+  {
+    "id": "tcm_basics_023",
+    "name": "津液与津、液的区别",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "津液是中医对人体正常水液的传统总称，教材区分较清稀、流动性较大的津与较稠厚、流动性较小的液，并讨论生成、输布和排泄。津液分类不等同于现代体液分区的一一对应。",
+    "mastery_criteria": [
+      "能比较津与液的传统性状。",
+      "能说明津液学习包含生成输布排泄。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第四节 津液",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "津液与津、液的区别"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "津液与津、液的区别",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】在津与液的传统比较中，津通常具有哪种特点？",
+      "answer": "较清稀、流动性较大"
+    }
+  },
+  {
+    "id": "tcm_basics_024",
+    "name": "神及精气血津液神的联系",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "精气血津液神",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第4章 精气血津液神",
+    "type": "conceptual",
+    "description": "教材中的神可从广义生命活动表现和狭义精神、意识活动等层面理解，并讨论其与精、气、血、津液的联系。这里的神是中医学术术语，不指超自然实体。",
+    "mastery_criteria": [
+      "能区分神的广义与狭义语境。",
+      "能说明神与其他基本概念具有传统联系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第四章 精气血津液神",
+      "section": "第五节 神；第六节 精气血津液神之间的关系",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "精气血津液神",
+      "point": "神及精气血津液神的联系"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "精气血津液神",
+      "point": "神及精气血津液神的联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医基础理论中“神”的广义用法主要指什么？",
+      "answer": "生命活动的综合外在表现"
+    }
+  },
+  {
+    "id": "tcm_basics_025",
+    "name": "经络系统的传统组成",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "经络与体质",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第5章 经络与体质",
+    "type": "conceptual",
+    "description": "中医经络系统由经脉、络脉及相关附属部分构成，教材讨论十二经脉、奇经八脉、经别、经筋、皮部和别络。经络是传统功能联系模型，不能直接等同于血管、神经或淋巴管系统。",
+    "mastery_criteria": [
+      "能辨认经络系统的主要组成层次。",
+      "能区分经络模型与现代解剖网络。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第五章 经络",
+      "section": "第一节 概述；第三、四节相关组成",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络与体质",
+      "point": "经络系统的传统组成"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "经络与体质",
+      "point": "经络系统的传统组成",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】下列哪项属于中医经络系统的常见组成？",
+      "answer": "十二经脉"
+    }
+  },
+  {
+    "id": "tcm_basics_026",
+    "name": "十二经脉的命名与表里关系",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "经络与体质",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第5章 经络与体质",
+    "type": "conceptual",
+    "description": "十二经脉名称组合手足、阴阳与脏腑等信息；相应阴经、阳经形成传统表里联系，如手太阴肺经与手阳明大肠经。命名和表里关系是中医经络理论的组织规则。",
+    "mastery_criteria": [
+      "能识别经脉名称中的手足阴阳脏腑信息。",
+      "能举出教材常见表里经配对。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第五章 经络",
+      "section": "第二节 十二经脉：名称、表里关系",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络与体质",
+      "point": "十二经脉的命名与表里关系"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "经络与体质",
+      "point": "十二经脉的命名与表里关系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“手太阴肺经”的名称中，“手”主要指哪类分类信息？",
+      "answer": "手足归属"
+    }
+  },
+  {
+    "id": "tcm_basics_027",
+    "name": "体质的相对稳定性与形成因素",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "经络与体质",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第5章 经络与体质",
+    "type": "conceptual",
+    "description": "中医体质讨论个体在形态、功能、心理等方面相对稳定的特征及其形成因素。相对稳定并非终身不变，先天禀赋和后天环境、生活经历等都在教材讨论范围内。",
+    "mastery_criteria": [
+      "能说明体质相对稳定而可变化。",
+      "能区分体质特征与一次短暂表现。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第六章 体质",
+      "section": "第一节 体质的概念与构成要素；第二节 生理学基础与形成因素",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络与体质",
+      "point": "体质的相对稳定性与形成因素"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "经络与体质",
+      "point": "体质的相对稳定性与形成因素",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“相对稳定”用于体质概念时意味着什么？",
+      "answer": "具有一定持续性，但并非永远不变"
+    }
+  },
+  {
+    "id": "tcm_basics_028",
+    "name": "体质、病与证的不同层次",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "经络与体质",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第5章 经络与体质",
+    "type": "conceptual",
+    "description": "体质描述个体相对稳定的特征，证描述某阶段病理状态的传统综合判断，病关注疾病发生发展及其规律。三者可以相关，但不应将一种体质标签直接当作当前疾病或证的结论。",
+    "mastery_criteria": [
+      "能区分体质特征与阶段性证候。",
+      "能避免用体质标签代替诊断资料。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第六章 体质",
+      "section": "第四节 体质学说的应用",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络与体质",
+      "point": "体质、病与证的不同层次"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "经络与体质",
+      "point": "体质、病与证的不同层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪项更符合“证”的观察层次？",
+      "answer": "某阶段病理状态的中医综合判断"
+    }
+  },
+  {
+    "id": "tcm_basics_029",
+    "name": "六气与六淫",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病因理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第6章 病因理论",
+    "type": "conceptual",
+    "description": "风、寒、暑、湿、燥、火在传统理论中用于描述气候及其影响；六气指正常自然变化，六淫侧重相关因素异常并成为致病条件的理论概括。不能把正常季节出现自动等同于患病。",
+    "mastery_criteria": [
+      "能区分正常六气与病因语境中的六淫。",
+      "能辨认六淫的六类名称。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第七章 病因",
+      "section": "第一节 外感病因：六淫",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病因理论",
+      "point": "六气与六淫"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病因理论",
+      "point": "六气与六淫",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】正常自然气候变化与传统外感病因概括，分别常称什么？",
+      "answer": "六气与六淫"
+    }
+  },
+  {
+    "id": "tcm_basics_030",
+    "name": "疠气的传统病因概念",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病因理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第6章 病因理论",
+    "type": "conceptual",
+    "description": "疠气是教材讨论传染性、流行性较强疾病时的传统病因概念。它与现代病原体分类并非一一对应；具体感染传播机制和防控依据需要现代病原学、流行病学等证据。",
+    "mastery_criteria": [
+      "能辨认疠气在传统病因学中的位置。",
+      "能区分疠气概念与具体病原体识别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第七章 病因",
+      "section": "第一节 外感病因：疠气",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病因理论",
+      "point": "疠气的传统病因概念"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病因理论",
+      "point": "疠气的传统病因概念",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】传统病因学中，疠气主要用于讨论哪类特点？",
+      "answer": "较强的传染性和流行性"
+    }
+  },
+  {
+    "id": "tcm_basics_031",
+    "name": "七情内伤、饮食与劳逸因素",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病因理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第6章 病因理论",
+    "type": "conceptual",
+    "description": "教材在内伤病因中讨论情志活动失调、饮食失宜和劳逸失度。正常情绪、日常饮食和适度活动属于生活的一部分，不能因某一正常情绪存在就把个体归为病态。",
+    "mastery_criteria": [
+      "能区分正常生活活动与失调语境。",
+      "能辨认教材内伤病因的主要类别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第七章 病因",
+      "section": "第二节 内伤病因",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病因理论",
+      "point": "七情内伤、饮食与劳逸因素"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病因理论",
+      "point": "七情内伤、饮食与劳逸因素",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“七情内伤”的课程重点是何种情况？",
+      "answer": "情志活动失调及其传统病因联系"
+    }
+  },
+  {
+    "id": "tcm_basics_032",
+    "name": "痰饮、瘀血与病理产物",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病因理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第6章 病因理论",
+    "type": "conceptual",
+    "description": "中医病因学将痰饮、瘀血等作为病理性产物讨论，并说明其形成后可参与新的病理过程。这里的痰不只指咳出的可见痰液，瘀血也不能未经证据直接等同某一种现代血栓。",
+    "mastery_criteria": [
+      "能说明病理产物可进一步参与病理过程。",
+      "能识别传统痰饮瘀血概念的范围边界。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第七章 病因",
+      "section": "第三节 病理产物性病因",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病因理论",
+      "point": "痰饮、瘀血与病理产物"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病因理论",
+      "point": "痰饮、瘀血与病理产物",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】痰饮、瘀血在本章主要归入哪类病因？",
+      "answer": "病理产物性病因"
+    }
+  },
+  {
+    "id": "tcm_basics_033",
+    "name": "正邪与虚实病机",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病机理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第7章 病机理论",
+    "type": "conceptual",
+    "description": "正气和邪气是中医病机分析的概括性术语，教材借正邪盛衰解释发病及变化。正气不足与虚、邪气盛与实的关系属于理论框架；虚实可以兼见，不能简单用年龄或体型代替判断。",
+    "mastery_criteria": [
+      "能说明正邪盛衰与虚实的传统联系。",
+      "能识别虚实兼见的可能性。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第八章 病机",
+      "section": "第一节 发病；第二节 基本病机：邪正盛衰",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病机理论",
+      "point": "正邪与虚实病机"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病机理论",
+      "point": "正邪与虚实病机",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】中医病机中，“虚”的基本理论联系主要是什么？",
+      "answer": "正气不足"
+    }
+  },
+  {
+    "id": "tcm_basics_034",
+    "name": "阴阳失调：偏盛与偏衰",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病机理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第7章 病机理论",
+    "type": "conceptual",
+    "description": "阴阳失调的病机模型区分一方偏盛与一方偏衰。阳偏盛与阴偏衰虽都可能在传统框架中关联热象，其虚实基础不同；不能只看到“热”字就忽略形成机制的区别。",
+    "mastery_criteria": [
+      "能区分阴阳偏盛与偏衰。",
+      "能解释类似寒热表现可能有不同理论基础。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第八章 病机",
+      "section": "第二节 基本病机：阴阳失调",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病机理论",
+      "point": "阴阳失调：偏盛与偏衰"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病机理论",
+      "point": "阴阳失调：偏盛与偏衰",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】阳偏盛与阴偏衰在病机学习中最应比较什么？",
+      "answer": "偏盛与不足的不同基础"
+    }
+  },
+  {
+    "id": "tcm_basics_035",
+    "name": "气血津液失常的分析维度",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病机理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第7章 病机理论",
+    "type": "conceptual",
+    "description": "教材从气的生成与运动、血的不足或运行失常、津液的不足与输布失常等讨论病机。整理时应区分“量或功能不足”和“运行不畅”等维度，避免把所有失常合成一个标签。",
+    "mastery_criteria": [
+      "能区分不足与运行失常等分析维度。",
+      "能将病机学习对应到相关基本概念。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第八章 病机",
+      "section": "第二节 基本病机：精气血津液失常",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病机理论",
+      "point": "气血津液失常的分析维度"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病机理论",
+      "point": "气血津液失常的分析维度",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“气不足”与“气机不畅”的理论比较主要涉及什么？",
+      "answer": "不足与运动障碍的不同维度"
+    }
+  },
+  {
+    "id": "tcm_basics_036",
+    "name": "病势传变与动态病机",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "病机理论",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第7章 病机理论",
+    "type": "conceptual",
+    "description": "病势传变描述中医理论中病理状态的演变及其影响因素。时间过程、病位病性的变化和正邪状态等需要综合考虑；传变是可能路径的分析，不能把单一顺序写成每个个体必经的固定步骤。",
+    "mastery_criteria": [
+      "能说明传变学习重视过程和条件。",
+      "能区分理论路径与必然发生的固定顺序。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第八章 病机",
+      "section": "第四节 疾病传变",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病机理论",
+      "point": "病势传变与动态病机"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "病机理论",
+      "point": "病势传变与动态病机",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“病势传变”最关注哪一类信息？",
+      "answer": "病理状态随时间和条件的变化"
+    }
+  },
+  {
+    "id": "tcm_basics_037",
+    "name": "养生与治未病的三个层次",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "养生与治则",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第8章 养生与治则",
+    "type": "conceptual",
+    "description": "教材将养生与预防相联系，并从未病先防、既病防变、愈后防复三个层次组织治未病知识。该分类反映不同时间阶段的学习框架，不意味着某种养生方法必然预防一切疾病。",
+    "mastery_criteria": [
+      "能区分治未病的三个常见层次。",
+      "能避免把预防框架当作绝对疗效保证。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第九章 养生与防治原则",
+      "section": "第一节 养生；第二节 治未病",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "养生与治则",
+      "point": "养生与治未病的三个层次"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "养生与治则",
+      "point": "养生与治未病的三个层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“愈后防复”主要对应哪一阶段？",
+      "answer": "恢复之后关注复发的阶段"
+    }
+  },
+  {
+    "id": "tcm_basics_038",
+    "name": "治标与治本",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "养生与治则",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第8章 养生与治则",
+    "type": "conceptual",
+    "description": "标本是中医分析疾病关系的相对概念，治标治本需讨论主次、缓急和相互联系。教材中的急则治标、缓则治本、标本兼治是原则性概括，不可据字面替代具体临床评估。",
+    "mastery_criteria": [
+      "能解释标本关系具有相对性。",
+      "能辨认治标治本原则中的缓急因素。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第九章 养生与防治原则",
+      "section": "第三节 治则：治标与治本",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "养生与治则",
+      "point": "治标与治本"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "养生与治则",
+      "point": "治标与治本",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】决定治标治本理论讨论时，除主次关系还应考虑什么？",
+      "answer": "病情缓急及标本之间的联系"
+    }
+  },
+  {
+    "id": "tcm_basics_039",
+    "name": "扶正祛邪与正治反治",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "养生与治则",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第8章 养生与治则",
+    "type": "conceptual",
+    "description": "扶正与祛邪从正邪关系概括治则；正治、反治则讨论治法与病性及表面表现的关系。反治不是随意逆反，也不是忽略辨证，而是在真假等复杂表现下仍针对本质的传统原则。",
+    "mastery_criteria": [
+      "能区分扶正祛邪与正治反治的分类角度。",
+      "能说明反治仍须辨析病性而非机械逆反。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第九章 养生与防治原则",
+      "section": "第三节 治则：正治与反治、扶正与祛邪",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "养生与治则",
+      "point": "扶正祛邪与正治反治"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "养生与治则",
+      "point": "扶正祛邪与正治反治",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“扶正祛邪”主要从哪种关系概括治则？",
+      "answer": "正气与邪气的关系"
+    }
+  },
+  {
+    "id": "tcm_basics_040",
+    "name": "三因制宜",
+    "subject": "tcm",
+    "module": "basics",
+    "domain": "养生与治则",
+    "grade": 31,
+    "semester": "全",
+    "chapter": "第8章 养生与治则",
+    "type": "conceptual",
+    "description": "三因制宜指因时、因地、因人制宜，强调在传统辨证论治中考虑时间、地域环境与个体差异。它是条件化思考原则，不能只依据年龄、季节或地域中的单一因素作出个人处方。",
+    "mastery_criteria": [
+      "能准确列举三因制宜的三个方面。",
+      "能说明三因分析需要结合当前资料。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医基础理论（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "book": "tcm_basic6_2026",
+      "volume": "中医基础理论",
+      "chapter": "第九章 养生与防治原则",
+      "section": "第三节 治则：三因制宜",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "养生与治则",
+      "point": "三因制宜"
+    },
+    "curriculum_scope": {
+      "course": "中医基础理论",
+      "unit": "养生与治则",
+      "point": "三因制宜",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】三因制宜通常指哪三项？",
+      "answer": "因时、因地、因人"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_001",
+    "name": "四诊合参与资料一致性",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "诊断原则与概念",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第1章 诊断原则与概念",
+    "type": "conceptual",
+    "description": "四诊指望、闻、问、切，是中医收集资料的传统方法。四诊合参要求综合不同来源的信息，注意相互支持与矛盾之处；某一舌象或脉象不能孤立地替代完整判断。",
+    "mastery_criteria": [
+      "能准确列出四诊。",
+      "能说明资料冲突时应复核和综合分析。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "绪论",
+      "section": "中医诊断的基本原则",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "诊断原则与概念",
+      "point": "四诊合参与资料一致性"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "诊断原则与概念",
+      "point": "四诊合参与资料一致性",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】四诊的正确组合是哪一组？",
+      "answer": "望、闻、问、切"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_002",
+    "name": "症、证与病的区分",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "诊断原则与概念",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第1章 诊断原则与概念",
+    "type": "conceptual",
+    "description": "症是单个表现，证是中医对一定阶段病位、病性等的综合概括，病则概括疾病的发生发展及其规律。三者相关而不同，证名也不自动等同于现代医学的疾病名称。",
+    "mastery_criteria": [
+      "能用观察层次区分症、证、病。",
+      "能避免由一个症状直接确定完整证。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "绪论",
+      "section": "中医诊断学的主要内容；中医诊断的基本原则",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "诊断原则与概念",
+      "point": "症、证与病的区分"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "诊断原则与概念",
+      "point": "症、证与病的区分",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“某阶段病位、病性等的综合概括”在本课程中主要指什么？",
+      "answer": "证"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_003",
+    "name": "望神、望色、望形与望态",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "望诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第2章 望诊",
+    "type": "conceptual",
+    "description": "全身望诊从神、色、形、态等方面收集外在资料。神侧重整体生命与精神活动表现，色关注色泽，形关注形体，态关注姿态活动；观察结果需要记录条件并与其他信息联系。",
+    "mastery_criteria": [
+      "能区分神色形态的主要观察对象。",
+      "能把观察资料与证候判断分开记录。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第一章 望诊",
+      "section": "第一节 全身望诊",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "望诊",
+      "point": "望神、望色、望形与望态"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "望诊",
+      "point": "望神、望色、望形与望态",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】记录姿态、活动和动作表现，主要属于哪项？",
+      "answer": "望态"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_004",
+    "name": "舌质与舌苔的观察层次",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "望诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第2章 望诊",
+    "type": "conceptual",
+    "description": "舌诊将舌体本身的颜色、形态等与舌面苔的颜色、厚薄、润燥等分别观察。舌质与舌苔各提供不同角度的信息，二者不能合并成一个不分层次的颜色标签。",
+    "mastery_criteria": [
+      "能区分舌质和舌苔。",
+      "能分别描述各自的观察维度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第一章 望诊",
+      "section": "第三节 舌诊：望舌质、望舌苔",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "望诊",
+      "point": "舌质与舌苔的观察层次"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "望诊",
+      "point": "舌质与舌苔的观察层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】舌体自身的颜色与形态主要归入哪项观察？",
+      "answer": "舌质"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_005",
+    "name": "舌诊观察条件与非病理影响",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "望诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第2章 望诊",
+    "type": "conceptual",
+    "description": "舌象会受光线、饮食染色和观察状态等影响。课程学习应先记录或排查观察条件，再讨论舌质舌苔信息；图片色差或短暂染色不能直接当作稳定病理表现。",
+    "mastery_criteria": [
+      "能举出影响舌象观察的条件。",
+      "能在分析前区分干扰与稳定资料。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第一章 望诊",
+      "section": "第三节 舌诊：舌诊的方法和注意事项",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "望诊",
+      "point": "舌诊观察条件与非病理影响"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "望诊",
+      "point": "舌诊观察条件与非病理影响",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪种因素可造成舌象颜色观察的干扰？",
+      "answer": "饮食染色和光线差异"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_006",
+    "name": "局部望诊与排出物资料",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "望诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第2章 望诊",
+    "type": "conceptual",
+    "description": "局部望诊观察头面、五官、躯体、皮肤等，排出物观察则关注痰、涕、涎唾、呕吐物等的性状。局部资料应保持具体描述，并与发生时间、伴随表现及其他四诊信息相联系。",
+    "mastery_criteria": [
+      "能区分局部望诊与排出物观察。",
+      "能用性状、时间和伴随信息组织资料。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第一章 望诊",
+      "section": "第二节 局部望诊；第五节 望排出物",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "望诊",
+      "point": "局部望诊与排出物资料"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "望诊",
+      "point": "局部望诊与排出物资料",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】将痰、涕、涎唾等的性状归在一起，主要对应哪一节的观察？",
+      "answer": "望排出物"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_007",
+    "name": "闻诊的听声音与嗅气味",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "中医闻诊包含听声音与嗅气味两个方面，声音涉及发声、语言、呼吸等表现，气味涉及病体或环境相关气味。闻诊中的“闻”不能只按现代日常用语理解为嗅觉。",
+    "mastery_criteria": [
+      "能准确说明闻诊的两个方面。",
+      "能区分听声音与问诊获得的语言内容。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第二章 闻诊",
+      "section": "第一节 听声音；第二节 嗅气味",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "闻诊的听声音与嗅气味"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "闻诊的听声音与嗅气味",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】闻诊包括哪些方面？",
+      "answer": "听声音与嗅气味"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_008",
+    "name": "问诊中的主诉、现病史与既往史",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "问诊内容包括一般情况、主诉、现病史、既往史、个人生活史、家族史等。主诉概括主要困扰及其时间，现病史梳理本次发生发展过程，既往史记录此前的相关健康经历。",
+    "mastery_criteria": [
+      "能区分主诉、现病史、既往史。",
+      "能按时间关系组织病史学习材料。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第三章 问诊",
+      "section": "第二节 问诊的内容",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "问诊中的主诉、现病史与既往史"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "问诊中的主诉、现病史与既往史",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】本次表现如何开始、发展和变化，主要记录在哪一部分？",
+      "answer": "现病史"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_009",
+    "name": "问现症与时间、性质、伴随信息",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "问现症围绕寒热、汗、疼痛、睡眠、饮食口味、二便等组织当前资料。一个表现的部位、性质、起始与持续情况、影响因素和伴随表现，往往比仅有症状名称提供更多信息。",
+    "mastery_criteria": [
+      "能为单个表现补充时间和性质等维度。",
+      "能区分资料收集与立即定证。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第三章 问诊",
+      "section": "第三节 问现在症",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "问现症与时间、性质、伴随信息"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "问现症与时间、性质、伴随信息",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】询问疼痛时，哪组资料更完整？",
+      "answer": "部位、性质、时间、诱发缓解因素及伴随表现"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_010",
+    "name": "脉象的位、数、形、势",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "脉象学习从脉位、至数、形态、力量等方面组织触诊描述，如浮沉偏重位置，迟数偏重频率，虚实偏重力量等。脉率只是脉象信息的一部分，不能把全部脉象压缩为一个数字。",
+    "mastery_criteria": [
+      "能区分脉位、脉率和力量等维度。",
+      "能说明单一脉率不能概括全部脉象。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第四章 切诊",
+      "section": "第一节 脉诊：正常脉象、病理脉象",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "脉象的位、数、形、势"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "脉象的位、数、形、势",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】迟、数这一组脉象术语主要比较哪一维度？",
+      "answer": "脉搏至数的快慢"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_011",
+    "name": "脉诊条件与生理变异",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "脉象观察需注意安静状态、体位、活动、情绪及个体差异等条件，教材区分正常脉象与病理脉象。一次受活动影响的记录不能脱离条件直接归为病理。此节点只讨论资料质量，不教授操作。",
+    "mastery_criteria": [
+      "能识别影响脉象资料可比性的条件。",
+      "能区分生理变化与病理推断。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第四章 切诊",
+      "section": "第一节 脉诊：方法和注意事项、正常脉象",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "脉诊条件与生理变异"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "脉诊条件与生理变异",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】比较两次脉象资料时，哪项背景最需要同步记录？",
+      "answer": "活动、情绪及观察状态"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_012",
+    "name": "按诊的资料类型",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "闻问切诊",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第3章 闻问切诊",
+    "type": "conceptual",
+    "description": "按诊是切诊中通过接触获取局部温度、软硬、压痛等资料的传统方法，与脉诊关注点不同。学习时应区分受检者报告的感觉、观察到的反应和检查者的触感，不把任一项自动等同证候。",
+    "mastery_criteria": [
+      "能区分按诊与脉诊的信息侧重。",
+      "能区分主观感受、触感和分析结论。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第四章 切诊",
+      "section": "第二节 按诊",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "闻问切诊",
+      "point": "按诊的资料类型"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "闻问切诊",
+      "point": "按诊的资料类型",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】按诊与脉诊的关系，哪项正确？",
+      "answer": "均属切诊，但资料侧重点不同"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_013",
+    "name": "表里辨证与病位层次",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "八纲辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第4章 八纲辨证",
+    "type": "conceptual",
+    "description": "八纲中的表里主要概括病位的浅深和病势趋向。表里关系有其传统理论语境，不等同于皮肤内外的单一几何划分，也不能仅按某个症状出现的部位机械判断。",
+    "mastery_criteria": [
+      "能说明表里主要关注病位层次。",
+      "能区分表里与寒热、虚实的观察角度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第五章 八纲辨证",
+      "section": "第一节 八纲基本证：表里辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "八纲辨证",
+      "point": "表里辨证与病位层次"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "八纲辨证",
+      "point": "表里辨证与病位层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】八纲辨证中，表里主要用于分析什么？",
+      "answer": "病位的浅深层次"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_014",
+    "name": "寒热辨证与病性",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "八纲辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第4章 八纲辨证",
+    "type": "conceptual",
+    "description": "寒热辨证主要辨别病性的寒热倾向，需要综合资料而不是仅按体温数值。寒热可以从真实病性、表面现象及兼夹等角度讨论，不能把发热症状直接等同于所有热证。",
+    "mastery_criteria": [
+      "能说明寒热属于病性分析。",
+      "能区分体温表现与寒热证的综合判断。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第五章 八纲辨证",
+      "section": "第一节 八纲基本证：寒热辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "八纲辨证",
+      "point": "寒热辨证与病性"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "八纲辨证",
+      "point": "寒热辨证与病性",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】寒热与表里的主要区别是什么？",
+      "answer": "寒热侧重病性，表里侧重病位"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_015",
+    "name": "虚实辨证与邪正盛衰",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "八纲辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第4章 八纲辨证",
+    "type": "conceptual",
+    "description": "虚实辨证主要分析正气与邪气的盛衰关系，教材讨论虚证、实证及其复杂关系。病程长短、体型或声音等只能作为相关资料，不能作为唯一判据。",
+    "mastery_criteria": [
+      "能将虚实与正邪盛衰联系起来。",
+      "能避免用单一外观直接确定虚实。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第五章 八纲辨证",
+      "section": "第一节 八纲基本证：虚实辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "八纲辨证",
+      "point": "虚实辨证与邪正盛衰"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "八纲辨证",
+      "point": "虚实辨证与邪正盛衰",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】虚实辨证的主要理论依据是哪一种关系？",
+      "answer": "正气与邪气的盛衰"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_016",
+    "name": "阴阳总纲与八纲之间的联系",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "八纲辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第4章 八纲辨证",
+    "type": "conceptual",
+    "description": "阴阳在八纲中具有总括作用，表里、寒热、虚实分别从不同角度提供信息。总纲不能消除各维度的具体区别，复杂状态也不应被压缩为一个不带条件的阴或阳标签。",
+    "mastery_criteria": [
+      "能说明阴阳在八纲中的总括作用。",
+      "能保留病位病性虚实等具体维度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第五章 八纲辨证",
+      "section": "第一节 八纲基本证：阴阳辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "八纲辨证",
+      "point": "阴阳总纲与八纲之间的联系"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "八纲辨证",
+      "point": "阴阳总纲与八纲之间的联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】八纲中通常被称为总纲的是哪一组？",
+      "answer": "阴阳"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_017",
+    "name": "相兼、错杂与转化",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "八纲辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第4章 八纲辨证",
+    "type": "conceptual",
+    "description": "八纲关系可表现为同阶段不同纲的相兼、寒热或虚实等复杂因素的错杂，以及病程中的转化。判断时需区别同时存在与先后变化，不能把所有复杂情况都称为转化。",
+    "mastery_criteria": [
+      "能区分同时相兼与先后转化。",
+      "能说明时间信息对辨析复杂关系的作用。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第五章 八纲辨证",
+      "section": "第二节 八纲证之间的关系",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "八纲辨证",
+      "point": "相兼、错杂与转化"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "八纲辨证",
+      "point": "相兼、错杂与转化",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】区分“同一阶段兼见”与“前后阶段变化”，最需要哪类信息？",
+      "answer": "发生时间与过程记录"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_018",
+    "name": "六淫辨证的分类轴",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病性辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第5章 病性辨证",
+    "type": "conceptual",
+    "description": "病性辨证中的六淫辨证，按风、寒、暑、湿、燥、火等传统病性特点归纳资料。它与六气的正常自然变化不同，也不等同于六种现代病原体。",
+    "mastery_criteria": [
+      "能列出六淫辨证的主要类别。",
+      "能区分传统病性分类与病原分类。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第六章 病性辨证",
+      "section": "第一节 六淫辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病性辨证",
+      "point": "六淫辨证的分类轴"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病性辨证",
+      "point": "六淫辨证的分类轴",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】哪组名称属于六淫辨证？",
+      "answer": "风、寒、暑、湿、燥、火"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_019",
+    "name": "阴虚证与阳虚证的理论区分",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病性辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第5章 病性辨证",
+    "type": "conceptual",
+    "description": "阴虚和阳虚在本课程中都属于不足的分析，但其阴阳失衡方向不同。教材将阴虚、阳虚、亡阴、亡阳分别讨论；这些名称不能只凭一个寒热表现或自我标签确定。",
+    "mastery_criteria": [
+      "能说明阴虚与阳虚共同涉及不足。",
+      "能区分阴阳失衡的方向与偏盛。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第六章 病性辨证",
+      "section": "第二节 阴阳虚损辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病性辨证",
+      "point": "阴虚证与阳虚证的理论区分"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病性辨证",
+      "point": "阴虚证与阳虚证的理论区分",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】阴虚与阳虚共同具有哪一理论特点？",
+      "answer": "均涉及阴或阳方面的不足"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_020",
+    "name": "气病、血病与气血同病辨证",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病性辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第5章 病性辨证",
+    "type": "conceptual",
+    "description": "教材在气血辨证中分别讨论气病、血病和气血同病。气虚与气滞、血虚与血瘀等从不同病机角度分析，气血同病则保留两方面联系，不能将所有术语归为同一种不足。",
+    "mastery_criteria": [
+      "能区分不足与运行失常类术语。",
+      "能解释气血同病并非简单名称拼接。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第六章 病性辨证",
+      "section": "第三节 气血辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病性辨证",
+      "point": "气病、血病与气血同病辨证"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病性辨证",
+      "point": "气病、血病与气血同病辨证",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】气虚与气滞的核心理论区别是什么？",
+      "answer": "前者偏于气的不足，后者偏于气机不畅"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_021",
+    "name": "津液亏虚、痰饮与水停",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病性辨证",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第5章 病性辨证",
+    "type": "conceptual",
+    "description": "津液辨证讨论津液不足与痰、饮、水等失常。缺少与停聚是不同分析方向，某些复杂情况可同时存在；不能看到水液相关表现就把它们全部归为津液亏虚。",
+    "mastery_criteria": [
+      "能区分津液亏少与水液停聚。",
+      "能将痰饮水的传统分类与正常津液过程联系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第六章 病性辨证",
+      "section": "第四节 津液辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病性辨证",
+      "point": "津液亏虚、痰饮与水停"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病性辨证",
+      "point": "津液亏虚、痰饮与水停",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】津液亏虚与水液停聚的主要区别是什么？",
+      "answer": "不足与输布排泄等失常所致停聚的分析方向不同"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_022",
+    "name": "脏腑辨证的功能框架",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病位与辨证体系",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第6章 病位与辨证体系",
+    "type": "conceptual",
+    "description": "脏腑辨证根据藏象理论，将四诊资料综合为相关脏腑功能失调的中医证候，并讨论兼病。脏腑证名不直接等同解剖器官结构病变，不能以“某脏”名称替代相应现代检查。",
+    "mastery_criteria": [
+      "能说明脏腑辨证以藏象模型为基础。",
+      "能区分脏腑证候与现代器官疾病。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第七章 病位辨证",
+      "section": "第一节 脏腑辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病位与辨证体系",
+      "point": "脏腑辨证的功能框架"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病位与辨证体系",
+      "point": "脏腑辨证的功能框架",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】脏腑辨证的主要理论基础是什么？",
+      "answer": "藏象学说"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_023",
+    "name": "六经辨证的体系与传变",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病位与辨证体系",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第6章 病位与辨证体系",
+    "type": "conceptual",
+    "description": "六经辨证以太阳、阳明、少阳、太阴、少阴、厥阴组织传统病证，并讨论其传变。此处“六经”是辨证体系，不可仅等同六条经脉，也不能把教材顺序当作所有病程必经的六站。",
+    "mastery_criteria": [
+      "能列出六经辨证的六类名称。",
+      "能区分六经辨证与经脉分类及固定病程。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第七章 病位辨证",
+      "section": "第二节 六经辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病位与辨证体系",
+      "point": "六经辨证的体系与传变"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病位与辨证体系",
+      "point": "六经辨证的体系与传变",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪组完整列出六经辨证名称？",
+      "answer": "太阳、阳明、少阳、太阴、少阴、厥阴"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_024",
+    "name": "卫气营血辨证的层次",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病位与辨证体系",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第6章 病位与辨证体系",
+    "type": "conceptual",
+    "description": "卫气营血辨证以卫、气、营、血四个传统层次讨论温热病证及传变。这里的卫分、气分等属于辨证层次，不等同于元气、宗气、营气、卫气的分类表，也不是四个解剖腔室。",
+    "mastery_criteria": [
+      "能列出卫气营血四个层次。",
+      "能区分辨证层次与人体之气的种类。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第七章 病位辨证",
+      "section": "第三节 卫气营血辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病位与辨证体系",
+      "point": "卫气营血辨证的层次"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病位与辨证体系",
+      "point": "卫气营血辨证的层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】卫气营血辨证中的“卫、气、营、血”主要是什么？",
+      "answer": "温热病证分析中的传统层次"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_025",
+    "name": "三焦辨证的区域与病机联系",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病位与辨证体系",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第6章 病位与辨证体系",
+    "type": "conceptual",
+    "description": "三焦辨证以上焦、中焦、下焦组织温病等的传统分析，并将病位、相关功能和传变联系起来。三焦不能仅当作三段几何高度，也不等同于三种固定现代器官病。",
+    "mastery_criteria": [
+      "能识别三焦辨证的三个层次。",
+      "能说明其包含功能和病机联系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第七章 病位辨证",
+      "section": "第四节 三焦辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病位与辨证体系",
+      "point": "三焦辨证的区域与病机联系"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病位与辨证体系",
+      "point": "三焦辨证的区域与病机联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】三焦辨证的基本层次是哪一组？",
+      "answer": "上焦、中焦、下焦"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_026",
+    "name": "经络辨证与循行联系",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "病位与辨证体系",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第6章 病位与辨证体系",
+    "type": "conceptual",
+    "description": "经络辨证在传统经络理论中，综合部位、循行联系及相关表现讨论病证。循行部位可提供分析线索，但某处不适不能只凭位置就认定某条经脉或某个现代器官的疾病。",
+    "mastery_criteria": [
+      "能说明经络辨证使用经络理论提供线索。",
+      "能避免把部位线索视为充分诊断条件。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第七章 病位辨证",
+      "section": "第五节 经络辨证",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "病位与辨证体系",
+      "point": "经络辨证与循行联系"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "病位与辨证体系",
+      "point": "经络辨证与循行联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】经络辨证的直接理论背景是哪一项？",
+      "answer": "经络的循行及传统功能联系"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_027",
+    "name": "资料归纳、假设与复核",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "诊断思维与应用",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第7章 诊断思维与应用",
+    "type": "conceptual",
+    "description": "中医诊断思维需要从资料归纳相关特征，形成可讨论的判断，再检查支持信息、矛盾信息与遗漏。学习时应区别“观察到什么”与“据此认为是什么”，避免先定证名再只挑支持资料。",
+    "mastery_criteria": [
+      "能区分观察资料与分析判断。",
+      "能发现并复核与原判断不一致的信息。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第八章 中医诊断思维与应用",
+      "section": "第一节 中医诊断思维方法",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "诊断思维与应用",
+      "point": "资料归纳、假设与复核"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "诊断思维与应用",
+      "point": "资料归纳、假设与复核",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪一项应与原始观察资料分开记录？",
+      "answer": "依据资料形成的证候判断"
+    }
+  },
+  {
+    "id": "tcm_diagnostics_028",
+    "name": "辨症、辨证、辨病、辨人的综合",
+    "subject": "tcm",
+    "module": "diagnostics",
+    "domain": "诊断思维与应用",
+    "grade": 32,
+    "semester": "全",
+    "chapter": "第7章 诊断思维与应用",
+    "type": "conceptual",
+    "description": "教材在诊断思维应用中分别讨论辨症、辨证、辨病、辨人。它们关注表现、阶段性证候、疾病规律与个体特点等不同层面，综合应用应保留各层面信息及不确定性，而非用单一标签覆盖全部资料。",
+    "mastery_criteria": [
+      "能辨认四个分析层面的不同对象。",
+      "能在课程案例中保留个体背景与当前状态的区别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "中医诊断学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "book": "tcm_diagnostic6_2026",
+      "volume": "中医诊断学",
+      "chapter": "第八章 中医诊断思维与应用",
+      "section": "第二节 中医诊断思维的应用：辨症、辨证、辨病、辨人",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "诊断思维与应用",
+      "point": "辨症、辨证、辨病、辨人的综合"
+    },
+    "curriculum_scope": {
+      "course": "中医诊断学",
+      "unit": "诊断思维与应用",
+      "point": "辨症、辨证、辨病、辨人的综合",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“辨人”主要提醒学习者关注什么？",
+      "answer": "个体特点及背景差异"
+    }
+  },
+  {
+    "id": "tcm_formulas_001",
+    "name": "方剂、治法与证的联系",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "方剂学在中医辨证论治框架内讨论组方原理与方剂运用规律。证、法、方相互联系：分析证候，讨论治法，再理解相应组方；同一方名不能脱离证候与教材语境被当作通用疗效保证。",
+    "mastery_criteria": [
+      "能说明证、法、方之间的逻辑联系。",
+      "能区别治法原则与具体方剂。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第二章 方剂与治法",
+      "section": "第一节 方剂与治法的关系；第二节 常用治法",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "方剂、治法与证的联系"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "方剂、治法与证的联系",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“以法统方”的课程含义更接近哪一项？",
+      "answer": "以治法原则理解和组织相关方剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_002",
+    "name": "君臣佐使的配伍角色",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "君臣佐使是中医解释方剂配伍分工的传统框架。君药针对主病或主证发挥主要作用，臣药辅助主治或兼顾相关问题，佐药可有辅助、制约等作用，使药可引经或调和诸药。角色依具体方义确定，不要求每方四类齐全。",
+    "mastery_criteria": [
+      "能辨认君臣佐使的不同角色。",
+      "能说明角色不单由药味顺序或数量决定。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第六章 方剂的组方法则与变化",
+      "section": "组方法则",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "君臣佐使的配伍角色"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "君臣佐使的配伍角色",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】在君臣佐使框架中，针对主病或主证起主要作用的角色通常称什么？",
+      "answer": "君药"
+    }
+  },
+  {
+    "id": "tcm_formulas_003",
+    "name": "方剂变化与方义分析",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "教材讨论药味、药量配比和剂型等变化对方剂结构与意义的影响。学习加减变化时应比较变化前后的组方关系，不能仅因大部分药名相同就认定方义完全一致。此节点不提供具体配比或处方。",
+    "mastery_criteria": [
+      "能辨认药味、配比与剂型三类变化。",
+      "能说明改变组成后需要重新分析方义。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第六章 方剂的组方法则与变化",
+      "section": "方剂的变化",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "方剂变化与方义分析"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "方剂变化与方义分析",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】下列哪组都属于教材讨论的方剂变化方式？",
+      "answer": "药味变化、药量配比变化、剂型变化"
+    }
+  },
+  {
+    "id": "tcm_formulas_004",
+    "name": "方剂分类的方法与适用角度",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "方剂可按病证、组成、治法、笔画等不同方式分类，教材各论主要借治法等组织相关方群。分类方法回答的问题不同；检索用的笔画分类不能被误作病机或功效分类。",
+    "mastery_criteria": [
+      "能区分检索性分类与治法分类。",
+      "能说明同一方可在不同组织方法下出现。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第三章 方剂的分类",
+      "section": "病证分类、组成分类、治法分类、笔画分类",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "方剂分类的方法与适用角度"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "方剂分类的方法与适用角度",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“清热剂、补益剂”等主要依据什么组织方剂？",
+      "answer": "治法或功用特点"
+    }
+  },
+  {
+    "id": "tcm_formulas_005",
+    "name": "剂型与方剂组成的区别",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "剂型是药物制成适于使用的形式，教材分液体、固体、半固体等讨论。方剂组成与剂型是不同信息；汤、丸、散等名称有剂型背景，但仅凭名称不能确定现代产品的规格、质量或个体适用性。",
+    "mastery_criteria": [
+      "能区分配伍组成与制成形式。",
+      "能说明同名方的现代产品仍需独立信息。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第四章 方剂的剂型",
+      "section": "液体剂型、固体剂型、半固体剂型",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "剂型与方剂组成的区别"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "剂型与方剂组成的区别",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】“剂型”主要描述哪一方面？",
+      "answer": "药物制成的使用形式"
+    }
+  },
+  {
+    "id": "tcm_formulas_006",
+    "name": "古方文献与现代证据的层次",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "方剂学总论",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第1章 方剂学总论",
+    "type": "conceptual",
+    "description": "方剂起源与发展研究追溯方名、组成、文献和学术演变。古籍记载、现代教材分类、实验结果与临床研究回答的问题不同；“记载历史久”并不自动等于某种现代疗效已经得到充分验证。",
+    "mastery_criteria": [
+      "能区分历史文献与现代研究的证据任务。",
+      "能在图谱中分别记录方剂出处和证据类型。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "上篇 总论 第一章 方剂的起源与发展",
+      "section": "文献与学术演变主题定位；不虚填未核实节号",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "方剂学总论",
+      "point": "古方文献与现代证据的层次"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "方剂学总论",
+      "point": "古方文献与现代证据的层次",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "historical_and_evidence_method",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】追溯一个方名最早见于哪部文献，主要属于什么工作？",
+      "answer": "方剂文献与历史考证"
+    }
+  },
+  {
+    "id": "tcm_formulas_007",
+    "name": "解表剂：辛温、辛凉与扶正解表",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "解表泻下与和解",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第2章 解表泻下与和解",
+    "type": "conceptual",
+    "description": "《方剂学》将解表剂分为辛温解表、辛凉解表和扶正解表等。桂枝汤、银翘散分别位于辛温、辛凉解表小节；分类表示传统治法与方义，不能由“感冒”一个现代常用病名自动选择方剂。",
+    "mastery_criteria": [
+      "能辨认解表剂的主要分支。",
+      "能区分桂枝汤与银翘散的教材分类。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第一章 解表剂",
+      "section": "第一节 辛温解表剂；第二节 辛凉解表剂；第三节 扶正解表剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "解表泻下与和解",
+      "point": "解表剂：辛温、辛凉与扶正解表"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "解表泻下与和解",
+      "point": "解表剂：辛温、辛凉与扶正解表",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】银翘散在该教材目录中属于哪一分支？",
+      "answer": "辛凉解表剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_008",
+    "name": "泻下剂：寒下、温下与润下",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "解表泻下与和解",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第2章 解表泻下与和解",
+    "type": "conceptual",
+    "description": "教材将泻下剂细分为寒下、温下、润下、逐水、攻补兼施等类别。大承气汤、温脾汤、麻子仁丸分别列在寒下、温下、润下小节，学习重点是传统分类依据及差别。",
+    "mastery_criteria": [
+      "能辨认泻下剂内部的不同治法方向。",
+      "能将常见代表方与目录分支正确对应。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第二章 泻下剂",
+      "section": "寒下、温下、润下、逐水、攻补兼施",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "解表泻下与和解",
+      "point": "泻下剂：寒下、温下与润下"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "解表泻下与和解",
+      "point": "泻下剂：寒下、温下与润下",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】麻子仁丸在该教材中列入哪类？",
+      "answer": "润下剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_009",
+    "name": "和解剂的三类调和方向",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "解表泻下与和解",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第2章 解表泻下与和解",
+    "type": "conceptual",
+    "description": "和解剂在教材中包括和解少阳、调和肝脾、调和寒热。小柴胡汤、四逆散、半夏泻心汤分别代表这三种目录分支；不能因方名相近便忽略其类别差异。",
+    "mastery_criteria": [
+      "能列举和解剂的三个主要分支。",
+      "能区分少阳、肝脾和寒热调和的分类角度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第三章 和解剂",
+      "section": "第一节 和解少阳剂；第二节 调和肝脾剂；第三节 调和寒热剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "解表泻下与和解",
+      "point": "和解剂的三类调和方向"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "解表泻下与和解",
+      "point": "和解剂的三类调和方向",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】小柴胡汤在教材中列于哪一分支？",
+      "answer": "和解少阳剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_010",
+    "name": "清热剂的病位与虚实分支",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "清温与表里兼顾",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第3章 清温与表里兼顾",
+    "type": "conceptual",
+    "description": "清热剂包括清气分热、清营凉血、气血两清、清脏腑热、清虚热等分支。白虎汤与青蒿鳖甲汤分别列于清气分热与清虚热，体现相同大类仍需区分层次和病机。",
+    "mastery_criteria": [
+      "能辨认清热剂的不同分支。",
+      "能说明“清热”大类不足以概括全部方义差别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第四章 清热剂",
+      "section": "清气分热、清营凉血、气血两清、清脏腑热、清虚热",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "清温与表里兼顾",
+      "point": "清热剂的病位与虚实分支"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "清温与表里兼顾",
+      "point": "清热剂的病位与虚实分支",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】白虎汤在该教材目录中属于哪类？",
+      "answer": "清气分热剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_011",
+    "name": "祛暑剂的兼夹分类",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "清温与表里兼顾",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第3章 清温与表里兼顾",
+    "type": "conceptual",
+    "description": "祛暑剂在教材中分为祛暑解表、祛暑清热、祛暑利湿、祛暑益气等，说明暑相关传统方剂可兼顾不同方面。香薷散与六一散分别列在祛暑解表与祛暑利湿小节。",
+    "mastery_criteria": [
+      "能辨认祛暑剂的不同兼顾方向。",
+      "能避免把季节标签当作通用适用条件。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第五章 祛暑剂",
+      "section": "祛暑解表、祛暑清热、祛暑利湿、祛暑益气",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "清温与表里兼顾",
+      "point": "祛暑剂的兼夹分类"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "清温与表里兼顾",
+      "point": "祛暑剂的兼夹分类",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】六一散在该教材目录中属于哪一分支？",
+      "answer": "祛暑利湿剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_012",
+    "name": "温里剂的温中、回阳与温经分支",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "清温与表里兼顾",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第3章 清温与表里兼顾",
+    "type": "conceptual",
+    "description": "教材将温里剂分为温中祛寒、回阳救逆、温经散寒。理中丸、四逆汤、当归四逆汤分别列于这些分支；这里学习的是传统分类，不据方名或单一寒象作个人用方。",
+    "mastery_criteria": [
+      "能辨认温里剂的三个分支。",
+      "能区分四逆汤、四逆散等相似方名的归类。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第六章 温里剂",
+      "section": "温中祛寒、回阳救逆、温经散寒",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "清温与表里兼顾",
+      "point": "温里剂的温中、回阳与温经分支"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "清温与表里兼顾",
+      "point": "温里剂的温中、回阳与温经分支",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】理中丸在教材目录中属于哪类？",
+      "answer": "温中祛寒剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_013",
+    "name": "表里双解剂的组合方向",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "清温与表里兼顾",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第3章 清温与表里兼顾",
+    "type": "conceptual",
+    "description": "表里双解剂在教材中包括解表清里、解表温里、解表攻里。葛根黄芩黄连汤、五积散、大柴胡汤分别列于这些分支，体现同时考虑表里而内部治法仍有不同。",
+    "mastery_criteria": [
+      "能辨认表里双解的三种目录分支。",
+      "能说明兼顾表里不代表一律清热或一律温里。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第七章 表里双解剂",
+      "section": "解表清里、解表温里、解表攻里",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "清温与表里兼顾",
+      "point": "表里双解剂的组合方向"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "清温与表里兼顾",
+      "point": "表里双解剂的组合方向",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】五积散在该教材目录中属于哪类？",
+      "answer": "解表温里剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_014",
+    "name": "补益剂：气血阴阳的不同对象",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "补涩安神与开窍",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第4章 补涩安神与开窍",
+    "type": "conceptual",
+    "description": "补益剂包括补气、补血、气血双补、补阴、补阳、阴阳并补等分支。四君子汤与四物汤分别列在补气和补血小节；“补益”是分类名称，不意味着所有人都需使用同一补益方法。",
+    "mastery_criteria": [
+      "能按气血阴阳区分补益剂。",
+      "能正确配对四君子汤与四物汤的教材分支。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第八章 补益剂",
+      "section": "补气、补血、气血双补、补阴、补阳、阴阳并补",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "补涩安神与开窍",
+      "point": "补益剂：气血阴阳的不同对象"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "补涩安神与开窍",
+      "point": "补益剂：气血阴阳的不同对象",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】四君子汤在教材中属于哪类？",
+      "answer": "补气剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_015",
+    "name": "固涩剂的分类对象",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "补涩安神与开窍",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第4章 补涩安神与开窍",
+    "type": "conceptual",
+    "description": "固涩剂按固表止汗、敛肺止咳、涩肠固脱、涩精止遗、固崩止带等传统方向分类。它与补益剂的分类依据有关联但不相同，不能将收涩与补益当作完全同义。",
+    "mastery_criteria": [
+      "能辨认固涩剂的不同分类对象。",
+      "能区分固涩与补益的治法侧重。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第九章 固涩剂",
+      "section": "固表止汗、敛肺止咳、涩肠固脱、涩精止遗、固崩止带",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "补涩安神与开窍",
+      "point": "固涩剂的分类对象"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "补涩安神与开窍",
+      "point": "固涩剂的分类对象",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】牡蛎散在该教材目录中列于哪一分支？",
+      "answer": "固表止汗剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_016",
+    "name": "安神剂的三种组方方向",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "补涩安神与开窍",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第4章 补涩安神与开窍",
+    "type": "conceptual",
+    "description": "教材将安神剂分为重镇安神、补养安神、交通心肾等。酸枣仁汤列在补养安神，交泰丸列在交通心肾；安神类别不能简单替换为所有现代镇静药的同义分类。",
+    "mastery_criteria": [
+      "能辨认安神剂的三个目录分支。",
+      "能区分补养安神与交通心肾的传统方义方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十章 安神剂",
+      "section": "重镇安神、补养安神、交通心肾",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "补涩安神与开窍",
+      "point": "安神剂的三种组方方向"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "补涩安神与开窍",
+      "point": "安神剂的三种组方方向",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】酸枣仁汤在该教材目录中属于哪类？",
+      "answer": "补养安神剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_017",
+    "name": "开窍剂的凉开与温开分类",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "补涩安神与开窍",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第4章 补涩安神与开窍",
+    "type": "conceptual",
+    "description": "开窍剂在教材中分凉开与温开，安宫牛黄丸与苏合香丸分别列于这两类。该分类用于方剂学学习，不能将“开窍”名称理解为对所有意识异常都适用的通用处理。",
+    "mastery_criteria": [
+      "能区分凉开与温开的目录分支。",
+      "能说明同一大类内部仍有寒热方向之别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十一章 开窍剂",
+      "section": "第一节 凉开剂；第二节 温开剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "补涩安神与开窍",
+      "point": "开窍剂的凉开与温开分类"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "补涩安神与开窍",
+      "point": "开窍剂的凉开与温开分类",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】苏合香丸在该教材目录中属于哪类？",
+      "answer": "温开剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_018",
+    "name": "理气剂：行气与降气",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "理气与理血",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第5章 理气与理血",
+    "type": "conceptual",
+    "description": "教材把理气剂分为行气与降气，越鞠丸、柴胡疏肝散列于行气，苏子降气汤等列于降气。气机不畅与气的升降失常是相关但不同的传统分析方向。",
+    "mastery_criteria": [
+      "能区分理气剂的行气和降气分支。",
+      "能将代表方与目录类别对应。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十二章 理气剂",
+      "section": "第一节 行气剂；第二节 降气剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理气与理血",
+      "point": "理气剂：行气与降气"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "理气与理血",
+      "point": "理气剂：行气与降气",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】苏子降气汤在该教材目录中属于哪类？",
+      "answer": "降气剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_019",
+    "name": "理血剂：活血祛瘀与止血",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "理气与理血",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第5章 理气与理血",
+    "type": "conceptual",
+    "description": "理血剂在教材中分活血祛瘀与止血。血府逐瘀汤和十灰散分别列在这两个分支；“理血”作为大类，并不表示所有方剂的组方方向相同。",
+    "mastery_criteria": [
+      "能区分活血祛瘀与止血分类。",
+      "能避免由理血大类推定方剂可相互替代。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十三章 理血剂",
+      "section": "第一节 活血祛瘀剂；第二节 止血剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "理气与理血",
+      "point": "理血剂：活血祛瘀与止血"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "理气与理血",
+      "point": "理血剂：活血祛瘀与止血",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】十灰散在该教材目录中属于哪一分支？",
+      "answer": "止血剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_020",
+    "name": "治风剂：外风与内风",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "风燥湿痰的分类",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第6章 风燥湿痰的分类",
+    "type": "conceptual",
+    "description": "治风剂分疏散外风与平息内风，川芎茶调散和镇肝熄风汤分别列在相应小节。内风是中医病机术语，不能只按是否存在自然风或把外风、内风视作同一来源来理解。",
+    "mastery_criteria": [
+      "能区分疏散外风与平息内风。",
+      "能说明传统内风与自然风并非同一概念。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十四章 治风剂",
+      "section": "第一节 疏散外风剂；第二节 平息内风剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "风燥湿痰的分类",
+      "point": "治风剂：外风与内风"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "风燥湿痰的分类",
+      "point": "治风剂：外风与内风",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】治风剂在教材中分为哪两个主要方向？",
+      "answer": "疏散外风与平息内风"
+    }
+  },
+  {
+    "id": "tcm_formulas_021",
+    "name": "治燥剂：轻宣外燥与滋润内燥",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "风燥湿痰的分类",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第6章 风燥湿痰的分类",
+    "type": "conceptual",
+    "description": "教材把治燥剂分为轻宣外燥与滋润内燥，杏苏散、麦门冬汤分别列于两类。传统燥相关病机需要分析来源和性质，不能仅凭“干燥”一个词将方剂全部归为同一种。",
+    "mastery_criteria": [
+      "能区分外燥与内燥的方剂分类。",
+      "能正确配对两类代表方。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十五章 治燥剂",
+      "section": "第一节 轻宣外燥剂；第二节 滋润内燥剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "风燥湿痰的分类",
+      "point": "治燥剂：轻宣外燥与滋润内燥"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "风燥湿痰的分类",
+      "point": "治燥剂：轻宣外燥与滋润内燥",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】麦门冬汤在该教材目录中属于哪类？",
+      "answer": "滋润内燥剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_022",
+    "name": "祛湿剂的六类方向",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "风燥湿痰的分类",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第6章 风燥湿痰的分类",
+    "type": "conceptual",
+    "description": "祛湿剂包括化湿和胃、清热祛湿、利水渗湿、温化寒湿、祛湿化浊、祛风胜湿。平胃散、茵陈蒿汤、五苓散等在目录中分属不同小节，说明祛湿并不等同单一“排水”方法。",
+    "mastery_criteria": [
+      "能识别祛湿剂内部不同治法方向。",
+      "能区分化湿、清热祛湿与利水渗湿。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十六章 祛湿剂",
+      "section": "化湿和胃、清热祛湿、利水渗湿、温化寒湿、祛湿化浊、祛风胜湿",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "风燥湿痰的分类",
+      "point": "祛湿剂的六类方向"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "风燥湿痰的分类",
+      "point": "祛湿剂的六类方向",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】五苓散在该教材目录中列于哪类？",
+      "answer": "利水渗湿剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_023",
+    "name": "祛痰剂的寒热燥湿与风痰分类",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "风燥湿痰的分类",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第6章 风燥湿痰的分类",
+    "type": "conceptual",
+    "description": "教材把祛痰剂分为燥湿化痰、清热化痰、润燥化痰、温化寒痰和治风化痰。二陈汤、清气化痰丸、贝母瓜蒌散等分别对应不同分支，不能因都含“痰”就取消寒热燥湿的差别。",
+    "mastery_criteria": [
+      "能识别祛痰剂的五类方向。",
+      "能正确区分二陈汤与清气化痰丸的目录类别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十七章 祛痰剂",
+      "section": "燥湿化痰、清热化痰、润燥化痰、温化寒痰、治风化痰",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "风燥湿痰的分类",
+      "point": "祛痰剂的寒热燥湿与风痰分类"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "风燥湿痰的分类",
+      "point": "祛痰剂的寒热燥湿与风痰分类",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】二陈汤在该教材目录中属于哪类？",
+      "answer": "燥湿化痰剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_024",
+    "name": "消食剂：消食化滞与健脾消食",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "其他方剂类别",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第7章 其他方剂类别",
+    "type": "conceptual",
+    "description": "消食剂分消食化滞与健脾消食，保和丸、健脾丸分别列在这两个分支。学习时应区分针对积滞的方向与兼顾脾功能的配伍思路，不能把两种名称视为完全同义。",
+    "mastery_criteria": [
+      "能区分消食化滞与健脾消食。",
+      "能将代表方与分支相对应。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十八章 消食剂",
+      "section": "第一节 消食化滞剂；第二节 健脾消食剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "其他方剂类别",
+      "point": "消食剂：消食化滞与健脾消食"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "其他方剂类别",
+      "point": "消食剂：消食化滞与健脾消食",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】保和丸在该教材目录中属于哪类？",
+      "answer": "消食化滞剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_025",
+    "name": "驱虫剂的课程定位",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "其他方剂类别",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第7章 其他方剂类别",
+    "type": "conceptual",
+    "description": "教材设驱虫剂专章并列乌梅丸、连梅安蛔汤等。该分类属于方剂学目录与传统治法知识，不能由一项胃肠不适或方名推定具体寄生虫感染，也不替代现代病原检查。",
+    "mastery_criteria": [
+      "能辨认驱虫剂在方剂分类中的位置。",
+      "能区分方剂类别与具体病原体诊断。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第十九章 驱虫剂",
+      "section": "乌梅丸等条目；传统分类主题",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "其他方剂类别",
+      "point": "驱虫剂的课程定位"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "其他方剂类别",
+      "point": "驱虫剂的课程定位",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】乌梅丸在本教材目录中列在哪一章？",
+      "answer": "驱虫剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_026",
+    "name": "涌吐剂与泻下剂的传统区分",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "其他方剂类别",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第7章 其他方剂类别",
+    "type": "conceptual",
+    "description": "涌吐剂是教材保留的传统治法分类，目录列瓜蒂散等；它与泻下剂在传统作用方向的概括上不同。本节点仅作方剂史和分类学习，不提供催吐步骤或将古方记载转为自行处理依据。",
+    "mastery_criteria": [
+      "能辨认涌吐与泻下的传统方向差别。",
+      "能区分历史分类知识与当前临床处理依据。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第二十章 涌吐剂",
+      "section": "瓜蒂散等条目；传统治法分类主题",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "其他方剂类别",
+      "point": "涌吐剂与泻下剂的传统区分"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "其他方剂类别",
+      "point": "涌吐剂与泻下剂的传统区分",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "historical_traditional_classification",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】瓜蒂散在该教材目录中列入哪类？",
+      "answer": "涌吐剂"
+    }
+  },
+  {
+    "id": "tcm_formulas_027",
+    "name": "治痈疡剂的三个目录分支",
+    "subject": "tcm",
+    "module": "formulas",
+    "domain": "其他方剂类别",
+    "grade": 33,
+    "semester": "全",
+    "chapter": "第7章 其他方剂类别",
+    "type": "conceptual",
+    "description": "教材将治痈疡剂分为散结消痈、托里透脓、补虚敛疮，仙方活命饮、透脓散、内补黄芪汤分别列在相关小节。分类体现传统病程与方义的不同侧重，不可按一个皮肤表现直接选方。",
+    "mastery_criteria": [
+      "能列举治痈疡剂的三类分支。",
+      "能正确配对代表方及教材目录。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "方剂学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "book": "tcm_formula6_2026",
+      "volume": "方剂学",
+      "chapter": "下篇 各论 第二十一章 治痈疡剂",
+      "section": "第一节 散结消痈剂；第二节 托里透脓剂；第三节 补虚敛疮剂",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "其他方剂类别",
+      "point": "治痈疡剂的三个目录分支"
+    },
+    "curriculum_scope": {
+      "course": "方剂学",
+      "unit": "其他方剂类别",
+      "point": "治痈疡剂的三个目录分支",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】透脓散在该教材目录中属于哪类？",
+      "answer": "托里透脓剂"
+    }
+  },
+  {
+    "id": "tcm_meridians_001",
+    "name": "经络学说的理论对象与证据边界",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "经络理论基础",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第1章 经络理论基础",
+    "type": "conceptual",
+    "description": "经络学说以经脉、络脉及相关联系组织传统知识，教材讨论联络、运行气血等理论作用。经络图表达的是中医理论关系，不能仅凭图线就认定存在同形同名的血管、神经或其他解剖结构。",
+    "mastery_criteria": [
+      "能说明经络图是传统理论关系表达。",
+      "能区分经络理论与具体解剖、实验发现。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第四节 经络的作用和经络学说的临床应用",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络理论基础",
+      "point": "经络学说的理论对象与证据边界"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "经络理论基础",
+      "point": "经络学说的理论对象与证据边界",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】在本课程知识图谱中，经络连线首先应被标识为什么？",
+      "answer": "中医理论中的经络关系"
+    }
+  },
+  {
+    "id": "tcm_meridians_002",
+    "name": "经络系统的层次：经脉、络脉及相关部分",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "经络理论基础",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第1章 经络理论基础",
+    "type": "conceptual",
+    "description": "教材列十二经脉、奇经八脉、十二经别、十五络脉、十二经筋、十二皮部等组成。它们分别组织主干、支别及相关肌筋皮部等传统联系，不应把所有名称当作同一级别的经脉。",
+    "mastery_criteria": [
+      "能识别经络系统中的不同组成类别。",
+      "能区分十二经脉与经别经筋皮部等术语。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第二节 经络系统的组成",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "经络理论基础",
+      "point": "经络系统的层次：经脉、络脉及相关部分"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "经络理论基础",
+      "point": "经络系统的层次：经脉、络脉及相关部分",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪一项与十二经脉同属教材所列经络系统组成？",
+      "answer": "十二经别"
+    }
+  },
+  {
+    "id": "tcm_meridians_003",
+    "name": "十二经脉名称中的手足、阴阳与脏腑",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "十二经脉与奇经",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第2章 十二经脉与奇经",
+    "type": "conceptual",
+    "description": "十二经脉名称组合手足、三阴三阳和脏腑等信息，如手太阴肺经、手阳明大肠经。各字段共同确定传统经脉名称，不能只取一个脏腑字或一项阴阳属性就视作完整名称。",
+    "mastery_criteria": [
+      "能拆分经脉名称中的各项信息。",
+      "能识别手足和阴阳分类的常见混淆。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第二节 经络系统的组成：十二经脉",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉名称中的手足、阴阳与脏腑"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉名称中的手足、阴阳与脏腑",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】下列哪一个是标准的十二经脉名称？",
+      "answer": "手少阳三焦经"
+    }
+  },
+  {
+    "id": "tcm_meridians_004",
+    "name": "十二经脉的传统走向规律",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "十二经脉与奇经",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第2章 十二经脉与奇经",
+    "type": "conceptual",
+    "description": "教材中的概括规律为：手三阴从胸走手，手三阳从手走头，足三阳从头走足，足三阴从足走腹胸。这里的走向是经脉学说的循行表述，不是对所有血流或神经信号方向的描述。",
+    "mastery_criteria": [
+      "能区分手足阴阳四组的走向。",
+      "能保留经脉循行与现代生理方向的不同语境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第二节 经络系统的组成：十二经脉",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉的传统走向规律"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉的传统走向规律",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】手三阳经的传统走向概括是什么？",
+      "answer": "从手走头"
+    }
+  },
+  {
+    "id": "tcm_meridians_005",
+    "name": "十二经脉的表里配对",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "十二经脉与奇经",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第2章 十二经脉与奇经",
+    "type": "conceptual",
+    "description": "十二经脉的表里联系包括肺与大肠、脾与胃、心与小肠、肾与膀胱、心包与三焦、肝与胆。表里配对是传统联系规则，区别于五行相生相克，也不等同解剖器官的直接相连。",
+    "mastery_criteria": [
+      "能辨认六组经脉表里配对。",
+      "能区分经脉表里关系与五行生克关系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第二节 经络系统的组成：十二经脉",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉的表里配对"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "十二经脉与奇经",
+      "point": "十二经脉的表里配对",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】足太阴脾经的表里经是哪一条？",
+      "answer": "足阳明胃经"
+    }
+  },
+  {
+    "id": "tcm_meridians_006",
+    "name": "奇经八脉与十二经脉的区别",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "十二经脉与奇经",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第2章 十二经脉与奇经",
+    "type": "conceptual",
+    "description": "奇经八脉为督、任、冲、带、阴跷、阳跷、阴维、阳维，教材讨论其与十二经脉的联系和调节等传统作用。奇经并不照搬十二经脉的手足三阴三阳及六组表里规则。",
+    "mastery_criteria": [
+      "能辨认奇经八脉的名称。",
+      "能区分奇经与十二经脉的分类规则。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第一章 经络总论",
+      "section": "第二节 经络系统的组成：奇经八脉",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "十二经脉与奇经",
+      "point": "奇经八脉与十二经脉的区别"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "十二经脉与奇经",
+      "point": "奇经八脉与十二经脉的区别",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以下哪组名称都属于奇经八脉？",
+      "answer": "任脉、督脉、冲脉、带脉"
+    }
+  },
+  {
+    "id": "tcm_meridians_007",
+    "name": "经穴、经外奇穴与阿是穴",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "腧穴基本概念",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第3章 腧穴基本概念",
+    "type": "conceptual",
+    "description": "教材把腧穴分为经穴、经外奇穴和阿是穴等。经穴有所属经脉及规范名称，奇穴有特定名称和位置但不列入十四经穴系统，阿是穴以压痛或其他反应等确定，通常无固定名称与固定位置。此处仅作分类学习。",
+    "mastery_criteria": [
+      "能区分三类腧穴的分类依据。",
+      "能说明十四经穴体系与十二正经并非同一计数。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第一节 腧穴的分类和命名：分类",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "腧穴基本概念",
+      "point": "经穴、经外奇穴与阿是穴"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "腧穴基本概念",
+      "point": "经穴、经外奇穴与阿是穴",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】以压痛或其他反应等确定、通常无固定名称位置的穴，属于哪类？",
+      "answer": "阿是穴"
+    }
+  },
+  {
+    "id": "tcm_meridians_008",
+    "name": "腧穴名称与经属的分别记录",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "腧穴基本概念",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第3章 腧穴基本概念",
+    "type": "conceptual",
+    "description": "腧穴名称、所属经脉和定位描述是不同字段。教材目录把合谷列于手阳明大肠经、列缺列于手太阴肺经；保留经属有助于防止把同一区域的穴位或相似名称混为一类。",
+    "mastery_criteria": [
+      "能分别记录腧穴名称和所属经脉。",
+      "能识别合谷、列缺的目录归属。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论；第三章 经络腧穴各论",
+      "section": "腧穴命名；手太阴肺经及其腧穴；手阳明大肠经及其腧穴",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "腧穴基本概念",
+      "point": "腧穴名称与经属的分别记录"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "腧穴基本概念",
+      "point": "腧穴名称与经属的分别记录",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】合谷在本教材目录中属于哪条经脉的腧穴？",
+      "answer": "手阳明大肠经"
+    }
+  },
+  {
+    "id": "tcm_meridians_009",
+    "name": "腧穴主治特点的分类语境",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "腧穴基本概念",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第3章 腧穴基本概念",
+    "type": "conceptual",
+    "description": "教材从近治、远治和特殊作用等角度讨论腧穴主治特点。这些是针灸学的传统组织方式，某一腧穴可有多种教材联系；分类本身不等于对所有现代疾病建立统一疗效保证。",
+    "mastery_criteria": [
+      "能区分近治和远治的分类角度。",
+      "能将传统主治描述与现代疗效证据分开。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第二节 腧穴的主治特点和规律",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "腧穴基本概念",
+      "point": "腧穴主治特点的分类语境"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "腧穴基本概念",
+      "point": "腧穴主治特点的分类语境",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】与腧穴所在局部及邻近区域相关的传统主治分类，通常称什么？",
+      "answer": "近治作用"
+    }
+  },
+  {
+    "id": "tcm_meridians_010",
+    "name": "五输穴的分布与次序",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "特定穴与定位原理",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第4章 特定穴与定位原理",
+    "type": "conceptual",
+    "description": "五输穴为井、荥、输、经、合，主要分布在十二经脉的肘膝关节附近及其远端，传统次序从肢端向肘膝排列。五输属于特定穴分类，不能把所有腧穴都称为五输穴。",
+    "mastery_criteria": [
+      "能准确列出五输穴次序。",
+      "能说明五输穴的总体分布范围。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第三节 特定穴：五输穴",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "特定穴与定位原理",
+      "point": "五输穴的分布与次序"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "特定穴与定位原理",
+      "point": "五输穴的分布与次序",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】五输穴总体位于哪一范围？",
+      "answer": "十二经脉肘膝附近及其远端"
+    }
+  },
+  {
+    "id": "tcm_meridians_011",
+    "name": "原穴与络穴的概念区别",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "特定穴与定位原理",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第4章 特定穴与定位原理",
+    "type": "conceptual",
+    "description": "原穴在传统理论中与脏腑原气留止相关；络穴与络脉从经脉分出及相应联系有关。原穴、络穴是不同特定穴类别，不应因常在配伍学习中并列就视为同一概念。",
+    "mastery_criteria": [
+      "能区分原穴与络穴的传统定义。",
+      "能避免将配伍联系误作概念同一。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第三节 特定穴：原穴、络穴",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "特定穴与定位原理",
+      "point": "原穴与络穴的概念区别"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "特定穴与定位原理",
+      "point": "原穴与络穴的概念区别",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】与络脉从经脉分出相关的特定穴类别是什么？",
+      "answer": "络穴"
+    }
+  },
+  {
+    "id": "tcm_meridians_012",
+    "name": "背俞穴与募穴的传统配属",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "特定穴与定位原理",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第4章 特定穴与定位原理",
+    "type": "conceptual",
+    "description": "背俞穴是脏腑之气输注于背部的相关特定穴；募穴是脏腑之气汇聚于胸腹部的相关特定穴。二者是不同体表区域与传统脏腑联系的分类，不是解剖器官的直接体表复制。",
+    "mastery_criteria": [
+      "能比较背俞与募穴的总体区域。",
+      "能说明两类与脏腑联系的传统语境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第三节 特定穴：背俞穴、募穴",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "特定穴与定位原理",
+      "point": "背俞穴与募穴的传统配属"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "特定穴与定位原理",
+      "point": "背俞穴与募穴的传统配属",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】背俞穴与募穴的总体区域依次是什么？",
+      "answer": "背部与胸腹部"
+    }
+  },
+  {
+    "id": "tcm_meridians_013",
+    "name": "八会穴与八脉交会穴的区分",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "特定穴与定位原理",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第4章 特定穴与定位原理",
+    "type": "conceptual",
+    "description": "八会穴围绕脏、腑、气、血、筋、脉、骨、髓八类传统对象组织；八脉交会穴则讨论十二经脉与奇经八脉相通的特定穴。两类名称都有“八”，但分类依据不同，不能按数字同名合并。",
+    "mastery_criteria": [
+      "能列出八会穴对应的八类对象。",
+      "能区分八会与八脉交会的分类依据。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第三节 特定穴：八会穴、八脉交会穴",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "特定穴与定位原理",
+      "point": "八会穴与八脉交会穴的区分"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "特定穴与定位原理",
+      "point": "八会穴与八脉交会穴的区分",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "traditional_tcm_theory",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】脏、腑、气、血、筋、脉、骨、髓对应哪一类特定穴的组织对象？",
+      "answer": "八会穴"
+    }
+  },
+  {
+    "id": "tcm_meridians_014",
+    "name": "腧穴定位方法的原理与尺度",
+    "subject": "tcm",
+    "module": "meridians",
+    "domain": "特定穴与定位原理",
+    "grade": 34,
+    "semester": "全",
+    "chapter": "第4章 特定穴与定位原理",
+    "type": "conceptual",
+    "description": "教材介绍体表解剖标志、骨度折量、指寸和简便定位等方法。骨度折量中的“寸”属于以身体分段为参照的比例尺度，不能机械替换为固定厘米；此处只学习方法原理，不提供穴位定位或针刺操作步骤。",
+    "mastery_criteria": [
+      "能辨认教材所列定位方法类别。",
+      "能解释比例尺度与固定长度单位的区别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "title": "针灸学（第6版）",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "book": "tcm_acupuncture6_2026",
+      "volume": "针灸学基础",
+      "chapter": "上篇 经络腧穴 第二章 腧穴总论",
+      "section": "第四节 腧穴的定位方法",
+      "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+    },
+    "exam_scope": {
+      "unit": "特定穴与定位原理",
+      "point": "腧穴定位方法的原理与尺度"
+    },
+    "curriculum_scope": {
+      "course": "针灸学基础",
+      "unit": "特定穴与定位原理",
+      "point": "腧穴定位方法的原理与尺度",
+      "purpose": "本科核心概念课程学习",
+      "coverage_level": "核心知识子集，非整本教材逐条覆盖"
+    },
+    "curriculum_level": "本科中医学基础课程",
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/medical-tcm-peer-review.json",
+    "epistemic_status": "educational_method_in_tcm_context",
+    "clinical_use": "课程知识测评，不提供个人诊断、处方或操作指导",
+    "diagnostic_question": {
+      "question": "【课程知识测评】骨度折量中的“寸”应如何理解？",
+      "answer": "以身体分段为参照的比例尺度"
+    }
+  }
+]

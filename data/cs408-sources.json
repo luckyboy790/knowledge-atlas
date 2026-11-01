@@ -1,0 +1,2131 @@
+{
+  "subject": "cs408",
+  "checked_date": "2026-10-30",
+  "schema_version": 1,
+  "official_outline": {
+    "id": "cs408_outline_2027",
+    "title": "2027年全国硕士研究生招生考试计算机学科专业基础考试大纲",
+    "author": "教育部教育考试院",
+    "publisher": "高等教育出版社",
+    "publication_date": "2026-09-29",
+    "isbn": "9787040684513",
+    "source_url": "https://www.hep.com.cn/book/show/2099763850751057921",
+    "secondary_official_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=6aa97a0be119ac9729dd09ea",
+    "verification": "已核实官方出版日期、作者、ISBN；2026-10-30在出版社页面点击样章试读，提示该书暂无样章。未取得并逐条阅读2027大纲全文。",
+    "full_text_verified": false
+  },
+  "coverage_reference": {
+    "id": "cs408_hep_analysis_2025",
+    "title": "全国硕士研究生招生考试计算机学科专业基础考试大纲解析",
+    "author": "本书编写组",
+    "publisher": "高等教育出版社",
+    "isbn": "9787040657791",
+    "publication_date": "2025-10-15",
+    "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc",
+    "verification": "已读取出版社公开目录，用于公开目录四门课程共24章的主题范围交叉检查。这是2025年出版的解析书，不是2027官方大纲全文。"
+  },
+  "reference_policy": "核实到教育部教育考试院的官方考试大纲，未查到全国统一指定四本参考教材的官方名单。所选教材以出版社可查实的新版为准；版次与重印时间分开记录。",
+  "books": [
+    {
+      "id": "cs408_ds_yan2",
+      "title": "数据结构（C语言版·第2版）",
+      "authors": [
+        "严蔚敏",
+        "吴伟民"
+      ],
+      "publisher": "清华大学出版社",
+      "edition": "第2版",
+      "isbn": "9787302703396",
+      "publication_date": "2025-10-01",
+      "observed_printing": "2-4",
+      "observed_printing_date": "2026-07-27",
+      "source_url": "https://www.tup.com.cn/bookscenter/book_10848801.html",
+      "catalog_url": "https://www.tup.com.cn/bookscenter/bookcatalog?id=10848801",
+      "preface_url": "https://www.tup.com.cn/bookscenter/bookpreface?id=10848801",
+      "verification": "已读取出版社详情、完整目录与新版前言，确认新版本及堆、并查集、红黑树、B+树等对应章节；未逐页读取教材全文。",
+      "role": "出版社核验的课程参考教材；不标为全国统考统一指定教材。"
+    },
+    {
+      "id": "cs408_co_yuan3",
+      "title": "计算机组成与系统结构（第3版）",
+      "authors": [
+        "袁春风",
+        "唐杰",
+        "杨若瑜",
+        "李俊"
+      ],
+      "edition": 3,
+      "isbn": "9787302599883",
+      "publisher": "清华大学出版社",
+      "publication_date": "2022-05-01",
+      "listed_printing": "3-14",
+      "listed_printing_date": "2026-08-13",
+      "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+      "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+      "role": "计算机组成原理主参考",
+      "verification": "截至2026-10-30，出版社官网列示第3版及2026-08-13第14次印刷；完整9章目录已读取。没有将印次当作新版本，未声称逐页读取全书。",
+      "officially_prescribed_for_national_408": false
+    },
+    {
+      "id": "cs408_co_tang3",
+      "title": "计算机组成原理（第3版）",
+      "authors": [
+        "唐朔飞"
+      ],
+      "edition": 3,
+      "isbn": "9787040545180",
+      "publisher": "高等教育出版社",
+      "publication_date": "2020",
+      "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=5efe17d8b0b2bda7c523cc43",
+      "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=5efe17d8b0b2bda7c523cc43",
+      "role": "总线、CPU及传统术语补充参考",
+      "verification": "高教社2026春教材展仍列第3版，官方完整10章目录已读取。官方检索页与移动页对出版月份显示不一致，因此只记录2020年；不推断2026最新印次。",
+      "current_catalogue_url": "https://xuanshu.hep.com.cn/front/bookFair/findBookFairDetails?onlineBookFairId=68ede9e2e4b0409c268234c7",
+      "officially_prescribed_for_national_408": false
+    },
+    {
+      "id": "cs408_os_tang_mooc2",
+      "title": "计算机操作系统（慕课版 第2版）",
+      "authors": [
+        "汤小丹",
+        "王红玲",
+        "姜华",
+        "汤子瀛"
+      ],
+      "edition": "慕课版 第2版",
+      "isbn": "9787115686572",
+      "publication_date": "2025-12-01",
+      "publisher": "人民邮电出版社",
+      "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+      "catalog_url": "https://www.ryjiaoyu.com/book/details/56152",
+      "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。",
+      "role": "出版社核验的课程参考教材；不标为全国统考统一指定教材。"
+    },
+    {
+      "id": "cs408_cn_xie9",
+      "title": "计算机网络（第9版）",
+      "authors": [
+        "谢希仁",
+        "谢钧",
+        "邢长友"
+      ],
+      "edition": "第9版",
+      "isbn": "9787121527852",
+      "publication_date": "2026-06",
+      "publisher": "电子工业出版社",
+      "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+      "catalog_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+      "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。",
+      "role": "出版社核验的课程参考教材；不标为全国统考统一指定教材。",
+      "note": "第9版及2026修订内容已由出版社前言确认；ISBN另由高校教材公示交叉核对。2026-06月份来自一致公开书目，出版社书页直接读取超时，未直接复读其月份字段。"
+    },
+    {
+      "id": "cs408_cn_ftp_rfc959",
+      "title": "RFC 959 · File Transfer Protocol（408补充）",
+      "authors": [
+        "J. Postel",
+        "J. Reynolds"
+      ],
+      "edition": "RFC 959 / STD 9",
+      "isbn": null,
+      "publication_date": "1985-10",
+      "publisher": "RFC Editor / IETF",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc959",
+      "catalog_url": "https://www.rfc-editor.org/rfc/rfc959",
+      "reference_role": "协议一手补充，不属于主教材",
+      "verification": "用于补充408文件传输协议知识；第9版教材已删除FTP专题，未把本协议文档称作2026新版教材或未更新过的最新FTP规范。",
+      "role": "公开协议标准，补充教材未覆盖的408核心主题。"
+    }
+  ],
+  "module_sources": [
+    {
+      "checked_date": "2026-10-30",
+      "subject": "cs408",
+      "module": "ds",
+      "books": [
+        {
+          "id": "cs408_ds_yan2",
+          "title": "数据结构（C语言版·第2版）",
+          "authors": [
+            "严蔚敏",
+            "吴伟民"
+          ],
+          "publisher": "清华大学出版社",
+          "edition": "第2版",
+          "isbn": "9787302703396",
+          "publication_date": "2025-10-01",
+          "observed_printing": "2-4",
+          "observed_printing_date": "2026-07-27",
+          "source_url": "https://www.tup.com.cn/bookscenter/book_10848801.html",
+          "catalog_url": "https://www.tup.com.cn/bookscenter/bookcatalog?id=10848801",
+          "preface_url": "https://www.tup.com.cn/bookscenter/bookpreface?id=10848801",
+          "verification": "已读取出版社详情、完整目录与新版前言，确认新版本及堆、并查集、红黑树、B+树等对应章节；未逐页读取教材全文。"
+        }
+      ],
+      "reference_policy": "使用考试机构发布的大纲确定考试方向、使用出版社可核验新版教材组织知识；该教材是选用参考教材，不标为教育部统一指定教材。",
+      "exam_outline": {
+        "title": "2027年全国硕士研究生招生考试计算机学科专业基础考试大纲",
+        "author": "教育部教育考试院",
+        "publisher": "高等教育出版社",
+        "publication_date": "2026-09",
+        "isbn": "9787040684513",
+        "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=6aa97a0be119ac9729dd09ea",
+        "verification": "已核实官方出版元数据，未取得官方2027全文，不能宣称逐条核对2027全部考点。"
+      },
+      "coverage_basis": "按408数据结构通行的七个学习单元组织，并用出版社新版目录及高教社公开大纲解析目录交叉对应；详细映射见coverage.json。",
+      "supporting_sources": [
+        {
+          "title": "高教社《全国硕士研究生招生考试计算机学科专业基础考试大纲解析》公开目录",
+          "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc",
+          "note": "2025年10月出版、ISBN9787040657791的公开目录；作为最新可核验的大纲解析结构交叉依据，不等同2027大纲全文。"
+        }
+      ],
+      "limits": [
+        "未据出版社书名推定存在全国统一指定参考书单。",
+        "没有复制教材原题；两题一个节点只是基础诊断，不是完整算法设计能力评测。",
+        "没有逐页核验教材最新印次全部文字。",
+        "2027大纲全文未取得，实际报考以考试机构和招生单位最新文件为准。"
+      ]
+    },
+    {
+      "checked_date": "2026-10-30",
+      "module": "co",
+      "scope": "408计算机组成原理核心学习范围，73个原创知识节点和146道原创诊断题；不声称逐题覆盖考试或逐页覆盖参考教材。",
+      "books": [
+        {
+          "id": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "authors": [
+            "袁春风",
+            "唐杰",
+            "杨若瑜",
+            "李俊"
+          ],
+          "edition": 3,
+          "isbn": "9787302599883",
+          "publisher": "清华大学出版社",
+          "publication_date": "2022-05-01",
+          "listed_printing": "3-14",
+          "listed_printing_date": "2026-08-13",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "role": "计算机组成原理主参考",
+          "verification": "截至2026-10-30，出版社官网列示第3版及2026-08-13第14次印刷；完整9章目录已读取。没有将印次当作新版本，未声称逐页读取全书。",
+          "officially_prescribed_for_national_408": false
+        },
+        {
+          "id": "cs408_co_tang3",
+          "title": "计算机组成原理（第3版）",
+          "authors": [
+            "唐朔飞"
+          ],
+          "edition": 3,
+          "isbn": "9787040545180",
+          "publisher": "高等教育出版社",
+          "publication_date": "2020",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=5efe17d8b0b2bda7c523cc43",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=5efe17d8b0b2bda7c523cc43",
+          "role": "总线、CPU及传统术语补充参考",
+          "verification": "高教社2026春教材展仍列第3版，官方完整10章目录已读取。官方检索页与移动页对出版月份显示不一致，因此只记录2020年；不推断2026最新印次。",
+          "current_catalogue_url": "https://xuanshu.hep.com.cn/front/bookFair/findBookFairDetails?onlineBookFairId=68ede9e2e4b0409c268234c7",
+          "officially_prescribed_for_national_408": false
+        }
+      ],
+      "topics": {
+        "cs408_co_001": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.2–1.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_002": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.2.1；1.4.3–1.4.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_003": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.4.1–1.4.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_004": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.5.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_005": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.5.1–1.5.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_006": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.5.1–1.5.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_007": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第1章 计算机系统概述",
+          "section": "1.5.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_008": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.1.1–2.1.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_009": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.2.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_010": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.1.4；2.2.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_011": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.2；2.5.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_012": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.3.1；3.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_013": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.3；3.4.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_014": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.2.3；3.1.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_015": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.5.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_016": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.3.1–2.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_017": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.3.2–2.3.4；3.5.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_018": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.5.1–3.5.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_019": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.2.1–3.2.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_020": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.2.3；4.2.6",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_021": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.3.3–3.3.4；3.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_022": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第3章 运算方法和运算部件",
+          "section": "3.3.6–3.3.7；3.4.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_023": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.4.1–7.4.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_024": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.1.1–7.1.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_025": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.2.1–7.2.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_026": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.1.1；7.3.5–7.3.6",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_027": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.2.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_028": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.2.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_029": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.2.2–7.2.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_030": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.2.6",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_031": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.3.1–7.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_032": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.3.5–7.3.6",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_033": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_034": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.1–7.5.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_035": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_036": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_037": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_038": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_039": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.5.6",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_040": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.6.1–7.6.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_041": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.6.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_042": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.1.1–4.1.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_043": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.2.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_044": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.2.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_045": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.2.3；4.3.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_046": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.3.1–4.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_047": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.3.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_048": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.2.7",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_049": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.1.1–5.1.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_050": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.1.3；5.3.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_051": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.1.3；5.2.1–5.2.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_052": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.2.4；5.3.1–5.3.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_053": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.2.3；5.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_054": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.3.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_055": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第4章 指令系统",
+          "section": "4.2.8；5.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_056": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_057": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第5章 中央处理器",
+          "section": "5.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_058": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第6章 指令流水线",
+          "section": "6.1.1–6.2.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_059": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第6章 指令流水线",
+          "section": "6.3.1–6.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_060": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第6章 指令流水线",
+          "section": "6.4.1–6.4.2；9.1.2；9.2.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_061": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第9章 并行处理系统",
+          "section": "9.2.1–9.2.4；7.5.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_062": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.1–8.3.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_063": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.1–8.3.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_064": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_065": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_066": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.3–8.3.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_067": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.3.5",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_068": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.4.1",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_069": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.4.2",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_070": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第8章 系统互连及输入输出组织",
+          "section": "8.4.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_071": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.1.4",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_072": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第2章 数据的机器级表示",
+          "section": "2.1.3–2.1.4；2.3.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        },
+        "cs408_co_073": {
+          "book": "cs408_co_yuan3",
+          "title": "计算机组成与系统结构（第3版）",
+          "volume": "计算机组成原理",
+          "chapter": "第7章 存储器层次结构",
+          "section": "7.4.3",
+          "source_url": "https://www.tup.com.cn/booksCenter/book_08856101.html",
+          "catalog_url": "https://www.tup.com.cn/booksCenter/bookcatalog?id=08856101",
+          "verification": "出版社官方核实第3版、ISBN、目录及列示印次；知识与题目为原创归纳，未逐页核验最新印次全文；不是全国408统考统一指定教材声明。"
+        }
+      },
+      "version_boundary": "采用出版社当前可核实版次与目录，区分出版日期和印次日期；不将常用参考教材称为全国统考官方指定。",
+      "exam_outline_boundary": "最新考试大纲的官方书目信息与本图谱知识范围映射由总项目另行记录；本模块不声称独立取得2027官方大纲全文逐条对照。",
+      "verification_limits": [
+        "未逐页核验最新印次全书。",
+        "节点与先修关系为学习辅助设计，不是官方强制学习顺序。",
+        "两题/节点为基础诊断，不等于覆盖该知识全部综合应用题型。",
+        "待独立复核，未经学科教师审核。"
+      ]
+    },
+    {
+      "module": "os",
+      "checked_date": "2026-10-30",
+      "books": [
+        {
+          "id": "cs408_os_tang_mooc2",
+          "title": "计算机操作系统（慕课版 第2版）",
+          "authors": [
+            "汤小丹",
+            "王红玲",
+            "姜华",
+            "汤子瀛"
+          ],
+          "edition": "慕课版 第2版",
+          "isbn": "9787115686572",
+          "publication_date": "2025-12-01",
+          "publisher": "人民邮电出版社",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "catalog_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        }
+      ],
+      "references": [
+        {
+          "id": "os_supp_hrrn_ucdavis",
+          "title": "UC Davis ECS 150: Process Scheduling Algorithms",
+          "author": "Matt Bishop",
+          "url": "https://nob.cs.ucdavis.edu/classes/ecs150-2022-02/handouts/sched1.html",
+          "publication_date": "2022-04-17",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn108view0",
+          "verification": "大学教师公开课程资料的HRRN部分核实响应比计算与选择规则；仅作算法补充，不作为新版中国考研指定教材。"
+        },
+        {
+          "id": "os_supp_affinity",
+          "title": "Linux man-pages: sched_setaffinity(2)",
+          "url": "https://man7.org/linux/man-pages/man2/sched_setaffinity.2.html",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn108view1",
+          "verification": "接口原始文档核实CPU亲和性集合限定可运行CPU，以及跨CPU迁移与缓存开销的关系。"
+        },
+        {
+          "id": "os_supp_mmap",
+          "title": "Linux man-pages: mmap(2)",
+          "url": "https://man7.org/linux/man-pages/man2/mmap.2.html",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn103view0",
+          "verification": "接口原始文档核实映射读写权限、MAP_SHARED以及MAP_PRIVATE的写时复制与不回写原文件语义；不代替教材全文。"
+        },
+        {
+          "id": "os_supp_mke2fs",
+          "title": "e2fsprogs: mke2fs(8)",
+          "url": "https://www.man7.org/linux/man-pages/man8/mke2fs.8.html",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn104view0",
+          "verification": "软件项目原始手册核实在分区中创建文件系统、检查坏块并读取坏块列表的功能；不提供任何实际磁盘操作指令。"
+        },
+        {
+          "id": "os_supp_badblocks",
+          "title": "e2fsprogs: badblocks(8)",
+          "url": "https://www.man7.org/linux/man-pages/man8/badblocks.8.html",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn104view1",
+          "verification": "软件项目原始手册核实坏块检测和已知坏块列表；用作坏块管理概念补充。"
+        },
+        {
+          "id": "os_supp_pipe",
+          "title": "Linux man-pages: pipe(7)",
+          "url": "https://man7.org/linux/man-pages/man7/pipe.7.html",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn101view0",
+          "verification": "核实缓冲满且读端仍打开时的阻塞，以及所有读端关闭时SIGPIPE/EPIPE这一不同边界。"
+        }
+      ],
+      "topics": [
+        {
+          "topicId": "cs408_os_001",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.1 操作系统的目标和作用；1.3 操作系统的基本特性",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_002",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.2 操作系统的发展过程",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_003",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.4.2 操作系统内核；1.4.3 处理机的双重工作模式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_004",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.4.4 中断与异常",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_005",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.7 系统调用",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_006",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.6 操作系统的结构",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_007",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第1章 操作系统引论",
+          "section": "1.4.5 生成与引导",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_008",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第11章 虚拟化和云计算",
+          "section": "11.1 虚拟化的基本概念；11.2.1 虚拟机监视器；11.4 容器技术",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_009",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第2章 进程的描述与控制",
+          "section": "2.2 进程的描述",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_010",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第2章 进程的描述与控制",
+          "section": "2.2.2 进程的基本状态与转换；2.2.3 挂起操作",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_011",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第2章 进程的描述与控制",
+          "section": "2.3 进程控制",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_012",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第2章 进程的描述与控制",
+          "section": "2.4 进程通信",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_013",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第2章 进程的描述与控制",
+          "section": "2.5 线程的概念；2.6 线程的实现",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_014",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.1 处理机调度概述",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_015",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.2.1 先来先服务；3.2.2 短作业优先",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_016",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.2.3 优先级调度；3.2.4 轮转调度",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_017",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.2.5 多级队列；3.2.6 多级反馈队列",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_018",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.1.3 进程调度",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_019",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.1 进程同步的基本概念",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_020",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.2.1 软件同步机制",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_021",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.2.2 硬件同步机制；4.2.3 锁机制",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_022",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.2.4 信号量机制",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_023",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.3.1 生产者-消费者问题",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_024",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.3.3 读者-写者问题",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_025",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.3.2 哲学家进餐问题",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_026",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.2.5 管程机制",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_027",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.5.1 死锁概述",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_028",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.5.2 死锁预防；4.5.3 死锁避免",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_029",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.5.3 死锁避免",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_030",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第4章 进程同步与死锁",
+          "section": "4.5.4 死锁的检测与解除",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_031",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.2 程序的装入与链接",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_032",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.4 连续分配存储管理方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_033",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.5.1 分页基本方法；5.5.2 地址变换机构",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_034",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.5.3 引入快表后的内存有效访问时间",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_035",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.5.4 两级页表和多级页表；5.5.5 反置页表",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_036",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.6 分段存储管理方式；5.7 段页式存储管理方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_037",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.1 虚拟存储器概述",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_038",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.2 请求分页存储管理方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_039",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.3.1 最佳页面置换和先进先出置换",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_040",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.3.2 最近最久未使用；6.3.3 Clock页面置换",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_041",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.2.2 内存分配与回收；6.4 抖动与工作集",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_042",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第6章 虚拟存储器",
+          "section": "6.5 内存映射文件（公开目录未单列写时复制小节）",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。 公开目录只确认6.5内存映射文件；写时复制机制补充依据Linux mmap原始接口文档，未把“请求分页相关专题”当作教材目录标题。"
+        },
+        {
+          "topicId": "cs408_os_043",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.1 文件和文件系统",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_044",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.2 文件的逻辑结构",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_045",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.3 文件目录",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_046",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.4 文件共享",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_047",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.5 文件保护",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_048",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第9章 磁盘存储器管理",
+          "section": "9.1 外存的组织方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_049",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第9章 磁盘存储器管理",
+          "section": "9.1.3 索引组织方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_050",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第9章 磁盘存储器管理",
+          "section": "9.2 文件存储空间的管理",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_051",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.6 文件系统的实现；8.7.1 虚拟文件系统",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_052",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.1 I/O系统的功能、模型与接口；7.2 I/O设备和设备控制器",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_053",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.2.5 I/O设备的控制方式",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_054",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.3 中断处理；7.4 设备驱动程序；7.5 与设备无关的I/O软件",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_055",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.5.3 设备分配与回收；7.6.2 假脱机系统",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_056",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.7 缓冲区管理",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_057",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.8.1 磁盘性能概述",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_058",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.8.2 早期磁盘调度；7.8.3 基于扫描的磁盘调度",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_059",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第9章 磁盘存储器管理",
+          "section": "9.5.3 固态硬盘",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_060",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第7章 输入/输出系统",
+          "section": "7.1.3 I/O系统接口；7.6.1 系统调用与库函数",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_061",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.2 调度算法；3.2.3 优先级调度算法（公开目录未单列高响应比优先小节）",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。 高响应比优先作为动态优先级补充主题定位到已核实的3.2/3.2.3；未声称读到本书单列小节或页码，公式另经大学一手课程资料核实。"
+        },
+        {
+          "topicId": "cs408_os_062",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第3章 处理机调度",
+          "section": "3.3 多处理机调度；3.3.2 负载均衡；3.3.3 处理机亲和性",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_063",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.3 交换；5.3.1 多道程序环境下的交换技术；5.3.3 进程的换出与换入",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_064",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第5章 存储器管理",
+          "section": "5.2.1 地址绑定和内存保护；5.5.2 地址变换机构；5.6.3 信息共享",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。"
+        },
+        {
+          "topicId": "cs408_os_065",
+          "book": "cs408_os_tang_mooc2",
+          "chapter": "第8章 文件管理",
+          "section": "8.6.1 实现原则；8.6.2 磁盘分区（初始化与坏块管理为相关补充主题，公开目录未单列其小节）",
+          "source_url": "https://www.ryjiaoyu.com/book/details/56152",
+          "verification": "出版社官方书页明确上市销售；已核实版次、ISBN、日期及详细章节目次，未逐页读取全书。选择此已核实新版本，不把西电第五版预告当作已完成阅读的教材。 公开教材目录确认8.6.1/8.6.2，未单列低级格式化或坏块管理；坏块列表与创建文件系统的细节另以软件项目原始手册核实，不虚填正文小节或页码。"
+        }
+      ],
+      "official_status_note": "参考教材版本来自出版社官方信息；未发现全国统考指定这一本教材的充分证据，不将其标为教育部或教育考试院统一指定用书。",
+      "latest_exam_boundary": "2027考试大纲的详细条文尚未全文逐项核验，采用已确认的四科范围及公开考试框架构建，并保留后续核对标记。",
+      "supporting_sources": [
+        {
+          "title": "全国硕士研究生招生考试计算机学科专业基础考试大纲解析（高教社公开目录）",
+          "author": "本书编写组",
+          "isbn": "9787040657791",
+          "publication_date": "2025-10",
+          "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc",
+          "accessed_date": "2026-10-30",
+          "retrieval_ref": "turn98view0",
+          "verification": "核对操作系统五个学习单元的公开结构；本书为大纲解析，不等于2027考试大纲全文。"
+        }
+      ],
+      "reference_policy": "以已核实新版教材目录定位学习主题；目录未单列的HRRN、写时复制、初始化及坏块细节采用明确标注的大学或项目一手补充资料。未把选用参考教材称为全国统考统一指定教材。"
+    },
+    {
+      "module": "cn",
+      "checked_date": "2026-10-30",
+      "books": [
+        {
+          "id": "cs408_cn_xie9",
+          "title": "计算机网络（第9版）",
+          "authors": [
+            "谢希仁",
+            "谢钧",
+            "邢长友"
+          ],
+          "edition": "第9版",
+          "isbn": "9787121527852",
+          "publication_date": "2026-06",
+          "publisher": "电子工业出版社",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "catalog_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "id": "cs408_cn_ftp_rfc959",
+          "title": "RFC 959 · File Transfer Protocol（408补充）",
+          "authors": [
+            "J. Postel",
+            "J. Reynolds"
+          ],
+          "edition": "RFC 959 / STD 9",
+          "isbn": null,
+          "publication_date": "1985-10",
+          "publisher": "RFC Editor / IETF",
+          "source_url": "https://www.rfc-editor.org/rfc/rfc959",
+          "catalog_url": "https://www.rfc-editor.org/rfc/rfc959",
+          "reference_role": "协议一手补充，不属于主教材",
+          "verification": "用于补充408文件传输协议知识；第9版教材已删除FTP专题，未把本协议文档称作2026新版教材或未更新过的最新FTP规范。"
+        }
+      ],
+      "references": [
+        {
+          "title": "RFC 2131：DHCP",
+          "url": "https://www.rfc-editor.org/rfc/rfc2131",
+          "verification": "核对DHCPv4分配流程和客户端/服务器角色。"
+        },
+        {
+          "title": "RFC 8200：IPv6规范",
+          "url": "https://www.rfc-editor.org/rfc/rfc8200",
+          "verification": "核对IPv6基本首部与分片由源节点执行等基础语义；相关更新不等同本模块逐条追踪全部扩展。"
+        },
+        {
+          "title": "RFC 4861：IPv6邻居发现",
+          "url": "https://www.rfc-editor.org/rfc/rfc4861",
+          "verification": "实际核对邻居地址解析、路由器发现与ICMPv6消息；仅核对核心机制，不声称已逐条审计所有后续更新。"
+        },
+        {
+          "title": "RFC 9293：TCP规范",
+          "url": "https://datatracker.ietf.org/doc/html/rfc9293",
+          "verification": "核对TCP序号、连接与窗口的协议定义。"
+        },
+        {
+          "title": "RFC 959：FTP",
+          "url": "https://www.rfc-editor.org/rfc/rfc959",
+          "verification": "第9版教材删去FTP，本考纲相关主题独立以协议一手资料补充。"
+        },
+        {
+          "title": "RFC 9112：HTTP/1.1",
+          "url": "https://www.rfc-editor.org/rfc/rfc9112",
+          "verification": "核对HTTP/1.1消息与连接管理；计算题限定HTTP/1.1，不外推HTTP/2或HTTP/3。"
+        },
+        {
+          "title": "Linux man-pages：socket(2)",
+          "url": "https://man7.org/linux/man-pages/man2/socket.2.html",
+          "verification": "实际读取一手接口文档，核对创建端点与流套接字。"
+        },
+        {
+          "title": "Linux man-pages：listen(2)",
+          "url": "https://man7.org/linux/man-pages/man2/listen.2.html",
+          "verification": "实际读取一手接口文档，核对socket→bind→listen→accept流程。"
+        },
+        {
+          "title": "Linux man-pages：accept(2)",
+          "url": "https://man7.org/linux/man-pages/man2/accept.2.html",
+          "verification": "实际读取一手接口文档，核对新连接套接字与原监听套接字的区别。"
+        }
+      ],
+      "topics": [
+        {
+          "topicId": "cs408_cn_001",
+          "book": "cs408_cn_xie9",
+          "chapter": "第1章 概述",
+          "section": "专题：互联网组成、网络类别与功能",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_002",
+          "book": "cs408_cn_xie9",
+          "chapter": "第1章 概述",
+          "section": "专题：互联网核心部分与交换方式",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_003",
+          "book": "cs408_cn_xie9",
+          "chapter": "第1章 概述",
+          "section": "专题：计算机网络体系结构",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_004",
+          "book": "cs408_cn_xie9",
+          "chapter": "第1章 概述",
+          "section": "专题：网络性能指标",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_005",
+          "book": "cs408_cn_xie9",
+          "chapter": "第1章 概述",
+          "section": "专题：时延带宽积与性能计算",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_006",
+          "book": "cs408_cn_xie9",
+          "chapter": "第2章 物理层",
+          "section": "专题：物理层概念与数据通信基础",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_007",
+          "book": "cs408_cn_xie9",
+          "chapter": "第2章 物理层",
+          "section": "专题：信道极限容量",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_008",
+          "book": "cs408_cn_xie9",
+          "chapter": "第2章 物理层",
+          "section": "专题：数据编码与调制",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_009",
+          "book": "cs408_cn_xie9",
+          "chapter": "第2章 物理层",
+          "section": "专题：导引型与非导引型传输媒体",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_010",
+          "book": "cs408_cn_xie9",
+          "chapter": "第2章 物理层",
+          "section": "专题：信道复用技术",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_011",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：数据链路层共同问题",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_012",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：差错检测与纠错基础",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_013",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：差错检测与CRC",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_014",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：可靠传输与停止等待",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_015",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：滑动窗口与后退N帧",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_016",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：滑动窗口与选择重传",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_017",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：共享信道与介质访问控制",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_018",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：共享式以太网与CSMA/CD",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_019",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：以太网MAC层与帧格式",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_020",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：以太网交换机与扩展局域网",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_021",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：虚拟局域网与交换环路",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_022",
+          "book": "cs408_cn_xie9",
+          "chapter": "第8章 无线网络和移动网络",
+          "section": "专题：无线局域网MAC、CSMA/CA与RTS/CTS",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_023",
+          "book": "cs408_cn_xie9",
+          "chapter": "第3章 数据链路层",
+          "section": "专题：点对点协议PPP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_024",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：网络层服务与路由器构成",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_025",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IPv4数据报格式",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_026",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IPv4地址划分与CIDR",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_027",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：CIDR聚合与IP层转发",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_028",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IPv4分片、MTU与重组",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_029",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：地址解析协议ARP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_030",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：网际控制报文协议ICMP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_031",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：DHCP（第9版调整至网络层章介绍）",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_032",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：网络地址转换NAT",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_033",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IPv6与基本首部",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_034",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IPv6邻居发现、地址表示和过渡技术",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_035",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：路由选择算法与距离向量",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_036",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：内部网关协议RIP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_037",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：内部网关协议OSPF",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_038",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：外部网关协议BGP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_039",
+          "book": "cs408_cn_xie9",
+          "chapter": "第4章 网络层",
+          "section": "专题：IP多播与网际组管理协议",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_040",
+          "book": "cs408_cn_xie9",
+          "chapter": "第9章 新型网络技术",
+          "section": "专题：软件定义网络SDN",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "出版社第9版前言的官方搜索索引明确把SDN、NFV及数据中心网络集中在第9章“新型网络技术”，已独立复核该章和主题归属；直接网页读取超时，未核实具体节号及纸书页码。"
+        },
+        {
+          "topicId": "cs408_cn_041",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：传输层服务与端口",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_042",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：用户数据报协议UDP",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_043",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP报文段序号与确认号",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_044",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP报文段首部与最大报文段长度",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_045",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP可靠传输、超时与重传",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_046",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP滑动窗口与流量控制",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_047",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP慢开始、拥塞避免和快重传/快恢复",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_048",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP连接建立",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_049",
+          "book": "cs408_cn_xie9",
+          "chapter": "第5章 传输层",
+          "section": "专题：TCP连接释放与状态",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_050",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层",
+          "section": "专题：应用层协议与客户服务器/P2P方式",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_051",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层",
+          "section": "专题：域名系统DNS",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_052",
+          "book": "cs408_cn_ftp_rfc959",
+          "chapter": "408补充：文件传输协议",
+          "section": "RFC 959：FTP模型及控制连接/数据连接",
+          "source_url": "https://www.rfc-editor.org/rfc/rfc959",
+          "verification": "新教材第9版前言明确删除FTP/TELNET；本408主题单独依据RFC959补充，不冒称第9版仍有该小节。"
+        },
+        {
+          "topicId": "cs408_cn_053",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层",
+          "section": "专题：电子邮件系统与MIME",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_054",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层",
+          "section": "专题：万维网、HTTP请求响应与连接",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_055",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层",
+          "section": "专题：万维网中的缓存、Cookie及安全访问",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "已检索出版社官方第9版说明、2026修订前言及公开书目；直接书页读取超时。按已确认章名和专题定位，不虚填未独立核实的节号或纸书页码。FTP依据RFC959补入，未声称新教材仍保留FTP小节。"
+        },
+        {
+          "topicId": "cs408_cn_056",
+          "book": "cs408_cn_xie9",
+          "chapter": "第6章 应用层（学习关联，具体目录位置未核实）",
+          "section": "专题关联：应用进程通信；接口语义另据socket(2)、listen(2)、accept(2)",
+          "source_url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=70139",
+          "verification": "此处第6章是学习内容关联，未独立确认第9版是否明列套接字及具体位置，不作为教材逐节对照。接口事实已核对Linux man-pages项目的一手socket/listen/accept文档；POSIX官方网站返回403，未声称已读取POSIX原文。"
+        }
+      ],
+      "official_status_note": "参考教材版本来自出版社官方信息；未发现全国统考指定这一本教材的充分证据，不将其标为教育部或教育考试院统一指定用书。",
+      "latest_exam_boundary": "2027考试大纲的详细条文尚未全文逐项核验，采用已确认的四科范围及公开考试框架构建，并保留后续核对标记。"
+    }
+  ],
+  "limits": [
+    "2027官方大纲出版信息已核验，全文未逐条核验；本图谱不能宣称覆盖2027版全部考点。",
+    "依据官方出版社目录与公开技术标准组织原创摘要，未逐页校读全部教材全文。",
+    "每点两道选择题用于基础诊断，不替代算法设计、证明、综合计算、编程实践或考研真题训练。",
+    "先修关系为AI提出并复核的学习建议，题目、图谱与诊断结果尚未经教师审核。"
+  ]
+}

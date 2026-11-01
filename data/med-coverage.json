@@ -1,0 +1,1460 @@
+{
+  "subject": "med",
+  "checked_date": "2026-10-31",
+  "scope": "现代医学本科十门基础课程的核心知识与临床学习方法；不含完整内外妇儿专科疾病谱",
+  "mapping_policy": "topic.chapter为项目学习单元；textbook.chapter标明主题定位，未核实具体教材章号或页码",
+  "courses": [
+    {
+      "id": "anatomy",
+      "name": "系统解剖学",
+      "grade": 21,
+      "book": "med_anatomy_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "解剖学基础",
+          "chapter": "第1章 解剖学基础",
+          "points": [
+            {
+              "point": "解剖学姿势、方位与切面",
+              "topicIds": [
+                "med_anatomy_001"
+              ],
+              "textbook_chapter": "主题定位：绪论",
+              "textbook_section": "解剖学姿势、方位与切面（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "运动系统",
+          "chapter": "第2章 运动系统",
+          "points": [
+            {
+              "point": "骨、关节与骨骼肌的运动配合",
+              "topicIds": [
+                "med_anatomy_002"
+              ],
+              "textbook_chapter": "主题定位：运动系统",
+              "textbook_section": "骨、关节与骨骼肌的运动配合（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "内脏系统",
+          "chapter": "第3章 内脏系统",
+          "points": [
+            {
+              "point": "消化管与消化腺的连接",
+              "topicIds": [
+                "med_anatomy_003"
+              ],
+              "textbook_chapter": "主题定位：消化系统",
+              "textbook_section": "消化管与消化腺的连接（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "呼吸道、肺与胸膜",
+              "topicIds": [
+                "med_anatomy_004"
+              ],
+              "textbook_chapter": "主题定位：呼吸系统",
+              "textbook_section": "呼吸道、肺与胸膜（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肾与尿液引流通路",
+              "topicIds": [
+                "med_anatomy_005"
+              ],
+              "textbook_chapter": "主题定位：泌尿系统",
+              "textbook_section": "肾与尿液引流通路（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "生殖器官与配子运输",
+              "topicIds": [
+                "med_anatomy_006"
+              ],
+              "textbook_chapter": "主题定位：生殖系统",
+              "textbook_section": "生殖器官与配子运输（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "内分泌系统",
+          "chapter": "第4章 内分泌系统",
+          "points": [
+            {
+              "point": "内分泌器官的定位与分泌方式",
+              "topicIds": [
+                "med_anatomy_007"
+              ],
+              "textbook_chapter": "主题定位：内分泌系统",
+              "textbook_section": "内分泌器官的定位与分泌方式（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "脉管系统",
+          "chapter": "第5章 脉管系统",
+          "points": [
+            {
+              "point": "心腔、瓣膜与血流方向",
+              "topicIds": [
+                "med_anatomy_008"
+              ],
+              "textbook_chapter": "主题定位：脉管系统",
+              "textbook_section": "心腔、瓣膜与血流方向（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "动静脉命名与肝门静脉系统",
+              "topicIds": [
+                "med_anatomy_009"
+              ],
+              "textbook_chapter": "主题定位：脉管系统",
+              "textbook_section": "动静脉命名与肝门静脉系统（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "淋巴回流与淋巴器官",
+              "topicIds": [
+                "med_anatomy_010"
+              ],
+              "textbook_chapter": "主题定位：脉管系统",
+              "textbook_section": "淋巴回流与淋巴器官（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "感觉器",
+          "chapter": "第6章 感觉器",
+          "points": [
+            {
+              "point": "视器与前庭蜗器的结构分工",
+              "topicIds": [
+                "med_anatomy_011"
+              ],
+              "textbook_chapter": "主题定位：感觉器",
+              "textbook_section": "视器与前庭蜗器的结构分工（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "神经系统",
+          "chapter": "第7章 神经系统",
+          "points": [
+            {
+              "point": "中枢、周围神经与反射弧结构",
+              "topicIds": [
+                "med_anatomy_012"
+              ],
+              "textbook_chapter": "主题定位：神经系统",
+              "textbook_section": "中枢、周围神经与反射弧结构（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "histology",
+      "name": "组织学与胚胎学",
+      "grade": 22,
+      "book": "med_histology_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "组织学方法",
+          "chapter": "第1章 组织学方法",
+          "points": [
+            {
+              "point": "组织切片与苏木精伊红染色",
+              "topicIds": [
+                "med_histology_001"
+              ],
+              "textbook_chapter": "主题定位：组织学基础",
+              "textbook_section": "组织切片与苏木精伊红染色（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "基本组织",
+          "chapter": "第2章 基本组织",
+          "points": [
+            {
+              "point": "上皮组织与基底膜",
+              "topicIds": [
+                "med_histology_002"
+              ],
+              "textbook_chapter": "主题定位：上皮组织主题",
+              "textbook_section": "上皮组织与基底膜（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "结缔组织细胞与细胞外基质",
+              "topicIds": [
+                "med_histology_003"
+              ],
+              "textbook_chapter": "主题定位：结缔组织主题",
+              "textbook_section": "结缔组织细胞与细胞外基质（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "血细胞的形态与功能对应",
+              "topicIds": [
+                "med_histology_004"
+              ],
+              "textbook_chapter": "主题定位：血液主题",
+              "textbook_section": "血细胞的形态与功能对应（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "三类肌组织的结构差异",
+              "topicIds": [
+                "med_histology_005"
+              ],
+              "textbook_chapter": "主题定位：肌组织主题",
+              "textbook_section": "三类肌组织的结构差异（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "神经元、神经胶质与髓鞘",
+              "topicIds": [
+                "med_histology_006"
+              ],
+              "textbook_chapter": "主题定位：神经组织主题",
+              "textbook_section": "神经元、神经胶质与髓鞘（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "器官显微结构",
+          "chapter": "第3章 器官显微结构",
+          "points": [
+            {
+              "point": "消化管壁层次与绒毛",
+              "topicIds": [
+                "med_histology_007"
+              ],
+              "textbook_chapter": "主题定位：消化管组织学主题",
+              "textbook_section": "消化管壁层次与绒毛（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肺泡细胞与气血屏障",
+              "topicIds": [
+                "med_histology_008"
+              ],
+              "textbook_chapter": "主题定位：呼吸系统组织学主题",
+              "textbook_section": "肺泡细胞与气血屏障（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肾单位与滤过屏障",
+              "topicIds": [
+                "med_histology_009"
+              ],
+              "textbook_chapter": "主题定位：泌尿系统组织学主题",
+              "textbook_section": "肾单位与滤过屏障（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "内分泌组织的细胞排列与血管关系",
+              "topicIds": [
+                "med_histology_010"
+              ],
+              "textbook_chapter": "主题定位：内分泌系统组织学主题",
+              "textbook_section": "内分泌组织的细胞排列与血管关系（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "胚胎发育基础",
+          "chapter": "第4章 胚胎发育基础",
+          "points": [
+            {
+              "point": "受精、卵裂与着床的阶段关系",
+              "topicIds": [
+                "med_histology_011"
+              ],
+              "textbook_chapter": "主题定位：胚胎学总论主题",
+              "textbook_section": "受精、卵裂与着床的阶段关系（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "胚层分化与胎盘交换",
+              "topicIds": [
+                "med_histology_012"
+              ],
+              "textbook_chapter": "主题定位：胚胎学总论与胎儿附属物主题",
+              "textbook_section": "胚层分化与胎盘交换（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "name": "生理学",
+      "grade": 23,
+      "book": "med_physiology_pmph10",
+      "topic_count": 14,
+      "question_count": 28,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "调节基础",
+          "chapter": "第1章 调节基础",
+          "points": [
+            {
+              "point": "内环境、稳态与负反馈",
+              "topicIds": [
+                "med_physiology_001"
+              ],
+              "textbook_chapter": "主题定位：绪论与机体调节主题",
+              "textbook_section": "内环境、稳态与负反馈（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "细胞生理",
+          "chapter": "第2章 细胞生理",
+          "points": [
+            {
+              "point": "跨膜转运与电化学梯度",
+              "topicIds": [
+                "med_physiology_002"
+              ],
+              "textbook_chapter": "主题定位：细胞的基本功能主题",
+              "textbook_section": "跨膜转运与电化学梯度（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "静息电位、动作电位与不应期",
+              "topicIds": [
+                "med_physiology_003"
+              ],
+              "textbook_chapter": "主题定位：细胞的基本功能主题",
+              "textbook_section": "静息电位、动作电位与不应期（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "神经肌肉接头与兴奋收缩耦联",
+              "topicIds": [
+                "med_physiology_004"
+              ],
+              "textbook_chapter": "主题定位：骨骼肌收缩主题",
+              "textbook_section": "神经肌肉接头与兴奋收缩耦联（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "血液与循环",
+          "chapter": "第3章 血液与循环",
+          "points": [
+            {
+              "point": "血液成分与生理性止血",
+              "topicIds": [
+                "med_physiology_005"
+              ],
+              "textbook_chapter": "主题定位：血液主题",
+              "textbook_section": "血液成分与生理性止血（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "心动周期、每搏量与心输出量",
+              "topicIds": [
+                "med_physiology_006"
+              ],
+              "textbook_chapter": "主题定位：血液循环主题",
+              "textbook_section": "心动周期、每搏量与心输出量（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "血流、压力差与阻力",
+              "topicIds": [
+                "med_physiology_007"
+              ],
+              "textbook_chapter": "主题定位：血液循环主题",
+              "textbook_section": "血流、压力差与阻力（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "呼吸与消化",
+          "chapter": "第4章 呼吸与消化",
+          "points": [
+            {
+              "point": "肺通气、肺泡通气与气体交换",
+              "topicIds": [
+                "med_physiology_008"
+              ],
+              "textbook_chapter": "主题定位：呼吸主题",
+              "textbook_section": "肺通气、肺泡通气与气体交换（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "消化、吸收与胃肠调节",
+              "topicIds": [
+                "med_physiology_009"
+              ],
+              "textbook_chapter": "主题定位：消化和吸收主题",
+              "textbook_section": "消化、吸收与胃肠调节（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "排泄与调节",
+          "chapter": "第5章 排泄与调节",
+          "points": [
+            {
+              "point": "肾滤过、重吸收、分泌与清除率",
+              "topicIds": [
+                "med_physiology_010"
+              ],
+              "textbook_chapter": "主题定位：尿的生成和排出；肾功能的评定主题",
+              "textbook_section": "肾滤过、重吸收、分泌与清除率（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "激素受体、反馈与血糖调节",
+              "topicIds": [
+                "med_physiology_011"
+              ],
+              "textbook_chapter": "主题定位：内分泌主题",
+              "textbook_section": "激素受体、反馈与血糖调节（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "神经调节",
+          "chapter": "第6章 神经调节",
+          "points": [
+            {
+              "point": "突触传递、整合与反射调节",
+              "topicIds": [
+                "med_physiology_012"
+              ],
+              "textbook_chapter": "主题定位：神经系统的功能主题",
+              "textbook_section": "突触传递、整合与反射调节（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "整合生理",
+          "chapter": "第7章 整合生理",
+          "points": [
+            {
+              "point": "能量代谢与体温调节",
+              "topicIds": [
+                "med_physiology_013"
+              ],
+              "textbook_chapter": "主题定位：能量代谢与体温主题",
+              "textbook_section": "能量代谢与体温调节（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "生长发育、生殖与衰老的生理变化",
+              "topicIds": [
+                "med_physiology_014"
+              ],
+              "textbook_chapter": "主题定位：生长发育和衰老主题",
+              "textbook_section": "生长发育、生殖与衰老的生理变化（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochem",
+      "name": "生物化学与分子生物学",
+      "grade": 24,
+      "book": "med_biochem_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "生物分子",
+          "chapter": "第1章 生物分子",
+          "points": [
+            {
+              "point": "蛋白质结构层次与变性",
+              "topicIds": [
+                "med_biochem_001"
+              ],
+              "textbook_chapter": "主题定位：蛋白质的结构与功能",
+              "textbook_section": "蛋白质结构层次与变性（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "酶催化、底物浓度与抑制",
+              "topicIds": [
+                "med_biochem_002"
+              ],
+              "textbook_chapter": "主题定位：酶与酶促反应",
+              "textbook_section": "酶催化、底物浓度与抑制（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "核酸组成、互补与方向性",
+              "topicIds": [
+                "med_biochem_003"
+              ],
+              "textbook_chapter": "主题定位：核酸的结构与功能",
+              "textbook_section": "核酸组成、互补与方向性（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "物质代谢",
+          "chapter": "第2章 物质代谢",
+          "points": [
+            {
+              "point": "糖酵解、糖异生与糖原",
+              "topicIds": [
+                "med_biochem_004"
+              ],
+              "textbook_chapter": "主题定位：糖代谢",
+              "textbook_section": "糖酵解、糖异生与糖原（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "三羧酸循环与氧化磷酸化",
+              "topicIds": [
+                "med_biochem_005"
+              ],
+              "textbook_chapter": "主题定位：生物氧化",
+              "textbook_section": "三羧酸循环与氧化磷酸化（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "脂肪酸氧化与脂质运输",
+              "topicIds": [
+                "med_biochem_006"
+              ],
+              "textbook_chapter": "主题定位：脂质代谢",
+              "textbook_section": "脂肪酸氧化与脂质运输（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "氨基酸代谢与尿素形成",
+              "topicIds": [
+                "med_biochem_007"
+              ],
+              "textbook_chapter": "主题定位：氨基酸代谢",
+              "textbook_section": "氨基酸代谢与尿素形成（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "核苷酸代谢、维生素与辅酶",
+              "topicIds": [
+                "med_biochem_008"
+              ],
+              "textbook_chapter": "主题定位：核苷酸代谢；维生素",
+              "textbook_section": "核苷酸代谢、维生素与辅酶（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "遗传信息",
+          "chapter": "第3章 遗传信息",
+          "points": [
+            {
+              "point": "DNA复制、损伤与修复",
+              "topicIds": [
+                "med_biochem_009"
+              ],
+              "textbook_chapter": "主题定位：DNA的生物合成；DNA损伤与修复",
+              "textbook_section": "DNA复制、损伤与修复（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "RNA转录与加工",
+              "topicIds": [
+                "med_biochem_010"
+              ],
+              "textbook_chapter": "主题定位：RNA的生物合成",
+              "textbook_section": "RNA转录与加工（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "遗传密码与蛋白质翻译",
+              "topicIds": [
+                "med_biochem_011"
+              ],
+              "textbook_chapter": "主题定位：蛋白质的生物合成",
+              "textbook_section": "遗传密码与蛋白质翻译（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "分子医学方法",
+          "chapter": "第4章 分子医学方法",
+          "points": [
+            {
+              "point": "基因表达调控与分子检测原理",
+              "topicIds": [
+                "med_biochem_012"
+              ],
+              "textbook_chapter": "主题定位：基因表达调控；常用的分子生物学技术",
+              "textbook_section": "基因表达调控与分子检测原理（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunology",
+      "name": "医学免疫学",
+      "grade": 25,
+      "book": "med_immunology_pmph8",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "免疫系统组成",
+          "chapter": "第1章 免疫系统组成",
+          "points": [
+            {
+              "point": "固有免疫与适应性免疫",
+              "topicIds": [
+                "med_immunology_001"
+              ],
+              "textbook_chapter": "主题定位：免疫系统的组成；固有免疫与适应性免疫原理",
+              "textbook_section": "固有免疫与适应性免疫（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "免疫器官与淋巴细胞循环",
+              "topicIds": [
+                "med_immunology_002"
+              ],
+              "textbook_chapter": "主题定位：免疫系统的组成",
+              "textbook_section": "免疫器官与淋巴细胞循环（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "免疫识别",
+          "chapter": "第2章 免疫识别",
+          "points": [
+            {
+              "point": "抗原、表位与免疫原性",
+              "topicIds": [
+                "med_immunology_003"
+              ],
+              "textbook_chapter": "主题定位：免疫系统的组成与抗原识别主题",
+              "textbook_section": "抗原、表位与免疫原性（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "抗体结构、类别与效应",
+              "topicIds": [
+                "med_immunology_004"
+              ],
+              "textbook_chapter": "主题定位：免疫系统的组成与抗体主题",
+              "textbook_section": "抗体结构、类别与效应（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "抗原加工、MHC与呈递",
+              "topicIds": [
+                "med_immunology_006"
+              ],
+              "textbook_chapter": "主题定位：适应性免疫应答的原理",
+              "textbook_section": "抗原加工、MHC与呈递（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "固有免疫",
+          "chapter": "第3章 固有免疫",
+          "points": [
+            {
+              "point": "补体活化与效应调节",
+              "topicIds": [
+                "med_immunology_005"
+              ],
+              "textbook_chapter": "主题定位：固有免疫应答的原理",
+              "textbook_section": "补体活化与效应调节（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "适应性免疫",
+          "chapter": "第4章 适应性免疫",
+          "points": [
+            {
+              "point": "T细胞活化与效应分工",
+              "topicIds": [
+                "med_immunology_007"
+              ],
+              "textbook_chapter": "主题定位：适应性免疫应答的原理",
+              "textbook_section": "T细胞活化与效应分工（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "B细胞应答、类别转换与记忆",
+              "topicIds": [
+                "med_immunology_008"
+              ],
+              "textbook_chapter": "主题定位：适应性免疫应答的原理",
+              "textbook_section": "B细胞应答、类别转换与记忆（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "免疫病理",
+          "chapter": "第5章 免疫病理",
+          "points": [
+            {
+              "point": "免疫耐受与自身免疫",
+              "topicIds": [
+                "med_immunology_009"
+              ],
+              "textbook_chapter": "主题定位：免疫相关性疾病的发生原理",
+              "textbook_section": "免疫耐受与自身免疫（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "超敏反应的机制分类",
+              "topicIds": [
+                "med_immunology_010"
+              ],
+              "textbook_chapter": "主题定位：免疫相关性疾病的发生原理",
+              "textbook_section": "超敏反应的机制分类（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "免疫缺陷与肿瘤免疫的基本框架",
+              "topicIds": [
+                "med_immunology_011"
+              ],
+              "textbook_chapter": "主题定位：免疫相关性疾病的发生原理",
+              "textbook_section": "免疫缺陷与肿瘤免疫的基本框架（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "免疫应用",
+          "chapter": "第6章 免疫应用",
+          "points": [
+            {
+              "point": "主动免疫、被动免疫与检测边界",
+              "topicIds": [
+                "med_immunology_012"
+              ],
+              "textbook_chapter": "主题定位：免疫学技术的原理及其应用",
+              "textbook_section": "主动免疫、被动免疫与检测边界（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology",
+      "name": "医学微生物学",
+      "grade": 26,
+      "book": "med_microbiology_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "微生物基础",
+          "chapter": "第1章 微生物基础",
+          "points": [
+            {
+              "point": "医学微生物的分类与尺度",
+              "topicIds": [
+                "med_microbiology_001"
+              ],
+              "textbook_chapter": "主题定位：绪论",
+              "textbook_section": "医学微生物的分类与尺度（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "细菌学基础",
+          "chapter": "第2章 细菌学基础",
+          "points": [
+            {
+              "point": "细菌细胞壁与革兰染色",
+              "topicIds": [
+                "med_microbiology_002"
+              ],
+              "textbook_chapter": "主题定位：细菌的形态与结构",
+              "textbook_section": "细菌细胞壁与革兰染色（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "细菌生长、繁殖与培养条件",
+              "topicIds": [
+                "med_microbiology_003"
+              ],
+              "textbook_chapter": "主题定位：细菌的生理主题",
+              "textbook_section": "细菌生长、繁殖与培养条件（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "细菌遗传变异与耐药传播",
+              "topicIds": [
+                "med_microbiology_004"
+              ],
+              "textbook_chapter": "主题定位：细菌的遗传与变异主题",
+              "textbook_section": "细菌遗传变异与耐药传播（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "宿主与微生物",
+          "chapter": "第3章 宿主与微生物",
+          "points": [
+            {
+              "point": "细菌致病性、毒素与宿主反应",
+              "topicIds": [
+                "med_microbiology_005"
+              ],
+              "textbook_chapter": "主题定位：细菌的感染与免疫主题",
+              "textbook_section": "细菌致病性、毒素与宿主反应（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "人体微生物群、定植与机会致病",
+              "topicIds": [
+                "med_microbiology_006"
+              ],
+              "textbook_chapter": "主题定位：人体微生物群",
+              "textbook_section": "人体微生物群、定植与机会致病（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "病毒学",
+          "chapter": "第4章 病毒学",
+          "points": [
+            {
+              "point": "病毒结构、基因组与包膜",
+              "topicIds": [
+                "med_microbiology_007"
+              ],
+              "textbook_chapter": "主题定位：病毒的基本性状主题",
+              "textbook_section": "病毒结构、基因组与包膜（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "病毒复制与感染结局",
+              "topicIds": [
+                "med_microbiology_008"
+              ],
+              "textbook_chapter": "主题定位：病毒的感染与免疫主题",
+              "textbook_section": "病毒复制与感染结局（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "真菌学",
+          "chapter": "第5章 真菌学",
+          "points": [
+            {
+              "point": "医学真菌的结构与生长形式",
+              "topicIds": [
+                "med_microbiology_009"
+              ],
+              "textbook_chapter": "主题定位：真菌学",
+              "textbook_section": "医学真菌的结构与生长形式（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "感染过程",
+          "chapter": "第6章 感染过程",
+          "points": [
+            {
+              "point": "传染源、传播途径与易感宿主",
+              "topicIds": [
+                "med_microbiology_010"
+              ],
+              "textbook_chapter": "主题定位：微生物感染与免疫的共同原则",
+              "textbook_section": "传染源、传播途径与易感宿主（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "方法与证据",
+          "chapter": "第7章 方法与证据",
+          "points": [
+            {
+              "point": "消毒、灭菌与生物安全原则",
+              "topicIds": [
+                "med_microbiology_011"
+              ],
+              "textbook_chapter": "主题定位：病原微生物实验室生物安全；防治原则",
+              "textbook_section": "消毒、灭菌与生物安全原则（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "标本质量、培养与核酸检测的证据边界",
+              "topicIds": [
+                "med_microbiology_012"
+              ],
+              "textbook_chapter": "主题定位：特异性诊断共同原则",
+              "textbook_section": "标本质量、培养与核酸检测的证据边界（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology",
+      "name": "病理学",
+      "grade": 27,
+      "book": "med_pathology_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "细胞与组织变化",
+          "chapter": "第1章 细胞与组织变化",
+          "points": [
+            {
+              "point": "细胞适应：肥大、增生、萎缩与化生",
+              "topicIds": [
+                "med_pathology_001"
+              ],
+              "textbook_chapter": "主题定位：细胞和组织的适应与损伤主题",
+              "textbook_section": "细胞适应：肥大、增生、萎缩与化生（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "可逆损伤、坏死与凋亡",
+              "topicIds": [
+                "med_pathology_002"
+              ],
+              "textbook_chapter": "主题定位：细胞和组织损伤；细胞死亡主题",
+              "textbook_section": "可逆损伤、坏死与凋亡（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "组织修复",
+          "chapter": "第2章 组织修复",
+          "points": [
+            {
+              "point": "再生、肉芽组织与瘢痕修复",
+              "topicIds": [
+                "med_pathology_003"
+              ],
+              "textbook_chapter": "主题定位：损伤的修复主题",
+              "textbook_section": "再生、肉芽组织与瘢痕修复（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "循环障碍",
+          "chapter": "第3章 循环障碍",
+          "points": [
+            {
+              "point": "充血、淤血与局部循环改变",
+              "topicIds": [
+                "med_pathology_004"
+              ],
+              "textbook_chapter": "主题定位：局部血液循环障碍主题",
+              "textbook_section": "充血、淤血与局部循环改变（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "血栓、栓塞与梗死",
+              "topicIds": [
+                "med_pathology_005"
+              ],
+              "textbook_chapter": "主题定位：局部血液循环障碍主题",
+              "textbook_section": "血栓、栓塞与梗死（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "水肿与体液分布的形态联系",
+              "topicIds": [
+                "med_pathology_006"
+              ],
+              "textbook_chapter": "主题定位：局部血液循环障碍与水肿主题",
+              "textbook_section": "水肿与体液分布的形态联系（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "炎症",
+          "chapter": "第4章 炎症",
+          "points": [
+            {
+              "point": "急性炎症的血管与细胞反应",
+              "topicIds": [
+                "med_pathology_007"
+              ],
+              "textbook_chapter": "主题定位：炎症主题",
+              "textbook_section": "急性炎症的血管与细胞反应（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "慢性炎症与肉芽肿",
+              "topicIds": [
+                "med_pathology_008"
+              ],
+              "textbook_chapter": "主题定位：炎症主题",
+              "textbook_section": "慢性炎症与肉芽肿（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "肿瘤基础",
+          "chapter": "第5章 肿瘤基础",
+          "points": [
+            {
+              "point": "肿瘤异型性、浸润与转移",
+              "topicIds": [
+                "med_pathology_009"
+              ],
+              "textbook_chapter": "主题定位：肿瘤主题",
+              "textbook_section": "肿瘤异型性、浸润与转移（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肿瘤分级与分期",
+              "topicIds": [
+                "med_pathology_010"
+              ],
+              "textbook_chapter": "主题定位：肿瘤主题",
+              "textbook_section": "肿瘤分级与分期（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "系统病理学习",
+          "chapter": "第6章 系统病理学习",
+          "points": [
+            {
+              "point": "器官病变的结构与功能联系",
+              "topicIds": [
+                "med_pathology_011"
+              ],
+              "textbook_chapter": "主题定位：器官系统疾病各论主题",
+              "textbook_section": "器官病变的结构与功能联系（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "病理证据",
+          "chapter": "第7章 病理证据",
+          "points": [
+            {
+              "point": "病理取材、形态与辅助技术",
+              "topicIds": [
+                "med_pathology_012"
+              ],
+              "textbook_chapter": "主题定位：病理诊断和研究技术；分子病理主题",
+              "textbook_section": "病理取材、形态与辅助技术（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathophys",
+      "name": "病理生理学",
+      "grade": 28,
+      "book": "med_pathophys_pmph10",
+      "topic_count": 14,
+      "question_count": 28,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "疾病共同规律",
+          "chapter": "第1章 疾病共同规律",
+          "points": [
+            {
+              "point": "病因、条件与发病机制",
+              "topicIds": [
+                "med_pathophys_001"
+              ],
+              "textbook_chapter": "主题定位：疾病概论",
+              "textbook_section": "病因、条件与发病机制（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "细胞应激、氧化损伤与细胞死亡",
+              "topicIds": [
+                "med_pathophys_002"
+              ],
+              "textbook_chapter": "主题定位：细胞增殖、分化和死亡相关主题",
+              "textbook_section": "细胞应激、氧化损伤与细胞死亡（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "稳态紊乱",
+          "chapter": "第2章 稳态紊乱",
+          "points": [
+            {
+              "point": "水钠平衡、渗透压与体液容量",
+              "topicIds": [
+                "med_pathophys_003"
+              ],
+              "textbook_chapter": "主题定位：水、电解质代谢紊乱主题",
+              "textbook_section": "水钠平衡、渗透压与体液容量（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "钾分布与兴奋性改变",
+              "topicIds": [
+                "med_pathophys_004"
+              ],
+              "textbook_chapter": "主题定位：水、电解质代谢紊乱主题",
+              "textbook_section": "钾分布与兴奋性改变（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "酸碱平衡与代偿",
+              "topicIds": [
+                "med_pathophys_005"
+              ],
+              "textbook_chapter": "主题定位：酸碱平衡紊乱",
+              "textbook_section": "酸碱平衡与代偿（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "氧分压、氧含量与组织缺氧",
+              "topicIds": [
+                "med_pathophys_006"
+              ],
+              "textbook_chapter": "主题定位：缺氧主题",
+              "textbook_section": "氧分压、氧含量与组织缺氧（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "全身反应",
+          "chapter": "第3章 全身反应",
+          "points": [
+            {
+              "point": "发热与体温调定点",
+              "topicIds": [
+                "med_pathophys_007"
+              ],
+              "textbook_chapter": "主题定位：发热主题",
+              "textbook_section": "发热与体温调定点（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "休克与组织灌注不足",
+              "topicIds": [
+                "med_pathophys_008"
+              ],
+              "textbook_chapter": "主题定位：休克主题",
+              "textbook_section": "休克与组织灌注不足（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "缺血再灌注损伤",
+              "topicIds": [
+                "med_pathophys_009"
+              ],
+              "textbook_chapter": "主题定位：缺血再灌注损伤主题",
+              "textbook_section": "缺血再灌注损伤（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "器官功能紊乱",
+          "chapter": "第4章 器官功能紊乱",
+          "points": [
+            {
+              "point": "心功能不全与代偿",
+              "topicIds": [
+                "med_pathophys_010"
+              ],
+              "textbook_chapter": "主题定位：心功能不全主题",
+              "textbook_section": "心功能不全与代偿（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "呼吸功能不全的环节分析",
+              "topicIds": [
+                "med_pathophys_011"
+              ],
+              "textbook_chapter": "主题定位：呼吸功能不全主题",
+              "textbook_section": "呼吸功能不全的环节分析（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肾功能不全与排泄调节障碍",
+              "topicIds": [
+                "med_pathophys_012"
+              ],
+              "textbook_chapter": "主题定位：肾功能不全主题",
+              "textbook_section": "肾功能不全与排泄调节障碍（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "肝功能不全与代谢紊乱",
+              "topicIds": [
+                "med_pathophys_013"
+              ],
+              "textbook_chapter": "主题定位：肝功能不全主题",
+              "textbook_section": "肝功能不全与代谢紊乱（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "跨系统整合",
+          "chapter": "第5章 跨系统整合",
+          "points": [
+            {
+              "point": "衰老、功能储备与应激易感性",
+              "topicIds": [
+                "med_pathophys_014"
+              ],
+              "textbook_chapter": "主题定位：衰老主题",
+              "textbook_section": "衰老、功能储备与应激易感性（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology",
+      "name": "药理学",
+      "grade": 29,
+      "book": "med_pharmacology_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "药理学基础",
+          "chapter": "第1章 药理学基础",
+          "points": [
+            {
+              "point": "药效学、药动学与ADME",
+              "topicIds": [
+                "med_pharmacology_001"
+              ],
+              "textbook_chapter": "主题定位：药理学总论",
+              "textbook_section": "药效学、药动学与ADME（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "药动学",
+          "chapter": "第2章 药动学",
+          "points": [
+            {
+              "point": "生物利用度与首过消除",
+              "topicIds": [
+                "med_pharmacology_002"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物代谢动力学主题",
+              "textbook_section": "生物利用度与首过消除（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "分布、蛋白结合与表观分布容积",
+              "topicIds": [
+                "med_pharmacology_003"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物代谢动力学主题",
+              "textbook_section": "分布、蛋白结合与表观分布容积（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "药物代谢、酶诱导与酶抑制",
+              "topicIds": [
+                "med_pharmacology_004"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物代谢动力学主题",
+              "textbook_section": "药物代谢、酶诱导与酶抑制（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "清除率、半衰期与稳态概念",
+              "topicIds": [
+                "med_pharmacology_005"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物代谢动力学主题",
+              "textbook_section": "清除率、半衰期与稳态概念（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "一阶消除与容量限制",
+              "topicIds": [
+                "med_pharmacology_006"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物代谢动力学主题",
+              "textbook_section": "一阶消除与容量限制（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "药效学",
+          "chapter": "第3章 药效学",
+          "points": [
+            {
+              "point": "效价强度与最大效能",
+              "topicIds": [
+                "med_pharmacology_007"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：药物效应动力学主题",
+              "textbook_section": "效价强度与最大效能（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "激动剂、拮抗剂与受体作用",
+              "topicIds": [
+                "med_pharmacology_008"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：受体理论主题",
+              "textbook_section": "激动剂、拮抗剂与受体作用（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "药效与安全",
+          "chapter": "第4章 药效与安全",
+          "points": [
+            {
+              "point": "治疗窗、治疗指数与安全评价",
+              "topicIds": [
+                "med_pharmacology_009"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：量效关系与不良反应主题",
+              "textbook_section": "治疗窗、治疗指数与安全评价（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "不良反应、相互作用与个体差异",
+              "topicIds": [
+                "med_pharmacology_010"
+              ],
+              "textbook_chapter": "主题定位：药理学总论：影响药物作用的因素主题",
+              "textbook_section": "不良反应、相互作用与个体差异（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "系统药理基础",
+          "chapter": "第5章 系统药理基础",
+          "points": [
+            {
+              "point": "自主神经递质、受体与药理效应",
+              "topicIds": [
+                "med_pharmacology_011"
+              ],
+              "textbook_chapter": "主题定位：传出神经系统药理主题",
+              "textbook_section": "自主神经递质、受体与药理效应（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "抗微生物药物靶点、耐药与证据",
+              "topicIds": [
+                "med_pharmacology_012"
+              ],
+              "textbook_chapter": "主题定位：化学治疗药物主题",
+              "textbook_section": "抗微生物药物靶点、耐药与证据（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diagnostics",
+      "name": "诊断学",
+      "grade": 30,
+      "book": "med_diagnostics_pmph10",
+      "topic_count": 12,
+      "question_count": 24,
+      "scope": "本科课程核心概念样本；不是全书逐章全量覆盖或临床执业能力考核",
+      "units": [
+        {
+          "unit": "病史采集",
+          "chapter": "第1章 病史采集",
+          "points": [
+            {
+              "point": "问诊目的、主诉与提问方式",
+              "topicIds": [
+                "med_diagnostics_001"
+              ],
+              "textbook_chapter": "主题定位：问诊内容、方法和技巧主题",
+              "textbook_section": "问诊目的、主诉与提问方式（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "症状、体征与非特异性",
+              "topicIds": [
+                "med_diagnostics_002"
+              ],
+              "textbook_chapter": "主题定位：常见症状主题",
+              "textbook_section": "症状、体征与非特异性（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "病历的时间线、事实与推断",
+              "topicIds": [
+                "med_diagnostics_005"
+              ],
+              "textbook_chapter": "主题定位：病历书写主题",
+              "textbook_section": "病历的时间线、事实与推断（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "体格检查",
+          "chapter": "第2章 体格检查",
+          "points": [
+            {
+              "point": "视诊、触诊、叩诊与听诊的证据类型",
+              "topicIds": [
+                "med_diagnostics_003"
+              ],
+              "textbook_chapter": "主题定位：体格检查主题",
+              "textbook_section": "视诊、触诊、叩诊与听诊的证据类型（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "测量条件、单位与重复性",
+              "topicIds": [
+                "med_diagnostics_004"
+              ],
+              "textbook_chapter": "主题定位：体格检查与辅助检查的测量主题",
+              "textbook_section": "测量条件、单位与重复性（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "实验诊断",
+          "chapter": "第3章 实验诊断",
+          "points": [
+            {
+              "point": "实验室检验的前分析与质量控制",
+              "topicIds": [
+                "med_diagnostics_006"
+              ],
+              "textbook_chapter": "主题定位：实验诊断主题",
+              "textbook_section": "实验室检验的前分析与质量控制（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "参考区间与临床决策界限",
+              "topicIds": [
+                "med_diagnostics_007"
+              ],
+              "textbook_chapter": "主题定位：实验诊断主题",
+              "textbook_section": "参考区间与临床决策界限（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "检验解释",
+          "chapter": "第4章 检验解释",
+          "points": [
+            {
+              "point": "灵敏度与漏检",
+              "topicIds": [
+                "med_diagnostics_008"
+              ],
+              "textbook_chapter": "主题定位：实验诊断；诊断步骤和临床思维主题",
+              "textbook_section": "灵敏度与漏检（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "特异度与假阳性",
+              "topicIds": [
+                "med_diagnostics_009"
+              ],
+              "textbook_chapter": "主题定位：实验诊断；诊断步骤和临床思维主题",
+              "textbook_section": "特异度与假阳性（课程主题映射，具体教材节号未核实）"
+            },
+            {
+              "point": "预测值、基础患病比例与概率更新",
+              "topicIds": [
+                "med_diagnostics_010"
+              ],
+              "textbook_chapter": "主题定位：诊断步骤和临床思维主题",
+              "textbook_section": "预测值、基础患病比例与概率更新（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "临床思维",
+          "chapter": "第5章 临床思维",
+          "points": [
+            {
+              "point": "鉴别思路、证据整合与认知偏差",
+              "topicIds": [
+                "med_diagnostics_011"
+              ],
+              "textbook_chapter": "主题定位：诊断步骤和临床思维主题",
+              "textbook_section": "鉴别思路、证据整合与认知偏差（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        },
+        {
+          "unit": "辅助检查",
+          "chapter": "第6章 辅助检查",
+          "points": [
+            {
+              "point": "心电图、影像与辅助检查的互补",
+              "topicIds": [
+                "med_diagnostics_012"
+              ],
+              "textbook_chapter": "主题定位：辅助检查主题",
+              "textbook_section": "心电图、影像与辅助检查的互补（课程主题映射，具体教材节号未核实）"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topic_count": 124,
+  "question_count": 248
+}

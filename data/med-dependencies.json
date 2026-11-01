@@ -1,0 +1,734 @@
+[
+  {
+    "topicId": "med_anatomy_002",
+    "prerequisiteId": "med_anatomy_001",
+    "strength": "hard",
+    "reason": "描述肢体运动前需要统一位置和方向术语（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_anatomy_009",
+    "prerequisiteId": "med_anatomy_008",
+    "strength": "hard",
+    "reason": "先理解两大循环，才能比较门静脉等局部回流路径（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_anatomy_010",
+    "prerequisiteId": "med_anatomy_008",
+    "strength": "soft",
+    "reason": "理解静脉回流有助于定位淋巴的最终汇入处（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_histology_002",
+    "prerequisiteId": "med_histology_001",
+    "strength": "soft",
+    "reason": "先理解切面与染色，才能判读上皮层次（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_histology_007",
+    "prerequisiteId": "med_histology_002",
+    "strength": "hard",
+    "reason": "理解上皮极性有助于识别吸收面的结构（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_histology_008",
+    "prerequisiteId": "med_histology_002",
+    "strength": "hard",
+    "reason": "单层上皮的结构特点有助于理解气血屏障（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_histology_009",
+    "prerequisiteId": "med_histology_002",
+    "strength": "hard",
+    "reason": "上皮与基底膜概念有助于理解滤过屏障（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_histology_012",
+    "prerequisiteId": "med_histology_011",
+    "strength": "hard",
+    "reason": "早期发育阶段是理解后续胚层和胎盘形成的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_003",
+    "prerequisiteId": "med_physiology_002",
+    "strength": "hard",
+    "reason": "膜电位依赖跨膜离子梯度和通透性（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_004",
+    "prerequisiteId": "med_physiology_003",
+    "strength": "hard",
+    "reason": "肌纤维兴奋是兴奋收缩耦联的起点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_005",
+    "prerequisiteId": "med_histology_004",
+    "strength": "soft",
+    "reason": "血细胞组成有助于理解止血过程（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_006",
+    "prerequisiteId": "med_anatomy_008",
+    "strength": "hard",
+    "reason": "心腔和瓣膜结构是心动周期的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_007",
+    "prerequisiteId": "med_physiology_006",
+    "strength": "soft",
+    "reason": "心泵与循环相连，便于理解流量形成（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_008",
+    "prerequisiteId": "med_histology_008",
+    "strength": "soft",
+    "reason": "肺泡结构有助于理解扩散距离与交换（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_009",
+    "prerequisiteId": "med_anatomy_003",
+    "strength": "soft",
+    "reason": "消化管与腺体连接有助于理解消化液作用（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_010",
+    "prerequisiteId": "med_histology_009",
+    "strength": "hard",
+    "reason": "肾单位和屏障结构是三种转运过程的解剖基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_011",
+    "prerequisiteId": "med_physiology_001",
+    "strength": "hard",
+    "reason": "内分泌反馈是稳态调节的具体形式（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_012",
+    "prerequisiteId": "med_physiology_003",
+    "strength": "hard",
+    "reason": "理解动作电位阈值有助于区分局部电位的整合（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_012",
+    "prerequisiteId": "med_anatomy_012",
+    "strength": "soft",
+    "reason": "反射弧结构有助于定位传入、中枢和传出环节（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_013",
+    "prerequisiteId": "med_physiology_001",
+    "strength": "hard",
+    "reason": "体温调节可用于理解反馈维持稳态（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_physiology_014",
+    "prerequisiteId": "med_physiology_011",
+    "strength": "soft",
+    "reason": "激素调节帮助理解生长发育及生殖的整合控制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_002",
+    "prerequisiteId": "med_biochem_001",
+    "strength": "hard",
+    "reason": "酶功能依赖其结构与结合位点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_004",
+    "prerequisiteId": "med_biochem_002",
+    "strength": "hard",
+    "reason": "代谢通路方向和调节依赖酶反应特性（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_005",
+    "prerequisiteId": "med_biochem_004",
+    "strength": "soft",
+    "reason": "糖代谢产物与后续氧化相连（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_006",
+    "prerequisiteId": "med_biochem_005",
+    "strength": "soft",
+    "reason": "脂肪酸氧化产生的乙酰辅酶A和还原当量进入共同氧化体系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_007",
+    "prerequisiteId": "med_biochem_001",
+    "strength": "hard",
+    "reason": "氨基酸是蛋白质的组成单位（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_008",
+    "prerequisiteId": "med_biochem_002",
+    "strength": "hard",
+    "reason": "辅酶的意义需结合酶催化理解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_009",
+    "prerequisiteId": "med_biochem_003",
+    "strength": "hard",
+    "reason": "核酸方向性是理解复制组织的必要基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_010",
+    "prerequisiteId": "med_biochem_003",
+    "strength": "hard",
+    "reason": "RNA与DNA的组成和方向性是转录基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_011",
+    "prerequisiteId": "med_biochem_010",
+    "strength": "hard",
+    "reason": "成熟mRNA作为翻译信息模板（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_012",
+    "prerequisiteId": "med_biochem_009",
+    "strength": "hard",
+    "reason": "PCR模拟模板依赖核酸合成的部分原理（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_biochem_012",
+    "prerequisiteId": "med_biochem_011",
+    "strength": "soft",
+    "reason": "比较核酸与蛋白表达需了解信息传递（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_002",
+    "prerequisiteId": "med_anatomy_010",
+    "strength": "soft",
+    "reason": "淋巴器官和回流结构有助于理解免疫细胞循环（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_003",
+    "prerequisiteId": "med_immunology_001",
+    "strength": "hard",
+    "reason": "需先区分免疫识别与后续应答（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_004",
+    "prerequisiteId": "med_immunology_003",
+    "strength": "hard",
+    "reason": "抗体结合的特异性建立在表位识别之上（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_005",
+    "prerequisiteId": "med_immunology_001",
+    "strength": "hard",
+    "reason": "补体是固有免疫重要效应系统，可与适应性免疫相连（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_006",
+    "prerequisiteId": "med_immunology_003",
+    "strength": "hard",
+    "reason": "先明确抗原与表位，才能讨论其加工和呈递（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_007",
+    "prerequisiteId": "med_immunology_006",
+    "strength": "hard",
+    "reason": "T细胞效应识别需要先理解MHC呈递（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_008",
+    "prerequisiteId": "med_immunology_004",
+    "strength": "hard",
+    "reason": "理解抗体结构才能区分类别和结合特性（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_008",
+    "prerequisiteId": "med_immunology_007",
+    "strength": "soft",
+    "reason": "T细胞辅助参与T依赖性B细胞应答（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_009",
+    "prerequisiteId": "med_immunology_007",
+    "strength": "hard",
+    "reason": "T细胞活化规则有助于理解耐受形成（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_009",
+    "prerequisiteId": "med_immunology_008",
+    "strength": "soft",
+    "reason": "B细胞应答与自身抗体形成相连（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_010",
+    "prerequisiteId": "med_immunology_004",
+    "strength": "hard",
+    "reason": "抗体结构和效应有助于理解抗体相关超敏反应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_010",
+    "prerequisiteId": "med_immunology_007",
+    "strength": "hard",
+    "reason": "T细胞效应用于理解Ⅳ型机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_011",
+    "prerequisiteId": "med_immunology_006",
+    "strength": "hard",
+    "reason": "抗原呈递是理解肿瘤识别和逃逸的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_011",
+    "prerequisiteId": "med_immunology_007",
+    "strength": "hard",
+    "reason": "免疫效应分工用于理解不同缺陷和逃逸机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_012",
+    "prerequisiteId": "med_immunology_008",
+    "strength": "hard",
+    "reason": "主动免疫与记忆形成需要B细胞应答基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_immunology_012",
+    "prerequisiteId": "med_immunology_004",
+    "strength": "soft",
+    "reason": "被动免疫和抗体测定涉及抗体效应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_002",
+    "prerequisiteId": "med_microbiology_001",
+    "strength": "hard",
+    "reason": "理解原核细胞结构是细菌壁比较的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_003",
+    "prerequisiteId": "med_microbiology_001",
+    "strength": "hard",
+    "reason": "不同微生物的结构与生活方式决定培养要求（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_004",
+    "prerequisiteId": "med_microbiology_002",
+    "strength": "soft",
+    "reason": "细菌结构有助于理解物质进入和细胞间转移（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_005",
+    "prerequisiteId": "med_microbiology_002",
+    "strength": "hard",
+    "reason": "脂多糖位置和性质是理解内毒素的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_006",
+    "prerequisiteId": "med_microbiology_005",
+    "strength": "hard",
+    "reason": "先理解宿主—病原互动，再比较定植与机会感染（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_007",
+    "prerequisiteId": "med_microbiology_001",
+    "strength": "hard",
+    "reason": "需先区分病毒与完整细胞型微生物（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_008",
+    "prerequisiteId": "med_microbiology_007",
+    "strength": "hard",
+    "reason": "基因组与结构组成是理解复制过程的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_009",
+    "prerequisiteId": "med_microbiology_001",
+    "strength": "hard",
+    "reason": "真核与原核的区别是理解真菌结构的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_010",
+    "prerequisiteId": "med_microbiology_005",
+    "strength": "hard",
+    "reason": "理解宿主与微生物互动才能区分暴露、感染及疾病（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_011",
+    "prerequisiteId": "med_microbiology_003",
+    "strength": "soft",
+    "reason": "微生物存活和生长条件有助于区分处理目标（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_012",
+    "prerequisiteId": "med_microbiology_006",
+    "strength": "hard",
+    "reason": "定植与感染的区别直接影响标本结果解释（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_microbiology_012",
+    "prerequisiteId": "med_microbiology_003",
+    "strength": "soft",
+    "reason": "培养结果受培养条件和可培养性限制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_002",
+    "prerequisiteId": "med_pathology_001",
+    "strength": "hard",
+    "reason": "先区分适应与损伤结局，避免把细胞变化一概当坏死（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_003",
+    "prerequisiteId": "med_pathology_002",
+    "strength": "hard",
+    "reason": "修复方式需结合损伤范围和细胞存活状态（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_004",
+    "prerequisiteId": "med_physiology_007",
+    "strength": "soft",
+    "reason": "血流、压力与阻力关系有助于区分血量和有效灌注（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_005",
+    "prerequisiteId": "med_pathology_002",
+    "strength": "hard",
+    "reason": "梗死的组织结局属于坏死（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_005",
+    "prerequisiteId": "med_pathology_004",
+    "strength": "hard",
+    "reason": "循环障碍为血栓和缺血性损伤提供背景（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_006",
+    "prerequisiteId": "med_anatomy_010",
+    "strength": "soft",
+    "reason": "淋巴回流结构是理解回流障碍性水肿的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_007",
+    "prerequisiteId": "med_pathology_006",
+    "strength": "hard",
+    "reason": "液体交换原理有助于理解炎性渗出（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_008",
+    "prerequisiteId": "med_pathology_007",
+    "strength": "hard",
+    "reason": "慢性炎症需与急性反应及持续刺激联系理解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_008",
+    "prerequisiteId": "med_pathology_003",
+    "strength": "soft",
+    "reason": "名称相近但肉芽组织与肉芽肿机制不同（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_009",
+    "prerequisiteId": "med_pathology_001",
+    "strength": "soft",
+    "reason": "先区分适应性增生与肿瘤性生长（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_010",
+    "prerequisiteId": "med_pathology_009",
+    "strength": "hard",
+    "reason": "肿瘤浸润和转移是理解分期的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_011",
+    "prerequisiteId": "med_pathology_003",
+    "strength": "hard",
+    "reason": "纤维性修复是多器官结构变化的共同基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_011",
+    "prerequisiteId": "med_histology_008",
+    "strength": "soft",
+    "reason": "肺泡结构提供扩散屏障的具体例子（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_012",
+    "prerequisiteId": "med_pathology_009",
+    "strength": "soft",
+    "reason": "肿瘤形态知识有助于理解辅助技术的一个应用领域；取材和检测原则也适用于其他病变（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathology_012",
+    "prerequisiteId": "med_biochem_012",
+    "strength": "soft",
+    "reason": "分子靶标检测的意义需要区分存在、表达和功能（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_002",
+    "prerequisiteId": "med_pathophys_001",
+    "strength": "hard",
+    "reason": "共同机制需放在病因、条件与过程的区分中理解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_003",
+    "prerequisiteId": "med_physiology_002",
+    "strength": "hard",
+    "reason": "跨膜转运与梯度概念是体液变化的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_004",
+    "prerequisiteId": "med_physiology_003",
+    "strength": "hard",
+    "reason": "膜电位和不应期概念帮助理解钾异常的作用（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_005",
+    "prerequisiteId": "med_pathophys_003",
+    "strength": "soft",
+    "reason": "体液溶质与调节关系为酸碱分析提供背景（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_005",
+    "prerequisiteId": "med_physiology_008",
+    "strength": "hard",
+    "reason": "肺通气影响二氧化碳排出（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_006",
+    "prerequisiteId": "med_physiology_007",
+    "strength": "hard",
+    "reason": "氧输送依赖组织血流（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_006",
+    "prerequisiteId": "med_physiology_008",
+    "strength": "hard",
+    "reason": "氧交换和运输是理解缺氧的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_007",
+    "prerequisiteId": "med_physiology_013",
+    "strength": "hard",
+    "reason": "正常体温调节是理解调定点变化的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_008",
+    "prerequisiteId": "med_pathophys_006",
+    "strength": "hard",
+    "reason": "灌注和氧输送关系是休克机制的核心（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_008",
+    "prerequisiteId": "med_physiology_006",
+    "strength": "soft",
+    "reason": "心输出量是泵功能的基础指标（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_009",
+    "prerequisiteId": "med_pathophys_002",
+    "strength": "hard",
+    "reason": "氧化应激和细胞损伤是再灌注机制的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_009",
+    "prerequisiteId": "med_pathophys_006",
+    "strength": "hard",
+    "reason": "缺血阶段涉及组织氧输送不足（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_010",
+    "prerequisiteId": "med_physiology_006",
+    "strength": "hard",
+    "reason": "心动周期和输出量是器官功能分析的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_010",
+    "prerequisiteId": "med_pathophys_008",
+    "strength": "soft",
+    "reason": "泵功能和灌注之间相互联系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_011",
+    "prerequisiteId": "med_physiology_008",
+    "strength": "hard",
+    "reason": "肺通气和肺泡交换概念是功能障碍分析的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_011",
+    "prerequisiteId": "med_pathophys_006",
+    "strength": "soft",
+    "reason": "氧含量和组织供氧帮助理解呼吸异常后果（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_012",
+    "prerequisiteId": "med_physiology_010",
+    "strength": "hard",
+    "reason": "滤过、分泌和清除率是肾功能分析的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_012",
+    "prerequisiteId": "med_pathophys_003",
+    "strength": "soft",
+    "reason": "体液维度有助于理解肾调节作用（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_013",
+    "prerequisiteId": "med_biochem_007",
+    "strength": "hard",
+    "reason": "肝脏氮代谢有助于理解氨相关机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pathophys_014",
+    "prerequisiteId": "med_physiology_014",
+    "strength": "hard",
+    "reason": "正常生长和衰老的概念为功能储备分析提供基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_002",
+    "prerequisiteId": "med_pharmacology_001",
+    "strength": "hard",
+    "reason": "先区分吸收与其他体内过程（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_003",
+    "prerequisiteId": "med_pharmacology_001",
+    "strength": "hard",
+    "reason": "分布属于ADME的组成环节（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_004",
+    "prerequisiteId": "med_pharmacology_001",
+    "strength": "hard",
+    "reason": "需区分代谢、分布与排泄（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_005",
+    "prerequisiteId": "med_pharmacology_003",
+    "strength": "hard",
+    "reason": "分布容积与清除共同影响半衰期（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_005",
+    "prerequisiteId": "med_pharmacology_004",
+    "strength": "soft",
+    "reason": "代谢可贡献清除，但不等于全部清除（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_006",
+    "prerequisiteId": "med_pharmacology_005",
+    "strength": "hard",
+    "reason": "先理解清除和半衰期，再判断模型适用范围（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_007",
+    "prerequisiteId": "med_pharmacology_001",
+    "strength": "hard",
+    "reason": "药效学描述暴露和反应的关系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_008",
+    "prerequisiteId": "med_pharmacology_007",
+    "strength": "hard",
+    "reason": "先理解曲线位置和最大效应才能分析拮抗（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_009",
+    "prerequisiteId": "med_pharmacology_007",
+    "strength": "hard",
+    "reason": "安全评价需要区分药效大小与达到效应的暴露（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_010",
+    "prerequisiteId": "med_pharmacology_004",
+    "strength": "hard",
+    "reason": "代谢酶改变是常见药动相互作用机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_010",
+    "prerequisiteId": "med_pharmacology_008",
+    "strength": "soft",
+    "reason": "受体和效应机制有助于理解药效相互作用（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_011",
+    "prerequisiteId": "med_physiology_012",
+    "strength": "hard",
+    "reason": "突触传递与受体是自主神经药理的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_011",
+    "prerequisiteId": "med_pharmacology_008",
+    "strength": "hard",
+    "reason": "激动与拮抗概念适用于受体药理（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_012",
+    "prerequisiteId": "med_microbiology_002",
+    "strength": "hard",
+    "reason": "细菌结构有助于理解选择性靶点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_012",
+    "prerequisiteId": "med_microbiology_004",
+    "strength": "hard",
+    "reason": "耐药传播与机制影响药物作用理解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_pharmacology_012",
+    "prerequisiteId": "med_pharmacology_010",
+    "strength": "soft",
+    "reason": "暴露和个体因素影响体外结果向实际效应的转化（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_002",
+    "prerequisiteId": "med_diagnostics_001",
+    "strength": "soft",
+    "reason": "问诊有助于获得和澄清症状信息，但症状与体征的区分可独立学习（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_005",
+    "prerequisiteId": "med_diagnostics_001",
+    "strength": "hard",
+    "reason": "病历整理依赖系统病史采集（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_007",
+    "prerequisiteId": "med_diagnostics_006",
+    "strength": "hard",
+    "reason": "质量可靠是使用参考区间解释结果的前提（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_008",
+    "prerequisiteId": "med_diagnostics_007",
+    "strength": "hard",
+    "reason": "应先理解检测指标与疾病状态并非一一对应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_009",
+    "prerequisiteId": "med_diagnostics_008",
+    "strength": "soft",
+    "reason": "灵敏度与特异度可对照理解不同条件分母，二者并列而非必需先后（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_010",
+    "prerequisiteId": "med_diagnostics_008",
+    "strength": "hard",
+    "reason": "预测值与灵敏度使用不同条件和分母（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_010",
+    "prerequisiteId": "med_diagnostics_009",
+    "strength": "hard",
+    "reason": "阳性预测值还受假阳性比例影响（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_011",
+    "prerequisiteId": "med_diagnostics_002",
+    "strength": "hard",
+    "reason": "非特异表现需要多个候选解释（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_011",
+    "prerequisiteId": "med_diagnostics_010",
+    "strength": "soft",
+    "reason": "概率更新帮助整合检测证据（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_012",
+    "prerequisiteId": "med_diagnostics_003",
+    "strength": "soft",
+    "reason": "辅助检查应与病史和体征证据相互补充（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "med_diagnostics_012",
+    "prerequisiteId": "med_diagnostics_011",
+    "strength": "hard",
+    "reason": "围绕问题选择检查属于证据整合的一部分（AI学习建议，未经教师审核）"
+  }
+]

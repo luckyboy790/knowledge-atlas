@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<script src="assets/theme.js"></script>
+<script src="assets/data-manifest.js"></script>
+<script src="assets/subjects.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学科知识图谱</title>
+<meta name="description" content="数学、英语、初高中物理化学、大学物理化学、408、医学、中医与中药知识图谱。核心知识、先修关系、原创测评及教材来源，已经 AI 检查，未经教师审核。">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2315171c'/%3E%3Cpath d='M9.5 21.5 16 10.5l6.5 9' fill='none' stroke='%23fff' stroke-opacity='.55' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='9.5' cy='21.5' r='3.1' fill='%232fc7b4'/%3E%3Ccircle cx='16' cy='10.5' r='3.1' fill='%237ea4ff'/%3E%3Ccircle cx='22.5' cy='19.5' r='3.1' fill='%23f2b84b'/%3E%3C/svg%3E">
+<script>
+(function () {
+  var id = location.hash.replace(/^#/, '');
+  try { id = decodeURIComponent(id); } catch (e) { return; }
+  if (/^cnm_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/index.html#' + encodeURIComponent(id));
+  } else if (/^cne_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/index.html?subject=english#' + encodeURIComponent(id));
+  } else if (/^cnp_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/index.html?subject=physics#' + encodeURIComponent(id));
+  } else if (/^(uphy|uch)_[a-z_]+_\d+$/.test(id)) {
+    location.replace('explore/index.html?subject=' + (/^uphy_/.test(id) ? 'uphysics' : 'uchemistry') + '#' + encodeURIComponent(id));
+  } else if (/^(med|tcm|herbal)_[a-z]+_\d+$/.test(id)) {
+    location.replace('explore/index.html?subject=' + id.split('_')[0] + '#' + encodeURIComponent(id));
+  } else if (/^cs408_[a-z]+_\d+$/.test(id)) {
+    location.replace("explore/index.html?subject=cs408#" + encodeURIComponent(id));
+  } else if (/^cnc_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/index.html?subject=chemistry#' + encodeURIComponent(id));
+  }
+})();
+</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="page-home">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html">
+      <svg class="logo" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#15171c"/><path d="M9.5 21.5 16 10.5l6.5 9" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="21.5" r="3.1" fill="#2fc7b4"/><circle cx="16" cy="10.5" r="3.1" fill="#7ea4ff"/><circle cx="22.5" cy="19.5" r="3.1" fill="#f2b84b"/></svg>
+      <span class="brand-name">学科知识图谱</span>
+    </a>
+    <nav class="subject-switch" aria-label="学科">
+      <a class="subject-link on" data-subject="math" href="./index.html">数学</a>
+      <a class="subject-link" data-subject="english" href="./index.html?subject=english">英语</a>
+      <a class="subject-link" data-subject="physics" href="./index.html?subject=physics">物理</a>
+      <a class="subject-link" data-subject="chemistry" href="./index.html?subject=chemistry">化学</a><a class="subject-link" data-subject="uphysics" href="./index.html?subject=uphysics">大学物理</a><a class="subject-link" data-subject="uchemistry" href="./index.html?subject=uchemistry">大学化学</a><a class="subject-link" data-subject="cs408" href="index.html?subject=cs408">408</a>
+    <a class="subject-link" data-subject="med" href="./index.html?subject=med">医学</a><a class="subject-link" data-subject="tcm" href="./index.html?subject=tcm">中医</a><a class="subject-link" data-subject="herbal" href="./index.html?subject=herbal">中药</a></nav>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-link active" href="./index.html" aria-current="page">首页</a>
+      <a class="nav-link" href="explore/index.html">知识图谱</a>
+      <a class="nav-link" href="diagnose/index.html">诊断</a>
+      <a class="nav-link" href="#about">关于</a>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="切换到深色模式" aria-pressed="false" title="切换到深色模式"><svg class="icon-sun" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="3.6"/><path d="M10 2.2v1.6M10 16.2v1.6M2.2 10h1.6M16.2 10h1.6M4.5 4.5l1.1 1.1M14.4 14.4l1.1 1.1M4.5 15.5l1.1-1.1M14.4 5.6l1.1-1.1"/></svg><svg class="icon-moon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M16.2 12.4A6.6 6.6 0 0 1 7.6 3.8a6.6 6.6 0 1 0 8.6 8.6z"/></svg></button>
+    </nav>
+  </div>
+</header>
+<div class="toy-notice" role="note"><span><strong>内容已经过 AI 审核，但尚未经教师审核。</strong>仅供学习参考，题目与诊断结果请结合教师指导核实。</span></div>
+<main class="home">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">十个学科入口 · 从基础知识到大学课程</p>
+      <h1 id="hero-title"><span class="h1-line">先找到真正</span><span class="h1-line">没学会的<span class="h1-mark">那一步</span></span></h1>
+      <p class="lede">沿着先修关系自适应出题。数学从小学延伸至高等数学、线性代数、概率论与数理统计；大学部分为核心知识点集，英语覆盖三年级到高中，物理、化学衔接初中与高中必修、选择性必修，大学物理与大学化学按本科核心模块组织，408覆盖计算机专业基础四门课程，医学、中医与中药涵盖本科核心课程。从你选的知识点往回追，定位薄弱根因，并给出一条按学习顺序排起的路径。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="diagnose/index.html">开始诊断<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn-lg" href="explore/index.html">浏览知识图谱</a>
+      </div>
+      <p class="quiet-link"><a href="diagnose/index.html?target=cnm_221&amp;demo=1">先看一遍演示：配方法</a></p>
+    </div>
+    <figure class="hero-visual">
+      <div class="viz-head"><span class="viz-title">先修关系总览</span><span class="viz-count" id="viz-count"></span></div>
+      <canvas id="constellation" role="img" aria-label="全部知识点按年级从左到右排列，连线是先修关系；图中依次演示从一个知识点往回追它的先修。"></canvas>
+      <figcaption class="viz-caption" id="viz-caption">正在载入知识点…</figcaption>
+    </figure>
+  </section>
+
+  <section class="band" aria-labelledby="how-title">
+    <div class="band-head">
+      <p class="kicker">工作方式</p>
+      <h2 class="section-title" id="how-title"><span class="chunk">三步，</span><span class="chunk">从目标倒推到根因</span></h2>
+      <p class="band-note">不做整套试卷，只沿着先修关系一路追问，用尽量少的题找出最早没学会的地方。</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <span class="step-no">01</span>
+        <svg class="step-art" viewBox="0 0 220 64" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><rect class="sa-box" x="1" y="16" width="146" height="32" rx="10"/><circle class="sa-glass" cx="18" cy="31" r="5"/><path class="sa-glass" d="m21.8 34.8 3.6 3.6"/><rect class="sa-text" x="34" y="29" width="58" height="6" rx="3"/><path class="sa-caret" d="M98 24v16"/><path class="sa-line" d="M147 32h22"/><circle class="sa-ring" cx="190" cy="32" r="18"/><circle class="sa-ink" cx="190" cy="32" r="10"/></svg>
+        <h3>选知识点</h3>
+        <p>数学从小学到高中、高等数学、线性代数和概率论与数理统计，英语从三年级到高中，物理和化学从初中延伸至高中，大学物理和大学化学设有独立模块，408包含四门专业基础课，医学、中医与中药按本科核心课程组织。搜索或按年级、课程和章节选择内容。</p>
+      </li>
+      <li>
+        <span class="step-no">02</span>
+        <svg class="step-art" viewBox="0 0 220 64" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><rect class="sa-box" x="1" y="10" width="58" height="44" rx="9"/><rect class="sa-text" x="12" y="21" width="30" height="5" rx="2.5"/><rect class="sa-text" x="12" y="31" width="20" height="5" rx="2.5"/><path class="sa-x" d="m40 36 8 8m0-8-8 8"/><path class="sa-line" d="M59 32h12"/><rect class="sa-box" x="71" y="10" width="58" height="44" rx="9"/><rect class="sa-text" x="82" y="21" width="30" height="5" rx="2.5"/><rect class="sa-text" x="82" y="31" width="20" height="5" rx="2.5"/><path class="sa-x" d="m110 36 8 8m0-8-8 8"/><path class="sa-arrow sa-dash" d="M129 32c18 0 22-14 40-14"/><path class="sa-arrow" d="m164 13.5 5.5 4.5-5.5 4.5"/><rect class="sa-j" x="172" y="7" width="46" height="22" rx="7"/><rect class="sa-p" x="172" y="37" width="46" height="22" rx="7"/><path class="sa-line sa-dash" d="M195 29v8"/></svg>
+        <h3>自适应答题</h3>
+        <p>先问目标本身。答错再出一道同级或更容易的题，仍然错才沿着先修往回追。</p>
+      </li>
+      <li>
+        <span class="step-no">03</span>
+        <svg class="step-art" viewBox="0 0 220 64" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><path class="sa-line" d="M14 32h168"/><circle class="sa-bad" cx="14" cy="32" r="9"/><circle class="sa-badring" cx="14" cy="32" r="15"/><circle class="sa-p" cx="70" cy="32" r="8"/><circle class="sa-j" cx="126" cy="32" r="8"/><circle class="sa-ring" cx="190" cy="32" r="17"/><circle class="sa-ink" cx="190" cy="32" r="10"/><path class="sa-arrowhead" d="m40 28 5 4-5 4M96 28l5 4-5 4M152 28l5 4-5 4"/></svg>
+        <h3>找到根因和学习路径</h3>
+        <p>标出薄弱根因和不稳的点，并按年级从低到高排出建议补学的顺序。</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="band" aria-labelledby="stats-title">
+    <div class="band-head">
+      <p class="kicker">规模</p>
+      <h2 class="section-title" id="stats-title">图谱里有什么</h2>
+    </div>
+    <div class="stats-body">
+      <div class="stat-grid" id="stats">
+        <div class="stat-card"><div class="stat-num" id="n-topics">…</div><div class="stat-label">知识点</div></div>
+        <div class="stat-card"><div class="stat-num" id="n-edges">…</div><div class="stat-label">先修边</div></div>
+        <div class="stat-card"><div class="stat-num" id="n-questions">…</div><div class="stat-label">题目</div></div>
+        <div class="stat-card"><div class="stat-num" id="n-standards">…</div><div class="stat-label">中小学课标条目</div></div>
+      </div>
+      <p class="stat-note">数学统计包含中小学原数据与大学核心知识点集；课标数仅统计中小学，大学内容附教材章节，不对应中小学课标。</p>
+      <div id="load-error" class="load-error" hidden></div>
+    </div>
+  </section>
+
+  <section class="band band-wide" aria-labelledby="grades-title">
+    <div class="band-head">
+      <p class="kicker">目录</p>
+      <h2 class="section-title" id="grades-title">按年级进入</h2>
+      <p class="band-note">每张卡片打开对应年级的知识图谱，色条是该年级知识点数量的相对规模。</p>
+    </div>
+    <div class="grade-grid" id="grades" aria-busy="true"></div>
+  </section>
+</main>
+<footer class="site-footer" id="about">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg class="logo" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#15171c"/><path d="M9.5 21.5 16 10.5l6.5 9" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="21.5" r="3.1" fill="#2fc7b4"/><circle cx="16" cy="10.5" r="3.1" fill="#7ea4ff"/><circle cx="22.5" cy="19.5" r="3.1" fill="#f2b84b"/></svg>
+      <p><strong>Toy 适配 · 非商业学习使用</strong>原作者 xiaoyang111222 · 项目 cn-math-taxonomy</p>
+    </div>
+    <p>大学数学、初高中理化、大学理化、408 与医学、中医、中药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="sources.html">查看教材来源与覆盖范围</a></p>
+    <p class="footer-links"><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">原项目源码</a><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">原项目 CC BY-NC 4.0</a><a href="LICENSE">许可证全文</a></p>
+  </div>
+</footer>
+<script src="assets/constellation.js"></script>
+<script src="assets/home.js"></script>
+<script src="assets/medical-ui.js"></script></body>
+</html>

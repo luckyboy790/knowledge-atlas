@@ -1,0 +1,994 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS",
+  "method": "独立复核者先逐题阅读，再用标准库枚举、精确分数及显式公式复算，并对照题库实际正确选项。",
+  "cases_count": 109,
+  "question_file_sha256": "012d7f60f760fb2e570f9619906fdab73b423f4e7ccbbe4f011d742b05ab5bd5",
+  "cases": [
+    {
+      "question_id": "cnm_ps001_q2",
+      "calculation": "枚举不重复有序对，第二项大于第一项的有(1,2)、(1,3)、(2,3)。",
+      "computed_value": "3",
+      "expected_value": "3",
+      "computed_answer_text": "3",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps003_q1",
+      "calculation": "补事件：1−37/100。",
+      "computed_value": "63/100",
+      "expected_value": "63/100",
+      "computed_answer_text": "0.63",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps004_q1",
+      "calculation": "两事件容斥：1/2+2/5−1/5。",
+      "computed_value": "7/10",
+      "expected_value": "7/10",
+      "computed_answer_text": "0.7",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps004_q2",
+      "calculation": "三事件容斥；各原子区域非负，总并概率0.92。",
+      "computed_value": "23/25",
+      "expected_value": "23/25",
+      "computed_answer_text": "0.92",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps005_q1",
+      "calculation": "六个等可能点数中质数为2、3、5。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps005_q2",
+      "calculation": "超几何计数C(4,2)C(3,1)/C(7,3)。",
+      "computed_value": "18/35",
+      "expected_value": "18/35",
+      "computed_answer_text": "18/35",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps006_q1",
+      "calculation": "区间长度比(5−2)/10。",
+      "computed_value": "3/10",
+      "expected_value": "3/10",
+      "computed_answer_text": "3/10",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps006_q2",
+      "calculation": "单位正方形中两直角边各1/2的三角形面积。",
+      "computed_value": "1/8",
+      "expected_value": "1/8",
+      "computed_answer_text": "1/8",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps007_q1",
+      "calculation": "交概率0.1除以正的条件概率0.4。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps007_q2",
+      "calculation": "在等可能条件集合{2,4,6}中枚举{4,6}。",
+      "computed_value": "2/3",
+      "expected_value": "2/3",
+      "computed_answer_text": "2/3",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps008_q1",
+      "calculation": "0.6×0.5。",
+      "computed_value": "3/10",
+      "expected_value": "3/10",
+      "computed_answer_text": "0.3",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps008_q2",
+      "calculation": "不放回指定白黑白路径：(3/5)(2/4)(2/3)。",
+      "computed_value": "1/5",
+      "expected_value": "1/5",
+      "computed_answer_text": "1/5",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps009_q1",
+      "calculation": "按产量加权次品率：0.7×0.02+0.3×0.05。",
+      "computed_value": "29/1000",
+      "expected_value": "29/1000",
+      "computed_answer_text": "0.029",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps009_q2",
+      "calculation": "两袋全概率：(1/3)(3/4)+(2/3)(1/4)。",
+      "computed_value": "5/12",
+      "expected_value": "5/12",
+      "computed_answer_text": "5/12",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps010_q1",
+      "calculation": "交概率0.1 / 已观察事件概率0.25。",
+      "computed_value": "2/5",
+      "expected_value": "2/5",
+      "computed_answer_text": "0.4",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps010_q2",
+      "calculation": "乙厂次品0.012除以全体次品0.018。",
+      "computed_value": "2/3",
+      "expected_value": "2/3",
+      "computed_answer_text": "2/3",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps011_q1",
+      "calculation": "补事件仍独立：(1−0.4)×0.5。",
+      "computed_value": "3/10",
+      "expected_value": "3/10",
+      "computed_answer_text": "0.3",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps011_q2",
+      "calculation": "系统正常是三个都失效的补：1−0.1³。",
+      "computed_value": "999/1000",
+      "expected_value": "999/1000",
+      "computed_answer_text": "0.999",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps012_q2",
+      "calculation": "枚举四个硬币结果：边际均1/2、两两交均1/4、三重交1/4≠1/8。",
+      "computed_value": "[Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 4), Fraction(1, 4), Fraction(1, 4), Fraction(1, 4)]",
+      "expected_value": "[Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 4), Fraction(1, 4), Fraction(1, 4), Fraction(1, 4)]",
+      "computed_answer_text": "两两独立，但不相互独立",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps014_q1",
+      "calculation": "(1+2+3)c=1。",
+      "computed_value": "1/6",
+      "expected_value": "1/6",
+      "computed_answer_text": "1/6",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps014_q2",
+      "calculation": "枚举原支持集，仅2、3的平方不小于4。",
+      "computed_value": "7/10",
+      "expected_value": "7/10",
+      "computed_answer_text": "0.7",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps015_q1",
+      "calculation": "P(1<X≤4)=F(4)−F(1)。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "0.5",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps016_q1",
+      "calculation": "跳跃概率F(2)−F(2−)。",
+      "computed_value": "3/10",
+      "expected_value": "3/10",
+      "computed_answer_text": "0.3",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps016_q2",
+      "calculation": "区间[0,2)包括0点质量0.2和1点质量0.4，排除2点质量。",
+      "computed_value": "3/5",
+      "expected_value": "3/5",
+      "computed_answer_text": "0.6",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps017_q1",
+      "calculation": "指示变量为0对应补事件。",
+      "computed_value": "7/10",
+      "expected_value": "7/10",
+      "computed_answer_text": "0.7",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps017_q2",
+      "calculation": "1−X=1等价于X=0。",
+      "computed_value": "4/5",
+      "expected_value": "4/5",
+      "computed_answer_text": "0.8",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps018_q1",
+      "calculation": "三次独立公平伯努利的二项计数。",
+      "computed_value": "3/8",
+      "expected_value": "3/8",
+      "computed_answer_text": "3/8",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps018_q2",
+      "calculation": "明确失败后继续、成功即停；至少一次成功为1−三次失败概率。",
+      "computed_value": "124/125",
+      "expected_value": "124/125",
+      "computed_answer_text": "0.992",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps019_q1",
+      "calculation": "Poisson(2)的零点概率。",
+      "computed_value": "0.1353352832366127",
+      "expected_value": "0.1353352832366127",
+      "computed_answer_text": "e^(−2)",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps019_q2",
+      "calculation": "泊松相邻概率比λ/(k+1)，在k=1、λ=3时为3/2。",
+      "computed_value": "3/2",
+      "expected_value": "3/2",
+      "computed_answer_text": "3/2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps020_q1",
+      "calculation": "稀有事件泊松近似参数np=2。",
+      "computed_value": "2",
+      "expected_value": "2",
+      "computed_answer_text": "λ=2",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps020_q2",
+      "calculation": "近似1−e^(−np)，与精确1−0.998^1000区分。",
+      "computed_value": "0.8646647167633873",
+      "expected_value": "0.8646647167633873",
+      "computed_answer_text": "1−e^(−2)",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps021_q1",
+      "calculation": "常数密度c在宽1/2区间积分为1。",
+      "computed_value": "2",
+      "expected_value": "2",
+      "computed_answer_text": "2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps021_q2",
+      "calculation": "积分[1/2,1]2x dx=[x²]。",
+      "computed_value": "3/4",
+      "expected_value": "3/4",
+      "computed_answer_text": "3/4",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps022_q1",
+      "calculation": "U(2,8)支持区间长度比。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps022_q2",
+      "calculation": "解(c+2)/6=3/4，结果在支持内。",
+      "computed_value": "5/2",
+      "expected_value": "5/2",
+      "computed_answer_text": "5/2",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps023_q1",
+      "calculation": "率参数2的指数尾概率。",
+      "computed_value": "0.1353352832366127",
+      "expected_value": "0.1353352832366127",
+      "computed_answer_text": "e^(−2)",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps023_q2",
+      "calculation": "直接算条件尾比e^(−9/3)/e^(−6/3)，不从题解读取。",
+      "computed_value": "0.3678794411714423",
+      "expected_value": "0.36787944117144233",
+      "computed_answer_text": "e^(−1)",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps024_q2",
+      "calculation": "标准差√4=2，标准化后为(−1,1)，使用给定Φ值。",
+      "computed_value": "3413/5000",
+      "expected_value": "3413/5000",
+      "computed_answer_text": "0.6826",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps025_q1",
+      "calculation": "下侧0.975分位数的右尾为1−0.975。",
+      "computed_value": "1/40",
+      "expected_value": "1/40",
+      "computed_answer_text": "0.025",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps025_q2",
+      "calculation": "μ+σz=5+√9×1.645。",
+      "computed_value": "1987/200",
+      "expected_value": "1987/200",
+      "computed_answer_text": "9.935",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps026_q1",
+      "calculation": "平方变换合并X=−1和X=1的点概率。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps026_q2",
+      "calculation": "枚举四个等可能原像，截断变换合并3和4。",
+      "computed_value": "[Fraction(1, 4), Fraction(1, 4), Fraction(1, 2)]",
+      "expected_value": "[Fraction(1, 4), Fraction(1, 4), Fraction(1, 2)]",
+      "computed_answer_text": "1/4，1/4，1/2",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps027_q1",
+      "calculation": "单调线性变换支持端点：2和5；常数密度1/3。",
+      "computed_value": "[2, 5]",
+      "expected_value": "[2, 5]",
+      "computed_answer_text": "U(2,5)",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps029_q2",
+      "calculation": "联合CDF四角矩形增量。",
+      "computed_value": "1/5",
+      "expected_value": "1/5",
+      "computed_answer_text": "0.2",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps030_q1",
+      "calculation": "四格联合分布归一化。",
+      "computed_value": "2/5",
+      "expected_value": "2/5",
+      "computed_answer_text": "0.4",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps030_q2",
+      "calculation": "X≠Y为两非对角格的概率之和。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "0.5",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps031_q1",
+      "calculation": "0<x<y<1三角形面积为1/2。",
+      "computed_value": "2",
+      "expected_value": "2",
+      "computed_answer_text": "2",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps031_q2",
+      "calculation": "对0<y<1/2积分2y，原函数y²。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps032_q1",
+      "calculation": "固定X=1，对全部Y求和。",
+      "computed_value": "7/10",
+      "expected_value": "7/10",
+      "computed_answer_text": "0.7",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps033_q2",
+      "calculation": "边缘f_X=x+1/2，在[0,1/2]积分。",
+      "computed_value": "3/8",
+      "expected_value": "3/8",
+      "computed_answer_text": "3/8",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps034_q1",
+      "calculation": "固定X=0行归一化，0.2/0.3。",
+      "computed_value": "2/3",
+      "expected_value": "2/3",
+      "computed_answer_text": "2/3",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps034_q2",
+      "calculation": "条件Y=1，目标格为(X,Y)=(0,1)。",
+      "computed_value": "3/5",
+      "expected_value": "3/5",
+      "computed_answer_text": "3/5",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps035_q2",
+      "calculation": "条件支持(1/2,1)，目标尾区间(3/4,1)的长度比。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps036_q1",
+      "calculation": "独立条件下边际概率乘积。",
+      "computed_value": "3/25",
+      "expected_value": "3/25",
+      "computed_answer_text": "0.12",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps038_q1",
+      "calculation": "独立Bernoulli和为1对应两个互斥格点。",
+      "computed_value": "1/2",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps038_q2",
+      "calculation": "非负泊松变量和为0等价于二者为0，再用独立性。",
+      "computed_value": "0.006737946999085468",
+      "expected_value": "0.006737946999085467",
+      "computed_answer_text": "e^(−5)",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps039_q2",
+      "calculation": "单位正方形右上三角形，两直角边均1/2。",
+      "computed_value": "1/8",
+      "expected_value": "1/8",
+      "computed_answer_text": "1/8",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps040_q1",
+      "calculation": "独立正态和：均值相加，方差相加。",
+      "computed_value": "[3, 13]",
+      "expected_value": "[3, 13]",
+      "computed_answer_text": "N(3,13)",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps040_q2",
+      "calculation": "均值2μ_X−μ_Y+3；独立方差4VarX+VarY。",
+      "computed_value": "[3, 25]",
+      "expected_value": "[3, 25]",
+      "computed_answer_text": "N(3,25)",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps041_q1",
+      "calculation": "最大值≤1/2等价于两个都≤1/2。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps041_q2",
+      "calculation": "最小值≤1/4的补为三个都>1/4。",
+      "computed_value": "37/64",
+      "expected_value": "37/64",
+      "computed_answer_text": "37/64",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps042_q1",
+      "calculation": "Y/X≤1/2在单位正方形中面积为积分x/2 dx=1/4。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps042_q2",
+      "calculation": "按x=1/4分区：面积1/4+积分[1/4,1]1/(4x) dx。",
+      "computed_value": "0.5965735902799727",
+      "expected_value": "0.5965735902799727",
+      "computed_answer_text": "1/4+(ln 4)/4",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps043_q1",
+      "calculation": "离散均值(−1)(2/3)+2(1/3)。",
+      "computed_value": "0",
+      "expected_value": "0",
+      "computed_answer_text": "0",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps044_q1",
+      "calculation": "密度2x的加权积分∫2x² dx。",
+      "computed_value": "2/3",
+      "expected_value": "2/3",
+      "computed_answer_text": "2/3",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps045_q1",
+      "calculation": "先对每个取值平方，再加权，不能先求均值再平方。",
+      "computed_value": "1",
+      "expected_value": "1",
+      "computed_answer_text": "1",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps045_q2",
+      "calculation": "E(XY)=∫[0,1]∫[0,y]2xy dx dy=∫[0,1]y³dy=1/4。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps046_q1",
+      "calculation": "期望线性性，无需独立：2×2−3+4。",
+      "computed_value": "5",
+      "expected_value": "5",
+      "computed_answer_text": "5",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps046_q2",
+      "calculation": "独立复算采用超几何分布逐项求和，与题解的指示变量法交叉验证。",
+      "computed_value": "6/5",
+      "expected_value": "6/5",
+      "computed_answer_text": "6/5",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps047_q1",
+      "calculation": "二阶原点矩减均值平方：7−4。",
+      "computed_value": "3",
+      "expected_value": "3",
+      "computed_answer_text": "3",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps048_q1",
+      "calculation": "Var(aX+b)=a²VarX。",
+      "computed_value": "12",
+      "expected_value": "12",
+      "computed_answer_text": "12",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps048_q2",
+      "calculation": "先把标准差4平方，再乘尺度1/2的平方。",
+      "computed_value": "4",
+      "expected_value": "4",
+      "computed_answer_text": "4",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps049_q1",
+      "calculation": "B(10,0.2)的均值np和方差np(1−p)。",
+      "computed_value": "[Fraction(2, 1), Fraction(8, 5)]",
+      "expected_value": "[2, Fraction(8, 5)]",
+      "computed_answer_text": "2和1.6",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps049_q2",
+      "calculation": "由Var/EX=1−p得p=1/4，再解n=4/p并检验整数性。",
+      "computed_value": "[Fraction(16, 1), Fraction(1, 4)]",
+      "expected_value": "[16, Fraction(1, 4)]",
+      "computed_answer_text": "16和1/4",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps050_q1",
+      "calculation": "U(2,8)均值中点，方差区间宽度平方/12。",
+      "computed_value": "[Fraction(5, 1), Fraction(3, 1)]",
+      "expected_value": "[5, 3]",
+      "computed_answer_text": "5和3",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps050_q2",
+      "calculation": "指数均值为率的倒数，方差为率平方的倒数。",
+      "computed_value": "[Fraction(1, 3), Fraction(9, 1)]",
+      "expected_value": "[Fraction(1, 3), 9]",
+      "computed_answer_text": "1/3和9",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps051_q1",
+      "calculation": "Cov=E(XY)−EX EY。",
+      "computed_value": "3",
+      "expected_value": "3",
+      "computed_answer_text": "3",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps051_q2",
+      "calculation": "协方差双线性：3×(−2)×Cov(X,Y)，平移不影响。",
+      "computed_value": "12",
+      "expected_value": "12",
+      "computed_answer_text": "12",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps052_q1",
+      "calculation": "保留协方差的交叉项2Cov。",
+      "computed_value": "15",
+      "expected_value": "15",
+      "computed_answer_text": "15",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps052_q2",
+      "calculation": "系数平方方差项加2abCov，负系数影响交叉项。",
+      "computed_value": "7",
+      "expected_value": "7",
+      "computed_answer_text": "7",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps053_q1",
+      "calculation": "相关系数除以标准差乘积，不能除以方差乘积。",
+      "computed_value": "0.5",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps053_q2",
+      "calculation": "正方差条件下Y=5−3X给完全负线性相关。",
+      "computed_value": "-1.0",
+      "expected_value": "-1",
+      "computed_answer_text": "−1",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps055_q2",
+      "calculation": "由ρσ_Xσ_Y求非对角项；方差在对角。",
+      "computed_value": "[[4, Fraction(-3, 1)], [Fraction(-3, 1), 9]]",
+      "expected_value": "[[4, -3], [-3, 9]]",
+      "computed_answer_text": "[[4,−3],[−3,9]]",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps056_q1",
+      "calculation": "二阶中心矩=二阶原点矩−均值平方。",
+      "computed_value": "2",
+      "expected_value": "2",
+      "computed_answer_text": "2",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps056_q2",
+      "calculation": "展开(X−1)³并取期望：7−9+3−1。",
+      "computed_value": "0",
+      "expected_value": "0",
+      "computed_answer_text": "0",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps057_q1",
+      "calculation": "切比雪夫尾界σ²/ε²，非精确尾概率。",
+      "computed_value": "1/4",
+      "expected_value": "1/4",
+      "computed_answer_text": "1/4",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps057_q2",
+      "calculation": "独立均值方差1/100；开区间概率的下界取≥尾界的补。",
+      "computed_value": "24/25",
+      "expected_value": "24/25",
+      "computed_answer_text": "0.96",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps059_q2",
+      "calculation": "n须使4/(n×0.5²)≤0.01；取最小满足该充分界的整数。",
+      "computed_value": "1600",
+      "expected_value": "1600",
+      "computed_answer_text": "1600",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps060_q1",
+      "calculation": "伯努利成功频率方差p(1−p)/n。",
+      "computed_value": "1/1600",
+      "expected_value": "1/1600",
+      "computed_answer_text": "1/1600",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps060_q2",
+      "calculation": "n须使0.24/(n×0.05²)≤0.05。",
+      "computed_value": "1920",
+      "expected_value": "1920",
+      "computed_answer_text": "1920",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps062_q2",
+      "calculation": "先独立算z=(230−200)/30=1，再使用题设Φ(1)=0.8413作CLT近似。",
+      "computed_value": "8413/10000",
+      "expected_value": "8413/10000",
+      "computed_answer_text": "0.8413",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps063_q1",
+      "calculation": "二项均值50，方差25，标准差5。",
+      "computed_value": "[Fraction(50, 1), 5.0]",
+      "expected_value": "[50, 5]",
+      "computed_answer_text": "50和5",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps063_q2",
+      "calculation": "整数闭区间[45,55]修正至(44.5,55.5)，标准化为(−1.1,1.1)，使用给定Φ值。",
+      "computed_value": "3643/5000",
+      "expected_value": "3643/5000",
+      "computed_answer_text": "0.7286",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps064_q1",
+      "calculation": "平均值标准差σ/√n，样本量四倍使标准差减半。",
+      "computed_value": "0.5",
+      "expected_value": "1/2",
+      "computed_answer_text": "1/2",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps065_q2",
+      "calculation": "无放回两次红球边际均1/2，而已知首次红球时第二次概率4/9。",
+      "computed_value": "[Fraction(1, 2), Fraction(1, 2), Fraction(4, 9)]",
+      "expected_value": "[Fraction(1, 2), Fraction(1, 2), Fraction(4, 9)]",
+      "computed_answer_text": "X₁、X₂同分布，但不独立",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps067_q1",
+      "calculation": "独立样本均值保留均值5，方差16/n=4。",
+      "computed_value": "[5, Fraction(4, 1)]",
+      "expected_value": "[5, 4]",
+      "computed_answer_text": "5和4",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps067_q2",
+      "calculation": "标准误差σ/√n=12/6。",
+      "computed_value": "2.0",
+      "expected_value": "2",
+      "computed_answer_text": "2",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps068_q1",
+      "calculation": "从原样本重算均值、离差平方和及n−1分母。",
+      "computed_value": "4",
+      "expected_value": "4",
+      "computed_answer_text": "4",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps068_q2",
+      "calculation": "分母n的经验中心矩是(n−1)/n倍无偏样本方差；检查σ²系数。",
+      "computed_value": "4/5",
+      "expected_value": "4/5",
+      "computed_answer_text": "(4/5)σ²",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps069_q1",
+      "calculation": "逐项平方后平均。",
+      "computed_value": "14/3",
+      "expected_value": "14/3",
+      "computed_answer_text": "14/3",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps069_q2",
+      "calculation": "A₂=(n−1)S²/n+X̄²。",
+      "computed_value": "7",
+      "expected_value": "7",
+      "computed_answer_text": "7",
+      "answer_key": "D",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps070_q1",
+      "calculation": "独立标准正态平方和项数即自由度。",
+      "computed_value": "4",
+      "expected_value": "4",
+      "computed_answer_text": "χ²(4)",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps070_q2",
+      "calculation": "独立χ²自由度相加，均值ν、方差2ν。",
+      "computed_value": "[8, 16]",
+      "expected_value": "[8, 16]",
+      "computed_answer_text": "8和16",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps072_q1",
+      "calculation": "分子、分母χ²各自按自由度缩放，保留有序自由度。",
+      "computed_value": "[4, 7]",
+      "expected_value": "[4, 7]",
+      "computed_answer_text": "F(4,7)",
+      "answer_key": "A",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps072_q2",
+      "calculation": "t(6)平方为F(1,6)，取倒数交换两个自由度。",
+      "computed_value": "[6, 1]",
+      "expected_value": "[6, 1]",
+      "computed_answer_text": "F(6,1)",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps073_q1",
+      "calculation": "正态样本校正方差的自由度n−1=9。",
+      "computed_value": "9",
+      "expected_value": "9",
+      "computed_answer_text": "χ²(9)",
+      "answer_key": "B",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps074_q1",
+      "calculation": "正态均值除以样本标准误差，样本量16给t自由度15。",
+      "computed_value": "15",
+      "expected_value": "15",
+      "computed_answer_text": "t(15)",
+      "answer_key": "C",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cnm_ps074_q2",
+      "calculation": "两组独立正态样本各减1自由度，分子5、分母8。",
+      "computed_value": "[5, 8]",
+      "expected_value": "[5, 8]",
+      "computed_answer_text": "F(5,8)",
+      "answer_key": "A",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "本脚本覆盖明确列出的计算与反例，不是全部题目的形式化证明。",
+    "原始摘要、完整选项、概念条件和来源定位的逐项阅读另见内容复核报告。"
+  ]
+}

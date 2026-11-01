@@ -1,0 +1,2522 @@
+{
+  "schema_version": 1,
+  "subject": "uchemistry",
+  "checked_date": "2026-10-31",
+  "reviewer": "/root",
+  "author": "/root/university_chemistry",
+  "status": "PASS_INDEPENDENT_AI_CONTENT_REVIEW_TEACHER_REVIEW_PENDING",
+  "review_type": "independent_AI_full_content_review",
+  "method": "逐点阅读description/mastery、两道题完整题干与4选项/答案/解析、教材定位与所有指向本模块节点的依赖理由；不是教师审核或教材正文逐页校验。",
+  "counts": {
+    "topics": 160,
+    "questions": 320,
+    "dependencies": 187,
+    "books": 5,
+    "findings": 26,
+    "resolved_findings": 26,
+    "open_findings": 0,
+    "independent_numerical_cases": 73
+  },
+  "reviewed_topic_ids": [
+    "uch_structure_001",
+    "uch_structure_002",
+    "uch_structure_003",
+    "uch_structure_004",
+    "uch_structure_005",
+    "uch_structure_006",
+    "uch_structure_007",
+    "uch_structure_008",
+    "uch_structure_009",
+    "uch_structure_010",
+    "uch_structure_011",
+    "uch_structure_012",
+    "uch_structure_013",
+    "uch_structure_014",
+    "uch_structure_015",
+    "uch_structure_016",
+    "uch_structure_017",
+    "uch_structure_018",
+    "uch_structure_019",
+    "uch_structure_020",
+    "uch_structure_021",
+    "uch_structure_022",
+    "uch_structure_023",
+    "uch_structure_024",
+    "uch_thermodynamics_001",
+    "uch_thermodynamics_002",
+    "uch_thermodynamics_003",
+    "uch_thermodynamics_004",
+    "uch_thermodynamics_005",
+    "uch_thermodynamics_006",
+    "uch_thermodynamics_007",
+    "uch_thermodynamics_008",
+    "uch_thermodynamics_009",
+    "uch_thermodynamics_010",
+    "uch_thermodynamics_011",
+    "uch_thermodynamics_012",
+    "uch_thermodynamics_013",
+    "uch_thermodynamics_014",
+    "uch_thermodynamics_015",
+    "uch_thermodynamics_016",
+    "uch_thermodynamics_017",
+    "uch_thermodynamics_018",
+    "uch_thermodynamics_019",
+    "uch_thermodynamics_020",
+    "uch_thermodynamics_021",
+    "uch_thermodynamics_022",
+    "uch_thermodynamics_023",
+    "uch_thermodynamics_024",
+    "uch_kinetics_001",
+    "uch_kinetics_002",
+    "uch_kinetics_003",
+    "uch_kinetics_004",
+    "uch_kinetics_005",
+    "uch_kinetics_006",
+    "uch_kinetics_007",
+    "uch_kinetics_008",
+    "uch_kinetics_009",
+    "uch_kinetics_010",
+    "uch_kinetics_011",
+    "uch_kinetics_012",
+    "uch_kinetics_013",
+    "uch_kinetics_014",
+    "uch_kinetics_015",
+    "uch_kinetics_016",
+    "uch_kinetics_017",
+    "uch_kinetics_018",
+    "uch_solution_001",
+    "uch_solution_002",
+    "uch_solution_003",
+    "uch_solution_004",
+    "uch_solution_005",
+    "uch_solution_006",
+    "uch_solution_007",
+    "uch_solution_008",
+    "uch_solution_009",
+    "uch_solution_010",
+    "uch_solution_011",
+    "uch_solution_012",
+    "uch_solution_013",
+    "uch_solution_014",
+    "uch_solution_015",
+    "uch_solution_016",
+    "uch_solution_017",
+    "uch_solution_018",
+    "uch_solution_019",
+    "uch_solution_020",
+    "uch_solution_021",
+    "uch_solution_022",
+    "uch_electrochemistry_001",
+    "uch_electrochemistry_002",
+    "uch_electrochemistry_003",
+    "uch_electrochemistry_004",
+    "uch_electrochemistry_005",
+    "uch_electrochemistry_006",
+    "uch_electrochemistry_007",
+    "uch_electrochemistry_008",
+    "uch_electrochemistry_009",
+    "uch_electrochemistry_010",
+    "uch_electrochemistry_011",
+    "uch_electrochemistry_012",
+    "uch_electrochemistry_013",
+    "uch_electrochemistry_014",
+    "uch_electrochemistry_015",
+    "uch_electrochemistry_016",
+    "uch_electrochemistry_017",
+    "uch_electrochemistry_018",
+    "uch_organic_001",
+    "uch_organic_002",
+    "uch_organic_003",
+    "uch_organic_004",
+    "uch_organic_005",
+    "uch_organic_006",
+    "uch_organic_007",
+    "uch_organic_008",
+    "uch_organic_009",
+    "uch_organic_010",
+    "uch_organic_011",
+    "uch_organic_012",
+    "uch_organic_013",
+    "uch_organic_014",
+    "uch_organic_015",
+    "uch_organic_016",
+    "uch_organic_017",
+    "uch_organic_018",
+    "uch_organic_019",
+    "uch_organic_020",
+    "uch_organic_021",
+    "uch_organic_022",
+    "uch_organic_023",
+    "uch_organic_024",
+    "uch_organic_025",
+    "uch_organic_026",
+    "uch_analysis_001",
+    "uch_analysis_002",
+    "uch_analysis_003",
+    "uch_analysis_004",
+    "uch_analysis_005",
+    "uch_analysis_006",
+    "uch_analysis_007",
+    "uch_analysis_008",
+    "uch_analysis_009",
+    "uch_analysis_010",
+    "uch_analysis_011",
+    "uch_analysis_012",
+    "uch_analysis_013",
+    "uch_analysis_014",
+    "uch_analysis_015",
+    "uch_analysis_016",
+    "uch_analysis_017",
+    "uch_analysis_018",
+    "uch_analysis_019",
+    "uch_analysis_020",
+    "uch_analysis_021",
+    "uch_analysis_022",
+    "uch_analysis_023",
+    "uch_analysis_024",
+    "uch_analysis_025",
+    "uch_analysis_026",
+    "uch_analysis_027",
+    "uch_analysis_028"
+  ],
+  "reviewed_question_ids": [
+    "uch_structure_001_q1",
+    "uch_structure_001_q2",
+    "uch_structure_002_q1",
+    "uch_structure_002_q2",
+    "uch_structure_003_q1",
+    "uch_structure_003_q2",
+    "uch_structure_004_q1",
+    "uch_structure_004_q2",
+    "uch_structure_005_q1",
+    "uch_structure_005_q2",
+    "uch_structure_006_q1",
+    "uch_structure_006_q2",
+    "uch_structure_007_q1",
+    "uch_structure_007_q2",
+    "uch_structure_008_q1",
+    "uch_structure_008_q2",
+    "uch_structure_009_q1",
+    "uch_structure_009_q2",
+    "uch_structure_010_q1",
+    "uch_structure_010_q2",
+    "uch_structure_011_q1",
+    "uch_structure_011_q2",
+    "uch_structure_012_q1",
+    "uch_structure_012_q2",
+    "uch_structure_013_q1",
+    "uch_structure_013_q2",
+    "uch_structure_014_q1",
+    "uch_structure_014_q2",
+    "uch_structure_015_q1",
+    "uch_structure_015_q2",
+    "uch_structure_016_q1",
+    "uch_structure_016_q2",
+    "uch_structure_017_q1",
+    "uch_structure_017_q2",
+    "uch_structure_018_q1",
+    "uch_structure_018_q2",
+    "uch_structure_019_q1",
+    "uch_structure_019_q2",
+    "uch_structure_020_q1",
+    "uch_structure_020_q2",
+    "uch_structure_021_q1",
+    "uch_structure_021_q2",
+    "uch_structure_022_q1",
+    "uch_structure_022_q2",
+    "uch_structure_023_q1",
+    "uch_structure_023_q2",
+    "uch_structure_024_q1",
+    "uch_structure_024_q2",
+    "uch_thermodynamics_001_q1",
+    "uch_thermodynamics_001_q2",
+    "uch_thermodynamics_002_q1",
+    "uch_thermodynamics_002_q2",
+    "uch_thermodynamics_003_q1",
+    "uch_thermodynamics_003_q2",
+    "uch_thermodynamics_004_q1",
+    "uch_thermodynamics_004_q2",
+    "uch_thermodynamics_005_q1",
+    "uch_thermodynamics_005_q2",
+    "uch_thermodynamics_006_q1",
+    "uch_thermodynamics_006_q2",
+    "uch_thermodynamics_007_q1",
+    "uch_thermodynamics_007_q2",
+    "uch_thermodynamics_008_q1",
+    "uch_thermodynamics_008_q2",
+    "uch_thermodynamics_009_q1",
+    "uch_thermodynamics_009_q2",
+    "uch_thermodynamics_010_q1",
+    "uch_thermodynamics_010_q2",
+    "uch_thermodynamics_011_q1",
+    "uch_thermodynamics_011_q2",
+    "uch_thermodynamics_012_q1",
+    "uch_thermodynamics_012_q2",
+    "uch_thermodynamics_013_q1",
+    "uch_thermodynamics_013_q2",
+    "uch_thermodynamics_014_q1",
+    "uch_thermodynamics_014_q2",
+    "uch_thermodynamics_015_q1",
+    "uch_thermodynamics_015_q2",
+    "uch_thermodynamics_016_q1",
+    "uch_thermodynamics_016_q2",
+    "uch_thermodynamics_017_q1",
+    "uch_thermodynamics_017_q2",
+    "uch_thermodynamics_018_q1",
+    "uch_thermodynamics_018_q2",
+    "uch_thermodynamics_019_q1",
+    "uch_thermodynamics_019_q2",
+    "uch_thermodynamics_020_q1",
+    "uch_thermodynamics_020_q2",
+    "uch_thermodynamics_021_q1",
+    "uch_thermodynamics_021_q2",
+    "uch_thermodynamics_022_q1",
+    "uch_thermodynamics_022_q2",
+    "uch_thermodynamics_023_q1",
+    "uch_thermodynamics_023_q2",
+    "uch_thermodynamics_024_q1",
+    "uch_thermodynamics_024_q2",
+    "uch_kinetics_001_q1",
+    "uch_kinetics_001_q2",
+    "uch_kinetics_002_q1",
+    "uch_kinetics_002_q2",
+    "uch_kinetics_003_q1",
+    "uch_kinetics_003_q2",
+    "uch_kinetics_004_q1",
+    "uch_kinetics_004_q2",
+    "uch_kinetics_005_q1",
+    "uch_kinetics_005_q2",
+    "uch_kinetics_006_q1",
+    "uch_kinetics_006_q2",
+    "uch_kinetics_007_q1",
+    "uch_kinetics_007_q2",
+    "uch_kinetics_008_q1",
+    "uch_kinetics_008_q2",
+    "uch_kinetics_009_q1",
+    "uch_kinetics_009_q2",
+    "uch_kinetics_010_q1",
+    "uch_kinetics_010_q2",
+    "uch_kinetics_011_q1",
+    "uch_kinetics_011_q2",
+    "uch_kinetics_012_q1",
+    "uch_kinetics_012_q2",
+    "uch_kinetics_013_q1",
+    "uch_kinetics_013_q2",
+    "uch_kinetics_014_q1",
+    "uch_kinetics_014_q2",
+    "uch_kinetics_015_q1",
+    "uch_kinetics_015_q2",
+    "uch_kinetics_016_q1",
+    "uch_kinetics_016_q2",
+    "uch_kinetics_017_q1",
+    "uch_kinetics_017_q2",
+    "uch_kinetics_018_q1",
+    "uch_kinetics_018_q2",
+    "uch_solution_001_q1",
+    "uch_solution_001_q2",
+    "uch_solution_002_q1",
+    "uch_solution_002_q2",
+    "uch_solution_003_q1",
+    "uch_solution_003_q2",
+    "uch_solution_004_q1",
+    "uch_solution_004_q2",
+    "uch_solution_005_q1",
+    "uch_solution_005_q2",
+    "uch_solution_006_q1",
+    "uch_solution_006_q2",
+    "uch_solution_007_q1",
+    "uch_solution_007_q2",
+    "uch_solution_008_q1",
+    "uch_solution_008_q2",
+    "uch_solution_009_q1",
+    "uch_solution_009_q2",
+    "uch_solution_010_q1",
+    "uch_solution_010_q2",
+    "uch_solution_011_q1",
+    "uch_solution_011_q2",
+    "uch_solution_012_q1",
+    "uch_solution_012_q2",
+    "uch_solution_013_q1",
+    "uch_solution_013_q2",
+    "uch_solution_014_q1",
+    "uch_solution_014_q2",
+    "uch_solution_015_q1",
+    "uch_solution_015_q2",
+    "uch_solution_016_q1",
+    "uch_solution_016_q2",
+    "uch_solution_017_q1",
+    "uch_solution_017_q2",
+    "uch_solution_018_q1",
+    "uch_solution_018_q2",
+    "uch_solution_019_q1",
+    "uch_solution_019_q2",
+    "uch_solution_020_q1",
+    "uch_solution_020_q2",
+    "uch_solution_021_q1",
+    "uch_solution_021_q2",
+    "uch_solution_022_q1",
+    "uch_solution_022_q2",
+    "uch_electrochemistry_001_q1",
+    "uch_electrochemistry_001_q2",
+    "uch_electrochemistry_002_q1",
+    "uch_electrochemistry_002_q2",
+    "uch_electrochemistry_003_q1",
+    "uch_electrochemistry_003_q2",
+    "uch_electrochemistry_004_q1",
+    "uch_electrochemistry_004_q2",
+    "uch_electrochemistry_005_q1",
+    "uch_electrochemistry_005_q2",
+    "uch_electrochemistry_006_q1",
+    "uch_electrochemistry_006_q2",
+    "uch_electrochemistry_007_q1",
+    "uch_electrochemistry_007_q2",
+    "uch_electrochemistry_008_q1",
+    "uch_electrochemistry_008_q2",
+    "uch_electrochemistry_009_q1",
+    "uch_electrochemistry_009_q2",
+    "uch_electrochemistry_010_q1",
+    "uch_electrochemistry_010_q2",
+    "uch_electrochemistry_011_q1",
+    "uch_electrochemistry_011_q2",
+    "uch_electrochemistry_012_q1",
+    "uch_electrochemistry_012_q2",
+    "uch_electrochemistry_013_q1",
+    "uch_electrochemistry_013_q2",
+    "uch_electrochemistry_014_q1",
+    "uch_electrochemistry_014_q2",
+    "uch_electrochemistry_015_q1",
+    "uch_electrochemistry_015_q2",
+    "uch_electrochemistry_016_q1",
+    "uch_electrochemistry_016_q2",
+    "uch_electrochemistry_017_q1",
+    "uch_electrochemistry_017_q2",
+    "uch_electrochemistry_018_q1",
+    "uch_electrochemistry_018_q2",
+    "uch_organic_001_q1",
+    "uch_organic_001_q2",
+    "uch_organic_002_q1",
+    "uch_organic_002_q2",
+    "uch_organic_003_q1",
+    "uch_organic_003_q2",
+    "uch_organic_004_q1",
+    "uch_organic_004_q2",
+    "uch_organic_005_q1",
+    "uch_organic_005_q2",
+    "uch_organic_006_q1",
+    "uch_organic_006_q2",
+    "uch_organic_007_q1",
+    "uch_organic_007_q2",
+    "uch_organic_008_q1",
+    "uch_organic_008_q2",
+    "uch_organic_009_q1",
+    "uch_organic_009_q2",
+    "uch_organic_010_q1",
+    "uch_organic_010_q2",
+    "uch_organic_011_q1",
+    "uch_organic_011_q2",
+    "uch_organic_012_q1",
+    "uch_organic_012_q2",
+    "uch_organic_013_q1",
+    "uch_organic_013_q2",
+    "uch_organic_014_q1",
+    "uch_organic_014_q2",
+    "uch_organic_015_q1",
+    "uch_organic_015_q2",
+    "uch_organic_016_q1",
+    "uch_organic_016_q2",
+    "uch_organic_017_q1",
+    "uch_organic_017_q2",
+    "uch_organic_018_q1",
+    "uch_organic_018_q2",
+    "uch_organic_019_q1",
+    "uch_organic_019_q2",
+    "uch_organic_020_q1",
+    "uch_organic_020_q2",
+    "uch_organic_021_q1",
+    "uch_organic_021_q2",
+    "uch_organic_022_q1",
+    "uch_organic_022_q2",
+    "uch_organic_023_q1",
+    "uch_organic_023_q2",
+    "uch_organic_024_q1",
+    "uch_organic_024_q2",
+    "uch_organic_025_q1",
+    "uch_organic_025_q2",
+    "uch_organic_026_q1",
+    "uch_organic_026_q2",
+    "uch_analysis_001_q1",
+    "uch_analysis_001_q2",
+    "uch_analysis_002_q1",
+    "uch_analysis_002_q2",
+    "uch_analysis_003_q1",
+    "uch_analysis_003_q2",
+    "uch_analysis_004_q1",
+    "uch_analysis_004_q2",
+    "uch_analysis_005_q1",
+    "uch_analysis_005_q2",
+    "uch_analysis_006_q1",
+    "uch_analysis_006_q2",
+    "uch_analysis_007_q1",
+    "uch_analysis_007_q2",
+    "uch_analysis_008_q1",
+    "uch_analysis_008_q2",
+    "uch_analysis_009_q1",
+    "uch_analysis_009_q2",
+    "uch_analysis_010_q1",
+    "uch_analysis_010_q2",
+    "uch_analysis_011_q1",
+    "uch_analysis_011_q2",
+    "uch_analysis_012_q1",
+    "uch_analysis_012_q2",
+    "uch_analysis_013_q1",
+    "uch_analysis_013_q2",
+    "uch_analysis_014_q1",
+    "uch_analysis_014_q2",
+    "uch_analysis_015_q1",
+    "uch_analysis_015_q2",
+    "uch_analysis_016_q1",
+    "uch_analysis_016_q2",
+    "uch_analysis_017_q1",
+    "uch_analysis_017_q2",
+    "uch_analysis_018_q1",
+    "uch_analysis_018_q2",
+    "uch_analysis_019_q1",
+    "uch_analysis_019_q2",
+    "uch_analysis_020_q1",
+    "uch_analysis_020_q2",
+    "uch_analysis_021_q1",
+    "uch_analysis_021_q2",
+    "uch_analysis_022_q1",
+    "uch_analysis_022_q2",
+    "uch_analysis_023_q1",
+    "uch_analysis_023_q2",
+    "uch_analysis_024_q1",
+    "uch_analysis_024_q2",
+    "uch_analysis_025_q1",
+    "uch_analysis_025_q2",
+    "uch_analysis_026_q1",
+    "uch_analysis_026_q2",
+    "uch_analysis_027_q1",
+    "uch_analysis_027_q2",
+    "uch_analysis_028_q1",
+    "uch_analysis_028_q2"
+  ],
+  "reviewed_dependencies": [
+    {
+      "topicId": "uch_structure_002",
+      "prerequisiteId": "uch_structure_001",
+      "strength": "hard",
+      "reason": "用理想气体模型推导同温同体积下的组分压力（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_003",
+      "prerequisiteId": "uch_structure_001",
+      "strength": "hard",
+      "reason": "压缩因子以理想气体摩尔体积为比较基准（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_005",
+      "prerequisiteId": "uch_structure_004",
+      "strength": "soft",
+      "reason": "先区分量子态与经典轨道，再解释概率分布（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_006",
+      "prerequisiteId": "uch_structure_004",
+      "strength": "hard",
+      "reason": "用m_l取值数目统计轨道（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_007",
+      "prerequisiteId": "uch_structure_004",
+      "strength": "hard",
+      "reason": "四量子数是判断电子态是否相同的依据（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_008",
+      "prerequisiteId": "uch_structure_007",
+      "strength": "hard",
+      "reason": "洪特排布同时受同轨道最多两电子的限制（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_009",
+      "prerequisiteId": "uch_structure_007",
+      "strength": "hard",
+      "reason": "电子构型必须满足轨道容量与不相容原理（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_009",
+      "prerequisiteId": "uch_structure_008",
+      "strength": "soft",
+      "reason": "未成对电子计数依赖基态轨道占据规则（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_010",
+      "prerequisiteId": "uch_structure_009",
+      "strength": "soft",
+      "reason": "周期趋势须结合电子层结构理解（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_011",
+      "prerequisiteId": "uch_structure_010",
+      "strength": "hard",
+      "reason": "有效核吸引与电子层结构影响移除电子的能量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_012",
+      "prerequisiteId": "uch_structure_007",
+      "strength": "soft",
+      "reason": "电子对与单电子的计数须符合轨道电子容量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_013",
+      "prerequisiteId": "uch_structure_012",
+      "strength": "hard",
+      "reason": "先从路易斯结构识别成键域和孤电子对（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_014",
+      "prerequisiteId": "uch_structure_013",
+      "strength": "hard",
+      "reason": "局域成键模型需与实际几何构型相协调（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_015",
+      "prerequisiteId": "uch_structure_004",
+      "strength": "soft",
+      "reason": "分子轨道建立在量子态与轨道概念之上（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_016",
+      "prerequisiteId": "uch_structure_015",
+      "strength": "hard",
+      "reason": "键级与磁性必须从分子轨道的占据判断（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_016",
+      "prerequisiteId": "uch_structure_008",
+      "strength": "hard",
+      "reason": "简并分子轨道的占据采用洪特规则（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_017",
+      "prerequisiteId": "uch_structure_013",
+      "strength": "hard",
+      "reason": "偶极叠加必须先知道分子几何结构（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_018",
+      "prerequisiteId": "uch_structure_017",
+      "strength": "soft",
+      "reason": "先区分永久偶极与瞬时诱导偶极（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_019",
+      "prerequisiteId": "uch_structure_018",
+      "strength": "soft",
+      "reason": "在分子间作用分类中理解氢键的结构要求（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_021",
+      "prerequisiteId": "uch_structure_020",
+      "strength": "soft",
+      "reason": "晶体周期结构使不同晶面散射产生相干叠加（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_022",
+      "prerequisiteId": "uch_structure_020",
+      "strength": "hard",
+      "reason": "缺陷概念以完整晶格位置为参照（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_023",
+      "prerequisiteId": "uch_structure_012",
+      "strength": "soft",
+      "reason": "先区分总电荷与原子形式电荷等记账概念（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_024",
+      "prerequisiteId": "uch_structure_023",
+      "strength": "hard",
+      "reason": "比较构型前需正确确定配位数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_structure_024",
+      "prerequisiteId": "uch_structure_008",
+      "strength": "hard",
+      "reason": "磁性判断需能辨认未成对电子（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_002",
+      "prerequisiteId": "uch_thermodynamics_001",
+      "strength": "hard",
+      "reason": "能量守恒须区分系统状态变化与能量传递（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_003",
+      "prerequisiteId": "uch_thermodynamics_002",
+      "strength": "hard",
+      "reason": "需要统一功的正负号约定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_004",
+      "prerequisiteId": "uch_thermodynamics_002",
+      "strength": "hard",
+      "reason": "热容关系来自能量守恒和过程约束（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_004",
+      "prerequisiteId": "uch_structure_001",
+      "strength": "hard",
+      "reason": "理想气体状态方程是热容差推导的条件（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_005",
+      "prerequisiteId": "uch_thermodynamics_002",
+      "strength": "hard",
+      "reason": "恒压热与焓的关系需由完整能量平衡判断（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_005",
+      "prerequisiteId": "uch_thermodynamics_003",
+      "strength": "hard",
+      "reason": "识别体积功才能判断是否还有非体积功（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_006",
+      "prerequisiteId": "uch_thermodynamics_005",
+      "strength": "hard",
+      "reason": "焓是状态函数，才可对路径进行组合（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_007",
+      "prerequisiteId": "uch_thermodynamics_004",
+      "strength": "hard",
+      "reason": "需理解热容与温度变化的能量关系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_007",
+      "prerequisiteId": "uch_thermodynamics_006",
+      "strength": "hard",
+      "reason": "修正的是同一反应计量基准下的反应焓（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_008",
+      "prerequisiteId": "uch_thermodynamics_003",
+      "strength": "hard",
+      "reason": "比较过程功需理解外压随体积变化（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_009",
+      "prerequisiteId": "uch_thermodynamics_008",
+      "strength": "hard",
+      "reason": "熵定义中的可逆路径不能与任意缓慢过程混淆（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_010",
+      "prerequisiteId": "uch_thermodynamics_009",
+      "strength": "hard",
+      "reason": "总熵判据以系统和环境各自熵变的计算为基础（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_011",
+      "prerequisiteId": "uch_thermodynamics_005",
+      "strength": "hard",
+      "reason": "G由焓与温熵项共同决定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_011",
+      "prerequisiteId": "uch_thermodynamics_010",
+      "strength": "soft",
+      "reason": "恒温恒压的自由能判据可由总熵原则导出（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_012",
+      "prerequisiteId": "uch_thermodynamics_009",
+      "strength": "hard",
+      "reason": "使用温熵项需明确熵的单位与意义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_012",
+      "prerequisiteId": "uch_thermodynamics_002",
+      "strength": "hard",
+      "reason": "A以系统内能为组成量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_013",
+      "prerequisiteId": "uch_thermodynamics_011",
+      "strength": "hard",
+      "reason": "化学势是多组分体系G对组成变化的响应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_014",
+      "prerequisiteId": "uch_thermodynamics_013",
+      "strength": "soft",
+      "reason": "偏摩尔概念有助于区分整体量与组分增量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_015",
+      "prerequisiteId": "uch_thermodynamics_013",
+      "strength": "hard",
+      "reason": "活度把组成对化学势的影响写成可比较的标准态形式（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_016",
+      "prerequisiteId": "uch_thermodynamics_015",
+      "strength": "hard",
+      "reason": "反应商必须用与标准态相容的无量纲活度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_017",
+      "prerequisiteId": "uch_thermodynamics_016",
+      "strength": "hard",
+      "reason": "平衡是实际反应商达到K的状态（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_018",
+      "prerequisiteId": "uch_thermodynamics_017",
+      "strength": "hard",
+      "reason": "K与反应式计量基准和标准自由能对应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_019",
+      "prerequisiteId": "uch_thermodynamics_017",
+      "strength": "hard",
+      "reason": "需区分热力学平衡常数与当前组成商（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_019",
+      "prerequisiteId": "uch_thermodynamics_007",
+      "strength": "soft",
+      "reason": "更大温区的计算需处理反应焓随温度变化（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_020",
+      "prerequisiteId": "uch_thermodynamics_016",
+      "strength": "hard",
+      "reason": "应先用各组分分压建立Q再比较K（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_020",
+      "prerequisiteId": "uch_structure_002",
+      "strength": "hard",
+      "reason": "气体反应商使用组分分压而非总压（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_022",
+      "prerequisiteId": "uch_thermodynamics_013",
+      "strength": "soft",
+      "reason": "相平衡曲线来自两相化学势相等条件（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_022",
+      "prerequisiteId": "uch_thermodynamics_021",
+      "strength": "soft",
+      "reason": "相图上的共存线需与自由度联系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_023",
+      "prerequisiteId": "uch_thermodynamics_015",
+      "strength": "hard",
+      "reason": "溶液标准态的选取决定活度及常数表达（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_thermodynamics_024",
+      "prerequisiteId": "uch_thermodynamics_021",
+      "strength": "hard",
+      "reason": "需先明确处于两相区及相组成的含义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_002",
+      "prerequisiteId": "uch_kinetics_001",
+      "strength": "hard",
+      "reason": "速率方程中的v需先有明确归一化定义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_003",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "需要把速率比与浓度指数联系起来（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_004",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "k的量纲由浓度指数确定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_005",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "零级是浓度指数为零的特定速率规律（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_006",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "需先确定速率对A的一次依赖（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_007",
+      "prerequisiteId": "uch_kinetics_001",
+      "strength": "hard",
+      "reason": "积分式的k必须与所用消耗速率定义相符（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_007",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "积分形式取决于浓度指数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_008",
+      "prerequisiteId": "uch_kinetics_006",
+      "strength": "hard",
+      "reason": "准一级使用一级积分规律处理观察数据（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_008",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "需保留原始浓度指数以解释表观常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_009",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "温度通过k影响速率，需与浓度影响区分（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_010",
+      "prerequisiteId": "uch_kinetics_009",
+      "strength": "hard",
+      "reason": "解释活化能需与初末态能量差分开（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_010",
+      "prerequisiteId": "uch_thermodynamics_011",
+      "strength": "soft",
+      "reason": "热力学有利不能直接推出速率快（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_011",
+      "prerequisiteId": "uch_kinetics_002",
+      "strength": "hard",
+      "reason": "必须区别经验级数与机理中的粒子计数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_012",
+      "prerequisiteId": "uch_kinetics_011",
+      "strength": "hard",
+      "reason": "中间体属于多步骤机理的物种（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_013",
+      "prerequisiteId": "uch_kinetics_001",
+      "strength": "hard",
+      "reason": "需要分别计算物种的生成和消耗贡献（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_013",
+      "prerequisiteId": "uch_kinetics_012",
+      "strength": "soft",
+      "reason": "瞬时净积累为零与长期稳态近似应区分（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_014",
+      "prerequisiteId": "uch_kinetics_010",
+      "strength": "hard",
+      "reason": "催化改变势垒而非初末态能差（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_014",
+      "prerequisiteId": "uch_thermodynamics_017",
+      "strength": "hard",
+      "reason": "平衡常数由标准自由能决定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_015",
+      "prerequisiteId": "uch_kinetics_014",
+      "strength": "soft",
+      "reason": "吸附模型可帮助解释多相催化的位点效应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_017",
+      "prerequisiteId": "uch_kinetics_016",
+      "strength": "hard",
+      "reason": "曲面压力由表面张力与几何曲率决定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_kinetics_018",
+      "prerequisiteId": "uch_kinetics_016",
+      "strength": "hard",
+      "reason": "润湿由不同界面的自由能竞争决定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_002",
+      "prerequisiteId": "uch_solution_001",
+      "strength": "hard",
+      "reason": "离子强度必须使用一致的离子浓度标度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_002",
+      "prerequisiteId": "uch_thermodynamics_015",
+      "strength": "hard",
+      "reason": "活度系数是非理想性修正的概念基础（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_003",
+      "prerequisiteId": "uch_thermodynamics_023",
+      "strength": "hard",
+      "reason": "蒸气压下降使用溶剂的拉乌尔近似（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_004",
+      "prerequisiteId": "uch_solution_001",
+      "strength": "hard",
+      "reason": "依数性公式使用质量摩尔浓度而非任意浓度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_005",
+      "prerequisiteId": "uch_solution_001",
+      "strength": "hard",
+      "reason": "渗透压计算中浓度与R的单位必须相容（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_007",
+      "prerequisiteId": "uch_solution_006",
+      "strength": "hard",
+      "reason": "常数相乘关系只适用于共轭酸碱对（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_008",
+      "prerequisiteId": "uch_thermodynamics_015",
+      "strength": "hard",
+      "reason": "pH以无量纲活度作为对数自变量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_009",
+      "prerequisiteId": "uch_solution_007",
+      "strength": "hard",
+      "reason": "需知道酸解离常数的含义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_009",
+      "prerequisiteId": "uch_solution_008",
+      "strength": "hard",
+      "reason": "由氢离子活度或其稀溶液近似求pH（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_010",
+      "prerequisiteId": "uch_solution_007",
+      "strength": "hard",
+      "reason": "需正确使用碱的解离常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_010",
+      "prerequisiteId": "uch_solution_008",
+      "strength": "hard",
+      "reason": "pH与pOH的转换取决于温度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_011",
+      "prerequisiteId": "uch_solution_006",
+      "strength": "hard",
+      "reason": "逐级解离可逐对用共轭酸碱描述（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_011",
+      "prerequisiteId": "uch_solution_007",
+      "strength": "hard",
+      "reason": "每一级有独立常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_012",
+      "prerequisiteId": "uch_solution_006",
+      "strength": "hard",
+      "reason": "缓冲需由相应共轭酸碱共同构成（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_012",
+      "prerequisiteId": "uch_solution_009",
+      "strength": "soft",
+      "reason": "缓冲公式来自弱酸解离平衡（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_013",
+      "prerequisiteId": "uch_solution_012",
+      "strength": "hard",
+      "reason": "要先明确pH取决于共轭比（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_014",
+      "prerequisiteId": "uch_solution_007",
+      "strength": "hard",
+      "reason": "共轭常数关系可说明水解强弱（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_015",
+      "prerequisiteId": "uch_solution_012",
+      "strength": "hard",
+      "reason": "分布分数可由共轭比例进行换算（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_016",
+      "prerequisiteId": "uch_thermodynamics_017",
+      "strength": "hard",
+      "reason": "溶度积是指定溶解反应的平衡常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_017",
+      "prerequisiteId": "uch_solution_016",
+      "strength": "hard",
+      "reason": "沉淀判据需使用对应的Ksp表达式（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_018",
+      "prerequisiteId": "uch_solution_016",
+      "strength": "hard",
+      "reason": "需要从Ksp平衡关系解释共同离子影响（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_019",
+      "prerequisiteId": "uch_solution_017",
+      "strength": "hard",
+      "reason": "需以达到饱和的离子积阈值判断起点（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_020",
+      "prerequisiteId": "uch_thermodynamics_018",
+      "strength": "hard",
+      "reason": "配位步骤的累积常数遵循反应相加规则（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_020",
+      "prerequisiteId": "uch_structure_023",
+      "strength": "hard",
+      "reason": "写配位平衡需识别配体与中心离子（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_021",
+      "prerequisiteId": "uch_solution_015",
+      "strength": "hard",
+      "reason": "条件常数需要知道游离配体的形态分布（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_021",
+      "prerequisiteId": "uch_solution_020",
+      "strength": "hard",
+      "reason": "要先明确形成常数对应的反应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_022",
+      "prerequisiteId": "uch_structure_023",
+      "strength": "hard",
+      "reason": "螯合首先需要理解配体齿数与配位数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_solution_022",
+      "prerequisiteId": "uch_solution_020",
+      "strength": "soft",
+      "reason": "稳定性比较应落实到明确平衡常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_002",
+      "prerequisiteId": "uch_electrochemistry_001",
+      "strength": "hard",
+      "reason": "电池图式与电极氧化还原角色相联系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_003",
+      "prerequisiteId": "uch_electrochemistry_002",
+      "strength": "hard",
+      "reason": "需要统一半反应方向以比较电势（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_004",
+      "prerequisiteId": "uch_electrochemistry_003",
+      "strength": "hard",
+      "reason": "标准电势和实际可逆电势需要区分（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_004",
+      "prerequisiteId": "uch_thermodynamics_016",
+      "strength": "hard",
+      "reason": "能斯特关系使用写定反应的活度商（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_005",
+      "prerequisiteId": "uch_electrochemistry_004",
+      "strength": "hard",
+      "reason": "Q与n必须正确才可使用能斯特方程（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_006",
+      "prerequisiteId": "uch_electrochemistry_004",
+      "strength": "hard",
+      "reason": "需要明确可逆电动势及电子计量数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_006",
+      "prerequisiteId": "uch_thermodynamics_011",
+      "strength": "hard",
+      "reason": "电池反应方向以吉布斯能变化判断（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_007",
+      "prerequisiteId": "uch_electrochemistry_006",
+      "strength": "hard",
+      "reason": "电势先转换为标准反应自由能（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_007",
+      "prerequisiteId": "uch_thermodynamics_017",
+      "strength": "hard",
+      "reason": "标准自由能再关联标准平衡常数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_008",
+      "prerequisiteId": "uch_electrochemistry_004",
+      "strength": "hard",
+      "reason": "浓差电动势由两侧能斯特电势之差给出（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_009",
+      "prerequisiteId": "uch_electrochemistry_004",
+      "strength": "hard",
+      "reason": "必须按能斯特方程检查反应商（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_009",
+      "prerequisiteId": "uch_solution_020",
+      "strength": "soft",
+      "reason": "配位改变游离金属离子的活度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_010",
+      "prerequisiteId": "uch_electrochemistry_001",
+      "strength": "hard",
+      "reason": "需由阴极或阳极反应写出电子计量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_011",
+      "prerequisiteId": "uch_electrochemistry_010",
+      "strength": "hard",
+      "reason": "理论产量由法拉第计量先计算（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_013",
+      "prerequisiteId": "uch_electrochemistry_012",
+      "strength": "hard",
+      "reason": "摩尔电导率以电导率而非直接电导计算（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_014",
+      "prerequisiteId": "uch_electrochemistry_012",
+      "strength": "soft",
+      "reason": "离子共同贡献溶液中的电流（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_015",
+      "prerequisiteId": "uch_electrochemistry_004",
+      "strength": "hard",
+      "reason": "需要先有平衡电极电势作参照（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_016",
+      "prerequisiteId": "uch_electrochemistry_015",
+      "strength": "hard",
+      "reason": "工作电压需要计入电极偏离平衡的代价（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_017",
+      "prerequisiteId": "uch_electrochemistry_001",
+      "strength": "hard",
+      "reason": "腐蚀的阴阳极以氧化还原定义判断（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_017",
+      "prerequisiteId": "uch_electrochemistry_015",
+      "strength": "soft",
+      "reason": "实际腐蚀电流受极化与传质等影响（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_electrochemistry_018",
+      "prerequisiteId": "uch_electrochemistry_010",
+      "strength": "soft",
+      "reason": "容量可由电荷与反应计量建立联系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_002",
+      "prerequisiteId": "uch_organic_001",
+      "strength": "hard",
+      "reason": "亲核/亲电角色由电子对转移定义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_003",
+      "prerequisiteId": "uch_structure_012",
+      "strength": "hard",
+      "reason": "共振需正确分配形式电荷与价电子（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_004",
+      "prerequisiteId": "uch_solution_006",
+      "strength": "hard",
+      "reason": "酸性比较需先识别其共轭碱（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_004",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "soft",
+      "reason": "需区分诱导效应与电子离域效应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_006",
+      "prerequisiteId": "uch_organic_005",
+      "strength": "hard",
+      "reason": "构象不能与不同连接的构造异构混淆（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_007",
+      "prerequisiteId": "uch_organic_006",
+      "strength": "soft",
+      "reason": "需区分构象互变与构型差异（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_008",
+      "prerequisiteId": "uch_organic_007",
+      "strength": "hard",
+      "reason": "R/S标记针对确定的手性构型（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_009",
+      "prerequisiteId": "uch_organic_007",
+      "strength": "hard",
+      "reason": "分类以整体手性和镜像关系为依据（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_009",
+      "prerequisiteId": "uch_organic_008",
+      "strength": "soft",
+      "reason": "多中心构型比较可用R/S辅助（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_010",
+      "prerequisiteId": "uch_organic_008",
+      "strength": "hard",
+      "reason": "E/Z使用与R/S相通的CIP优先序（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_011",
+      "prerequisiteId": "uch_organic_002",
+      "strength": "hard",
+      "reason": "亲电加成需要识别电子对提供与接受角色（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_011",
+      "prerequisiteId": "uch_structure_014",
+      "strength": "hard",
+      "reason": "烯烃的π键是反应电子来源（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_012",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "hard",
+      "reason": "芳香性要求整个环的电子离域（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_012",
+      "prerequisiteId": "uch_structure_014",
+      "strength": "hard",
+      "reason": "连续π轨道重叠是共轭的基础（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_013",
+      "prerequisiteId": "uch_organic_004",
+      "strength": "hard",
+      "reason": "取代基效应有诱导与共轭两个方面（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_013",
+      "prerequisiteId": "uch_organic_012",
+      "strength": "hard",
+      "reason": "亲电取代涉及芳香性的保持与恢复（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_014",
+      "prerequisiteId": "uch_organic_002",
+      "strength": "hard",
+      "reason": "SN2需有电子对提供者与可接受进攻的中心（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_014",
+      "prerequisiteId": "uch_organic_008",
+      "strength": "soft",
+      "reason": "产物构型字母需按CIP重新判断（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_015",
+      "prerequisiteId": "uch_organic_014",
+      "strength": "soft",
+      "reason": "与协同SN2比较可辨认不同速率与立体后果（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_016",
+      "prerequisiteId": "uch_organic_006",
+      "strength": "hard",
+      "reason": "环构象决定β-H与离去基团相对方向（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_016",
+      "prerequisiteId": "uch_organic_014",
+      "strength": "soft",
+      "reason": "协同机理有助于理解消除与取代的差异（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_017",
+      "prerequisiteId": "uch_organic_014",
+      "strength": "hard",
+      "reason": "需要理解SN2对空间接近的要求（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_017",
+      "prerequisiteId": "uch_organic_016",
+      "strength": "hard",
+      "reason": "需要理解E2的碱性和构象要求（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_018",
+      "prerequisiteId": "uch_organic_005",
+      "strength": "hard",
+      "reason": "官能团性质需结合原子连接方式（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_019",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "hard",
+      "reason": "酚氧负离子稳定性涉及共振离域（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_019",
+      "prerequisiteId": "uch_solution_006",
+      "strength": "hard",
+      "reason": "需以共轭酸碱关系解释酸性（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_020",
+      "prerequisiteId": "uch_organic_001",
+      "strength": "hard",
+      "reason": "机理箭头必须由电子来源画向去处（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_020",
+      "prerequisiteId": "uch_organic_002",
+      "strength": "hard",
+      "reason": "需区分羰基亲电中心与亲核试剂（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_021",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "hard",
+      "reason": "必须区分电子离域与质子迁移（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_021",
+      "prerequisiteId": "uch_organic_020",
+      "strength": "soft",
+      "reason": "有助于联系羰基电子结构，但理解α位酸性不要求先掌握亲核加成机制（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_022",
+      "prerequisiteId": "uch_organic_020",
+      "strength": "hard",
+      "reason": "酰基取代先包含羰基亲核加成步骤（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_023",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "hard",
+      "reason": "需要理解共振造成的电子离域（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_023",
+      "prerequisiteId": "uch_organic_022",
+      "strength": "soft",
+      "reason": "有助于联系羧酸衍生物，但酰胺共振性质不要求先掌握酰基取代机制（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_024",
+      "prerequisiteId": "uch_organic_002",
+      "strength": "hard",
+      "reason": "碱性评价不同于一般亲核反应速度（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_024",
+      "prerequisiteId": "uch_organic_003",
+      "strength": "hard",
+      "reason": "芳胺的碱性还涉及共轭效应（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_025",
+      "prerequisiteId": "uch_organic_012",
+      "strength": "hard",
+      "reason": "杂环的孤电子对是否参与π体系影响芳香计数（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_025",
+      "prerequisiteId": "uch_organic_024",
+      "strength": "hard",
+      "reason": "可用于质子结合的孤对决定碱性趋势（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_organic_026",
+      "prerequisiteId": "uch_organic_005",
+      "strength": "hard",
+      "reason": "官能团与连接方式决定聚合反应可能性（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_002",
+      "prerequisiteId": "uch_analysis_001",
+      "strength": "soft",
+      "reason": "背景控制需对应完整分析流程（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_003",
+      "prerequisiteId": "uch_analysis_002",
+      "strength": "soft",
+      "reason": "质量控制有助于识别重复读数看不出的偏差（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_004",
+      "prerequisiteId": "uch_analysis_003",
+      "strength": "hard",
+      "reason": "偏差需相对明确参考值进行表示（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_006",
+      "prerequisiteId": "uch_analysis_003",
+      "strength": "hard",
+      "reason": "精密度可通过重复结果的离散程度量化（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_007",
+      "prerequisiteId": "uch_analysis_006",
+      "strength": "hard",
+      "reason": "区间计算需要样本标准差与标准误（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_008",
+      "prerequisiteId": "uch_analysis_007",
+      "strength": "hard",
+      "reason": "统计判断必须与模型、样本量和不确定度联系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_009",
+      "prerequisiteId": "uch_analysis_002",
+      "strength": "soft",
+      "reason": "校准前需要明确背景是否已扣除（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_010",
+      "prerequisiteId": "uch_analysis_009",
+      "strength": "hard",
+      "reason": "标准加入仍依赖适用的响应模型（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_011",
+      "prerequisiteId": "uch_analysis_009",
+      "strength": "hard",
+      "reason": "内标法需要建立响应比与含量的校准关系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_012",
+      "prerequisiteId": "uch_analysis_006",
+      "strength": "hard",
+      "reason": "噪声波动需由适当标准差表示（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_012",
+      "prerequisiteId": "uch_analysis_009",
+      "strength": "hard",
+      "reason": "检出限浓度换算依赖响应斜率（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_014",
+      "prerequisiteId": "uch_analysis_013",
+      "strength": "hard",
+      "reason": "选择指示范围需先区分终点与计量点（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_014",
+      "prerequisiteId": "uch_solution_014",
+      "strength": "hard",
+      "reason": "计量点的酸碱性取决于生成盐的水解（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_015",
+      "prerequisiteId": "uch_analysis_013",
+      "strength": "hard",
+      "reason": "滴定计算基于明确的计量点关系（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_015",
+      "prerequisiteId": "uch_solution_021",
+      "strength": "hard",
+      "reason": "条件形成常数影响滴定反应是否充分（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_016",
+      "prerequisiteId": "uch_analysis_013",
+      "strength": "hard",
+      "reason": "滴定计算需先确定化学计量（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_016",
+      "prerequisiteId": "uch_electrochemistry_001",
+      "strength": "hard",
+      "reason": "氧化还原角色由电子得失界定（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_017",
+      "prerequisiteId": "uch_analysis_013",
+      "strength": "hard",
+      "reason": "需区分沉淀滴定计量点与观察终点（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_017",
+      "prerequisiteId": "uch_solution_016",
+      "strength": "hard",
+      "reason": "反应完全程度与溶度积相关（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_018",
+      "prerequisiteId": "uch_analysis_009",
+      "strength": "soft",
+      "reason": "定量吸收可作为线性校准模型的物理基础（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_019",
+      "prerequisiteId": "uch_analysis_018",
+      "strength": "hard",
+      "reason": "吸光度需先有与光传播相容的定义（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_020",
+      "prerequisiteId": "uch_structure_017",
+      "strength": "hard",
+      "reason": "红外活性涉及偶极矩而非仅分子总电荷（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_021",
+      "prerequisiteId": "uch_analysis_018",
+      "strength": "soft",
+      "reason": "定量光谱需检查线性适用范围（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_025",
+      "prerequisiteId": "uch_analysis_024",
+      "strength": "hard",
+      "reason": "分离度需要明确各峰保留时间与时间基准（AI学习建议，未经教师审核）"
+    },
+    {
+      "topicId": "uch_analysis_026",
+      "prerequisiteId": "uch_analysis_024",
+      "strength": "hard",
+      "reason": "选择技术需理解流动相与固定相共同决定分离（AI学习建议，未经教师审核）"
+    }
+  ],
+  "final_data_files_sha256": {
+    "uchemistry-topics.json": "ed30b7d18e3225e8db0dd82fdec94b583acd211ff601df5fd69048e5602138de",
+    "uchemistry-questions.json": "99b29fe37385db79227619ad3e02f2d5f09a98a796379ba757a43219df45666e",
+    "uchemistry-dependencies.json": "cd56d6c9f05f7e511946728a9321e6011b7647f6557150bdb7ee4aed81946a5f",
+    "uchemistry-sources.json": "71434907f2b2c9b9c8435e30b46073941c054df46575c8c13f9afff9c4a7984c",
+    "uchemistry-coverage.json": "3c62214c44b02402fef171c43205ec2841d2b56f111e1ff8cbed2eeb5e738f1e"
+  },
+  "final_metadata_validation": {
+    "topics_changed": 160,
+    "questions_changed": 320,
+    "allowed_changed_fields": [
+      "review_record",
+      "review_status"
+    ],
+    "all_other_topic_question_fields_unchanged": true,
+    "dependencies_sources_coverage_byte_identical_to_root_reviewed_snapshot": true,
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/university-uchemistry-peer-review.json",
+    "method": "根审查者独立比较最终作者导出与已全量阅读后冻结的五份JSON；逐对象剔除两个审核字段后比较全部其余字段，另三份文件逐字节比较。"
+  },
+  "findings": [
+    {
+      "id": "UCH-001",
+      "topic": "uch_structure_005",
+      "finding": "概率密度补归一化单电子波函数条件",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-002",
+      "topic": "uch_structure_011",
+      "finding": "电离能定义补气态基态",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-003",
+      "question": "uch_structure_003_q1",
+      "finding": "替换可单靠量纲排除的过弱干扰项",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-004",
+      "question": "uch_structure_017_q2",
+      "finding": "用分子结构/偶极混淆替换无关干扰项",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-005",
+      "question": "uch_structure_019_q2",
+      "finding": "用氢键位点混淆替换无关干扰项",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-006",
+      "question": "uch_structure_021_q1",
+      "finding": "明确2θ干扰项中文表述",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-007",
+      "topic": "uch_thermodynamics_008",
+      "finding": "明确摩擦耗散及同一恒定温度下仅做体积功的比较",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-008",
+      "topic": "uch_thermodynamics_011",
+      "finding": "吉布斯判据题补封闭系统条件",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-009",
+      "topic": "uch_thermodynamics_021",
+      "finding": "相律说明与题补相平衡共存",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-010",
+      "topic": "uch_thermodynamics_022",
+      "finding": "克劳修斯简化补凝聚相体积可忽略条件",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-011",
+      "topic": "uch_thermodynamics_023",
+      "finding": "拉乌尔关系补气相理想及压力修正近似",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-012",
+      "questions": [
+        "uch_thermodynamics_013_q2",
+        "uch_thermodynamics_014_q1",
+        "uch_thermodynamics_016_q1",
+        "uch_thermodynamics_020_q2",
+        "uch_thermodynamics_022_q1"
+      ],
+      "finding": "以本知识点真实误区替代颜色/字体/量纲或不相关荒谬干扰项",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的题干、选项、答案、解析及相应描述；适用条件与干扰项修订有效。"
+    },
+    {
+      "id": "UCH-013",
+      "target": "uch_kinetics_008_q2",
+      "finding": "准一级变化题须在题干给出原始速率式v=k[A][B]",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-014",
+      "target": "uch_kinetics_015",
+      "finding": "朗缪尔公式补非解离且一个分子占一个位点条件",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-015",
+      "target": "uch_solution_003",
+      "finding": "蒸气压比较补同温度、气相近似理想和压力修正可忽略",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-016",
+      "target": "uch_solution_005",
+      "finding": "渗透压定义补溶液与纯溶剂由理想半透膜隔开",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-017",
+      "target": "uch_solution_008",
+      "finding": "中性pH公式限定理想稀水溶液语境",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-018",
+      "target": "uch_solution_013_q1",
+      "finding": "缓冲液比较明确同温度同一共轭酸碱对",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-019",
+      "target": "uch_solution_018_q1",
+      "finding": "同离子效应题补温度固定且与足量固体相平衡的饱和条件",
+      "status": "closed_after_root_reread",
+      "resolution": "已实际复读修订后的模型/初始条件、题干、选项和解析；答案唯一且与条件一致。"
+    },
+    {
+      "id": "UCH-020",
+      "target": "uch_organic_012",
+      "finding": "4n+2规则明示n为非负整数",
+      "status": "closed_after_root_reread",
+      "resolution": "已从冻结JSON生成字段差异并实际读回；整数条件、两条辅助关系及解析/干扰项修订有效。"
+    },
+    {
+      "id": "UCH-021",
+      "target": "uch_organic_021→uch_organic_020",
+      "finding": "羰基亲核加成不是α-H知识的必要先修，改软边",
+      "status": "closed_after_root_reread",
+      "resolution": "已从冻结JSON生成字段差异并实际读回；整数条件、两条辅助关系及解析/干扰项修订有效。"
+    },
+    {
+      "id": "UCH-022",
+      "target": "uch_organic_023→uch_organic_022",
+      "finding": "酰基取代机制不是理解酰胺共振的必要先修，改软边",
+      "status": "closed_after_root_reread",
+      "resolution": "已从冻结JSON生成字段差异并实际读回；整数条件、两条辅助关系及解析/干扰项修订有效。"
+    },
+    {
+      "id": "UCH-023",
+      "target": "uch_organic_001_q1",
+      "finding": "均裂解析补自由基结果，满足有意义的短解析要求",
+      "status": "closed_after_root_reread",
+      "resolution": "已从冻结JSON生成字段差异并实际读回；整数条件、两条辅助关系及解析/干扰项修订有效。"
+    },
+    {
+      "id": "UCH-024",
+      "target": "uch_analysis_013_q2",
+      "finding": "终点偏差题限定直接滴定",
+      "status": "closed_after_root_reread",
+      "resolution": "已读回本次完整差异，题干、正确项、解析及诊断题同步一致。"
+    },
+    {
+      "id": "UCH-025",
+      "target": "uch_analysis_016_q1",
+      "finding": "电子守恒正确项规范氧化/还原物种的得失电子用语",
+      "status": "closed_after_root_reread",
+      "resolution": "已读回本次完整差异，题干、正确项、解析及诊断题同步一致。"
+    },
+    {
+      "id": "UCH-026",
+      "target": "uch_analysis_018",
+      "finding": "明确比尔定律b为吸收光路长度/液层厚度，避免与nℓ光程混淆",
+      "status": "closed_after_root_reread",
+      "resolution": "已读回本次完整差异，题干、正确项、解析及诊断题同步一致。"
+    }
+  ],
+  "audit_batches": [
+    {
+      "module": "structure",
+      "topic_ids": [
+        "uch_structure_001",
+        "uch_structure_002",
+        "uch_structure_003",
+        "uch_structure_004",
+        "uch_structure_005",
+        "uch_structure_006",
+        "uch_structure_007",
+        "uch_structure_008",
+        "uch_structure_009",
+        "uch_structure_010",
+        "uch_structure_011",
+        "uch_structure_012",
+        "uch_structure_013",
+        "uch_structure_014",
+        "uch_structure_015",
+        "uch_structure_016",
+        "uch_structure_017",
+        "uch_structure_018",
+        "uch_structure_019",
+        "uch_structure_020",
+        "uch_structure_021",
+        "uch_structure_022",
+        "uch_structure_023",
+        "uch_structure_024"
+      ],
+      "question_ids": [
+        "uch_structure_001_q1",
+        "uch_structure_001_q2",
+        "uch_structure_002_q1",
+        "uch_structure_002_q2",
+        "uch_structure_003_q1",
+        "uch_structure_003_q2",
+        "uch_structure_004_q1",
+        "uch_structure_004_q2",
+        "uch_structure_005_q1",
+        "uch_structure_005_q2",
+        "uch_structure_006_q1",
+        "uch_structure_006_q2",
+        "uch_structure_007_q1",
+        "uch_structure_007_q2",
+        "uch_structure_008_q1",
+        "uch_structure_008_q2",
+        "uch_structure_009_q1",
+        "uch_structure_009_q2",
+        "uch_structure_010_q1",
+        "uch_structure_010_q2",
+        "uch_structure_011_q1",
+        "uch_structure_011_q2",
+        "uch_structure_012_q1",
+        "uch_structure_012_q2",
+        "uch_structure_013_q1",
+        "uch_structure_013_q2",
+        "uch_structure_014_q1",
+        "uch_structure_014_q2",
+        "uch_structure_015_q1",
+        "uch_structure_015_q2",
+        "uch_structure_016_q1",
+        "uch_structure_016_q2",
+        "uch_structure_017_q1",
+        "uch_structure_017_q2",
+        "uch_structure_018_q1",
+        "uch_structure_018_q2",
+        "uch_structure_019_q1",
+        "uch_structure_019_q2",
+        "uch_structure_020_q1",
+        "uch_structure_020_q2",
+        "uch_structure_021_q1",
+        "uch_structure_021_q2",
+        "uch_structure_022_q1",
+        "uch_structure_022_q2",
+        "uch_structure_023_q1",
+        "uch_structure_023_q2",
+        "uch_structure_024_q1",
+        "uch_structure_024_q2"
+      ],
+      "dependencies_read": 24,
+      "snapshot_sha256": {
+        "dependencies.json": "ac1501581a05e24b398716c5929ee1ab7c0ba1f2cc4b33839516c3ec8bf18775",
+        "questions.json": "3323692afd3e785bf3c72b1f88f829b127af24be970b2b6701e691f1e28d8e09",
+        "topics.json": "31a4fd7dc97c4147d1f9b9d4e4032159f0ad8453e8a1ce0c4876787f63839e2c"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "ac1501581a05e24b398716c5929ee1ab7c0ba1f2cc4b33839516c3ec8bf18775",
+          "questions.json": "99b45a3f76082459449d17e7cc403bee707346c917c57908f89b9a3fdca0ce1b",
+          "topics.json": "142cc2f4625e11b77b225792322686c5eaf0ba5ed691c7c27ec4664c7e44b2a1"
+        },
+        {
+          "dependencies.json": "ac1501581a05e24b398716c5929ee1ab7c0ba1f2cc4b33839516c3ec8bf18775",
+          "questions.json": "6550bc3611e10bdce6410351ee615cc184fd2b6e41b1f37fb94deed052e771bb",
+          "topics.json": "5710fd5ee89b29d661781170214df9b283ebe367b97e782bdb52e96a7d72028d"
+        }
+      ]
+    },
+    {
+      "module": "thermodynamics",
+      "topic_ids": [
+        "uch_thermodynamics_001",
+        "uch_thermodynamics_002",
+        "uch_thermodynamics_003",
+        "uch_thermodynamics_004",
+        "uch_thermodynamics_005",
+        "uch_thermodynamics_006",
+        "uch_thermodynamics_007",
+        "uch_thermodynamics_008",
+        "uch_thermodynamics_009",
+        "uch_thermodynamics_010",
+        "uch_thermodynamics_011",
+        "uch_thermodynamics_012",
+        "uch_thermodynamics_013",
+        "uch_thermodynamics_014",
+        "uch_thermodynamics_015",
+        "uch_thermodynamics_016",
+        "uch_thermodynamics_017",
+        "uch_thermodynamics_018",
+        "uch_thermodynamics_019",
+        "uch_thermodynamics_020",
+        "uch_thermodynamics_021",
+        "uch_thermodynamics_022",
+        "uch_thermodynamics_023",
+        "uch_thermodynamics_024"
+      ],
+      "question_ids": [
+        "uch_thermodynamics_001_q1",
+        "uch_thermodynamics_001_q2",
+        "uch_thermodynamics_002_q1",
+        "uch_thermodynamics_002_q2",
+        "uch_thermodynamics_003_q1",
+        "uch_thermodynamics_003_q2",
+        "uch_thermodynamics_004_q1",
+        "uch_thermodynamics_004_q2",
+        "uch_thermodynamics_005_q1",
+        "uch_thermodynamics_005_q2",
+        "uch_thermodynamics_006_q1",
+        "uch_thermodynamics_006_q2",
+        "uch_thermodynamics_007_q1",
+        "uch_thermodynamics_007_q2",
+        "uch_thermodynamics_008_q1",
+        "uch_thermodynamics_008_q2",
+        "uch_thermodynamics_009_q1",
+        "uch_thermodynamics_009_q2",
+        "uch_thermodynamics_010_q1",
+        "uch_thermodynamics_010_q2",
+        "uch_thermodynamics_011_q1",
+        "uch_thermodynamics_011_q2",
+        "uch_thermodynamics_012_q1",
+        "uch_thermodynamics_012_q2",
+        "uch_thermodynamics_013_q1",
+        "uch_thermodynamics_013_q2",
+        "uch_thermodynamics_014_q1",
+        "uch_thermodynamics_014_q2",
+        "uch_thermodynamics_015_q1",
+        "uch_thermodynamics_015_q2",
+        "uch_thermodynamics_016_q1",
+        "uch_thermodynamics_016_q2",
+        "uch_thermodynamics_017_q1",
+        "uch_thermodynamics_017_q2",
+        "uch_thermodynamics_018_q1",
+        "uch_thermodynamics_018_q2",
+        "uch_thermodynamics_019_q1",
+        "uch_thermodynamics_019_q2",
+        "uch_thermodynamics_020_q1",
+        "uch_thermodynamics_020_q2",
+        "uch_thermodynamics_021_q1",
+        "uch_thermodynamics_021_q2",
+        "uch_thermodynamics_022_q1",
+        "uch_thermodynamics_022_q2",
+        "uch_thermodynamics_023_q1",
+        "uch_thermodynamics_023_q2",
+        "uch_thermodynamics_024_q1",
+        "uch_thermodynamics_024_q2"
+      ],
+      "dependencies_read": 30,
+      "snapshot_sha256": {
+        "dependencies.json": "1b33ba4f91499d088b4c8a63c5b024ad8d516f53f4f3e076bdfa86ba39f65b01",
+        "questions.json": "df3e92c22457dcaeebef3b62b0bae7a39193546fe8ff5de904579e916d843e4c",
+        "topics.json": "0ec58f965c1415fde777b858a73dc8892dfe716aa8dd1d5eee68b8370fddcdd8"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "1b33ba4f91499d088b4c8a63c5b024ad8d516f53f4f3e076bdfa86ba39f65b01",
+          "questions.json": "a5f8ae0fb9886aeadf6a3d0c0067b53626b2183dae18e3a1bf3c7c59f28c5ee6",
+          "topics.json": "92efd02618bbe336831f02984079c0a4f09e1f31bd95c92d477396e104f71c06"
+        },
+        {
+          "dependencies.json": "1b33ba4f91499d088b4c8a63c5b024ad8d516f53f4f3e076bdfa86ba39f65b01",
+          "questions.json": "fa5f4763f72d90b499fc2353c6e3266980d2e1eb405a9082c8a2a58285612e8f",
+          "topics.json": "dc4e9b6791f16e59f8a77158a0a9424b092257e96fefaf3a4fa3e1433a3369cf"
+        }
+      ]
+    },
+    {
+      "module": "kinetics",
+      "topic_ids": [
+        "uch_kinetics_001",
+        "uch_kinetics_002",
+        "uch_kinetics_003",
+        "uch_kinetics_004",
+        "uch_kinetics_005",
+        "uch_kinetics_006",
+        "uch_kinetics_007",
+        "uch_kinetics_008",
+        "uch_kinetics_009",
+        "uch_kinetics_010",
+        "uch_kinetics_011",
+        "uch_kinetics_012",
+        "uch_kinetics_013",
+        "uch_kinetics_014",
+        "uch_kinetics_015",
+        "uch_kinetics_016",
+        "uch_kinetics_017",
+        "uch_kinetics_018"
+      ],
+      "question_ids": [
+        "uch_kinetics_001_q1",
+        "uch_kinetics_001_q2",
+        "uch_kinetics_002_q1",
+        "uch_kinetics_002_q2",
+        "uch_kinetics_003_q1",
+        "uch_kinetics_003_q2",
+        "uch_kinetics_004_q1",
+        "uch_kinetics_004_q2",
+        "uch_kinetics_005_q1",
+        "uch_kinetics_005_q2",
+        "uch_kinetics_006_q1",
+        "uch_kinetics_006_q2",
+        "uch_kinetics_007_q1",
+        "uch_kinetics_007_q2",
+        "uch_kinetics_008_q1",
+        "uch_kinetics_008_q2",
+        "uch_kinetics_009_q1",
+        "uch_kinetics_009_q2",
+        "uch_kinetics_010_q1",
+        "uch_kinetics_010_q2",
+        "uch_kinetics_011_q1",
+        "uch_kinetics_011_q2",
+        "uch_kinetics_012_q1",
+        "uch_kinetics_012_q2",
+        "uch_kinetics_013_q1",
+        "uch_kinetics_013_q2",
+        "uch_kinetics_014_q1",
+        "uch_kinetics_014_q2",
+        "uch_kinetics_015_q1",
+        "uch_kinetics_015_q2",
+        "uch_kinetics_016_q1",
+        "uch_kinetics_016_q2",
+        "uch_kinetics_017_q1",
+        "uch_kinetics_017_q2",
+        "uch_kinetics_018_q1",
+        "uch_kinetics_018_q2"
+      ],
+      "dependencies_read": 21,
+      "snapshot_sha256": {
+        "dependencies.json": "07869e7c138026d7fa841fd7a00c1b19c4c1d8a0f03900742c14871276df3fad",
+        "questions.json": "bccb6f18534c538f4a6f7c248e71285a1ef9a23753a2437576bd56247e835b84",
+        "topics.json": "183fb0e373ecdfe097f68f903206c3b3e5d8300fc3a964f1655e9ba0def3819d"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "07869e7c138026d7fa841fd7a00c1b19c4c1d8a0f03900742c14871276df3fad",
+          "questions.json": "fbdd0abf5d8da3534af8493e23ea4ff9a56c32e7f47c288948af655b578af370",
+          "topics.json": "f2b8f2f096bba25ce4020076eda1350ac54a7480b5be858678e69f3ba1b1f8cc"
+        },
+        {
+          "dependencies.json": "07869e7c138026d7fa841fd7a00c1b19c4c1d8a0f03900742c14871276df3fad",
+          "questions.json": "bccb6f18534c538f4a6f7c248e71285a1ef9a23753a2437576bd56247e835b84",
+          "topics.json": "817cf80669c4b5a141ce08aef9d424651f2ee9fb380d504344127756eab4cc38"
+        }
+      ]
+    },
+    {
+      "module": "solution",
+      "topic_ids": [
+        "uch_solution_001",
+        "uch_solution_002",
+        "uch_solution_003",
+        "uch_solution_004",
+        "uch_solution_005",
+        "uch_solution_006",
+        "uch_solution_007",
+        "uch_solution_008",
+        "uch_solution_009",
+        "uch_solution_010",
+        "uch_solution_011",
+        "uch_solution_012",
+        "uch_solution_013",
+        "uch_solution_014",
+        "uch_solution_015",
+        "uch_solution_016",
+        "uch_solution_017",
+        "uch_solution_018",
+        "uch_solution_019",
+        "uch_solution_020",
+        "uch_solution_021",
+        "uch_solution_022"
+      ],
+      "question_ids": [
+        "uch_solution_001_q1",
+        "uch_solution_001_q2",
+        "uch_solution_002_q1",
+        "uch_solution_002_q2",
+        "uch_solution_003_q1",
+        "uch_solution_003_q2",
+        "uch_solution_004_q1",
+        "uch_solution_004_q2",
+        "uch_solution_005_q1",
+        "uch_solution_005_q2",
+        "uch_solution_006_q1",
+        "uch_solution_006_q2",
+        "uch_solution_007_q1",
+        "uch_solution_007_q2",
+        "uch_solution_008_q1",
+        "uch_solution_008_q2",
+        "uch_solution_009_q1",
+        "uch_solution_009_q2",
+        "uch_solution_010_q1",
+        "uch_solution_010_q2",
+        "uch_solution_011_q1",
+        "uch_solution_011_q2",
+        "uch_solution_012_q1",
+        "uch_solution_012_q2",
+        "uch_solution_013_q1",
+        "uch_solution_013_q2",
+        "uch_solution_014_q1",
+        "uch_solution_014_q2",
+        "uch_solution_015_q1",
+        "uch_solution_015_q2",
+        "uch_solution_016_q1",
+        "uch_solution_016_q2",
+        "uch_solution_017_q1",
+        "uch_solution_017_q2",
+        "uch_solution_018_q1",
+        "uch_solution_018_q2",
+        "uch_solution_019_q1",
+        "uch_solution_019_q2",
+        "uch_solution_020_q1",
+        "uch_solution_020_q2",
+        "uch_solution_021_q1",
+        "uch_solution_021_q2",
+        "uch_solution_022_q1",
+        "uch_solution_022_q2"
+      ],
+      "dependencies_read": 28,
+      "snapshot_sha256": {
+        "dependencies.json": "59b67208371020d4632e4bc3dc5433c542050e3ae33399af352465d1160a13b1",
+        "questions.json": "f3bfbdb47992ba958b636d4b862bb5a2b3a68eb511278e0a73d2b5730315a4c6",
+        "topics.json": "a876c4b1fc1291c759753c4b7a1ce3413e7cd69a55dc3b7103b601b2a4ae9356"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "59b67208371020d4632e4bc3dc5433c542050e3ae33399af352465d1160a13b1",
+          "questions.json": "0242325f6c90b75b3ac56243c387986dda888a857693c2b5693d43bed5d343ae",
+          "topics.json": "eba79ec28310bfe4561be03b847a209b1d98216881af84dc30dbb42fca5c072b"
+        },
+        {
+          "dependencies.json": "59b67208371020d4632e4bc3dc5433c542050e3ae33399af352465d1160a13b1",
+          "questions.json": "f3bfbdb47992ba958b636d4b862bb5a2b3a68eb511278e0a73d2b5730315a4c6",
+          "topics.json": "1639de8a84097a341529d3c1a73b4e8b6cbcc1d077f536f6ed1533b860d9c0af"
+        }
+      ]
+    },
+    {
+      "module": "electrochemistry",
+      "topic_ids": [
+        "uch_electrochemistry_001",
+        "uch_electrochemistry_002",
+        "uch_electrochemistry_003",
+        "uch_electrochemistry_004",
+        "uch_electrochemistry_005",
+        "uch_electrochemistry_006",
+        "uch_electrochemistry_007",
+        "uch_electrochemistry_008",
+        "uch_electrochemistry_009",
+        "uch_electrochemistry_010",
+        "uch_electrochemistry_011",
+        "uch_electrochemistry_012",
+        "uch_electrochemistry_013",
+        "uch_electrochemistry_014",
+        "uch_electrochemistry_015",
+        "uch_electrochemistry_016",
+        "uch_electrochemistry_017",
+        "uch_electrochemistry_018"
+      ],
+      "question_ids": [
+        "uch_electrochemistry_001_q1",
+        "uch_electrochemistry_001_q2",
+        "uch_electrochemistry_002_q1",
+        "uch_electrochemistry_002_q2",
+        "uch_electrochemistry_003_q1",
+        "uch_electrochemistry_003_q2",
+        "uch_electrochemistry_004_q1",
+        "uch_electrochemistry_004_q2",
+        "uch_electrochemistry_005_q1",
+        "uch_electrochemistry_005_q2",
+        "uch_electrochemistry_006_q1",
+        "uch_electrochemistry_006_q2",
+        "uch_electrochemistry_007_q1",
+        "uch_electrochemistry_007_q2",
+        "uch_electrochemistry_008_q1",
+        "uch_electrochemistry_008_q2",
+        "uch_electrochemistry_009_q1",
+        "uch_electrochemistry_009_q2",
+        "uch_electrochemistry_010_q1",
+        "uch_electrochemistry_010_q2",
+        "uch_electrochemistry_011_q1",
+        "uch_electrochemistry_011_q2",
+        "uch_electrochemistry_012_q1",
+        "uch_electrochemistry_012_q2",
+        "uch_electrochemistry_013_q1",
+        "uch_electrochemistry_013_q2",
+        "uch_electrochemistry_014_q1",
+        "uch_electrochemistry_014_q2",
+        "uch_electrochemistry_015_q1",
+        "uch_electrochemistry_015_q2",
+        "uch_electrochemistry_016_q1",
+        "uch_electrochemistry_016_q2",
+        "uch_electrochemistry_017_q1",
+        "uch_electrochemistry_017_q2",
+        "uch_electrochemistry_018_q1",
+        "uch_electrochemistry_018_q2"
+      ],
+      "dependencies_read": 21,
+      "snapshot_sha256": {
+        "dependencies.json": "ee2e288b35d9077312cde093a3c8824ac39ba4d9c061b48a88d81545afdae486",
+        "questions.json": "a3a6dc359c0659913fb082654eeba24e0ab79c2c11c5f8566c1a4c68ca2b30be",
+        "topics.json": "bbfe2589b0973d3ad0e8f1da5153ec78c5c15f5c8aac91eea45ed96a9cb4bc99"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "ee2e288b35d9077312cde093a3c8824ac39ba4d9c061b48a88d81545afdae486",
+          "questions.json": "a3a6dc359c0659913fb082654eeba24e0ab79c2c11c5f8566c1a4c68ca2b30be",
+          "topics.json": "50fecd92315188306c5368fac17f58abd6d91b452ae955635d3cbb3cf2cb075c"
+        }
+      ]
+    },
+    {
+      "module": "organic",
+      "topic_ids": [
+        "uch_organic_001",
+        "uch_organic_002",
+        "uch_organic_003",
+        "uch_organic_004",
+        "uch_organic_005",
+        "uch_organic_006",
+        "uch_organic_007",
+        "uch_organic_008",
+        "uch_organic_009",
+        "uch_organic_010",
+        "uch_organic_011",
+        "uch_organic_012",
+        "uch_organic_013",
+        "uch_organic_014",
+        "uch_organic_015",
+        "uch_organic_016",
+        "uch_organic_017",
+        "uch_organic_018",
+        "uch_organic_019",
+        "uch_organic_020",
+        "uch_organic_021",
+        "uch_organic_022",
+        "uch_organic_023",
+        "uch_organic_024",
+        "uch_organic_025",
+        "uch_organic_026"
+      ],
+      "question_ids": [
+        "uch_organic_001_q1",
+        "uch_organic_001_q2",
+        "uch_organic_002_q1",
+        "uch_organic_002_q2",
+        "uch_organic_003_q1",
+        "uch_organic_003_q2",
+        "uch_organic_004_q1",
+        "uch_organic_004_q2",
+        "uch_organic_005_q1",
+        "uch_organic_005_q2",
+        "uch_organic_006_q1",
+        "uch_organic_006_q2",
+        "uch_organic_007_q1",
+        "uch_organic_007_q2",
+        "uch_organic_008_q1",
+        "uch_organic_008_q2",
+        "uch_organic_009_q1",
+        "uch_organic_009_q2",
+        "uch_organic_010_q1",
+        "uch_organic_010_q2",
+        "uch_organic_011_q1",
+        "uch_organic_011_q2",
+        "uch_organic_012_q1",
+        "uch_organic_012_q2",
+        "uch_organic_013_q1",
+        "uch_organic_013_q2",
+        "uch_organic_014_q1",
+        "uch_organic_014_q2",
+        "uch_organic_015_q1",
+        "uch_organic_015_q2",
+        "uch_organic_016_q1",
+        "uch_organic_016_q2",
+        "uch_organic_017_q1",
+        "uch_organic_017_q2",
+        "uch_organic_018_q1",
+        "uch_organic_018_q2",
+        "uch_organic_019_q1",
+        "uch_organic_019_q2",
+        "uch_organic_020_q1",
+        "uch_organic_020_q2",
+        "uch_organic_021_q1",
+        "uch_organic_021_q2",
+        "uch_organic_022_q1",
+        "uch_organic_022_q2",
+        "uch_organic_023_q1",
+        "uch_organic_023_q2",
+        "uch_organic_024_q1",
+        "uch_organic_024_q2",
+        "uch_organic_025_q1",
+        "uch_organic_025_q2",
+        "uch_organic_026_q1",
+        "uch_organic_026_q2"
+      ],
+      "dependencies_read": 38,
+      "snapshot_sha256": {
+        "dependencies.json": "479bab98e6e5311787ac347cc00cd388dab410e72cdd0d9693da387857b40bb5",
+        "questions.json": "e8edc456682aa43f2c4565ef0bee2940e841ad4b3c706d09252b899ed713a684",
+        "topics.json": "f4fa88390924d46352a13c11c92061eb95ec657b5b011eef755515978c70178b"
+      },
+      "status": "read_complete_findings_closed",
+      "previous_snapshot_sha256": [
+        {
+          "dependencies.json": "aafa9eabe070041d60cc40467356fa25c13d0079ec0813d889f5c7116e4dee29",
+          "questions.json": "23ca4f42945deb6a71ee6b9294be1076b0fbc41e70245b5c333dbaa25ed27eff",
+          "topics.json": "354e852153b228c17998802cab0ad965c9751bb6248ddbe1e736b964abedc581"
+        }
+      ]
+    },
+    {
+      "module": "analysis",
+      "topic_ids": [
+        "uch_analysis_001",
+        "uch_analysis_002",
+        "uch_analysis_003",
+        "uch_analysis_004",
+        "uch_analysis_005",
+        "uch_analysis_006",
+        "uch_analysis_007",
+        "uch_analysis_008",
+        "uch_analysis_009",
+        "uch_analysis_010",
+        "uch_analysis_011",
+        "uch_analysis_012",
+        "uch_analysis_013",
+        "uch_analysis_014",
+        "uch_analysis_015",
+        "uch_analysis_016",
+        "uch_analysis_017",
+        "uch_analysis_018",
+        "uch_analysis_019",
+        "uch_analysis_020",
+        "uch_analysis_021",
+        "uch_analysis_022",
+        "uch_analysis_023",
+        "uch_analysis_024",
+        "uch_analysis_025",
+        "uch_analysis_026",
+        "uch_analysis_027",
+        "uch_analysis_028"
+      ],
+      "question_ids": [
+        "uch_analysis_001_q1",
+        "uch_analysis_001_q2",
+        "uch_analysis_002_q1",
+        "uch_analysis_002_q2",
+        "uch_analysis_003_q1",
+        "uch_analysis_003_q2",
+        "uch_analysis_004_q1",
+        "uch_analysis_004_q2",
+        "uch_analysis_005_q1",
+        "uch_analysis_005_q2",
+        "uch_analysis_006_q1",
+        "uch_analysis_006_q2",
+        "uch_analysis_007_q1",
+        "uch_analysis_007_q2",
+        "uch_analysis_008_q1",
+        "uch_analysis_008_q2",
+        "uch_analysis_009_q1",
+        "uch_analysis_009_q2",
+        "uch_analysis_010_q1",
+        "uch_analysis_010_q2",
+        "uch_analysis_011_q1",
+        "uch_analysis_011_q2",
+        "uch_analysis_012_q1",
+        "uch_analysis_012_q2",
+        "uch_analysis_013_q1",
+        "uch_analysis_013_q2",
+        "uch_analysis_014_q1",
+        "uch_analysis_014_q2",
+        "uch_analysis_015_q1",
+        "uch_analysis_015_q2",
+        "uch_analysis_016_q1",
+        "uch_analysis_016_q2",
+        "uch_analysis_017_q1",
+        "uch_analysis_017_q2",
+        "uch_analysis_018_q1",
+        "uch_analysis_018_q2",
+        "uch_analysis_019_q1",
+        "uch_analysis_019_q2",
+        "uch_analysis_020_q1",
+        "uch_analysis_020_q2",
+        "uch_analysis_021_q1",
+        "uch_analysis_021_q2",
+        "uch_analysis_022_q1",
+        "uch_analysis_022_q2",
+        "uch_analysis_023_q1",
+        "uch_analysis_023_q2",
+        "uch_analysis_024_q1",
+        "uch_analysis_024_q2",
+        "uch_analysis_025_q1",
+        "uch_analysis_025_q2",
+        "uch_analysis_026_q1",
+        "uch_analysis_026_q2",
+        "uch_analysis_027_q1",
+        "uch_analysis_027_q2",
+        "uch_analysis_028_q1",
+        "uch_analysis_028_q2"
+      ],
+      "dependencies_read": 25,
+      "snapshot_sha256": {
+        "dependencies.json": "f49e71d450921992d72dccf465dc24b338aa18dafd938e0b982b54ed276979b8",
+        "questions.json": "aff363299555a991254d60096e899bd19e71c0bbebafa4b2e5726ada50b07272",
+        "topics.json": "98c51e1621329485133fb386c802fabfd0dacc09c29d26e26cca8770bcba0197"
+      },
+      "status": "read_complete_findings_closed"
+    }
+  ],
+  "metadata_and_integration_refinements": [
+    "132个已读旧模块节点的topic.chapter由第X单元规范为第X章，textbook目录定位未动；第7模块始终使用规范格式。",
+    "三条原短解析已补知识说明并实际复读；analysis作者自查增补内容在首次全读中已覆盖。",
+    "sources.books模块/grade按节点实际引用反算，coverage.courses.books保存所用书的去重列表。",
+    "分析化学公开页无明确版次，改按ISBN识别，未推断为第1版。",
+    "来源新增高中化学与基本数学为学习准备说明，不建立跨科自动推断边。"
+  ],
+  "source_review": {
+    "books": [
+      "uch_general_tju3",
+      "uch_physical_tju7a",
+      "uch_physical_tju7b",
+      "uch_organic_tju7",
+      "uch_analytical_101"
+    ],
+    "record": "validation/university-source-evidence.json",
+    "method": "根审查者实际打开高教社五书官方书目和本次全部使用模块对应的公开目录；核对节点教材定位，区分版次、出版月和最新印次。分析化学公开页未标版次，按ISBN识别。",
+    "full_text_verified": false,
+    "web_refs": [
+      "turn189view0",
+      "turn183view0",
+      "turn183view1",
+      "turn186view0",
+      "turn193view0",
+      "turn194view0",
+      "turn196view0"
+    ]
+  },
+  "independent_numerical_check": {
+    "script": "scripts/check_university_calculations.py",
+    "report": "validation/university-independent-calculations.json",
+    "count": 73,
+    "status": "PASS",
+    "question_file_sha256": "99b29fe37385db79227619ad3e02f2d5f09a98a796379ba757a43219df45666e",
+    "method": "根审查者从实际读过的题干独立列式，不导入作者84项计算代码；核验题干锚点、计算结果与正确选项原文。整份最终题库另由本报告SHA256与发布校验绑定。"
+  },
+  "limits": [
+    "独立AI复核覆盖本次新增全部节点、题目、依赖和教材元数据，尚未经过学科教师审核。",
+    "教材公开书目和目录已核验，教材正文没有逐页核验；原创摘要和题目不是教材原文。",
+    "覆盖大学化学七个核心模块，不等同于完整无机、有机、物化、分析等全部专业课程。",
+    "计算复核只证明所列题目在其模型和条件下的数值一致，不替代语义和教学适用性审校。"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "FINAL_FROZEN",
+  "checked_date": "2026-10-31",
+  "counts": {
+    "topics": 100,
+    "questions": 200,
+    "dependencies": 185
+  },
+  "independent_review_semantic_hashes_matched": 300,
+  "semantic_mismatches": [],
+  "author_calculation_checks": 89,
+  "author_structure_checks": 29,
+  "files": {
+    "math-probability-coverage.json": "3d7a8717584b697e1530de1f0a9a5f1146cdbff1d8d3a0bc1e81128377c6de7b",
+    "math-probability-dependencies.json": "9b9d8f2792aba8e4681bbcf81c55e1568f42c4f398eb71d5522ccf6462662c91",
+    "math-probability-questions.json": "012d7f60f760fb2e570f9619906fdab73b423f4e7ccbbe4f011d742b05ab5bd5",
+    "math-probability-sources.json": "a6689837d9d4574ea0af83909884d5e7f1f7fe0c58c5732203d4b12c348ad75b",
+    "math-probability-topics.json": "6f9813b190b82f1f4d52304261aabd5e51328219ad0d6f87bcce7bcf2c223ed1"
+  },
+  "review_status": "AI作者自查与独立AI内容复核均完成；教材全文未逐页核验，待教师审核",
+  "review_record": "validation/probability-content-review.json",
+  "source_limits": [
+    "教材全文未逐页核验",
+    "2027大纲全文未逐条核验",
+    "待教师审核"
+  ]
+}

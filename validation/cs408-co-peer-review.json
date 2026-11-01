@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-30",
+  "reviewer": "独立于CO作者的集成审阅",
+  "reviewed_topics": 73,
+  "reviewed_questions": 146,
+  "method": "逐条阅读知识摘要、题干、四选项和解释，检查答案唯一性、模型条件、数值、教材定位与依赖强弱；数值抽查另由下列计算复算。",
+  "findings_resolved": [
+    {
+      "issue": "缺少原码/反码、定点小数/偏置和海明码构造的独立节点",
+      "resolution": "补充071–073，共6道题，附真实教材章节，覆盖映射同步更新。"
+    },
+    {
+      "issue": "片选设计被设为Cache的强制先修，Cache平均时延被设为TLB的强制先修",
+      "resolution": "相应关系改软建议，Cache补充二进制地址硬先修。"
+    }
+  ],
+  "independent_calculations": [
+    {
+      "question": "cs408_co_004_q1",
+      "computed": 1,
+      "reasoning": "20位字节地址有2^20 B=1 MiB",
+      "result": "PASS",
+      "selected_answer_text": "1 MiB"
+    },
+    {
+      "question": "cs408_co_005_q1",
+      "computed": 1.0,
+      "reasoning": "CPU时间=IC*CPI/f",
+      "result": "PASS",
+      "selected_answer_text": "1 s"
+    },
+    {
+      "question": "cs408_co_007_q1",
+      "computed": 2.5,
+      "reasoning": "按原始时间比例计算Amdahl总加速比",
+      "result": "PASS",
+      "selected_answer_text": "2.5"
+    },
+    {
+      "question": "cs408_co_008_q1",
+      "computed": "0xb6",
+      "reasoning": "独立进制转换",
+      "result": "PASS",
+      "selected_answer_text": "B6₁₆"
+    },
+    {
+      "question": "cs408_co_010_q1",
+      "computed": -5,
+      "reasoning": "最高位负权等价减2^8",
+      "result": "PASS",
+      "selected_answer_text": "−5"
+    },
+    {
+      "question": "cs408_co_013_q1",
+      "computed": "11111100",
+      "reasoning": "明确算术右移规则下的补码",
+      "result": "PASS",
+      "selected_answer_text": "11111100₂"
+    },
+    {
+      "question": "cs408_co_015_q1",
+      "computed": 120,
+      "reasoning": "小端最低地址保存低有效字节",
+      "result": "PASS",
+      "selected_answer_text": "0x78"
+    },
+    {
+      "question": "cs408_co_016_q1",
+      "computed": 1.0,
+      "reasoning": "正规数隐含1和偏置127",
+      "result": "PASS",
+      "selected_answer_text": "1"
+    },
+    {
+      "question": "cs408_co_018_q1",
+      "computed": 9.0,
+      "reasoning": "1.001二进制x2^3=9",
+      "result": "PASS",
+      "selected_answer_text": "1.001₂×2^3"
+    },
+    {
+      "question": "cs408_co_021_q1",
+      "computed": 16,
+      "reasoning": "最大8位无符号乘积所需位数",
+      "result": "PASS",
+      "selected_answer_text": "16位"
+    },
+    {
+      "question": "cs408_co_022_q2",
+      "computed": [
+        -2,
+        -1
+      ],
+      "reasoning": "向零截断商，余数由恒等式计算",
+      "result": "PASS",
+      "selected_answer_text": "−2和−1"
+    },
+    {
+      "question": "cs408_co_027_q1",
+      "computed": 8,
+      "reasoning": "字数扩展和位扩展分别求倍数",
+      "result": "PASS",
+      "selected_answer_text": "8片"
+    },
+    {
+      "question": "cs408_co_028_q2",
+      "computed": "0x2fff",
+      "reasoning": "连续区间末地址包括起始字节",
+      "result": "PASS",
+      "selected_answer_text": "0x2FFF"
+    },
+    {
+      "question": "cs408_co_029_q1",
+      "computed": 62.5,
+      "reasoning": "64毫秒均摊1024行，换算微秒",
+      "result": "PASS",
+      "selected_answer_text": "62.5 μs"
+    },
+    {
+      "question": "cs408_co_031_q1",
+      "computed": 5.0,
+      "reasoning": "6000转每分钟，平均半圈5ms",
+      "result": "PASS",
+      "selected_answer_text": "5 ms"
+    },
+    {
+      "question": "cs408_co_035_q1",
+      "computed": [
+        16,
+        10,
+        6
+      ],
+      "reasoning": "数据容量决定行数，字节地址决定块偏移",
+      "result": "PASS",
+      "selected_answer_text": "16/10/6"
+    },
+    {
+      "question": "cs408_co_036_q1",
+      "computed": 7,
+      "reasoning": "4路组相联共128组",
+      "result": "PASS",
+      "selected_answer_text": "7位"
+    },
+    {
+      "question": "cs408_co_039_q1",
+      "computed": 3.0,
+      "reasoning": "缺失额外代价相加",
+      "result": "PASS",
+      "selected_answer_text": "3 ns"
+    },
+    {
+      "question": "cs408_co_039_q2",
+      "computed": 4.0,
+      "reasoning": "缺失总耗时概率加权",
+      "result": "PASS",
+      "selected_answer_text": "4 ns"
+    },
+    {
+      "question": "cs408_co_040_q2",
+      "computed": "0xa345",
+      "reasoning": "保留原页内偏移",
+      "result": "PASS",
+      "selected_answer_text": "0xA345"
+    },
+    {
+      "question": "cs408_co_041_q2",
+      "computed": 111.0,
+      "reasoning": "串行TLB单级页表访存",
+      "result": "PASS",
+      "selected_answer_text": "111 ns"
+    },
+    {
+      "question": "cs408_co_043_q1",
+      "computed": 64,
+      "reasoning": "已保留前缀只允许剩余6位变化",
+      "result": "PASS",
+      "selected_answer_text": "64种"
+    },
+    {
+      "question": "cs408_co_045_q2",
+      "computed": "0xff8",
+      "reasoning": "基准为下一条PC，位移乘4",
+      "result": "PASS",
+      "selected_answer_text": "0x0FF8"
+    },
+    {
+      "question": "cs408_co_058_q1",
+      "computed": 14,
+      "reasoning": "理想均匀流水线填充加后续指令",
+      "result": "PASS",
+      "selected_answer_text": "14 ns"
+    },
+    {
+      "question": "cs408_co_063_q1",
+      "computed": 1600000000.0,
+      "reasoning": "每时钟两次传送，bit转B",
+      "result": "PASS",
+      "selected_answer_text": "1.6×10^9 B/s"
+    },
+    {
+      "question": "cs408_co_063_q2",
+      "computed": 320000000.0,
+      "reasoning": "32B分摊准备2周期及8次传送",
+      "result": "PASS",
+      "selected_answer_text": "320×10^6 B/s"
+    },
+    {
+      "question": "cs408_co_068_q2",
+      "computed": 0.1,
+      "reasoning": "轮询每秒周期数除CPU频率",
+      "result": "PASS",
+      "selected_answer_text": "10%"
+    },
+    {
+      "question": "cs408_co_069_q2",
+      "computed": 0.05,
+      "reasoning": "5000次每次10us共0.05s",
+      "result": "PASS",
+      "selected_answer_text": "5%"
+    },
+    {
+      "question": "cs408_co_070_q2",
+      "computed": 256.0,
+      "reasoning": "每4KiB一中断，共1MiB",
+      "result": "PASS",
+      "selected_answer_text": "256次"
+    },
+    {
+      "question": "cs408_co_072_q1",
+      "computed": 0.9921875,
+      "reasoning": "定点小数最大正数七位小数之和",
+      "result": "PASS",
+      "selected_answer_text": "−1到127/128"
+    },
+    {
+      "question": "cs408_co_072_q2",
+      "computed": 123,
+      "reasoning": "使用题设偏置128",
+      "result": "PASS",
+      "selected_answer_text": "123"
+    },
+    {
+      "question": "cs408_co_073_q1",
+      "computed": 3,
+      "reasoning": "单错纠正综合征需容纳所有位及无错",
+      "result": "PASS",
+      "selected_answer_text": "3个"
+    },
+    {
+      "question": "cs408_co_073_q2",
+      "computed": 5,
+      "reasoning": "位序s4s2s1，1起编号",
+      "result": "PASS",
+      "selected_answer_text": "第5位"
+    }
+  ],
+  "result": "PASS_AFTER_CORRECTIONS",
+  "limits": [
+    "未逐页审读全书，题库是基础诊断；此审阅不是教师审核。"
+  ]
+}

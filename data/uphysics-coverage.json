@@ -1,0 +1,1523 @@
+{
+  "subject": "uphysics",
+  "checked_date": "2026-10-31",
+  "scope": "理工科本科大学物理六模块核心知识",
+  "mapping_policy": "按已经读取的出版社公开目录给出章/节；topic.chapter是项目自编单元，非原书章号；相对论在上册第4章，量子在下册第13–15章",
+  "courses": [
+    {
+      "id": "mechanics",
+      "name": "力学",
+      "grade": 51,
+      "book": "uphy_general8_upper",
+      "books": [
+        "uphy_general8_upper"
+      ],
+      "topic_count": 24,
+      "question_count": 48,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "质点运动学",
+          "chapter": "第1章 质点运动学",
+          "points": [
+            {
+              "point": "位矢、位移与瞬时运动量",
+              "topicIds": [
+                "uphy_mechanics_001"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-1（该节内主题：位矢、位移与瞬时运动量）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "运动学的微分与积分",
+              "topicIds": [
+                "uphy_mechanics_002"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-1（该节内主题：运动学的微分与积分）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "切向加速度与法向加速度",
+              "topicIds": [
+                "uphy_mechanics_003"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-3（该节内主题：切向加速度与法向加速度）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "低速相对运动与速度合成",
+              "topicIds": [
+                "uphy_mechanics_004"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-4（该节内主题：低速相对运动与速度合成）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "动力学",
+          "chapter": "第2章 动力学",
+          "points": [
+            {
+              "point": "惯性系中的牛顿运动定律",
+              "topicIds": [
+                "uphy_mechanics_005"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-5（该节内主题：惯性系中的牛顿运动定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "常见约束力与摩擦力",
+              "topicIds": [
+                "uphy_mechanics_006"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-5（该节内主题：常见约束力与摩擦力）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "非惯性参考系与惯性力",
+              "topicIds": [
+                "uphy_mechanics_007"
+              ],
+              "textbook_chapter": "第1章 运动和力",
+              "textbook_section": "§1-6（该节内主题：非惯性参考系与惯性力）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "动量与能量",
+          "chapter": "第3章 动量与能量",
+          "points": [
+            {
+              "point": "质心与质心运动定理",
+              "topicIds": [
+                "uphy_mechanics_008"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-1（该节内主题：质心与质心运动定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "冲量与动量定理",
+              "topicIds": [
+                "uphy_mechanics_009"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-2（该节内主题：冲量与动量定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "动量守恒与系统选择",
+              "topicIds": [
+                "uphy_mechanics_010"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-2（该节内主题：动量守恒与系统选择）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "质点角动量与中心力",
+              "topicIds": [
+                "uphy_mechanics_011"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-3（该节内主题：质点角动量与中心力）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "变力做功与线积分",
+              "topicIds": [
+                "uphy_mechanics_012"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-4（该节内主题：变力做功与线积分）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "动能定理",
+              "topicIds": [
+                "uphy_mechanics_013"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-4（该节内主题：动能定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "保守力与势能函数",
+              "topicIds": [
+                "uphy_mechanics_014"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-5（该节内主题：保守力与势能函数）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "机械能守恒与功能关系",
+              "topicIds": [
+                "uphy_mechanics_015"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-6（该节内主题：机械能守恒与功能关系）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "弹性与非弹性碰撞",
+              "topicIds": [
+                "uphy_mechanics_016"
+              ],
+              "textbook_chapter": "第2章 运动的守恒量和守恒定律",
+              "textbook_section": "§2-7（该节内主题：弹性与非弹性碰撞）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "刚体与流体",
+          "chapter": "第4章 刚体与流体",
+          "points": [
+            {
+              "point": "刚体定轴转动的角量",
+              "topicIds": [
+                "uphy_mechanics_017"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-1（该节内主题：刚体定轴转动的角量）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "转动惯量与平行轴定理",
+              "topicIds": [
+                "uphy_mechanics_018"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-2（该节内主题：转动惯量与平行轴定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "力矩与定轴转动定律",
+              "topicIds": [
+                "uphy_mechanics_019"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-2（该节内主题：力矩与定轴转动定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "转动动能与力矩做功",
+              "topicIds": [
+                "uphy_mechanics_020"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-3（该节内主题：转动动能与力矩做功）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "角动量守恒与转动惯量变化",
+              "topicIds": [
+                "uphy_mechanics_021"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-4（该节内主题：角动量守恒与转动惯量变化）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "纯滚动的平动与转动能量",
+              "topicIds": [
+                "uphy_mechanics_022"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-3（该节内主题：纯滚动的平动与转动能量）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "理想流体与连续性方程",
+              "topicIds": [
+                "uphy_mechanics_023"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-6（该节内主题：理想流体与连续性方程）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "伯努利方程及适用条件",
+              "topicIds": [
+                "uphy_mechanics_024"
+              ],
+              "textbook_chapter": "第3章 刚体和流体的运动",
+              "textbook_section": "§3-6（该节内主题：伯努利方程及适用条件）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thermodynamics",
+      "name": "热学",
+      "grade": 52,
+      "book": "uphy_general8_upper",
+      "books": [
+        "uphy_general8_upper"
+      ],
+      "topic_count": 20,
+      "question_count": 40,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "气体动理论",
+          "chapter": "第1章 气体动理论",
+          "points": [
+            {
+              "point": "平衡态与理想气体物态方程",
+              "topicIds": [
+                "uphy_thermodynamics_001"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-1（该节内主题：平衡态与理想气体物态方程）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "气体压强与温度的微观意义",
+              "topicIds": [
+                "uphy_thermodynamics_002"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-2（该节内主题：气体压强与温度的微观意义）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "方均根速率与统计平均",
+              "topicIds": [
+                "uphy_thermodynamics_003"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-2（该节内主题：方均根速率与统计平均）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "自由度与能量均分定理",
+              "topicIds": [
+                "uphy_thermodynamics_004"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-3（该节内主题：自由度与能量均分定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "理想气体内能与温度",
+              "topicIds": [
+                "uphy_thermodynamics_005"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-3（该节内主题：理想气体内能与温度）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "麦克斯韦速率分布",
+              "topicIds": [
+                "uphy_thermodynamics_006"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-4（该节内主题：麦克斯韦速率分布）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "平均自由程与碰撞",
+              "topicIds": [
+                "uphy_thermodynamics_007"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-6（该节内主题：平均自由程与碰撞）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "输运现象与梯度驱动",
+              "topicIds": [
+                "uphy_thermodynamics_008"
+              ],
+              "textbook_chapter": "第5章 气体动理论",
+              "textbook_section": "§5-7（该节内主题：输运现象与梯度驱动）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "热力学过程",
+          "chapter": "第2章 热力学过程",
+          "points": [
+            {
+              "point": "热力学第一定律与符号约定",
+              "topicIds": [
+                "uphy_thermodynamics_009"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-1（该节内主题：热力学第一定律与符号约定）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "等容过程与定容热容",
+              "topicIds": [
+                "uphy_thermodynamics_010"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-2（该节内主题：等容过程与定容热容）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "等压过程与迈耶关系",
+              "topicIds": [
+                "uphy_thermodynamics_011"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-2（该节内主题：等压过程与迈耶关系）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "理想气体等温过程",
+              "topicIds": [
+                "uphy_thermodynamics_012"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-2（该节内主题：理想气体等温过程）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "准静态绝热过程",
+              "topicIds": [
+                "uphy_thermodynamics_013"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-2（该节内主题：准静态绝热过程）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "热机与第二定律",
+          "chapter": "第3章 热机与第二定律",
+          "points": [
+            {
+              "point": "循环过程与热机效率",
+              "topicIds": [
+                "uphy_thermodynamics_014"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-3（该节内主题：循环过程与热机效率）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "卡诺循环与效率上限",
+              "topicIds": [
+                "uphy_thermodynamics_015"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-3（该节内主题：卡诺循环与效率上限）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "热力学第二定律的方向性",
+              "topicIds": [
+                "uphy_thermodynamics_016"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-4（该节内主题：热力学第二定律的方向性）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "可逆与不可逆过程",
+              "topicIds": [
+                "uphy_thermodynamics_017"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-5（该节内主题：可逆与不可逆过程）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "熵与不可逆性",
+          "chapter": "第4章 熵与不可逆性",
+          "points": [
+            {
+              "point": "熵的状态函数与可逆热量",
+              "topicIds": [
+                "uphy_thermodynamics_018"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-6（该节内主题：熵的状态函数与可逆热量）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "熵增加原理与统计解释",
+              "topicIds": [
+                "uphy_thermodynamics_019"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-7（该节内主题：熵增加原理与统计解释）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "理想气体自由膨胀",
+              "topicIds": [
+                "uphy_thermodynamics_020"
+              ],
+              "textbook_chapter": "第6章 热力学基础",
+              "textbook_section": "§6-6（该节内主题：理想气体自由膨胀）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electromagnetism",
+      "name": "电磁学",
+      "grade": 53,
+      "book": "uphy_general8_upper",
+      "books": [
+        "uphy_general8_upper"
+      ],
+      "topic_count": 34,
+      "question_count": 68,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "静电场",
+          "chapter": "第1章 静电场",
+          "points": [
+            {
+              "point": "电荷守恒与库仑定律",
+              "topicIds": [
+                "uphy_electromagnetism_001"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-1（该节内主题：电荷守恒与库仑定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电场强度与连续分布叠加",
+              "topicIds": [
+                "uphy_electromagnetism_002"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-2（该节内主题：电场强度与连续分布叠加）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电通量与曲面取向",
+              "topicIds": [
+                "uphy_electromagnetism_003"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-2（该节内主题：电通量与曲面取向）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "静电场高斯定理",
+              "topicIds": [
+                "uphy_electromagnetism_004"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-3（该节内主题：静电场高斯定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "利用对称性求静电场",
+              "topicIds": [
+                "uphy_electromagnetism_005"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-3（该节内主题：利用对称性求静电场）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电势与静电场环路定理",
+              "topicIds": [
+                "uphy_electromagnetism_006"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-4（该节内主题：电势与静电场环路定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电场与电势梯度",
+              "topicIds": [
+                "uphy_electromagnetism_007"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-5（该节内主题：电场与电势梯度）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "导体静电平衡与屏蔽",
+              "topicIds": [
+                "uphy_electromagnetism_008"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-6（该节内主题：导体静电平衡与屏蔽）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "电介质与能量",
+          "chapter": "第2章 电介质与能量",
+          "points": [
+            {
+              "point": "电容与平行板电容器",
+              "topicIds": [
+                "uphy_electromagnetism_009"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-7（该节内主题：电容与平行板电容器）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电容器串联与并联",
+              "topicIds": [
+                "uphy_electromagnetism_010"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-7（该节内主题：电容器串联与并联）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电介质极化与边界条件",
+              "topicIds": [
+                "uphy_electromagnetism_011"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-8（该节内主题：电介质极化与边界条件）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电位移与介质中的高斯定理",
+              "topicIds": [
+                "uphy_electromagnetism_012"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-9（该节内主题：电位移与介质中的高斯定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电容储能与电场能量密度",
+              "topicIds": [
+                "uphy_electromagnetism_013"
+              ],
+              "textbook_chapter": "第7章 静止电荷的电场",
+              "textbook_section": "§7-10（该节内主题：电容储能与电场能量密度）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "恒定电流与磁场",
+          "chapter": "第3章 恒定电流与磁场",
+          "points": [
+            {
+              "point": "电流密度与电荷连续性",
+              "topicIds": [
+                "uphy_electromagnetism_014"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-1（该节内主题：电流密度与电荷连续性）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电动势与电源能量转换",
+              "topicIds": [
+                "uphy_electromagnetism_015"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-1（该节内主题：电动势与电源能量转换）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "欧姆定律的微分形式",
+              "topicIds": [
+                "uphy_electromagnetism_016"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-1（该节内主题：欧姆定律的微分形式）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "毕奥—萨伐尔定律",
+              "topicIds": [
+                "uphy_electromagnetism_017"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-3（该节内主题：毕奥—萨伐尔定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "长直导线与圆电流的磁场",
+              "topicIds": [
+                "uphy_electromagnetism_018"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-3（该节内主题：长直导线与圆电流的磁场）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "磁通量与磁场高斯定理",
+              "topicIds": [
+                "uphy_electromagnetism_019"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-4（该节内主题：磁通量与磁场高斯定理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "安培环路定理与对称磁场",
+              "topicIds": [
+                "uphy_electromagnetism_020"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-4（该节内主题：安培环路定理与对称磁场）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "洛伦兹力与带电粒子运动",
+              "topicIds": [
+                "uphy_electromagnetism_021"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-5（该节内主题：洛伦兹力与带电粒子运动）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "霍尔效应与载流子符号",
+              "topicIds": [
+                "uphy_electromagnetism_022"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-5（该节内主题：霍尔效应与载流子符号）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "载流导线所受安培力",
+              "topicIds": [
+                "uphy_electromagnetism_023"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-6（该节内主题：载流导线所受安培力）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "磁矩与线圈力矩",
+              "topicIds": [
+                "uphy_electromagnetism_024"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-6（该节内主题：磁矩与线圈力矩）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "磁化与磁介质",
+              "topicIds": [
+                "uphy_electromagnetism_025"
+              ],
+              "textbook_chapter": "第8章 恒定电流的磁场",
+              "textbook_section": "§8-7—§8-9（该节内主题：磁化与磁介质）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "电磁感应与场理论",
+          "chapter": "第4章 电磁感应与场理论",
+          "points": [
+            {
+              "point": "法拉第电磁感应定律",
+              "topicIds": [
+                "uphy_electromagnetism_026"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-1（该节内主题：法拉第电磁感应定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "楞次定律与能量守恒",
+              "topicIds": [
+                "uphy_electromagnetism_027"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-1（该节内主题：楞次定律与能量守恒）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "动生电动势",
+              "topicIds": [
+                "uphy_electromagnetism_028"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-2（该节内主题：动生电动势）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "感生电场与非保守性",
+              "topicIds": [
+                "uphy_electromagnetism_029"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-3（该节内主题：感生电场与非保守性）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "自感系数与自感电动势",
+              "topicIds": [
+                "uphy_electromagnetism_030"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-4（该节内主题：自感系数与自感电动势）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "互感与耦合回路",
+              "topicIds": [
+                "uphy_electromagnetism_031"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-4（该节内主题：互感与耦合回路）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "电感储能与磁场能量",
+              "topicIds": [
+                "uphy_electromagnetism_032"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-5（该节内主题：电感储能与磁场能量）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "位移电流与安培—麦克斯韦定律",
+              "topicIds": [
+                "uphy_electromagnetism_033"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-6（该节内主题：位移电流与安培—麦克斯韦定律）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "麦克斯韦方程的结构",
+              "topicIds": [
+                "uphy_electromagnetism_034"
+              ],
+              "textbook_chapter": "第9章 电磁感应 电磁场理论",
+              "textbook_section": "§9-6（该节内主题：麦克斯韦方程的结构）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oscillations_waves",
+      "name": "振动与波",
+      "grade": 54,
+      "book": "uphy_general8_lower",
+      "books": [
+        "uphy_general8_lower"
+      ],
+      "topic_count": 18,
+      "question_count": 36,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "机械振动",
+          "chapter": "第1章 机械振动",
+          "points": [
+            {
+              "point": "简谐振动与微分方程",
+              "topicIds": [
+                "uphy_oscillations_waves_001"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-1（该节内主题：简谐振动与微分方程）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "初相位与初始条件",
+              "topicIds": [
+                "uphy_oscillations_waves_002"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-1（该节内主题：初相位与初始条件）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "简谐振动的能量",
+              "topicIds": [
+                "uphy_oscillations_waves_003"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-1（该节内主题：简谐振动的能量）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "阻尼振动与衰减",
+              "topicIds": [
+                "uphy_oscillations_waves_004"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-2（该节内主题：阻尼振动与衰减）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "受迫振动与共振",
+              "topicIds": [
+                "uphy_oscillations_waves_005"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-3（该节内主题：受迫振动与共振）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "LC电磁振荡与力电类比",
+              "topicIds": [
+                "uphy_oscillations_waves_006"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-4（该节内主题：LC电磁振荡与力电类比）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "振动合成",
+          "chapter": "第2章 振动合成",
+          "points": [
+            {
+              "point": "同频简谐振动合成",
+              "topicIds": [
+                "uphy_oscillations_waves_007"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-5（该节内主题：同频简谐振动合成）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "拍与相近频率叠加",
+              "topicIds": [
+                "uphy_oscillations_waves_008"
+              ],
+              "textbook_chapter": "第10章 机械振动和电磁振荡",
+              "textbook_section": "§10-5（该节内主题：拍与相近频率叠加）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "机械波",
+          "chapter": "第3章 机械波",
+          "points": [
+            {
+              "point": "平面简谐波与传播方向",
+              "topicIds": [
+                "uphy_oscillations_waves_009"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-2（该节内主题：平面简谐波与传播方向）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "波函数的时间与空间导数",
+              "topicIds": [
+                "uphy_oscillations_waves_010"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-2（该节内主题：波函数的时间与空间导数）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "波动方程与介质波速",
+              "topicIds": [
+                "uphy_oscillations_waves_011"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-3（该节内主题：波动方程与介质波速）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "波的能流与强度",
+              "topicIds": [
+                "uphy_oscillations_waves_012"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-4（该节内主题：波的能流与强度）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "惠更斯原理与反射折射",
+              "topicIds": [
+                "uphy_oscillations_waves_013"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-5（该节内主题：惠更斯原理与反射折射）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "相干波的干涉条件",
+              "topicIds": [
+                "uphy_oscillations_waves_014"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-6（该节内主题：相干波的干涉条件）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "驻波与边界条件",
+              "topicIds": [
+                "uphy_oscillations_waves_015"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-6（该节内主题：驻波与边界条件）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "多普勒效应与参考介质",
+              "topicIds": [
+                "uphy_oscillations_waves_016"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-7（该节内主题：多普勒效应与参考介质）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "声强级与对数尺度",
+              "topicIds": [
+                "uphy_oscillations_waves_017"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-8（该节内主题：声强级与对数尺度）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "电磁波",
+          "chapter": "第4章 电磁波",
+          "points": [
+            {
+              "point": "电磁波与坡印廷矢量",
+              "topicIds": [
+                "uphy_oscillations_waves_018"
+              ],
+              "textbook_chapter": "第11章 机械波和电磁波",
+              "textbook_section": "§11-9（该节内主题：电磁波与坡印廷矢量）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optics",
+      "name": "光学",
+      "grade": 55,
+      "book": "uphy_general8_lower",
+      "books": [
+        "uphy_general8_lower"
+      ],
+      "topic_count": 20,
+      "question_count": 40,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "几何光学",
+          "chapter": "第1章 几何光学",
+          "points": [
+            {
+              "point": "折射定律与全反射",
+              "topicIds": [
+                "uphy_optics_001"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-1（该节内主题：折射定律与全反射）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "薄透镜成像与近轴条件",
+              "topicIds": [
+                "uphy_optics_002"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-1（该节内主题：薄透镜成像与近轴条件）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "光的干涉",
+          "chapter": "第2章 光的干涉",
+          "points": [
+            {
+              "point": "光的相干性",
+              "topicIds": [
+                "uphy_optics_003"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-2（该节内主题：光的相干性）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "光程、相位与光程差",
+              "topicIds": [
+                "uphy_optics_004"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-4（该节内主题：光程、相位与光程差）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "杨氏双缝条纹",
+              "topicIds": [
+                "uphy_optics_005"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-3（该节内主题：杨氏双缝条纹）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "反射的相位突变",
+              "topicIds": [
+                "uphy_optics_006"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-4（该节内主题：反射的相位突变）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "薄膜反射干涉",
+              "topicIds": [
+                "uphy_optics_007"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-5（该节内主题：薄膜反射干涉）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "劈尖与等厚干涉",
+              "topicIds": [
+                "uphy_optics_008"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-5（该节内主题：劈尖与等厚干涉）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "牛顿环与曲面空气膜",
+              "topicIds": [
+                "uphy_optics_009"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-5（该节内主题：牛顿环与曲面空气膜）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "迈克耳孙干涉仪",
+              "topicIds": [
+                "uphy_optics_010"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-6（该节内主题：迈克耳孙干涉仪）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "光的衍射",
+          "chapter": "第3章 光的衍射",
+          "points": [
+            {
+              "point": "光的衍射与远场近似",
+              "topicIds": [
+                "uphy_optics_011"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-7（该节内主题：光的衍射与远场近似）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "单缝夫琅禾费衍射",
+              "topicIds": [
+                "uphy_optics_012"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-8（该节内主题：单缝夫琅禾费衍射）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "圆孔衍射与瑞利判据",
+              "topicIds": [
+                "uphy_optics_013"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-9（该节内主题：圆孔衍射与瑞利判据）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "衍射光栅与主极大",
+              "topicIds": [
+                "uphy_optics_014"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-10（该节内主题：衍射光栅与主极大）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "光栅缺级与单缝包络",
+              "topicIds": [
+                "uphy_optics_015"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-10（该节内主题：光栅缺级与单缝包络）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "光栅色分辨本领",
+              "topicIds": [
+                "uphy_optics_016"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-10（该节内主题：光栅色分辨本领）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "布拉格衍射条件",
+              "topicIds": [
+                "uphy_optics_017"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-11（该节内主题：布拉格衍射条件）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "光的偏振",
+          "chapter": "第4章 光的偏振",
+          "points": [
+            {
+              "point": "偏振状态与横波性质",
+              "topicIds": [
+                "uphy_optics_018"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-12（该节内主题：偏振状态与横波性质）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "起偏、检偏与马吕斯定律",
+              "topicIds": [
+                "uphy_optics_019"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-13（该节内主题：起偏、检偏与马吕斯定律）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "布儒斯特角与反射偏振",
+              "topicIds": [
+                "uphy_optics_020"
+              ],
+              "textbook_chapter": "第12章 光学",
+              "textbook_section": "§12-14（该节内主题：布儒斯特角与反射偏振）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "name": "相对论与量子基础",
+      "grade": 56,
+      "book": "uphy_general8_lower",
+      "books": [
+        "uphy_general8_lower",
+        "uphy_general8_upper"
+      ],
+      "topic_count": 26,
+      "question_count": 52,
+      "scope": "所选教材对应章的核心主题；含少量标星拓展，不代表物理学专业所有课程或完整实验训练",
+      "units": [
+        {
+          "unit": "相对论时空",
+          "chapter": "第1章 相对论时空",
+          "points": [
+            {
+              "point": "狭义相对论的基本原理",
+              "topicIds": [
+                "uphy_modern_001"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-2（该节内主题：狭义相对论的基本原理）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "洛伦兹变换与因子",
+              "topicIds": [
+                "uphy_modern_002"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-2（该节内主题：洛伦兹变换与因子）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "同时性的相对性",
+              "topicIds": [
+                "uphy_modern_003"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-4（该节内主题：同时性的相对性）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "固有时间与时间延缓",
+              "topicIds": [
+                "uphy_modern_004"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-4（该节内主题：固有时间与时间延缓）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "固有长度与长度收缩",
+              "topicIds": [
+                "uphy_modern_005"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-4（该节内主题：固有长度与长度收缩）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "相对论速度合成",
+              "topicIds": [
+                "uphy_modern_006"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-3（该节内主题：相对论速度合成）",
+              "book": "uphy_general8_upper"
+            },
+            {
+              "point": "相对论能量与动量",
+              "topicIds": [
+                "uphy_modern_007"
+              ],
+              "textbook_chapter": "第4章 相对论基础",
+              "textbook_section": "§4-5（该节内主题：相对论能量与动量）",
+              "book": "uphy_general8_upper"
+            }
+          ]
+        },
+        {
+          "unit": "量子概念",
+          "chapter": "第2章 量子概念",
+          "points": [
+            {
+              "point": "黑体辐射的实验规律",
+              "topicIds": [
+                "uphy_modern_008"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-1（该节内主题：黑体辐射的实验规律）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "能量子与光子",
+              "topicIds": [
+                "uphy_modern_009"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-1（该节内主题：能量子与光子）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "光电效应与逸出功",
+              "topicIds": [
+                "uphy_modern_010"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-2（该节内主题：光电效应与逸出功）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "康普顿散射",
+              "topicIds": [
+                "uphy_modern_011"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-3（该节内主题：康普顿散射）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "玻尔氢原子能级与跃迁",
+              "topicIds": [
+                "uphy_modern_012"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-4（该节内主题：玻尔氢原子能级与跃迁）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "德布罗意波与物质波",
+              "topicIds": [
+                "uphy_modern_013"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-5（该节内主题：德布罗意波与物质波）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "量子力学基础",
+          "chapter": "第3章 量子力学基础",
+          "points": [
+            {
+              "point": "位置与动量的不确定关系",
+              "topicIds": [
+                "uphy_modern_014"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-6（该节内主题：位置与动量的不确定关系）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "波函数与概率诠释",
+              "topicIds": [
+                "uphy_modern_015"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-7（该节内主题：波函数与概率诠释）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "薛定谔方程与定态",
+              "topicIds": [
+                "uphy_modern_016"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-8（该节内主题：薛定谔方程与定态）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "一维无限深势阱",
+              "topicIds": [
+                "uphy_modern_017"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-9（该节内主题：一维无限深势阱）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "量子隧穿与势垒",
+              "topicIds": [
+                "uphy_modern_018"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-9（该节内主题：量子隧穿与势垒）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "量子谐振子与零点能",
+              "topicIds": [
+                "uphy_modern_019"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-9（该节内主题：量子谐振子与零点能）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "氢原子的空间量子数",
+              "topicIds": [
+                "uphy_modern_020"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-10（该节内主题：氢原子的空间量子数）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "电子自旋与泡利原理",
+              "topicIds": [
+                "uphy_modern_021"
+              ],
+              "textbook_chapter": "第13章 早期量子论和量子力学基础",
+              "textbook_section": "§13-11（该节内主题：电子自旋与泡利原理）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        },
+        {
+          "unit": "近代物理拓展",
+          "chapter": "第4章 近代物理拓展",
+          "points": [
+            {
+              "point": "受激辐射与激光条件",
+              "topicIds": [
+                "uphy_modern_022"
+              ],
+              "textbook_chapter": "第14章 激光和固体的量子理论简介",
+              "textbook_section": "§14-1（该节内主题：受激辐射与激光条件）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "能带、禁带与导电性",
+              "topicIds": [
+                "uphy_modern_023"
+              ],
+              "textbook_chapter": "第14章 激光和固体的量子理论简介",
+              "textbook_section": "§14-2（该节内主题：能带、禁带与导电性）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "半导体掺杂与多数载流子",
+              "topicIds": [
+                "uphy_modern_024"
+              ],
+              "textbook_chapter": "第14章 激光和固体的量子理论简介",
+              "textbook_section": "§14-3（该节内主题：半导体掺杂与多数载流子）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "原子核结合能与质量亏损",
+              "topicIds": [
+                "uphy_modern_025"
+              ],
+              "textbook_chapter": "第15章 原子核物理和粒子物理简介",
+              "textbook_section": "§15-2（该节内主题：原子核结合能与质量亏损）",
+              "book": "uphy_general8_lower"
+            },
+            {
+              "point": "放射性衰变与半衰期",
+              "topicIds": [
+                "uphy_modern_026"
+              ],
+              "textbook_chapter": "第15章 原子核物理和粒子物理简介",
+              "textbook_section": "§15-3（该节内主题：放射性衰变与半衰期）",
+              "book": "uphy_general8_lower"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topic_count": 142,
+  "question_count": 284,
+  "learning_prerequisites": [
+    "高中物理基本概念",
+    "向量与三角函数",
+    "一元微积分；涉及梯度时需要多元微积分入门",
+    "概率密度与统计平均的基础概念"
+  ]
+}

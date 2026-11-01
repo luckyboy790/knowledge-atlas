@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "mode": "compare_only",
+  "status": "PASS",
+  "files": [
+    {
+      "file": "math-probability-topics.json",
+      "identical_before_write": true,
+      "generated_sha256": "6f9813b190b82f1f4d52304261aabd5e51328219ad0d6f87bcce7bcf2c223ed1",
+      "current_sha256_before_write": "6f9813b190b82f1f4d52304261aabd5e51328219ad0d6f87bcce7bcf2c223ed1"
+    },
+    {
+      "file": "math-probability-questions.json",
+      "identical_before_write": true,
+      "generated_sha256": "012d7f60f760fb2e570f9619906fdab73b423f4e7ccbbe4f011d742b05ab5bd5",
+      "current_sha256_before_write": "012d7f60f760fb2e570f9619906fdab73b423f4e7ccbbe4f011d742b05ab5bd5"
+    },
+    {
+      "file": "math-probability-dependencies.json",
+      "identical_before_write": true,
+      "generated_sha256": "9b9d8f2792aba8e4681bbcf81c55e1568f42c4f398eb71d5522ccf6462662c91",
+      "current_sha256_before_write": "9b9d8f2792aba8e4681bbcf81c55e1568f42c4f398eb71d5522ccf6462662c91"
+    },
+    {
+      "file": "math-probability-sources.json",
+      "identical_before_write": true,
+      "generated_sha256": "a6689837d9d4574ea0af83909884d5e7f1f7fe0c58c5732203d4b12c348ad75b",
+      "current_sha256_before_write": "a6689837d9d4574ea0af83909884d5e7f1f7fe0c58c5732203d4b12c348ad75b"
+    },
+    {
+      "file": "math-probability-coverage.json",
+      "identical_before_write": true,
+      "generated_sha256": "3d7a8717584b697e1530de1f0a9a5f1146cdbff1d8d3a0bc1e81128377c6de7b",
+      "current_sha256_before_write": "3d7a8717584b697e1530de1f0a9a5f1146cdbff1d8d3a0bc1e81128377c6de7b"
+    }
+  ],
+  "all_five_identical": true,
+  "scope": "Only the five math-probability JSON files; no original data file or core engine is modified.",
+  "limitations": [
+    "Reproducibility is not content validation. Changed data invalidates the hash-bound content review until independently rechecked."
+  ]
+}

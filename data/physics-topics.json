@@ -1,0 +1,5695 @@
+[
+  {
+    "id": "cnp_001",
+    "name": "长度单位与测量",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第一章 机械运动",
+    "type": "conceptual",
+    "description": "测量要选择合适工具，先确认量程、分度值和零刻度；换算时保持同一物理量的大小不变。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第一章 机械运动",
+      "pages": "11–13",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "2.4 m 等于多少厘米？",
+      "answer": "240 cm"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_002",
+    "name": "参照物与相对运动",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第一章 机械运动",
+    "type": "conceptual",
+    "description": "判断运动或静止，需要说明以什么物体为参照物。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第一章 机械运动",
+      "pages": "17–19",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "两辆车沿直线同向同速行驶，以其中一辆为参照物，另一辆处于什么状态？",
+      "answer": "静止"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_003",
+    "name": "速度与平均速度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第一章 机械运动",
+    "type": "conceptual",
+    "description": "用路程除以相应的时间求平均速度；分段运动要用总路程除以总时间。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第一章 机械运动",
+      "pages": "20–26",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "骑车经过 180 m 用时 30 s，平均速度是多少？",
+      "answer": "6 m/s"
+    }
+  },
+  {
+    "id": "cnp_004",
+    "name": "声音的产生与传播",
+    "subject": "physics",
+    "domain": "声学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第二章 声现象",
+    "type": "conceptual",
+    "description": "发声体在振动，声音传播需要介质，真空不能传声。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第二章 声现象",
+      "pages": "32–35",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "敲响的音叉发声时，音叉在做什么？",
+      "answer": "振动"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_005",
+    "name": "音调与频率",
+    "subject": "physics",
+    "domain": "声学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第二章 声现象",
+    "type": "conceptual",
+    "description": "频率描述振动快慢，音调高低与频率有关。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第二章 声现象",
+      "pages": "37–39",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "同一乐器分别发出 250 Hz 和 500 Hz 的声音，哪个音调高？",
+      "answer": "500 Hz"
+    }
+  },
+  {
+    "id": "cnp_006",
+    "name": "温度与摄氏温标",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第三章 物态变化",
+    "type": "conceptual",
+    "description": "温度表示冷热程度；用温度计测量比仅凭感觉判断可靠。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第三章 物态变化",
+      "pages": "58–61",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "标准大气压下，冰水混合物的温度是多少？",
+      "answer": "0 ℃"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_007",
+    "name": "晶体熔化",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第三章 物态变化",
+    "type": "conceptual",
+    "description": "晶体达到熔点并继续吸热时可以熔化，熔化过程中温度保持不变。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第三章 物态变化",
+      "pages": "64–68",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "一定压强下，冰正在熔化且冰水共存，继续吸热时温度怎样变化？",
+      "answer": "保持不变"
+    }
+  },
+  {
+    "id": "cnp_008",
+    "name": "沸腾与吸热",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第三章 物态变化",
+    "type": "conceptual",
+    "description": "在压强不变时，液体沸腾需要持续吸热，沸腾时温度不再升高。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第三章 物态变化",
+      "pages": "70–73",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "在标准大气压下，正在沸腾的纯水继续吸热，温度怎样？",
+      "answer": "保持约 100 ℃"
+    }
+  },
+  {
+    "id": "cnp_009",
+    "name": "光的直线传播",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第四章 光现象",
+    "type": "conceptual",
+    "description": "在同种均匀介质中，光沿直线传播。影子可用这一规律解释。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第四章 光现象",
+      "pages": "88–91",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "用光的直线传播解释影子时，通常需要什么条件？",
+      "answer": "光在同种均匀介质中传播"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_010",
+    "name": "光的反射定律",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第四章 光现象",
+    "type": "conceptual",
+    "description": "反射角与入射角均相对法线测量；反射角等于入射角。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第四章 光现象",
+      "pages": "93–96",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "入射光线与法线夹角为 35°，反射角是多少？",
+      "answer": "35°"
+    }
+  },
+  {
+    "id": "cnp_011",
+    "name": "凸透镜成像",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第五章 透镜及其应用",
+    "type": "conceptual",
+    "description": "凸透镜能会聚光线；成像性质随物距相对于焦距的位置改变。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第五章 透镜及其应用",
+      "pages": "114–115、122–124",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "物体位于凸透镜二倍焦距以外，像的性质是什么？",
+      "answer": "倒立、缩小的实像"
+    }
+  },
+  {
+    "id": "cnp_012",
+    "name": "密度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八上 第六章 质量与密度",
+    "type": "conceptual",
+    "description": "密度等于质量与体积之比。同种物质在相同状态下，取样大小改变不等于密度改变。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8a",
+      "volume": "八年级上册",
+      "section": "第六章 质量与密度",
+      "pages": "144–147",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "均匀金属块质量 81 g、体积 30 cm³，密度是多少？",
+      "answer": "2.7 g/cm³"
+    }
+  },
+  {
+    "id": "cnp_013",
+    "name": "力与作用效果",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第七章 力",
+    "type": "conceptual",
+    "description": "力是物体之间的作用，可以改变物体形状或运动状态。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第七章 力",
+      "pages": "2–5",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "下列哪项能说明力改变了物体形状？",
+      "answer": "把橡皮泥压扁"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_014",
+    "name": "重力",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第七章 力",
+    "type": "conceptual",
+    "description": "重力来自地球的吸引，方向竖直向下，大小可用 G=mg 计算。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第七章 力",
+      "pages": "11–14",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "质量 3 kg 的物体，取 g=10 N/kg，重力多大？",
+      "answer": "30 N"
+    }
+  },
+  {
+    "id": "cnp_015",
+    "name": "牛顿第一定律与惯性",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第八章 运动和力",
+    "type": "conceptual",
+    "description": "物体不受力时保持静止或匀速直线运动；惯性是保持原运动状态的性质。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第八章 运动和力",
+      "pages": "19–22",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "若运动物体受到的所有力突然消失，它将怎样运动？",
+      "answer": "保持原速度做匀速直线运动"
+    }
+  },
+  {
+    "id": "cnp_016",
+    "name": "二力平衡",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第八章 运动和力",
+    "type": "conceptual",
+    "description": "同一物体受到的两个力大小相等、方向相反且在同一直线上时，二力平衡。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第八章 运动和力",
+      "pages": "23–26",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "书静止在水平桌面上，书的重力和桌面对书的支持力有什么关系？",
+      "answer": "是一对平衡力"
+    }
+  },
+  {
+    "id": "cnp_017",
+    "name": "滑动摩擦力",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第八章 运动和力",
+    "type": "conceptual",
+    "description": "滑动摩擦力与压力大小、接触面的粗糙程度有关，判断时要控制其他条件。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第八章 运动和力",
+      "pages": "27–31",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "同样粗糙的水平面上，增大对木块的压力，滑动摩擦力通常怎样？",
+      "answer": "增大"
+    }
+  },
+  {
+    "id": "cnp_018",
+    "name": "压强",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第九章 压强",
+    "type": "conceptual",
+    "description": "压强是压力与受力面积之比。比较压强要同时考虑压力和面积。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第九章 压强",
+      "pages": "40–43",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "200 N 压力均匀作用于 0.04 m² 面积，压强是多少？",
+      "answer": "5000 Pa"
+    }
+  },
+  {
+    "id": "cnp_019",
+    "name": "液体压强",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第九章 压强",
+    "type": "conceptual",
+    "description": "静止液体的压强与液体密度和深度有关，深度从液面竖直向下量。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第九章 压强",
+      "pages": "45–50",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "静止水中，同一竖直线上越深的位置，压强一般怎样？",
+      "answer": "越大"
+    }
+  },
+  {
+    "id": "cnp_020",
+    "name": "浮力",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十章 浮力",
+    "type": "conceptual",
+    "description": "浸在液体中的物体受到液体向上的浮力，可用称重法测量。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十章 浮力",
+      "pages": "64–66",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "物体在空气中重 5 N，浸入水中静止时测力计示数为 3 N，浮力多大？",
+      "answer": "2 N"
+    }
+  },
+  {
+    "id": "cnp_021",
+    "name": "阿基米德原理",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十章 浮力",
+    "type": "conceptual",
+    "description": "浮力等于物体排开液体所受的重力，计算中使用排开液体的体积和密度。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十章 浮力",
+      "pages": "68–71",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "物体排开 0.3 kg 的水，取 g=10 N/kg，浮力是多少？",
+      "answer": "3 N"
+    }
+  },
+  {
+    "id": "cnp_022",
+    "name": "物体浮沉条件",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十章 浮力",
+    "type": "conceptual",
+    "description": "只考虑重力和浮力时，比较两者可判断上浮或下沉；漂浮和悬浮时两力平衡。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十章 浮力",
+      "pages": "73–75",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "静止漂浮的物体重 8 N，浮力多大？",
+      "answer": "8 N"
+    }
+  },
+  {
+    "id": "cnp_023",
+    "name": "功",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十一章 功和机械能",
+    "type": "conceptual",
+    "description": "力对物体做功需要在力的方向上发生位移；沿力方向运动时 W=Fs。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十一章 功和机械能",
+      "pages": "84–86",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "沿水平方向用 15 N 拉力拉物体前进 4 m，该拉力做功多少？",
+      "answer": "60 J"
+    }
+  },
+  {
+    "id": "cnp_024",
+    "name": "功率",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十一章 功和机械能",
+    "type": "conceptual",
+    "description": "功率描述做功快慢，等于功与完成这些功所用时间之比。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十一章 功和机械能",
+      "pages": "88–90",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "机械在 8 s 内做功 400 J，平均功率多大？",
+      "answer": "50 W"
+    }
+  },
+  {
+    "id": "cnp_025",
+    "name": "杠杆平衡",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八下 第十二章 简单机械",
+    "type": "conceptual",
+    "description": "力臂是支点到力作用线的距离，杠杆平衡时两侧力与力臂的乘积相等。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys8b",
+      "volume": "八年级下册",
+      "section": "第十二章 简单机械",
+      "pages": "104–107",
+      "pdf_page_offset": 6
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "杠杆平衡，阻力 30 N、阻力臂 0.2 m、动力臂 0.6 m，动力多大？",
+      "answer": "10 N"
+    }
+  },
+  {
+    "id": "cnp_031",
+    "name": "热量与比热容",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十三章 内能",
+    "type": "conceptual",
+    "description": "相同质量的物质升高相同温度，吸热量可不同；无物态变化时可用 Q=cmΔt。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十三章 内能",
+      "pages": "2–6",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "1 kg 水升高 2 ℃，比热容取 4200 J/(kg·℃)，吸热多少？",
+      "answer": "8400 J"
+    }
+  },
+  {
+    "id": "cnp_032",
+    "name": "分子热运动与扩散",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十三章 内能",
+    "type": "conceptual",
+    "description": "扩散反映微观粒子的无规则运动；温度更高时，热运动更剧烈。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十三章 内能",
+      "pages": "8–10",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "闻到远处花香，可用哪种微观过程解释？",
+      "answer": "花香分子扩散到空气中"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_033",
+    "name": "内能",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十三章 内能",
+    "type": "conceptual",
+    "description": "内能与物体内部微观运动及相互作用有关，不能用物体整体是否运动来判断有无内能。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十三章 内能",
+      "pages": "13–16",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "静止放在桌上的冰块是否具有内能？",
+      "answer": "有"
+    }
+  },
+  {
+    "id": "cnp_034",
+    "name": "能量转化与守恒",
+    "subject": "physics",
+    "domain": "能量",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十四章 内能的利用",
+    "type": "conceptual",
+    "description": "能量可以转移或改变形式，转化和转移过程中总量守恒。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十四章 内能的利用",
+      "pages": "20–22",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "双手摩擦变热，主要发生什么能量转化？",
+      "answer": "机械能转化为内能"
+    }
+  },
+  {
+    "id": "cnp_035",
+    "name": "电流与电路",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十五章 电流和电路",
+    "type": "conceptual",
+    "description": "电荷定向移动形成电流，持续电流需要电源和闭合通路。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十五章 电流和电路",
+      "pages": "44–48",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "电流是怎样形成的？",
+      "answer": "电荷的定向移动"
+    },
+    "root_reason": "本试用集从此概念开始；这不表示学习它不需要已有生活经验或数学基础。"
+  },
+  {
+    "id": "cnp_036",
+    "name": "串联与并联",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十五章 电流和电路",
+    "type": "conceptual",
+    "description": "串联用电器依次相连；并联有不同支路，支路开关可分别控制相应支路。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十五章 电流和电路",
+      "pages": "50–52",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "两个灯泡依次连接在同一条没有分支的通路上，属于什么连接？",
+      "answer": "串联"
+    }
+  },
+  {
+    "id": "cnp_037",
+    "name": "电流测量",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十五章 电流和电路",
+    "type": "conceptual",
+    "description": "电流单位为安培；测某用电器电流时，电流表与它串联并选合适量程。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十五章 电流和电路",
+      "pages": "55–57",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "要测通过灯泡的电流，电流表应怎样连接？",
+      "answer": "与灯泡串联"
+    }
+  },
+  {
+    "id": "cnp_040",
+    "name": "串并联电流规律",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十五章 电流和电路",
+    "type": "conceptual",
+    "description": "串联电路各处电流相等；并联电路干路电流等于各支路电流之和。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十五章 电流和电路",
+      "pages": "60–62",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "两个灯泡串联，通过第一个灯的电流为 0.2 A，通过第二个灯是多少？",
+      "answer": "0.2 A"
+    }
+  },
+  {
+    "id": "cnp_038",
+    "name": "电压测量",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十六章 电压电阻",
+    "type": "conceptual",
+    "description": "电压单位为伏特；测元件两端电压时，电压表与该元件并联。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十六章 电压电阻",
+      "pages": "67–69",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "要测小灯泡两端电压，电压表应怎样连接？",
+      "answer": "与小灯泡并联"
+    }
+  },
+  {
+    "id": "cnp_039",
+    "name": "电阻",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十六章 电压电阻",
+    "type": "conceptual",
+    "description": "电阻表示导体对电流的阻碍作用，大小与材料、长度、横截面积和温度等因素有关。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十六章 电压电阻",
+      "pages": "77–80",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "电阻的国际单位是什么？",
+      "answer": "欧姆（Ω）"
+    }
+  },
+  {
+    "id": "cnp_043",
+    "name": "欧姆定律",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十七章 欧姆定律",
+    "type": "conceptual",
+    "description": "对于适用欧姆定律的导体，用 I=U/R 联系同一段导体的电流、电压和电阻。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十七章 欧姆定律",
+      "pages": "93–99",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "定值电阻为 15 Ω，两端电压为 3 V，通过的电流是多少？",
+      "answer": "0.2 A"
+    }
+  },
+  {
+    "id": "cnp_041",
+    "name": "电能与电功",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十八章 电功率",
+    "type": "conceptual",
+    "description": "电能可以转化成其他形式；电流做功可用 W=UIt 计算。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十八章 电功率",
+      "pages": "111–112",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "某元件两端电压 6 V、电流 0.5 A，通电 20 s，电流做功多少？",
+      "answer": "60 J"
+    }
+  },
+  {
+    "id": "cnp_042",
+    "name": "电功率",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十八章 电功率",
+    "type": "conceptual",
+    "description": "电功率表示电流做功快慢，可用 P=W/t 或 P=UI 计算。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十八章 电功率",
+      "pages": "114–116",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "元件电压 12 V、电流 0.25 A，电功率是多少？",
+      "answer": "3 W"
+    }
+  },
+  {
+    "id": "cnp_044",
+    "name": "焦耳定律",
+    "subject": "physics",
+    "domain": "电学",
+    "grade": 9,
+    "semester": "全",
+    "chapter": "九全 第十八章 电功率",
+    "type": "conceptual",
+    "description": "电流产生的热量满足 Q=I²Rt；比较时要说明电流、电阻和通电时间哪些保持不变。",
+    "mastery_criteria": [
+      "能说明概念适用的条件，并用它解释或计算简单情境。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "phys9",
+      "volume": "九年级全一册",
+      "section": "第十八章 电功率",
+      "pages": "120–121",
+      "pdf_page_offset": 8
+    },
+    "review_status": "AI 初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "电流 2 A 通过 5 Ω 电阻持续 3 s，产生热量多少？",
+      "answer": "60 J"
+    }
+  },
+  {
+    "id": "cnp_h001",
+    "name": "质点模型与参考系",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第一章 运动的描述",
+    "type": "conceptual",
+    "description": "当物体的大小、形状对所研究问题的影响可以忽略时，可把物体视为质点；运动描述必须指定参考系。质点不是体积很小的真实粒子，同一物体在不同问题中可采用不同模型。",
+    "mastery_criteria": [
+      "能按研究目的判断物体能否视为质点。",
+      "能说明更换参考系为何可能改变运动描述。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第一章 运动的描述",
+      "section": "1. 质点 参考系",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "研究列车从甲城到乙城的运行时间，通常可以将列车视为质点，关键理由是什么？",
+      "answer": "车身尺寸对这段行程的时间影响可忽略"
+    }
+  },
+  {
+    "id": "cnp_h002",
+    "name": "时刻、时间间隔与位移",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第一章 运动的描述",
+    "type": "conceptual",
+    "description": "时刻对应时间轴上的点，时间间隔是两个时刻之差；位移从初位置指向末位置，是矢量，路程是轨迹长度。规定正方向后，一维位移可正、可负或为零。",
+    "mastery_criteria": [
+      "能区分第3秒末与前3秒。",
+      "能分别计算往返运动的位移和路程。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第一章 运动的描述",
+      "section": "2. 时间 位移",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "从第2 s末运动到第7 s末，经历的时间间隔是多少？",
+      "answer": "5 s"
+    }
+  },
+  {
+    "id": "cnp_h003",
+    "name": "平均速度与瞬时速度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第一章 运动的描述",
+    "type": "conceptual",
+    "description": "高中平均速度定义为位移除以对应时间间隔；瞬时速度描述某时刻的运动，大小为速率。平均速率用路程除以时间，只有不改变方向的直线运动中，其值才等于平均速度的大小。",
+    "mastery_criteria": [
+      "能区分平均速度与平均速率。",
+      "能从位置—时间图像的斜率判断速度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第一章 运动的描述",
+      "section": "3. 位置变化快慢的描述——速度",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某人沿跑道一圈400 m用时80 s，回到起点，全程平均速度多大？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnp_h004",
+    "name": "加速度与速度变化",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第一章 运动的描述",
+    "type": "conceptual",
+    "description": "加速度是速度变化量与时间间隔之比，方向与速度变化方向相同。在一维运动中，速度与加速度同向时速率增大、反向时速率减小；加速度大不代表速度大。",
+    "mastery_criteria": [
+      "能计算带正负号的速度变化和加速度。",
+      "能结合速度方向判断加速或减速。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第一章 运动的描述",
+      "section": "4. 速度变化快慢的描述——加速度",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "汽车速度很大且保持匀速直线运动，加速度怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h005",
+    "name": "实验：用纸带或传感器研究速度变化",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "type": "conceptual",
+    "description": "用相等时间间隔的位移数据估计各中间时刻的速度，并作v–t图判断变化规律。纸带法应先接通计时装置再释放小车，区分计时点与计数点；偶然误差不能靠挑选顺眼的数据消除。",
+    "mastery_criteria": [
+      "能由相邻等时位移估算中间时刻速度。",
+      "能用v–t图像而非单组数据判断是否匀变速。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第二章 匀变速直线运动的研究",
+      "section": "1. 实验：探究小车速度随时间变化的规律",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "在相等时间间隔记录速度后，v–t图上的点近似落在一条斜直线上，支持什么结论？",
+      "answer": "小车加速度近似恒定"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h006",
+    "name": "匀变速直线运动的速度规律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "type": "conceptual",
+    "description": "加速度恒定且沿同一直线时，v=v₀+at；v–t图的斜率为加速度。先选正方向再代入带符号的量，刹车模型到速度降为零即结束，不能继续套式算出倒车。",
+    "mastery_criteria": [
+      "能用v=v₀+at求速度或制动时间。",
+      "能解释v–t直线的斜率和截距。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第二章 匀变速直线运动的研究",
+      "section": "2. 匀变速直线运动的速度与时间的关系",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "直线运动的v–t图中，直线在纵轴上的截距表示什么？",
+      "answer": "初速度"
+    }
+  },
+  {
+    "id": "cnp_h007",
+    "name": "匀变速直线运动的位移规律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "type": "conceptual",
+    "description": "加速度恒定时，x=v₀t+at²/2，且v²−v₀²=2ax；v–t图与时间轴之间的有向面积给出位移。存在速度反向时，路程需分段取正相加，不能直接取总位移。",
+    "mastery_criteria": [
+      "能选用含时间或不含时间的位移公式。",
+      "能区分v–t图的位移面积与路程面积。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第二章 匀变速直线运动的研究",
+      "section": "3. 匀变速直线运动的位移与时间的关系",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "v–t图线在时间轴下方围成的面积，对位移的贡献怎样？",
+      "answer": "取负值"
+    }
+  },
+  {
+    "id": "cnp_h008",
+    "name": "自由落体运动",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "type": "conceptual",
+    "description": "自由落体是初速度为零、只受重力的运动；近地面小高度范围可把g看作常量，取向下为正，有v=gt、h=gt²/2。空气阻力显著时不能直接用该模型，g也不是在任何地点都相同。",
+    "mastery_criteria": [
+      "能判断真实情境是否可近似自由落体。",
+      "能由高度或时间计算自由落体速度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第二章 匀变速直线运动的研究",
+      "section": "4. 自由落体运动",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "从手中向上抛出的球在上升过程中只受重力，它属于自由落体运动吗？",
+      "answer": "不属于，初速度不为0"
+    }
+  },
+  {
+    "id": "cnp_h009",
+    "name": "重力、弹力与胡克定律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "近地面重力G=mg；弹力产生于相互接触且发生弹性形变的物体。弹簧在弹性限度内满足F=kx，其中x是相对原长的形变量；支持力不一定等于重力。",
+    "mastery_criteria": [
+      "能按接触面或弹簧形变判断弹力方向。",
+      "能区分弹簧长度与形变量并用胡克定律计算。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "1. 重力与弹力",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "弹簧原长10 cm，拉长后的长度14 cm，胡克定律中的x是多少？",
+      "answer": "0.04 m"
+    }
+  },
+  {
+    "id": "cnp_h010",
+    "name": "静摩擦与滑动摩擦",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "滑动摩擦力在常用模型中满足f=μN，方向阻碍接触面的相对滑动；静摩擦力在零到最大静摩擦力之间按平衡或运动需要取值。摩擦力不一定与物体相对地面的速度反向，也不一定等于μmg。",
+    "mastery_criteria": [
+      "能从相对运动或趋势判断摩擦力方向。",
+      "能区分静摩擦的实际值与最大值。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "2. 摩擦力",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "水平桌面上物体受3 N水平推力仍静止，其他水平力只有摩擦力，摩擦力多大？",
+      "answer": "3 N，方向与推力相反"
+    }
+  },
+  {
+    "id": "cnp_h011",
+    "name": "牛顿第三定律与相互作用",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "两个物体间的作用力与反作用力总是大小相等、方向相反、作用在同一直线上，分别作用于不同物体，同时产生和消失；它们不能在单个物体的受力分析中互相抵消。",
+    "mastery_criteria": [
+      "能找出给定力的反作用力和受力对象。",
+      "能区分相互作用力与同一物体所受平衡力。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "3. 牛顿第三定律",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "书静止在桌面上，桌面对书的支持力的反作用力是什么？",
+      "answer": "书对桌面的压力"
+    }
+  },
+  {
+    "id": "cnp_h012",
+    "name": "力的合成、分解与矢量运算",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "共点力的合成遵循平行四边形定则；正交分解要按选定坐标轴计算分量。合力不是各力大小的简单相加，分力与合力是等效替代关系，不能再把它们一起重复相加。",
+    "mastery_criteria": [
+      "能用作图或直角三角形求两个共点力的合力。",
+      "能把斜向力分解到互相垂直的坐标轴。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "4. 力的合成和分解",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一直线上两个相反方向的力分别为7 N和4 N，合力怎样？",
+      "answer": "3 N，沿7 N力的方向"
+    }
+  },
+  {
+    "id": "cnp_h013",
+    "name": "共点力平衡",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "物体静止或做匀速直线运动时，在质点模型下合力为零。多力平衡可用ΣFₓ=0、ΣFᵧ=0；一物体受多个力时，不能要求任意两个力都互相平衡。",
+    "mastery_criteria": [
+      "能画单个物体的受力图并写分量平衡式。",
+      "能由其他力的合力确定未知平衡力。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "5. 共点力的平衡",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "物体受三个共点力保持平衡，前两个力的合力为向右5 N，第三个力怎样？",
+      "answer": "向左5 N"
+    }
+  },
+  {
+    "id": "cnp_h014",
+    "name": "惯性、牛顿第一定律与惯性参考系",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "在惯性参考系中，物体不受力或合力为零时保持静止或匀速直线运动；力改变运动状态，质量表征惯性大小。惯性不是额外的力，不能说物体受惯性力而在惯性系中继续前进。",
+    "mastery_criteria": [
+      "能解释运动不需合力维持。",
+      "能用质量而非速度比较惯性。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "1. 牛顿第一定律",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "撤去光滑水平面上运动物体的水平拉力，且其他力平衡，物体将怎样？",
+      "answer": "保持原来的速度做匀速直线运动"
+    }
+  },
+  {
+    "id": "cnp_h015",
+    "name": "实验：探究加速度与力、质量的关系",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "探究a与F的关系需保持系统质量不变，探究a与m的关系需保持合力不变，并控制摩擦等影响。用悬挂物重力近似小车拉力有适用条件，不能无条件把mg当拉力；作a–1/m图可检验反比关系。",
+    "mastery_criteria": [
+      "能分别说明两组控制变量及测量量。",
+      "能识别悬挂物重力近似拉力的条件与误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "2. 实验：探究加速度与力、质量的关系",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "研究加速度与合力的关系时，哪一个量应保持不变？",
+      "answer": "研究对象的质量"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h016",
+    "name": "牛顿第二定律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "在惯性参考系、质量不变的经典力学模型中，合力F合=ma，加速度与合力同向。要先确定研究对象并求外力矢量和；某一个力不一定等于ma，速度方向也不一定沿合力方向。",
+    "mastery_criteria": [
+      "能从受力图列出带方向的F合=ma。",
+      "能区分合力、加速度和速度的方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "3. 牛顿第二定律",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "物体向右运动而合力向左，其加速度方向是什么？",
+      "answer": "向左"
+    }
+  },
+  {
+    "id": "cnp_h017",
+    "name": "力学单位制与量纲检查",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "国际单位制中力学常用基本单位为米、千克、秒；牛顿是导出单位，1 N=1 kg·m/s²。代入公式前需统一单位，量纲一致只是必要条件，不能单凭单位正确认定公式正确。",
+    "mastery_criteria": [
+      "能将速度、长度和质量转换为SI单位。",
+      "能检查动力学等式两侧的量纲是否一致。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "4. 力学单位制",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "牛顿的正确单位表达式是什么？",
+      "answer": "kg·m/s²"
+    }
+  },
+  {
+    "id": "cnp_h018",
+    "name": "从受力到运动、从运动到受力",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "应用牛顿定律要把受力关系与运动学关系通过加速度连接，先分清对象、过程和参考系。斜面法向加速度为零不代表沿斜面方向也平衡；涉及多物体时要说明整体法或隔离法的边界。",
+    "mastery_criteria": [
+      "能根据恒定合力先求加速度再求位移。",
+      "能按坐标方向区分平衡与加速的方程。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "5. 牛顿运动定律的应用",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "物体在固定光滑斜面上向下加速，垂直斜面的合力怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h019",
+    "name": "超重、失重与视重",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第四章 运动和力的关系",
+    "type": "conceptual",
+    "description": "超重和失重描述支持力或拉力相对重力的大小。竖直加速度向上时视重大于mg，向下时视重小于mg；自由落体时视重为零，但重力仍存在。运动向上或向下本身不足以判断。",
+    "mastery_criteria": [
+      "能用竖直加速度判断超重与失重。",
+      "能计算电梯中的支持力并区分视重和重力。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第四章 运动和力的关系",
+      "section": "6. 超重和失重",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "电梯向上运动但正在减速，乘客处于什么状态？",
+      "answer": "失重状态"
+    }
+  },
+  {
+    "id": "cnp_h020",
+    "name": "曲线运动的速度和条件",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第五章 抛体运动",
+    "type": "conceptual",
+    "description": "曲线运动的瞬时速度沿轨迹切线；速度方向改变意味着一定存在加速度。若合力与速度不共线，轨迹可弯曲；不能把指向轨迹凹侧的加速度误当成总与速度垂直。",
+    "mastery_criteria": [
+      "能画出轨迹某点的瞬时速度方向。",
+      "能判断曲线运动是否可能是匀速直线意义上的速度不变。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第五章 抛体运动",
+      "section": "1. 曲线运动",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "物体沿曲线运动时，其瞬时速度方向怎样？",
+      "answer": "沿轨迹在该点的切线"
+    }
+  },
+  {
+    "id": "cnp_h021",
+    "name": "运动的合成与分解",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第五章 抛体运动",
+    "type": "conceptual",
+    "description": "实际运动可按坐标轴分解，分运动共享同一时间，位置、速度和加速度均按矢量合成。相互垂直且独立的分运动不能把速度大小直接相加；合运动轨迹由两个方向的规律共同决定。",
+    "mastery_criteria": [
+      "能用同一时间求两个正交方向位移。",
+      "能合成垂直速度并判断分运动是否匀速。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第五章 抛体运动",
+      "section": "2. 运动的合成与分解",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "把平面运动分解为水平和竖直运动，两分运动经历的时间怎样？",
+      "answer": "始终相同"
+    }
+  },
+  {
+    "id": "cnp_h022",
+    "name": "实验：探究平抛运动的特点",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第五章 抛体运动",
+    "type": "conceptual",
+    "description": "使小球每次从斜槽同一点静止释放，并让槽口水平，才能保持相同的水平初速度。用频闪或轨迹记录比较等时位移，验证水平方向匀速、竖直方向自由落体；不能将空间等距点直接当等时点。",
+    "mastery_criteria": [
+      "能说明斜槽末端水平和固定释放点的作用。",
+      "能从等时轨迹数据分辨水平与竖直规律。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第五章 抛体运动",
+      "section": "3. 实验：探究平抛运动的特点",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "平抛实验中，每次让同一小球从斜槽同一点静止释放，主要为了什么？",
+      "answer": "保证每次离槽初速度相同"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h023",
+    "name": "平抛与斜抛运动",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第五章 抛体运动",
+    "type": "conceptual",
+    "description": "在近地面匀强重力场且忽略空气阻力时，抛体水平分运动匀速、竖直分运动匀变速。平抛有x=v₀t、y=gt²/2；斜抛需先分解初速度。平抛时间由竖直落差决定，不由水平初速直接决定。",
+    "mastery_criteria": [
+      "能用分运动求平抛时间、射程和末速度。",
+      "能给斜抛初速度正确分解并标明重力方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第五章 抛体运动",
+      "section": "4. 抛体运动的规律",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一高度水平抛出两个球，水平初速度不同，忽略阻力，它们落地时间怎样？",
+      "answer": "相同"
+    }
+  },
+  {
+    "id": "cnp_h024",
+    "name": "圆周运动的线速度、角速度和周期",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第六章 圆周运动",
+    "type": "conceptual",
+    "description": "圆周运动中v=ωr；匀速圆周运动有ω=2π/T和f=1/T，其中匀速指速率不变。刚体同轴转动各点角速度相同，线速度随半径变化；皮带无滑动连接处通常线速度相等。",
+    "mastery_criteria": [
+      "能在转速、频率、周期和角速度之间换算。",
+      "能分辨同轴转动与无滑动传动的约束。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第六章 圆周运动",
+      "section": "1. 圆周运动",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一刚性圆盘绕固定轴匀速转动，距轴不同的两点哪一量必相同？",
+      "answer": "角速度"
+    }
+  },
+  {
+    "id": "cnp_h025",
+    "name": "向心力及其来源",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第六章 圆周运动",
+    "type": "conceptual",
+    "description": "匀速圆周运动的合力指向圆心，大小F=mv²/r。向心力是使速度方向改变的效果名称，可由重力、弹力、摩擦力或其合力提供；受力图中不可在已有实际力之外再添加一个向心力。",
+    "mastery_criteria": [
+      "能指出具体情境中哪些实际力提供向心力。",
+      "能用F=mv²/r进行动力学计算。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第六章 圆周运动",
+      "section": "2. 向心力",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "小球由水平绳拉着在光滑水平面做圆周运动，向心力主要由什么提供？",
+      "answer": "绳的拉力"
+    }
+  },
+  {
+    "id": "cnp_h026",
+    "name": "向心加速度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第六章 圆周运动",
+    "type": "conceptual",
+    "description": "圆周运动的法向加速度aₙ=v²/r=ω²r，指向圆心；匀速圆周运动的总加速度就是向心加速度。非匀速圆周运动还可能有切向加速度，不能把法向分量当成全部加速度。",
+    "mastery_criteria": [
+      "能用两种公式计算向心加速度。",
+      "能说明同v与同ω条件下半径增大时结果不同。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第六章 圆周运动",
+      "section": "3. 向心加速度",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "匀速圆周运动中的向心加速度是否恒定不变？",
+      "answer": "大小不变，但方向不断变化"
+    }
+  },
+  {
+    "id": "cnp_h027",
+    "name": "转弯、拱桥与竖直圆周运动",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第六章 圆周运动",
+    "type": "conceptual",
+    "description": "实际圆周运动需沿指向圆心方向列牛顿第二定律。车辆过拱桥顶时mg−N=mv²/r，过凹桥底时N−mg=mv²/r；绳只能拉不能推，轨道接触还要求支持力非负，不能忽略这些临界条件。",
+    "mastery_criteria": [
+      "能在圆轨道最高点或最低点确定向心方向。",
+      "能结合接触条件判断是否失去约束。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第六章 圆周运动",
+      "section": "4. 生活中的圆周运动",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "汽车通过拱形桥最高点时，向心加速度的方向是什么？",
+      "answer": "竖直向下"
+    }
+  },
+  {
+    "id": "cnp_h028",
+    "name": "开普勒行星运动规律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "type": "conceptual",
+    "description": "同一中心天体的行星轨道可近似椭圆，中心天体位于一个焦点；行星与中心连线在相等时间扫过相等面积，并有T²/a³为同一常量，其中a是半长轴。椭圆轨道上行星速率不恒定。",
+    "mastery_criteria": [
+      "能区分椭圆半长轴与任意瞬时距离。",
+      "能用开普勒第三定律比较同一中心天体的轨道周期。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第七章 万有引力与宇宙航行",
+      "section": "1. 行星的运动",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "行星绕太阳沿椭圆轨道运动，接近近日点时速率通常怎样？",
+      "answer": "比远日点大"
+    }
+  },
+  {
+    "id": "cnp_h029",
+    "name": "万有引力定律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "type": "conceptual",
+    "description": "两个可视为质点的物体间引力大小F=Gm₁m₂/r²，r为两质点距离；均匀球体对外部物体可用球心间距计算。不能把地表高度直接代替距地心距离，也不能把G与随地点变化的g混淆。",
+    "mastery_criteria": [
+      "能判断万有引力公式中距离的含义。",
+      "能通过比例关系计算引力变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第七章 万有引力与宇宙航行",
+      "section": "2. 万有引力定律",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "卫星在距地表高度h处，地球半径R，用万有引力公式时距离r取什么？",
+      "answer": "R+h"
+    }
+  },
+  {
+    "id": "cnp_h030",
+    "name": "由天体运动估算质量与重力",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "type": "conceptual",
+    "description": "将万有引力与圆轨道向心力联立，可用卫星周期和轨道半径估算中心天体质量M=4π²r³/(GT²)，前提是卫星质量远小于中心天体且近似圆轨道。由表面g和半径也可得GM≈gR²，注意自转影响的近似。",
+    "mastery_criteria": [
+      "能说明测得周期和半径为何可求中心天体质量。",
+      "能在忽略自转条件下联系g、M与R。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第七章 万有引力与宇宙航行",
+      "section": "3. 万有引力理论的成就",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "通过一颗近圆轨道卫星估算地球质量，除G外需测量哪一组量？",
+      "answer": "轨道半径和周期"
+    }
+  },
+  {
+    "id": "cnp_h031",
+    "name": "宇宙速度与圆轨道卫星",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "type": "conceptual",
+    "description": "圆轨道卫星满足v=√(GM/r)、T=2π√(r³/GM)；第一宇宙速度是理想近地圆轨道速度，约7.9 km/s。更高圆轨道的运行速度更小，但从地面送入该轨道所需能量更大，不能混淆发射与运行速度。",
+    "mastery_criteria": [
+      "能比较不同高度圆轨道的速度和周期。",
+      "能说明同步卫星的赤道轨道和周期限制。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第七章 万有引力与宇宙航行",
+      "section": "4. 宇宙航行",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一中心天体的两颗圆轨道卫星，轨道半径较大者运行速度怎样？",
+      "answer": "较小"
+    }
+  },
+  {
+    "id": "cnp_h032",
+    "name": "相对论时空观与经典力学边界",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "type": "conceptual",
+    "description": "牛顿力学对宏观、低速问题是很好的近似；接近光速时需采用相对论，微观现象常需量子理论。狭义相对论中真空光速对惯性观察者相同，时间间隔和长度的比较必须明确测量参考系和事件。",
+    "mastery_criteria": [
+      "能识别经典力学近似失效的典型尺度。",
+      "能避免把“相对”误解为所有物理规律均随意变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第七章 万有引力与宇宙航行",
+      "section": "5. 相对论时空观与牛顿力学的局限性",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "粒子速度接近真空光速时，直接沿用低速牛顿公式可能不准确，主要需要哪种理论？",
+      "answer": "相对论"
+    },
+    "learning_depth": "了解性正文内容（仍按本册课程层级纳入覆盖）"
+  },
+  {
+    "id": "cnp_h033",
+    "name": "恒力做功与功率",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第八章 机械能守恒定律",
+    "type": "conceptual",
+    "description": "恒力做功W=Flcosθ，θ是力与位移夹角；功率P=W/t，瞬时功率P=Fvcosθ。功的正负表示能量转移方向，垂直位移的力不做功；平均功率不能任意用末速度代入。",
+    "mastery_criteria": [
+      "能根据夹角判断正功、负功和零功。",
+      "能区分平均功率与瞬时功率并计算。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第八章 机械能守恒定律",
+      "section": "1. 功与功率",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "匀速圆周运动中，始终垂直瞬时速度的向心力做功怎样？",
+      "answer": "不做功"
+    }
+  },
+  {
+    "id": "cnp_h034",
+    "name": "重力势能与弹性势能",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第八章 机械能守恒定律",
+    "type": "conceptual",
+    "description": "近地面g近似恒定时，选定零势能面后Eₚ=mgh，重力做功Wg=−ΔEₚ，与路径无关。弹性限度内理想弹簧势能为kx²/2；势能属于相互作用系统，零点改变不改变势能差。",
+    "mastery_criteria": [
+      "能说明势能大小依赖零点但变化量不依赖零点。",
+      "能由高度变化计算重力做功。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第八章 机械能守恒定律",
+      "section": "2. 重力势能",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "将重力势能零点整体改到更低的位置，同一物体两位置间的重力势能差怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h035",
+    "name": "动能与动能定理",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第八章 机械能守恒定律",
+    "type": "conceptual",
+    "description": "经典质点模型中Eₖ=mv²/2，所有外力的总功等于动能变化。动能是标量且不小于零，速度反向不使动能变负；需包括全部相关力的功，不能只计算推动力。",
+    "mastery_criteria": [
+      "能用总功求末速而不必逐段求加速度。",
+      "能区分速度变号与动能变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第八章 机械能守恒定律",
+      "section": "3. 动能和动能定理",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一物体速度方向反向而速率保持不变，动能怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h036",
+    "name": "机械能守恒及系统边界",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第八章 机械能守恒定律",
+    "type": "conceptual",
+    "description": "选定物体与地球或弹簧组成的系统，在只有重力或系统内弹力做功且无其他能量转化时，动能与势能之和守恒。机械能守恒不等于每一种能量都不变，也不等于物体合力为零。",
+    "mastery_criteria": [
+      "能按系统和做功情况判断机械能是否守恒。",
+      "能用两个状态的能量求速度或高度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第八章 机械能守恒定律",
+      "section": "4. 机械能守恒定律",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "小球在不计空气阻力的自由落体中，哪一说法正确？",
+      "answer": "重力势能减少，动能增加，机械能守恒"
+    }
+  },
+  {
+    "id": "cnp_h037",
+    "name": "实验：验证机械能守恒定律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第八章 机械能守恒定律",
+    "type": "conceptual",
+    "description": "用重物下落的位移和纸带中间时刻速度，比较mgh与mv²/2；同一研究对象质量可约去。初始条件、计时频率与阻力需核对，不能再用v²=2gh推算速度后宣称验证了该关系。",
+    "mastery_criteria": [
+      "能独立测量高度变化与速度。",
+      "能解释阻力使测得动能增加略小于势能减少。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第八章 机械能守恒定律",
+      "section": "5. 实验：验证机械能守恒定律",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "验证自由下落机械能守恒时，若直接用v=√(2gh)算速度，有什么问题？",
+      "answer": "使用了等价的待验证结论，不能构成独立验证"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h038",
+    "name": "电荷守恒与起电方式",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第九章 静电场及其应用",
+    "type": "conceptual",
+    "description": "摩擦起电、接触起电和感应起电涉及电荷转移或重新分布，电荷不会凭空创造；孤立系统的总电荷守恒。普通带电物体净电荷为元电荷e的整数倍，金属中通常转移的是电子，质子不在金属导体内自由迁移。",
+    "mastery_criteria": [
+      "能从电子得失判断正负带电。",
+      "能在接触或转移前后列出总电荷守恒关系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第九章 静电场及其应用",
+      "section": "1. 电荷",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "一原本中性的物体失去一些电子后，通常带什么电？",
+      "answer": "正电"
+    }
+  },
+  {
+    "id": "cnp_h039",
+    "name": "库仑定律与点电荷条件",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第九章 静电场及其应用",
+    "type": "conceptual",
+    "description": "真空中静止点电荷间相互作用大小F=k|q₁q₂|/r²，同号相斥、异号相吸。带电体尺寸相对距离可忽略时才可视为点电荷；r趋近到不可忽略尺寸时不能据此宣称力无限大。",
+    "mastery_criteria": [
+      "能判断点电荷近似和真空条件。",
+      "能用电量、距离比例分析库仑力变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第九章 静电场及其应用",
+      "section": "2. 库仑定律",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两同号点电荷的相互作用是什么？",
+      "answer": "相互排斥"
+    }
+  },
+  {
+    "id": "cnp_h040",
+    "name": "电场强度与电场线",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第九章 静电场及其应用",
+    "type": "conceptual",
+    "description": "电场强度E=F/q以足够小的正试探电荷定义，方向为正电荷受力方向；负电荷受力与E反向。场强由场源和位置决定，不由试探电荷决定；电场线是描述工具，不一定是粒子轨迹。",
+    "mastery_criteria": [
+      "能区分场强方向与负电荷受力方向。",
+      "能用F=qE计算受力并应用场强矢量叠加。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第九章 静电场及其应用",
+      "section": "3. 电场 电场强度",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某点电场强度向右，放在该点的负电荷受电场力方向怎样？",
+      "answer": "向左"
+    }
+  },
+  {
+    "id": "cnp_h041",
+    "name": "静电平衡、屏蔽与静电应用",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第九章 静电场及其应用",
+    "type": "conceptual",
+    "description": "导体达到静电平衡时内部场强为零，整体等势，净剩电荷分布在表面；尖端附近场强可较大而引发放电。屏蔽讨论需说明静电条件与导体结构，不能把静电屏蔽直接当成能屏蔽所有变化电磁场。",
+    "mastery_criteria": [
+      "能说明静电平衡的内场与电势性质。",
+      "能用电荷转移解释接地与防静电措施。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第九章 静电场及其应用",
+      "section": "4. 静电的防止与利用",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "处于静电平衡的金属块内部，电场强度怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h042",
+    "name": "电势能与电势",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "静电场中电场力做功等于电势能的减少，电势φ=Eₚ/q，零电势位置需自行约定。电势是标量，场强为零处电势未必为零；负电荷在高电势处的电势能反而可能更低。",
+    "mastery_criteria": [
+      "能区分电势、电势能与电场强度。",
+      "能根据电荷符号和电势判断电势能变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "1. 电势能和电势",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某点场强为0，该点电势一定为0吗？",
+      "answer": "不一定，电势零点取决于约定"
+    }
+  },
+  {
+    "id": "cnp_h043",
+    "name": "电势差与电场力做功",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "UAB=φA−φB，电场力把电荷q从A移到B所做功WAB=qUAB；电势差不依赖零电势选择。计算时A、B顺序与电荷正负必须一致，电压为正不意味着任意电荷都获得动能。",
+    "mastery_criteria": [
+      "能带符号计算电势差与电场力做功。",
+      "能说明交换起终点如何改变电压和功。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "2. 电势差",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "若UAB=+8 V，则UBA是多少？",
+      "answer": "−8 V"
+    }
+  },
+  {
+    "id": "cnp_h044",
+    "name": "匀强电场中的电势差与场强",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "匀强电场中沿场方向距离d对应U=Ed；任意两点要取位移沿场方向的投影，等势面与场线垂直。E=U/d不能不加条件地用于所有非匀强电场，也不能把任意两点的几何距离直接作d。",
+    "mastery_criteria": [
+      "能取位移在场方向上的分量计算电势差。",
+      "能判断沿场方向电势降低、等势方向电势不变。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "3. 电势差与电场强度的关系",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "匀强电场中，两点连线与场方向垂直，两点电势差怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h045",
+    "name": "电容器与电容",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "电容C=Q/U描述储存电荷的能力，Q取一块极板所带电荷量的绝对值；在线性电容器中C由结构和介质决定。理想平行板电容随面积增大、板距减小而增大；接着电源与断开电源两种条件不能混用。",
+    "mastery_criteria": [
+      "能区分C、Q、U的决定关系。",
+      "能分别分析固定电压或固定电荷时的电容器变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "4. 电容器的电容",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某线性电容器两端电压加倍、结构与介质不变，电容怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h046",
+    "name": "带电粒子在电场中的加速与偏转",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "带电粒子仅受电场力时，可用qU=ΔEₖ；在匀强电场中加速度a=qE/m。垂直电场方向入射可按匀速和匀加速分运动分析，重力是否可忽略须判断，非匀强场不能默认恒定加速度。",
+    "mastery_criteria": [
+      "能用能量求通过加速电压后的速度。",
+      "能按初速度与场方向分解偏转运动。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "5. 带电粒子在电场中的运动",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "带电粒子在匀强电场中以垂直电场方向的速度进入，忽略重力，沿初速度方向的运动怎样？",
+      "answer": "匀速直线运动"
+    }
+  },
+  {
+    "id": "cnp_h047",
+    "name": "电源、电流与载流子模型",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "电源通过非静电力维持电势差；电流I=Δq/Δt，在均匀载流子模型中I=neSv。约定电流方向为正电荷定向运动方向，金属自由电子漂移方向与电流相反；漂移速率不是电信号传播速率。",
+    "mastery_criteria": [
+      "能用电荷通过量计算平均电流。",
+      "能区分电流方向、电子漂移方向和信号传播。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "1. 电源和电流",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "金属导线中的电子沿导线向左定向漂移，约定电流方向怎样？",
+      "answer": "向右"
+    }
+  },
+  {
+    "id": "cnp_h048",
+    "name": "电阻定律与电阻率",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "均匀导体在温度等条件固定时R=ρL/S，ρ反映材料的电阻率。欧姆定律适用于相应线性导体条件，电阻率会随温度改变；拉伸导线时长度与截面积通常同时变化，不能只改其中一个量。",
+    "mastery_criteria": [
+      "能区分电阻与电阻率。",
+      "能在几何和温度条件明确时计算电阻比例。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "2. 导体的电阻",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同种材料、温度相同，长度加倍且截面积不变，电阻怎样变化？",
+      "answer": "加倍"
+    }
+  },
+  {
+    "id": "cnp_h049",
+    "name": "实验：测量导体电阻率",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "测量导线有效长度L、直径d与电阻R，按ρ=Rπd²/(4L)计算；直径应多处多方向测量，螺旋测微器注意零点和半毫米刻线。伏安法接法需考虑内外接误差，通电过久温升会改变电阻率。",
+    "mastery_criteria": [
+      "能从直径求截面积并计算电阻率。",
+      "能分析接触、读数和温升造成的误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "3. 实验：导体电阻率的测量",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "电阻率实验中，为何要避免测量时电流过大、通电过久？",
+      "answer": "温升可能改变金属丝的电阻率"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h050",
+    "name": "串并联电路与电表改装",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "串联电路电流相同、总电压等于各段电压之和；并联电路电压相同、总电流为各支路之和。电流表以小电阻分流、电压表以大电阻串联分压来扩大量程，实际电表会影响被测电路。",
+    "mastery_criteria": [
+      "能计算串并联等效电阻和分压分流。",
+      "能判断电流表分流与电压表串联电阻的用途。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "4. 串联电路和并联电路",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "将表头改装成更大量程的电流表，通常应怎样连接分流电阻？",
+      "answer": "与表头并联"
+    }
+  },
+  {
+    "id": "cnp_h051",
+    "name": "实验：多用电表的选择与使用",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "测电压应并联、测电流应串联，先选适当挡位；电阻挡测量必须断开外部电源，换倍率后重新欧姆调零。电阻刻度非均匀，读数须乘倍率；测量后置于安全挡位，不能用电阻挡直接测带电电路。",
+    "mastery_criteria": [
+      "能为电压、电流和电阻选择接法及量程。",
+      "能完成电阻挡调零、读数和倍率换算。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "5. 实验：练习使用多用电表",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "使用多用电表电阻挡测量电阻时，必须先做什么？",
+      "answer": "使被测电阻与外部电源断开"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h052",
+    "name": "电路中的能量转化与电功率",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "type": "conceptual",
+    "description": "电流做功W=UIt，电功率P=UI；焦耳热Q=I²Rt。只有纯电阻用电器且相关条件满足时W=Q、P=I²R=U²/R，电动机等还把电能转为机械能，不能把全部电功率当热功率。",
+    "mastery_criteria": [
+      "能区分输入电功、电热和其他能量输出。",
+      "能在纯电阻与非纯电阻电路中正确选式。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十二章 电能 能量守恒定律",
+      "section": "1. 电路中的能量转化",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "正常工作的电动机，输入电功率UI是否通常全都变成焦耳热I²R？",
+      "answer": "不是，还会输出机械能等"
+    }
+  },
+  {
+    "id": "cnp_h053",
+    "name": "电动势、内阻与闭合电路欧姆定律",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "type": "conceptual",
+    "description": "电动势反映电源把其他能量转为电能的能力；简单直流纯电阻闭合电路中I=ε/(R+r)，路端电压U=ε−Ir。路端电压与电动势不同；短路时大电流主要受内阻限制，理想电源模型不能用于安全推断。",
+    "mastery_criteria": [
+      "能同时计算总电流、内电压和路端电压。",
+      "能解释外电阻变化时路端电压的变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十二章 电能 能量守恒定律",
+      "section": "2. 闭合电路的欧姆定律",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "具有内阻的电池接入用电器后，路端电压通常怎样？",
+      "answer": "小于电动势"
+    }
+  },
+  {
+    "id": "cnp_h054",
+    "name": "实验：测量电池电动势和内阻",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "type": "conceptual",
+    "description": "测量多组路端电压U与电流I，作U–I图，按U=ε−rI由纵截距求ε、斜率绝对值求r。注意电压表电流和电流表电阻造成系统偏差，滑动变阻器初始取较大值，避免电池长时间大电流放电。",
+    "mastery_criteria": [
+      "能从U–I图的截距和斜率求电池参数。",
+      "能说明多组数据拟合与量程选择的作用。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十二章 电能 能量守恒定律",
+      "section": "3. 实验：电池电动势和内阻的测量",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "用U–I直线测电池参数，纵轴为U，横轴为I，纵截距表示什么？",
+      "answer": "电动势"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h055",
+    "name": "能源、效率与可持续发展",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "type": "conceptual",
+    "description": "能量守恒不表示可利用能源取之不尽；能量转化有方向性且存在品质差异。评价能源要比较可再生性、效率、环境影响和储运条件，不能把“可再生”当作没有任何资源消耗或环境影响。",
+    "mastery_criteria": [
+      "能区分能源的可再生性与能量守恒。",
+      "能按输入输出能量计算效率并说明损失去向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十二章 电能 能量守恒定律",
+      "section": "4. 能源与可持续发展",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "既然能量守恒，为什么仍需节约能源？",
+      "answer": "可方便利用的能源与高品质能量会减少"
+    }
+  },
+  {
+    "id": "cnp_h056",
+    "name": "磁场、磁感线与电流磁效应",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "type": "conceptual",
+    "description": "磁场可由磁体和电流产生，磁感线是表示磁场方向与强弱的闭合曲线，线密处通常表示场较强。磁感线不是实际存在的线；直导线电流的磁场方向用右手螺旋定则判断，不能套电荷正负吸斥来判断磁场。",
+    "mastery_criteria": [
+      "能说明磁感线闭合且互不相交。",
+      "能用右手定则判断直电流或螺线管磁场方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十三章 电磁感应与电磁波初步",
+      "section": "1. 磁场 磁感线",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "磁感线与静电场线相比，哪一特征正确？",
+      "answer": "磁感线是闭合曲线"
+    }
+  },
+  {
+    "id": "cnp_h057",
+    "name": "磁感应强度与磁通量",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "type": "conceptual",
+    "description": "垂直磁场的直导线可用B=F/(IL)定义磁感应强度；匀强场穿过平面的磁通量Φ=BS cosθ，θ为磁场与面积法线夹角。磁通量不同于磁感应强度，磁场平行于平面时通量为零。",
+    "mastery_criteria": [
+      "能区分场的强弱B与穿过面的通量Φ。",
+      "能正确使用面积法线夹角与SI单位。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十三章 电磁感应与电磁波初步",
+      "section": "2. 磁感应强度 磁通量",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "匀强磁场方向与线圈平面平行，通过线圈的磁通量是多少？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnp_h058",
+    "name": "电磁感应现象与产生条件",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "type": "conceptual",
+    "description": "闭合导体回路的磁通量发生变化时产生感应电流；回路不闭合时仍可能有感应电动势。穿过回路的磁场存在本身不是充分条件，应检查B、面积和方向是否变化，机械切割只是产生通量变化的一种方式。",
+    "mastery_criteria": [
+      "能从磁通量变化判断是否产生感应电动势。",
+      "能区分有电动势与有闭合回路电流。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十三章 电磁感应与电磁波初步",
+      "section": "3. 电磁感应现象及应用",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "闭合线圈静止在恒定匀强磁场中，面积和方向均不变，是否有感应电流？",
+      "answer": "没有"
+    }
+  },
+  {
+    "id": "cnp_h059",
+    "name": "电磁波及信息传递",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "type": "conceptual",
+    "description": "变化的电场与磁场相联系，可形成向空间传播的电磁波；电磁波能在真空传播，真空波速c≈3.0×10⁸ m/s。无线通信、雷达等用电磁波传递信息，不能把电磁波与需要介质的声波混为一谈。",
+    "mastery_criteria": [
+      "能比较声波与电磁波的传播条件。",
+      "能用c=fλ求真空中的频率或波长。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十三章 电磁感应与电磁波初步",
+      "section": "4. 电磁波的发现及应用",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "航天器与地面在真空空间传递无线电信号，依靠什么？",
+      "answer": "电磁波"
+    }
+  },
+  {
+    "id": "cnp_h060",
+    "name": "能量量子化初步",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "type": "conceptual",
+    "description": "微观体系的能量交换有量子特征，光子能量E=hν；频率决定单个光子能量，光强还与单位时间内光子数等有关。不能把一束光的总能量与单个光子能量混同，也不能把经典连续能量模型用于所有微观过程。",
+    "mastery_criteria": [
+      "能由频率比较光子能量。",
+      "能区分提高频率与增加同频光强的效果。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十三章 电磁感应与电磁波初步",
+      "section": "5. 能量量子化",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同频率光的光强增大时，单个光子的能量怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h061",
+    "name": "动量与动量变化",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "经典低速情况下动量p=mv，是与速度同向的矢量；动量变化为末动量减初动量。等速率反向运动的动能相同但动量不同，不可用速率差代替带方向的速度差。",
+    "mastery_criteria": [
+      "能计算一维带正负号的动量及变化量。",
+      "能比较动量与动能的标矢量性质。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "1. 动量",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一小球以相同速率向相反方向运动，两状态的动量怎样？",
+      "answer": "大小相等、方向相反"
+    }
+  },
+  {
+    "id": "cnp_h062",
+    "name": "冲量与动量定理",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "恒力冲量I=FΔt，合外力冲量等于动量变化；变力可用平均力或F–t图有向面积处理。冲量方向随力方向，延长作用时间可在动量改变量相同条件下降低平均力，不能忽略其他外力冲量。",
+    "mastery_criteria": [
+      "能用动量变化求合力冲量或平均合力。",
+      "能说明安全气囊延长缓冲时间的作用。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "2. 动量定理",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "安全气囊使人体以相同初末速度停止，但延长停止时间，主要降低什么？",
+      "answer": "人体受到的平均合力大小"
+    }
+  },
+  {
+    "id": "cnp_h063",
+    "name": "动量守恒及分方向守恒",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "系统合外力为零或相应时间内外力冲量可忽略时，总动量保持不变；某方向外力冲量为零时，该方向动量可单独守恒。须先选系统与过程，内力大不等于每个物体各自的动量守恒。",
+    "mastery_criteria": [
+      "能识别系统、内外力和守恒方向。",
+      "能列一维碰撞前后的总动量方程。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "3. 动量守恒定律",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两小车碰撞中内部相互作用力很大，系统总动量仍可近似守恒的关键是什么？",
+      "answer": "碰撞时间内合外力冲量可忽略"
+    }
+  },
+  {
+    "id": "cnp_h064",
+    "name": "实验：验证碰撞中的动量守恒",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "测量碰撞前后各物体质量和速度，并在外力冲量可忽略的方向比较总动量。用光电门时速度测量位置应靠近碰撞区；平抛落点法需保证下落高度相同，不能把速度大小相加替代矢量和。",
+    "mastery_criteria": [
+      "能列出独立测量质量和各速度的方案。",
+      "能用符号统一碰撞前后的运动方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "4. 实验：验证动量守恒定律",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "碰撞实验中，两个物体向相反方向运动，计算总动量时应怎样处理？",
+      "answer": "选正方向后给速度赋相反符号"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h065",
+    "name": "弹性、非弹性与完全非弹性碰撞",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "外力冲量可忽略时各种碰撞均满足系统动量守恒；弹性碰撞还守恒动能，非弹性碰撞可将动能转为内能等，完全非弹性碰撞后共速。不能把动量守恒误当成动能必守恒。",
+    "mastery_criteria": [
+      "能判断碰撞中适用的两个守恒关系。",
+      "能计算粘连碰撞中的动能变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "5. 弹性碰撞和非弹性碰撞",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "完全非弹性碰撞的典型特征是什么？",
+      "answer": "碰后两物体具有相同速度"
+    }
+  },
+  {
+    "id": "cnp_h066",
+    "name": "反冲与火箭推进",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第一章 动量守恒定律",
+    "type": "conceptual",
+    "description": "反冲现象中系统内各部分获得方向相反的动量；短时外力冲量可忽略时总动量守恒。火箭靠向后喷出物质推进，不依赖空气反推；持续喷气质量改变，不能无条件用固定质量F=ma处理整个喷气过程。",
+    "mastery_criteria": [
+      "能用系统动量解释反冲。",
+      "能说明火箭在真空中仍可推进的原因。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第一章 动量守恒定律",
+      "section": "6. 反冲现象 火箭",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "火箭能在真空中前进的直接物理依据是什么？",
+      "answer": "向后喷气，使火箭获得反向动量"
+    }
+  },
+  {
+    "id": "cnp_h067",
+    "name": "简谐运动与位移—时间图像",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "简谐运动的位移随时间按正弦或余弦规律变化，理想弹簧振子在小阻尼条件下可近似该运动；位移以平衡位置为原点。振幅是位移绝对值的最大值，不是一个周期内走过的路程。",
+    "mastery_criteria": [
+      "能识别正弦型位移—时间图像。",
+      "能区分平衡位置、振幅和周期路程。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "1. 简谐运动",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某振子的振幅为2 cm，一个完整周期内经过的路程是多少？",
+      "answer": "8 cm"
+    }
+  },
+  {
+    "id": "cnp_h068",
+    "name": "简谐运动的振幅、周期与相位",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "简谐运动可写x=A sin(ωt+φ)，ω=2π/T，φ给出初始相位。比较相位须使用相同参考时刻和相同频率，位移相同的两个时刻速度方向不一定相同。",
+    "mastery_criteria": [
+      "能由表达式读出振幅、周期和初始状态。",
+      "能通过图像判断同位移时速度是否同向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "2. 简谐运动的描述",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两个同频简谐运动在同一时刻位移都为0，它们速度方向一定相同吗？",
+      "answer": "不一定，可能同向也可能反向"
+    }
+  },
+  {
+    "id": "cnp_h069",
+    "name": "回复力、加速度与振动能量",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "简谐运动满足回复力F=−kx，力指向平衡位置；理想弹簧振子动能与弹性势能相互转化。平衡位置速度最大而回复力为零，端点速度为零但加速度最大；回复力是效果名称，不是额外一种力。",
+    "mastery_criteria": [
+      "能根据位移判断回复力和加速度方向。",
+      "能比较平衡位置与端点的速度、力和能量。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "3. 简谐运动的回复力和能量",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "理想弹簧振子经过平衡位置时，哪组判断正确？",
+      "answer": "速度最大，回复力为0"
+    }
+  },
+  {
+    "id": "cnp_h070",
+    "name": "单摆的小角度模型",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "细线长远大于摆球尺寸、线质量可忽略、阻力很小且摆角足够小时，单摆近似简谐运动，T=2π√(L/g)，L为悬点到球心距离。小角度周期与摆球质量无关，大摆角不能无条件套该近似式。",
+    "mastery_criteria": [
+      "能列出单摆近似条件并确定摆长。",
+      "能用周期公式比较摆长或重力加速度变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "4. 单摆",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "小角度单摆的摆长应如何测量？",
+      "answer": "从悬点量到摆球球心"
+    }
+  },
+  {
+    "id": "cnp_h071",
+    "name": "实验：用单摆测量重力加速度",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "在小摆角下测悬点到球心的摆长L，并计时多个全振动求T，再用g=4π²L/T²。宜在平衡位置同向经过时开始和结束计数，避免把半周期当周期；多次测量减小随机误差但不能自动消除摆长系统偏差。",
+    "mastery_criteria": [
+      "能把连续多周期计时转换成单周期。",
+      "能分析周期或摆长偏大对g测量的影响。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "5. 实验：用单摆测量重力加速度",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "单摆测g时，将半个周期误认为一个周期，其他量正确，计算的g将怎样？",
+      "answer": "约为真实值的4倍"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h072",
+    "name": "受迫振动、共振与阻尼",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第二章 机械振动",
+    "type": "conceptual",
+    "description": "稳定受迫振动的频率由驱动力频率决定，驱动频率接近系统固有频率时可能共振。阻尼会限制共振振幅并使自由振动能量减小；不能说共振时振幅一定无限大，也不能混淆固有频率与驱动频率。",
+    "mastery_criteria": [
+      "能区分自由、阻尼和受迫振动。",
+      "能解释减振或共振应用中的频率匹配。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第二章 机械振动",
+      "section": "6. 受迫振动 共振",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "稳定受迫振动的频率主要由什么决定？",
+      "answer": "驱动力频率"
+    }
+  },
+  {
+    "id": "cnp_h073",
+    "name": "机械波的形成与传播",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第三章 机械波",
+    "type": "conceptual",
+    "description": "机械波来自振动在介质中的传播，需要振源和介质；介质质点在平衡位置附近振动，波传播能量和振动形式。横波质点振动方向垂直传播方向，纵波平行，不能把波速当作介质质点整体迁移速度。",
+    "mastery_criteria": [
+      "能区分横波、纵波的两种方向关系。",
+      "能解释波向前传播而质点不随波远行。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第三章 机械波",
+      "section": "1. 波的形成",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "绳上的波向右传播，绳上的一点通常怎样运动？",
+      "answer": "在自己的平衡位置附近振动"
+    }
+  },
+  {
+    "id": "cnp_h074",
+    "name": "波长、频率、波速与波形图",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第三章 机械波",
+    "type": "conceptual",
+    "description": "周期波有v=λf；波形图是在某一时刻各位置的位移，振动图是在某一位置随时间的位移。频率由振源决定、波速与介质条件有关；相邻波峰距离是波长，任意两个同位移点间距未必是波长。",
+    "mastery_criteria": [
+      "能区分x–位置波形图和x–时间振动图。",
+      "能用v=λf联立波长、频率和周期。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第三章 机械波",
+      "section": "2. 波的描述",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "一张横轴为位置、纵轴为位移的波形图表示什么？",
+      "answer": "某一时刻不同质点的位移"
+    }
+  },
+  {
+    "id": "cnp_h075",
+    "name": "机械波的反射、折射与衍射",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第三章 机械波",
+    "type": "conceptual",
+    "description": "波遇边界可反射，进入另一介质可改变波速和波长而频率保持；波绕过障碍或穿过孔缝继续传播称衍射。孔缝尺寸与波长相近或更小时衍射通常较明显，不是只有这种条件才存在衍射。",
+    "mastery_criteria": [
+      "能说明跨介质时频率为何保持不变。",
+      "能用障碍尺寸相对波长解释衍射明显程度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第三章 机械波",
+      "section": "3. 波的反射、折射和衍射",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "周期波进入另一种介质，波速变小而振源不变，频率通常怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h076",
+    "name": "波的叠加与稳定干涉",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第三章 机械波",
+    "type": "conceptual",
+    "description": "波相遇时位移按代数或矢量叠加，之后可继续各自传播；稳定干涉需频率相同且相位差稳定等条件。同相振源产生的波在路径差为整倍波长处加强、半奇数倍处减弱，减弱不等于能量凭空消失。",
+    "mastery_criteria": [
+      "能判断稳定干涉的相干条件。",
+      "能在同相振源条件下由路径差判断加强或减弱。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第三章 机械波",
+      "section": "4. 波的干涉",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "获得稳定干涉条纹，两个振源至少需要满足哪组条件？",
+      "answer": "频率相同且相位差稳定"
+    }
+  },
+  {
+    "id": "cnp_h077",
+    "name": "多普勒效应",
+    "subject": "physics",
+    "domain": "振动与波",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第三章 机械波",
+    "type": "conceptual",
+    "description": "波源与观察者有相对径向运动时，接收频率可能不同于波源频率：相互接近通常接收频率升高，远离通常降低。机械波还需考虑相对介质的运动，不能把听到音调变化误当成振源固有频率必然改变。",
+    "mastery_criteria": [
+      "能由接近或远离判断接收频率变化。",
+      "能区分波源发射频率与观察者接收频率。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第三章 机械波",
+      "section": "5. 多普勒效应",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "救护车以稳定鸣笛频率向静止观察者驶来，观察者通常听到怎样的音调？",
+      "answer": "比车上发出音调对应的频率高"
+    }
+  },
+  {
+    "id": "cnp_h078",
+    "name": "光的折射与折射率",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "光跨越两透明介质边界时满足n₁sin i=n₂sin r，角度从法线量起；折射率n=c/v。光进入另一介质时频率不变而波速、波长可变，不能把相对界面的夹角直接代入折射定律。",
+    "mastery_criteria": [
+      "能画出法线并区分入射角与折射角。",
+      "能计算折射率或介质中光速。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "1. 光的折射",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "光从空气斜射入玻璃，一般向法线偏折，折射角与入射角相比怎样？",
+      "answer": "折射角较小"
+    }
+  },
+  {
+    "id": "cnp_h079",
+    "name": "全反射、临界角与光导纤维",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "光从光密介质射向光疏介质且入射角大于临界角时发生全反射，sin C=n₂/n₁。入射角等于临界角时折射角为90°；反射光并非只有发生全反射时才存在，空气射入玻璃不能按此形成全反射。",
+    "mastery_criteria": [
+      "能判断全反射所需的介质方向与角度条件。",
+      "能计算临界角并解释光纤导光。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "2. 全反射",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "下列哪种传播方向才可能在界面发生全反射？",
+      "answer": "从折射率较大介质射向较小介质"
+    }
+  },
+  {
+    "id": "cnp_h080",
+    "name": "光的干涉与薄膜干涉",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "相干光叠加可出现明暗相间的稳定干涉，双缝通常由同一光源分出的两束光提供相干性。薄膜干涉涉及光程差及界面反射的相位变化，不能仅凭几何路程差机械判断所有薄膜明暗。",
+    "mastery_criteria": [
+      "能说明双缝使用同一光源的原因。",
+      "能在条件给定时判断光程差与干涉条纹关系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "3. 光的干涉",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "普通双缝干涉装置为何让同一光源同时照亮两缝？",
+      "answer": "使两缝出射光具有稳定相位关系"
+    }
+  },
+  {
+    "id": "cnp_h081",
+    "name": "实验：用双缝干涉测量波长",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "在缝间距d远小于缝屏距离L、近轴观察等近似下，邻近条纹间距Δx=Lλ/d。测多个间隔再取平均可减小读数误差；两端亮纹之间的间隔数比亮纹条数少1，须避免计数混淆。",
+    "mastery_criteria": [
+      "能由L、d、条纹间距计算波长。",
+      "能用多个条纹间隔降低读数相对误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "4. 实验：用双缝干涉测量光的波长",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "从第1条亮纹到第6条亮纹，共包含多少个相邻亮纹间隔？",
+      "answer": "5个"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h082",
+    "name": "光的衍射与分辨能力",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "光通过窄缝或绕过微小障碍时可衍射，窄缝宽度与波长接近时图样更明显。单缝中央亮纹较宽，减小缝宽一般使衍射展开更宽；衍射不是光速变慢导致光被推开，也不要求缝宽必须小于波长。",
+    "mastery_criteria": [
+      "能辨别典型单缝衍射与双缝干涉图样。",
+      "能判断缝宽或波长改变对衍射明显程度的影响。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "5. 光的衍射",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同一单色光通过单缝，缝宽减小，中央衍射亮纹一般怎样变化？",
+      "answer": "变宽"
+    }
+  },
+  {
+    "id": "cnp_h083",
+    "name": "光的偏振与激光特性",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "偏振说明光具有横波性质；自然光通过偏振片后形成线偏振光，理想正交偏振片可使透射光接近零。激光通常有较好方向性、单色性与相干性，但并非任何激光都完全单频或零发散。",
+    "mastery_criteria": [
+      "能用偏振片解释光强随取向变化。",
+      "能把激光相干性与干涉应用联系起来。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "6. 光的偏振 激光",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "光的偏振现象说明光波的什么性质？",
+      "answer": "横波性质"
+    }
+  },
+  {
+    "id": "cnp_h084",
+    "name": "安培力及通电导线受力",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "type": "conceptual",
+    "description": "匀强磁场中直导线受安培力大小F=BIL sinθ，θ为电流方向与磁场夹角；方向按左手定则判定。L为有效导线长度，平行磁场时安培力为零，不能无条件使用F=BIL。",
+    "mastery_criteria": [
+      "能用左手定则判断磁场对电流的作用方向。",
+      "能说明sinθ及有效长度的几何意义。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第一章 安培力与洛伦兹力",
+      "section": "1. 磁场对通电导线的作用力",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "直导线电流方向与匀强磁场平行，导线受到的安培力多大？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnp_h085",
+    "name": "洛伦兹力与磁力不做功",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "type": "conceptual",
+    "description": "运动电荷在磁场中受洛伦兹力，大小f=|q|vB sinθ，方向同时垂直速度和磁场，负电荷方向与正电荷相反。纯磁力不做功，只改变速度方向，不直接改变速率；电荷静止或沿磁场运动时磁力为零。",
+    "mastery_criteria": [
+      "能判断正负电荷磁力方向。",
+      "能说明纯磁力不做功但可改变动量。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第一章 安培力与洛伦兹力",
+      "section": "2. 磁场对运动电荷的作用力",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "只受磁场力的带电粒子运动时，磁力直接改变什么？",
+      "answer": "可改变速度方向而不改变速率"
+    }
+  },
+  {
+    "id": "cnp_h086",
+    "name": "带电粒子在匀强磁场中的圆周运动",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "type": "conceptual",
+    "description": "非相对论带电粒子垂直射入匀强磁场且忽略其他力时，洛伦兹力提供向心力，r=mv/(|q|B)、T=2πm/(|q|B)。只有垂直速度分量产生圆周部分；有沿场速度时可成螺旋，有限磁场区域还需判断出界。",
+    "mastery_criteria": [
+      "能由洛伦兹力和向心力求轨道半径与周期。",
+      "能区分垂直入射和斜入射。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第一章 安培力与洛伦兹力",
+      "section": "3. 带电粒子在匀强磁场中的运动",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "同种粒子垂直进入同一匀强磁场，在低速近似下速率加倍，圆周周期怎样？",
+      "answer": "不变"
+    }
+  },
+  {
+    "id": "cnp_h087",
+    "name": "速度选择器、质谱仪与回旋加速器",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "type": "conceptual",
+    "description": "正交电磁场的速度选择器可在受力抵消条件下筛选v=E/B；质谱仪利用磁偏转区分荷质比。经典回旋加速器靠电场加速、磁场转向，依靠低速回旋周期近似不随速率变化，相对论效应会限制这一同步条件。",
+    "mastery_criteria": [
+      "能区分电场加速与磁场偏转的作用。",
+      "能从轨道半径或速度选择条件判断荷质比关系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第一章 安培力与洛伦兹力",
+      "section": "4. 质谱仪与回旋加速器",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "回旋加速器中，主要直接增加粒子动能的是哪一部分？",
+      "answer": "两电极间的加速电场"
+    }
+  },
+  {
+    "id": "cnp_h088",
+    "name": "楞次定律与感应电流方向",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第二章 电磁感应",
+    "type": "conceptual",
+    "description": "感应电流的磁场总阻碍引起感应的磁通量变化，而不是无条件与原磁场反向。先明确穿过回路的磁通方向及增减，再用右手定则确定电流方向；这种阻碍与能量守恒一致。",
+    "mastery_criteria": [
+      "能按磁通方向、变化趋势、感应场方向三步判断。",
+      "能区分阻碍变化与阻止变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第二章 电磁感应",
+      "section": "1. 楞次定律",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "穿过线圈的向外磁通正在减小，感应电流产生的磁场倾向于怎样？",
+      "answer": "向外，以阻碍原磁通减小"
+    }
+  },
+  {
+    "id": "cnp_h089",
+    "name": "法拉第电磁感应定律",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第二章 电磁感应",
+    "type": "conceptual",
+    "description": "线圈感应电动势大小为n|ΔΦ/Δt|，Φ是每匝磁通量；瞬时值对应变化率。匀强场中直导体按相互垂直的导体、速度、磁场方向切割时ε=BLv，其他方向要取有效分量，电动势大小不由磁通量本身决定。",
+    "mastery_criteria": [
+      "能由磁通量变化率求平均感应电动势。",
+      "能识别BLv公式的几何条件和回路电阻。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第二章 电磁感应",
+      "section": "2. 法拉第电磁感应定律",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两个线圈匝数相同，一个磁通量很大但不变，另一个磁通量较小却快速变化，哪一个产生感应电动势？",
+      "answer": "磁通量快速变化的线圈"
+    }
+  },
+  {
+    "id": "cnp_h090",
+    "name": "涡流、电磁阻尼与电磁驱动",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第二章 电磁感应",
+    "type": "conceptual",
+    "description": "变化磁通可在整块导体内部激发闭合涡流，引起发热并产生相互作用。电磁阻尼常将机械能转为内能，电磁驱动通过变化磁场传递能量；铁芯叠片可限制涡流通路，不能把阻尼理解为能量消失。",
+    "mastery_criteria": [
+      "能解释感应加热和电磁制动的能量转化。",
+      "能说明铁芯叠片为何可减小涡流损耗。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第二章 电磁感应",
+      "section": "3. 涡流、电磁阻尼和电磁驱动",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "变压器铁芯用相互绝缘的薄片叠成，主要可减小什么？",
+      "answer": "涡流损耗"
+    }
+  },
+  {
+    "id": "cnp_h091",
+    "name": "互感、自感与电流变化",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第二章 电磁感应",
+    "type": "conceptual",
+    "description": "一个回路电流变化引起另一个回路感应称互感；自身电流变化引起自感电动势，大小可写L|ΔI/Δt|。自感总阻碍电流变化，增流时阻碍增大、减流时维持原电流，不能笼统说自感永远阻碍电流本身。",
+    "mastery_criteria": [
+      "能区分互感和自感。",
+      "能判断通断电时自感电动势阻碍的变化方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第二章 电磁感应",
+      "section": "4. 互感和自感",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "线圈中原有电流正在减小，自感作用倾向于怎样？",
+      "answer": "维持原方向的电流"
+    }
+  },
+  {
+    "id": "cnp_h092",
+    "name": "交变电流的产生与正弦规律",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第三章 交变电流",
+    "type": "conceptual",
+    "description": "线圈在匀强磁场中绕垂直磁场的轴匀速转动，可产生正弦交变电动势，最大值εm=nBSω。线圈平面与磁场垂直时磁通量最大而瞬时电动势为零；电流是否正弦还取决于外接电路。",
+    "mastery_criteria": [
+      "能联系磁通量变化率判断电动势零点和峰值。",
+      "能解释交变电流方向周期改变的原因。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第三章 交变电流",
+      "section": "1. 交变电流",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "匀速转动线圈的平面与磁场垂直时，磁通量达到最大值，瞬时感应电动势怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h093",
+    "name": "交变电流有效值与交流元件",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第三章 交变电流",
+    "type": "conceptual",
+    "description": "交流有效值按同时间、同电阻的热效应等效定义；正弦交流有I=Im/√2、U=Um/√2，非正弦波形不能直接套用。电感和电容对交流响应与频率有关，电容隔直流并不意味着能无条件短接一切交流。",
+    "mastery_criteria": [
+      "能区分瞬时值、峰值、有效值和平均值。",
+      "能用有效值计算纯电阻上的平均热功率。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第三章 交变电流",
+      "section": "2. 交变电流的描述",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "正弦交流的最大电压为220√2 V，其有效值是多少？",
+      "answer": "220 V"
+    }
+  },
+  {
+    "id": "cnp_h094",
+    "name": "理想变压器与电压匝数关系",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第三章 交变电流",
+    "type": "conceptual",
+    "description": "稳定交流下理想变压器满足U₁/U₂=n₁/n₂，忽略全部损耗时输入输出功率相等；单一副线圈时I₁/I₂=n₂/n₁。实际铁芯和线圈有损耗，普通变压器不能把恒定直流稳定升降压，电流大小受负载制约。",
+    "mastery_criteria": [
+      "能用匝数比求交流电压比。",
+      "能结合功率守恒计算理想变压器电流。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第三章 交变电流",
+      "section": "3. 变压器",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "普通变压器能否对稳定直流持续实现正常升降压？",
+      "answer": "不能，稳定磁通不能持续产生所需互感电动势"
+    }
+  },
+  {
+    "id": "cnp_h095",
+    "name": "高压输电与线路损耗",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第三章 交变电流",
+    "type": "conceptual",
+    "description": "输送相同功率且功率因数等条件相同时，提升输电电压可减小电流，线路损耗P损=I²R线随之下降。应区分电源电压、线路电压降和用户电压；不能直接把整个输电电压代入U²/R线当作线路损耗。",
+    "mastery_criteria": [
+      "能从P=UI与I²R解释高压输电。",
+      "能正确区分输电电压和导线上的电压降。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第三章 交变电流",
+      "section": "4. 电能的输送",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "提高输电电压能减小线路损耗的关键前提之一是什么？",
+      "answer": "输送的功率相同"
+    }
+  },
+  {
+    "id": "cnp_h096",
+    "name": "LC电磁振荡",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "type": "conceptual",
+    "description": "理想LC回路中电场能和磁场能周期性转化，周期T=2π√(LC)；电容器电荷最大时电流为零，电荷为零时电流最大。真实电路有电阻与辐射损耗，振幅会衰减，不能把理想等幅模型直接作为实际永久振荡。",
+    "mastery_criteria": [
+      "能比较充电最大和放电至零两时刻的能量分布。",
+      "能用L、C变化判断理想振荡周期变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第四章 电磁振荡与电磁波",
+      "section": "1. 电磁振荡",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "理想LC振荡中，电容器所带电荷达到最大值时，回路电流怎样？",
+      "answer": "为0"
+    }
+  },
+  {
+    "id": "cnp_h097",
+    "name": "变化电磁场与电磁波",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "type": "conceptual",
+    "description": "麦克斯韦理论将变化电场与磁场联系起来，电磁扰动可脱离源在空间传播；真空电磁波的电场、磁场和传播方向相互垂直。静止电荷或恒定电流周围有场，并不意味着它们都持续向外辐射电磁波。",
+    "mastery_criteria": [
+      "能区分静态场、近场变化和传播电磁波。",
+      "能说明电磁波横波性质与真空传播速度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第四章 电磁振荡与电磁波",
+      "section": "2. 电磁场与电磁波",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "真空中平面电磁波的电场振动方向与传播方向是什么关系？",
+      "answer": "垂直"
+    }
+  },
+  {
+    "id": "cnp_h098",
+    "name": "无线电发射、接收与调制",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "type": "conceptual",
+    "description": "无线电通信通常把信息加载到高频载波上，经天线发射，在接收端选频、放大和解调恢复信息。调制改变载波的某些参数以编码信息，调谐选取频段，不是把电磁波变成声波后才在空间传播。",
+    "mastery_criteria": [
+      "能按发射、传播、选频、解调说明信息链路。",
+      "能区分调幅、调频、调谐和解调的作用。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第四章 电磁振荡与电磁波",
+      "section": "3. 无线电波的发射和接收",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "接收机从许多无线电信号中选出所需电台，主要依靠哪一步？",
+      "answer": "调谐选频"
+    }
+  },
+  {
+    "id": "cnp_h099",
+    "name": "电磁波谱与波段应用",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "type": "conceptual",
+    "description": "无线电波、微波、红外、可见光、紫外、X射线和γ射线同属电磁波，真空中速度相同；频率越高，波长越短、单光子能量越大。不同波段应用与物质作用不同，不能用可见亮度判断全部电磁辐射的能量。",
+    "mastery_criteria": [
+      "能按波长或频率给主要波段排序。",
+      "能联系红外热成像、无线通信和X射线成像等用途。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第四章 电磁振荡与电磁波",
+      "section": "4. 电磁波谱",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "在真空中，红外线和X射线的传播速度相比怎样？",
+      "answer": "相同"
+    }
+  },
+  {
+    "id": "cnp_h100",
+    "name": "传感器与物理量转换",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第五章 传感器",
+    "type": "conceptual",
+    "description": "传感器把温度、光强、压力等输入量转换成便于测量或处理的信号，常用电阻、电压、电流等输出表征。输出需经过标定才对应实际量值；高灵敏度不自动等于高准确度，还需考虑量程、噪声和响应时间。",
+    "mastery_criteria": [
+      "能识别传感器的输入量和输出量。",
+      "能解释标定、灵敏度和量程的区别。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第五章 传感器",
+      "section": "1. 认识传感器",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "温度传感器输出某电压，要将它读成摄氏温度，首先还需要什么？",
+      "answer": "电压与温度之间的标定关系"
+    }
+  },
+  {
+    "id": "cnp_h101",
+    "name": "热敏、光敏、力敏等传感器",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第五章 传感器",
+    "type": "conceptual",
+    "description": "热敏电阻的阻值随温度改变，常见负温度系数型升温时电阻下降；光敏电阻受光增强时通常电阻下降，金属应变片利用形变引起电阻变化。不同器件的特性不同，应依据元件曲线分析，不能把一种器件趋势推广到全部传感器。",
+    "mastery_criteria": [
+      "能据元件特性曲线判断输入变化引起的电阻变化。",
+      "能在简单分压电路中分析传感器输出电压。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第五章 传感器",
+      "section": "2. 常见传感器的工作原理及应用",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某器件明确为负温度系数热敏电阻，在给定工作范围内升温，阻值怎样变化？",
+      "answer": "减小"
+    }
+  },
+  {
+    "id": "cnp_h102",
+    "name": "实验：设计传感器自动控制装置",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第五章 传感器",
+    "type": "conceptual",
+    "description": "自动控制装置可由传感器、阈值判断、执行器和电源组成，先明确被控量与触发条件，再标定、测试和调整。控制灯或小电机应在安全低压电路下进行；传感器只测量，执行器才直接完成动作，不能将两者功能混淆。",
+    "mastery_criteria": [
+      "能画出检测、判断、执行的功能链路。",
+      "能用阈值附近多组测试验证触发与恢复。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第五章 传感器",
+      "section": "3. 利用传感器制作简单的自动控制装置",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "光控灯电路中的光敏电阻与继电器，功能通常怎样区分？",
+      "answer": "光敏电阻检测光照，继电器执行开关动作"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h103",
+    "name": "分子动理论的微观图像",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第一章 分子动理论",
+    "type": "conceptual",
+    "description": "物质由大量微观粒子组成，粒子不停做无规则运动并存在相互作用。布朗运动是悬浮微粒受周围分子不均匀碰撞而呈现的无规则运动，不是直接看到分子轨迹；宏观静止不代表内部粒子停止运动。",
+    "mastery_criteria": [
+      "能区分分子热运动、扩散和布朗运动。",
+      "能说明微观无规则性与宏观统计规律可并存。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第一章 分子动理论",
+      "section": "1. 分子动理论的基本内容",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "显微镜下观察到花粉微粒的布朗运动，所见轨迹是什么的轨迹？",
+      "answer": "花粉微粒的运动轨迹"
+    }
+  },
+  {
+    "id": "cnp_h104",
+    "name": "实验：油膜法估测分子大小",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第一章 分子动理论",
+    "type": "conceptual",
+    "description": "把已知纯油酸体积V铺展成面积S的单分子油膜，用d≈V/S估测分子尺度。需由溶液浓度换算纯油酸体积，并假定单层、分子排列方式合理；不能把整滴溶液体积直接当作油酸体积。",
+    "mastery_criteria": [
+      "能根据滴数和浓度求单滴中的油酸体积。",
+      "能用面积与体积估算尺度并说明模型误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第一章 分子动理论",
+      "section": "2. 实验：用油膜法估测油酸分子的大小",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "油膜法中，公式d=V/S的V应取什么？",
+      "answer": "形成油膜的纯油酸体积"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h105",
+    "name": "分子速率的统计分布",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第一章 分子动理论",
+    "type": "conceptual",
+    "description": "大量分子的速率并不相同，但在确定温度和平衡条件下呈现稳定统计分布；同种气体升温时速率分布整体向较大值扩展。温度升高不意味着每个分子在任意时刻都更快，也不表示所有分子速率相同。",
+    "mastery_criteria": [
+      "能用统计而非单分子确定性描述温度影响。",
+      "能从速率分布图比较不同温度下的总体特征。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第一章 分子动理论",
+      "section": "3. 分子运动速率分布规律",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "气体温度升高后，能否断言每一个分子速率都增加？",
+      "answer": "不能，只能对大量分子的统计分布作判断"
+    }
+  },
+  {
+    "id": "cnp_h106",
+    "name": "分子动能、分子势能与内能",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第一章 分子动理论",
+    "type": "conceptual",
+    "description": "温度是分子平均平动动能的标志，内能包含物体内所有分子的动能与相互作用势能；分子间作用随距离变化，势能变化与分子力做功相联系。总内能还依赖物质量、状态等，不能只凭温度比较不同物体内能。",
+    "mastery_criteria": [
+      "能区分单分子动能、平均动能和系统内能。",
+      "能结合分子力方向判断接近或远离时势能变化。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第一章 分子动理论",
+      "section": "4. 分子动能和分子势能",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两杯水温度相同但质量不同，能否断言内能相同？",
+      "answer": "不能，内能还与物质量等因素有关"
+    }
+  },
+  {
+    "id": "cnp_h107",
+    "name": "热平衡与热力学温标",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "互相热接触而不再发生净热量传递时达到热平衡，具有相同温度；热力学温度T=t+273.15 K。气体定律中的温度必须用开尔文，温差1 K与1 ℃数值相同，但不能将摄氏温度直接作温度比。",
+    "mastery_criteria": [
+      "能在摄氏温标与热力学温标之间换算。",
+      "能区分温度值与温差并正确取比。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "1. 温度和温标",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "气体定律中比较温度比，应使用哪种温度？",
+      "answer": "热力学温度K"
+    }
+  },
+  {
+    "id": "cnp_h108",
+    "name": "气体等温变化与玻意耳定律",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "一定质量的气体在温度不变且可近似理想气体时满足pV=常量，压强使用绝对压强。真实气体在远离液化、压强较低等条件下近似较好；改变物质量或温度时不能继续套同一pV常量。",
+    "mastery_criteria": [
+      "能明确等温、定质量和绝对压强条件。",
+      "能用p₁V₁=p₂V₂计算压缩与膨胀。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "2. 气体的等温变化",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "使用玻意耳定律时，下列哪组条件必须保持？",
+      "answer": "气体质量和温度不变，并可近似理想气体"
+    }
+  },
+  {
+    "id": "cnp_h109",
+    "name": "等压、等容变化与理想气体状态方程",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "一定量理想气体等压时V/T恒定，等容时p/T恒定；一般状态间满足pV/T恒定，温度用K、压强用绝对值。理想气体分子间势能在模型中忽略，内能只与温度及物质量有关，真实气体并非无条件符合。",
+    "mastery_criteria": [
+      "能识别等压或等容约束并选式。",
+      "能用pV/T关系连接两个平衡状态。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "3. 气体的等压变化和等容变化",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "定量理想气体在体积不变时，热力学温度加倍，压强怎样变化？",
+      "answer": "加倍"
+    }
+  },
+  {
+    "id": "cnp_h110",
+    "name": "晶体、非晶体与材料结构",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "晶体具有长程有序的微观排列，单晶体某些性质可各向异性；多晶体由不同取向的小晶粒组成，宏观可近似各向同性。晶体一般有确定熔点，非晶体通常逐渐软化；有规则外形不是判定晶体的唯一依据。",
+    "mastery_criteria": [
+      "能区分单晶、多晶和非晶体的结构特征。",
+      "能解释各向异性与晶粒取向的联系。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "4. 固体",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某多晶金属宏观上各方向性质近似相同，能据此认定它不是晶体吗？",
+      "answer": "不能，不同晶粒取向可使宏观近似各向同性"
+    }
+  },
+  {
+    "id": "cnp_h111",
+    "name": "液体表面张力、浸润与汽液平衡",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "表面张力使液面有收缩趋势，浸润与否取决于液体和固体之间的相互作用；毛细现象结合表面张力与重力解释。密闭容器可形成饱和汽，饱和汽压主要由温度和物质决定；相对湿度与同温饱和水汽情况比较，液晶兼有流动性和取向有序性。",
+    "mastery_criteria": [
+      "能解释表面张力、浸润和毛细现象。",
+      "能区分蒸发与沸腾、饱和汽压与相对湿度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "5. 液体",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "细玻璃管插入清洁水中，水沿管上升，主要属于什么现象？",
+      "answer": "毛细现象"
+    }
+  },
+  {
+    "id": "cnp_h112",
+    "name": "功、热与内能改变的途径",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第三章 热力学定律",
+    "type": "conceptual",
+    "description": "做功与热传递都能改变内能：做功可使内能与其他形式能量相互转化，热传递由温差驱动。热量是过程量，不是物体“含有”的状态量；温度不变也可能因相变而吸收热量。",
+    "mastery_criteria": [
+      "能区分热量、温度和内能。",
+      "能在具体过程辨认做功或热传递。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第三章 热力学定律",
+      "section": "1. 功、热和内能的改变",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "“物体含有很多热量”这一表述有何问题？",
+      "answer": "热量是能量传递过程中的量，不能当作储存状态量"
+    }
+  },
+  {
+    "id": "cnp_h113",
+    "name": "热力学第一定律与正负约定",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第三章 热力学定律",
+    "type": "conceptual",
+    "description": "采用Q为系统吸热、W为外界对系统做功的正值约定，热力学第一定律为ΔU=Q+W；若W表示系统对外做功则应写ΔU=Q−W。全过程必须统一约定，不能把同一符号在一道题中交替代表相反方向。",
+    "mastery_criteria": [
+      "能为吸热、放热、压缩和膨胀正确赋号。",
+      "能计算内能变化并检查系统边界。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第三章 热力学定律",
+      "section": "2. 热力学第一定律",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "采用“外界对系统做功为正”的约定，气体膨胀对外做功时W通常取什么符号？",
+      "answer": "负号"
+    }
+  },
+  {
+    "id": "cnp_h114",
+    "name": "总能量守恒与永动机辨析",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第三章 热力学定律",
+    "type": "conceptual",
+    "description": "能量可在不同形式及系统间转移，孤立系统总能量守恒；第一类永动机企图无代价持续产出能量，违反能量守恒。机械能、内能等单独一项不守恒并不代表总能量不守恒，分析必须纳入所有能量输入输出。",
+    "mastery_criteria": [
+      "能列明装置的能量输入、储存和输出。",
+      "能识别第一类永动机违反的基本规律。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第三章 热力学定律",
+      "section": "3. 能量守恒定律",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "装置宣称不吸收任何能量且自身储能不减少，却持续对外做功，违反什么？",
+      "answer": "能量守恒定律"
+    }
+  },
+  {
+    "id": "cnp_h115",
+    "name": "热力学第二定律与过程方向",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第三章 热力学定律",
+    "type": "conceptual",
+    "description": "热量不能自发地从低温物体传向高温物体；循环热机不能只从单一热源吸热并把热量完全转为功而不产生其他影响。制冷机可逆向搬运热量但需外界做功，不能把某一非循环过程能全部转功与循环热机结论混淆。",
+    "mastery_criteria": [
+      "能用第二定律解释热传递与制冷的方向性。",
+      "能判断循环热机声称效率100%的条件问题。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第三章 热力学定律",
+      "section": "4. 热力学第二定律",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "冰箱把热量从低温箱内传到较热房间，是否违反第二定律？",
+      "answer": "不违反，因为需要外界输入功等代价"
+    }
+  },
+  {
+    "id": "cnp_h116",
+    "name": "黑体辐射与普朗克能量子假说",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "type": "conceptual",
+    "description": "理想黑体能完全吸收入射电磁辐射，其热辐射谱与温度有关。普朗克提出振子能量按hν的整数倍变化，解释经典理论遇到的困难；能量子大小由频率决定，不能把温度值直接当单个光子能量。",
+    "mastery_criteria": [
+      "能区分黑体理想模型与普通黑色物体。",
+      "能用E=hν比较不同频率能量子。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第四章 原子结构和波粒二象性",
+      "section": "1. 普朗克黑体辐射理论",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "物理学中“黑体”的定义核心是什么？",
+      "answer": "对入射电磁辐射具有理想的完全吸收能力"
+    }
+  },
+  {
+    "id": "cnp_h117",
+    "name": "光电效应与爱因斯坦方程",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "type": "conceptual",
+    "description": "金属发生光电效应需入射频率不低于截止频率；最大初动能Eₖmax=hν−W₀，遏止电压满足eUc=Eₖmax。提高高于阈频的光强通常增加光电子数，不提高最大初动能；阈频以下仅增加普通光强不能产生该单光子效应。",
+    "mastery_criteria": [
+      "能由逸出功判断截止频率条件。",
+      "能区分光强对光电子数与频率对最大初动能的影响。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第四章 原子结构和波粒二象性",
+      "section": "2. 光电效应",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "入射光频率低于金属截止频率，在普通单光子光电效应条件下仅增大光强，会怎样？",
+      "answer": "仍不能产生该光电效应"
+    }
+  },
+  {
+    "id": "cnp_h118",
+    "name": "α粒子散射与原子核式结构",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "type": "conceptual",
+    "description": "α粒子散射实验中，大多数粒子近似直穿、少数发生大角度偏转，支持原子正电荷和绝大部分质量集中在极小原子核内。实验并不意味着电子位于原子核中，也不能把经典行星模型当成完整稳定原子理论。",
+    "mastery_criteria": [
+      "能把散射现象与核式结构的证据对应。",
+      "能说明核式模型与经典电子轨道稳定性问题的边界。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第四章 原子结构和波粒二象性",
+      "section": "3. 原子的核式结构模型",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "α粒子散射实验中极少数粒子发生大角度偏转，主要支持哪一结论？",
+      "answer": "正电荷和大部分质量集中在很小的原子核中"
+    }
+  },
+  {
+    "id": "cnp_h119",
+    "name": "氢光谱、定态与能级跃迁",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "type": "conceptual",
+    "description": "氢原子光谱呈分立谱线，玻尔模型以定态和能级跃迁解释主要规律，跃迁光子满足hν=|Em−En|。该模型适用范围有限，电子不应理解为能任意连续辐射减速的经典行星；吸收跃迁还要求能量差匹配。",
+    "mastery_criteria": [
+      "能由能级差求发射或吸收光子能量。",
+      "能区分基态、激发态、跃迁和电离。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第四章 原子结构和波粒二象性",
+      "section": "4. 氢原子光谱和玻尔的原子模型",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "原子由较高能级跃迁到较低能级时，通常发生什么？",
+      "answer": "发射能量等于两能级差的光子"
+    }
+  },
+  {
+    "id": "cnp_h120",
+    "name": "物质波与量子力学图像",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "type": "conceptual",
+    "description": "微观粒子具有波粒二象性，德布罗意波长λ=h/p；电子衍射等是物质波的重要证据。量子态不能简单等同于一条确定的经典轨迹，波粒二象性也不是粒子在某时刻随意变成日常水波。",
+    "mastery_criteria": [
+      "能由动量比较物质波波长。",
+      "能说明电子衍射支持波动性质且存在经典图像边界。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第四章 原子结构和波粒二象性",
+      "section": "5. 粒子的波动性和量子力学的建立",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "电子束通过晶体出现衍射图样，主要体现电子的什么性质？",
+      "answer": "波动性"
+    }
+  },
+  {
+    "id": "cnp_h121",
+    "name": "原子核组成、核素与同位素",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第五章 原子核",
+    "type": "conceptual",
+    "description": "原子核由质子和中子组成，原子序数Z为质子数、质量数A为核子总数，中子数N=A−Z；同位素具有相同Z而不同N。质量数是整数计数，不等于精确原子质量，核内不把电子当作已有组成成分。",
+    "mastery_criteria": [
+      "能从核素符号求质子数、中子数。",
+      "能区分元素、核素与同位素。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第五章 原子核",
+      "section": "1. 原子核的组成",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "两种核素互为同位素，必须满足什么？",
+      "answer": "质子数相同，中子数不同"
+    }
+  },
+  {
+    "id": "cnp_h122",
+    "name": "放射性衰变与半衰期",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第五章 原子核",
+    "type": "conceptual",
+    "description": "α衰变使质量数减少4、原子序数减少2；β⁻衰变中中子转为质子并放出电子及反中微子，质量数不变、原子序数加1；γ辐射改变能量而不改A、Z。半衰期是大量核的统计规律，不能预测单个核何时衰变，普通化学条件通常难以改变核衰变规律。",
+    "mastery_criteria": [
+      "能在衰变方程中守恒电荷数和核子数。",
+      "能用半衰期计算未衰变核数比例并解释统计性。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第五章 原子核",
+      "section": "2. 放射性元素的衰变",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "某核发生一次α衰变后，质量数和原子序数怎样变化？",
+      "answer": "质量数减4，原子序数减2"
+    }
+  },
+  {
+    "id": "cnp_h123",
+    "name": "核力、质量亏损与结合能",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第五章 原子核",
+    "type": "conceptual",
+    "description": "核力是短程强相互作用的表现，结合能是将核完全分开为自由核子所需能量，质量亏损对应ΔE=Δmc²。比较稳定性需看平均结合能等因素，不是总结合能越大就一定更稳定；释放能量不代表质量守恒与能量守恒可随意分开使用。",
+    "mastery_criteria": [
+      "能区分结合能与平均结合能。",
+      "能用质量差计算能量差并判断能量释放方向。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第五章 原子核",
+      "section": "3. 核力与结合能",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "比较不同原子核中核子的结合紧密程度，通常更应比较哪一量？",
+      "answer": "平均每个核子的结合能"
+    }
+  },
+  {
+    "id": "cnp_h124",
+    "name": "核裂变、核聚变与能量释放",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第五章 原子核",
+    "type": "conceptual",
+    "description": "重核裂变与轻核聚变在适当反应中可生成平均结合能更大的核，释放能量；裂变链式反应依赖中子增殖及吸收条件，聚变需克服带正电核之间的库仑斥力。并非所有任意核分裂或融合都放能，核反应仍需守恒总能量、电荷和有关量。",
+    "mastery_criteria": [
+      "能用平均结合能解释典型裂变与聚变放能。",
+      "能区分链式反应条件与高温聚变条件。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第五章 原子核",
+      "section": "4. 核裂变与核聚变",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "轻核聚变通常需要很高温度的重要原因是什么？",
+      "answer": "使核有机会克服库仑斥力接近到核力作用范围"
+    }
+  },
+  {
+    "id": "cnp_h125",
+    "name": "粒子分类与物质结构层次",
+    "subject": "physics",
+    "domain": "近代物理",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第五章 原子核",
+    "type": "conceptual",
+    "description": "质子和中子并非目前意义上的基本粒子，它们由夸克组成；电子属于轻子，光子与电磁相互作用有关。物质结构理论由实验不断检验，不能把历史上曾称为“基本”的粒子一概当作不可再分，也不能把教材简图当成经典小球内部的直接照片。",
+    "mastery_criteria": [
+      "能区分核子、夸克、轻子和光子的基本角色。",
+      "能说明物理模型随实验证据修正的特点。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第五章 原子核",
+      "section": "5. “基本”粒子",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "按现代粒子分类，下列哪种说法正确？",
+      "answer": "质子和中子具有夸克组成"
+    },
+    "learning_depth": "了解性正文内容（仍按本册课程层级纳入覆盖）"
+  },
+  {
+    "id": "cnp_h126",
+    "name": "实验：测量物体的瞬时速度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第一章 运动的描述",
+    "type": "conceptual",
+    "description": "用短时间间隔的位移近似瞬时速度，或让窄遮光片通过光电门，以遮光片宽度除遮光时间估计过门速度。遮光片有有限宽度，测得本质上是短时平均速度；缩小间隔要兼顾仪器时间分辨率，不能说越短误差必越小。",
+    "mastery_criteria": [
+      "能由遮光片宽度与遮光时间求速度。",
+      "能说明短时平均速度近似瞬时速度的条件。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第一章 运动的描述",
+      "section": "3. 位置变化快慢的描述——速度",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "光电门测速度时，用遮光片宽度除遮光时间，严格来说首先得到什么？",
+      "answer": "遮光过程的平均速度大小"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h127",
+    "name": "实验：探究弹簧弹力与形变量",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "在弹性限度内逐次加载，测原长和伸长后长度，作F–x图检验线性关系并由斜率求劲度系数。砝码静止时可用其重力确定拉力；不能直接把F–总长度图的横坐标当成形变量，也不能用超出弹性限度的数据硬拟合。",
+    "mastery_criteria": [
+      "能区分原长、总长度和形变量。",
+      "能用多组F–x数据求劲度系数并检查弹性限度。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "1. 重力与弹力",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "弹簧实验作F–x图时，横坐标x应是什么？",
+      "answer": "相对原长的形变量"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h128",
+    "name": "实验：探究两个互成角度的力的合成规律",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "第三章 相互作用——力",
+    "type": "conceptual",
+    "description": "用两力与单力分别把同一橡皮条端点拉到同一位置，实现等效替代；记录力的大小和方向，以同一标度作矢量图比较。保持端点位置相同是控制效果，拉力方向也要真实记录，不能只比较测力计读数之和。",
+    "mastery_criteria": [
+      "能说明同一端点位置为何保证等效效果。",
+      "能按测得方向检验平行四边形定则。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r1",
+      "title": "人教版·物理·必修第一册",
+      "volume": "必修第一册",
+      "chapter": "第三章 相互作用——力",
+      "section": "4. 力的合成和分解",
+      "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "合力实验中，两次都把橡皮条端点拉到同一点，主要保证什么？",
+      "answer": "两次作用效果相同"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h129",
+    "name": "实验：探究向心力与质量、半径和角速度",
+    "subject": "physics",
+    "domain": "力学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第六章 圆周运动",
+    "type": "conceptual",
+    "description": "用控制变量法分别研究向心力与质量、半径、角速度的关系，理论参照F=mω²r。改变半径时要说明保持ω还是v，两种控制得到的趋势不同；装置转速、摩擦和几何读数都会影响比较。",
+    "mastery_criteria": [
+      "能为m、r、ω分别设计控制变量组合。",
+      "能说明固定角速度与固定线速度下半径效应不同。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r2",
+      "title": "人教版·物理·必修第二册",
+      "volume": "必修第二册",
+      "chapter": "第六章 圆周运动",
+      "section": "2. 向心力",
+      "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "用控制变量法检验F=mω²r中F与r的正比关系，应保持哪两个量不变？",
+      "answer": "质量和角速度"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h130",
+    "name": "实验：观察电容器的充电和放电",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十章 静电场中的能量",
+    "type": "conceptual",
+    "description": "用低压电源、限流电阻和电流或电压测量观察充放电：充电时电容电压逐渐上升，电流通常减小；断开电源后经电阻放电，储能转为内能。直流稳态理想电容支路无持续导电电流，不意味着充电瞬间也没有电流。",
+    "mastery_criteria": [
+      "能辨认充电和放电电流的方向差异。",
+      "能结合电荷积累解释电流与电压的变化趋势。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十章 静电场中的能量",
+      "section": "4. 电容器的电容",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "理想电容器通过电阻接直流电源，充电接近完成时电流通常怎样？",
+      "answer": "逐渐接近0"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h131",
+    "name": "实验：使用游标卡尺和螺旋测微器",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 10,
+    "semester": "下",
+    "chapter": "第十一章 电路及其应用",
+    "type": "conceptual",
+    "description": "选择合适量程和分辨率，测前核对零点；游标卡尺读主尺值加对齐游标格数乘分度值，螺旋测微器读固定刻度加可动刻度。注意半毫米刻线、单位和零误差修正，多处测量不能消除固定零偏。",
+    "mastery_criteria": [
+      "能读出主尺与附加刻度并正确相加。",
+      "能区分分辨率、随机散布和零点误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p10r3",
+      "title": "人教版·物理·必修第三册",
+      "volume": "必修第三册",
+      "chapter": "第十一章 电路及其应用",
+      "section": "3. 实验：导体电阻率的测量",
+      "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "仪器闭合时显示+0.02 mm，测量读数为1.54 mm，按此零偏修正后的长度是多少？",
+      "answer": "1.52 mm"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h132",
+    "name": "实验：测量玻璃折射率",
+    "subject": "physics",
+    "domain": "光学",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "第四章 光",
+    "type": "conceptual",
+    "description": "用插针或光线追迹确定光在玻璃中的折射路径，画法线并测量入射角i、折射角r，在空气折射率近似1时n=sin i/sin r。平行玻璃砖出射光与入射光平行但有侧移，不能把出射角误当成玻璃内的折射角。",
+    "mastery_criteria": [
+      "能从光路图正确识别空气中的入射角与玻璃内折射角。",
+      "能用多组角度数据估计折射率并控制读角误差。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s1",
+      "title": "人教版·物理·选择性必修第一册",
+      "volume": "选择性必修第一册",
+      "chapter": "第四章 光",
+      "section": "1. 光的折射",
+      "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "空气中光线通过平行玻璃砖后出射，测玻璃折射率时，折射角应取哪一个？",
+      "answer": "光在玻璃内与界面法线的夹角"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h133",
+    "name": "实验：探究影响感应电流方向的因素",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第二章 电磁感应",
+    "type": "conceptual",
+    "description": "把线圈接灵敏电流计，比较磁极、靠近或远离方向改变时的偏转，并先标定指针偏转与电流方向对应。每次只改变一个主要条件，静止时通量不变可作对照；表针偏转反向表示电流方向变，不单由磁场强弱决定。",
+    "mastery_criteria": [
+      "能用控制变量比较磁极和相对运动方向。",
+      "能把电流计读数与楞次定律预测逐一对应。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第二章 电磁感应",
+      "section": "1. 楞次定律",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "磁铁同一磁极靠近线圈与远离线圈时，其他条件相同，感应电流方向通常怎样？",
+      "answer": "相反"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h134",
+    "name": "实验：探究变压器电压与匝数的关系",
+    "subject": "physics",
+    "domain": "电磁学",
+    "grade": 11,
+    "semester": "下",
+    "chapter": "第三章 交变电流",
+    "type": "conceptual",
+    "description": "用隔离的低压交流电源和已知匝数线圈，在空载或轻载、铁芯耦合良好的条件下测多组电压，比较U₁/U₂与n₁/n₂。记录实际偏差与仪表适用频段，不将低压教学实验改为直接操作市电，也不把误差数据删除以强求精确相等。",
+    "mastery_criteria": [
+      "能设计只改变匝数比的多组测量。",
+      "能比较实测电压比与理想匝数比并解释损耗。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p11s2",
+      "title": "人教版·物理·选择性必修第二册",
+      "volume": "选择性必修第二册",
+      "chapter": "第三章 交变电流",
+      "section": "3. 变压器",
+      "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "探究变压器匝数与电压比时，应采用哪类电源？",
+      "answer": "隔离的低压交流电源"
+    },
+    "learning_activity": "实验探究"
+  },
+  {
+    "id": "cnp_h135",
+    "name": "实验：探究气体等温变化规律",
+    "subject": "physics",
+    "domain": "热学",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "第二章 气体、固体和液体",
+    "type": "conceptual",
+    "description": "用密闭定量气体缓慢改变体积，待温度恢复环境值后记录绝对压强与体积，检验pV或p–1/V关系。装置不得漏气，须计入连接管死体积；快速压缩导致升温，会破坏等温条件并影响测得关系。",
+    "mastery_criteria": [
+      "能说明缓慢操作、热平衡和密封的作用。",
+      "能检查绝对压强与总体积而非仅刻度读数。"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "p12s3",
+      "title": "人教版·物理·选择性必修第三册",
+      "volume": "选择性必修第三册",
+      "chapter": "第二章 气体、固体和液体",
+      "section": "2. 气体的等温变化",
+      "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+      "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+      "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+    },
+    "review_status": "AI 整理，已做程序与科学性自查，未经教师审核",
+    "curriculum_level": "选择性必修",
+    "grade_assignment_note": "年级、学期仅为建议编排；教材以册次为准，各地教学进度可能不同。",
+    "diagnostic_question": {
+      "question": "等温气体实验中快速压缩后立即读数，主要可能引入哪一问题？",
+      "answer": "压缩升温，使过程偏离等温条件"
+    },
+    "learning_activity": "实验探究"
+  }
+]

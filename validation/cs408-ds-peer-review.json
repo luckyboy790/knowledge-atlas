@@ -1,0 +1,383 @@
+{
+  "checked_date": "2026-10-30",
+  "reviewer": "/root/cs408_organization",
+  "author_module": "ds",
+  "status": "passed_after_author_revision",
+  "scope": {
+    "topics_read": 73,
+    "questions_read": 146,
+    "prerequisites_read": 114,
+    "method": "逐条独立阅读知识描述、掌握标准、全部选择题四个选项与解析、全部先修理由；出版社元数据与目录另行打开核验；独立复算数值与规则示例。"
+  },
+  "source_checks": [
+    {
+      "url": "https://www.tup.com.cn/bookscenter/book_10848801.html",
+      "tool_ref": "turn105view0",
+      "result": "严蔚敏、吴伟民第2版，ISBN9787302703396，出版2025-10-01，页面印次2-4/印刷2026-07-27，与sources一致。"
+    },
+    {
+      "url": "https://www.tup.com.cn/bookscenter/bookcatalog?id=10848801",
+      "tool_ref": "turn105view1",
+      "result": "独立读取完整官方目录；串、堆、并查集、红黑树、B/B+树、外部排序等节点章节映射对应。冒泡排序仅有比较节映射，数据已说明公开目录未单列。"
+    }
+  ],
+  "focused_semantic_checks": [
+    {
+      "topicIds": [
+        "cs408_ds_059"
+      ],
+      "result": "π 明确采用零基下标、最长相等真前后缀长度；ababa 数值正确，没有与一基 next 混用。"
+    },
+    {
+      "topicIds": [
+        "cs408_ds_053",
+        "cs408_ds_054"
+      ],
+      "result": "B 树 m 阶明确是最多 m 个孩子；5 阶最大4关键字、非根最少2关键字正确；B+ 未混用最小度数约定。"
+    },
+    {
+      "topicIds": [
+        "cs408_ds_052"
+      ],
+      "result": "根及 NIL 黑色、红色不相邻、到 NIL 等黑高；路径长度题显式以边数计，不混用含根/含叶黑高。"
+    },
+    {
+      "topicIds": [
+        "cs408_ds_070",
+        "cs408_ds_071",
+        "cs408_ds_072"
+      ],
+      "result": "初始段生成与归并趟数分开；置换选择约2M为随机输入平均值；最佳归并区分合并长度19与读写代价38。"
+    }
+  ],
+  "structural_checks": {
+    "unique_topic_ids": true,
+    "unique_question_ids": true,
+    "two_questions_every_topic": true,
+    "question_choice_keys_answers": true,
+    "four_distinct_choice_texts": true,
+    "unique_question_prompts": true,
+    "edge_endpoints_and_strength": true,
+    "unique_edges": true,
+    "all_edges_acyclic": true,
+    "coverage_each_topic_once": true,
+    "known_book_ids": true,
+    "question_topic_source_match": true,
+    "diagnostic_matches_first_question": true
+  },
+  "numerical_checks": [
+    {
+      "item": "顺序数组 A[5] 字节地址",
+      "calculated": 1020,
+      "expected": 1020,
+      "pass": true
+    },
+    {
+      "item": "8 元素在位置 3 插入的后移数",
+      "calculated": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "item": "8 元素删除位置 6 的前移数",
+      "calculated": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "item": "10 单元共享栈 top1=3、top2=7 剩余单元",
+      "calculated": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "item": "后缀 8 3 - 2 *",
+      "calculated": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "item": "M=8、front=6、rear=2 队列长度",
+      "calculated": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "item": "行优先 A[2][1]，每行 4 元素、4 字节、基址 100",
+      "calculated": 136,
+      "expected": 136,
+      "pass": true
+    },
+    {
+      "item": "3 行列优先 A[2][1] 元素偏移",
+      "calculated": 5,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "item": "下三角含对角线按行 a42 的零基下标",
+      "calculated": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "item": "6 阶三对角有效位置",
+      "calculated": 16,
+      "expected": 16,
+      "pass": true
+    },
+    {
+      "item": "12 结点树边数",
+      "calculated": 11,
+      "expected": 11,
+      "pass": true
+    },
+    {
+      "item": "二叉树 n2=9 的叶结点",
+      "calculated": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "item": "7 结点二叉链表的空链接",
+      "calculated": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "item": "完全二叉树编号 9 的父编号",
+      "calculated": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "item": "10 结点完全二叉树高度（根层为 1）",
+      "calculated": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "item": "哈夫曼权 2,3,7,8 的 WPL",
+      "calculated": 37,
+      "expected": 37,
+      "pass": true
+    },
+    {
+      "item": "Kruskal 的 AB,BC,CD 边权和",
+      "calculated": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "item": "Dijkstra 最短路 S-B-A-T",
+      "calculated": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "item": "Floyd 中继松弛",
+      "calculated": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "item": "关键路径总长候选 7 和 8",
+      "calculated": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "item": "四个记录等概率成功 ASL",
+      "calculated": 2.5,
+      "expected": 2.5,
+      "pass": true
+    },
+    {
+      "item": "概率 .75、.25 对应比较 1、3 的 ASL",
+      "calculated": 1.5,
+      "expected": 1.5,
+      "pass": true
+    },
+    {
+      "item": "七记录折半查找 12 的比较数",
+      "calculated": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "item": "5 阶 B 树每结点最多关键字",
+      "calculated": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "item": "5 阶 B 树非根关键字下界",
+      "calculated": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "item": "模 7 线性探测 10,17,24 最终位置",
+      "calculated": [
+        3,
+        4,
+        5
+      ],
+      "expected": [
+        3,
+        4,
+        5
+      ],
+      "pass": true
+    },
+    {
+      "item": "KMP ababa 真前后缀长度，独立枚举定义",
+      "calculated": [
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected": [
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "pass": true
+    },
+    {
+      "item": "LSD 十进制基数排序个位一趟",
+      "calculated": [
+        21,
+        12,
+        13
+      ],
+      "expected": [
+        21,
+        12,
+        13
+      ],
+      "pass": true
+    },
+    {
+      "item": "8 个单元素段二路归并趟数",
+      "calculated": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "item": "64 初始段八路归并趟数（不含初始生成）",
+      "calculated": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "item": "2,3,9 段最佳二路归并累计合并长度",
+      "calculated": 19,
+      "expected": 19,
+      "pass": true
+    },
+    {
+      "item": "2,3,9 段全部读写各计一次的累计 I/O 单位",
+      "calculated": 38,
+      "expected": 38,
+      "pass": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "DS-PEER-01",
+      "severity": "medium",
+      "fields": [
+        "questions.cs408_ds_004_q1.prompt",
+        "questions.cs408_ds_004_q1.choices",
+        "topics.cs408_ds_004.diagnostic_question"
+      ],
+      "issue": "常量空间也满足 O(n) 和 O(n²)，原题未问最紧上界，选项在大 O 的严格数学定义下重叠。",
+      "requested_change": "明确询问紧确渐近阶，统一选项为 Θ(n)、Θ(1)、Θ(n²)、Θ(log n)，同步节点诊断题。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    },
+    {
+      "id": "DS-PEER-02",
+      "severity": "medium",
+      "fields": [
+        "questions.cs408_ds_011_q2.prompt",
+        "questions.cs408_ds_011_q2.explanation"
+      ],
+      "issue": "重新接链时可直接接上未扫描的剩余链，有些输入不需遍历 m+n 个结点，原题缺少最坏情况限定。",
+      "requested_change": "m,n≥1；询问最坏时间阶，解析说明最坏情形和线性上界。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    },
+    {
+      "id": "DS-PEER-03",
+      "severity": "low",
+      "fields": [
+        "questions.cs408_ds_050_q2.prompt"
+      ],
+      "issue": "题干只给固定五个关键字，却以未定义的 n 询问渐近阶。",
+      "requested_change": "关键字改为 1、2、…、n，保持依次插入且不平衡条件。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    },
+    {
+      "id": "DS-PEER-04",
+      "severity": "medium",
+      "fields": [
+        "questions.cs408_ds_059_q2.prompt"
+      ],
+      "issue": "O(n+m) 和较松的 O(nm) 都可为总复杂度上界，原问题未明确选择最紧界。",
+      "requested_change": "询问最紧的通用渐近上界，保持 O(n+m) 为唯一预期答案。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    },
+    {
+      "id": "DS-PEER-05",
+      "severity": "medium",
+      "fields": [
+        "dependencies.cs408_ds_020->cs408_ds_021",
+        "dependencies.cs408_ds_019->cs408_ds_021"
+      ],
+      "issue": "对称/三角压缩公式不是理解三对角矩阵压缩的必要前提；需要的是二维位置与连续存储映射。",
+      "requested_change": "020→021 改 soft，新增 019→021 hard。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    },
+    {
+      "id": "DS-PEER-06",
+      "severity": "medium",
+      "fields": [
+        "dependencies.cs408_ds_031->cs408_ds_071"
+      ],
+      "issue": "置换选择的冻结规则及段长不强制依赖二叉堆；堆为高效选择实现之一。",
+      "requested_change": "031→071 改 soft，并相应解释实现关系。",
+      "status": "resolved_and_independently_verified",
+      "verification": "作者源脚本修订后重新生成；复核者再次读取最终 JSON 题干、选项、解析、节点诊断题或先修理由，确认对应修改。"
+    }
+  ],
+  "counts": {
+    "topics": 73,
+    "questions": 146,
+    "edges": 114,
+    "hard": 99,
+    "soft": 15,
+    "resolved_findings": 6,
+    "open_findings": 0
+  },
+  "snapshot_sha256": {
+    "topics.json": "8453e1ec884797f313dc1460f50230b752bda59056964ca7dd9c3d8cd6df8fa2",
+    "questions.json": "69de0e2ec4bc63326ba3084bafa2976a7cdfa3e6f19da77043358c4e731a1371",
+    "dependencies.json": "3e677c3d47e6e97e12b194dde67c3c6ac623da5639822c78b6d26f44b4c6693c",
+    "sources.json": "974065f0fb0a46780482f238dac98bda059619aa6e342baef70e153d754c4fee",
+    "coverage.json": "8c51856deeec4804d752fa606c75697155f0393c3fa4f87844c68aaf41b33d4b"
+  },
+  "limits": [
+    "AI独立复核，不是学科教师签审。",
+    "教材官方元数据及目录已核验，未逐页核验教材全文。",
+    "未读取2027官方大纲全文，不宣称覆盖表经过2027逐条审定。"
+  ]
+}

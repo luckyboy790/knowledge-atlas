@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS",
+  "assertions": 25500,
+  "require_reviewed": true,
+  "course": {
+    "topics": 100,
+    "questions": 200,
+    "dependencies": 185,
+    "hard": 169,
+    "soft": 16,
+    "cross_course_dependencies": 9,
+    "chapters": [
+      {
+        "module": "events",
+        "title": "概率论的基本概念",
+        "topics": 12,
+        "questions": 24
+      },
+      {
+        "module": "univariate",
+        "title": "随机变量及其分布",
+        "topics": 16,
+        "questions": 32
+      },
+      {
+        "module": "multivariate",
+        "title": "多维随机变量及其分布",
+        "topics": 14,
+        "questions": 28
+      },
+      {
+        "module": "moments",
+        "title": "随机变量的数字特征",
+        "topics": 14,
+        "questions": 28
+      },
+      {
+        "module": "limits",
+        "title": "大数定律及中心极限定理",
+        "topics": 8,
+        "questions": 16
+      },
+      {
+        "module": "sampling",
+        "title": "样本及抽样分布",
+        "topics": 10,
+        "questions": 20
+      },
+      {
+        "module": "estimation",
+        "title": "参数估计",
+        "topics": 16,
+        "questions": 32
+      },
+      {
+        "module": "testing",
+        "title": "假设检验",
+        "topics": 10,
+        "questions": 20
+      }
+    ],
+    "exam_scope_counts": {
+      "shared": 81,
+      "math1": 19,
+      "supplement": 0
+    }
+  },
+  "total": {
+    "subjects": 10,
+    "topics": 2950,
+    "questions": 9053,
+    "dependencies": 4369
+  },
+  "math": {
+    "topics": 974,
+    "questions": 3699,
+    "dependencies": 1611
+  },
+  "grading_checks": 800,
+  "shuffled_checks": 800,
+  "correct_answer_keys": {
+    "A": 50,
+    "B": 50,
+    "C": 50,
+    "D": 50
+  },
+  "target_sessions": 300,
+  "screen_sessions": 36,
+  "runtime_files": 53,
+  "baseline_comparison": "not_run",
+  "preserved_existing_json": [],
+  "core_engine_unchanged": null,
+  "sha256": {
+    "math-probability-topics.json": "6f9813b190b82f1f4d52304261aabd5e51328219ad0d6f87bcce7bcf2c223ed1",
+    "math-probability-questions.json": "012d7f60f760fb2e570f9619906fdab73b423f4e7ccbbe4f011d742b05ab5bd5",
+    "math-probability-dependencies.json": "9b9d8f2792aba8e4681bbcf81c55e1568f42c4f398eb71d5522ccf6462662c91",
+    "math-probability-sources.json": "a6689837d9d4574ea0af83909884d5e7f1f7fe0c58c5732203d4b12c348ad75b",
+    "math-probability-coverage.json": "3d7a8717584b697e1530de1f0a9a5f1146cdbff1d8d3a0bc1e81128377c6de7b"
+  },
+  "limitations": [
+    "程序验证结构、来源字段、已读公开父节目录、图无环性及测评状态流；不能代替内容和答案语义复核。",
+    "2027大纲书目已确认，未取得全文；教材正文未逐页核验。",
+    "内容的独立AI阅读、独立数值复算与真实浏览器检查另列报告，尚未经教师审核。"
+  ]
+}

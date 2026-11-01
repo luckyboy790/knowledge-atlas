@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-31",
+  "policy": "独立审阅提出问题后由作者修订、重新构建及重冻相关章节；没有以静态验证替代内容复核。",
+  "batches": [
+    {
+      "reviewer": "root",
+      "module": "events",
+      "changes": [
+        "ps012_q1替换在边界概率下也可能充分的干扰项，消除多正确答案风险。",
+        "ps003_q2将事件/样本点层级含混的干扰项改为明确的空事件判断。",
+        "ps010摘要补来源条件事件概率为正。",
+        "ps008摘要补多事件乘法所需前缀交事件概率为正。",
+        "ps006_q2直接给定单位正方形均匀取点模型。"
+      ]
+    },
+    {
+      "reviewer": "root",
+      "module": "univariate",
+      "changes": [
+        "ps018_q2明确失败后继续、成功或满3次才停止。",
+        "ps023无记忆性摘要明确s,t≥0。"
+      ]
+    },
+    {
+      "reviewer": "root",
+      "module": "multivariate",
+      "changes": [
+        "ps037_q2干扰项改为把独立误认作同分布的常见误区。",
+        "ps035两题均明确联合密度支持外为0。"
+      ]
+    },
+    {
+      "reviewer": "root",
+      "module": "moments/limits",
+      "changes": [
+        "ps054_q1把不适用于随机变量的互斥干扰项改为同分布误区。",
+        "ps062_q1将含总体参数的表达式称标准化量，避免与严格统计量定义冲突。"
+      ]
+    },
+    {
+      "reviewer": "root",
+      "module": "sampling",
+      "changes": [
+        "ps065_q2明确均匀不放回抽取。",
+        "ps066_q2明示S²是样本方差。",
+        "ps073/074相关题干加非退化正态，ps074摘要补正方差和样本容量≥2。"
+      ]
+    },
+    {
+      "reviewer": "probability_sources",
+      "module": "estimation",
+      "changes": [
+        "ps078补Bernoulli闭参数空间及Poisson全零观测、严格正参数时无MLE的边界例外。",
+        "ps085_q1明确精确95%覆盖率，以匹配长期约95%的解释。",
+        "ps087_q2将t_0.975(15)的三位小数舍入修为2.131，半宽同步改为1.0655。"
+      ]
+    },
+    {
+      "reviewer": "作者末轮自查，probability_sources复读",
+      "module": "testing",
+      "changes": [
+        "ps092_q2明确总体方差为1及独立同分布抽样，消除样本方差含义歧义；模型、数值、答案与解析不变。"
+      ]
+    }
+  ],
+  "unresolved_source_limits": [
+    "2027官方大纲全文未取得，范围标签仍为依据公开备考目录的规划标签。",
+    "第六版教材全文未逐页核验，未核对精确页码。"
+  ],
+  "final_content_review": "root前6章74点148题和probability_sources后2章26点52题均已独立逐条复核PASS；最终仅统一review_status/review_record字段。"
+}

@@ -1,0 +1,216 @@
+{
+  "subject": "herbal",
+  "checked_date": "2026-10-31",
+  "schema_version": 1,
+  "reference_policy": "以截至核验日可检索到的中国中医药出版社十五五本科规划教材为选用版本。系列“第十二版”与单书第5/6版分别记录，不宣称全国所有院校统一指定同一套教材；公开书目不能替代完整教材逐页核验。",
+  "books": [
+    {
+      "id": "herbal_book_materia6",
+      "title": "中药学",
+      "authors": [
+        "钟赣生",
+        "杨柏灿"
+      ],
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700265",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。",
+      "date_note": "中医书院和东方学院列2026-03，另一书目平台列2026-05；未据此伪造确切出版日。",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。",
+      "publication_date_note": "中医书院和东方学院列2026-03，另一书目平台列2026-05；未据此伪造确切出版日。",
+      "publication_date_note_urls": [
+        "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+        "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613"
+      ]
+    },
+    {
+      "id": "herbal_book_identification6",
+      "title": "中药鉴定学",
+      "authors": [
+        "闫永红",
+        "张慧"
+      ],
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524704287",
+      "publication_date": "2026-05",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3f58nl70vvmfhnt",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "verification": "官方微商城与高校2026秋教材清单交叉核实主编、ISBN、2026年5月第6版；未逐页读取教材或转录目录图片，节点采用主题定位。",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "官方微商城与高校2026秋教材清单交叉核实主编、ISBN、2026年5月第6版；未逐页读取教材或转录目录图片，节点采用主题定位。"
+    },
+    {
+      "id": "herbal_book_chemistry5",
+      "title": "中药化学",
+      "authors": [
+        "夏永刚",
+        "邱峰"
+      ],
+      "edition": "第5版（新世纪第五版）",
+      "isbn": "9787524707295",
+      "publication_date": "2026-08",
+      "source_url": "https://detail.youzan.com/show/goods?alias=364i9524c5rtcu2",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "verification": "中国中医药出版社官方旗舰店确认书名、两位主编与第5版，高校2026秋教材清单确认ISBN和2026年8月；出版社官网新书栏亦列两位主编。未逐页读取教材，节点采用主题定位。",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "中国中医药出版社官方旗舰店确认书名、两位主编与第5版，高校2026秋教材清单确认ISBN和2026年8月；出版社官网新书栏亦列两位主编。未逐页读取教材，节点采用主题定位。"
+    },
+    {
+      "id": "herbal_book_processing6",
+      "title": "中药炮制学",
+      "authors": [
+        "钟凌云"
+      ],
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700562",
+      "publication_date": "2026-03",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ewm8xoordanhbe",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ewm8xoordanhbe",
+      "verification": "出版社官方微商城列第6版、ISBN和2026年3月；湖北中医药大学2025年9月审定会新闻可交叉核对主编及系列，但审定会议本身不作为出版证明。目录图片未转录，节点为主题定位；不包含可执行的毒性药材加工参数。",
+      "supporting_url": "https://hbucm.edu.cn/info/1044/191181.htm",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "出版社官方微商城列第6版、ISBN和2026年3月；湖北中医药大学2025年9月审定会新闻可交叉核对主编及系列，但审定会议本身不作为出版证明。目录图片未转录，节点为主题定位；不包含可执行的毒性药材加工参数。"
+    },
+    {
+      "id": "herbal_book_pharmaceutics6",
+      "title": "中药药剂学",
+      "authors": [
+        "朱卫丰",
+        "唐志书"
+      ],
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524703259",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3emqmhox7ne4dj9",
+      "catalog_url": "https://opac.ouc.edu.cn/mspace/searchDetailLocal/m2e9ca52024501868c9166c740ecbfc9e",
+      "verification": "官方微商城与中国海洋大学馆藏MARC交叉核实2026年第6版、ISBN及十五五/第十二版系列。馆藏摘要确认中药调剂、制药卫生、原辅料、剂型等主题；未逐页读取全书，不编造未读取的节号。",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "官方微商城与中国海洋大学馆藏MARC交叉核实2026年第6版、ISBN及十五五/第十二版系列。馆藏摘要确认中药调剂、制药卫生、原辅料、剂型等主题；未逐页读取全书，不编造未读取的节号。"
+    },
+    {
+      "id": "herbal_book_pharmacology6",
+      "title": "中药药理学",
+      "authors": [
+        "彭成",
+        "许钒"
+      ],
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700364",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z",
+      "verification": "出版社官方微商城列第6版、ISBN与实物/目录/编写说明图片，标2026-02；成都中医药大学2026-10-15页面又记9月12日同主编十五五教材定稿会，时间存在未解决冲突。故出版年份记2026，月份待版权页复核，不能宣称该书日期信息完全一致。目录图片未转录，节点采用主题定位。",
+      "date_note": "官方微商城2026-02与高校2026年定稿会报道冲突，保留核验事项，不擅自认定哪方录入错误。",
+      "conflicting_source_url": "https://www.cdutcm.edu.cn/yxy/info/1046/1602.htm",
+      "publisher": "中国中医药出版社",
+      "official_series": "全国中医药行业高等教育“十五五”规划教材；全国高等中医药院校规划教材（第十二版）",
+      "full_text_verified": false,
+      "checked_date": "2026-10-31",
+      "reference_role": "选用的规划教材；不声称全国所有院校统一指定唯一教材",
+      "catalog_verified": false,
+      "note": "出版社官方微商城列第6版、ISBN与实物/目录/编写说明图片，标2026-02；成都中医药大学2026-10-15页面又记9月12日同主编十五五教材定稿会，时间存在未解决冲突。故出版年份记2026，月份待版权页复核，不能宣称该书日期信息完全一致。目录图片未转录，节点采用主题定位。",
+      "publication_date_note": "官方微商城2026-02与高校2026年定稿会报道冲突，保留核验事项，不擅自认定哪方录入错误。",
+      "publication_date_note_urls": [
+        "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z",
+        "https://www.cdutcm.edu.cn/yxy/info/1046/1602.htm"
+      ]
+    }
+  ],
+  "official_series_evidence": {
+    "title": "十五五首批中医药行业规划教材面世，2026年秋季投入教学",
+    "url": "https://www.tjutcm.edu.cn/info/1047/3128.htm",
+    "publisher_site": "https://www.cptcm.com/",
+    "note": "天津中医药大学转载中国中医药报，报道191种教材发布；仅用作系列发布证据，不推定每一本书全部内容已核验。"
+  },
+  "publisher_store_identity": {
+    "title": "中国中医药出版社如何从微信公众号做成矩阵",
+    "url": "https://media.people.com.cn/n1/2016/0523/c40606-28371986.html",
+    "note": "人民网报道出版社开设官方微商城“中医书院”，用于核对微商城身份。新版书目信息另见各书页面和高校目录。"
+  },
+  "quality_standards": [
+    {
+      "id": "herbal_standard_chp2025",
+      "title": "中华人民共和国药典（2025年版）",
+      "authority": [
+        "国家药品监督管理局",
+        "国家卫生健康委员会"
+      ],
+      "publication_notice": "2025年第29号",
+      "publication_date": "2025-03-20",
+      "effective_date": "2025-10-01",
+      "source_url": "https://app.www.gov.cn/govdata/gov/202503/26/525844/article.html",
+      "implementation_url": "https://mpa.shaanxi.gov.cn/sxsypjdglj/zfxxgk/fdzdgknr/zcfg/xzgfxwj/202504/t20250410_3489613.html",
+      "role": "质量标准补充来源，不是本科教材，也不是所有传统功效的临床疗效认证",
+      "verification": "已核实中央政府及省级药监局转载的颁布、实施公告。未取得并逐条阅读药典全部品种正文；不填造具体含量限度、剂量和工艺参数。",
+      "full_text_verified": false
+    }
+  ],
+  "supporting_sources": [
+    {
+      "title": "北京中医药大学东方学院2026年秋季教材使用一览表",
+      "url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "role": "确认中药学6版、中药鉴定学6版、中药化学5版等具体ISBN和采用版本；该校选用旧版课程不代表全国不存在新版。"
+    },
+    {
+      "title": "中国海洋大学图书馆中药药剂学第6版MARC",
+      "url": "https://opac.ouc.edu.cn/mspace/searchDetailLocal/m2e9ca52024501868c9166c740ecbfc9e",
+      "role": "核对2026年第6版ISBN、两位主编、十五五/第十二版系列及主题摘要。"
+    },
+    {
+      "title": "河南中医药大学中药鉴定学课程",
+      "url": "https://www.icourse163.org/course/HACTCM-1002126015",
+      "role": "公开课程结构补充核对来源、性状、显微、理化鉴别和代表药材主题；不是声称该页面为2026教材全文。"
+    },
+    {
+      "title": "国家高等教育智慧教育平台中药炮制学课程",
+      "url": "https://higher.smartedu.cn/course/671aceaf16d8a05eedca26e6",
+      "role": "江西中医药大学课程，补充核对炮制基本概念和辅料主题；不作为正式出版日期证据。"
+    },
+    {
+      "title": "国家高等教育智慧教育平台中药药理学课程",
+      "url": "https://higher.smartedu.cn/course/6786eb61225d72705e5dc032",
+      "role": "成都中医药大学课程，补充核对学科范围；不将课程开设日期当作教材出版日。"
+    },
+    {
+      "title": "高等教育出版社中药化学（101计划教材）公开目录",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=680bc640e119ac97296fe522",
+      "role": "另一套官方出版社本科教材的公开结构，用于结构类别与分析主题交叉检查，不冒充本项目所选十五五第5版目录。"
+    }
+  ],
+  "limits": [
+    "没有逐页读取最新教材全文；所有节点和测验为原创课程学习整理，主题定位不是原书章号、节号或页码。",
+    "中药学出版月有不同书目记录；中药药理学微商城出版月与高校定稿会报道冲突，均已披露并待版权页复核。",
+    "本版为六门课程的核心学习图谱，不是中药学专业全部课程、全部药材或全部药典标准的完整覆盖。",
+    "传统药性和功效按传统理论标记，实验或质量标准不得无条件推断人体疗效。",
+    "没有处方剂量、毒性药材加工参数、家庭用药或制剂操作方案。",
+    "AI原创与作者自查不等于药学教师、临床药师或临床专家审核。"
+  ]
+}

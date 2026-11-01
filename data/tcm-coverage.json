@@ -1,0 +1,1084 @@
+{
+  "subject": "tcm",
+  "checked_date": "2026-10-31",
+  "scope": "四门本科基础课程核心知识子集；项目章号是学习单元编号，textbook字段另记已核验教材章名。",
+  "courses": [
+    {
+      "id": "basics",
+      "name": "中医基础理论",
+      "grade": 31,
+      "units": [
+        {
+          "unit": "理论框架与哲学基础",
+          "chapter": "第1章 理论框架与哲学基础",
+          "points": [
+            {
+              "point": "整体观念",
+              "topicIds": [
+                "tcm_basics_001"
+              ],
+              "textbook_chapter": "绪论",
+              "textbook_section": "中医学理论体系的主要特点"
+            },
+            {
+              "point": "辨证论治与同病异治、异病同治",
+              "topicIds": [
+                "tcm_basics_002"
+              ],
+              "textbook_chapter": "绪论",
+              "textbook_section": "中医学理论体系的主要特点"
+            },
+            {
+              "point": "气一元论的哲学语境",
+              "topicIds": [
+                "tcm_basics_003"
+              ],
+              "textbook_chapter": "第一章 中医学的哲学基础",
+              "textbook_section": "第一节 气一元论"
+            },
+            {
+              "point": "阴阳的相对性、对立与互根",
+              "topicIds": [
+                "tcm_basics_004"
+              ],
+              "textbook_chapter": "第一章 中医学的哲学基础",
+              "textbook_section": "第二节 阴阳学说：概念与归类、基本内容"
+            },
+            {
+              "point": "阴阳消长与转化",
+              "topicIds": [
+                "tcm_basics_005"
+              ],
+              "textbook_chapter": "第一章 中医学的哲学基础",
+              "textbook_section": "第二节 阴阳学说：基本内容"
+            },
+            {
+              "point": "五行生克关系",
+              "topicIds": [
+                "tcm_basics_006"
+              ],
+              "textbook_chapter": "第一章 中医学的哲学基础",
+              "textbook_section": "第三节 五行学说：概念与归类、基本内容"
+            },
+            {
+              "point": "五行相乘与相侮",
+              "topicIds": [
+                "tcm_basics_007"
+              ],
+              "textbook_chapter": "第一章 中医学的哲学基础",
+              "textbook_section": "第三节 五行学说：基本内容"
+            }
+          ]
+        },
+        {
+          "unit": "中医思维方式",
+          "chapter": "第2章 中医思维方式",
+          "points": [
+            {
+              "point": "象思维与取象比类",
+              "topicIds": [
+                "tcm_basics_008"
+              ],
+              "textbook_chapter": "第二章 中医学的主要思维方式",
+              "textbook_section": "第一节 象思维"
+            },
+            {
+              "point": "系统思维与形神合一",
+              "topicIds": [
+                "tcm_basics_009"
+              ],
+              "textbook_chapter": "第二章 中医学的主要思维方式",
+              "textbook_section": "第二节 系统思维"
+            },
+            {
+              "point": "变易思维与动态观察",
+              "topicIds": [
+                "tcm_basics_010"
+              ],
+              "textbook_chapter": "第二章 中医学的主要思维方式",
+              "textbook_section": "第三节 变易思维"
+            }
+          ]
+        },
+        {
+          "unit": "藏象理论",
+          "chapter": "第3章 藏象理论",
+          "points": [
+            {
+              "point": "藏象与现代解剖概念的边界",
+              "topicIds": [
+                "tcm_basics_011"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第一节 概述"
+            },
+            {
+              "point": "心的传统功能：血脉与神志",
+              "topicIds": [
+                "tcm_basics_012"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第二节 五脏：心"
+            },
+            {
+              "point": "肺的传统功能：主气、宣发与肃降",
+              "topicIds": [
+                "tcm_basics_013"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第二节 五脏：肺"
+            },
+            {
+              "point": "脾的传统功能：运化与统血",
+              "topicIds": [
+                "tcm_basics_014"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第二节 五脏：脾"
+            },
+            {
+              "point": "肝的传统功能：疏泄与藏血",
+              "topicIds": [
+                "tcm_basics_015"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第二节 五脏：肝"
+            },
+            {
+              "point": "肾的传统功能：藏精与生长发育",
+              "topicIds": [
+                "tcm_basics_016"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第二节 五脏：肾"
+            },
+            {
+              "point": "六腑与传化功能",
+              "topicIds": [
+                "tcm_basics_017"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第三节 六腑"
+            },
+            {
+              "point": "奇恒之腑的分类特点",
+              "topicIds": [
+                "tcm_basics_018"
+              ],
+              "textbook_chapter": "第三章 藏象",
+              "textbook_section": "第四节 奇恒之腑；第三节 六腑"
+            }
+          ]
+        },
+        {
+          "unit": "精气血津液神",
+          "chapter": "第4章 精气血津液神",
+          "points": [
+            {
+              "point": "精的传统概念与先后天联系",
+              "topicIds": [
+                "tcm_basics_019"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第一节 精"
+            },
+            {
+              "point": "人体之气与元气、宗气、营气、卫气",
+              "topicIds": [
+                "tcm_basics_020"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第二节 气：基本概念、生成、功能、分类"
+            },
+            {
+              "point": "气机与气化",
+              "topicIds": [
+                "tcm_basics_021"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第二节 气：运动与变化"
+            },
+            {
+              "point": "血与气血关系",
+              "topicIds": [
+                "tcm_basics_022"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第三节 血；第六节 精气血津液神之间的关系：气与血"
+            },
+            {
+              "point": "津液与津、液的区别",
+              "topicIds": [
+                "tcm_basics_023"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第四节 津液"
+            },
+            {
+              "point": "神及精气血津液神的联系",
+              "topicIds": [
+                "tcm_basics_024"
+              ],
+              "textbook_chapter": "第四章 精气血津液神",
+              "textbook_section": "第五节 神；第六节 精气血津液神之间的关系"
+            }
+          ]
+        },
+        {
+          "unit": "经络与体质",
+          "chapter": "第5章 经络与体质",
+          "points": [
+            {
+              "point": "经络系统的传统组成",
+              "topicIds": [
+                "tcm_basics_025"
+              ],
+              "textbook_chapter": "第五章 经络",
+              "textbook_section": "第一节 概述；第三、四节相关组成"
+            },
+            {
+              "point": "十二经脉的命名与表里关系",
+              "topicIds": [
+                "tcm_basics_026"
+              ],
+              "textbook_chapter": "第五章 经络",
+              "textbook_section": "第二节 十二经脉：名称、表里关系"
+            },
+            {
+              "point": "体质的相对稳定性与形成因素",
+              "topicIds": [
+                "tcm_basics_027"
+              ],
+              "textbook_chapter": "第六章 体质",
+              "textbook_section": "第一节 体质的概念与构成要素；第二节 生理学基础与形成因素"
+            },
+            {
+              "point": "体质、病与证的不同层次",
+              "topicIds": [
+                "tcm_basics_028"
+              ],
+              "textbook_chapter": "第六章 体质",
+              "textbook_section": "第四节 体质学说的应用"
+            }
+          ]
+        },
+        {
+          "unit": "病因理论",
+          "chapter": "第6章 病因理论",
+          "points": [
+            {
+              "point": "六气与六淫",
+              "topicIds": [
+                "tcm_basics_029"
+              ],
+              "textbook_chapter": "第七章 病因",
+              "textbook_section": "第一节 外感病因：六淫"
+            },
+            {
+              "point": "疠气的传统病因概念",
+              "topicIds": [
+                "tcm_basics_030"
+              ],
+              "textbook_chapter": "第七章 病因",
+              "textbook_section": "第一节 外感病因：疠气"
+            },
+            {
+              "point": "七情内伤、饮食与劳逸因素",
+              "topicIds": [
+                "tcm_basics_031"
+              ],
+              "textbook_chapter": "第七章 病因",
+              "textbook_section": "第二节 内伤病因"
+            },
+            {
+              "point": "痰饮、瘀血与病理产物",
+              "topicIds": [
+                "tcm_basics_032"
+              ],
+              "textbook_chapter": "第七章 病因",
+              "textbook_section": "第三节 病理产物性病因"
+            }
+          ]
+        },
+        {
+          "unit": "病机理论",
+          "chapter": "第7章 病机理论",
+          "points": [
+            {
+              "point": "正邪与虚实病机",
+              "topicIds": [
+                "tcm_basics_033"
+              ],
+              "textbook_chapter": "第八章 病机",
+              "textbook_section": "第一节 发病；第二节 基本病机：邪正盛衰"
+            },
+            {
+              "point": "阴阳失调：偏盛与偏衰",
+              "topicIds": [
+                "tcm_basics_034"
+              ],
+              "textbook_chapter": "第八章 病机",
+              "textbook_section": "第二节 基本病机：阴阳失调"
+            },
+            {
+              "point": "气血津液失常的分析维度",
+              "topicIds": [
+                "tcm_basics_035"
+              ],
+              "textbook_chapter": "第八章 病机",
+              "textbook_section": "第二节 基本病机：精气血津液失常"
+            },
+            {
+              "point": "病势传变与动态病机",
+              "topicIds": [
+                "tcm_basics_036"
+              ],
+              "textbook_chapter": "第八章 病机",
+              "textbook_section": "第四节 疾病传变"
+            }
+          ]
+        },
+        {
+          "unit": "养生与治则",
+          "chapter": "第8章 养生与治则",
+          "points": [
+            {
+              "point": "养生与治未病的三个层次",
+              "topicIds": [
+                "tcm_basics_037"
+              ],
+              "textbook_chapter": "第九章 养生与防治原则",
+              "textbook_section": "第一节 养生；第二节 治未病"
+            },
+            {
+              "point": "治标与治本",
+              "topicIds": [
+                "tcm_basics_038"
+              ],
+              "textbook_chapter": "第九章 养生与防治原则",
+              "textbook_section": "第三节 治则：治标与治本"
+            },
+            {
+              "point": "扶正祛邪与正治反治",
+              "topicIds": [
+                "tcm_basics_039"
+              ],
+              "textbook_chapter": "第九章 养生与防治原则",
+              "textbook_section": "第三节 治则：正治与反治、扶正与祛邪"
+            },
+            {
+              "point": "三因制宜",
+              "topicIds": [
+                "tcm_basics_040"
+              ],
+              "textbook_chapter": "第九章 养生与防治原则",
+              "textbook_section": "第三节 治则：三因制宜"
+            }
+          ]
+        }
+      ],
+      "topic_count": 40,
+      "question_count": 80,
+      "book": "tcm_basic6_2026"
+    },
+    {
+      "id": "diagnostics",
+      "name": "中医诊断学",
+      "grade": 32,
+      "units": [
+        {
+          "unit": "诊断原则与概念",
+          "chapter": "第1章 诊断原则与概念",
+          "points": [
+            {
+              "point": "四诊合参与资料一致性",
+              "topicIds": [
+                "tcm_diagnostics_001"
+              ],
+              "textbook_chapter": "绪论",
+              "textbook_section": "中医诊断的基本原则"
+            },
+            {
+              "point": "症、证与病的区分",
+              "topicIds": [
+                "tcm_diagnostics_002"
+              ],
+              "textbook_chapter": "绪论",
+              "textbook_section": "中医诊断学的主要内容；中医诊断的基本原则"
+            }
+          ]
+        },
+        {
+          "unit": "望诊",
+          "chapter": "第2章 望诊",
+          "points": [
+            {
+              "point": "望神、望色、望形与望态",
+              "topicIds": [
+                "tcm_diagnostics_003"
+              ],
+              "textbook_chapter": "第一章 望诊",
+              "textbook_section": "第一节 全身望诊"
+            },
+            {
+              "point": "舌质与舌苔的观察层次",
+              "topicIds": [
+                "tcm_diagnostics_004"
+              ],
+              "textbook_chapter": "第一章 望诊",
+              "textbook_section": "第三节 舌诊：望舌质、望舌苔"
+            },
+            {
+              "point": "舌诊观察条件与非病理影响",
+              "topicIds": [
+                "tcm_diagnostics_005"
+              ],
+              "textbook_chapter": "第一章 望诊",
+              "textbook_section": "第三节 舌诊：舌诊的方法和注意事项"
+            },
+            {
+              "point": "局部望诊与排出物资料",
+              "topicIds": [
+                "tcm_diagnostics_006"
+              ],
+              "textbook_chapter": "第一章 望诊",
+              "textbook_section": "第二节 局部望诊；第五节 望排出物"
+            }
+          ]
+        },
+        {
+          "unit": "闻问切诊",
+          "chapter": "第3章 闻问切诊",
+          "points": [
+            {
+              "point": "闻诊的听声音与嗅气味",
+              "topicIds": [
+                "tcm_diagnostics_007"
+              ],
+              "textbook_chapter": "第二章 闻诊",
+              "textbook_section": "第一节 听声音；第二节 嗅气味"
+            },
+            {
+              "point": "问诊中的主诉、现病史与既往史",
+              "topicIds": [
+                "tcm_diagnostics_008"
+              ],
+              "textbook_chapter": "第三章 问诊",
+              "textbook_section": "第二节 问诊的内容"
+            },
+            {
+              "point": "问现症与时间、性质、伴随信息",
+              "topicIds": [
+                "tcm_diagnostics_009"
+              ],
+              "textbook_chapter": "第三章 问诊",
+              "textbook_section": "第三节 问现在症"
+            },
+            {
+              "point": "脉象的位、数、形、势",
+              "topicIds": [
+                "tcm_diagnostics_010"
+              ],
+              "textbook_chapter": "第四章 切诊",
+              "textbook_section": "第一节 脉诊：正常脉象、病理脉象"
+            },
+            {
+              "point": "脉诊条件与生理变异",
+              "topicIds": [
+                "tcm_diagnostics_011"
+              ],
+              "textbook_chapter": "第四章 切诊",
+              "textbook_section": "第一节 脉诊：方法和注意事项、正常脉象"
+            },
+            {
+              "point": "按诊的资料类型",
+              "topicIds": [
+                "tcm_diagnostics_012"
+              ],
+              "textbook_chapter": "第四章 切诊",
+              "textbook_section": "第二节 按诊"
+            }
+          ]
+        },
+        {
+          "unit": "八纲辨证",
+          "chapter": "第4章 八纲辨证",
+          "points": [
+            {
+              "point": "表里辨证与病位层次",
+              "topicIds": [
+                "tcm_diagnostics_013"
+              ],
+              "textbook_chapter": "第五章 八纲辨证",
+              "textbook_section": "第一节 八纲基本证：表里辨证"
+            },
+            {
+              "point": "寒热辨证与病性",
+              "topicIds": [
+                "tcm_diagnostics_014"
+              ],
+              "textbook_chapter": "第五章 八纲辨证",
+              "textbook_section": "第一节 八纲基本证：寒热辨证"
+            },
+            {
+              "point": "虚实辨证与邪正盛衰",
+              "topicIds": [
+                "tcm_diagnostics_015"
+              ],
+              "textbook_chapter": "第五章 八纲辨证",
+              "textbook_section": "第一节 八纲基本证：虚实辨证"
+            },
+            {
+              "point": "阴阳总纲与八纲之间的联系",
+              "topicIds": [
+                "tcm_diagnostics_016"
+              ],
+              "textbook_chapter": "第五章 八纲辨证",
+              "textbook_section": "第一节 八纲基本证：阴阳辨证"
+            },
+            {
+              "point": "相兼、错杂与转化",
+              "topicIds": [
+                "tcm_diagnostics_017"
+              ],
+              "textbook_chapter": "第五章 八纲辨证",
+              "textbook_section": "第二节 八纲证之间的关系"
+            }
+          ]
+        },
+        {
+          "unit": "病性辨证",
+          "chapter": "第5章 病性辨证",
+          "points": [
+            {
+              "point": "六淫辨证的分类轴",
+              "topicIds": [
+                "tcm_diagnostics_018"
+              ],
+              "textbook_chapter": "第六章 病性辨证",
+              "textbook_section": "第一节 六淫辨证"
+            },
+            {
+              "point": "阴虚证与阳虚证的理论区分",
+              "topicIds": [
+                "tcm_diagnostics_019"
+              ],
+              "textbook_chapter": "第六章 病性辨证",
+              "textbook_section": "第二节 阴阳虚损辨证"
+            },
+            {
+              "point": "气病、血病与气血同病辨证",
+              "topicIds": [
+                "tcm_diagnostics_020"
+              ],
+              "textbook_chapter": "第六章 病性辨证",
+              "textbook_section": "第三节 气血辨证"
+            },
+            {
+              "point": "津液亏虚、痰饮与水停",
+              "topicIds": [
+                "tcm_diagnostics_021"
+              ],
+              "textbook_chapter": "第六章 病性辨证",
+              "textbook_section": "第四节 津液辨证"
+            }
+          ]
+        },
+        {
+          "unit": "病位与辨证体系",
+          "chapter": "第6章 病位与辨证体系",
+          "points": [
+            {
+              "point": "脏腑辨证的功能框架",
+              "topicIds": [
+                "tcm_diagnostics_022"
+              ],
+              "textbook_chapter": "第七章 病位辨证",
+              "textbook_section": "第一节 脏腑辨证"
+            },
+            {
+              "point": "六经辨证的体系与传变",
+              "topicIds": [
+                "tcm_diagnostics_023"
+              ],
+              "textbook_chapter": "第七章 病位辨证",
+              "textbook_section": "第二节 六经辨证"
+            },
+            {
+              "point": "卫气营血辨证的层次",
+              "topicIds": [
+                "tcm_diagnostics_024"
+              ],
+              "textbook_chapter": "第七章 病位辨证",
+              "textbook_section": "第三节 卫气营血辨证"
+            },
+            {
+              "point": "三焦辨证的区域与病机联系",
+              "topicIds": [
+                "tcm_diagnostics_025"
+              ],
+              "textbook_chapter": "第七章 病位辨证",
+              "textbook_section": "第四节 三焦辨证"
+            },
+            {
+              "point": "经络辨证与循行联系",
+              "topicIds": [
+                "tcm_diagnostics_026"
+              ],
+              "textbook_chapter": "第七章 病位辨证",
+              "textbook_section": "第五节 经络辨证"
+            }
+          ]
+        },
+        {
+          "unit": "诊断思维与应用",
+          "chapter": "第7章 诊断思维与应用",
+          "points": [
+            {
+              "point": "资料归纳、假设与复核",
+              "topicIds": [
+                "tcm_diagnostics_027"
+              ],
+              "textbook_chapter": "第八章 中医诊断思维与应用",
+              "textbook_section": "第一节 中医诊断思维方法"
+            },
+            {
+              "point": "辨症、辨证、辨病、辨人的综合",
+              "topicIds": [
+                "tcm_diagnostics_028"
+              ],
+              "textbook_chapter": "第八章 中医诊断思维与应用",
+              "textbook_section": "第二节 中医诊断思维的应用：辨症、辨证、辨病、辨人"
+            }
+          ]
+        }
+      ],
+      "topic_count": 28,
+      "question_count": 56,
+      "book": "tcm_diagnostic6_2026"
+    },
+    {
+      "id": "formulas",
+      "name": "方剂学",
+      "grade": 33,
+      "units": [
+        {
+          "unit": "方剂学总论",
+          "chapter": "第1章 方剂学总论",
+          "points": [
+            {
+              "point": "方剂、治法与证的联系",
+              "topicIds": [
+                "tcm_formulas_001"
+              ],
+              "textbook_chapter": "上篇 总论 第二章 方剂与治法",
+              "textbook_section": "第一节 方剂与治法的关系；第二节 常用治法"
+            },
+            {
+              "point": "君臣佐使的配伍角色",
+              "topicIds": [
+                "tcm_formulas_002"
+              ],
+              "textbook_chapter": "上篇 总论 第六章 方剂的组方法则与变化",
+              "textbook_section": "组方法则"
+            },
+            {
+              "point": "方剂变化与方义分析",
+              "topicIds": [
+                "tcm_formulas_003"
+              ],
+              "textbook_chapter": "上篇 总论 第六章 方剂的组方法则与变化",
+              "textbook_section": "方剂的变化"
+            },
+            {
+              "point": "方剂分类的方法与适用角度",
+              "topicIds": [
+                "tcm_formulas_004"
+              ],
+              "textbook_chapter": "上篇 总论 第三章 方剂的分类",
+              "textbook_section": "病证分类、组成分类、治法分类、笔画分类"
+            },
+            {
+              "point": "剂型与方剂组成的区别",
+              "topicIds": [
+                "tcm_formulas_005"
+              ],
+              "textbook_chapter": "上篇 总论 第四章 方剂的剂型",
+              "textbook_section": "液体剂型、固体剂型、半固体剂型"
+            },
+            {
+              "point": "古方文献与现代证据的层次",
+              "topicIds": [
+                "tcm_formulas_006"
+              ],
+              "textbook_chapter": "上篇 总论 第一章 方剂的起源与发展",
+              "textbook_section": "文献与学术演变主题定位；不虚填未核实节号"
+            }
+          ]
+        },
+        {
+          "unit": "解表泻下与和解",
+          "chapter": "第2章 解表泻下与和解",
+          "points": [
+            {
+              "point": "解表剂：辛温、辛凉与扶正解表",
+              "topicIds": [
+                "tcm_formulas_007"
+              ],
+              "textbook_chapter": "下篇 各论 第一章 解表剂",
+              "textbook_section": "第一节 辛温解表剂；第二节 辛凉解表剂；第三节 扶正解表剂"
+            },
+            {
+              "point": "泻下剂：寒下、温下与润下",
+              "topicIds": [
+                "tcm_formulas_008"
+              ],
+              "textbook_chapter": "下篇 各论 第二章 泻下剂",
+              "textbook_section": "寒下、温下、润下、逐水、攻补兼施"
+            },
+            {
+              "point": "和解剂的三类调和方向",
+              "topicIds": [
+                "tcm_formulas_009"
+              ],
+              "textbook_chapter": "下篇 各论 第三章 和解剂",
+              "textbook_section": "第一节 和解少阳剂；第二节 调和肝脾剂；第三节 调和寒热剂"
+            }
+          ]
+        },
+        {
+          "unit": "清温与表里兼顾",
+          "chapter": "第3章 清温与表里兼顾",
+          "points": [
+            {
+              "point": "清热剂的病位与虚实分支",
+              "topicIds": [
+                "tcm_formulas_010"
+              ],
+              "textbook_chapter": "下篇 各论 第四章 清热剂",
+              "textbook_section": "清气分热、清营凉血、气血两清、清脏腑热、清虚热"
+            },
+            {
+              "point": "祛暑剂的兼夹分类",
+              "topicIds": [
+                "tcm_formulas_011"
+              ],
+              "textbook_chapter": "下篇 各论 第五章 祛暑剂",
+              "textbook_section": "祛暑解表、祛暑清热、祛暑利湿、祛暑益气"
+            },
+            {
+              "point": "温里剂的温中、回阳与温经分支",
+              "topicIds": [
+                "tcm_formulas_012"
+              ],
+              "textbook_chapter": "下篇 各论 第六章 温里剂",
+              "textbook_section": "温中祛寒、回阳救逆、温经散寒"
+            },
+            {
+              "point": "表里双解剂的组合方向",
+              "topicIds": [
+                "tcm_formulas_013"
+              ],
+              "textbook_chapter": "下篇 各论 第七章 表里双解剂",
+              "textbook_section": "解表清里、解表温里、解表攻里"
+            }
+          ]
+        },
+        {
+          "unit": "补涩安神与开窍",
+          "chapter": "第4章 补涩安神与开窍",
+          "points": [
+            {
+              "point": "补益剂：气血阴阳的不同对象",
+              "topicIds": [
+                "tcm_formulas_014"
+              ],
+              "textbook_chapter": "下篇 各论 第八章 补益剂",
+              "textbook_section": "补气、补血、气血双补、补阴、补阳、阴阳并补"
+            },
+            {
+              "point": "固涩剂的分类对象",
+              "topicIds": [
+                "tcm_formulas_015"
+              ],
+              "textbook_chapter": "下篇 各论 第九章 固涩剂",
+              "textbook_section": "固表止汗、敛肺止咳、涩肠固脱、涩精止遗、固崩止带"
+            },
+            {
+              "point": "安神剂的三种组方方向",
+              "topicIds": [
+                "tcm_formulas_016"
+              ],
+              "textbook_chapter": "下篇 各论 第十章 安神剂",
+              "textbook_section": "重镇安神、补养安神、交通心肾"
+            },
+            {
+              "point": "开窍剂的凉开与温开分类",
+              "topicIds": [
+                "tcm_formulas_017"
+              ],
+              "textbook_chapter": "下篇 各论 第十一章 开窍剂",
+              "textbook_section": "第一节 凉开剂；第二节 温开剂"
+            }
+          ]
+        },
+        {
+          "unit": "理气与理血",
+          "chapter": "第5章 理气与理血",
+          "points": [
+            {
+              "point": "理气剂：行气与降气",
+              "topicIds": [
+                "tcm_formulas_018"
+              ],
+              "textbook_chapter": "下篇 各论 第十二章 理气剂",
+              "textbook_section": "第一节 行气剂；第二节 降气剂"
+            },
+            {
+              "point": "理血剂：活血祛瘀与止血",
+              "topicIds": [
+                "tcm_formulas_019"
+              ],
+              "textbook_chapter": "下篇 各论 第十三章 理血剂",
+              "textbook_section": "第一节 活血祛瘀剂；第二节 止血剂"
+            }
+          ]
+        },
+        {
+          "unit": "风燥湿痰的分类",
+          "chapter": "第6章 风燥湿痰的分类",
+          "points": [
+            {
+              "point": "治风剂：外风与内风",
+              "topicIds": [
+                "tcm_formulas_020"
+              ],
+              "textbook_chapter": "下篇 各论 第十四章 治风剂",
+              "textbook_section": "第一节 疏散外风剂；第二节 平息内风剂"
+            },
+            {
+              "point": "治燥剂：轻宣外燥与滋润内燥",
+              "topicIds": [
+                "tcm_formulas_021"
+              ],
+              "textbook_chapter": "下篇 各论 第十五章 治燥剂",
+              "textbook_section": "第一节 轻宣外燥剂；第二节 滋润内燥剂"
+            },
+            {
+              "point": "祛湿剂的六类方向",
+              "topicIds": [
+                "tcm_formulas_022"
+              ],
+              "textbook_chapter": "下篇 各论 第十六章 祛湿剂",
+              "textbook_section": "化湿和胃、清热祛湿、利水渗湿、温化寒湿、祛湿化浊、祛风胜湿"
+            },
+            {
+              "point": "祛痰剂的寒热燥湿与风痰分类",
+              "topicIds": [
+                "tcm_formulas_023"
+              ],
+              "textbook_chapter": "下篇 各论 第十七章 祛痰剂",
+              "textbook_section": "燥湿化痰、清热化痰、润燥化痰、温化寒痰、治风化痰"
+            }
+          ]
+        },
+        {
+          "unit": "其他方剂类别",
+          "chapter": "第7章 其他方剂类别",
+          "points": [
+            {
+              "point": "消食剂：消食化滞与健脾消食",
+              "topicIds": [
+                "tcm_formulas_024"
+              ],
+              "textbook_chapter": "下篇 各论 第十八章 消食剂",
+              "textbook_section": "第一节 消食化滞剂；第二节 健脾消食剂"
+            },
+            {
+              "point": "驱虫剂的课程定位",
+              "topicIds": [
+                "tcm_formulas_025"
+              ],
+              "textbook_chapter": "下篇 各论 第十九章 驱虫剂",
+              "textbook_section": "乌梅丸等条目；传统分类主题"
+            },
+            {
+              "point": "涌吐剂与泻下剂的传统区分",
+              "topicIds": [
+                "tcm_formulas_026"
+              ],
+              "textbook_chapter": "下篇 各论 第二十章 涌吐剂",
+              "textbook_section": "瓜蒂散等条目；传统治法分类主题"
+            },
+            {
+              "point": "治痈疡剂的三个目录分支",
+              "topicIds": [
+                "tcm_formulas_027"
+              ],
+              "textbook_chapter": "下篇 各论 第二十一章 治痈疡剂",
+              "textbook_section": "第一节 散结消痈剂；第二节 托里透脓剂；第三节 补虚敛疮剂"
+            }
+          ]
+        }
+      ],
+      "topic_count": 27,
+      "question_count": 54,
+      "book": "tcm_formula6_2026"
+    },
+    {
+      "id": "meridians",
+      "name": "针灸学基础",
+      "grade": 34,
+      "units": [
+        {
+          "unit": "经络理论基础",
+          "chapter": "第1章 经络理论基础",
+          "points": [
+            {
+              "point": "经络学说的理论对象与证据边界",
+              "topicIds": [
+                "tcm_meridians_001"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第四节 经络的作用和经络学说的临床应用"
+            },
+            {
+              "point": "经络系统的层次：经脉、络脉及相关部分",
+              "topicIds": [
+                "tcm_meridians_002"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第二节 经络系统的组成"
+            }
+          ]
+        },
+        {
+          "unit": "十二经脉与奇经",
+          "chapter": "第2章 十二经脉与奇经",
+          "points": [
+            {
+              "point": "十二经脉名称中的手足、阴阳与脏腑",
+              "topicIds": [
+                "tcm_meridians_003"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第二节 经络系统的组成：十二经脉"
+            },
+            {
+              "point": "十二经脉的传统走向规律",
+              "topicIds": [
+                "tcm_meridians_004"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第二节 经络系统的组成：十二经脉"
+            },
+            {
+              "point": "十二经脉的表里配对",
+              "topicIds": [
+                "tcm_meridians_005"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第二节 经络系统的组成：十二经脉"
+            },
+            {
+              "point": "奇经八脉与十二经脉的区别",
+              "topicIds": [
+                "tcm_meridians_006"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第一章 经络总论",
+              "textbook_section": "第二节 经络系统的组成：奇经八脉"
+            }
+          ]
+        },
+        {
+          "unit": "腧穴基本概念",
+          "chapter": "第3章 腧穴基本概念",
+          "points": [
+            {
+              "point": "经穴、经外奇穴与阿是穴",
+              "topicIds": [
+                "tcm_meridians_007"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第一节 腧穴的分类和命名：分类"
+            },
+            {
+              "point": "腧穴名称与经属的分别记录",
+              "topicIds": [
+                "tcm_meridians_008"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论；第三章 经络腧穴各论",
+              "textbook_section": "腧穴命名；手太阴肺经及其腧穴；手阳明大肠经及其腧穴"
+            },
+            {
+              "point": "腧穴主治特点的分类语境",
+              "topicIds": [
+                "tcm_meridians_009"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第二节 腧穴的主治特点和规律"
+            }
+          ]
+        },
+        {
+          "unit": "特定穴与定位原理",
+          "chapter": "第4章 特定穴与定位原理",
+          "points": [
+            {
+              "point": "五输穴的分布与次序",
+              "topicIds": [
+                "tcm_meridians_010"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第三节 特定穴：五输穴"
+            },
+            {
+              "point": "原穴与络穴的概念区别",
+              "topicIds": [
+                "tcm_meridians_011"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第三节 特定穴：原穴、络穴"
+            },
+            {
+              "point": "背俞穴与募穴的传统配属",
+              "topicIds": [
+                "tcm_meridians_012"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第三节 特定穴：背俞穴、募穴"
+            },
+            {
+              "point": "八会穴与八脉交会穴的区分",
+              "topicIds": [
+                "tcm_meridians_013"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第三节 特定穴：八会穴、八脉交会穴"
+            },
+            {
+              "point": "腧穴定位方法的原理与尺度",
+              "topicIds": [
+                "tcm_meridians_014"
+              ],
+              "textbook_chapter": "上篇 经络腧穴 第二章 腧穴总论",
+              "textbook_section": "第四节 腧穴的定位方法"
+            }
+          ]
+        }
+      ],
+      "topic_count": 14,
+      "question_count": 28,
+      "book": "tcm_acupuncture6_2026"
+    }
+  ],
+  "topic_count": 109,
+  "question_count": 218,
+  "coverage_claim": "所有新增节点均映射本项目课程范围；不宣称逐页覆盖四本教材全文。",
+  "excluded": [
+    "个人疾病诊断和个体治疗建议",
+    "方药剂量及具体煎服流程",
+    "针刺或其他侵入性操作步骤",
+    "经典和各临床专科全课程"
+  ]
+}

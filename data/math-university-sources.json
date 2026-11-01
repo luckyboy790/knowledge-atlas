@@ -1,0 +1,846 @@
+{
+  "checked_at": "2026-10-27",
+  "openstax_commit": "018da4da252bb9c56759e34396efea91852bcf5a",
+  "scope": "高等数学46个、线性代数26个核心知识点。中文知识摘要和原创选择题；不是全课程或教材逐页替代品。",
+  "method": "已读取 OpenStax 官方 CNXML 正文定义与定理；Interactive Linear Algebra 作者公开网页、Nicholson 教材 LibreTexts 章节正文。未复制教材习题或扫描页。",
+  "topics": [
+    {
+      "id": "cnm_u001",
+      "name": "函数极限",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "2.2 The Limit of a Function",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u002",
+      "name": "极限运算法则与夹逼",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "2.3 The Limit Laws",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u003",
+      "name": "连续性与间断点",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "2.4 Continuity",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u004",
+      "name": "导数定义与可微性",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "3.1 Defining the Derivative",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u005",
+      "name": "基本求导与乘商法则",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "3.3 Differentiation Rules",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u006",
+      "name": "复合函数链式法则",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "3.6 The Chain Rule",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u007",
+      "name": "隐函数求导",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "3.8 Implicit Differentiation",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u008",
+      "name": "罗尔与拉格朗日中值定理",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "4.4 The Mean Value Theorem",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u009",
+      "name": "洛必达法则",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "4.8 L’Hôpital’s Rule",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u010",
+      "name": "单调性与极值判别",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "4.5 Derivatives and the Shape of a Graph",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u011",
+      "name": "原函数与不定积分",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "4.10 Antiderivatives",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u012",
+      "name": "换元积分法",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "5.5 Substitution",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u013",
+      "name": "分部积分法",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "3.1 Integration by Parts",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u014",
+      "name": "定积分与黎曼和",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "5.2 The Definite Integral",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u015",
+      "name": "微积分基本定理",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "5.3 The Fundamental Theorem of Calculus",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u016",
+      "name": "定积分求面积与体积",
+      "textbook": {
+        "book": "openstax-calculus-1",
+        "title": "OpenStax · Calculus Volume 1",
+        "volume": "高等数学",
+        "section": "6.2 Determining Volumes by Slicing",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u017",
+      "name": "反常积分",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "3.7 Improper Integrals",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u018",
+      "name": "可分离变量微分方程",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "4.3 Separable Equations",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u019",
+      "name": "一阶线性微分方程",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "4.5 First-Order Linear Equations",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u020",
+      "name": "二阶常系数线性方程",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "7.1 Second-Order Linear Equations",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u021",
+      "name": "数列极限",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "5.1 Sequences",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u022",
+      "name": "级数与部分和",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "5.2 Infinite Series",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u023",
+      "name": "正项级数与积分判别",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "5.3 The Divergence and Integral Tests",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u024",
+      "name": "交错级数与绝对收敛",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "5.5 Alternating Series",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u025",
+      "name": "比值与根值判别法",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "5.6 Ratio and Root Tests",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u026",
+      "name": "幂级数与收敛区间",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "6.1 Power Series and Functions",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u027",
+      "name": "泰勒展开与余项",
+      "textbook": {
+        "book": "openstax-calculus-2",
+        "title": "OpenStax · Calculus Volume 2",
+        "volume": "高等数学",
+        "section": "6.3 Taylor and Maclaurin Series",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u028",
+      "name": "空间向量与叉积",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "2.4 The Cross Product",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u029",
+      "name": "空间直线与平面",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "2.5 Equations of Lines and Planes in Space",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u030",
+      "name": "多元函数极限与连续",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.2 Limits and Continuity",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u031",
+      "name": "偏导数与高阶偏导",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.3 Partial Derivatives",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u032",
+      "name": "全微分与切平面",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.4 Tangent Planes and Linear Approximations",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u033",
+      "name": "多元复合函数求导",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.5 The Chain Rule",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u034",
+      "name": "方向导数与梯度",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.6 Directional Derivatives and the Gradient",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u035",
+      "name": "多元函数极值",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.7 Maxima/Minima Problems",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u036",
+      "name": "拉格朗日乘数法",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "4.8 Lagrange Multipliers",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u037",
+      "name": "二重积分与累次积分",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "5.2 Double Integrals over General Regions",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u038",
+      "name": "极坐标二重积分",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "5.3 Double Integrals in Polar Coordinates",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u039",
+      "name": "三重积分",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "5.4 Triple Integrals",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u040",
+      "name": "重积分换元与雅可比",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "5.7 Change of Variables in Multiple Integrals",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u041",
+      "name": "曲线积分",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.2 Line Integrals",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u042",
+      "name": "格林公式",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.4 Green’s Theorem",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u043",
+      "name": "曲面积分与通量",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.6 Surface Integrals",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u044",
+      "name": "散度与旋度",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.5 Divergence and Curl",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u045",
+      "name": "高斯散度定理",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.8 The Divergence Theorem",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_u046",
+      "name": "斯托克斯公式",
+      "textbook": {
+        "book": "openstax-calculus-3",
+        "title": "OpenStax · Calculus Volume 3",
+        "volume": "高等数学",
+        "section": "6.7 Stokes’ Theorem",
+        "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml",
+        "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml"
+      }
+    },
+    {
+      "id": "cnm_l001",
+      "name": "矩阵、加法与数乘",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "3.4",
+        "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+      }
+    },
+    {
+      "id": "cnm_l002",
+      "name": "矩阵乘法",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "3.4",
+        "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+      }
+    },
+    {
+      "id": "cnm_l003",
+      "name": "初等行变换",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "1.2",
+        "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+      }
+    },
+    {
+      "id": "cnm_l004",
+      "name": "高斯消元与解的类型",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "1.2",
+        "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+      }
+    },
+    {
+      "id": "cnm_l005",
+      "name": "矩阵的秩",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.9",
+        "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+      }
+    },
+    {
+      "id": "cnm_l006",
+      "name": "行列式的计算",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "4.1",
+        "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+      }
+    },
+    {
+      "id": "cnm_l007",
+      "name": "行列式的性质",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "4.1",
+        "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+      }
+    },
+    {
+      "id": "cnm_l008",
+      "name": "逆矩阵与可逆条件",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "3.5",
+        "url": "https://textbooks.math.gatech.edu/ila/matrix-inverses.html"
+      }
+    },
+    {
+      "id": "cnm_l009",
+      "name": "克拉默法则",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "4.2",
+        "url": "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html"
+      }
+    },
+    {
+      "id": "cnm_l010",
+      "name": "线性组合与张成空间",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.2",
+        "url": "https://textbooks.math.gatech.edu/ila/spans.html"
+      }
+    },
+    {
+      "id": "cnm_l011",
+      "name": "线性相关与线性无关",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.5",
+        "url": "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+      }
+    },
+    {
+      "id": "cnm_l012",
+      "name": "向量空间与子空间",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.6",
+        "url": "https://textbooks.math.gatech.edu/ila/subspaces.html"
+      }
+    },
+    {
+      "id": "cnm_l013",
+      "name": "基与维数",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.7",
+        "url": "https://textbooks.math.gatech.edu/ila/dimension.html"
+      }
+    },
+    {
+      "id": "cnm_l014",
+      "name": "秩与零空间维数",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.9",
+        "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+      }
+    },
+    {
+      "id": "cnm_l015",
+      "name": "线性映射与矩阵表示",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "3.3",
+        "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+      }
+    },
+    {
+      "id": "cnm_l016",
+      "name": "基下坐标与换基",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "2.8",
+        "url": "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html"
+      }
+    },
+    {
+      "id": "cnm_l017",
+      "name": "特征值与特征多项式",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "5.2",
+        "url": "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html"
+      }
+    },
+    {
+      "id": "cnm_l018",
+      "name": "特征向量与特征子空间",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "5.1",
+        "url": "https://textbooks.math.gatech.edu/ila/eigenvectors.html"
+      }
+    },
+    {
+      "id": "cnm_l019",
+      "name": "相似矩阵",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "5.3",
+        "url": "https://textbooks.math.gatech.edu/ila/similarity.html"
+      }
+    },
+    {
+      "id": "cnm_l020",
+      "name": "矩阵对角化",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "5.4",
+        "url": "https://textbooks.math.gatech.edu/ila/diagonalization.html"
+      }
+    },
+    {
+      "id": "cnm_l021",
+      "name": "内积与正交",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "6.1",
+        "url": "https://textbooks.math.gatech.edu/ila/dot-product.html"
+      }
+    },
+    {
+      "id": "cnm_l022",
+      "name": "施密特正交化",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "6.4",
+        "url": "https://textbooks.math.gatech.edu/ila/orthogonal.html"
+      }
+    },
+    {
+      "id": "cnm_l023",
+      "name": "正交投影与最小二乘",
+      "textbook": {
+        "book": "gatech-ila",
+        "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+        "volume": "线性代数",
+        "section": "6.5",
+        "url": "https://textbooks.math.gatech.edu/ila/least-squares.html"
+      }
+    },
+    {
+      "id": "cnm_l024",
+      "name": "正交矩阵与实对称矩阵",
+      "textbook": {
+        "book": "nicholson-linear-algebra",
+        "title": "Nicholson · Linear Algebra with Applications",
+        "volume": "线性代数",
+        "section": "8.2",
+        "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.02:_Orthogonal_Diagonalization"
+      }
+    },
+    {
+      "id": "cnm_l025",
+      "name": "二次型与合同变换",
+      "textbook": {
+        "book": "nicholson-linear-algebra",
+        "title": "Nicholson · Linear Algebra with Applications",
+        "volume": "线性代数",
+        "section": "8.9",
+        "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.09:_An_Application_to_Quadratic_Forms"
+      }
+    },
+    {
+      "id": "cnm_l026",
+      "name": "正定二次型",
+      "textbook": {
+        "book": "nicholson-linear-algebra",
+        "title": "Nicholson · Linear Algebra with Applications",
+        "volume": "线性代数",
+        "section": "8.3",
+        "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.03:_Positive_Definite_Matrices"
+      }
+    }
+  ]
+}

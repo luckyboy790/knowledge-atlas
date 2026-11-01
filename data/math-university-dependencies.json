@@ -1,0 +1,764 @@
+[
+  {
+    "topicId": "cnm_u001",
+    "prerequisiteId": "cnm_h027",
+    "strength": "hard",
+    "reason": "理解与计算“函数极限”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u002",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“极限运算法则与夹逼”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u003",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“连续性与间断点”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u004",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“导数定义与可微性”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u004",
+    "prerequisiteId": "cnm_h217",
+    "strength": "hard",
+    "reason": "理解与计算“导数定义与可微性”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u005",
+    "prerequisiteId": "cnm_u004",
+    "strength": "hard",
+    "reason": "理解与计算“基本求导与乘商法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u006",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“复合函数链式法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u006",
+    "prerequisiteId": "cnm_h223",
+    "strength": "hard",
+    "reason": "理解与计算“复合函数链式法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u007",
+    "prerequisiteId": "cnm_u006",
+    "strength": "hard",
+    "reason": "理解与计算“隐函数求导”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u008",
+    "prerequisiteId": "cnm_u003",
+    "strength": "hard",
+    "reason": "理解与计算“罗尔与拉格朗日中值定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u008",
+    "prerequisiteId": "cnm_u004",
+    "strength": "hard",
+    "reason": "理解与计算“罗尔与拉格朗日中值定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u009",
+    "prerequisiteId": "cnm_u002",
+    "strength": "hard",
+    "reason": "理解与计算“洛必达法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u009",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“洛必达法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u010",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“单调性与极值判别”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u010",
+    "prerequisiteId": "cnm_u008",
+    "strength": "hard",
+    "reason": "理解与计算“单调性与极值判别”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u011",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“原函数与不定积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u012",
+    "prerequisiteId": "cnm_u006",
+    "strength": "hard",
+    "reason": "理解与计算“换元积分法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u012",
+    "prerequisiteId": "cnm_u011",
+    "strength": "hard",
+    "reason": "理解与计算“换元积分法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u013",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“分部积分法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u013",
+    "prerequisiteId": "cnm_u011",
+    "strength": "hard",
+    "reason": "理解与计算“分部积分法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u014",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“定积分与黎曼和”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u015",
+    "prerequisiteId": "cnm_u011",
+    "strength": "hard",
+    "reason": "理解与计算“微积分基本定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u015",
+    "prerequisiteId": "cnm_u014",
+    "strength": "hard",
+    "reason": "理解与计算“微积分基本定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u016",
+    "prerequisiteId": "cnm_u015",
+    "strength": "hard",
+    "reason": "理解与计算“定积分求面积与体积”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u017",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“反常积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u017",
+    "prerequisiteId": "cnm_u015",
+    "strength": "hard",
+    "reason": "理解与计算“反常积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u018",
+    "prerequisiteId": "cnm_u011",
+    "strength": "hard",
+    "reason": "理解与计算“可分离变量微分方程”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u018",
+    "prerequisiteId": "cnm_u012",
+    "strength": "hard",
+    "reason": "理解与计算“可分离变量微分方程”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u019",
+    "prerequisiteId": "cnm_u013",
+    "strength": "hard",
+    "reason": "理解与计算“一阶线性微分方程”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u019",
+    "prerequisiteId": "cnm_u018",
+    "strength": "hard",
+    "reason": "理解与计算“一阶线性微分方程”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u020",
+    "prerequisiteId": "cnm_u019",
+    "strength": "hard",
+    "reason": "理解与计算“二阶常系数线性方程”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u021",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“数列极限”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u021",
+    "prerequisiteId": "cnm_h197",
+    "strength": "hard",
+    "reason": "理解与计算“数列极限”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u022",
+    "prerequisiteId": "cnm_u021",
+    "strength": "hard",
+    "reason": "理解与计算“级数与部分和”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u023",
+    "prerequisiteId": "cnm_u017",
+    "strength": "hard",
+    "reason": "理解与计算“正项级数与积分判别”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u023",
+    "prerequisiteId": "cnm_u022",
+    "strength": "hard",
+    "reason": "理解与计算“正项级数与积分判别”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u024",
+    "prerequisiteId": "cnm_u022",
+    "strength": "hard",
+    "reason": "理解与计算“交错级数与绝对收敛”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u024",
+    "prerequisiteId": "cnm_u023",
+    "strength": "hard",
+    "reason": "理解与计算“交错级数与绝对收敛”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u025",
+    "prerequisiteId": "cnm_u022",
+    "strength": "hard",
+    "reason": "理解与计算“比值与根值判别法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u026",
+    "prerequisiteId": "cnm_u025",
+    "strength": "hard",
+    "reason": "理解与计算“幂级数与收敛区间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u027",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“泰勒展开与余项”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u027",
+    "prerequisiteId": "cnm_u026",
+    "strength": "hard",
+    "reason": "理解与计算“泰勒展开与余项”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u028",
+    "prerequisiteId": "cnm_h152",
+    "strength": "hard",
+    "reason": "理解与计算“空间向量与叉积”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u028",
+    "prerequisiteId": "cnm_h146",
+    "strength": "hard",
+    "reason": "理解与计算“空间向量与叉积”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u029",
+    "prerequisiteId": "cnm_u028",
+    "strength": "hard",
+    "reason": "理解与计算“空间直线与平面”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u030",
+    "prerequisiteId": "cnm_u001",
+    "strength": "hard",
+    "reason": "理解与计算“多元函数极限与连续”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u030",
+    "prerequisiteId": "cnm_u003",
+    "strength": "hard",
+    "reason": "理解与计算“多元函数极限与连续”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u031",
+    "prerequisiteId": "cnm_u005",
+    "strength": "hard",
+    "reason": "理解与计算“偏导数与高阶偏导”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u031",
+    "prerequisiteId": "cnm_u030",
+    "strength": "hard",
+    "reason": "理解与计算“偏导数与高阶偏导”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u032",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“全微分与切平面”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u033",
+    "prerequisiteId": "cnm_u006",
+    "strength": "hard",
+    "reason": "理解与计算“多元复合函数求导”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u033",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“多元复合函数求导”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u034",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“方向导数与梯度”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u034",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "理解与计算“方向导数与梯度”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u035",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“多元函数极值”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u035",
+    "prerequisiteId": "cnm_u010",
+    "strength": "hard",
+    "reason": "理解与计算“多元函数极值”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u036",
+    "prerequisiteId": "cnm_u034",
+    "strength": "hard",
+    "reason": "理解与计算“拉格朗日乘数法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u036",
+    "prerequisiteId": "cnm_u035",
+    "strength": "hard",
+    "reason": "理解与计算“拉格朗日乘数法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u037",
+    "prerequisiteId": "cnm_u015",
+    "strength": "hard",
+    "reason": "理解与计算“二重积分与累次积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u037",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“二重积分与累次积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u038",
+    "prerequisiteId": "cnm_u037",
+    "strength": "hard",
+    "reason": "理解与计算“极坐标二重积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u039",
+    "prerequisiteId": "cnm_u037",
+    "strength": "hard",
+    "reason": "理解与计算“三重积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u040",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“重积分换元与雅可比”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u040",
+    "prerequisiteId": "cnm_u037",
+    "strength": "hard",
+    "reason": "理解与计算“重积分换元与雅可比”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u040",
+    "prerequisiteId": "cnm_l006",
+    "strength": "hard",
+    "reason": "理解与计算“重积分换元与雅可比”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u041",
+    "prerequisiteId": "cnm_u015",
+    "strength": "hard",
+    "reason": "理解与计算“曲线积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u041",
+    "prerequisiteId": "cnm_u028",
+    "strength": "hard",
+    "reason": "理解与计算“曲线积分”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u042",
+    "prerequisiteId": "cnm_u037",
+    "strength": "hard",
+    "reason": "理解与计算“格林公式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u042",
+    "prerequisiteId": "cnm_u041",
+    "strength": "hard",
+    "reason": "理解与计算“格林公式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u042",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“格林公式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u043",
+    "prerequisiteId": "cnm_u039",
+    "strength": "hard",
+    "reason": "理解与计算“曲面积分与通量”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u043",
+    "prerequisiteId": "cnm_u041",
+    "strength": "hard",
+    "reason": "理解与计算“曲面积分与通量”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u044",
+    "prerequisiteId": "cnm_u031",
+    "strength": "hard",
+    "reason": "理解与计算“散度与旋度”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u044",
+    "prerequisiteId": "cnm_u028",
+    "strength": "hard",
+    "reason": "理解与计算“散度与旋度”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u045",
+    "prerequisiteId": "cnm_u043",
+    "strength": "hard",
+    "reason": "理解与计算“高斯散度定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u045",
+    "prerequisiteId": "cnm_u044",
+    "strength": "hard",
+    "reason": "理解与计算“高斯散度定理”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u046",
+    "prerequisiteId": "cnm_u043",
+    "strength": "hard",
+    "reason": "理解与计算“斯托克斯公式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_u046",
+    "prerequisiteId": "cnm_u044",
+    "strength": "hard",
+    "reason": "理解与计算“斯托克斯公式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l001",
+    "prerequisiteId": "cnm_h086",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵、加法与数乘”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l002",
+    "prerequisiteId": "cnm_l001",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵乘法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l002",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵乘法”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l003",
+    "prerequisiteId": "cnm_l001",
+    "strength": "hard",
+    "reason": "理解与计算“初等行变换”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l003",
+    "prerequisiteId": "cnm_088",
+    "strength": "hard",
+    "reason": "理解与计算“初等行变换”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l004",
+    "prerequisiteId": "cnm_l003",
+    "strength": "hard",
+    "reason": "理解与计算“高斯消元与解的类型”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l005",
+    "prerequisiteId": "cnm_l004",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵的秩”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l006",
+    "prerequisiteId": "cnm_l001",
+    "strength": "hard",
+    "reason": "理解与计算“行列式的计算”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l007",
+    "prerequisiteId": "cnm_l006",
+    "strength": "hard",
+    "reason": "理解与计算“行列式的性质”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l007",
+    "prerequisiteId": "cnm_l003",
+    "strength": "hard",
+    "reason": "理解与计算“行列式的性质”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l008",
+    "prerequisiteId": "cnm_l002",
+    "strength": "hard",
+    "reason": "理解与计算“逆矩阵与可逆条件”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l008",
+    "prerequisiteId": "cnm_l006",
+    "strength": "hard",
+    "reason": "理解与计算“逆矩阵与可逆条件”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l009",
+    "prerequisiteId": "cnm_l006",
+    "strength": "hard",
+    "reason": "理解与计算“克拉默法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l009",
+    "prerequisiteId": "cnm_l008",
+    "strength": "hard",
+    "reason": "理解与计算“克拉默法则”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l010",
+    "prerequisiteId": "cnm_l001",
+    "strength": "hard",
+    "reason": "理解与计算“线性组合与张成空间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l010",
+    "prerequisiteId": "cnm_h086",
+    "strength": "hard",
+    "reason": "理解与计算“线性组合与张成空间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l011",
+    "prerequisiteId": "cnm_l010",
+    "strength": "hard",
+    "reason": "理解与计算“线性相关与线性无关”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l011",
+    "prerequisiteId": "cnm_l004",
+    "strength": "hard",
+    "reason": "理解与计算“线性相关与线性无关”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l012",
+    "prerequisiteId": "cnm_l010",
+    "strength": "hard",
+    "reason": "理解与计算“向量空间与子空间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l013",
+    "prerequisiteId": "cnm_l011",
+    "strength": "hard",
+    "reason": "理解与计算“基与维数”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l013",
+    "prerequisiteId": "cnm_l012",
+    "strength": "hard",
+    "reason": "理解与计算“基与维数”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l014",
+    "prerequisiteId": "cnm_l005",
+    "strength": "hard",
+    "reason": "理解与计算“秩与零空间维数”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l014",
+    "prerequisiteId": "cnm_l013",
+    "strength": "hard",
+    "reason": "理解与计算“秩与零空间维数”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l015",
+    "prerequisiteId": "cnm_l002",
+    "strength": "hard",
+    "reason": "理解与计算“线性映射与矩阵表示”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l015",
+    "prerequisiteId": "cnm_l012",
+    "strength": "hard",
+    "reason": "理解与计算“线性映射与矩阵表示”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l016",
+    "prerequisiteId": "cnm_l008",
+    "strength": "hard",
+    "reason": "理解与计算“基下坐标与换基”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l016",
+    "prerequisiteId": "cnm_l013",
+    "strength": "hard",
+    "reason": "理解与计算“基下坐标与换基”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l017",
+    "prerequisiteId": "cnm_l006",
+    "strength": "hard",
+    "reason": "理解与计算“特征值与特征多项式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l017",
+    "prerequisiteId": "cnm_l008",
+    "strength": "hard",
+    "reason": "理解与计算“特征值与特征多项式”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l018",
+    "prerequisiteId": "cnm_l014",
+    "strength": "hard",
+    "reason": "理解与计算“特征向量与特征子空间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l018",
+    "prerequisiteId": "cnm_l017",
+    "strength": "hard",
+    "reason": "理解与计算“特征向量与特征子空间”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l019",
+    "prerequisiteId": "cnm_l008",
+    "strength": "hard",
+    "reason": "理解与计算“相似矩阵”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l019",
+    "prerequisiteId": "cnm_l016",
+    "strength": "hard",
+    "reason": "理解与计算“相似矩阵”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l019",
+    "prerequisiteId": "cnm_l017",
+    "strength": "hard",
+    "reason": "理解与计算“相似矩阵”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l020",
+    "prerequisiteId": "cnm_l018",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵对角化”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l020",
+    "prerequisiteId": "cnm_l019",
+    "strength": "hard",
+    "reason": "理解与计算“矩阵对角化”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l021",
+    "prerequisiteId": "cnm_h088",
+    "strength": "hard",
+    "reason": "理解与计算“内积与正交”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l021",
+    "prerequisiteId": "cnm_l010",
+    "strength": "hard",
+    "reason": "理解与计算“内积与正交”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l022",
+    "prerequisiteId": "cnm_l013",
+    "strength": "hard",
+    "reason": "理解与计算“施密特正交化”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l022",
+    "prerequisiteId": "cnm_l021",
+    "strength": "hard",
+    "reason": "理解与计算“施密特正交化”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l023",
+    "prerequisiteId": "cnm_l002",
+    "strength": "hard",
+    "reason": "理解与计算“正交投影与最小二乘”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l023",
+    "prerequisiteId": "cnm_l021",
+    "strength": "hard",
+    "reason": "理解与计算“正交投影与最小二乘”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l023",
+    "prerequisiteId": "cnm_l022",
+    "strength": "hard",
+    "reason": "理解与计算“正交投影与最小二乘”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l024",
+    "prerequisiteId": "cnm_l020",
+    "strength": "hard",
+    "reason": "理解与计算“正交矩阵与实对称矩阵”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l024",
+    "prerequisiteId": "cnm_l022",
+    "strength": "hard",
+    "reason": "理解与计算“正交矩阵与实对称矩阵”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l025",
+    "prerequisiteId": "cnm_l024",
+    "strength": "hard",
+    "reason": "理解与计算“二次型与合同变换”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l025",
+    "prerequisiteId": "cnm_l002",
+    "strength": "hard",
+    "reason": "理解与计算“二次型与合同变换”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l026",
+    "prerequisiteId": "cnm_l025",
+    "strength": "hard",
+    "reason": "理解与计算“正定二次型”需要先掌握该基础。先修关系为学习建议。"
+  },
+  {
+    "topicId": "cnm_l026",
+    "prerequisiteId": "cnm_l007",
+    "strength": "hard",
+    "reason": "理解与计算“正定二次型”需要先掌握该基础。先修关系为学习建议。"
+  }
+]

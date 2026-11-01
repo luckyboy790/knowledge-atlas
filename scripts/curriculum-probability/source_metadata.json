@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "subject": "math",
+  "course_id": "probability_statistics",
+  "course_name": "概率论与数理统计",
+  "checked_date": "2026-10-31",
+  "books": [
+    {
+      "id": "prob_zju6_2026",
+      "title": "概率论与数理统计（第六版）",
+      "authors": [
+        "盛骤",
+        "谢式千",
+        "潘承毅"
+      ],
+      "institution": "浙江大学",
+      "revisers": [
+        "黄炜",
+        "张立新",
+        "庞天晓",
+        "崔逸凡"
+      ],
+      "publisher": "高等教育出版社",
+      "edition": 6,
+      "publication_date": "2026-02",
+      "latest_printing_date": "2026-07",
+      "isbn": "9787040666892",
+      "pages": 432,
+      "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6967ccf2e119ac97292654e8",
+      "verification": "出版社官方书目、版本、印次及完整公开目录已核验；未取得可读样章；教材全文未逐页核验。",
+      "full_text_verified": false,
+      "date_note": "使用网页正文可核验的月级出版日期；搜索索引给出2026-02-24，但不将索引精度混同版权页核验。2026-07为最新印次，不是第7版。",
+      "designation_note": "出版社称本书可作高校非数学专业教材和研究生招生考试参考书；不称全国统考唯一指定教材。第五版获奖/规划信息不能无条件迁移为第六版荣誉。"
+    }
+  ],
+  "exam_basis": {
+    "id": "exam_math_2027",
+    "year": 2027,
+    "title": "2027年全国硕士研究生招生考试数学考试大纲",
+    "issuer": "教育部教育考试院",
+    "publisher": "高等教育出版社",
+    "publication_date": "2026-09",
+    "latest_printing_date": "2026-09",
+    "isbn": "9787040684049",
+    "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6aa1910be119ac97297a608f",
+    "alternate_url": "https://www.hep.com.cn/book/show/2097490366090555393",
+    "metadata_verified": true,
+    "full_text_verified": false,
+    "scope_note": "本模块按第六版教材前八章和出版社已公开备考目录组织。数学一、三方向标签属于复习规划，需2027大纲正文逐条复核；不把旧年目录或教辅宣传等同最新官方大纲。",
+    "verification": "官方出版书目已核验。官方选书页的简介及目录均为“暂无”；主站直接打开要求JavaScript，未取得大纲正文。搜索索引日期2026-09-29，正文精度为2026-09。"
+  },
+  "scope_references": [
+    {
+      "id": "prep_2026_810",
+      "title": "考研数学考点全刷810题（试题分册）",
+      "authors": [
+        "周洋鑫"
+      ],
+      "publisher": "高等教育出版社",
+      "isbn": "9787040668735",
+      "publication_date": "2026-02",
+      "latest_printing_date": "2026-02",
+      "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=69837d34e119ac97292a2518",
+      "verification": "公开书目和完整目录",
+      "supports": "概率论与数理统计篇仅数学一、数学三要求；因此数学二不纳入此模块。附录标题明确含2027年刷题册。",
+      "limitations": "不能据此证明2027大纲每一条要求与历年一致。",
+      "authority_level": "publisher_prep_toc",
+      "full_text_verified": false
+    },
+    {
+      "id": "prep_2023_solutions",
+      "title": "考研数学何止十年真题（解析分册）",
+      "authors": [
+        "周洋鑫"
+      ],
+      "publisher": "高等教育出版社",
+      "isbn": "9787040612059",
+      "publication_date": "2023-09",
+      "latest_printing_date": "2024-09",
+      "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=66be485c74ce561611bda5bb",
+      "verification": "公开书目和完整目录",
+      "supports": "目录将估计量选择标准、区间估计与假设检验标为仅数学一要求。",
+      "limitations": "不是2027大纲范围确认。",
+      "authority_level": "older_publisher_prep_toc",
+      "full_text_verified": false
+    },
+    {
+      "id": "companion_zju6_2026",
+      "title": "概率论与数理统计 浙大·第六版 穿透辅导与考研真题精解",
+      "authors": [
+        "张卫",
+        "尉伟雄"
+      ],
+      "publisher": "高等教育出版社",
+      "isbn": "9787040673524",
+      "publication_date": "2026-06",
+      "latest_printing_date": "2026-06",
+      "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=69fcc5dee119ac97296e06cf",
+      "verification": "公开书目、简介和完整目录",
+      "supports": "教材配套考研辅导书采用主教材前八章结构，各章设考研大纲要求栏目。",
+      "limitations": "公开目录未展开数学一/三条目，不能据此认定逐条考试范围；未取得样章。",
+      "authority_level": "publisher_companion_toc",
+      "full_text_verified": false
+    }
+  ],
+  "scope_note": "本图谱依据已核验的第六版教材前八章公开目录与出版社备考目录组织，包含数一/数三共用基础和数一方向内容；方向标签为复习规划，2027官方大纲全文未逐条核验，不提供已精准覆盖当年数一/数三全部考点的保证。",
+  "textbook_scope_note": "高等教育出版社说明本教材可作为非数学专业教材和研究生招生考试参考书；本图谱不将其宣称为全国统考唯一指定课本。",
+  "source_verification_status": {
+    "textbook_bibliography_verified": true,
+    "textbook_public_toc_read": true,
+    "textbook_sample_read": false,
+    "textbook_full_text_read": false,
+    "latest_exam_bibliography_verified": true,
+    "latest_exam_full_text_read": false,
+    "all_2027_exam_points_verified": false
+  },
+  "official_public_toc": [
+    {
+      "chapter_number": 1,
+      "title": "概率论的基本概念",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "随机试验",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "样本空间、随机事件",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "频率与概率",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "等可能概型",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 5,
+          "title": "条件概率",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 6,
+          "title": "独立性",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "随机变量及其分布",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "随机变量",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "离散型随机变量及其分布律",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "随机变量的分布函数",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "连续型随机变量及其概率密度",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 5,
+          "title": "随机变量的函数的分布",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "多维随机变量及其分布",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "二维随机变量",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "边缘分布",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "条件分布",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "相互独立的随机变量",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 5,
+          "title": "两个随机变量的函数的分布",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "随机变量的数字特征",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "数学期望",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "方差",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "协方差及相关系数",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "协方差矩阵与多元正态分布",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 5,
+          "title": "其他数字特征",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "大数定律及中心极限定理",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "大数定律",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "中心极限定理",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "样本及抽样分布",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "随机样本",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "直方图和箱线图",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "抽样分布",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "参数估计",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "点估计",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "基于截尾样本的最大似然估计",
+          "starred_in_toc": true
+        },
+        {
+          "section_number": 3,
+          "title": "估计量的评选标准",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "区间估计",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 5,
+          "title": "正态总体均值与方差的区间估计",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 6,
+          "title": "(0－1)分布参数的区间估计",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 7,
+          "title": "单侧置信区间",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 8,
+          "title": "贝叶斯估计",
+          "starred_in_toc": false
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "假设检验",
+      "source_book_id": "prob_zju6_2026",
+      "evidence_level": "publisher_public_toc",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "假设检验",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 2,
+          "title": "正态总体均值的假设检验",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 3,
+          "title": "正态总体方差的假设检验",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 4,
+          "title": "置信区间与假设检验之间的关系",
+          "starred_in_toc": true
+        },
+        {
+          "section_number": 5,
+          "title": "样本容量的选取",
+          "starred_in_toc": true
+        },
+        {
+          "section_number": 6,
+          "title": "分布拟合检验",
+          "starred_in_toc": false
+        },
+        {
+          "section_number": 7,
+          "title": "列联表的独立性检验和齐一性检验",
+          "starred_in_toc": true
+        },
+        {
+          "section_number": 8,
+          "title": "假设检验问题的p值法",
+          "starred_in_toc": false
+        }
+      ]
+    }
+  ],
+  "method": "按官方父节目录定位，原创编写知识摘要、两条具体掌握标准、基础与标准四选一题和学习依赖。括号内主题是图谱作者的内容定位，非教材目录另设子节；没有逐页核验或抄录教材题目。",
+  "unresolved": [
+    "2027数学一概率统计大纲逐条正文",
+    "2027数学三概率统计大纲逐条正文",
+    "第六版教材正文与精确页码",
+    "数学一/三统计推断差异的2026或2027官方全文证据"
+  ]
+}

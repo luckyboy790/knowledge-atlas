@@ -1,0 +1,70 @@
+{
+  "baseline": "v14",
+  "verified_date": "2026-10-31",
+  "topics": [
+    {
+      "id": "cnm_h001",
+      "name": "集合的含义",
+      "subject": "math",
+      "grade": 10,
+      "source_file": "topics.json",
+      "source_file_sha256": "4396f1a8c4ca36841bb2c967ac7974e762a4618933bb0117d770c396006e0a05"
+    },
+    {
+      "id": "cnm_h237",
+      "name": "组合数公式",
+      "subject": "math",
+      "grade": 14,
+      "source_file": "topics.json",
+      "source_file_sha256": "4396f1a8c4ca36841bb2c967ac7974e762a4618933bb0117d770c396006e0a05"
+    },
+    {
+      "id": "cnm_u006",
+      "name": "复合函数链式法则",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    },
+    {
+      "id": "cnm_u010",
+      "name": "单调性与极值判别",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    },
+    {
+      "id": "cnm_u014",
+      "name": "定积分与黎曼和",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    },
+    {
+      "id": "cnm_u017",
+      "name": "反常积分",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    },
+    {
+      "id": "cnm_u021",
+      "name": "数列极限",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    },
+    {
+      "id": "cnm_u037",
+      "name": "二重积分与累次积分",
+      "subject": "math",
+      "grade": 15,
+      "source_file": "math-university-topics.json",
+      "source_file_sha256": "a09e75ce523afa514787245c694af521521b468cfddfd64bf87cc9a59dc29205"
+    }
+  ]
+}

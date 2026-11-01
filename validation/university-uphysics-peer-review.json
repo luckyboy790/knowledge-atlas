@@ -1,0 +1,2999 @@
+{
+  "schema_version": 1,
+  "subject": "uphysics",
+  "checked_date": "2026-10-31",
+  "reviewer": "/root/university_frontend",
+  "author": "/root/university_physics",
+  "status": "PASS_INDEPENDENT_AI_CONTENT_REVIEW_TEACHER_REVIEW_PENDING",
+  "review_type": "与内容作者分离的独立AI逐项内容复核；不是教师审核、出版社审定或教材全文逐页比对。",
+  "method": "分3批实际阅读所有142节点的描述、掌握标准、教材章/节定位，284题的题干、全部选项、答案及解析，以及185条依赖的方向、强弱与理由；提出问题由作者修源，再从冻结JSON重新生成diff并复读关闭。最终仅审核元数据改变，正文与已读batch4一致。",
+  "counts": {
+    "topics": 142,
+    "questions": 284,
+    "dependencies": 185,
+    "dependency_strengths": {
+      "hard": 126,
+      "soft": 59
+    },
+    "findings": 25,
+    "findings_resolved": 25,
+    "findings_open": 0,
+    "independent_calculations": 67
+  },
+  "module_coverage": [
+    {
+      "module": "mechanics",
+      "grade": 51,
+      "topics": 24,
+      "questions": 48,
+      "read_id_range": [
+        "uphy_mechanics_001",
+        "uphy_mechanics_024"
+      ]
+    },
+    {
+      "module": "thermodynamics",
+      "grade": 52,
+      "topics": 20,
+      "questions": 40,
+      "read_id_range": [
+        "uphy_thermodynamics_001",
+        "uphy_thermodynamics_020"
+      ]
+    },
+    {
+      "module": "electromagnetism",
+      "grade": 53,
+      "topics": 34,
+      "questions": 68,
+      "read_id_range": [
+        "uphy_electromagnetism_001",
+        "uphy_electromagnetism_034"
+      ]
+    },
+    {
+      "module": "oscillations_waves",
+      "grade": 54,
+      "topics": 18,
+      "questions": 36,
+      "read_id_range": [
+        "uphy_oscillations_waves_001",
+        "uphy_oscillations_waves_018"
+      ]
+    },
+    {
+      "module": "optics",
+      "grade": 55,
+      "topics": 20,
+      "questions": 40,
+      "read_id_range": [
+        "uphy_optics_001",
+        "uphy_optics_020"
+      ]
+    },
+    {
+      "module": "modern",
+      "grade": 56,
+      "topics": 26,
+      "questions": 52,
+      "read_id_range": [
+        "uphy_modern_001",
+        "uphy_modern_026"
+      ]
+    }
+  ],
+  "reviewed_topic_ids": [
+    "uphy_mechanics_001",
+    "uphy_mechanics_002",
+    "uphy_mechanics_003",
+    "uphy_mechanics_004",
+    "uphy_mechanics_005",
+    "uphy_mechanics_006",
+    "uphy_mechanics_007",
+    "uphy_mechanics_008",
+    "uphy_mechanics_009",
+    "uphy_mechanics_010",
+    "uphy_mechanics_011",
+    "uphy_mechanics_012",
+    "uphy_mechanics_013",
+    "uphy_mechanics_014",
+    "uphy_mechanics_015",
+    "uphy_mechanics_016",
+    "uphy_mechanics_017",
+    "uphy_mechanics_018",
+    "uphy_mechanics_019",
+    "uphy_mechanics_020",
+    "uphy_mechanics_021",
+    "uphy_mechanics_022",
+    "uphy_mechanics_023",
+    "uphy_mechanics_024",
+    "uphy_thermodynamics_001",
+    "uphy_thermodynamics_002",
+    "uphy_thermodynamics_003",
+    "uphy_thermodynamics_004",
+    "uphy_thermodynamics_005",
+    "uphy_thermodynamics_006",
+    "uphy_thermodynamics_007",
+    "uphy_thermodynamics_008",
+    "uphy_thermodynamics_009",
+    "uphy_thermodynamics_010",
+    "uphy_thermodynamics_011",
+    "uphy_thermodynamics_012",
+    "uphy_thermodynamics_013",
+    "uphy_thermodynamics_014",
+    "uphy_thermodynamics_015",
+    "uphy_thermodynamics_016",
+    "uphy_thermodynamics_017",
+    "uphy_thermodynamics_018",
+    "uphy_thermodynamics_019",
+    "uphy_thermodynamics_020",
+    "uphy_electromagnetism_001",
+    "uphy_electromagnetism_002",
+    "uphy_electromagnetism_003",
+    "uphy_electromagnetism_004",
+    "uphy_electromagnetism_005",
+    "uphy_electromagnetism_006",
+    "uphy_electromagnetism_007",
+    "uphy_electromagnetism_008",
+    "uphy_electromagnetism_009",
+    "uphy_electromagnetism_010",
+    "uphy_electromagnetism_011",
+    "uphy_electromagnetism_012",
+    "uphy_electromagnetism_013",
+    "uphy_electromagnetism_014",
+    "uphy_electromagnetism_015",
+    "uphy_electromagnetism_016",
+    "uphy_electromagnetism_017",
+    "uphy_electromagnetism_018",
+    "uphy_electromagnetism_019",
+    "uphy_electromagnetism_020",
+    "uphy_electromagnetism_021",
+    "uphy_electromagnetism_022",
+    "uphy_electromagnetism_023",
+    "uphy_electromagnetism_024",
+    "uphy_electromagnetism_025",
+    "uphy_electromagnetism_026",
+    "uphy_electromagnetism_027",
+    "uphy_electromagnetism_028",
+    "uphy_electromagnetism_029",
+    "uphy_electromagnetism_030",
+    "uphy_electromagnetism_031",
+    "uphy_electromagnetism_032",
+    "uphy_electromagnetism_033",
+    "uphy_electromagnetism_034",
+    "uphy_oscillations_waves_001",
+    "uphy_oscillations_waves_002",
+    "uphy_oscillations_waves_003",
+    "uphy_oscillations_waves_004",
+    "uphy_oscillations_waves_005",
+    "uphy_oscillations_waves_006",
+    "uphy_oscillations_waves_007",
+    "uphy_oscillations_waves_008",
+    "uphy_oscillations_waves_009",
+    "uphy_oscillations_waves_010",
+    "uphy_oscillations_waves_011",
+    "uphy_oscillations_waves_012",
+    "uphy_oscillations_waves_013",
+    "uphy_oscillations_waves_014",
+    "uphy_oscillations_waves_015",
+    "uphy_oscillations_waves_016",
+    "uphy_oscillations_waves_017",
+    "uphy_oscillations_waves_018",
+    "uphy_optics_001",
+    "uphy_optics_002",
+    "uphy_optics_003",
+    "uphy_optics_004",
+    "uphy_optics_005",
+    "uphy_optics_006",
+    "uphy_optics_007",
+    "uphy_optics_008",
+    "uphy_optics_009",
+    "uphy_optics_010",
+    "uphy_optics_011",
+    "uphy_optics_012",
+    "uphy_optics_013",
+    "uphy_optics_014",
+    "uphy_optics_015",
+    "uphy_optics_016",
+    "uphy_optics_017",
+    "uphy_optics_018",
+    "uphy_optics_019",
+    "uphy_optics_020",
+    "uphy_modern_001",
+    "uphy_modern_002",
+    "uphy_modern_003",
+    "uphy_modern_004",
+    "uphy_modern_005",
+    "uphy_modern_006",
+    "uphy_modern_007",
+    "uphy_modern_008",
+    "uphy_modern_009",
+    "uphy_modern_010",
+    "uphy_modern_011",
+    "uphy_modern_012",
+    "uphy_modern_013",
+    "uphy_modern_014",
+    "uphy_modern_015",
+    "uphy_modern_016",
+    "uphy_modern_017",
+    "uphy_modern_018",
+    "uphy_modern_019",
+    "uphy_modern_020",
+    "uphy_modern_021",
+    "uphy_modern_022",
+    "uphy_modern_023",
+    "uphy_modern_024",
+    "uphy_modern_025",
+    "uphy_modern_026"
+  ],
+  "reviewed_question_ids": [
+    "uphy_mechanics_001_q1",
+    "uphy_mechanics_001_q2",
+    "uphy_mechanics_002_q1",
+    "uphy_mechanics_002_q2",
+    "uphy_mechanics_003_q1",
+    "uphy_mechanics_003_q2",
+    "uphy_mechanics_004_q1",
+    "uphy_mechanics_004_q2",
+    "uphy_mechanics_005_q1",
+    "uphy_mechanics_005_q2",
+    "uphy_mechanics_006_q1",
+    "uphy_mechanics_006_q2",
+    "uphy_mechanics_007_q1",
+    "uphy_mechanics_007_q2",
+    "uphy_mechanics_008_q1",
+    "uphy_mechanics_008_q2",
+    "uphy_mechanics_009_q1",
+    "uphy_mechanics_009_q2",
+    "uphy_mechanics_010_q1",
+    "uphy_mechanics_010_q2",
+    "uphy_mechanics_011_q1",
+    "uphy_mechanics_011_q2",
+    "uphy_mechanics_012_q1",
+    "uphy_mechanics_012_q2",
+    "uphy_mechanics_013_q1",
+    "uphy_mechanics_013_q2",
+    "uphy_mechanics_014_q1",
+    "uphy_mechanics_014_q2",
+    "uphy_mechanics_015_q1",
+    "uphy_mechanics_015_q2",
+    "uphy_mechanics_016_q1",
+    "uphy_mechanics_016_q2",
+    "uphy_mechanics_017_q1",
+    "uphy_mechanics_017_q2",
+    "uphy_mechanics_018_q1",
+    "uphy_mechanics_018_q2",
+    "uphy_mechanics_019_q1",
+    "uphy_mechanics_019_q2",
+    "uphy_mechanics_020_q1",
+    "uphy_mechanics_020_q2",
+    "uphy_mechanics_021_q1",
+    "uphy_mechanics_021_q2",
+    "uphy_mechanics_022_q1",
+    "uphy_mechanics_022_q2",
+    "uphy_mechanics_023_q1",
+    "uphy_mechanics_023_q2",
+    "uphy_mechanics_024_q1",
+    "uphy_mechanics_024_q2",
+    "uphy_thermodynamics_001_q1",
+    "uphy_thermodynamics_001_q2",
+    "uphy_thermodynamics_002_q1",
+    "uphy_thermodynamics_002_q2",
+    "uphy_thermodynamics_003_q1",
+    "uphy_thermodynamics_003_q2",
+    "uphy_thermodynamics_004_q1",
+    "uphy_thermodynamics_004_q2",
+    "uphy_thermodynamics_005_q1",
+    "uphy_thermodynamics_005_q2",
+    "uphy_thermodynamics_006_q1",
+    "uphy_thermodynamics_006_q2",
+    "uphy_thermodynamics_007_q1",
+    "uphy_thermodynamics_007_q2",
+    "uphy_thermodynamics_008_q1",
+    "uphy_thermodynamics_008_q2",
+    "uphy_thermodynamics_009_q1",
+    "uphy_thermodynamics_009_q2",
+    "uphy_thermodynamics_010_q1",
+    "uphy_thermodynamics_010_q2",
+    "uphy_thermodynamics_011_q1",
+    "uphy_thermodynamics_011_q2",
+    "uphy_thermodynamics_012_q1",
+    "uphy_thermodynamics_012_q2",
+    "uphy_thermodynamics_013_q1",
+    "uphy_thermodynamics_013_q2",
+    "uphy_thermodynamics_014_q1",
+    "uphy_thermodynamics_014_q2",
+    "uphy_thermodynamics_015_q1",
+    "uphy_thermodynamics_015_q2",
+    "uphy_thermodynamics_016_q1",
+    "uphy_thermodynamics_016_q2",
+    "uphy_thermodynamics_017_q1",
+    "uphy_thermodynamics_017_q2",
+    "uphy_thermodynamics_018_q1",
+    "uphy_thermodynamics_018_q2",
+    "uphy_thermodynamics_019_q1",
+    "uphy_thermodynamics_019_q2",
+    "uphy_thermodynamics_020_q1",
+    "uphy_thermodynamics_020_q2",
+    "uphy_electromagnetism_001_q1",
+    "uphy_electromagnetism_001_q2",
+    "uphy_electromagnetism_002_q1",
+    "uphy_electromagnetism_002_q2",
+    "uphy_electromagnetism_003_q1",
+    "uphy_electromagnetism_003_q2",
+    "uphy_electromagnetism_004_q1",
+    "uphy_electromagnetism_004_q2",
+    "uphy_electromagnetism_005_q1",
+    "uphy_electromagnetism_005_q2",
+    "uphy_electromagnetism_006_q1",
+    "uphy_electromagnetism_006_q2",
+    "uphy_electromagnetism_007_q1",
+    "uphy_electromagnetism_007_q2",
+    "uphy_electromagnetism_008_q1",
+    "uphy_electromagnetism_008_q2",
+    "uphy_electromagnetism_009_q1",
+    "uphy_electromagnetism_009_q2",
+    "uphy_electromagnetism_010_q1",
+    "uphy_electromagnetism_010_q2",
+    "uphy_electromagnetism_011_q1",
+    "uphy_electromagnetism_011_q2",
+    "uphy_electromagnetism_012_q1",
+    "uphy_electromagnetism_012_q2",
+    "uphy_electromagnetism_013_q1",
+    "uphy_electromagnetism_013_q2",
+    "uphy_electromagnetism_014_q1",
+    "uphy_electromagnetism_014_q2",
+    "uphy_electromagnetism_015_q1",
+    "uphy_electromagnetism_015_q2",
+    "uphy_electromagnetism_016_q1",
+    "uphy_electromagnetism_016_q2",
+    "uphy_electromagnetism_017_q1",
+    "uphy_electromagnetism_017_q2",
+    "uphy_electromagnetism_018_q1",
+    "uphy_electromagnetism_018_q2",
+    "uphy_electromagnetism_019_q1",
+    "uphy_electromagnetism_019_q2",
+    "uphy_electromagnetism_020_q1",
+    "uphy_electromagnetism_020_q2",
+    "uphy_electromagnetism_021_q1",
+    "uphy_electromagnetism_021_q2",
+    "uphy_electromagnetism_022_q1",
+    "uphy_electromagnetism_022_q2",
+    "uphy_electromagnetism_023_q1",
+    "uphy_electromagnetism_023_q2",
+    "uphy_electromagnetism_024_q1",
+    "uphy_electromagnetism_024_q2",
+    "uphy_electromagnetism_025_q1",
+    "uphy_electromagnetism_025_q2",
+    "uphy_electromagnetism_026_q1",
+    "uphy_electromagnetism_026_q2",
+    "uphy_electromagnetism_027_q1",
+    "uphy_electromagnetism_027_q2",
+    "uphy_electromagnetism_028_q1",
+    "uphy_electromagnetism_028_q2",
+    "uphy_electromagnetism_029_q1",
+    "uphy_electromagnetism_029_q2",
+    "uphy_electromagnetism_030_q1",
+    "uphy_electromagnetism_030_q2",
+    "uphy_electromagnetism_031_q1",
+    "uphy_electromagnetism_031_q2",
+    "uphy_electromagnetism_032_q1",
+    "uphy_electromagnetism_032_q2",
+    "uphy_electromagnetism_033_q1",
+    "uphy_electromagnetism_033_q2",
+    "uphy_electromagnetism_034_q1",
+    "uphy_electromagnetism_034_q2",
+    "uphy_oscillations_waves_001_q1",
+    "uphy_oscillations_waves_001_q2",
+    "uphy_oscillations_waves_002_q1",
+    "uphy_oscillations_waves_002_q2",
+    "uphy_oscillations_waves_003_q1",
+    "uphy_oscillations_waves_003_q2",
+    "uphy_oscillations_waves_004_q1",
+    "uphy_oscillations_waves_004_q2",
+    "uphy_oscillations_waves_005_q1",
+    "uphy_oscillations_waves_005_q2",
+    "uphy_oscillations_waves_006_q1",
+    "uphy_oscillations_waves_006_q2",
+    "uphy_oscillations_waves_007_q1",
+    "uphy_oscillations_waves_007_q2",
+    "uphy_oscillations_waves_008_q1",
+    "uphy_oscillations_waves_008_q2",
+    "uphy_oscillations_waves_009_q1",
+    "uphy_oscillations_waves_009_q2",
+    "uphy_oscillations_waves_010_q1",
+    "uphy_oscillations_waves_010_q2",
+    "uphy_oscillations_waves_011_q1",
+    "uphy_oscillations_waves_011_q2",
+    "uphy_oscillations_waves_012_q1",
+    "uphy_oscillations_waves_012_q2",
+    "uphy_oscillations_waves_013_q1",
+    "uphy_oscillations_waves_013_q2",
+    "uphy_oscillations_waves_014_q1",
+    "uphy_oscillations_waves_014_q2",
+    "uphy_oscillations_waves_015_q1",
+    "uphy_oscillations_waves_015_q2",
+    "uphy_oscillations_waves_016_q1",
+    "uphy_oscillations_waves_016_q2",
+    "uphy_oscillations_waves_017_q1",
+    "uphy_oscillations_waves_017_q2",
+    "uphy_oscillations_waves_018_q1",
+    "uphy_oscillations_waves_018_q2",
+    "uphy_optics_001_q1",
+    "uphy_optics_001_q2",
+    "uphy_optics_002_q1",
+    "uphy_optics_002_q2",
+    "uphy_optics_003_q1",
+    "uphy_optics_003_q2",
+    "uphy_optics_004_q1",
+    "uphy_optics_004_q2",
+    "uphy_optics_005_q1",
+    "uphy_optics_005_q2",
+    "uphy_optics_006_q1",
+    "uphy_optics_006_q2",
+    "uphy_optics_007_q1",
+    "uphy_optics_007_q2",
+    "uphy_optics_008_q1",
+    "uphy_optics_008_q2",
+    "uphy_optics_009_q1",
+    "uphy_optics_009_q2",
+    "uphy_optics_010_q1",
+    "uphy_optics_010_q2",
+    "uphy_optics_011_q1",
+    "uphy_optics_011_q2",
+    "uphy_optics_012_q1",
+    "uphy_optics_012_q2",
+    "uphy_optics_013_q1",
+    "uphy_optics_013_q2",
+    "uphy_optics_014_q1",
+    "uphy_optics_014_q2",
+    "uphy_optics_015_q1",
+    "uphy_optics_015_q2",
+    "uphy_optics_016_q1",
+    "uphy_optics_016_q2",
+    "uphy_optics_017_q1",
+    "uphy_optics_017_q2",
+    "uphy_optics_018_q1",
+    "uphy_optics_018_q2",
+    "uphy_optics_019_q1",
+    "uphy_optics_019_q2",
+    "uphy_optics_020_q1",
+    "uphy_optics_020_q2",
+    "uphy_modern_001_q1",
+    "uphy_modern_001_q2",
+    "uphy_modern_002_q1",
+    "uphy_modern_002_q2",
+    "uphy_modern_003_q1",
+    "uphy_modern_003_q2",
+    "uphy_modern_004_q1",
+    "uphy_modern_004_q2",
+    "uphy_modern_005_q1",
+    "uphy_modern_005_q2",
+    "uphy_modern_006_q1",
+    "uphy_modern_006_q2",
+    "uphy_modern_007_q1",
+    "uphy_modern_007_q2",
+    "uphy_modern_008_q1",
+    "uphy_modern_008_q2",
+    "uphy_modern_009_q1",
+    "uphy_modern_009_q2",
+    "uphy_modern_010_q1",
+    "uphy_modern_010_q2",
+    "uphy_modern_011_q1",
+    "uphy_modern_011_q2",
+    "uphy_modern_012_q1",
+    "uphy_modern_012_q2",
+    "uphy_modern_013_q1",
+    "uphy_modern_013_q2",
+    "uphy_modern_014_q1",
+    "uphy_modern_014_q2",
+    "uphy_modern_015_q1",
+    "uphy_modern_015_q2",
+    "uphy_modern_016_q1",
+    "uphy_modern_016_q2",
+    "uphy_modern_017_q1",
+    "uphy_modern_017_q2",
+    "uphy_modern_018_q1",
+    "uphy_modern_018_q2",
+    "uphy_modern_019_q1",
+    "uphy_modern_019_q2",
+    "uphy_modern_020_q1",
+    "uphy_modern_020_q2",
+    "uphy_modern_021_q1",
+    "uphy_modern_021_q2",
+    "uphy_modern_022_q1",
+    "uphy_modern_022_q2",
+    "uphy_modern_023_q1",
+    "uphy_modern_023_q2",
+    "uphy_modern_024_q1",
+    "uphy_modern_024_q2",
+    "uphy_modern_025_q1",
+    "uphy_modern_025_q2",
+    "uphy_modern_026_q1",
+    "uphy_modern_026_q2"
+  ],
+  "reviewed_dependencies": [
+    {
+      "prerequisiteId": "uphy_mechanics_001",
+      "topicId": "uphy_mechanics_002",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_001",
+      "topicId": "uphy_mechanics_003",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_001",
+      "topicId": "uphy_mechanics_004",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_001",
+      "topicId": "uphy_mechanics_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_005",
+      "topicId": "uphy_mechanics_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_005",
+      "topicId": "uphy_mechanics_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_005",
+      "topicId": "uphy_mechanics_008",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_005",
+      "topicId": "uphy_mechanics_009",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_009",
+      "topicId": "uphy_mechanics_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_009",
+      "topicId": "uphy_mechanics_011",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_001",
+      "topicId": "uphy_mechanics_012",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_012",
+      "topicId": "uphy_mechanics_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_012",
+      "topicId": "uphy_mechanics_014",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_013",
+      "topicId": "uphy_mechanics_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_014",
+      "topicId": "uphy_mechanics_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_010",
+      "topicId": "uphy_mechanics_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_013",
+      "topicId": "uphy_mechanics_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_003",
+      "topicId": "uphy_mechanics_017",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_017",
+      "topicId": "uphy_mechanics_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_018",
+      "topicId": "uphy_mechanics_019",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_018",
+      "topicId": "uphy_mechanics_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_012",
+      "topicId": "uphy_mechanics_020",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_011",
+      "topicId": "uphy_mechanics_021",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_018",
+      "topicId": "uphy_mechanics_021",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_017",
+      "topicId": "uphy_mechanics_022",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_020",
+      "topicId": "uphy_mechanics_022",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_023",
+      "topicId": "uphy_mechanics_024",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_015",
+      "topicId": "uphy_mechanics_024",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_001",
+      "topicId": "uphy_thermodynamics_002",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_002",
+      "topicId": "uphy_thermodynamics_003",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_002",
+      "topicId": "uphy_thermodynamics_004",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_004",
+      "topicId": "uphy_thermodynamics_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_002",
+      "topicId": "uphy_thermodynamics_006",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_003",
+      "topicId": "uphy_thermodynamics_006",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_001",
+      "topicId": "uphy_thermodynamics_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_007",
+      "topicId": "uphy_thermodynamics_008",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_005",
+      "topicId": "uphy_thermodynamics_009",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_011",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_010",
+      "topicId": "uphy_thermodynamics_011",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_012",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_001",
+      "topicId": "uphy_thermodynamics_012",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_011",
+      "topicId": "uphy_thermodynamics_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_014",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_014",
+      "topicId": "uphy_thermodynamics_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_012",
+      "topicId": "uphy_thermodynamics_015",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_013",
+      "topicId": "uphy_thermodynamics_015",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_014",
+      "topicId": "uphy_thermodynamics_016",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_016",
+      "topicId": "uphy_thermodynamics_017",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_015",
+      "topicId": "uphy_thermodynamics_017",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_017",
+      "topicId": "uphy_thermodynamics_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_018",
+      "topicId": "uphy_thermodynamics_019",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_009",
+      "topicId": "uphy_thermodynamics_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_thermodynamics_018",
+      "topicId": "uphy_thermodynamics_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_001",
+      "topicId": "uphy_electromagnetism_002",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_002",
+      "topicId": "uphy_electromagnetism_003",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_003",
+      "topicId": "uphy_electromagnetism_004",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_004",
+      "topicId": "uphy_electromagnetism_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_002",
+      "topicId": "uphy_electromagnetism_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_006",
+      "topicId": "uphy_electromagnetism_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_004",
+      "topicId": "uphy_electromagnetism_008",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_007",
+      "topicId": "uphy_electromagnetism_008",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_006",
+      "topicId": "uphy_electromagnetism_009",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_009",
+      "topicId": "uphy_electromagnetism_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_009",
+      "topicId": "uphy_electromagnetism_011",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_011",
+      "topicId": "uphy_electromagnetism_012",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_004",
+      "topicId": "uphy_electromagnetism_012",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_009",
+      "topicId": "uphy_electromagnetism_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_006",
+      "topicId": "uphy_electromagnetism_015",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_014",
+      "topicId": "uphy_electromagnetism_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_014",
+      "topicId": "uphy_electromagnetism_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_014",
+      "topicId": "uphy_electromagnetism_017",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_017",
+      "topicId": "uphy_electromagnetism_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_017",
+      "topicId": "uphy_electromagnetism_019",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_017",
+      "topicId": "uphy_electromagnetism_020",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_019",
+      "topicId": "uphy_electromagnetism_020",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_017",
+      "topicId": "uphy_electromagnetism_021",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_003",
+      "topicId": "uphy_electromagnetism_021",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_021",
+      "topicId": "uphy_electromagnetism_022",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_014",
+      "topicId": "uphy_electromagnetism_022",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_021",
+      "topicId": "uphy_electromagnetism_023",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_023",
+      "topicId": "uphy_electromagnetism_024",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_024",
+      "topicId": "uphy_electromagnetism_025",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_019",
+      "topicId": "uphy_electromagnetism_026",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_026",
+      "topicId": "uphy_electromagnetism_027",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_021",
+      "topicId": "uphy_electromagnetism_028",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_026",
+      "topicId": "uphy_electromagnetism_028",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_026",
+      "topicId": "uphy_electromagnetism_029",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_006",
+      "topicId": "uphy_electromagnetism_029",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_026",
+      "topicId": "uphy_electromagnetism_030",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_030",
+      "topicId": "uphy_electromagnetism_031",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_026",
+      "topicId": "uphy_electromagnetism_031",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_030",
+      "topicId": "uphy_electromagnetism_032",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_020",
+      "topicId": "uphy_electromagnetism_033",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_012",
+      "topicId": "uphy_electromagnetism_033",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_004",
+      "topicId": "uphy_electromagnetism_034",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_019",
+      "topicId": "uphy_electromagnetism_034",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_029",
+      "topicId": "uphy_electromagnetism_034",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_033",
+      "topicId": "uphy_electromagnetism_034",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_005",
+      "topicId": "uphy_oscillations_waves_001",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_002",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_003",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_015",
+      "topicId": "uphy_oscillations_waves_003",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_004",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_003",
+      "topicId": "uphy_oscillations_waves_004",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_004",
+      "topicId": "uphy_oscillations_waves_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_005",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_009",
+      "topicId": "uphy_oscillations_waves_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_030",
+      "topicId": "uphy_oscillations_waves_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_006",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_002",
+      "topicId": "uphy_oscillations_waves_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_007",
+      "topicId": "uphy_oscillations_waves_008",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_001",
+      "topicId": "uphy_oscillations_waves_009",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_011",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_003",
+      "topicId": "uphy_oscillations_waves_012",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_012",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_007",
+      "topicId": "uphy_oscillations_waves_014",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_014",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_014",
+      "topicId": "uphy_oscillations_waves_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_011",
+      "topicId": "uphy_oscillations_waves_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_009",
+      "topicId": "uphy_oscillations_waves_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_004",
+      "topicId": "uphy_oscillations_waves_016",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_012",
+      "topicId": "uphy_oscillations_waves_017",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_electromagnetism_034",
+      "topicId": "uphy_oscillations_waves_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_012",
+      "topicId": "uphy_oscillations_waves_018",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_001",
+      "topicId": "uphy_optics_002",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_014",
+      "topicId": "uphy_optics_003",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_003",
+      "topicId": "uphy_optics_004",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_003",
+      "topicId": "uphy_optics_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_004",
+      "topicId": "uphy_optics_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_004",
+      "topicId": "uphy_optics_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_006",
+      "topicId": "uphy_optics_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_004",
+      "topicId": "uphy_optics_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_007",
+      "topicId": "uphy_optics_008",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_007",
+      "topicId": "uphy_optics_009",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_004",
+      "topicId": "uphy_optics_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_003",
+      "topicId": "uphy_optics_011",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_011",
+      "topicId": "uphy_optics_012",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_011",
+      "topicId": "uphy_optics_013",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_005",
+      "topicId": "uphy_optics_014",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_011",
+      "topicId": "uphy_optics_014",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_012",
+      "topicId": "uphy_optics_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_014",
+      "topicId": "uphy_optics_015",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_014",
+      "topicId": "uphy_optics_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_013",
+      "topicId": "uphy_optics_016",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_optics_004",
+      "topicId": "uphy_optics_017",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_014",
+      "topicId": "uphy_optics_017",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_oscillations_waves_018",
+      "topicId": "uphy_optics_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_018",
+      "topicId": "uphy_optics_019",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_001",
+      "topicId": "uphy_optics_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_optics_018",
+      "topicId": "uphy_optics_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_001",
+      "topicId": "uphy_modern_002",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_002",
+      "topicId": "uphy_modern_003",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_002",
+      "topicId": "uphy_modern_004",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_003",
+      "topicId": "uphy_modern_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_002",
+      "topicId": "uphy_modern_005",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_002",
+      "topicId": "uphy_modern_006",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_mechanics_004",
+      "topicId": "uphy_modern_006",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_002",
+      "topicId": "uphy_modern_007",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_008",
+      "topicId": "uphy_modern_009",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_009",
+      "topicId": "uphy_modern_010",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_009",
+      "topicId": "uphy_modern_011",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_007",
+      "topicId": "uphy_modern_011",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_009",
+      "topicId": "uphy_modern_012",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_009",
+      "topicId": "uphy_modern_013",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_013",
+      "topicId": "uphy_modern_014",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_013",
+      "topicId": "uphy_modern_015",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_015",
+      "topicId": "uphy_modern_016",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_016",
+      "topicId": "uphy_modern_017",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_015",
+      "topicId": "uphy_modern_017",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_016",
+      "topicId": "uphy_modern_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_015",
+      "topicId": "uphy_modern_018",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_016",
+      "topicId": "uphy_modern_019",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_014",
+      "topicId": "uphy_modern_019",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_016",
+      "topicId": "uphy_modern_020",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_012",
+      "topicId": "uphy_modern_020",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_020",
+      "topicId": "uphy_modern_021",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_012",
+      "topicId": "uphy_modern_022",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_021",
+      "topicId": "uphy_modern_022",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_021",
+      "topicId": "uphy_modern_023",
+      "strength": "soft"
+    },
+    {
+      "prerequisiteId": "uphy_modern_023",
+      "topicId": "uphy_modern_024",
+      "strength": "hard"
+    },
+    {
+      "prerequisiteId": "uphy_modern_007",
+      "topicId": "uphy_modern_025",
+      "strength": "hard"
+    }
+  ],
+  "final_data_files_sha256": {
+    "uphysics-dependencies.json": "73956512c2359a07953c76319fa8f4199c5d7870b54e2d2a77a46701c12e79e4",
+    "uphysics-topics.json": "d57b2de067dd898022866508e00f933e32cbfc78befc48f4dccb6a6c1216bd36",
+    "uphysics-questions.json": "df21c6d48459912f1b04a1f1bba135a1afe8db08eaef34f00df959a2714dcc00",
+    "uphysics-sources.json": "e2656355a4c4d28a0502b993a5fa04599b3bdd7bee6b387960a3061b1aaad735",
+    "uphysics-coverage.json": "ae9e001a6a5969651669a90029765d6454404ee6533fc44ffb6ba8688cc4fd91"
+  },
+  "final_metadata_validation": {
+    "topics_changed": 142,
+    "questions_changed": 284,
+    "allowed_changed_fields": [
+      "review_status",
+      "review_record"
+    ],
+    "all_other_topic_question_fields_unchanged": true,
+    "dependencies_sources_coverage_byte_identical_to_review_batch_4": true,
+    "review_status": "AI作者自查与独立AI内容复核已完成；教材全文未逐页核验，待教师审核",
+    "review_record": "validation/university-uphysics-peer-review.json"
+  },
+  "findings": [
+    {
+      "id": "UPHY-001",
+      "record": "uphy_mechanics_011",
+      "field": "description",
+      "severity": "low",
+      "finding": "角动量对固定原点的定理需明确惯性系条件。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-002",
+      "record": "uphy_mechanics_016",
+      "field": "description",
+      "severity": "low",
+      "finding": "碰撞的动量守恒需限定外力冲量可忽略。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-003",
+      "record": "uphy_mechanics_021",
+      "field": "name/description",
+      "severity": "medium",
+      "finding": "严格刚体定轴转动的转动惯量不随内部质量分布变化；需区分收臂等可变形系统。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-004",
+      "record": "uphy_mechanics_023_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "单题需补定常、不可压缩、无分支流管条件。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-005",
+      "record": "uphy_mechanics_024_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "伯努利计算题需补定常且无外部机械能输入。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-006",
+      "record": "uphy_thermodynamics_004_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "只排除振动未排除低温转动冻结，需明示平动和转动适用经典均分。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-007",
+      "record": "uphy_thermodynamics_009",
+      "field": "description",
+      "severity": "medium",
+      "finding": "功号约定不能宣称适用于整个图谱，大学化学可使用另一约定。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-008",
+      "record": "uphy_thermodynamics_010",
+      "field": "description",
+      "severity": "medium",
+      "finding": "热容可变时Q=nCvΔT需改为积分，并限定恒定热容时简化。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-009",
+      "record": "uphy_thermodynamics_013_q2",
+      "field": "prompt/choices/answer/explanation",
+      "severity": "low",
+      "finding": "γ=2不对应通常三维经典理想气体；改用单原子γ=5/3及体积8倍。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-010",
+      "record": "uphy_thermodynamics_020_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "自由膨胀熵变题需要绝热条件确保温度不变。",
+      "status": "resolved_verified_in_review_batch_2",
+      "resolution_note": "已实际读取对应修订的描述、题干、选项及解析；相关题目计算未改变或已按新γ=5/3题设复算。"
+    },
+    {
+      "id": "UPHY-011",
+      "record": "uphy_electromagnetism_004_q2",
+      "field": "choices",
+      "severity": "low",
+      "finding": "通量选项应写电荷量除以ε₀，避免量纲比值后再重复附通量单位。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：通量选项改为带电荷单位的分子除以ε₀，避免重复附量纲。"
+    },
+    {
+      "id": "UPHY-012",
+      "record": "uphy_electromagnetism_012_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "标量D=εE的计算补各向同性条件。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：题干已明确均匀、线性、各向同性介质。"
+    },
+    {
+      "id": "UPHY-013",
+      "record": "uphy_electromagnetism_016",
+      "field": "description",
+      "severity": "medium",
+      "finding": "J·E为单位体积功率密度，不能只称热率。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：J·E已明确为单位体积焦耳热功率（功率密度）。"
+    },
+    {
+      "id": "UPHY-014",
+      "record": "uphy_electromagnetism_020_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "μ₀nI公式须明确空芯/真空长螺线管。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：题干已明确理想空芯长螺线管。"
+    },
+    {
+      "id": "UPHY-015",
+      "record": "uphy_electromagnetism_021",
+      "field": "description",
+      "severity": "low",
+      "finding": "磁场中匀速圆周运动需限定只有磁场力，初速垂直磁场。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：已限定忽略其他力、只受匀强磁场且速度垂直磁场时的圆周运动。"
+    },
+    {
+      "id": "UPHY-016",
+      "record": "uphy_electromagnetism_026",
+      "field": "description",
+      "severity": "low",
+      "finding": "v×B属于场的环路积分形式，不是已用总磁通变化率后再重复相加的项。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：已区分∮(E+v×B)·dl与总磁通变化率，避免重复计动生项。"
+    },
+    {
+      "id": "UPHY-017",
+      "record": "uphy_electromagnetism_028",
+      "field": "description",
+      "severity": "medium",
+      "finding": "开路运动导体的BLv不应以磁通改变作为必要前提，需按运动磁力环积分/几何条件判断。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：开路导体用∫(v×B)·dl及几何条件；闭合回路才联系磁通规则。"
+    },
+    {
+      "id": "UPHY-018",
+      "record": "uphy_oscillations_waves_003",
+      "field": "description/q1",
+      "severity": "medium",
+      "finding": "平衡点弹性势能最小只适用于相应水平弹簧模型；竖直弹簧需计重力势能。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：已明确光滑水平弹簧模型，x从弹簧原长平衡位置量起；两题同步。"
+    },
+    {
+      "id": "UPHY-019",
+      "record": "uphy_oscillations_waves_015",
+      "field": "description",
+      "severity": "low",
+      "finding": "形成固定波节的两列反向波还应同介质、同振向。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：已补同介质、同振动方向、等频等幅反向传播。"
+    },
+    {
+      "id": "UPHY-020",
+      "record": [
+        "uphy_electromagnetism_017→uphy_electromagnetism_021",
+        "uphy_electromagnetism_017→uphy_electromagnetism_020"
+      ],
+      "field": "dependencies.strength/reason",
+      "severity": "low",
+      "finding": "毕奥—萨伐尔积分不是洛伦兹力和安培环路定理必须预先掌握的知识，2条关系宜为辅助先修。",
+      "status": "resolved_verified_in_review_batch_3",
+      "resolution_note": "已实际读回修订正文：E017→E020与E017→E021均改soft，并分别解释场模型互补和非必需积分前提。"
+    },
+    {
+      "id": "UPHY-021",
+      "record": "uphy_optics_010",
+      "field": "description/q2.prompt",
+      "severity": "low",
+      "finding": "迈克耳孙镜移与光程2Δd须明确空气近似或一般介质n。",
+      "status": "resolved_verified_in_review_batch_4",
+      "resolution_note": "已从实际JSON独立生成diff并读回：已明确空气折射率近似1且恒定，λ取空气中波长；题设同步，条纹数200复算通过。"
+    },
+    {
+      "id": "UPHY-022",
+      "record": "uphy_optics_015_q2",
+      "field": "prompt",
+      "severity": "low",
+      "finding": "仅d=3a不能保证最低缺失级次对应可传播方向。",
+      "status": "resolved_verified_in_review_batch_4",
+      "resolution_note": "已从实际JSON独立生成diff并读回：增加a>λ条件，使第3主极大与第一单缝暗纹可处于传播角范围内。"
+    },
+    {
+      "id": "UPHY-023",
+      "record": "uphy_optics_004_q1",
+      "field": "prompt/diagnostic_question",
+      "severity": "low",
+      "finding": "光程差的代数正负需声明取第2路减第1路。",
+      "status": "resolved_verified_in_review_batch_4",
+      "resolution_note": "已从实际JSON独立生成diff并读回：题干与节点诊断题均已明确第2路减第1路，答案(n₂−n₁)ℓ一致。"
+    },
+    {
+      "id": "UPHY-024",
+      "record": "uphy_optics_003→uphy_optics_004",
+      "field": "dependencies.strength/reason",
+      "severity": "low",
+      "finding": "光程的定义不以相干性为必要前提，硬先修应降为辅助关系。",
+      "status": "resolved_verified_in_review_batch_4",
+      "resolution_note": "已从实际JSON独立生成diff并读回：改soft；理由说明相干相位比较帮助理解光程在干涉中的用途。"
+    },
+    {
+      "id": "UPHY-025",
+      "record": "uphy_modern_022",
+      "field": "description/q2.prompt/choices/explanation",
+      "severity": "medium",
+      "finding": "须区分激光起振时小信号增益大于损耗和稳定输出时饱和增益与损耗平衡。",
+      "status": "resolved_verified_in_review_batch_4",
+      "resolution_note": "已从实际JSON独立生成diff并读回：description区分起振与稳态；q2改问起振条件，答案与解析同步。"
+    }
+  ],
+  "source_review": {
+    "upper_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+    "lower_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+    "note": "已独立打开并读完两册官方书目及全部公开目录，逐批对照章节/节号；出版时间和2026年印次分开核验。未逐页审读教材正文。",
+    "web_refs": [
+      "turn181view0",
+      "turn181view1",
+      "turn185view0",
+      "turn185view1",
+      "turn195view0"
+    ],
+    "secondary_url": "https://abook.hep.com.cn/1261861",
+    "date_discrepancy": "下册选书页2022-12与Abook2023-01存在月份差异；两个官方平台均可读取，保留差异，不推断首印版权页信息。"
+  },
+  "coverage_mapping_check": {
+    "mapped_points": 142,
+    "unique_points": 142,
+    "topic_name_module_grade_book_chapter_section_match": true
+  },
+  "question_textbook_mapping_check": {
+    "status": "PASS",
+    "count": 284,
+    "method": "逐题引用元数据与其已审节点的完整textbook对象一致。"
+  },
+  "diagnostic_question_correspondence": {
+    "status": "PASS",
+    "count": 142,
+    "method": "142节点的诊断题题干和答案与已逐项读过的q1题干及所选答案原文一致。"
+  },
+  "independent_numerical_check": {
+    "script": "scripts/check_university_physics_calculations.py",
+    "report": "validation/university-uphysics-independent-calculations.json",
+    "default_command": "python scripts/check_university_physics_calculations.py",
+    "explicit_command": "python scripts/check_university_physics_calculations.py <data_directory> <output_json>",
+    "count": 67,
+    "status": "PASS",
+    "question_file_sha256": "df21c6d48459912f1b04a1f1bba135a1afe8db08eaef34f00df959a2714dcc00",
+    "method": "复核者从题干独立列式，未导入作者118项数值断言；对计算数值和所选正确选项原文作断言，并绑定已审题干防止后续参数改变造成陈旧复算。"
+  },
+  "audit_batches": [
+    {
+      "snapshot": "task_university/physics/review-batch-1",
+      "read_topic_ids": [
+        "uphy_mechanics_001",
+        "uphy_mechanics_002",
+        "uphy_mechanics_003",
+        "uphy_mechanics_004",
+        "uphy_mechanics_005",
+        "uphy_mechanics_006",
+        "uphy_mechanics_007",
+        "uphy_mechanics_008",
+        "uphy_mechanics_009",
+        "uphy_mechanics_010",
+        "uphy_mechanics_011",
+        "uphy_mechanics_012",
+        "uphy_mechanics_013",
+        "uphy_mechanics_014",
+        "uphy_mechanics_015",
+        "uphy_mechanics_016",
+        "uphy_mechanics_017",
+        "uphy_mechanics_018",
+        "uphy_mechanics_019",
+        "uphy_mechanics_020",
+        "uphy_mechanics_021",
+        "uphy_mechanics_022",
+        "uphy_mechanics_023",
+        "uphy_mechanics_024",
+        "uphy_thermodynamics_001",
+        "uphy_thermodynamics_002",
+        "uphy_thermodynamics_003",
+        "uphy_thermodynamics_004",
+        "uphy_thermodynamics_005",
+        "uphy_thermodynamics_006",
+        "uphy_thermodynamics_007",
+        "uphy_thermodynamics_008",
+        "uphy_thermodynamics_009",
+        "uphy_thermodynamics_010",
+        "uphy_thermodynamics_011",
+        "uphy_thermodynamics_012",
+        "uphy_thermodynamics_013",
+        "uphy_thermodynamics_014",
+        "uphy_thermodynamics_015",
+        "uphy_thermodynamics_016",
+        "uphy_thermodynamics_017",
+        "uphy_thermodynamics_018",
+        "uphy_thermodynamics_019",
+        "uphy_thermodynamics_020"
+      ],
+      "read_question_ids": [
+        "uphy_mechanics_001_q1",
+        "uphy_mechanics_001_q2",
+        "uphy_mechanics_002_q1",
+        "uphy_mechanics_002_q2",
+        "uphy_mechanics_003_q1",
+        "uphy_mechanics_003_q2",
+        "uphy_mechanics_004_q1",
+        "uphy_mechanics_004_q2",
+        "uphy_mechanics_005_q1",
+        "uphy_mechanics_005_q2",
+        "uphy_mechanics_006_q1",
+        "uphy_mechanics_006_q2",
+        "uphy_mechanics_007_q1",
+        "uphy_mechanics_007_q2",
+        "uphy_mechanics_008_q1",
+        "uphy_mechanics_008_q2",
+        "uphy_mechanics_009_q1",
+        "uphy_mechanics_009_q2",
+        "uphy_mechanics_010_q1",
+        "uphy_mechanics_010_q2",
+        "uphy_mechanics_011_q1",
+        "uphy_mechanics_011_q2",
+        "uphy_mechanics_012_q1",
+        "uphy_mechanics_012_q2",
+        "uphy_mechanics_013_q1",
+        "uphy_mechanics_013_q2",
+        "uphy_mechanics_014_q1",
+        "uphy_mechanics_014_q2",
+        "uphy_mechanics_015_q1",
+        "uphy_mechanics_015_q2",
+        "uphy_mechanics_016_q1",
+        "uphy_mechanics_016_q2",
+        "uphy_mechanics_017_q1",
+        "uphy_mechanics_017_q2",
+        "uphy_mechanics_018_q1",
+        "uphy_mechanics_018_q2",
+        "uphy_mechanics_019_q1",
+        "uphy_mechanics_019_q2",
+        "uphy_mechanics_020_q1",
+        "uphy_mechanics_020_q2",
+        "uphy_mechanics_021_q1",
+        "uphy_mechanics_021_q2",
+        "uphy_mechanics_022_q1",
+        "uphy_mechanics_022_q2",
+        "uphy_mechanics_023_q1",
+        "uphy_mechanics_023_q2",
+        "uphy_mechanics_024_q1",
+        "uphy_mechanics_024_q2",
+        "uphy_thermodynamics_001_q1",
+        "uphy_thermodynamics_001_q2",
+        "uphy_thermodynamics_002_q1",
+        "uphy_thermodynamics_002_q2",
+        "uphy_thermodynamics_003_q1",
+        "uphy_thermodynamics_003_q2",
+        "uphy_thermodynamics_004_q1",
+        "uphy_thermodynamics_004_q2",
+        "uphy_thermodynamics_005_q1",
+        "uphy_thermodynamics_005_q2",
+        "uphy_thermodynamics_006_q1",
+        "uphy_thermodynamics_006_q2",
+        "uphy_thermodynamics_007_q1",
+        "uphy_thermodynamics_007_q2",
+        "uphy_thermodynamics_008_q1",
+        "uphy_thermodynamics_008_q2",
+        "uphy_thermodynamics_009_q1",
+        "uphy_thermodynamics_009_q2",
+        "uphy_thermodynamics_010_q1",
+        "uphy_thermodynamics_010_q2",
+        "uphy_thermodynamics_011_q1",
+        "uphy_thermodynamics_011_q2",
+        "uphy_thermodynamics_012_q1",
+        "uphy_thermodynamics_012_q2",
+        "uphy_thermodynamics_013_q1",
+        "uphy_thermodynamics_013_q2",
+        "uphy_thermodynamics_014_q1",
+        "uphy_thermodynamics_014_q2",
+        "uphy_thermodynamics_015_q1",
+        "uphy_thermodynamics_015_q2",
+        "uphy_thermodynamics_016_q1",
+        "uphy_thermodynamics_016_q2",
+        "uphy_thermodynamics_017_q1",
+        "uphy_thermodynamics_017_q2",
+        "uphy_thermodynamics_018_q1",
+        "uphy_thermodynamics_018_q2",
+        "uphy_thermodynamics_019_q1",
+        "uphy_thermodynamics_019_q2",
+        "uphy_thermodynamics_020_q1",
+        "uphy_thermodynamics_020_q2"
+      ],
+      "read_dependency_pairs": [
+        [
+          "uphy_mechanics_001",
+          "uphy_mechanics_002"
+        ],
+        [
+          "uphy_mechanics_001",
+          "uphy_mechanics_003"
+        ],
+        [
+          "uphy_mechanics_001",
+          "uphy_mechanics_004"
+        ],
+        [
+          "uphy_mechanics_001",
+          "uphy_mechanics_005"
+        ],
+        [
+          "uphy_mechanics_005",
+          "uphy_mechanics_006"
+        ],
+        [
+          "uphy_mechanics_005",
+          "uphy_mechanics_007"
+        ],
+        [
+          "uphy_mechanics_005",
+          "uphy_mechanics_008"
+        ],
+        [
+          "uphy_mechanics_005",
+          "uphy_mechanics_009"
+        ],
+        [
+          "uphy_mechanics_009",
+          "uphy_mechanics_010"
+        ],
+        [
+          "uphy_mechanics_009",
+          "uphy_mechanics_011"
+        ],
+        [
+          "uphy_mechanics_001",
+          "uphy_mechanics_012"
+        ],
+        [
+          "uphy_mechanics_012",
+          "uphy_mechanics_013"
+        ],
+        [
+          "uphy_mechanics_012",
+          "uphy_mechanics_014"
+        ],
+        [
+          "uphy_mechanics_013",
+          "uphy_mechanics_015"
+        ],
+        [
+          "uphy_mechanics_014",
+          "uphy_mechanics_015"
+        ],
+        [
+          "uphy_mechanics_010",
+          "uphy_mechanics_016"
+        ],
+        [
+          "uphy_mechanics_013",
+          "uphy_mechanics_016"
+        ],
+        [
+          "uphy_mechanics_003",
+          "uphy_mechanics_017"
+        ],
+        [
+          "uphy_mechanics_017",
+          "uphy_mechanics_018"
+        ],
+        [
+          "uphy_mechanics_018",
+          "uphy_mechanics_019"
+        ],
+        [
+          "uphy_mechanics_018",
+          "uphy_mechanics_020"
+        ],
+        [
+          "uphy_mechanics_012",
+          "uphy_mechanics_020"
+        ],
+        [
+          "uphy_mechanics_011",
+          "uphy_mechanics_021"
+        ],
+        [
+          "uphy_mechanics_018",
+          "uphy_mechanics_021"
+        ],
+        [
+          "uphy_mechanics_017",
+          "uphy_mechanics_022"
+        ],
+        [
+          "uphy_mechanics_020",
+          "uphy_mechanics_022"
+        ],
+        [
+          "uphy_mechanics_023",
+          "uphy_mechanics_024"
+        ],
+        [
+          "uphy_mechanics_015",
+          "uphy_mechanics_024"
+        ],
+        [
+          "uphy_thermodynamics_001",
+          "uphy_thermodynamics_002"
+        ],
+        [
+          "uphy_thermodynamics_002",
+          "uphy_thermodynamics_003"
+        ],
+        [
+          "uphy_thermodynamics_002",
+          "uphy_thermodynamics_004"
+        ],
+        [
+          "uphy_thermodynamics_004",
+          "uphy_thermodynamics_005"
+        ],
+        [
+          "uphy_thermodynamics_002",
+          "uphy_thermodynamics_006"
+        ],
+        [
+          "uphy_thermodynamics_003",
+          "uphy_thermodynamics_006"
+        ],
+        [
+          "uphy_thermodynamics_001",
+          "uphy_thermodynamics_007"
+        ],
+        [
+          "uphy_thermodynamics_007",
+          "uphy_thermodynamics_008"
+        ],
+        [
+          "uphy_thermodynamics_005",
+          "uphy_thermodynamics_009"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_010"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_011"
+        ],
+        [
+          "uphy_thermodynamics_010",
+          "uphy_thermodynamics_011"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_012"
+        ],
+        [
+          "uphy_thermodynamics_001",
+          "uphy_thermodynamics_012"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_013"
+        ],
+        [
+          "uphy_thermodynamics_011",
+          "uphy_thermodynamics_013"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_014"
+        ],
+        [
+          "uphy_thermodynamics_014",
+          "uphy_thermodynamics_015"
+        ],
+        [
+          "uphy_thermodynamics_012",
+          "uphy_thermodynamics_015"
+        ],
+        [
+          "uphy_thermodynamics_013",
+          "uphy_thermodynamics_015"
+        ],
+        [
+          "uphy_thermodynamics_014",
+          "uphy_thermodynamics_016"
+        ],
+        [
+          "uphy_thermodynamics_016",
+          "uphy_thermodynamics_017"
+        ],
+        [
+          "uphy_thermodynamics_015",
+          "uphy_thermodynamics_017"
+        ],
+        [
+          "uphy_thermodynamics_017",
+          "uphy_thermodynamics_018"
+        ],
+        [
+          "uphy_thermodynamics_018",
+          "uphy_thermodynamics_019"
+        ],
+        [
+          "uphy_thermodynamics_009",
+          "uphy_thermodynamics_020"
+        ],
+        [
+          "uphy_thermodynamics_018",
+          "uphy_thermodynamics_020"
+        ]
+      ],
+      "snapshot_sha256": {
+        "uphysics-dependencies.json": "77a83c5fe28f1b55181ebb8c75ffad48bf857ff23888fca4182fa7aa25b1a4e5",
+        "uphysics-topics.json": "3de379244b88ae716dd330812c1e543bd0c56f557d586ef6c895afbc4f99364e",
+        "uphysics-questions.json": "5f3ef3bf0dbc6a507146baefd2c624b2e7bbcf27924b570c6c370b4ceb1e361b",
+        "uphysics-sources.json": "75402370bea4bc8235848a58c0723273866562abab2ac83a6d08eb996eaf7f1d",
+        "uphysics-coverage.json": "1c710f2a1f3c6f8faf1b52e93977ca4439190a598ec240689404430bc72050f9"
+      }
+    },
+    {
+      "snapshot": "task_university/physics/review-batch-2",
+      "read_topic_ids": [
+        "uphy_electromagnetism_001",
+        "uphy_electromagnetism_002",
+        "uphy_electromagnetism_003",
+        "uphy_electromagnetism_004",
+        "uphy_electromagnetism_005",
+        "uphy_electromagnetism_006",
+        "uphy_electromagnetism_007",
+        "uphy_electromagnetism_008",
+        "uphy_electromagnetism_009",
+        "uphy_electromagnetism_010",
+        "uphy_electromagnetism_011",
+        "uphy_electromagnetism_012",
+        "uphy_electromagnetism_013",
+        "uphy_electromagnetism_014",
+        "uphy_electromagnetism_015",
+        "uphy_electromagnetism_016",
+        "uphy_electromagnetism_017",
+        "uphy_electromagnetism_018",
+        "uphy_electromagnetism_019",
+        "uphy_electromagnetism_020",
+        "uphy_electromagnetism_021",
+        "uphy_electromagnetism_022",
+        "uphy_electromagnetism_023",
+        "uphy_electromagnetism_024",
+        "uphy_electromagnetism_025",
+        "uphy_electromagnetism_026",
+        "uphy_electromagnetism_027",
+        "uphy_electromagnetism_028",
+        "uphy_electromagnetism_029",
+        "uphy_electromagnetism_030",
+        "uphy_electromagnetism_031",
+        "uphy_electromagnetism_032",
+        "uphy_electromagnetism_033",
+        "uphy_electromagnetism_034",
+        "uphy_oscillations_waves_001",
+        "uphy_oscillations_waves_002",
+        "uphy_oscillations_waves_003",
+        "uphy_oscillations_waves_004",
+        "uphy_oscillations_waves_005",
+        "uphy_oscillations_waves_006",
+        "uphy_oscillations_waves_007",
+        "uphy_oscillations_waves_008",
+        "uphy_oscillations_waves_009",
+        "uphy_oscillations_waves_010",
+        "uphy_oscillations_waves_011",
+        "uphy_oscillations_waves_012",
+        "uphy_oscillations_waves_013",
+        "uphy_oscillations_waves_014",
+        "uphy_oscillations_waves_015",
+        "uphy_oscillations_waves_016",
+        "uphy_oscillations_waves_017",
+        "uphy_oscillations_waves_018"
+      ],
+      "read_question_ids": [
+        "uphy_electromagnetism_001_q1",
+        "uphy_electromagnetism_001_q2",
+        "uphy_electromagnetism_002_q1",
+        "uphy_electromagnetism_002_q2",
+        "uphy_electromagnetism_003_q1",
+        "uphy_electromagnetism_003_q2",
+        "uphy_electromagnetism_004_q1",
+        "uphy_electromagnetism_004_q2",
+        "uphy_electromagnetism_005_q1",
+        "uphy_electromagnetism_005_q2",
+        "uphy_electromagnetism_006_q1",
+        "uphy_electromagnetism_006_q2",
+        "uphy_electromagnetism_007_q1",
+        "uphy_electromagnetism_007_q2",
+        "uphy_electromagnetism_008_q1",
+        "uphy_electromagnetism_008_q2",
+        "uphy_electromagnetism_009_q1",
+        "uphy_electromagnetism_009_q2",
+        "uphy_electromagnetism_010_q1",
+        "uphy_electromagnetism_010_q2",
+        "uphy_electromagnetism_011_q1",
+        "uphy_electromagnetism_011_q2",
+        "uphy_electromagnetism_012_q1",
+        "uphy_electromagnetism_012_q2",
+        "uphy_electromagnetism_013_q1",
+        "uphy_electromagnetism_013_q2",
+        "uphy_electromagnetism_014_q1",
+        "uphy_electromagnetism_014_q2",
+        "uphy_electromagnetism_015_q1",
+        "uphy_electromagnetism_015_q2",
+        "uphy_electromagnetism_016_q1",
+        "uphy_electromagnetism_016_q2",
+        "uphy_electromagnetism_017_q1",
+        "uphy_electromagnetism_017_q2",
+        "uphy_electromagnetism_018_q1",
+        "uphy_electromagnetism_018_q2",
+        "uphy_electromagnetism_019_q1",
+        "uphy_electromagnetism_019_q2",
+        "uphy_electromagnetism_020_q1",
+        "uphy_electromagnetism_020_q2",
+        "uphy_electromagnetism_021_q1",
+        "uphy_electromagnetism_021_q2",
+        "uphy_electromagnetism_022_q1",
+        "uphy_electromagnetism_022_q2",
+        "uphy_electromagnetism_023_q1",
+        "uphy_electromagnetism_023_q2",
+        "uphy_electromagnetism_024_q1",
+        "uphy_electromagnetism_024_q2",
+        "uphy_electromagnetism_025_q1",
+        "uphy_electromagnetism_025_q2",
+        "uphy_electromagnetism_026_q1",
+        "uphy_electromagnetism_026_q2",
+        "uphy_electromagnetism_027_q1",
+        "uphy_electromagnetism_027_q2",
+        "uphy_electromagnetism_028_q1",
+        "uphy_electromagnetism_028_q2",
+        "uphy_electromagnetism_029_q1",
+        "uphy_electromagnetism_029_q2",
+        "uphy_electromagnetism_030_q1",
+        "uphy_electromagnetism_030_q2",
+        "uphy_electromagnetism_031_q1",
+        "uphy_electromagnetism_031_q2",
+        "uphy_electromagnetism_032_q1",
+        "uphy_electromagnetism_032_q2",
+        "uphy_electromagnetism_033_q1",
+        "uphy_electromagnetism_033_q2",
+        "uphy_electromagnetism_034_q1",
+        "uphy_electromagnetism_034_q2",
+        "uphy_oscillations_waves_001_q1",
+        "uphy_oscillations_waves_001_q2",
+        "uphy_oscillations_waves_002_q1",
+        "uphy_oscillations_waves_002_q2",
+        "uphy_oscillations_waves_003_q1",
+        "uphy_oscillations_waves_003_q2",
+        "uphy_oscillations_waves_004_q1",
+        "uphy_oscillations_waves_004_q2",
+        "uphy_oscillations_waves_005_q1",
+        "uphy_oscillations_waves_005_q2",
+        "uphy_oscillations_waves_006_q1",
+        "uphy_oscillations_waves_006_q2",
+        "uphy_oscillations_waves_007_q1",
+        "uphy_oscillations_waves_007_q2",
+        "uphy_oscillations_waves_008_q1",
+        "uphy_oscillations_waves_008_q2",
+        "uphy_oscillations_waves_009_q1",
+        "uphy_oscillations_waves_009_q2",
+        "uphy_oscillations_waves_010_q1",
+        "uphy_oscillations_waves_010_q2",
+        "uphy_oscillations_waves_011_q1",
+        "uphy_oscillations_waves_011_q2",
+        "uphy_oscillations_waves_012_q1",
+        "uphy_oscillations_waves_012_q2",
+        "uphy_oscillations_waves_013_q1",
+        "uphy_oscillations_waves_013_q2",
+        "uphy_oscillations_waves_014_q1",
+        "uphy_oscillations_waves_014_q2",
+        "uphy_oscillations_waves_015_q1",
+        "uphy_oscillations_waves_015_q2",
+        "uphy_oscillations_waves_016_q1",
+        "uphy_oscillations_waves_016_q2",
+        "uphy_oscillations_waves_017_q1",
+        "uphy_oscillations_waves_017_q2",
+        "uphy_oscillations_waves_018_q1",
+        "uphy_oscillations_waves_018_q2"
+      ],
+      "read_dependency_pairs": [
+        [
+          "uphy_electromagnetism_001",
+          "uphy_electromagnetism_002"
+        ],
+        [
+          "uphy_electromagnetism_002",
+          "uphy_electromagnetism_003"
+        ],
+        [
+          "uphy_electromagnetism_003",
+          "uphy_electromagnetism_004"
+        ],
+        [
+          "uphy_electromagnetism_004",
+          "uphy_electromagnetism_005"
+        ],
+        [
+          "uphy_electromagnetism_002",
+          "uphy_electromagnetism_006"
+        ],
+        [
+          "uphy_electromagnetism_006",
+          "uphy_electromagnetism_007"
+        ],
+        [
+          "uphy_electromagnetism_004",
+          "uphy_electromagnetism_008"
+        ],
+        [
+          "uphy_electromagnetism_007",
+          "uphy_electromagnetism_008"
+        ],
+        [
+          "uphy_electromagnetism_006",
+          "uphy_electromagnetism_009"
+        ],
+        [
+          "uphy_electromagnetism_009",
+          "uphy_electromagnetism_010"
+        ],
+        [
+          "uphy_electromagnetism_009",
+          "uphy_electromagnetism_011"
+        ],
+        [
+          "uphy_electromagnetism_011",
+          "uphy_electromagnetism_012"
+        ],
+        [
+          "uphy_electromagnetism_004",
+          "uphy_electromagnetism_012"
+        ],
+        [
+          "uphy_electromagnetism_009",
+          "uphy_electromagnetism_013"
+        ],
+        [
+          "uphy_electromagnetism_006",
+          "uphy_electromagnetism_015"
+        ],
+        [
+          "uphy_electromagnetism_014",
+          "uphy_electromagnetism_015"
+        ],
+        [
+          "uphy_electromagnetism_014",
+          "uphy_electromagnetism_016"
+        ],
+        [
+          "uphy_electromagnetism_014",
+          "uphy_electromagnetism_017"
+        ],
+        [
+          "uphy_electromagnetism_017",
+          "uphy_electromagnetism_018"
+        ],
+        [
+          "uphy_electromagnetism_017",
+          "uphy_electromagnetism_019"
+        ],
+        [
+          "uphy_electromagnetism_017",
+          "uphy_electromagnetism_020"
+        ],
+        [
+          "uphy_electromagnetism_019",
+          "uphy_electromagnetism_020"
+        ],
+        [
+          "uphy_electromagnetism_017",
+          "uphy_electromagnetism_021"
+        ],
+        [
+          "uphy_mechanics_003",
+          "uphy_electromagnetism_021"
+        ],
+        [
+          "uphy_electromagnetism_021",
+          "uphy_electromagnetism_022"
+        ],
+        [
+          "uphy_electromagnetism_014",
+          "uphy_electromagnetism_022"
+        ],
+        [
+          "uphy_electromagnetism_021",
+          "uphy_electromagnetism_023"
+        ],
+        [
+          "uphy_electromagnetism_023",
+          "uphy_electromagnetism_024"
+        ],
+        [
+          "uphy_electromagnetism_024",
+          "uphy_electromagnetism_025"
+        ],
+        [
+          "uphy_electromagnetism_019",
+          "uphy_electromagnetism_026"
+        ],
+        [
+          "uphy_electromagnetism_026",
+          "uphy_electromagnetism_027"
+        ],
+        [
+          "uphy_electromagnetism_021",
+          "uphy_electromagnetism_028"
+        ],
+        [
+          "uphy_electromagnetism_026",
+          "uphy_electromagnetism_028"
+        ],
+        [
+          "uphy_electromagnetism_026",
+          "uphy_electromagnetism_029"
+        ],
+        [
+          "uphy_electromagnetism_006",
+          "uphy_electromagnetism_029"
+        ],
+        [
+          "uphy_electromagnetism_026",
+          "uphy_electromagnetism_030"
+        ],
+        [
+          "uphy_electromagnetism_030",
+          "uphy_electromagnetism_031"
+        ],
+        [
+          "uphy_electromagnetism_026",
+          "uphy_electromagnetism_031"
+        ],
+        [
+          "uphy_electromagnetism_030",
+          "uphy_electromagnetism_032"
+        ],
+        [
+          "uphy_electromagnetism_020",
+          "uphy_electromagnetism_033"
+        ],
+        [
+          "uphy_electromagnetism_012",
+          "uphy_electromagnetism_033"
+        ],
+        [
+          "uphy_electromagnetism_004",
+          "uphy_electromagnetism_034"
+        ],
+        [
+          "uphy_electromagnetism_019",
+          "uphy_electromagnetism_034"
+        ],
+        [
+          "uphy_electromagnetism_029",
+          "uphy_electromagnetism_034"
+        ],
+        [
+          "uphy_electromagnetism_033",
+          "uphy_electromagnetism_034"
+        ],
+        [
+          "uphy_mechanics_005",
+          "uphy_oscillations_waves_001"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_002"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_003"
+        ],
+        [
+          "uphy_mechanics_015",
+          "uphy_oscillations_waves_003"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_004"
+        ],
+        [
+          "uphy_oscillations_waves_003",
+          "uphy_oscillations_waves_004"
+        ],
+        [
+          "uphy_oscillations_waves_004",
+          "uphy_oscillations_waves_005"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_005"
+        ],
+        [
+          "uphy_electromagnetism_009",
+          "uphy_oscillations_waves_006"
+        ],
+        [
+          "uphy_electromagnetism_030",
+          "uphy_oscillations_waves_006"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_006"
+        ],
+        [
+          "uphy_oscillations_waves_002",
+          "uphy_oscillations_waves_007"
+        ],
+        [
+          "uphy_oscillations_waves_007",
+          "uphy_oscillations_waves_008"
+        ],
+        [
+          "uphy_oscillations_waves_001",
+          "uphy_oscillations_waves_009"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_010"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_011"
+        ],
+        [
+          "uphy_oscillations_waves_003",
+          "uphy_oscillations_waves_012"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_012"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_013"
+        ],
+        [
+          "uphy_oscillations_waves_007",
+          "uphy_oscillations_waves_014"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_014"
+        ],
+        [
+          "uphy_oscillations_waves_014",
+          "uphy_oscillations_waves_015"
+        ],
+        [
+          "uphy_oscillations_waves_011",
+          "uphy_oscillations_waves_015"
+        ],
+        [
+          "uphy_oscillations_waves_009",
+          "uphy_oscillations_waves_016"
+        ],
+        [
+          "uphy_mechanics_004",
+          "uphy_oscillations_waves_016"
+        ],
+        [
+          "uphy_oscillations_waves_012",
+          "uphy_oscillations_waves_017"
+        ],
+        [
+          "uphy_electromagnetism_034",
+          "uphy_oscillations_waves_018"
+        ],
+        [
+          "uphy_oscillations_waves_012",
+          "uphy_oscillations_waves_018"
+        ]
+      ],
+      "prior_batch_changes_rechecked": [
+        "uphy_mechanics_011",
+        "uphy_mechanics_016",
+        "uphy_mechanics_021",
+        "uphy_mechanics_023_q2",
+        "uphy_mechanics_024_q2",
+        "uphy_thermodynamics_004_q2",
+        "uphy_thermodynamics_009",
+        "uphy_thermodynamics_010",
+        "uphy_thermodynamics_013_q2",
+        "uphy_thermodynamics_020_q2"
+      ],
+      "snapshot_sha256": {
+        "uphysics-dependencies.json": "e0a216d5f7b505a113fdff510e5b6449f224a9b522ea90df7b66a86a703aad6a",
+        "uphysics-topics.json": "e1b8ee4b16ac16c7983a86a7342165427b5e8db2c4173ef4af2548ebb58026cf",
+        "uphysics-questions.json": "bd478e13025f65fd611f23a32170b5d1527824305bbcb15df62b9c3d0848fa70",
+        "uphysics-sources.json": "75402370bea4bc8235848a58c0723273866562abab2ac83a6d08eb996eaf7f1d",
+        "uphysics-coverage.json": "6817f24e7201c1c7f3619111495efc5ad04a732918f2654d762e53dde6fdd9eb"
+      }
+    },
+    {
+      "snapshot": "task_university/physics/review-batch-3",
+      "read_topic_ids": [
+        "uphy_optics_001",
+        "uphy_optics_002",
+        "uphy_optics_003",
+        "uphy_optics_004",
+        "uphy_optics_005",
+        "uphy_optics_006",
+        "uphy_optics_007",
+        "uphy_optics_008",
+        "uphy_optics_009",
+        "uphy_optics_010",
+        "uphy_optics_011",
+        "uphy_optics_012",
+        "uphy_optics_013",
+        "uphy_optics_014",
+        "uphy_optics_015",
+        "uphy_optics_016",
+        "uphy_optics_017",
+        "uphy_optics_018",
+        "uphy_optics_019",
+        "uphy_optics_020",
+        "uphy_modern_001",
+        "uphy_modern_002",
+        "uphy_modern_003",
+        "uphy_modern_004",
+        "uphy_modern_005",
+        "uphy_modern_006",
+        "uphy_modern_007",
+        "uphy_modern_008",
+        "uphy_modern_009",
+        "uphy_modern_010",
+        "uphy_modern_011",
+        "uphy_modern_012",
+        "uphy_modern_013",
+        "uphy_modern_014",
+        "uphy_modern_015",
+        "uphy_modern_016",
+        "uphy_modern_017",
+        "uphy_modern_018",
+        "uphy_modern_019",
+        "uphy_modern_020",
+        "uphy_modern_021",
+        "uphy_modern_022",
+        "uphy_modern_023",
+        "uphy_modern_024",
+        "uphy_modern_025",
+        "uphy_modern_026"
+      ],
+      "read_question_ids": [
+        "uphy_optics_001_q1",
+        "uphy_optics_001_q2",
+        "uphy_optics_002_q1",
+        "uphy_optics_002_q2",
+        "uphy_optics_003_q1",
+        "uphy_optics_003_q2",
+        "uphy_optics_004_q1",
+        "uphy_optics_004_q2",
+        "uphy_optics_005_q1",
+        "uphy_optics_005_q2",
+        "uphy_optics_006_q1",
+        "uphy_optics_006_q2",
+        "uphy_optics_007_q1",
+        "uphy_optics_007_q2",
+        "uphy_optics_008_q1",
+        "uphy_optics_008_q2",
+        "uphy_optics_009_q1",
+        "uphy_optics_009_q2",
+        "uphy_optics_010_q1",
+        "uphy_optics_010_q2",
+        "uphy_optics_011_q1",
+        "uphy_optics_011_q2",
+        "uphy_optics_012_q1",
+        "uphy_optics_012_q2",
+        "uphy_optics_013_q1",
+        "uphy_optics_013_q2",
+        "uphy_optics_014_q1",
+        "uphy_optics_014_q2",
+        "uphy_optics_015_q1",
+        "uphy_optics_015_q2",
+        "uphy_optics_016_q1",
+        "uphy_optics_016_q2",
+        "uphy_optics_017_q1",
+        "uphy_optics_017_q2",
+        "uphy_optics_018_q1",
+        "uphy_optics_018_q2",
+        "uphy_optics_019_q1",
+        "uphy_optics_019_q2",
+        "uphy_optics_020_q1",
+        "uphy_optics_020_q2",
+        "uphy_modern_001_q1",
+        "uphy_modern_001_q2",
+        "uphy_modern_002_q1",
+        "uphy_modern_002_q2",
+        "uphy_modern_003_q1",
+        "uphy_modern_003_q2",
+        "uphy_modern_004_q1",
+        "uphy_modern_004_q2",
+        "uphy_modern_005_q1",
+        "uphy_modern_005_q2",
+        "uphy_modern_006_q1",
+        "uphy_modern_006_q2",
+        "uphy_modern_007_q1",
+        "uphy_modern_007_q2",
+        "uphy_modern_008_q1",
+        "uphy_modern_008_q2",
+        "uphy_modern_009_q1",
+        "uphy_modern_009_q2",
+        "uphy_modern_010_q1",
+        "uphy_modern_010_q2",
+        "uphy_modern_011_q1",
+        "uphy_modern_011_q2",
+        "uphy_modern_012_q1",
+        "uphy_modern_012_q2",
+        "uphy_modern_013_q1",
+        "uphy_modern_013_q2",
+        "uphy_modern_014_q1",
+        "uphy_modern_014_q2",
+        "uphy_modern_015_q1",
+        "uphy_modern_015_q2",
+        "uphy_modern_016_q1",
+        "uphy_modern_016_q2",
+        "uphy_modern_017_q1",
+        "uphy_modern_017_q2",
+        "uphy_modern_018_q1",
+        "uphy_modern_018_q2",
+        "uphy_modern_019_q1",
+        "uphy_modern_019_q2",
+        "uphy_modern_020_q1",
+        "uphy_modern_020_q2",
+        "uphy_modern_021_q1",
+        "uphy_modern_021_q2",
+        "uphy_modern_022_q1",
+        "uphy_modern_022_q2",
+        "uphy_modern_023_q1",
+        "uphy_modern_023_q2",
+        "uphy_modern_024_q1",
+        "uphy_modern_024_q2",
+        "uphy_modern_025_q1",
+        "uphy_modern_025_q2",
+        "uphy_modern_026_q1",
+        "uphy_modern_026_q2"
+      ],
+      "read_dependency_pairs": [
+        [
+          "uphy_optics_001",
+          "uphy_optics_002"
+        ],
+        [
+          "uphy_oscillations_waves_014",
+          "uphy_optics_003"
+        ],
+        [
+          "uphy_optics_003",
+          "uphy_optics_004"
+        ],
+        [
+          "uphy_optics_003",
+          "uphy_optics_005"
+        ],
+        [
+          "uphy_optics_004",
+          "uphy_optics_005"
+        ],
+        [
+          "uphy_optics_004",
+          "uphy_optics_006"
+        ],
+        [
+          "uphy_optics_006",
+          "uphy_optics_007"
+        ],
+        [
+          "uphy_optics_004",
+          "uphy_optics_007"
+        ],
+        [
+          "uphy_optics_007",
+          "uphy_optics_008"
+        ],
+        [
+          "uphy_optics_007",
+          "uphy_optics_009"
+        ],
+        [
+          "uphy_optics_004",
+          "uphy_optics_010"
+        ],
+        [
+          "uphy_optics_003",
+          "uphy_optics_011"
+        ],
+        [
+          "uphy_optics_011",
+          "uphy_optics_012"
+        ],
+        [
+          "uphy_optics_011",
+          "uphy_optics_013"
+        ],
+        [
+          "uphy_optics_005",
+          "uphy_optics_014"
+        ],
+        [
+          "uphy_optics_011",
+          "uphy_optics_014"
+        ],
+        [
+          "uphy_optics_012",
+          "uphy_optics_015"
+        ],
+        [
+          "uphy_optics_014",
+          "uphy_optics_015"
+        ],
+        [
+          "uphy_optics_014",
+          "uphy_optics_016"
+        ],
+        [
+          "uphy_optics_013",
+          "uphy_optics_016"
+        ],
+        [
+          "uphy_optics_004",
+          "uphy_optics_017"
+        ],
+        [
+          "uphy_optics_014",
+          "uphy_optics_017"
+        ],
+        [
+          "uphy_oscillations_waves_018",
+          "uphy_optics_018"
+        ],
+        [
+          "uphy_optics_018",
+          "uphy_optics_019"
+        ],
+        [
+          "uphy_optics_001",
+          "uphy_optics_020"
+        ],
+        [
+          "uphy_optics_018",
+          "uphy_optics_020"
+        ],
+        [
+          "uphy_modern_001",
+          "uphy_modern_002"
+        ],
+        [
+          "uphy_modern_002",
+          "uphy_modern_003"
+        ],
+        [
+          "uphy_modern_002",
+          "uphy_modern_004"
+        ],
+        [
+          "uphy_modern_003",
+          "uphy_modern_005"
+        ],
+        [
+          "uphy_modern_002",
+          "uphy_modern_005"
+        ],
+        [
+          "uphy_modern_002",
+          "uphy_modern_006"
+        ],
+        [
+          "uphy_mechanics_004",
+          "uphy_modern_006"
+        ],
+        [
+          "uphy_modern_002",
+          "uphy_modern_007"
+        ],
+        [
+          "uphy_modern_008",
+          "uphy_modern_009"
+        ],
+        [
+          "uphy_modern_009",
+          "uphy_modern_010"
+        ],
+        [
+          "uphy_modern_009",
+          "uphy_modern_011"
+        ],
+        [
+          "uphy_modern_007",
+          "uphy_modern_011"
+        ],
+        [
+          "uphy_modern_009",
+          "uphy_modern_012"
+        ],
+        [
+          "uphy_modern_009",
+          "uphy_modern_013"
+        ],
+        [
+          "uphy_modern_013",
+          "uphy_modern_014"
+        ],
+        [
+          "uphy_modern_013",
+          "uphy_modern_015"
+        ],
+        [
+          "uphy_modern_015",
+          "uphy_modern_016"
+        ],
+        [
+          "uphy_modern_016",
+          "uphy_modern_017"
+        ],
+        [
+          "uphy_modern_015",
+          "uphy_modern_017"
+        ],
+        [
+          "uphy_modern_016",
+          "uphy_modern_018"
+        ],
+        [
+          "uphy_modern_015",
+          "uphy_modern_018"
+        ],
+        [
+          "uphy_modern_016",
+          "uphy_modern_019"
+        ],
+        [
+          "uphy_modern_014",
+          "uphy_modern_019"
+        ],
+        [
+          "uphy_modern_016",
+          "uphy_modern_020"
+        ],
+        [
+          "uphy_modern_012",
+          "uphy_modern_020"
+        ],
+        [
+          "uphy_modern_020",
+          "uphy_modern_021"
+        ],
+        [
+          "uphy_modern_012",
+          "uphy_modern_022"
+        ],
+        [
+          "uphy_modern_021",
+          "uphy_modern_022"
+        ],
+        [
+          "uphy_modern_021",
+          "uphy_modern_023"
+        ],
+        [
+          "uphy_modern_023",
+          "uphy_modern_024"
+        ],
+        [
+          "uphy_modern_007",
+          "uphy_modern_025"
+        ]
+      ],
+      "snapshot_sha256": {
+        "uphysics-dependencies.json": "8496b804c2fd449c82bbf6615341c6453f014bbea5c42082d7d87914c3c8923c",
+        "uphysics-topics.json": "d96c9b18faaa3c4eb07928aff20f0f74e1e2f367a4b8f6c0e3bfe3e56d707684",
+        "uphysics-questions.json": "d7b1cafd03aa7c8016bf387085025d84c45c8c6126bb6ae081a7a13da303422f",
+        "uphysics-sources.json": "75402370bea4bc8235848a58c0723273866562abab2ac83a6d08eb996eaf7f1d",
+        "uphysics-coverage.json": "ae9e001a6a5969651669a90029765d6454404ee6533fc44ffb6ba8688cc4fd91"
+      },
+      "note": "光学20节点与近代物理26节点逐项阅读全部描述、掌握标准、两题所有选项/答案/解释与教材定位、全部入边。已补充复读全量142节点mastery_criteria。"
+    }
+  ],
+  "revision_recheck": {
+    "snapshot": "task_university/physics/review-batch-4",
+    "actual_json_diff_from_batch3": {
+      "topics": 3,
+      "questions": 7,
+      "dependencies": 1
+    },
+    "reread_question_ids": [
+      "uphy_mechanics_014_q1",
+      "uphy_electromagnetism_007_q1",
+      "uphy_electromagnetism_017_q1",
+      "uphy_optics_004_q1",
+      "uphy_optics_010_q2",
+      "uphy_optics_015_q2",
+      "uphy_modern_022_q2"
+    ],
+    "sources_reread": true,
+    "coverage_correspondence": {
+      "mapped_points": 142,
+      "unique_points": 142,
+      "topic_name_module_grade_book_chapter_section_match": true
+    },
+    "snapshot_sha256": {
+      "uphysics-dependencies.json": "73956512c2359a07953c76319fa8f4199c5d7870b54e2d2a77a46701c12e79e4",
+      "uphysics-topics.json": "f94905cb448566cac7c76340f6e13ffbdc56e76e3c6aff5bf889283a8f7fc100",
+      "uphysics-questions.json": "d71ea19e56813840345efdb7c3fd8d219e228d1b4a86a0e98f3b33e6f6c3de56",
+      "uphysics-sources.json": "e2656355a4c4d28a0502b993a5fa04599b3bdd7bee6b387960a3061b1aaad735",
+      "uphysics-coverage.json": "ae9e001a6a5969651669a90029765d6454404ee6533fc44ffb6ba8688cc4fd91"
+    }
+  },
+  "limits": [
+    "这是独立AI复核，尚未经物理教师或教材编者审查。",
+    "已独立读取高教社两册书目与完整公开目录并对照章/节；未逐页取得或审读全部教材正文，不能声称教材全文核验。",
+    "教材是所选高教社国家级规划教材当前可核验版次，不代表全国高校唯一统一指定课本；2026印次与第8版版次区分记录。",
+    "下册两个出版社官方平台的出版月份存在2022-12与2023-01差异，报告保留差异而不推断版权页首印日期。",
+    "图谱覆盖大学物理基础6个知识模块，不能替代理论力学、电动力学、专业量子力学、统计物理、大学物理实验等完整课程。",
+    "两道选择题只能有限检验一个知识点；先修关系为项目学习建议，不是唯一教学顺序。",
+    "67项独立计算是针对符号、量纲、方向和模型风险的子集；完整语义审读与数值复算各自记录，不将计算通过等同全部内容绝对正确。",
+    "audit_batches中的快照路径为构建工作区的审计轨迹；最终交付数据由5个SHA256明确标识。"
+  ]
+}

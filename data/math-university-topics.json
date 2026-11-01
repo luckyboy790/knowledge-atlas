@@ -1,0 +1,2136 @@
+[
+  {
+    "id": "cnm_u001",
+    "name": "函数极限",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第一章 极限与连续 1",
+    "type": "conceptual",
+    "description": "极限研究自变量趋近某点时函数值的趋势。两侧极限须相等，函数在该点的值可以与极限不同。",
+    "mastery_criteria": [
+      "能说明函数极限的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.2 The Limit of a Function",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53491/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "x→2 时，(x²−4)/(x−2) 的极限是多少？",
+      "answer": "4"
+    }
+  },
+  {
+    "id": "cnm_u002",
+    "name": "极限运算法则与夹逼",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第一章 极限与连续 2",
+    "type": "conceptual",
+    "description": "有限极限可以作和、差、积；商法则要求分母极限非零。夹逼时上下界必须趋向同一个值。",
+    "mastery_criteria": [
+      "能说明极限运算法则与夹逼的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.3 The Limit Laws",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53492/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "当 x→0 时，x²sin(1/x) 的极限为多少？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnm_u003",
+    "name": "连续性与间断点",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第一章 极限与连续 3",
+    "type": "conceptual",
+    "description": "在一点连续要求该点有定义、极限存在，而且极限等于函数值。闭区间连续函数具备介值性质。",
+    "mastery_criteria": [
+      "能说明连续性与间断点的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "2.4 Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53489/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "x≠1 时 f(x)=(x²−1)/(x−1)，要使 f 在 1 连续，应令 f(1)=？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_u004",
+    "name": "导数定义与可微性",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 4",
+    "type": "conceptual",
+    "description": "导数是差商的极限。一元函数在一点可导必连续，连续未必可导。",
+    "mastery_criteria": [
+      "能说明导数定义与可微性的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.1 Defining the Derivative",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53495/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "用定义或求导计算，f(x)=x² 在 x=3 处的导数为多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_u005",
+    "name": "基本求导与乘商法则",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 5",
+    "type": "conceptual",
+    "description": "对和逐项求导；乘积、商的导数需同时考虑两个函数。商在分母非零处讨论。",
+    "mastery_criteria": [
+      "能说明基本求导与乘商法则的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.3 Differentiation Rules",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53575/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x)=x³+4x，则 f′(2)=？",
+      "answer": "16"
+    }
+  },
+  {
+    "id": "cnm_u006",
+    "name": "复合函数链式法则",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 6",
+    "type": "conceptual",
+    "description": "复合函数的导数等于外层函数在内层值处的导数乘以内层导数，不能漏掉内层变化率。",
+    "mastery_criteria": [
+      "能说明复合函数链式法则的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.6 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53581/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x)=(3x+1)²，则 f′(1)=？",
+      "answer": "24"
+    }
+  },
+  {
+    "id": "cnm_u007",
+    "name": "隐函数求导",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 7",
+    "type": "conceptual",
+    "description": "对隐式关系两边求导时，把 y 看作 x 的函数，再求解 y′；解出导数需相应系数非零。",
+    "mastery_criteria": [
+      "能说明隐函数求导的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "3.8 Implicit Differentiation",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53585/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "由 x²+y²=25，求点 (3,4) 处的 y′。",
+      "answer": "−3/4"
+    }
+  },
+  {
+    "id": "cnm_u008",
+    "name": "罗尔与拉格朗日中值定理",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 8",
+    "type": "conceptual",
+    "description": "闭区间连续、开区间可导时，存在内点导数等于端点割线斜率。若两端值相同，则该内点导数为零。",
+    "mastery_criteria": [
+      "能说明罗尔与拉格朗日中值定理的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.4 The Mean Value Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53612/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x)=x² 在 [1,3] 上满足中值定理，f′(c)=[f(3)−f(1)]/2 的 c 是？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_u009",
+    "name": "洛必达法则",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 9",
+    "type": "conceptual",
+    "description": "0/0 或 ∞/∞ 型极限在可导、分母导数非零等条件满足且导数比极限存在时，可用导数之比求极限。先识别未定式。",
+    "mastery_criteria": [
+      "能说明洛必达法则的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.8 L’Hôpital’s Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53619/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "x→0 时 (eˣ−1)/x 的极限是多少？",
+      "answer": "1"
+    }
+  },
+  {
+    "id": "cnm_u010",
+    "name": "单调性与极值判别",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第二章 一元微分 10",
+    "type": "conceptual",
+    "description": "可导函数的导数符号决定局部增减；驻点不一定是极值点，需要检查符号变化或其他判别条件。",
+    "mastery_criteria": [
+      "能说明单调性与极值判别的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.5 Derivatives and the Shape of a Graph",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53613/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x)=x²−6x+11 的最小值为多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_u011",
+    "name": "原函数与不定积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 11",
+    "type": "conceptual",
+    "description": "原函数求导后得到被积函数。在一个区间上，不定积分表示全部原函数，必须保留积分常数。",
+    "mastery_criteria": [
+      "能说明原函数与不定积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "4.10 Antiderivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53621/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∫6x² dx 等于什么？",
+      "answer": "2x³+C"
+    }
+  },
+  {
+    "id": "cnm_u012",
+    "name": "换元积分法",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 12",
+    "type": "conceptual",
+    "description": "换元把复合结构化简；必须同步替换微分，定积分还要同步替换上下限。",
+    "mastery_criteria": [
+      "能说明换元积分法的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.5 Substitution",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53634/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∫2x cos(x²) dx 等于什么？",
+      "answer": "sin(x²)+C"
+    }
+  },
+  {
+    "id": "cnm_u013",
+    "name": "分部积分法",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 13",
+    "type": "conceptual",
+    "description": "分部积分来自乘积求导，形式为 ∫u dv=uv−∫v du，选择 u 与 dv 应使新积分更容易。",
+    "mastery_criteria": [
+      "能说明分部积分法的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.1 Integration by Parts",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53656/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∫x eˣ dx 等于什么？",
+      "answer": "(x−1)eˣ+C"
+    }
+  },
+  {
+    "id": "cnm_u014",
+    "name": "定积分与黎曼和",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 14",
+    "type": "conceptual",
+    "description": "定积分是分割加细时加权和的极限，表示有向累积量；曲线在横轴下方时积分可以为负。",
+    "mastery_criteria": [
+      "能说明定积分与黎曼和的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.2 The Definite Integral",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53631/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∫₀² (−3) dx 的值为多少？",
+      "answer": "−6"
+    }
+  },
+  {
+    "id": "cnm_u015",
+    "name": "微积分基本定理",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 15",
+    "type": "conceptual",
+    "description": "连续被积函数的变上限积分求导可还原被积函数。若f在闭区间[a,b]上连续，F是它在该区间的原函数，则∫ₐᵇf(x)dx=F(b)−F(a)。更一般地，端点差公式需要相应的可积性与原函数条件，不能仅由存在原函数就断言通常的黎曼定积分存在。",
+    "mastery_criteria": [
+      "能说明微积分基本定理的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "5.3 The Fundamental Theorem of Calculus",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53632/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "F(x)=∫₀ˣ (t²+1) dt，F′(2)=？",
+      "answer": "5"
+    }
+  },
+  {
+    "id": "cnm_u016",
+    "name": "定积分求面积与体积",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 16",
+    "type": "conceptual",
+    "description": "面积可积分上下曲线之差；体积可积分截面积。旋转体圆盘法的截面积为 π 乘半径平方。",
+    "mastery_criteria": [
+      "能说明定积分求面积与体积的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-1",
+      "title": "OpenStax · Calculus Volume 1",
+      "volume": "高等数学",
+      "section": "6.2 Determining Volumes by Slicing",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53642/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "y=x 与 x 轴在 0≤x≤2 间的面积为多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_u017",
+    "name": "反常积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第三章 一元积分 17",
+    "type": "conceptual",
+    "description": "无穷区间或无界被积函数的积分须用极限定义；每个奇异点两侧都须分别收敛，不能用相消掩盖发散。",
+    "mastery_criteria": [
+      "能说明反常积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "3.7 Improper Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53686/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∫₁^∞ 1/x² dx 的值为多少？",
+      "answer": "1"
+    }
+  },
+  {
+    "id": "cnm_u018",
+    "name": "可分离变量微分方程",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第四章 微分方程 18",
+    "type": "conceptual",
+    "description": "可分离方程能把两变量分别放在等式两侧积分；除以含 y 的因子前须单独检查可能丢失的常数解。",
+    "mastery_criteria": [
+      "能说明可分离变量微分方程的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.3 Separable Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53704/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "y′=2y，y(0)=3 的解是什么？",
+      "answer": "y=3e^(2x)"
+    }
+  },
+  {
+    "id": "cnm_u019",
+    "name": "一阶线性微分方程",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第四章 微分方程 19",
+    "type": "conceptual",
+    "description": "y′+p(x)y=q(x) 可用积分因子 exp(∫p dx) 化成乘积求导，再结合初值确定常数。",
+    "mastery_criteria": [
+      "能说明一阶线性微分方程的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "4.5 First-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53713/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "y′+y=2，y(0)=0 的解是什么？",
+      "answer": "y=2−2e^(−x)"
+    }
+  },
+  {
+    "id": "cnm_u020",
+    "name": "二阶常系数线性方程",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第四章 微分方程 20",
+    "type": "conceptual",
+    "description": "齐次常系数二阶方程可从特征方程构造通解；重根时需要 x e^(rx) 作为第二个独立解。",
+    "mastery_criteria": [
+      "能说明二阶常系数线性方程的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "7.1 Second-Order Linear Equations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54040/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "y″−3y′+2y=0 的通解是什么？",
+      "answer": "C₁eˣ+C₂e^(2x)"
+    }
+  },
+  {
+    "id": "cnm_u021",
+    "name": "数列极限",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 21",
+    "type": "conceptual",
+    "description": "数列收敛指序号趋于无穷时数值趋于有限值。单调有界数列必收敛，有界本身不足以保证收敛。",
+    "mastery_criteria": [
+      "能说明数列极限的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.1 Sequences",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53758/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "aₙ=n/(n+2)，n→∞ 时的极限是多少？",
+      "answer": "1"
+    }
+  },
+  {
+    "id": "cnm_u022",
+    "name": "级数与部分和",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 22",
+    "type": "conceptual",
+    "description": "级数是否收敛取决于部分和数列是否趋于有限值。通项趋于零是必要条件，并非充分条件。",
+    "mastery_criteria": [
+      "能说明级数与部分和的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.2 Infinite Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53739/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∑ₙ₌₀^∞ (1/3)ⁿ 的和是多少？",
+      "answer": "3/2"
+    }
+  },
+  {
+    "id": "cnm_u023",
+    "name": "正项级数与积分判别",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 23",
+    "type": "conceptual",
+    "description": "对符合正性、连续、递减条件的函数，可用反常积分判断对应级数。p 级数 ∑1/nᵖ 在 p>1 时收敛。",
+    "mastery_criteria": [
+      "能说明正项级数与积分判别的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.3 The Divergence and Integral Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53754/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "级数 ∑ₙ₌₁^∞ 1/n² 的敛散性是什么？",
+      "answer": "收敛"
+    }
+  },
+  {
+    "id": "cnm_u024",
+    "name": "交错级数与绝对收敛",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 24",
+    "type": "conceptual",
+    "description": "正项大小单调趋零的交错级数收敛。绝对收敛必收敛；原级数收敛而绝对值级数发散称条件收敛。",
+    "mastery_criteria": [
+      "能说明交错级数与绝对收敛的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.5 Alternating Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53743/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∑ₙ₌₁^∞ (−1)^(n+1)/n 属于哪一种？",
+      "answer": "条件收敛"
+    }
+  },
+  {
+    "id": "cnm_u025",
+    "name": "比值与根值判别法",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 25",
+    "type": "conceptual",
+    "description": "绝对值比值或 n 次根的极限小于 1 时绝对收敛，大于 1 时发散；等于 1 时此判别法不能下结论。",
+    "mastery_criteria": [
+      "能说明比值与根值判别法的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "5.6 Ratio and Root Tests",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53747/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "用比值判别 ∑ₙ₌₁^∞ 1/n!，得到什么？",
+      "answer": "比值趋于 0，绝对收敛"
+    }
+  },
+  {
+    "id": "cnm_u026",
+    "name": "幂级数与收敛区间",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 26",
+    "type": "conceptual",
+    "description": "幂级数在收敛半径内绝对收敛、外部发散，区间端点必须分别代入判别。",
+    "mastery_criteria": [
+      "能说明幂级数与收敛区间的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.1 Power Series and Functions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53761/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "∑ₙ₌₀^∞ (x/2)ⁿ 的收敛区间是什么？",
+      "answer": "−2<x<2"
+    }
+  },
+  {
+    "id": "cnm_u027",
+    "name": "泰勒展开与余项",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第五章 无穷级数 27",
+    "type": "conceptual",
+    "description": "泰勒多项式用一点处的各阶导数近似函数；无穷展开等于原函数还需要余项趋于零。",
+    "mastery_criteria": [
+      "能说明泰勒展开与余项的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-2",
+      "title": "OpenStax · Calculus Volume 2",
+      "volume": "高等数学",
+      "section": "6.3 Taylor and Maclaurin Series",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53817/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "eˣ 在 0 处的二阶泰勒多项式是什么？",
+      "answer": "1+x+x²/2"
+    }
+  },
+  {
+    "id": "cnm_u028",
+    "name": "空间向量与叉积",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 28",
+    "type": "conceptual",
+    "description": "叉积方向遵守右手规则，大小为两向量张成的平行四边形面积；交换顺序会变号。",
+    "mastery_criteria": [
+      "能说明空间向量与叉积的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.4 The Cross Product",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53903/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "标准单位向量 i×j 等于什么？",
+      "answer": "k"
+    }
+  },
+  {
+    "id": "cnm_u029",
+    "name": "空间直线与平面",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 29",
+    "type": "conceptual",
+    "description": "空间直线可由一点和方向向量表示；平面可由一点和法向量表示，法向量与平面内方向垂直。",
+    "mastery_criteria": [
+      "能说明空间直线与平面的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "2.5 Equations of Lines and Planes in Space",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53870/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "平面 2x−y+3z=7 的一个法向量是什么？",
+      "answer": "(2,−1,3)"
+    }
+  },
+  {
+    "id": "cnm_u030",
+    "name": "多元函数极限与连续",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 30",
+    "type": "conceptual",
+    "description": "多元极限要求沿定义域内所有趋近路径得到同一结果。两条路径结果不同即可否定极限，检查有限条路径相同不足以证明。",
+    "mastery_criteria": [
+      "能说明多元函数极限与连续的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.2 Limits and Continuity",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53933/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x,y)=xy/(x²+y²)。沿 y=0 与 y=x 趋于原点，能说明什么？",
+      "answer": "原点处极限不存在"
+    }
+  },
+  {
+    "id": "cnm_u031",
+    "name": "偏导数与高阶偏导",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 31",
+    "type": "conceptual",
+    "description": "求对一个变量的偏导时，其他自变量暂作常数。混合偏导交换顺序需要适当的连续性等条件。",
+    "mastery_criteria": [
+      "能说明偏导数与高阶偏导的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.3 Partial Derivatives",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53934/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f(x,y)=x²y+y³，fₓ(1,2)=？",
+      "answer": "4"
+    }
+  },
+  {
+    "id": "cnm_u032",
+    "name": "全微分与切平面",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 32",
+    "type": "conceptual",
+    "description": "多元函数可微时，可用各偏导给出的线性部分近似增量。偏导存在本身并不保证全微分存在。",
+    "mastery_criteria": [
+      "能说明全微分与切平面的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.4 Tangent Planes and Linear Approximations",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53937/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f=x²+y² 在 (1,2) 处的全微分为？",
+      "answer": "df=2dx+4dy"
+    }
+  },
+  {
+    "id": "cnm_u033",
+    "name": "多元复合函数求导",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 33",
+    "type": "conceptual",
+    "description": "多元链式法则需把每条中间变量路径的贡献相加，例如 dz/dt=fₓx′+fᵧy′。",
+    "mastery_criteria": [
+      "能说明多元复合函数求导的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.5 The Chain Rule",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53938/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "z=x²+y，x=t、y=t²，则 dz/dt 在 t=2 为多少？",
+      "answer": "8"
+    }
+  },
+  {
+    "id": "cnm_u034",
+    "name": "方向导数与梯度",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 34",
+    "type": "conceptual",
+    "description": "可微函数沿单位方向的导数是梯度与该单位向量的点积。梯度非零时，它指向函数一阶增长最快的方向；梯度为零时，各单位方向的一阶方向导数均为0，不能由零梯度指定方向。",
+    "mastery_criteria": [
+      "能说明方向导数与梯度的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.6 Directional Derivatives and the Gradient",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53940/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f=x²+y² 在 (1,2) 的梯度是什么？",
+      "answer": "(2,4)"
+    }
+  },
+  {
+    "id": "cnm_u035",
+    "name": "多元函数极值",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 35",
+    "type": "conceptual",
+    "description": "求驻点后检查 Hessian 或其他条件；二元函数二阶判别中的行列式为零时，判别不能直接下结论。",
+    "mastery_criteria": [
+      "能说明多元函数极值的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.7 Maxima/Minima Problems",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53942/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "f=x²+y² 在 (0,0) 是什么类型？",
+      "answer": "严格极小值点"
+    }
+  },
+  {
+    "id": "cnm_u036",
+    "name": "拉格朗日乘数法",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第六章 空间与多元微分 36",
+    "type": "conceptual",
+    "description": "在正则等式约束下，极值候选点满足目标梯度与约束梯度平行。候选点仍须比较，退化约束点要另查。",
+    "mastery_criteria": [
+      "能说明拉格朗日乘数法的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "4.8 Lagrange Multipliers",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53943/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "在 x+y=4 下，x²+y² 的最小值是多少？",
+      "answer": "8"
+    }
+  },
+  {
+    "id": "cnm_u037",
+    "name": "二重积分与累次积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第七章 多元积分 37",
+    "type": "conceptual",
+    "description": "在适当连续性条件下，可把二重积分化为累次积分；先画区域，明确内外积分的上下限。",
+    "mastery_criteria": [
+      "能说明二重积分与累次积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.2 Double Integrals over General Regions",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53963/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "在矩形 0≤x≤1、0≤y≤2 上，∬(x+y)dA 等于多少？",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_u038",
+    "name": "极坐标二重积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第七章 多元积分 38",
+    "type": "conceptual",
+    "description": "极坐标中 x=r cosθ、y=r sinθ，面积元是 r dr dθ，不能遗漏雅可比因子 r。",
+    "mastery_criteria": [
+      "能说明极坐标二重积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.3 Double Integrals in Polar Coordinates",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53966/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "单位圆盘上的 ∬1 dA 等于多少？",
+      "answer": "π"
+    }
+  },
+  {
+    "id": "cnm_u039",
+    "name": "三重积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第七章 多元积分 39",
+    "type": "conceptual",
+    "description": "三重积分累积空间区域中的量。常数 1 的三重积分等于体积，可按区域边界设三层限。",
+    "mastery_criteria": [
+      "能说明三重积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.4 Triple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53965/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "在长方体 [0,1]×[0,2]×[0,3] 上，∭1 dV 等于多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_u040",
+    "name": "重积分换元与雅可比",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第七章 多元积分 40",
+    "type": "conceptual",
+    "description": "在适当的一一可微变换下，面积或体积元乘以雅可比行列式的绝对值；符号不能当作负面积。",
+    "mastery_criteria": [
+      "能说明重积分换元与雅可比的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "5.7 Change of Variables in Multiple Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53970/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "x=2u、y=3v 时，二重积分面积元的缩放因子为多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_u041",
+    "name": "曲线积分",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 41",
+    "type": "conceptual",
+    "description": "第一类曲线积分对弧长积分；向量场的做功积分对位移积分，方向反转时做功积分变号。",
+    "mastery_criteria": [
+      "能说明曲线积分的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.2 Line Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54012/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "沿线段 (0,0)→(2,0)，∫C 1 ds 等于多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_u042",
+    "name": "格林公式",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 42",
+    "type": "conceptual",
+    "description": "平面正向闭曲线上的做功积分可转为区域内 ∂Q/∂x−∂P/∂y 的二重积分；需满足边界与光滑性条件。",
+    "mastery_criteria": [
+      "能说明格林公式的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.4 Green’s Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53982/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "C 为单位圆逆时针边界，∮C x dy 等于多少？",
+      "answer": "π"
+    }
+  },
+  {
+    "id": "cnm_u043",
+    "name": "曲面积分与通量",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 43",
+    "type": "conceptual",
+    "description": "第一类曲面积分对面积累积，通量积分还需指定单位法向。相反的定向使通量积分变号。",
+    "mastery_criteria": [
+      "能说明曲面积分与通量的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.6 Surface Integrals",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54004/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "F=(0,0,3) 穿过 z=0 平面内面积为 2 的面片，取向上法向，通量是多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_u044",
+    "name": "散度与旋度",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 44",
+    "type": "conceptual",
+    "description": "散度是向量场各对应偏导的和；旋度描述局部旋转。两者的输出分别是标量与向量。",
+    "mastery_criteria": [
+      "能说明散度与旋度的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.5 Divergence and Curl",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m53986/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "F=(x,2y,3z) 的散度是多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_u045",
+    "name": "高斯散度定理",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 45",
+    "type": "conceptual",
+    "description": "闭曲面向外通量等于内部散度的三重积分。要求向量场在区域附近足够光滑，不能忽略奇点。",
+    "mastery_criteria": [
+      "能说明高斯散度定理的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.8 The Divergence Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54001/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "F=(x,y,z) 穿过单位立方体闭合表面的向外通量是多少？",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_u046",
+    "name": "斯托克斯公式",
+    "subject": "math",
+    "domain": "高等数学",
+    "grade": 15,
+    "semester": "全",
+    "chapter": "高等数学 第八章 向量积分 46",
+    "type": "conceptual",
+    "description": "边界环流与曲面上旋度通量相等，曲面法向与边界方向须遵守右手定向约定。",
+    "mastery_criteria": [
+      "能说明斯托克斯公式的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "openstax-calculus-3",
+      "title": "OpenStax · Calculus Volume 3",
+      "volume": "高等数学",
+      "section": "6.7 Stokes’ Theorem",
+      "url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml",
+      "source_url": "https://github.com/openstax/osbooks-calculus-bundle/blob/018da4da252bb9c56759e34396efea91852bcf5a/modules/m54009/index.cnxml"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "F=(−y/2,x/2,0)，C 是从 +z 方向看逆时针的单位圆。∮C F·dr=？",
+      "answer": "π"
+    }
+  },
+  {
+    "id": "cnm_l001",
+    "name": "矩阵、加法与数乘",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第一章 矩阵与方程组 1",
+    "type": "conceptual",
+    "description": "矩阵按行列排列数据。同型矩阵才能相加，数乘逐个作用于元素；m×n 表示 m 行 n 列。",
+    "mastery_criteria": [
+      "能说明矩阵、加法与数乘的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "A=[[1,2],[3,4]]，2A 的第二行第一列元素是多少？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_l002",
+    "name": "矩阵乘法",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第一章 矩阵与方程组 2",
+    "type": "conceptual",
+    "description": "矩阵相乘要求前者列数等于后者行数。结果元素为行与列的点积，乘法一般不能交换。",
+    "mastery_criteria": [
+      "能说明矩阵乘法的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.4",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-multiplication.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "A=[[1,2],[0,1]]，B=[[2,0],[3,1]]。AB 的第一行第一列元素是？",
+      "answer": "8"
+    }
+  },
+  {
+    "id": "cnm_l003",
+    "name": "初等行变换",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第一章 矩阵与方程组 3",
+    "type": "conceptual",
+    "description": "交换两行、用非零数乘一行、把另一行的倍数加到一行，均保持线性方程组的解集。",
+    "mastery_criteria": [
+      "能说明初等行变换的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "哪项不是保持解集的合法初等行变换？",
+      "answer": "把一整行乘以 0"
+    }
+  },
+  {
+    "id": "cnm_l004",
+    "name": "高斯消元与解的类型",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第一章 矩阵与方程组 4",
+    "type": "conceptual",
+    "description": "把增广矩阵化为阶梯形，通过主元、自由变量和矛盾行区分唯一解、无穷多解与无解。",
+    "mastery_criteria": [
+      "能说明高斯消元与解的类型的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "1.2",
+      "url": "https://textbooks.math.gatech.edu/ila/row-reduction.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "方程组 x+y=5、x−y=1 的解为？",
+      "answer": "x=3，y=2"
+    }
+  },
+  {
+    "id": "cnm_l005",
+    "name": "矩阵的秩",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第一章 矩阵与方程组 5",
+    "type": "conceptual",
+    "description": "矩阵的秩等于主元数，也等于列空间维数。行变换保持秩，秩不超过行数与列数中的较小者。",
+    "mastery_criteria": [
+      "能说明矩阵的秩的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "矩阵 [[1,2],[2,4]] 的秩是多少？",
+      "answer": "1"
+    }
+  },
+  {
+    "id": "cnm_l006",
+    "name": "行列式的计算",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第二章 行列式与逆矩阵 6",
+    "type": "conceptual",
+    "description": "行列式只对方阵定义。二阶行列式为 ad−bc；高阶可用行变换或展开计算。",
+    "mastery_criteria": [
+      "能说明行列式的计算的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "矩阵 [[3,1],[2,4]] 的行列式为多少？",
+      "answer": "10"
+    }
+  },
+  {
+    "id": "cnm_l007",
+    "name": "行列式的性质",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第二章 行列式与逆矩阵 7",
+    "type": "conceptual",
+    "description": "交换两行使行列式变号；一行乘 k 使行列式乘 k；把另一行的倍数加到某行不改变行列式。",
+    "mastery_criteria": [
+      "能说明行列式的性质的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.1",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "det(A)=5，B 由 A 交换两行得到。det(B)=？",
+      "answer": "−5"
+    }
+  },
+  {
+    "id": "cnm_l008",
+    "name": "逆矩阵与可逆条件",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第二章 行列式与逆矩阵 8",
+    "type": "conceptual",
+    "description": "方阵可逆表示存在矩阵与它相乘得到单位矩阵。可逆等价于行列式非零，也等价于满秩。",
+    "mastery_criteria": [
+      "能说明逆矩阵与可逆条件的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.5",
+      "url": "https://textbooks.math.gatech.edu/ila/matrix-inverses.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "A=diag(2,5)，A⁻¹ 是什么？",
+      "answer": "diag(1/2,1/5)"
+    }
+  },
+  {
+    "id": "cnm_l009",
+    "name": "克拉默法则",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第二章 行列式与逆矩阵 9",
+    "type": "conceptual",
+    "description": "方阵系数矩阵的行列式非零时，未知量可用替换列的行列式与系数行列式之比求出。",
+    "mastery_criteria": [
+      "能说明克拉默法则的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "4.2",
+      "url": "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "2x+y=7、x−y=2，用克拉默法则求 x。",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_l010",
+    "name": "线性组合与张成空间",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第三章 向量空间 10",
+    "type": "conceptual",
+    "description": "向量的线性组合是各向量数乘后相加；所有线性组合构成它们的张成空间。",
+    "mastery_criteria": [
+      "能说明线性组合与张成空间的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.2",
+      "url": "https://textbooks.math.gatech.edu/ila/spans.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "v₁=(1,0)、v₂=(0,1)，2v₁−3v₂ 等于什么？",
+      "answer": "(2,−3)"
+    }
+  },
+  {
+    "id": "cnm_l011",
+    "name": "线性相关与线性无关",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第三章 向量空间 11",
+    "type": "conceptual",
+    "description": "只有全零系数能把给定向量线性组合成零时，向量组线性无关；存在非零系数关系时线性相关。",
+    "mastery_criteria": [
+      "能说明线性相关与线性无关的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.5",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "向量 (1,0)、(0,1) 是否线性无关？",
+      "answer": "线性无关"
+    }
+  },
+  {
+    "id": "cnm_l012",
+    "name": "向量空间与子空间",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第三章 向量空间 12",
+    "type": "conceptual",
+    "description": "Rⁿ 的子空间含零向量，并对加法和数乘封闭。齐次线性方程的解集是子空间。",
+    "mastery_criteria": [
+      "能说明向量空间与子空间的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.6",
+      "url": "https://textbooks.math.gatech.edu/ila/subspaces.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "下列 R² 的子集中，哪个是子空间？",
+      "answer": "{(x,y): y=2x}"
+    }
+  },
+  {
+    "id": "cnm_l013",
+    "name": "基与维数",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第三章 向量空间 13",
+    "type": "conceptual",
+    "description": "空间的一组基既线性无关，又能张成整个空间。有限维空间的任意两组基具有相同的向量个数。",
+    "mastery_criteria": [
+      "能说明基与维数的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.7",
+      "url": "https://textbooks.math.gatech.edu/ila/dimension.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "R³ 的一组基包含多少个向量？",
+      "answer": "3"
+    }
+  },
+  {
+    "id": "cnm_l014",
+    "name": "秩与零空间维数",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第三章 向量空间 14",
+    "type": "conceptual",
+    "description": "对于 m×n 矩阵，秩与零空间维数之和为 n；齐次方程的自由变量个数为 n−rank(A)。",
+    "mastery_criteria": [
+      "能说明秩与零空间维数的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.9",
+      "url": "https://textbooks.math.gatech.edu/ila/rank-thm.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "A 有 5 列、秩为 3，则 Ax=0 的解空间维数是多少？",
+      "answer": "2"
+    }
+  },
+  {
+    "id": "cnm_l015",
+    "name": "线性映射与矩阵表示",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 15",
+    "type": "conceptual",
+    "description": "线性映射保持向量加法与数乘，特别地把零映到零。在选定基下可用矩阵表示。",
+    "mastery_criteria": [
+      "能说明线性映射与矩阵表示的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "3.3",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "下列 R→R 的映射哪个是线性的？",
+      "answer": "T(x)=3x"
+    }
+  },
+  {
+    "id": "cnm_l016",
+    "name": "基下坐标与换基",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 16",
+    "type": "conceptual",
+    "description": "同一向量在不同基下的坐标可能不同。以基向量为列的矩阵把该基坐标变为标准坐标。",
+    "mastery_criteria": [
+      "能说明基下坐标与换基的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "2.8",
+      "url": "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "基 B=((1,0),(1,1)) 下，v=(3,2) 的坐标是？",
+      "answer": "(1,2)"
+    }
+  },
+  {
+    "id": "cnm_l017",
+    "name": "特征值与特征多项式",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 17",
+    "type": "conceptual",
+    "description": "特征值满足 det(A−λI)=0。三角矩阵的特征值为对角元素；重数与是否可对角化需要进一步分析。",
+    "mastery_criteria": [
+      "能说明特征值与特征多项式的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.2",
+      "url": "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "矩阵 [[2,1],[0,5]] 的特征值是什么？",
+      "answer": "2 和 5"
+    }
+  },
+  {
+    "id": "cnm_l018",
+    "name": "特征向量与特征子空间",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 18",
+    "type": "conceptual",
+    "description": "特征向量必须非零且满足 Av=λv；求给定特征值的特征向量，可解齐次方程 (A−λI)v=0。",
+    "mastery_criteria": [
+      "能说明特征向量与特征子空间的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.1",
+      "url": "https://textbooks.math.gatech.edu/ila/eigenvectors.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "A=diag(2,3)，哪个是特征值 2 的特征向量？",
+      "answer": "(1,0)"
+    }
+  },
+  {
+    "id": "cnm_l019",
+    "name": "相似矩阵",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 19",
+    "type": "conceptual",
+    "description": "B=P⁻¹AP 表示同一线性变换在不同基下的矩阵。相似矩阵具有相同特征多项式、迹和行列式。",
+    "mastery_criteria": [
+      "能说明相似矩阵的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.3",
+      "url": "https://textbooks.math.gatech.edu/ila/similarity.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "B=P⁻¹AP 且 P 可逆。若 det(A)=6，det(B)=？",
+      "answer": "6"
+    }
+  },
+  {
+    "id": "cnm_l020",
+    "name": "矩阵对角化",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第四章 线性映射与特征结构 20",
+    "type": "conceptual",
+    "description": "n 阶矩阵在所讨论数域上可对角化，当且仅当存在 n 个线性无关特征向量。重特征值不自动意味着不可对角化。",
+    "mastery_criteria": [
+      "能说明矩阵对角化的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "5.4",
+      "url": "https://textbooks.math.gatech.edu/ila/diagonalization.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "2×2 实矩阵有两个不同的实特征值，是否能在实数域对角化？",
+      "answer": "能，因为对应特征向量线性无关"
+    }
+  },
+  {
+    "id": "cnm_l021",
+    "name": "内积与正交",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 21",
+    "type": "conceptual",
+    "description": "实向量的标准内积是对应分量乘积之和。内积为零称正交，非零向量的范数可由自身内积开方得到。",
+    "mastery_criteria": [
+      "能说明内积与正交的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.1",
+      "url": "https://textbooks.math.gatech.edu/ila/dot-product.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "(1,2) 与 (2,−1) 的内积是多少？",
+      "answer": "0"
+    }
+  },
+  {
+    "id": "cnm_l022",
+    "name": "施密特正交化",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 22",
+    "type": "conceptual",
+    "description": "从线性无关向量组依次减去已得到方向的投影，可得到张成同一空间的正交组，再归一化得标准正交组。",
+    "mastery_criteria": [
+      "能说明施密特正交化的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.4",
+      "url": "https://textbooks.math.gatech.edu/ila/orthogonal.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "v₁=(1,0)、v₂=(1,2)，先取 u₁=v₁，减去 v₂ 在 u₁ 上的投影后 u₂ 是？",
+      "answer": "(0,2)"
+    }
+  },
+  {
+    "id": "cnm_l023",
+    "name": "正交投影与最小二乘",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 23",
+    "type": "conceptual",
+    "description": "最小二乘使残差范数最小，解满足 AᵀAx=Aᵀb；当 A 的列线性无关时解唯一，残差与列空间正交。",
+    "mastery_criteria": [
+      "能说明正交投影与最小二乘的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "gatech-ila",
+      "title": "Margalit / Rabinoff · Interactive Linear Algebra",
+      "volume": "线性代数",
+      "section": "6.5",
+      "url": "https://textbooks.math.gatech.edu/ila/least-squares.html"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "把 b=(3,4) 正交投影到 x 轴，结果是？",
+      "answer": "(3,0)"
+    }
+  },
+  {
+    "id": "cnm_l024",
+    "name": "正交矩阵与实对称矩阵",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 24",
+    "type": "conceptual",
+    "description": "正交矩阵满足 QᵀQ=I，逆等于转置。实对称矩阵可用标准正交特征向量组成的矩阵作正交对角化。",
+    "mastery_criteria": [
+      "能说明正交矩阵与实对称矩阵的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.2",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.02:_Orthogonal_Diagonalization"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "Q 为实正交方阵，其逆矩阵等于什么？",
+      "answer": "Qᵀ"
+    }
+  },
+  {
+    "id": "cnm_l025",
+    "name": "二次型与合同变换",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 25",
+    "type": "conceptual",
+    "description": "实二次型可写成 xᵀAx，其中 A 取对称矩阵，交叉项系数由对称位置分担。令 x=Py 后矩阵变为 PᵀAP。",
+    "mastery_criteria": [
+      "能说明二次型与合同变换的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.9",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.09:_An_Application_to_Quadratic_Forms"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "q(x,y)=2x²+6xy+5y² 的对称矩阵是什么？",
+      "answer": "[[2,3],[3,5]]"
+    }
+  },
+  {
+    "id": "cnm_l026",
+    "name": "正定二次型",
+    "subject": "math",
+    "domain": "线性代数",
+    "grade": 16,
+    "semester": "全",
+    "chapter": "线性代数 第五章 正交与二次型 26",
+    "type": "conceptual",
+    "description": "实对称矩阵的二次型对所有非零向量均为正，称正定。等价判据包括特征值全正或各顺序主子式全正。",
+    "mastery_criteria": [
+      "能说明正定二次型的含义、适用条件与基本步骤",
+      "能独立完成本节点的基础计算或判断，并解释理由"
+    ],
+    "external": false,
+    "standards": [],
+    "textbook": {
+      "book": "nicholson-linear-algebra",
+      "title": "Nicholson · Linear Algebra with Applications",
+      "volume": "线性代数",
+      "section": "8.3",
+      "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/08:_Orthogonality/8.03:_Positive_Definite_Matrices"
+    },
+    "review_status": "AI 生成初稿，未经教师审核",
+    "diagnostic_question": {
+      "question": "q(x,y)=2x²+3y² 的类型是什么？",
+      "answer": "正定"
+    }
+  }
+]

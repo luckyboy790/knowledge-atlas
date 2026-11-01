@@ -1,0 +1,1124 @@
+[
+  {
+    "topicId": "uch_structure_002",
+    "prerequisiteId": "uch_structure_001",
+    "strength": "hard",
+    "reason": "用理想气体模型推导同温同体积下的组分压力（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_003",
+    "prerequisiteId": "uch_structure_001",
+    "strength": "hard",
+    "reason": "压缩因子以理想气体摩尔体积为比较基准（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_005",
+    "prerequisiteId": "uch_structure_004",
+    "strength": "soft",
+    "reason": "先区分量子态与经典轨道，再解释概率分布（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_006",
+    "prerequisiteId": "uch_structure_004",
+    "strength": "hard",
+    "reason": "用m_l取值数目统计轨道（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_007",
+    "prerequisiteId": "uch_structure_004",
+    "strength": "hard",
+    "reason": "四量子数是判断电子态是否相同的依据（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_008",
+    "prerequisiteId": "uch_structure_007",
+    "strength": "hard",
+    "reason": "洪特排布同时受同轨道最多两电子的限制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_009",
+    "prerequisiteId": "uch_structure_007",
+    "strength": "hard",
+    "reason": "电子构型必须满足轨道容量与不相容原理（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_009",
+    "prerequisiteId": "uch_structure_008",
+    "strength": "soft",
+    "reason": "未成对电子计数依赖基态轨道占据规则（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_010",
+    "prerequisiteId": "uch_structure_009",
+    "strength": "soft",
+    "reason": "周期趋势须结合电子层结构理解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_011",
+    "prerequisiteId": "uch_structure_010",
+    "strength": "hard",
+    "reason": "有效核吸引与电子层结构影响移除电子的能量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_012",
+    "prerequisiteId": "uch_structure_007",
+    "strength": "soft",
+    "reason": "电子对与单电子的计数须符合轨道电子容量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_013",
+    "prerequisiteId": "uch_structure_012",
+    "strength": "hard",
+    "reason": "先从路易斯结构识别成键域和孤电子对（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_014",
+    "prerequisiteId": "uch_structure_013",
+    "strength": "hard",
+    "reason": "局域成键模型需与实际几何构型相协调（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_015",
+    "prerequisiteId": "uch_structure_004",
+    "strength": "soft",
+    "reason": "分子轨道建立在量子态与轨道概念之上（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_016",
+    "prerequisiteId": "uch_structure_015",
+    "strength": "hard",
+    "reason": "键级与磁性必须从分子轨道的占据判断（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_016",
+    "prerequisiteId": "uch_structure_008",
+    "strength": "hard",
+    "reason": "简并分子轨道的占据采用洪特规则（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_017",
+    "prerequisiteId": "uch_structure_013",
+    "strength": "hard",
+    "reason": "偶极叠加必须先知道分子几何结构（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_018",
+    "prerequisiteId": "uch_structure_017",
+    "strength": "soft",
+    "reason": "先区分永久偶极与瞬时诱导偶极（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_019",
+    "prerequisiteId": "uch_structure_018",
+    "strength": "soft",
+    "reason": "在分子间作用分类中理解氢键的结构要求（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_021",
+    "prerequisiteId": "uch_structure_020",
+    "strength": "soft",
+    "reason": "晶体周期结构使不同晶面散射产生相干叠加（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_022",
+    "prerequisiteId": "uch_structure_020",
+    "strength": "hard",
+    "reason": "缺陷概念以完整晶格位置为参照（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_023",
+    "prerequisiteId": "uch_structure_012",
+    "strength": "soft",
+    "reason": "先区分总电荷与原子形式电荷等记账概念（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_024",
+    "prerequisiteId": "uch_structure_023",
+    "strength": "hard",
+    "reason": "比较构型前需正确确定配位数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_structure_024",
+    "prerequisiteId": "uch_structure_008",
+    "strength": "hard",
+    "reason": "磁性判断需能辨认未成对电子（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_002",
+    "prerequisiteId": "uch_thermodynamics_001",
+    "strength": "hard",
+    "reason": "能量守恒须区分系统状态变化与能量传递（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_003",
+    "prerequisiteId": "uch_thermodynamics_002",
+    "strength": "hard",
+    "reason": "需要统一功的正负号约定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_004",
+    "prerequisiteId": "uch_thermodynamics_002",
+    "strength": "hard",
+    "reason": "热容关系来自能量守恒和过程约束（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_004",
+    "prerequisiteId": "uch_structure_001",
+    "strength": "hard",
+    "reason": "理想气体状态方程是热容差推导的条件（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_005",
+    "prerequisiteId": "uch_thermodynamics_002",
+    "strength": "hard",
+    "reason": "恒压热与焓的关系需由完整能量平衡判断（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_005",
+    "prerequisiteId": "uch_thermodynamics_003",
+    "strength": "hard",
+    "reason": "识别体积功才能判断是否还有非体积功（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_006",
+    "prerequisiteId": "uch_thermodynamics_005",
+    "strength": "hard",
+    "reason": "焓是状态函数，才可对路径进行组合（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_007",
+    "prerequisiteId": "uch_thermodynamics_004",
+    "strength": "hard",
+    "reason": "需理解热容与温度变化的能量关系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_007",
+    "prerequisiteId": "uch_thermodynamics_006",
+    "strength": "hard",
+    "reason": "修正的是同一反应计量基准下的反应焓（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_008",
+    "prerequisiteId": "uch_thermodynamics_003",
+    "strength": "hard",
+    "reason": "比较过程功需理解外压随体积变化（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_009",
+    "prerequisiteId": "uch_thermodynamics_008",
+    "strength": "hard",
+    "reason": "熵定义中的可逆路径不能与任意缓慢过程混淆（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_010",
+    "prerequisiteId": "uch_thermodynamics_009",
+    "strength": "hard",
+    "reason": "总熵判据以系统和环境各自熵变的计算为基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_011",
+    "prerequisiteId": "uch_thermodynamics_005",
+    "strength": "hard",
+    "reason": "G由焓与温熵项共同决定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_011",
+    "prerequisiteId": "uch_thermodynamics_010",
+    "strength": "soft",
+    "reason": "恒温恒压的自由能判据可由总熵原则导出（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_012",
+    "prerequisiteId": "uch_thermodynamics_009",
+    "strength": "hard",
+    "reason": "使用温熵项需明确熵的单位与意义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_012",
+    "prerequisiteId": "uch_thermodynamics_002",
+    "strength": "hard",
+    "reason": "A以系统内能为组成量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_013",
+    "prerequisiteId": "uch_thermodynamics_011",
+    "strength": "hard",
+    "reason": "化学势是多组分体系G对组成变化的响应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_014",
+    "prerequisiteId": "uch_thermodynamics_013",
+    "strength": "soft",
+    "reason": "偏摩尔概念有助于区分整体量与组分增量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_015",
+    "prerequisiteId": "uch_thermodynamics_013",
+    "strength": "hard",
+    "reason": "活度把组成对化学势的影响写成可比较的标准态形式（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_016",
+    "prerequisiteId": "uch_thermodynamics_015",
+    "strength": "hard",
+    "reason": "反应商必须用与标准态相容的无量纲活度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_017",
+    "prerequisiteId": "uch_thermodynamics_016",
+    "strength": "hard",
+    "reason": "平衡是实际反应商达到K的状态（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_018",
+    "prerequisiteId": "uch_thermodynamics_017",
+    "strength": "hard",
+    "reason": "K与反应式计量基准和标准自由能对应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_019",
+    "prerequisiteId": "uch_thermodynamics_017",
+    "strength": "hard",
+    "reason": "需区分热力学平衡常数与当前组成商（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_019",
+    "prerequisiteId": "uch_thermodynamics_007",
+    "strength": "soft",
+    "reason": "更大温区的计算需处理反应焓随温度变化（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_020",
+    "prerequisiteId": "uch_thermodynamics_016",
+    "strength": "hard",
+    "reason": "应先用各组分分压建立Q再比较K（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_020",
+    "prerequisiteId": "uch_structure_002",
+    "strength": "hard",
+    "reason": "气体反应商使用组分分压而非总压（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_022",
+    "prerequisiteId": "uch_thermodynamics_013",
+    "strength": "soft",
+    "reason": "相平衡曲线来自两相化学势相等条件（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_022",
+    "prerequisiteId": "uch_thermodynamics_021",
+    "strength": "soft",
+    "reason": "相图上的共存线需与自由度联系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_023",
+    "prerequisiteId": "uch_thermodynamics_015",
+    "strength": "hard",
+    "reason": "溶液标准态的选取决定活度及常数表达（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_thermodynamics_024",
+    "prerequisiteId": "uch_thermodynamics_021",
+    "strength": "hard",
+    "reason": "需先明确处于两相区及相组成的含义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_002",
+    "prerequisiteId": "uch_kinetics_001",
+    "strength": "hard",
+    "reason": "速率方程中的v需先有明确归一化定义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_003",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "需要把速率比与浓度指数联系起来（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_004",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "k的量纲由浓度指数确定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_005",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "零级是浓度指数为零的特定速率规律（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_006",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "需先确定速率对A的一次依赖（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_007",
+    "prerequisiteId": "uch_kinetics_001",
+    "strength": "hard",
+    "reason": "积分式的k必须与所用消耗速率定义相符（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_007",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "积分形式取决于浓度指数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_008",
+    "prerequisiteId": "uch_kinetics_006",
+    "strength": "hard",
+    "reason": "准一级使用一级积分规律处理观察数据（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_008",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "需保留原始浓度指数以解释表观常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_009",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "温度通过k影响速率，需与浓度影响区分（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_010",
+    "prerequisiteId": "uch_kinetics_009",
+    "strength": "hard",
+    "reason": "解释活化能需与初末态能量差分开（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_010",
+    "prerequisiteId": "uch_thermodynamics_011",
+    "strength": "soft",
+    "reason": "热力学有利不能直接推出速率快（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_011",
+    "prerequisiteId": "uch_kinetics_002",
+    "strength": "hard",
+    "reason": "必须区别经验级数与机理中的粒子计数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_012",
+    "prerequisiteId": "uch_kinetics_011",
+    "strength": "hard",
+    "reason": "中间体属于多步骤机理的物种（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_013",
+    "prerequisiteId": "uch_kinetics_001",
+    "strength": "hard",
+    "reason": "需要分别计算物种的生成和消耗贡献（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_013",
+    "prerequisiteId": "uch_kinetics_012",
+    "strength": "soft",
+    "reason": "瞬时净积累为零与长期稳态近似应区分（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_014",
+    "prerequisiteId": "uch_kinetics_010",
+    "strength": "hard",
+    "reason": "催化改变势垒而非初末态能差（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_014",
+    "prerequisiteId": "uch_thermodynamics_017",
+    "strength": "hard",
+    "reason": "平衡常数由标准自由能决定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_015",
+    "prerequisiteId": "uch_kinetics_014",
+    "strength": "soft",
+    "reason": "吸附模型可帮助解释多相催化的位点效应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_017",
+    "prerequisiteId": "uch_kinetics_016",
+    "strength": "hard",
+    "reason": "曲面压力由表面张力与几何曲率决定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_kinetics_018",
+    "prerequisiteId": "uch_kinetics_016",
+    "strength": "hard",
+    "reason": "润湿由不同界面的自由能竞争决定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_002",
+    "prerequisiteId": "uch_solution_001",
+    "strength": "hard",
+    "reason": "离子强度必须使用一致的离子浓度标度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_002",
+    "prerequisiteId": "uch_thermodynamics_015",
+    "strength": "hard",
+    "reason": "活度系数是非理想性修正的概念基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_003",
+    "prerequisiteId": "uch_thermodynamics_023",
+    "strength": "hard",
+    "reason": "蒸气压下降使用溶剂的拉乌尔近似（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_004",
+    "prerequisiteId": "uch_solution_001",
+    "strength": "hard",
+    "reason": "依数性公式使用质量摩尔浓度而非任意浓度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_005",
+    "prerequisiteId": "uch_solution_001",
+    "strength": "hard",
+    "reason": "渗透压计算中浓度与R的单位必须相容（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_007",
+    "prerequisiteId": "uch_solution_006",
+    "strength": "hard",
+    "reason": "常数相乘关系只适用于共轭酸碱对（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_008",
+    "prerequisiteId": "uch_thermodynamics_015",
+    "strength": "hard",
+    "reason": "pH以无量纲活度作为对数自变量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_009",
+    "prerequisiteId": "uch_solution_007",
+    "strength": "hard",
+    "reason": "需知道酸解离常数的含义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_009",
+    "prerequisiteId": "uch_solution_008",
+    "strength": "hard",
+    "reason": "由氢离子活度或其稀溶液近似求pH（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_010",
+    "prerequisiteId": "uch_solution_007",
+    "strength": "hard",
+    "reason": "需正确使用碱的解离常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_010",
+    "prerequisiteId": "uch_solution_008",
+    "strength": "hard",
+    "reason": "pH与pOH的转换取决于温度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_011",
+    "prerequisiteId": "uch_solution_006",
+    "strength": "hard",
+    "reason": "逐级解离可逐对用共轭酸碱描述（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_011",
+    "prerequisiteId": "uch_solution_007",
+    "strength": "hard",
+    "reason": "每一级有独立常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_012",
+    "prerequisiteId": "uch_solution_006",
+    "strength": "hard",
+    "reason": "缓冲需由相应共轭酸碱共同构成（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_012",
+    "prerequisiteId": "uch_solution_009",
+    "strength": "soft",
+    "reason": "缓冲公式来自弱酸解离平衡（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_013",
+    "prerequisiteId": "uch_solution_012",
+    "strength": "hard",
+    "reason": "要先明确pH取决于共轭比（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_014",
+    "prerequisiteId": "uch_solution_007",
+    "strength": "hard",
+    "reason": "共轭常数关系可说明水解强弱（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_015",
+    "prerequisiteId": "uch_solution_012",
+    "strength": "hard",
+    "reason": "分布分数可由共轭比例进行换算（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_016",
+    "prerequisiteId": "uch_thermodynamics_017",
+    "strength": "hard",
+    "reason": "溶度积是指定溶解反应的平衡常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_017",
+    "prerequisiteId": "uch_solution_016",
+    "strength": "hard",
+    "reason": "沉淀判据需使用对应的Ksp表达式（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_018",
+    "prerequisiteId": "uch_solution_016",
+    "strength": "hard",
+    "reason": "需要从Ksp平衡关系解释共同离子影响（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_019",
+    "prerequisiteId": "uch_solution_017",
+    "strength": "hard",
+    "reason": "需以达到饱和的离子积阈值判断起点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_020",
+    "prerequisiteId": "uch_thermodynamics_018",
+    "strength": "hard",
+    "reason": "配位步骤的累积常数遵循反应相加规则（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_020",
+    "prerequisiteId": "uch_structure_023",
+    "strength": "hard",
+    "reason": "写配位平衡需识别配体与中心离子（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_021",
+    "prerequisiteId": "uch_solution_015",
+    "strength": "hard",
+    "reason": "条件常数需要知道游离配体的形态分布（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_021",
+    "prerequisiteId": "uch_solution_020",
+    "strength": "hard",
+    "reason": "要先明确形成常数对应的反应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_022",
+    "prerequisiteId": "uch_structure_023",
+    "strength": "hard",
+    "reason": "螯合首先需要理解配体齿数与配位数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_solution_022",
+    "prerequisiteId": "uch_solution_020",
+    "strength": "soft",
+    "reason": "稳定性比较应落实到明确平衡常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_002",
+    "prerequisiteId": "uch_electrochemistry_001",
+    "strength": "hard",
+    "reason": "电池图式与电极氧化还原角色相联系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_003",
+    "prerequisiteId": "uch_electrochemistry_002",
+    "strength": "hard",
+    "reason": "需要统一半反应方向以比较电势（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_004",
+    "prerequisiteId": "uch_electrochemistry_003",
+    "strength": "hard",
+    "reason": "标准电势和实际可逆电势需要区分（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_004",
+    "prerequisiteId": "uch_thermodynamics_016",
+    "strength": "hard",
+    "reason": "能斯特关系使用写定反应的活度商（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_005",
+    "prerequisiteId": "uch_electrochemistry_004",
+    "strength": "hard",
+    "reason": "Q与n必须正确才可使用能斯特方程（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_006",
+    "prerequisiteId": "uch_electrochemistry_004",
+    "strength": "hard",
+    "reason": "需要明确可逆电动势及电子计量数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_006",
+    "prerequisiteId": "uch_thermodynamics_011",
+    "strength": "hard",
+    "reason": "电池反应方向以吉布斯能变化判断（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_007",
+    "prerequisiteId": "uch_electrochemistry_006",
+    "strength": "hard",
+    "reason": "电势先转换为标准反应自由能（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_007",
+    "prerequisiteId": "uch_thermodynamics_017",
+    "strength": "hard",
+    "reason": "标准自由能再关联标准平衡常数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_008",
+    "prerequisiteId": "uch_electrochemistry_004",
+    "strength": "hard",
+    "reason": "浓差电动势由两侧能斯特电势之差给出（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_009",
+    "prerequisiteId": "uch_electrochemistry_004",
+    "strength": "hard",
+    "reason": "必须按能斯特方程检查反应商（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_009",
+    "prerequisiteId": "uch_solution_020",
+    "strength": "soft",
+    "reason": "配位改变游离金属离子的活度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_010",
+    "prerequisiteId": "uch_electrochemistry_001",
+    "strength": "hard",
+    "reason": "需由阴极或阳极反应写出电子计量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_011",
+    "prerequisiteId": "uch_electrochemistry_010",
+    "strength": "hard",
+    "reason": "理论产量由法拉第计量先计算（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_013",
+    "prerequisiteId": "uch_electrochemistry_012",
+    "strength": "hard",
+    "reason": "摩尔电导率以电导率而非直接电导计算（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_014",
+    "prerequisiteId": "uch_electrochemistry_012",
+    "strength": "soft",
+    "reason": "离子共同贡献溶液中的电流（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_015",
+    "prerequisiteId": "uch_electrochemistry_004",
+    "strength": "hard",
+    "reason": "需要先有平衡电极电势作参照（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_016",
+    "prerequisiteId": "uch_electrochemistry_015",
+    "strength": "hard",
+    "reason": "工作电压需要计入电极偏离平衡的代价（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_017",
+    "prerequisiteId": "uch_electrochemistry_001",
+    "strength": "hard",
+    "reason": "腐蚀的阴阳极以氧化还原定义判断（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_017",
+    "prerequisiteId": "uch_electrochemistry_015",
+    "strength": "soft",
+    "reason": "实际腐蚀电流受极化与传质等影响（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_electrochemistry_018",
+    "prerequisiteId": "uch_electrochemistry_010",
+    "strength": "soft",
+    "reason": "容量可由电荷与反应计量建立联系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_002",
+    "prerequisiteId": "uch_organic_001",
+    "strength": "hard",
+    "reason": "亲核/亲电角色由电子对转移定义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_003",
+    "prerequisiteId": "uch_structure_012",
+    "strength": "hard",
+    "reason": "共振需正确分配形式电荷与价电子（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_004",
+    "prerequisiteId": "uch_solution_006",
+    "strength": "hard",
+    "reason": "酸性比较需先识别其共轭碱（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_004",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "soft",
+    "reason": "需区分诱导效应与电子离域效应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_006",
+    "prerequisiteId": "uch_organic_005",
+    "strength": "hard",
+    "reason": "构象不能与不同连接的构造异构混淆（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_007",
+    "prerequisiteId": "uch_organic_006",
+    "strength": "soft",
+    "reason": "需区分构象互变与构型差异（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_008",
+    "prerequisiteId": "uch_organic_007",
+    "strength": "hard",
+    "reason": "R/S标记针对确定的手性构型（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_009",
+    "prerequisiteId": "uch_organic_007",
+    "strength": "hard",
+    "reason": "分类以整体手性和镜像关系为依据（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_009",
+    "prerequisiteId": "uch_organic_008",
+    "strength": "soft",
+    "reason": "多中心构型比较可用R/S辅助（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_010",
+    "prerequisiteId": "uch_organic_008",
+    "strength": "hard",
+    "reason": "E/Z使用与R/S相通的CIP优先序（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_011",
+    "prerequisiteId": "uch_organic_002",
+    "strength": "hard",
+    "reason": "亲电加成需要识别电子对提供与接受角色（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_011",
+    "prerequisiteId": "uch_structure_014",
+    "strength": "hard",
+    "reason": "烯烃的π键是反应电子来源（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_012",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "hard",
+    "reason": "芳香性要求整个环的电子离域（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_012",
+    "prerequisiteId": "uch_structure_014",
+    "strength": "hard",
+    "reason": "连续π轨道重叠是共轭的基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_013",
+    "prerequisiteId": "uch_organic_004",
+    "strength": "hard",
+    "reason": "取代基效应有诱导与共轭两个方面（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_013",
+    "prerequisiteId": "uch_organic_012",
+    "strength": "hard",
+    "reason": "亲电取代涉及芳香性的保持与恢复（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_014",
+    "prerequisiteId": "uch_organic_002",
+    "strength": "hard",
+    "reason": "SN2需有电子对提供者与可接受进攻的中心（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_014",
+    "prerequisiteId": "uch_organic_008",
+    "strength": "soft",
+    "reason": "产物构型字母需按CIP重新判断（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_015",
+    "prerequisiteId": "uch_organic_014",
+    "strength": "soft",
+    "reason": "与协同SN2比较可辨认不同速率与立体后果（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_016",
+    "prerequisiteId": "uch_organic_006",
+    "strength": "hard",
+    "reason": "环构象决定β-H与离去基团相对方向（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_016",
+    "prerequisiteId": "uch_organic_014",
+    "strength": "soft",
+    "reason": "协同机理有助于理解消除与取代的差异（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_017",
+    "prerequisiteId": "uch_organic_014",
+    "strength": "hard",
+    "reason": "需要理解SN2对空间接近的要求（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_017",
+    "prerequisiteId": "uch_organic_016",
+    "strength": "hard",
+    "reason": "需要理解E2的碱性和构象要求（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_018",
+    "prerequisiteId": "uch_organic_005",
+    "strength": "hard",
+    "reason": "官能团性质需结合原子连接方式（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_019",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "hard",
+    "reason": "酚氧负离子稳定性涉及共振离域（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_019",
+    "prerequisiteId": "uch_solution_006",
+    "strength": "hard",
+    "reason": "需以共轭酸碱关系解释酸性（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_020",
+    "prerequisiteId": "uch_organic_001",
+    "strength": "hard",
+    "reason": "机理箭头必须由电子来源画向去处（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_020",
+    "prerequisiteId": "uch_organic_002",
+    "strength": "hard",
+    "reason": "需区分羰基亲电中心与亲核试剂（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_021",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "hard",
+    "reason": "必须区分电子离域与质子迁移（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_021",
+    "prerequisiteId": "uch_organic_020",
+    "strength": "soft",
+    "reason": "有助于联系羰基电子结构，但理解α位酸性不要求先掌握亲核加成机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_022",
+    "prerequisiteId": "uch_organic_020",
+    "strength": "hard",
+    "reason": "酰基取代先包含羰基亲核加成步骤（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_023",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "hard",
+    "reason": "需要理解共振造成的电子离域（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_023",
+    "prerequisiteId": "uch_organic_022",
+    "strength": "soft",
+    "reason": "有助于联系羧酸衍生物，但酰胺共振性质不要求先掌握酰基取代机制（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_024",
+    "prerequisiteId": "uch_organic_002",
+    "strength": "hard",
+    "reason": "碱性评价不同于一般亲核反应速度（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_024",
+    "prerequisiteId": "uch_organic_003",
+    "strength": "hard",
+    "reason": "芳胺的碱性还涉及共轭效应（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_025",
+    "prerequisiteId": "uch_organic_012",
+    "strength": "hard",
+    "reason": "杂环的孤电子对是否参与π体系影响芳香计数（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_025",
+    "prerequisiteId": "uch_organic_024",
+    "strength": "hard",
+    "reason": "可用于质子结合的孤对决定碱性趋势（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_organic_026",
+    "prerequisiteId": "uch_organic_005",
+    "strength": "hard",
+    "reason": "官能团与连接方式决定聚合反应可能性（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_002",
+    "prerequisiteId": "uch_analysis_001",
+    "strength": "soft",
+    "reason": "背景控制需对应完整分析流程（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_003",
+    "prerequisiteId": "uch_analysis_002",
+    "strength": "soft",
+    "reason": "质量控制有助于识别重复读数看不出的偏差（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_004",
+    "prerequisiteId": "uch_analysis_003",
+    "strength": "hard",
+    "reason": "偏差需相对明确参考值进行表示（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_006",
+    "prerequisiteId": "uch_analysis_003",
+    "strength": "hard",
+    "reason": "精密度可通过重复结果的离散程度量化（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_007",
+    "prerequisiteId": "uch_analysis_006",
+    "strength": "hard",
+    "reason": "区间计算需要样本标准差与标准误（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_008",
+    "prerequisiteId": "uch_analysis_007",
+    "strength": "hard",
+    "reason": "统计判断必须与模型、样本量和不确定度联系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_009",
+    "prerequisiteId": "uch_analysis_002",
+    "strength": "soft",
+    "reason": "校准前需要明确背景是否已扣除（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_010",
+    "prerequisiteId": "uch_analysis_009",
+    "strength": "hard",
+    "reason": "标准加入仍依赖适用的响应模型（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_011",
+    "prerequisiteId": "uch_analysis_009",
+    "strength": "hard",
+    "reason": "内标法需要建立响应比与含量的校准关系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_012",
+    "prerequisiteId": "uch_analysis_006",
+    "strength": "hard",
+    "reason": "噪声波动需由适当标准差表示（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_012",
+    "prerequisiteId": "uch_analysis_009",
+    "strength": "hard",
+    "reason": "检出限浓度换算依赖响应斜率（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_014",
+    "prerequisiteId": "uch_analysis_013",
+    "strength": "hard",
+    "reason": "选择指示范围需先区分终点与计量点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_014",
+    "prerequisiteId": "uch_solution_014",
+    "strength": "hard",
+    "reason": "计量点的酸碱性取决于生成盐的水解（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_015",
+    "prerequisiteId": "uch_analysis_013",
+    "strength": "hard",
+    "reason": "滴定计算基于明确的计量点关系（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_015",
+    "prerequisiteId": "uch_solution_021",
+    "strength": "hard",
+    "reason": "条件形成常数影响滴定反应是否充分（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_016",
+    "prerequisiteId": "uch_analysis_013",
+    "strength": "hard",
+    "reason": "滴定计算需先确定化学计量（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_016",
+    "prerequisiteId": "uch_electrochemistry_001",
+    "strength": "hard",
+    "reason": "氧化还原角色由电子得失界定（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_017",
+    "prerequisiteId": "uch_analysis_013",
+    "strength": "hard",
+    "reason": "需区分沉淀滴定计量点与观察终点（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_017",
+    "prerequisiteId": "uch_solution_016",
+    "strength": "hard",
+    "reason": "反应完全程度与溶度积相关（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_018",
+    "prerequisiteId": "uch_analysis_009",
+    "strength": "soft",
+    "reason": "定量吸收可作为线性校准模型的物理基础（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_019",
+    "prerequisiteId": "uch_analysis_018",
+    "strength": "hard",
+    "reason": "吸光度需先有与光传播相容的定义（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_020",
+    "prerequisiteId": "uch_structure_017",
+    "strength": "hard",
+    "reason": "红外活性涉及偶极矩而非仅分子总电荷（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_021",
+    "prerequisiteId": "uch_analysis_018",
+    "strength": "soft",
+    "reason": "定量光谱需检查线性适用范围（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_025",
+    "prerequisiteId": "uch_analysis_024",
+    "strength": "hard",
+    "reason": "分离度需要明确各峰保留时间与时间基准（AI学习建议，未经教师审核）"
+  },
+  {
+    "topicId": "uch_analysis_026",
+    "prerequisiteId": "uch_analysis_024",
+    "strength": "hard",
+    "reason": "选择技术需理解流动相与固定相共同决定分离（AI学习建议，未经教师审核）"
+  }
+]
