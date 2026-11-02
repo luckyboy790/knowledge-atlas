@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "task": "v17-tcm-herbal-merge",
+  "checked_date": "2026-11-02",
+  "canonical_subject": "tcm",
+  "canonical_subject_name": "中医药",
+  "evidence_policy": "原有教材记录定位节点；大学官方大纲佐证稳定学科衔接。边是本项目学习建议，不是官方规定的知识点级先修表。传统理论和现代机制/质量/临床证据分别处理。",
+  "selected_book_records": [
+    {
+      "original_subject": "tcm",
+      "source_record_path": "data/tcm-sources.json",
+      "source_record_file_sha256": "ec89243e08c197b2ba2d41ae902177a57431cfb9b6c41e3519e5cea14afe830c",
+      "book_id": "tcm_basic6_2026",
+      "title": "中医基础理论（第6版）",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524703235",
+      "publication_date": "2026-06",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方旗舰店书目字段、实物封面及3页公开目录已核验；未逐页读取教材全文。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "tcm",
+      "source_record_path": "data/tcm-sources.json",
+      "source_record_file_sha256": "ec89243e08c197b2ba2d41ae902177a57431cfb9b6c41e3519e5cea14afe830c",
+      "book_id": "tcm_diagnostic6_2026",
+      "title": "中医诊断学（第6版）",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524700210",
+      "publication_date": "2026-03",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方旗舰店单书实物封面、公开目录与同店套装书目已核验；套装的版次字段不作单书版次。目录第5张下半部图片未完整读取，不据此填写未读章节；未逐页读取教材全文。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "tcm",
+      "source_record_path": "data/tcm-sources.json",
+      "source_record_file_sha256": "ec89243e08c197b2ba2d41ae902177a57431cfb9b6c41e3519e5cea14afe830c",
+      "book_id": "tcm_formula6_2026",
+      "title": "方剂学（第6版）",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524702672",
+      "publication_date": "2026-07",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方旗舰店实物封面及8页目录已核验；ISBN与出版月份由中医书院公开书目交叉核对，未直接看到版权页；未逐页读取教材全文。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "tcm",
+      "source_record_path": "data/tcm-sources.json",
+      "source_record_file_sha256": "ec89243e08c197b2ba2d41ae902177a57431cfb9b6c41e3519e5cea14afe830c",
+      "book_id": "tcm_acupuncture6_2026",
+      "title": "针灸学（第6版）",
+      "edition": "单书第6版；规划教材系列第12版",
+      "isbn": "9787524707080",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=2x4ibzkcdz6dswd",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方旗舰店实物封面及经络、腧穴总论目录已核验；ISBN由公开书目交叉核对。不同书目出版月份为2026-07或2026-08，未独立核实版权页，故仅记录年份；未逐页读取教材全文。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_materia6",
+      "title": "中药学",
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700265",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_identification6",
+      "title": "中药鉴定学",
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524704287",
+      "publication_date": "2026-05",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3f58nl70vvmfhnt",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "full_text_verified": false,
+      "existing_verification_statement": "官方微商城与高校2026秋教材清单交叉核实主编、ISBN、2026年5月第6版；未逐页读取教材或转录目录图片，节点采用主题定位。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_chemistry5",
+      "title": "中药化学",
+      "edition": "第5版（新世纪第五版）",
+      "isbn": "9787524707295",
+      "publication_date": "2026-08",
+      "source_url": "https://detail.youzan.com/show/goods?alias=364i9524c5rtcu2",
+      "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+      "full_text_verified": false,
+      "existing_verification_statement": "中国中医药出版社官方旗舰店确认书名、两位主编与第5版，高校2026秋教材清单确认ISBN和2026年8月；出版社官网新书栏亦列两位主编。未逐页读取教材，节点采用主题定位。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_processing6",
+      "title": "中药炮制学",
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700562",
+      "publication_date": "2026-03",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3ewm8xoordanhbe",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=3ewm8xoordanhbe",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方微商城列第6版、ISBN和2026年3月；湖北中医药大学2025年9月审定会新闻可交叉核对主编及系列，但审定会议本身不作为出版证明。目录图片未转录，节点为主题定位；不包含可执行的毒性药材加工参数。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_pharmaceutics6",
+      "title": "中药药剂学",
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524703259",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=3emqmhox7ne4dj9",
+      "catalog_url": "https://opac.ouc.edu.cn/mspace/searchDetailLocal/m2e9ca52024501868c9166c740ecbfc9e",
+      "full_text_verified": false,
+      "existing_verification_statement": "官方微商城与中国海洋大学馆藏MARC交叉核实2026年第6版、ISBN及十五五/第十二版系列。馆藏摘要确认中药调剂、制药卫生、原辅料、剂型等主题；未逐页读取全书，不编造未读取的节号。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    },
+    {
+      "original_subject": "herbal",
+      "source_record_path": "data/herbal-sources.json",
+      "source_record_file_sha256": "977966c0c8d8868319529a26d700b31f522458c5e5406c563a6bd23180ccc485",
+      "book_id": "herbal_book_pharmacology6",
+      "title": "中药药理学",
+      "edition": "第6版（新世纪第六版）",
+      "isbn": "9787524700364",
+      "publication_date": "2026",
+      "source_url": "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z",
+      "catalog_url": "https://detail.youzan.com/show/goods?alias=27cj5qf27k1b19z",
+      "full_text_verified": false,
+      "existing_verification_statement": "出版社官方微商城列第6版、ISBN与实物/目录/编写说明图片，标2026-02；成都中医药大学2026-10-15页面又记9月12日同主编十五五教材定稿会，时间存在未解决冲突。故出版年份记2026，月份待版权页复核，不能宣称该书日期信息完全一致。目录图片未转录，节点采用主题定位。",
+      "use_in_this_task": "继承项目原有书目身份和节点定位，不重新宣称已读2026新版教材全文。"
+    }
+  ],
+  "official_web_sources": [
+    {
+      "id": "bucm_basics_preface",
+      "title": "《中医基础理论》教学大纲（本科）—前言",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_4a.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn319view2"
+      ],
+      "read_scope": "正文前言与适用范围；网页行0–16。",
+      "finding": "课程包含藏象、气血津液、经络和病机等，并明确为中药、方剂等后续课程奠基。",
+      "boundary": "网页未标发布日期；仅支持稳定的学科衔接，不证明2026年第6版教材内容或所有节点都应设为hard。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_materia_preface",
+      "title": "《中药学》教学大纲（本科）—前言",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_21a.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn322view2"
+      ],
+      "read_scope": "适用范围、学习要求与授课要求；网页行0–23。",
+      "finding": "将中药学置于方剂学之前，要求用中医理论解释药性和功效主治，并比较配伍后的传统性能。",
+      "boundary": "未注明发布日期的教学网页，不作为最新版教材全文、现行药品清单或临床有效性依据。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_materia_outline",
+      "title": "《中药学》教学大纲（本科）—教学要求和内容",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_21b.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn319view1",
+        "turn331view0"
+      ],
+      "read_scope": "总论第三至第五章、解表/理气/活血化瘀/化痰止咳平喘/补虚药对应段落；实际读取网页行0–332，不转存全文。",
+      "finding": "目录分别组织四气、五味、升降浮沉、归经、配伍及各药类；补虚药以气血阴阳四类组织。",
+      "boundary": "历史或未标日期大纲含旧药物清单；只使用概念和课程分类，不沿用其药品收载、安全、用量或操作要求。不得充作2026版中药学逐章核验。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ucas_materia",
+      "title": "中药学概论课程大纲",
+      "publisher": "中国科学院大学教务系统",
+      "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/307177",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view3"
+      ],
+      "read_scope": "课程基本信息、预修课程和总论至第九章的内容；网页行0–83。",
+      "finding": "预修课程列中医基础理论和中医诊断学，分别列出药性、配伍及行气、活血、化痰等学习主题。",
+      "boundary": "课程层级的前修只能佐证学科关系，具体node级soft关系由本项目独立判断；未将此课程称为2026版指定教材。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ahtcm_formulas_tcm_2023",
+      "title": "方剂学教学大纲（中医学专业）",
+      "publisher": "安徽中医药大学中医学院审定、教务处印发",
+      "url": "https://gjjk.ahtcm.edu.cn/__local/C/8B/45/7B425128D2125A6475C975BFD1D_01590C3F_5F592.pdf",
+      "date": "2023-06",
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn322view0",
+        "turn322view1"
+      ],
+      "read_scope": "印刷第1–7页中的先修、总论组方/剂型和解表剂内容；检索文本行0–230。未宣称全23页均已逐项审读。",
+      "finding": "先修为中医基础、诊断和中药；总论包括剂型、君臣佐使与方剂变化；解表剂教学联系药物配伍。",
+      "boundary": "此2023大纲选用方剂学第5版；用于稳定课程关系，不替代项目记录的2026第6版目录，更不证明临床疗效。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ahtcm_formulas_herbal_2023",
+      "title": "方剂学教学大纲（中药学专业）",
+      "publisher": "安徽中医药大学中医学院审定、教务处印发",
+      "url": "https://gjjk.ahtcm.edu.cn/__local/0/FE/1E/18660A3063DCE10054FD03DB389_A65ADCB0_482A9.pdf",
+      "date": "2023-06",
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view0"
+      ],
+      "read_scope": "课程基本信息与教学目标、所用教材；印刷第1页及其后教材段；文本行0–57。",
+      "finding": "中药学专业的方剂课程先修中医学基础和临床中药学，后续课程列中药药剂学及中成药学。",
+      "boundary": "使用科学出版社另一系列方剂教材；仅验证课程衔接，不混同本项目方剂第6版书目。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_pharmaceutics_outline",
+      "title": "《中药药剂学》教学大纲（本科）",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_79a1.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view2"
+      ],
+      "read_scope": "前言、绪论与剂型分类、质量依据；网页行0–59，实际用作依据为8–22行。",
+      "finding": "分别讲授药剂学术语、剂型分类和药剂质量依据，支持将传统剂型概括与具体制剂知识衔接。",
+      "boundary": "只核概念衔接，不采用旧质量标准、工艺或操作细则；不是最新版中药药剂学全文证据。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "gxtcmu_processing_outline",
+      "title": "《中药炮制学》教学大纲",
+      "publisher": "广西中医药大学中药学国家级实验教学示范中心",
+      "url": "https://www.gxtcmu.edu.cn/zyxgjjsfzx/syjx/jxdg/zypzxjxdg",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn331view1"
+      ],
+      "read_scope": "前言开设目的；正文行226–234。",
+      "finding": "整体课程位于中医学基础、中药、方剂、鉴定与化学等之后。",
+      "boundary": "仅供排除判断：整门课程前后关系不足以证明当前抽象炮制节点需要某个方剂节点，故未据此新增炮制/鉴定跨块边。",
+      "used_for_new_edges": false,
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    }
+  ],
+  "limits": [
+    "未新增或改写任何原知识点、题目、书目、证据标签。",
+    "未读取所选2026教材全文；原书目录已核与未核的原有边界保留。",
+    "大学大纲可能较旧；本次只用其稳定的课程概念与关系，不沿用药品清单、剂量、处方或操作。",
+    "未访问个人健康数据；全部为学术课程结构研究。"
+  ]
+}

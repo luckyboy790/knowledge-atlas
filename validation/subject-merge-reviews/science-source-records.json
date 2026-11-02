@@ -1,0 +1,159 @@
+{
+  "version": "v17-science-sources-1",
+  "checked_date": "2026-11-02",
+  "scope": "为物理、化学合并图谱的中学到大学先修桥提供课程定位与教学基础证据。",
+  "interpretation": "出版社目录证明所选书中含相应主题，高校大纲证明课程所需基础范围；节点级依赖、hard/soft 强度及条件是项目教学推断。没有一本来源逐条给出了本项目的 72 条边。",
+  "sources": [
+    {
+      "id": "hep-physics-upper",
+      "title": "普通物理学（第八版）上册",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+      "edition": "第八版",
+      "isbn": "9787040578904",
+      "publication_month": "2022-11",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": ["turn321view0", "turn323view0"],
+      "actual_read_scope": "网页书目信息及目录第 1—9 章；重点复读 §1-1、§1-5、§2-2、§2-4、§2-5、§3-1—3-3、§3-6、§4-2、§5-1—5-2、§6-1、§6-5、§7-1—7-4、§8-1—8-5、§9-1。网页抽取行 98—379。",
+      "summary": "目录将运动量与运动定律、动量和功、刚体及流体、相对论、气体动理论、热力学、静电场、恒流磁场和电磁感应列为相应学习内容，可核对候选桥的大学端定位。",
+      "limitations": "实读的是官方目录和书目信息；未读此书全文，目录顺序不等于逐条先修规定；2026-04 为印次时间，不作新版日期。"
+    },
+    {
+      "id": "hep-physics-lower",
+      "title": "普通物理学（第八版）下册",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+      "edition": "第八版",
+      "isbn": "9787040585704",
+      "publication_month": "2022-12",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": ["turn321view1", "turn323view1", "turn332view3"],
+      "actual_read_scope": "网页书目信息和第 10—15 章目录；重点复读 §10-1、§11-1—11-2、§12-1—12-2、§12-7、§12-12、§13-1、§13-5、§15-1—15-3。网页抽取行 119—359。",
+      "summary": "可见振动表达式、波函数、几何与波动光学、早期量子论和核物理的定位，支持从中学定性模型走向大学函数表达和模型限制的衔接。",
+      "limitations": "未读完整教材正文；下册出版年月沿用本次高教社选书页显示，原数据对 Abook 日期差异的记录继续保留；最新印次不当新版。"
+    },
+    {
+      "id": "hep-general-chemistry",
+      "title": "大学化学（第3版）",
+      "publisher_or_institution": "高等教育出版社；天津大学大学化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+      "edition": "第3版",
+      "isbn": "9787040655612",
+      "publication_month": "2025-12",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": ["turn320view0", "turn323view2", "turn336view0"],
+      "actual_read_scope": "书目信息及目录，重点复读 1.1.1 气体模型、4.1—4.5 溶液及平衡、6.2—6.5 原子/化学键/晶体、7.1—7.4 配位、8.5.3 高分子合成。网页抽取行 115—337。",
+      "summary": "同一总框架中列有气体、热化学、动力学、离子平衡、电化学、结构和配位等内容；高分子合成属于第 8 章材料化学。相关大学端映射与此一致。",
+      "limitations": "只核对书目信息及目录；不把全部原理细节说成已逐页验证，也不称其为全国所有高校唯一统一课本。"
+    },
+    {
+      "id": "hep-physical-chemistry-upper",
+      "title": "物理化学（第七版）（上册）",
+      "publisher_or_institution": "高等教育出版社；天津大学物理化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+      "edition": "第七版",
+      "isbn": "9787040618174",
+      "publication_month": "2024-04",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": ["turn320view1", "turn332view0"],
+      "actual_read_scope": "第 1—6 章目录，重点复读 §2.1 状态与过程概念、§2.7—2.8 反应焓、§4.8 活度、§5.1—5.2 方向及平衡、§6.1 相律。网页抽取行 100—339。",
+      "summary": "本书从热力学系统和状态量进入反应焓与热力学势，再处理多组分、化学平衡和相平衡，可支持这些桥的课程位置和由条件化热化学到一般热力学的范围差别。",
+      "limitations": "未读完整教材正文。页面规划教材标签和简介有不同表述，本轮不据此更改原版次信息；目录先后不作为 hard 的充分理由。"
+    },
+    {
+      "id": "hep-physical-chemistry-lower",
+      "title": "物理化学（第七版）（下册）",
+      "publisher_or_institution": "高等教育出版社；天津大学物理化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+      "edition": "第七版",
+      "isbn": "9787040620603",
+      "publication_month": "2024-05",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": ["turn329view1"],
+      "actual_read_scope": "书目信息及目录至 §11.9；重点复读 §7.1 电极与电量、§7.3 电导、§7.6—7.9 电池、§10.1 界面张力、§11.1 速率、§11.4 活化能。网页抽取行 114—322。",
+      "summary": "官方目录将电解质、电极过程、法拉第定律、电导、电池热力学以及反应速率和活化能列入大学内容；界面张力在单列的界面现象章中。",
+      "limitations": "本轮未读完整正文，也未把全部第 11—12 章目录都声称重新实读；用到的桥均在上述已读部分定位。"
+    },
+    {
+      "id": "hep-organic-chemistry",
+      "title": "有机化学（第七版）",
+      "publisher_or_institution": "高等教育出版社；天津大学有机化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+      "edition": "第七版",
+      "isbn": "9787040636840",
+      "publication_month": "2024-12",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": ["turn330view0", "turn333view0", "turn333view1"],
+      "actual_read_scope": "书目信息及第 1—20 章目录，重点复读 1.3—1.4、1.7、3.3.3、6.2、11.5.1、13.3.1—13.3.2。网页抽取行 118—560。",
+      "summary": "结构式与共价键放在入门部分，立体化学和各类官能团反应另行展开；醛酮亲核加成和羧酸衍生物酰基取代有不同课程位置。",
+      "limitations": "未读全文；机理边仅以目录为主题定位佐证，具体电子计数、结构识别和强弱关系来自本项目对节点内容的判断。"
+    },
+    {
+      "id": "hep-analytical-chemistry",
+      "title": "分析化学（化学“101计划”核心教材）",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+      "edition": "网页未标具体版次，以 ISBN 识别",
+      "isbn": "9787040657067",
+      "publication_month": "2025-12",
+      "latest_printing_month_observed": "2025-12",
+      "retrieval_refs": ["turn330view1", "turn332view1"],
+      "actual_read_scope": "书目信息及第 1—11 章目录的可见部分；重点复读 1.3 质量控制、2.3 校正、3.2 滴定、第 5 章原子光谱、6.1 质谱、8.1 色谱和9.2 氢核磁谱。网页抽取行 118—378。",
+      "summary": "目录区分分析数据处理、平衡与滴定、光谱、质谱、色谱及波谱内容，能核对校准、计量、能级、分配与结构鉴定桥的大学端位置。",
+      "limitations": "未读教材全文；不从仪器章节的排列推出统一强制先修顺序。"
+    },
+    {
+      "id": "sustech-phy105",
+      "title": "PHY105 大学物理（上）课程详述",
+      "publisher_or_institution": "南方科技大学物理系；学校官方镜像站",
+      "kind": "university_official_syllabus",
+      "url": "https://mirrors.sustech.edu.cn/courses/syllabus/PHY105.pdf",
+      "retrieval_refs": ["turn329view0", "turn332view2"],
+      "actual_read_scope": "PDF共 7 页；实读第 1 页课程身份、第 4 页先修要求和目标、第 5—6 页课程内容。重点为第 12、15—17 项；抽取行 169—235。",
+      "summary": "大纲要求高中物理、代数和三角学，并说明课内使用微积分；课程涉及运动、力、能量、动量、转动、可选流体、振动波与热学，学习成果要求使用微积分和矢量表达。",
+      "limitations": "这是南科大该门课的大纲，不能当作全国高校统一要求；支持整体基础范围，不逐条证明本项目的每条 hard 边。未据搜索抓取日期断言大纲修订时间。"
+    },
+    {
+      "id": "nju-general-chemistry",
+      "title": "南京大学“大学化学（英文）”教学大纲",
+      "publisher_or_institution": "南京大学化学学院",
+      "kind": "university_official_syllabus",
+      "url": "https://chem.nju.edu.cn/63/9e/c15337a549790/page17.htm",
+      "page_date_observed": "2026-02-10",
+      "retrieval_refs": ["turn324search1", "turn326view1"],
+      "actual_read_scope": "完整教学大纲正文（页面第 17/17 页），重点实读先修要求、课程简介、要求和教学内容；网页抽取行 61—164。",
+      "summary": "网页明确以高中化学为先修，讲授原子、化学键、热力学、平衡和动力学等大学原理；所用英文教材与本项目高教社教材不同，作课程衔接的补充证据。",
+      "limitations": "仅代表该校该课；未将其使用的英文教材说成本项目采用教材，也不据整体先修要求把所有高中节点全部设为硬依赖。"
+    },
+    {
+      "id": "cstu-analysis-syllabus",
+      "title": "《分析化学课程教学大纲》说明",
+      "publisher_or_institution": "长春科技学院基础教研部",
+      "kind": "university_official_syllabus_explanation",
+      "url": "https://www.cstu.edu.cn/jcb/info/1083/1096.htm",
+      "page_date_observed": "2017-11-01",
+      "retrieval_refs": ["turn324search3", "turn328view0"],
+      "actual_read_scope": "正文第二、第三部分，特别是课程关系、误差与数据处理、滴定分析和吸光光度部分；网页抽取行 58—123。",
+      "summary": "说明列出普通化学及高等数学基础，并具体联系浓度、平衡、酸碱度、配液和化学计量与分析内容；它还讨论空白、校准和数据质量。这支持按实际使用的概念安排分析入口。",
+      "limitations": "这是旧版大纲说明，只作为稳定教学依赖的佐证，不是2026最新课程认证；所列数学准备本任务未添加为跨学科边。"
+    }
+  ],
+  "original_source_boundary": "每边的 course_location.source_url 原样来自 knowledge-graph-v17/data 的既有节点。本轮已读这些来源字段和核验边界；高中人教版入口和初中第三方教材存档未在本轮宣称重新读完全文或重新核定最新版。额外实读的一手证据见 sources。",
+  "failed_fetches_not_used_as_body_evidence": [
+    {
+      "url": "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/2fa39f31-7663-4f8a-923e-4b5ea9940737.pdf",
+      "result": "搜索可见先修片段；web.open 因内容长度超过工具限制失败，未把该 PDF 记为正文实读证据。"
+    },
+    {
+      "url": "https://hgxy.cqu.edu.cn/info/1192/2910.htm",
+      "result": "搜索可见大纲片段；web.open 返回 412，未把该网页记为完整正文实读证据。"
+    }
+  ]
+}

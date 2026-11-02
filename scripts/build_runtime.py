@@ -10,12 +10,12 @@ RUNTIME = DATA / 'runtime'
 RUNTIME.mkdir(exist_ok=True)
 files = [
     'topics.json', 'dependencies.json', 'questions.json', 'id-aliases.json',
-    'cn-curriculum-standards.json',
+    'cn-curriculum-standards.json', 'subject-bridge-dependencies.json',
     *[f'math-university-{part}.json' for part in ('topics', 'dependencies', 'questions')],
     *[f'math-probability-{part}.json' for part in ('topics', 'dependencies', 'questions', 'sources', 'coverage')],
     *[f'{subject}-{part}.json' for subject in ('physics', 'chemistry')
       for part in ('topics', 'dependencies', 'questions', 'sources', 'highschool-coverage')],
-    *[f'{subject}-{part}.json' for subject in ('cs408', 'med', 'tcm', 'herbal', 'uphysics', 'uchemistry')
+    *[f'{subject}-{part}.json' for subject in ('cs408', 'med', 'tcm', 'herbal', 'uphysics', 'uchemistry', 'biology', 'geography')
       for part in ('topics', 'dependencies', 'questions', 'sources', 'coverage')],
 ]
 manifest = {}

@@ -21,17 +21,17 @@
     var host=document.getElementById(subject+'-books');
     if (!host) return;
     Promise.all(['topics','questions','sources','coverage'].map(function(kind) {
-      return Subjects.fetch('data/'+subject+'-'+kind+'.json',subject).then(function(r){return r.json();});
+      return Subjects.fetchRaw('data/'+subject+'-'+kind+'.json').then(function(r){return r.json();});
     })).then(function(values) {
       var topics=values[0], questions=values[1], sources=values[2];
       document.getElementById(subject+'-summary').textContent='已收录 '+topics.length+' 个核心知识点、'+questions.length+(Subjects.universityScience(subject) ? ' 道原创知识测评题，每个知识点两题。' : ' 道原创课程测评题，每个知识点两题。')+'自编学习单元与教材原书位置分别记录。版本核验截至 2026-10-31。';
       var coverage=document.getElementById(subject+'-coverage');
-      Subjects.coursesFor(subject).forEach(function(c) {
+      Subjects.rawCoursesFor(subject).forEach(function(c) {
         var list=topics.filter(function(t){return t.module===c.id;});
         var details=node('details');
         details.append(node('summary',c.name+' · '+list.length+' 个核心知识点'));
         details.append(node('p',Array.from(new Set(list.map(function(t){return t.chapter;}))).join('；')));
-        details.append(link('浏览'+Subjects.unitLabel(subject),'explore/index.html?subject='+subject+'&module='+c.id),' · ',link(Subjects.unitLabel(subject)+'知识测评','diagnose/index.html?subject='+subject+'&module='+c.id));
+        details.append(link('浏览'+Subjects.unitLabel(subject),Subjects.link('explore/index.html?module='+c.id,subject)),' · ',link(Subjects.unitLabel(subject)+'知识测评',Subjects.link('diagnose/index.html?module='+c.id,subject)));
         coverage.append(details);
       });
       coverage.append(node('p','本范围是核心节点集，未承诺逐章、逐节覆盖教材全部内容。'));
@@ -61,7 +61,7 @@
           var ul=node('ul',null,'source-topics');
           list.forEach(function(t) {
             var li=node('li');
-            li.append(link(t.name,'explore/index.html?subject='+subject+'#'+t.id),node('span',[t.textbook.chapter,t.textbook.section].filter(Boolean).join(' · ')));
+            li.append(link(t.name,Subjects.link('explore/index.html#'+t.id,subject)),node('span',[t.textbook.chapter,t.textbook.section].filter(Boolean).join(' · ')));
             ul.append(li);
           });
           details.append(ul); card.append(details);
@@ -72,7 +72,7 @@
       try { id=decodeURIComponent(location.hash.slice(1)); } catch (_) { id=''; }
       if (id && document.getElementById(id)) document.getElementById(id).scrollIntoView();
     }).catch(function(error) {
-      document.getElementById(subject+'-summary').textContent=Subjects.names[subject]+'来源数据未能加载：'+error.message+'。请完整解压数据文件后刷新。';
+      document.getElementById(subject+'-summary').textContent=Subjects.rawNames[subject]+'来源数据未能加载：'+error.message+'。请完整解压数据文件后刷新。';
     });
   });
 })();

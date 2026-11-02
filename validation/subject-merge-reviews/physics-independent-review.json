@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-02",
+  "reviewer": "/root/biogeo_geography",
+  "author": "/root/biogeo_biology",
+  "status": "PASS_WITH_SOURCE_LIMITATIONS",
+  "scope": "独立逐条读取36条物理候选边的两端原始描述、掌握要求、教材定位和已有直接依赖；阅读理由、强弱与适用限制；对9条作者修订作最终差异复读。未重做原题库全文审核，未修改任何项目数据。",
+  "counts": {
+    "edge_count": 36,
+    "hard": 19,
+    "soft": 17,
+    "revised_edges_reread": 9,
+    "open_findings": 0
+  },
+  "hash_policy": {
+    "edge_sha256": "完整5字段边对象；UTF-8，JSON sort_keys=True，ensure_ascii=False，separators=(comma,colon)，无空白。",
+    "topic_sha256_and_prerequisite_sha256": "完整原始节点对象采用同一canonical JSON规则；不排除review_status或review_record，不改subject。",
+    "edge_evidence_sha256": "该边完整最终作者edge_evidence对象采用同一canonical JSON规则。",
+    "file_sha256": "相应文件原始字节的SHA-256。"
+  },
+  "author_input_observations": [
+    {
+      "path": "task_merge/science/edges.json",
+      "file_sha256_at_review": "9df341d00414e564425bde2f673bf14aeb014a9f0668270add91648fefea40fb",
+      "scope": "只审physics36条；化学条目由另一独立审阅者处理，逐边哈希是本报告的最终绑定。"
+    },
+    {
+      "path": "task_merge/science/review-notes.json",
+      "file_sha256_at_review": "2b3af29920c4af9213a07176110b077c36d40b3697393507c926fc6dcaec7bcf",
+      "scope": "只审physics的edge_evidence及共同方法、限制。"
+    },
+    {
+      "path": "task_merge/science/source-records.json",
+      "file_sha256_at_review": "b3b12b2ceb3935f4b8285ea63a45a57e4c5b6277bf1227314bc3703338ef2bf5",
+      "scope": "只对物理所用3项官方来源作独立网页/大纲核读；补充OpenStax术语核对见source_review。"
+    },
+    {
+      "path": "task_merge/science/physics-review-diff.json",
+      "file_sha256_at_review": "35ad001be90388b274eb590c968b31c8caeefc69f8615dc9da9fce81f19f00b6",
+      "scope": "9条修订的实际before/after字段与最终文件闭环。"
+    }
+  ],
+  "original_data_files": [
+    {
+      "path": "knowledge-graph-v17/data/physics-topics.json",
+      "file_sha256": "0b9ad48fed33c4b9895b223408e155b9add9e44e971e6503f6944b9af0f44e31"
+    },
+    {
+      "path": "knowledge-graph-v17/data/uphysics-topics.json",
+      "file_sha256": "d57b2de067dd898022866508e00f933e32cbfc78befc48f4dccb6a6c1216bd36"
+    },
+    {
+      "path": "knowledge-graph-v17/data/physics-dependencies.json",
+      "file_sha256": "115cab0bbf00708c324323f96ed7ca09968bf5791fb2249a57fccdd448b08ab9"
+    },
+    {
+      "path": "knowledge-graph-v17/data/uphysics-dependencies.json",
+      "file_sha256": "73956512c2359a07953c76319fa8f4199c5d7870b54e2d2a77a46701c12e79e4"
+    }
+  ],
+  "physics_edges_semantic_sha256": "e02b1d6987bbf81c9cdbcd7ef2166fe1875599121240426ee5f10fc286782f22",
+  "edge_reviews": [
+    {
+      "topicId": "uphy_mechanics_001",
+      "prerequisiteId": "cnp_h004",
+      "subject": "physics",
+      "edge_sha256": "20a27b98e7226f58b2634690a4c83b1e0d0a6d58df418ba1cc78867185103f25",
+      "topic_sha256": "c2fe2e47a13a8ed43bc4225d6a295915551534963a8067bb020e030845200cd5",
+      "prerequisite_sha256": "d95b5345c6dbc089c70339ed7eedc1f32a5dedf728a2e4181f61faf0c79da4ff",
+      "verdict": "ACCEPTED",
+      "review_comment": "前置的速度变化与加速度矢量意义，是把有限变化推广到瞬时导数的概念基础；目标新增位矢及其导数运算，故保留 hard。该边不代替微积分准备，也不要求先做完所有高中加速度应用题。",
+      "open_findings": [],
+      "topic_name": "位矢、位移与瞬时运动量",
+      "prerequisite_name": "加速度与速度变化",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "7a59935636a0e859fd6cc4e86de750310474ec524e1f1c11e3123ae9fff7ee2d"
+    },
+    {
+      "topicId": "uphy_mechanics_005",
+      "prerequisiteId": "cnp_h016",
+      "subject": "physics",
+      "edge_sha256": "fbe038676782c379bb0ed5c444f49589dee441a0c5043dac5b94e26f71572f61",
+      "topic_sha256": "30a0d9f7b66dde04f31c5a33da6679bb7d7c5922191e76858044c42971517584",
+      "prerequisite_sha256": "d0953f8659db23676c3a8c3dcc7693ad47f74802c0c45a2daa57fff15ac73c02",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端均重新讲授惯性系、质量恒定条件下的合外力与加速度关系；目标当前掌握要求未把更复杂约束求解列为独立新任务。最终改 soft，用于受力对象、矢量和适用条件的复习，强度与实际内容相符。",
+      "open_findings": [],
+      "topic_name": "惯性系中的牛顿运动定律",
+      "prerequisite_name": "牛顿第二定律",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "ab33fb1de95cfdcad1e28e9d2c50f29d4dd1f2b52a0bdfd47ec7116cda30c679"
+    },
+    {
+      "topicId": "uphy_mechanics_009",
+      "prerequisiteId": "cnp_h061",
+      "subject": "physics",
+      "edge_sha256": "e8bc3b7a0e15cf2d325946906c59bbd9f33b976a3829cece082b1b2b191d69a7",
+      "topic_sha256": "d7b1d574945a67ed1e3be012f424414164572338e24ad5e6706efe9fc4f53aee",
+      "prerequisite_sha256": "24fe96583646de0c992c42c2b93c0b6c53fc99a1908c513ad73440e66a6d6a96",
+      "verdict": "ACCEPTED",
+      "review_comment": "目标以力的时间积分表达冲量并与动量变化比较，必须区分动量、速度及其矢量变化；前置直接提供这一量义，保留 hard。积分面积与峰值乘时长的区别仍由目标教授，低速模型边界未外推。",
+      "open_findings": [],
+      "topic_name": "冲量与动量定理",
+      "prerequisite_name": "动量与动量变化",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "ce078b23e7d4b944fce484ecee8f6f436208a70b6c3d9c01164f3f50e49095a1"
+    },
+    {
+      "topicId": "uphy_mechanics_012",
+      "prerequisiteId": "cnp_h033",
+      "subject": "physics",
+      "edge_sha256": "5bfd2ac9b4039389759e8fb60ec9ad7b891d2e349a3fe3c4cf4e950c5c213c16",
+      "topic_sha256": "d322811c8efdc657c7af1d5bee0704fa7c16cd02f768ff055f1a3ba934031b03",
+      "prerequisite_sha256": "97076e7c3aaa50ea3c472fefb1d944350f8f579c7841688ae153ee2661c9ec2f",
+      "verdict": "ACCEPTED",
+      "review_comment": "线积分做功需要理解微小位移方向上的力分量及功的正负；高中恒力功的投影关系直接支持这一推广，hard 合理。前置同时含功率，不意味着全部功率题都是本目标的必要条件。",
+      "open_findings": [],
+      "topic_name": "变力做功与线积分",
+      "prerequisite_name": "恒力做功与功率",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "eb98471f6276d3d89e163782443a43dec2f95057c0e4b0dcaecf4e8bab987b84"
+    },
+    {
+      "topicId": "uphy_mechanics_014",
+      "prerequisiteId": "cnp_h034",
+      "subject": "physics",
+      "edge_sha256": "7fbefd95e3bae7ec0e98e2375b35834cc022c438b5d7616f3812a0f0a64851b8",
+      "topic_sha256": "761e5bbe3886cdcacca66b85148c7822d9ed57e871b840666be22f0b60246e76",
+      "prerequisite_sha256": "b5c6ca1db970504ea0568b71352aa49fa108de2322d67db2b270b1214591dc12",
+      "verdict": "ACCEPTED",
+      "review_comment": "重力势能与弹性势能为保守力、势能零点及势能差提供熟悉实例，但不能单凭两个实例推出一般势能梯度关系。作为 soft 背景恰当，目标仍需自行说明保守性及稳定平衡条件。",
+      "open_findings": [],
+      "topic_name": "保守力与势能函数",
+      "prerequisite_name": "重力势能与弹性势能",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "dd1bdb48cca460fe419ea2b7a3d89b9238f482595d1673db0deacbaba0fd1455"
+    },
+    {
+      "topicId": "uphy_mechanics_017",
+      "prerequisiteId": "cnp_h024",
+      "subject": "physics",
+      "edge_sha256": "0d8a665ac8248d2b4109e97febabb166d66d666d74da8d9aebb2b9272e0d40f2",
+      "topic_sha256": "7bb2846ce659e4a8409736f630dea87f7df8b24dea972f5881defba64f8d9a98",
+      "prerequisite_sha256": "b7a6c5dac554db94d328b503f4d88e5fe499885a817c5110d203620001db0fb9",
+      "verdict": "ACCEPTED",
+      "review_comment": "定轴转动使用角速度并把它与各点线速度、切向和法向加速度联系；前置的圆周运动角量和线角关系是直接使用的基础，保留 hard。只适用于固定转轴的相应关系，不扩成任意刚体运动通式。",
+      "open_findings": [],
+      "topic_name": "刚体定轴转动的角量",
+      "prerequisite_name": "圆周运动的线速度、角速度和周期",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "6531db4f0600c7fe909a26bdfe3dcb0dbd863100646019d2c4fb9854b1a25b32"
+    },
+    {
+      "topicId": "uphy_mechanics_019",
+      "prerequisiteId": "cnp_025",
+      "subject": "physics",
+      "edge_sha256": "c6f17f92e1f2be07dbd58d4074d3ca20f91e92ac36fc617ba3509af540ecd983",
+      "topic_sha256": "13581d2c74b4870a2b00138b1e24ae9ab8354afc217c84d3cc1ea53378a0b52a",
+      "prerequisite_sha256": "3e359239a2f9aa9fa42e28dc8712e484d0b8b24641717ff97b9ce4d6f67d9997",
+      "verdict": "ACCEPTED",
+      "review_comment": "杠杆力臂的垂直距离有助于理解力矩，但静态平衡并不能代替转动惯量及转动定律。保持 soft，明确这是由力臂经验进入动力学的背景。",
+      "open_findings": [],
+      "topic_name": "力矩与定轴转动定律",
+      "prerequisite_name": "杠杆平衡",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "833461c3f5ad89ab9f1f7e1fec1c48e9470cd96191188489826ced240a7595fa"
+    },
+    {
+      "topicId": "uphy_mechanics_023",
+      "prerequisiteId": "cnp_012",
+      "subject": "physics",
+      "edge_sha256": "6b9a6f79cf9012585df6a7a6dbe9e3800444ce0fb41686ecfe5140228ff12542",
+      "topic_sha256": "f2f75af639f3f5ad4522ceb4a75d02d00856ea9930e8d60be667d954f7195408",
+      "prerequisite_sha256": "7f1e55dedb4a3f41ab0133117e04ea65b57a868799c82962c984cf4234c39ad4",
+      "verdict": "ACCEPTED",
+      "review_comment": "质量流量与体积流量的转换直接使用密度，判断何时可把质量连续关系化为 Av 不变也需要密度意义。保留 hard；恒密度、稳定流动及所选流管条件须与更一般质量守恒式区分。",
+      "open_findings": [],
+      "topic_name": "理想流体与连续性方程",
+      "prerequisite_name": "密度",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "5205aea6cbdde71ed53f5432367518f710450d471102695bd285452b971a4083"
+    },
+    {
+      "topicId": "uphy_mechanics_024",
+      "prerequisiteId": "cnp_019",
+      "subject": "physics",
+      "edge_sha256": "57e7de3b93c7c59d96914e3d7c042015befb0c4c240619eb7189b0ac1ace4d1e",
+      "topic_sha256": "230135f4c2fc81151180a8905da88389ea2c56046e7650bc52bddb649bab7d07",
+      "prerequisite_sha256": "1fc7a0bb66b3a713d470f3d8a24e854a03edddba19c86749f1470a66e77716c0",
+      "verdict": "ACCEPTED",
+      "review_comment": "静液压经验可以检查伯努利式的静止流体极限，但不构成所有流动情况的充分依据。soft 合理；目标保留定常、不可压、无黏、同流线等条件，不能把液体静压式直接套入任意流场。",
+      "open_findings": [],
+      "topic_name": "伯努利方程及适用条件",
+      "prerequisite_name": "液体压强",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "9f9956f5f86800643a20ee713eba2a8e722f8d54b421d6de683dd1d225c74f42"
+    },
+    {
+      "topicId": "uphy_thermodynamics_001",
+      "prerequisiteId": "cnp_h109",
+      "subject": "physics",
+      "edge_sha256": "c53b27267ec24b16c06743191a8080e399ffca95aed6c3df5c4dea9b7b9ff96d",
+      "topic_sha256": "5a8102c5eb03f204e85245ad901b22eba49645794897cc0a7b6bd43321ce985f",
+      "prerequisite_sha256": "f68d1bc42f9442376102fc00e17341533dbfa737da995accb0f2d5860777a507",
+      "verdict": "ACCEPTED",
+      "review_comment": "大学节点重新定义平衡态和理想气体状态关系，高中固定气量比例式属于同模型复习。最终 soft 合理；理由区分固定气量与显式引入物质的量、粒子数，不把理想模型用于任意真实气体和相变区。",
+      "open_findings": [],
+      "topic_name": "平衡态与理想气体物态方程",
+      "prerequisite_name": "等压、等容变化与理想气体状态方程",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "077c08c92e7daa57e2d35e55b57af4f8f0e3836870596d35f9edbc555abe7cca"
+    },
+    {
+      "topicId": "uphy_thermodynamics_002",
+      "prerequisiteId": "cnp_h062",
+      "subject": "physics",
+      "edge_sha256": "7ae2c868aacd7178a39f40152e9b0f45eb9d79b9778691f0f6080c03818930de",
+      "topic_sha256": "e4680466df4eded2a2c645d7dfb894fd75ee02355ddb2fa14b8a92431a9feb2c",
+      "prerequisite_sha256": "8503d3d5a9e15fd210726233f57eba49e5ba346d1ed5c4ae84c1916737665630",
+      "verdict": "ACCEPTED",
+      "review_comment": "分子碰壁的动量传递与单位时间平均受力是压强微观解释的直接基础，前置冲量和动量定理确实被新任务使用，hard 合理。分子统计及各向同性等额外假设仍须在大学节点另行建立。",
+      "open_findings": [],
+      "topic_name": "气体压强与温度的微观意义",
+      "prerequisite_name": "冲量与动量定理",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "0876bd5fc506b4f1ae7f6c3ae83453e1b64620030bb554f6f85597babb0256a2"
+    },
+    {
+      "topicId": "uphy_thermodynamics_009",
+      "prerequisiteId": "cnp_h113",
+      "subject": "physics",
+      "edge_sha256": "ab973dc0b6dd3595db177c528eb0db420a6b8a1bf31112de20f662b11e6c051e",
+      "topic_sha256": "e0c2ecfa98b352afc0389f281c8d843a2f63a9b7422979e8c419a802142be902",
+      "prerequisite_sha256": "6f987010a2277df61debdb41bd8f013ebef0cf29cc43136cda7558c23115b323",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端讲同一能量守恒关系，区别主要是功的正号选择和后续过程表示。最终改 soft 恰当；复读条件明确高中外界做功为正、大学系统对外做功为正，比较两种表达时须变换 W 的符号。",
+      "open_findings": [],
+      "topic_name": "热力学第一定律与符号约定",
+      "prerequisite_name": "热力学第一定律与正负约定",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "1a21c7e5d07b6d361b43472faec236358a2738e79776be710f6374fa031cc1f3"
+    },
+    {
+      "topicId": "uphy_thermodynamics_017",
+      "prerequisiteId": "cnp_h115",
+      "subject": "physics",
+      "edge_sha256": "21905972ebe5727712baefdee8607f5ddb814bc6ec21e791984535ce8b229177",
+      "topic_sha256": "a1774250861f1dc469b96db9c568084eeebe7d2719cba3bb22e28b9ed3a4233d",
+      "prerequisite_sha256": "7522df14d84868b309f7f9dc5893d9c74d2b47eb244030bfed0464c449ba6214",
+      "verdict": "ACCEPTED",
+      "review_comment": "热力学第二定律的过程方向为可逆性提供背景，但准静态、摩擦及系统和环境是否能共同复原还需独立判断。原 soft 合理，未把准静态等同可逆，也未把高中第二定律表述当作全部判据。",
+      "open_findings": [],
+      "topic_name": "可逆与不可逆过程",
+      "prerequisite_name": "热力学第二定律与过程方向",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "aaac5ff45a0f0bfa7c66ed36f93a0f6222c5a9584ffb3cfe86cb3a2424813d3a"
+    },
+    {
+      "topicId": "uphy_electromagnetism_001",
+      "prerequisiteId": "cnp_h038",
+      "subject": "physics",
+      "edge_sha256": "cecc97023ce4b4bf0bc4d927b1770c5f125b33fbeb8caa08caf9319eef644b79",
+      "topic_sha256": "ee3c4706455e21b51bb90bdd3b079c47520a784677e1755abcf2feb7d2e25d09",
+      "prerequisite_sha256": "9a7d40ccfc83a0a14dffa21e70b19d9543c284e0e52ae66c26d511988a421421",
+      "verdict": "ACCEPTED",
+      "review_comment": "库仑定律中的电荷符号及代数电量必须先有明确含义，前置电荷及电荷守恒提供目标实际使用的基础，hard 合理。电荷守恒不是库仑平方反比律的推导证据，点电荷近似仍由目标限定。",
+      "open_findings": [],
+      "topic_name": "电荷守恒与库仑定律",
+      "prerequisite_name": "电荷守恒与起电方式",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "a07a535fe17f346d190d2d2b3a65c0bd853a43ba379743e9786fdcaf7c3c36b2"
+    },
+    {
+      "topicId": "uphy_electromagnetism_002",
+      "prerequisiteId": "cnp_h040",
+      "subject": "physics",
+      "edge_sha256": "38fd8f8dfaefb2adffa377d340e152aa6fe10460f089f30fa62f0d41dde5ccc4",
+      "topic_sha256": "de734ee87eb5249ebbd5a83f098773395029d90060a06489b4f09697aa9ef0e9",
+      "prerequisite_sha256": "a5de48066131ab4b10002f8ab0d6f4f9c5e74657bb21813c5133922b30f90226",
+      "verdict": "ACCEPTED",
+      "review_comment": "连续电荷场的叠加与积分直接使用场强的矢量意义、单位正电荷约定和分量合成，前置与目标的新计算层次有实质区别，保留 hard。不能因负试探电荷受力反向而倒置场本身方向。",
+      "open_findings": [],
+      "topic_name": "电场强度与连续分布叠加",
+      "prerequisite_name": "电场强度与电场线",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "d1501ec2cdb321b586c3ef60c32ac260e008218354bf04b1b8932a4701f9f021"
+    },
+    {
+      "topicId": "uphy_electromagnetism_006",
+      "prerequisiteId": "cnp_h043",
+      "subject": "physics",
+      "edge_sha256": "c3224519edbea5b73f6f179460327f03aa52c65d5163fb6d55f5f634a5a843b5",
+      "topic_sha256": "1b9996450cf48278f5de0bb07ea8387673698d40848519e6478fff61e75c2aff",
+      "prerequisite_sha256": "cdcabc9049e05372aad9c708ec804d93ae2ccd9080f3f2999d18cdb4aefcecdc",
+      "verdict": "ACCEPTED",
+      "review_comment": "由电场线积分建立电势差，必须识别电势差的端点次序以及电场力做功与电荷的符号关系；前置是直接概念准备，hard 合理。目标限定静电场，未把全局单值静电势关系套到任意时变场。",
+      "open_findings": [],
+      "topic_name": "电势与静电场环路定理",
+      "prerequisite_name": "电势差与电场力做功",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "e6df1bf51b92937de0c80fdfddaa4cb5ba4ba8bd02d405bd6a1a97cddd43fed4"
+    },
+    {
+      "topicId": "uphy_electromagnetism_014",
+      "prerequisiteId": "cnp_h047",
+      "subject": "physics",
+      "edge_sha256": "87cffe65500da433df8bc8e43b190e4c65713f59ad7f8ed03404461f1c86fbbc",
+      "topic_sha256": "c87809824b5edc6f06a004055669a18363e2e3672de570a65e4a738c0d062250",
+      "prerequisite_sha256": "0c14c6504763539f7b6cbcdbd9f2fe8f0ab97e532e1d9a136121bc96d2978f8b",
+      "verdict": "ACCEPTED",
+      "review_comment": "电流密度的面积通量及局部电荷连续关系需要先识别电流为单位时间通过的电荷量，目标确有从总体量到局部场量的扩展，保留 hard。约定电流方向与电子漂移方向不能混同。",
+      "open_findings": [],
+      "topic_name": "电流密度与电荷连续性",
+      "prerequisite_name": "电源、电流与载流子模型",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "76f3f2090a516eddca6f3a53df7a2b403211210b18a79647227b7c978b5a1deb"
+    },
+    {
+      "topicId": "uphy_electromagnetism_016",
+      "prerequisiteId": "cnp_h048",
+      "subject": "physics",
+      "edge_sha256": "2cd9b72e82a8d691b557b73bc86144bbd0ed85d80ca39c015c5e64068a3ceca0",
+      "topic_sha256": "2048aadd77444798c5d620695d70328850d9b591720f4d0ac68da4fbe992cb07",
+      "prerequisite_sha256": "0239bd6ffb1b9cb1ac601736ba2f8983677190cf7b8e104d3c47fa3d5d0c96b3",
+      "verdict": "ACCEPTED",
+      "review_comment": "宏观均匀导线电阻定律可以对照局部 J=σE 的积分结果，但不是局部本构关系本身的逻辑证明或必先课题。最终 soft 与节点实际内容相符；线性、各向同性及材料状态限制仍由目标原文保留。",
+      "open_findings": [],
+      "topic_name": "欧姆定律的微分形式",
+      "prerequisite_name": "电阻定律与电阻率",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "bf6c2ff6402f8faf8e4467039ebe75a4dd52c305fc392e0872a7b2961d30fd20"
+    },
+    {
+      "topicId": "uphy_electromagnetism_017",
+      "prerequisiteId": "cnp_h056",
+      "subject": "physics",
+      "edge_sha256": "b29473acbd556a6407881d5b0275545c8340968e5c4dd2229c8295763974f39a",
+      "topic_sha256": "0f04a64dc568a1c32a1193a86ffe41aa44d9701c9a28e8b9e8599872fa843112",
+      "prerequisite_sha256": "861d4fc2a7146ff6828faf8460c806615a5df6123cac812931b108065f0c6174",
+      "verdict": "ACCEPTED",
+      "review_comment": "直导线右手关系是熟悉的方向检查实例，毕奥—萨伐尔定律的一般叉积及空间积分应由目标独立建立。最终降为 soft，条件不再把特殊导线经验当一般积分规律的必需前提。",
+      "open_findings": [],
+      "topic_name": "毕奥—萨伐尔定律",
+      "prerequisite_name": "磁场、磁感线与电流磁效应",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "ca126751e2555f6ab616f1446406a13718c28861c7c58da0f78bcdfcd13908a4"
+    },
+    {
+      "topicId": "uphy_electromagnetism_019",
+      "prerequisiteId": "cnp_h057",
+      "subject": "physics",
+      "edge_sha256": "7386f04c9950377cdcc9a8f08fcab36863d1540737da766b3391f88550fc42d6",
+      "topic_sha256": "bdd8f831a42f5be6bc23c48834979dae7b7ebd762db21b5d14b639bd6a705317",
+      "prerequisite_sha256": "79a9dc466f176a916ebb247423c07ff4eddc7594327ff3d654896b883bf4f0b7",
+      "verdict": "ACCEPTED",
+      "review_comment": "面元磁通积分需要先区分磁感应强度与磁通量，并识别面积法向和投影因子；高中均匀场平面情形是目标实际使用的定义基础，hard 合理。闭面零磁通还须目标自身的经典电磁模型解释。",
+      "open_findings": [],
+      "topic_name": "磁通量与磁场高斯定理",
+      "prerequisite_name": "磁感应强度与磁通量",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "2cb4e77fe1a0d84ce8318c91865a9c7f940cb1a504430266c709293373edca0f"
+    },
+    {
+      "topicId": "uphy_electromagnetism_021",
+      "prerequisiteId": "cnp_h085",
+      "subject": "physics",
+      "edge_sha256": "54de0cfb76e868000b6918aa4b5d7c60d6413a415eb6bc4f85fd3b5ce7598903",
+      "topic_sha256": "d1753ee4782ad8a1b9ad92eddee9adabb3c07d58859cc220cac5c27dcd2ef9df",
+      "prerequisite_sha256": "cdb4dd802d699836c49a7db6c3b3768931a2ac37c710304e928217b5fdc83ca6",
+      "verdict": "ACCEPTED",
+      "review_comment": "荷电粒子轨道计算直接使用磁场力与速度、磁场的方向关系及电荷符号，前置为新的轨道求解任务提供基础，hard 合理。已保留垂直入射、低速等半径公式条件，磁场力不做功不代表一般电磁场都不做功。",
+      "open_findings": [],
+      "topic_name": "洛伦兹力与带电粒子运动",
+      "prerequisite_name": "洛伦兹力与磁力不做功",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "1a5d590c9f4231bebe2a0cb6b9fe8a4097849827a73c36988b2436427dd274cc"
+    },
+    {
+      "topicId": "uphy_electromagnetism_026",
+      "prerequisiteId": "cnp_h089",
+      "subject": "physics",
+      "edge_sha256": "3b95f894727728a0a64cee10090d01ef3fdae69329618ea7b7973618513a03d8",
+      "topic_sha256": "1fdf8563938b79dbe5ad416a07871de1486ab73e7c5469109fb8bf1806ac2608",
+      "prerequisite_sha256": "e58cd7f16fc120340bd9793915b5ae009ba0f488afcfbb87c8c25d0a87df102e",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端都是法拉第定律的相关表达，最终 soft 适合作为平均/瞬时、大小/带符号表示的衔接。已将不合适的“定向导数”改为时间导数及有向环路积分；回路取向与动生项不可重复计入的条件同步保留。",
+      "open_findings": [],
+      "topic_name": "法拉第电磁感应定律",
+      "prerequisite_name": "法拉第电磁感应定律",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "e3ae5e5d19ddb1be6e43b452c375ecbccf68cd760ee93bee511d4eb58568384f"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_001",
+      "prerequisiteId": "cnp_h069",
+      "subject": "physics",
+      "edge_sha256": "b58ad158a0f11d357b9c8808920cbda599477c78e4745da4bcac802986c41d24",
+      "topic_sha256": "4be9fdd4a9e9cbb0a73ae8f7da9a32afe139446e983084691a282725312f359f",
+      "prerequisite_sha256": "a8fcab6f2de597a7f5c18e0c728f5dd1be0b71d2fdc66d1576eb4e945214f24e",
+      "verdict": "ACCEPTED",
+      "review_comment": "从线性回复力建立简谐运动方程及固有频率，直接使用 F=-kx 的大小和方向规律，前置与目标的微分方程表达有实际层次差别，hard 合理。回复力是合力在该运动方向上的效果，不能另加一项力。",
+      "open_findings": [],
+      "topic_name": "简谐振动与微分方程",
+      "prerequisite_name": "回复力、加速度与振动能量",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "447bf602a548b2b315c532513c6f101b8fcebc0117bf4b8fc75732b247a0b59f"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_002",
+      "prerequisiteId": "cnp_h068",
+      "subject": "physics",
+      "edge_sha256": "233aa4d27308706ddf52e973413af2eb4257c47756a6bdada99666ac6923fbd0",
+      "topic_sha256": "d0cdace326df1a7e2dce5651b6f9cdefe6126f3e7754fdb46f818a487795aaa5",
+      "prerequisite_sha256": "d1f90de986e3c564eb2ff23dba91a82b1768ce8a9c1f6309d52f28a72463bf23",
+      "verdict": "ACCEPTED",
+      "review_comment": "用初位移和初速度共同确定振幅、初相，需要先理解相位、周期及同一位移可对应不同运动方向。保留 hard；条件说明正弦与余弦参考约定须一致，不能只看初位移选相位象限。",
+      "open_findings": [],
+      "topic_name": "初相位与初始条件",
+      "prerequisite_name": "简谐运动的振幅、周期与相位",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "91d452d4bd636b28c53ddf55737872e21e9e89359d9533f483722a2430e593d4"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_009",
+      "prerequisiteId": "cnp_h074",
+      "subject": "physics",
+      "edge_sha256": "9b616b356c77ca92f07cb6886f3d9c7cd788f9a1d530a286fd5a6b17d45798e0",
+      "topic_sha256": "b454e96581525d8e4bec6177a4ec3d58ed6e73bc34a3e2118c779de183eb32e1",
+      "prerequisite_sha256": "53f6882b7f45b73facc13f2ddb6d7268ff5596c26367f95635182b68a46d6e2d",
+      "verdict": "ACCEPTED",
+      "review_comment": "波函数的空间与时间变量、传播方向和相位常数的运算，直接依赖波形图与振动图的区别以及波长、周期、波速的含义，hard 合理。波传播速度与介质质点振动速度仍清楚区分。",
+      "open_findings": [],
+      "topic_name": "平面简谐波与传播方向",
+      "prerequisite_name": "波长、频率、波速与波形图",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "edge_evidence_sha256": "6defcd81b8a92df9b540525a3b66308a6c8e5e0885147c837c7040c231268648"
+    },
+    {
+      "topicId": "uphy_optics_001",
+      "prerequisiteId": "cnp_h078",
+      "subject": "physics",
+      "edge_sha256": "e1f3b626d806b28275e327c7222a2c6fdf559b2104206caf8009f0f44f947d03",
+      "topic_sha256": "3e2c924cc142a263c420fe835201230be90e5b4a7d95ffedb553c7e38c452692",
+      "prerequisite_sha256": "dafc2bba2f059a902098af104bd5c9241ccaf1e481e65276c03b974989ce79b0",
+      "verdict": "ACCEPTED",
+      "review_comment": "全反射临界角推理实际使用折射率与斯涅耳关系，并需要知道角度相对法线定义；目标有超出重复折射定律的临界条件任务，保留 hard。只有高折射率向低折射率、入射角超过临界角才是相应全反射情形。",
+      "open_findings": [],
+      "topic_name": "折射定律与全反射",
+      "prerequisite_name": "光的折射与折射率",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "f50451a307b04120ff5b02670f542003a9f2d13ec120ef459323a3cffcc95c89"
+    },
+    {
+      "topicId": "uphy_optics_002",
+      "prerequisiteId": "cnp_011",
+      "subject": "physics",
+      "edge_sha256": "cb9cc3ed8723e4948da395974d05928c19f8c473fdd564830e8c8dd48ee94286",
+      "topic_sha256": "a83e7bf89df98f6b016c885282aa7939cb408498d67b96a71dd6177564e4577f",
+      "prerequisite_sha256": "3eb85660a84fd1cd675aead131fef67e8b8beafa73a8f83f41e47a341de0d31b",
+      "verdict": "ACCEPTED",
+      "review_comment": "凸透镜定性成像规律可以检查薄透镜带符号计算是否合理，但不能替代统一符号、近轴近似和成像方程。保持 soft，未把定性规则当作普遍镜组公式。",
+      "open_findings": [],
+      "topic_name": "薄透镜成像与近轴条件",
+      "prerequisite_name": "凸透镜成像",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "adb5c2a8e93cd0a74bc971f27e1fb884f6f1f559193bd0fe7d070323e4cee444"
+    },
+    {
+      "topicId": "uphy_optics_003",
+      "prerequisiteId": "cnp_h080",
+      "subject": "physics",
+      "edge_sha256": "dabc526407180637f5dcfa3e7bfd6f39086a524b4cf8f18149ce2a9eacbb0599",
+      "topic_sha256": "8152ba494eb1ce448067df6ec3daa5c03d6ae01110493584bd1abcbc503663bc",
+      "prerequisite_sha256": "d7b4b59e5c9d3797e18469b434bd248aa61ef1a5d187015075b5229b3a6734d0",
+      "verdict": "ACCEPTED",
+      "review_comment": "高中干涉实例有助于引入大学相干性的稳定相位关系、偏振及观测条件，但频率相同并不足以保证可观测稳定干涉。原 soft 合理，未从一个实验实例直接推出所有相干条件。",
+      "open_findings": [],
+      "topic_name": "光的相干性",
+      "prerequisite_name": "光的干涉与薄膜干涉",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "66b4c7a4d95214f179868f314ac28c063fd1177425ba7f888711b129bbd179d8"
+    },
+    {
+      "topicId": "uphy_optics_011",
+      "prerequisiteId": "cnp_h082",
+      "subject": "physics",
+      "edge_sha256": "9434875a8b384d1f409892bd6b3357489d2a13f4a144a5cc83b7279a9d332a33",
+      "topic_sha256": "fab80999f0ab50b23154c2f074e9b5580160335f95c0973bfbff037923cce1e2",
+      "prerequisite_sha256": "3382beb5af0355af38bdfe41e803426fe1dd179a44f5551231cd20985f95ff82",
+      "verdict": "ACCEPTED",
+      "review_comment": "高中衍射现象为惠更斯—菲涅耳描述和远近场分类提供直观背景，不能代替叠加积分与相应近似。保持 soft，并未把明显衍射的尺寸条件误写成只有该条件下才存在衍射。",
+      "open_findings": [],
+      "topic_name": "光的衍射与远场近似",
+      "prerequisite_name": "光的衍射与分辨能力",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "8aaffcd321fb398f5e2f4a517cfb6b599fae0f22e30682face5ac7e75489aac7"
+    },
+    {
+      "topicId": "uphy_optics_018",
+      "prerequisiteId": "cnp_h083",
+      "subject": "physics",
+      "edge_sha256": "c98dd7118788a30a6a8d001ee0321a1da99948ff4cb4129238c903239621879e",
+      "topic_sha256": "953270a3aa8c388443992796a2eb1550e8a3b37b89f27b26408479add9262013",
+      "prerequisite_sha256": "5d5cf9dab6e6d47dbe0d552dea61a26ddbd9b3ed3342a37dd380c3044bd33fbd",
+      "verdict": "ACCEPTED",
+      "review_comment": "偏振片与横波性质为大学偏振态提供背景，圆/椭圆偏振的正交分量振幅和相位关系仍须独立学习。soft 合理；前置节点中的激光内容并非本边必需部分。",
+      "open_findings": [],
+      "topic_name": "偏振状态与横波性质",
+      "prerequisite_name": "光的偏振与激光特性",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "7490a085566cedbe4322ae500aa0169e67370272adb181b895b3f7c2a20d2c06"
+    },
+    {
+      "topicId": "uphy_modern_001",
+      "prerequisiteId": "cnp_h032",
+      "subject": "physics",
+      "edge_sha256": "2229d01ed283b812af952c1cfc4be05fb3d750529d5f340f6e776cbf96a587e2",
+      "topic_sha256": "74eaaeecd3bf6f44ce9420a373d7b8fc44beb15b7c6eb85468cfd2c1929bdbfb",
+      "prerequisite_sha256": "c4166a06a78d5d38e9c4c918af80ab548d46f6ab0e51960f36b60c49178bf281",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端都介绍相对论的基本观念与适用边界，高中内容主要承担预习和复习作用。原 soft 恰当，不把同一公设的先后讲授包装成新定律的硬依赖。",
+      "open_findings": [],
+      "topic_name": "狭义相对论的基本原理",
+      "prerequisite_name": "相对论时空观与经典力学边界",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "edge_evidence_sha256": "e19915b0f9cb517701b00f882dce2cfee9566563b6609c283662fd8c8b3e8bca"
+    },
+    {
+      "topicId": "uphy_modern_008",
+      "prerequisiteId": "cnp_h107",
+      "subject": "physics",
+      "edge_sha256": "328d599e27213591b1dfb26e495175f481e96cf4ee3c2d2edb9beafe1bb3cf7f",
+      "topic_sha256": "7ce7566ee3366c1f5cc1cd24ab2e2a91a28a0a6fe411565a20c1eee0e98afd04",
+      "prerequisite_sha256": "dc4fe1c930c4f1f00b0ac57e7c078e27d267827a197ac841b8874589ddda3135",
+      "verdict": "ACCEPTED",
+      "review_comment": "黑体辐射的 T 的幂次和温度比例运算必须使用绝对温度，摄氏读数不能直接代入；前置开尔文量义与温差区分是直接必要基础，hard 合理。波长谱峰与频率谱峰的不同由目标另行解释。",
+      "open_findings": [],
+      "topic_name": "黑体辐射的实验规律",
+      "prerequisite_name": "热平衡与热力学温标",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "965cb911d45d3c530e0d32187c2f637846bd982d48d24b3cb0e03078726a4b11"
+    },
+    {
+      "topicId": "uphy_modern_009",
+      "prerequisiteId": "cnp_h060",
+      "subject": "physics",
+      "edge_sha256": "7c944291815878b331f1a870b54a01764d0bd4eda1ccb5c4c27065d803eedcd4",
+      "topic_sha256": "b616dfaddcd5a5b78c70c9e17e8854ef724f7ddad9f539e4f15db63c52bf20df",
+      "prerequisite_sha256": "d2f43f9d539b29f972421e090f960513dd74cc2362ab7b7e590d9a5be8dde058",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端重复单量子能量与频率、光强的区别；大学光子动量表示可在目标中建立，不需把同主题高中节点设为额外硬门槛。最终 soft 合理，条件仍禁止用一束光的总能量或光强替代单光子能量。",
+      "open_findings": [],
+      "topic_name": "能量子与光子",
+      "prerequisite_name": "能量量子化初步",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "097f01141a3c52b7090c113514e2d7b741ddce960fd52edd1ed7c7560b7d6833"
+    },
+    {
+      "topicId": "uphy_modern_013",
+      "prerequisiteId": "cnp_h061",
+      "subject": "physics",
+      "edge_sha256": "aac7641290ba07a76e7d4f46fef7d4c28bb2cb267e5f7e27d7df79bcd00262f3",
+      "topic_sha256": "6d73eacf5dabd8287a36a8e462242619357deeb75ce91bb6971d757a57e08a0f",
+      "prerequisite_sha256": "24fe96583646de0c992c42c2b93c0b6c53fc99a1908c513ad73440e66a6d6a96",
+      "verdict": "ACCEPTED",
+      "review_comment": "德布罗意波长需要识别实际动量的大小，前置提供动量概念，因此保留 hard。最终理由和条件明确 p 为大小、低速 p=m|v|，不把带符号的分量代入得到负波长，也不把低速动量式用于所有粒子。",
+      "open_findings": [],
+      "topic_name": "德布罗意波与物质波",
+      "prerequisite_name": "动量与动量变化",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "292b89c7af675e3e1563af10eac531895f3c4a92eec00bcd5b74d0593dc33f60"
+    },
+    {
+      "topicId": "uphy_modern_025",
+      "prerequisiteId": "cnp_h121",
+      "subject": "physics",
+      "edge_sha256": "52697795b7538452606a68cd624dcc79459db0b09ec201ff9dd58510f7ca7a5a",
+      "topic_sha256": "d351628deae85ed243074190d3c1ac18b54161e435e45ab476ca9c78afbd46c4",
+      "prerequisite_sha256": "4ef59005b79f2cfa74cef85dae5c93e8b54446b1dd93b94afd1ec997df0f7e8c",
+      "verdict": "ACCEPTED",
+      "review_comment": "核结合能及平均结合能的计算需要正确识别核子数、质子数和中子数，前置直接提供这些计数，hard 合理。质量数并非精确质量；核质量与原子质量的口径及电子项必须一致，能量守恒不等于静质量单独守恒。",
+      "open_findings": [],
+      "topic_name": "原子核结合能与质量亏损",
+      "prerequisite_name": "原子核组成、核素与同位素",
+      "strength": "hard",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "c9629848cf9de5e0ed3eac1ddc1ca99965fa5b93a901605044022b7a0d5d9155"
+    },
+    {
+      "topicId": "uphy_modern_026",
+      "prerequisiteId": "cnp_h122",
+      "subject": "physics",
+      "edge_sha256": "3fed5f0602d358de6169666e0310449de6bbd8711caa0f0b076789281c4d4037",
+      "topic_sha256": "100d0376dfbf026e200d8e4131078eb246e72a40241524d38d69781ed6cda838",
+      "prerequisite_sha256": "3e0f590a39877339bfe93ce3d33ce185e04354172071bc67093395551af76631",
+      "verdict": "ACCEPTED",
+      "review_comment": "指数存留和活度可以从统计衰变模型建立，不需要先掌握所有衰变类型；高中半衰期主要提供同一统计概念的熟悉入口。最终 soft 合理，条件明确不能预测单个核的确定衰变时刻。",
+      "open_findings": [],
+      "topic_name": "放射性衰变与半衰期",
+      "prerequisite_name": "放射性衰变与半衰期",
+      "strength": "soft",
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "edge_evidence_sha256": "382e0197f73a1ceec933ad1e86baa2c1691dbbbc158efd5fd014dfc7328dc9a0"
+    }
+  ],
+  "revisions_closed": [
+    {
+      "edge_key": "uphy_mechanics_005<-cnp_h016",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "大学用矢量方程处理约束和参考系问题，必须先能把合外力与同一物体的加速度对应，并限定牛顿第二定律的使用条件。（项目教学建议，非教材官方先修规定）",
+          "after": "复习高中合外力与加速度的对应关系，有助于在大学统一使用矢量形式、约束条件和惯性参考系。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "本节点及这条关系均以惯性系、质量恒定的经典质点模型为前提。",
+          "after": "两端均讲牛顿第二定律，这条只作复习与条件衔接，不要求先完成高中同主题；本节点采用惯性系、质量恒定的经典质点模型。"
+        }
+      },
+      "final_edge_sha256": "fbe038676782c379bb0ed5c444f49589dee441a0c5043dac5b94e26f71572f61",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_thermodynamics_001<-cnp_h109",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "从固定气量的状态比例关系进入 pV=nRT 与微观粒子数表达，必须先识别绝对压强、开尔文温度和理想气体的适用范围。（项目教学建议，非教材官方先修规定）",
+          "after": "高中固定气量的状态比例关系，为大学显式引入物质的量、粒子数与平衡态提供熟悉的模型背景。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "固定气量比较与改变物质的量须分开，真实气体和相变区不无条件服从理想模型。",
+          "after": "大学节点重新说明理想模型与状态量；这条只作衔接。固定气量比较与改变物质的量须分开，真实气体和相变区不无条件服从理想模型。"
+        }
+      },
+      "final_edge_sha256": "c53b27267ec24b16c06743191a8080e399ffca95aed6c3df5c4dea9b7b9ff96d",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_thermodynamics_009<-cnp_h113",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "大学的过程积分和能量核算必须建立在热、功、内能的区别及一致正负约定上，不能只按公式外观移用符号。（项目教学建议，非教材官方先修规定）",
+          "after": "复习高中第一定律有助于识别大学过程积分中的热、功和内能，并避免跨阶段沿用不同的功符号约定。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "原高中节点以外界对系统做功为正，大学物理节点以系统对外做功为正；须换号后比较 ΔU=Q+W 与 ΔU=Q−W。",
+          "after": "这条为同一定律的符号衔接。原高中节点以外界对系统做功为正，大学物理节点以系统对外做功为正；须换号后比较 ΔU=Q+W 与 ΔU=Q−W。"
+        }
+      },
+      "final_edge_sha256": "ab973dc0b6dd3595db177c528eb0db420a6b8a1bf31112de20f662b11e6c051e",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_electromagnetism_016<-cnp_h048",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "理解 J=σE 如何还原均匀导线的电阻定律，需要先掌握电阻率与长度、截面积、材料和温度的关系。（项目教学建议，非教材官方先修规定）",
+          "after": "高中均匀导线的电阻定律，可用于对照大学局部关系 J=σE 与宏观电阻率、几何尺寸之间的联系。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "限于线性各向同性欧姆介质；不是把欧姆定律定义为任意材料的普遍定律。",
+          "after": "这是宏观与局部表达的对照，不把先完成高中公式题设为必要条件；两种欧姆表达均须限定材料与状态。"
+        }
+      },
+      "final_edge_sha256": "2cd9b72e82a8d691b557b73bc86144bbd0ed85d80ca39c015c5e64068a3ceca0",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_electromagnetism_017<-cnp_h056",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "把稳恒电流元的磁场作空间积分之前，需要先知道电流可以产生磁场，并能联系电流方向与磁场环绕方向。（项目教学建议，非教材官方先修规定）",
+          "after": "电流磁效应和直导线的右手关系，可为大学毕奥—萨伐尔积分的方向提供熟悉的检验实例。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "定性右手关系是入口；一般电流元的方向和大小仍按叉积及积分处理，不能套无限长导线结果。",
+          "after": "经验右手关系是辅助背景；一般电流元的方向和大小按叉积及积分处理，不能把无限长导线图像当作一般积分定律的逻辑前提。"
+        }
+      },
+      "final_edge_sha256": "b29473acbd556a6407881d5b0275545c8340968e5c4dd2229c8295763974f39a",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_electromagnetism_026<-cnp_h089",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "将磁通量变化率推广为定向导数和运动回路表达，需要先掌握磁通变化与感应电动势的对应，而非把电动势与磁通量本身相等同。（项目教学建议，非教材官方先修规定）",
+          "after": "高中磁通量变化率与感应电动势的关系，为大学带符号的时间导数与有向环路积分提供复习和表示衔接。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "符号依回路取向；运动回路使用总磁通变化律后不能重复追加同一动生项。",
+          "after": "这条连接同一定律的不同表达，不设为额外硬门槛。符号依回路取向；运动回路使用总磁通变化律后不能重复追加同一动生项。"
+        }
+      },
+      "final_edge_sha256": "3b95f894727728a0a64cee10090d01ef3fdae69329618ea7b7973618513a03d8",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_modern_009<-cnp_h060",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "从能量量子化进入光子的能量与动量关系，必须先区分单光子能量 hν 与一束光的总能量、光强。（项目教学建议，非教材官方先修规定）",
+          "after": "复习单光子能量与光强的区别，有助于在大学同时处理光子的能量、频率和动量关系。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "涉及相应光子模型；不能用光强直接替代单个光子的能量或频率。",
+          "after": "大学节点重新给出光子量义，这条只作复习；不能用光强直接替代单个光子的能量或频率。"
+        }
+      },
+      "final_edge_sha256": "7c944291815878b331f1a870b54a01764d0bd4eda1ccb5c4c27065d803eedcd4",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_modern_013<-cnp_h061",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "reason": {
+          "before": "使用德布罗意关系 λ=h/p 时必须先识别粒子的动量，而不能把动能、速度或质量直接代入 p。（项目教学建议，非教材官方先修规定）",
+          "after": "使用德布罗意关系 λ=h/p 时必须先识别粒子的动量，并取 p 为动量大小，不能把动能、速度、质量或带符号的动量分量直接代入。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "低速可用 mv，高速需另用相对论动量；高中低速定义不是所有粒子的通式。",
+          "after": "低速有 p=m|v|，高速需用相对论动量的大小；波长为正，高中低速动量表达不是所有粒子的通式。"
+        }
+      },
+      "final_edge_sha256": "aac7641290ba07a76e7d4f46fef7d4c28bb2cb267e5f7e27d7df79bcd00262f3",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    },
+    {
+      "edge_key": "uphy_modern_026<-cnp_h122",
+      "reviewer_reread": "复读最终 edges.json 的强度/理由及 review-notes.json 的条件；与作者差异中 after 字段一致。",
+      "changes_reviewed": {
+        "strength": {
+          "before": "hard",
+          "after": "soft"
+        },
+        "reason": {
+          "before": "把衰变写成指数存留模型并解释半衰期，需要先知道衰变类型和半衰期是大量核的统计规律。（项目教学建议，非教材官方先修规定）",
+          "after": "高中半衰期的统计解释有助于理解大学指数存留规律以及衰变概率和活度的含义。（项目教学建议，非教材官方先修规定）"
+        },
+        "conditions": {
+          "before": "要求的是统计含义；不能据半衰期预测单个核的确定衰变时刻。",
+          "after": "这条只提供统计观念背景；各种衰变类型不是建立指数存留模型的必要前提，半衰期也不预测单个核的确定衰变时刻。"
+        }
+      },
+      "final_edge_sha256": "3fed5f0602d358de6169666e0310449de6bbd8711caa0f0b076789281c4d4037",
+      "decision": "ACCEPTED_AFTER_REVISION",
+      "open_findings": []
+    }
+  ],
+  "source_review": [
+    {
+      "id": "hep-physics-upper",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+      "title": "普通物理学（第八版）上册",
+      "source_type": "publisher_public_catalog",
+      "reviewer_web_refs": [
+        "turn337view0",
+        "turn338view1"
+      ],
+      "actual_read_scope": "书目信息及第1—9章公开目录；复读运动量/牛顿定律、冲量动量、功与势能、刚体与流体、相对论、气体及热力学、静电与电流、恒流磁场和感应相关条目（网页抽取98—379行）。",
+      "use": "核对所连大学主题确在相应教材范围；不能独自决定某一节点必须先学另一节点。",
+      "limitations": "未逐页读取该版完整正文；2026-04是网页最新印次，不是新版本出版年。"
+    },
+    {
+      "id": "hep-physics-lower",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+      "title": "普通物理学（第八版）下册",
+      "source_type": "publisher_public_catalog",
+      "reviewer_web_refs": [
+        "turn338view0",
+        "turn340view0"
+      ],
+      "actual_read_scope": "书目信息及第10—15章公开目录，包含简谐振动、波函数、几何光学、相干与衍射、偏振、黑体与光子、德布罗意波以及核结合能和衰变（网页抽取119—359行）。",
+      "use": "核对大学端课程主题定位与由中学现象/量义到大学表达的范围差别。",
+      "limitations": "未读取完整正文；2026-09为最新印次，不冒称2026新版。"
+    },
+    {
+      "id": "sustech-phy105",
+      "url": "https://mirrors.sustech.edu.cn/courses/syllabus/PHY105.pdf",
+      "title": "PHY105 大学物理（上）课程详述",
+      "source_type": "university_official_syllabus",
+      "reviewer_web_refs": [
+        "turn337view1",
+        "turn338view2",
+        "turn340view2"
+      ],
+      "actual_read_scope": "实读课程身份、印刷第4页高中物理/数学基础和目标、印刷第5—6页运动、力、能量、动量、转动、流体、振动波及热物理课程内容；重点抽取169—240行。",
+      "use": "支持高中物理及数学作为整体学习准备；教学成果包含用微积分和向量表示物理定律。",
+      "limitations": "这是该校该课的大纲，采用Halliday教材，不是本项目高教社书的正文，也不能把整体先修要求机械拆成全部hard边。"
+    },
+    {
+      "id": "openstax-faraday-terminology",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law",
+      "title": "University Physics Volume 2, 13.2 Lenz’s Law",
+      "source_type": "official_open_textbook",
+      "reviewer_web_refs": [
+        "turn340view1"
+      ],
+      "actual_read_scope": "实读该节学习目标、定律说明和感应电动势计算段，网页22—48行，尤其35行时间变化率表达。",
+      "use": "独立核对法拉第定律所需的是磁通对时间的导数及其方向约定，支持纠正原提案中的“定向导数”用词。",
+      "limitations": "仅用于此次术语核对，不替换原中国教材定位，也未对该开放教材全书作审核。"
+    }
+  ],
+  "open_findings": [],
+  "limitations": [
+    "边的方向、必要性与hard/soft是本项目的学习建议；官方目录和高校课程大纲并未逐条规定这些关系。",
+    "本轮实际重读的是端点数据、官方书目目录和所列大纲/术语段落；未逐页重核全部初高中和大学教材正文或原题库，原节点的来源边界继续有效。",
+    "hard指目标任务直接使用的概念或运算准备；掌握等价能力即可，不是要求重复完成某一学段课程。",
+    "soft表示复习或辅助背景，不能据此宣称引擎不会追问；现有引擎仍可能在hard之后追查soft并参与关系推断。",
+    "数学、微积分、向量代数等准备没有在本次新增跨学科边；缺少相应边不代表这些能力不需要。",
+    "这是独立AI内容复核，未经教师审定；结构和运行软件验收由主代理负责，本轮没有新增或运行软件测试。"
+  ]
+}

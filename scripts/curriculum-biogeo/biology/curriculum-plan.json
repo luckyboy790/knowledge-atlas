@@ -1,0 +1,234 @@
+{
+  "checked_date": "2026-11-01",
+  "books": [
+    {
+      "book": "pep_biology_j7u",
+      "volume": "七年级上册",
+      "planned_topic_count": 20,
+      "chapters": [
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第一章 认识生物"
+        },
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第二章 认识细胞"
+        },
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第三章 从细胞到生物体"
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第一章 藻类与植物的类群"
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第二章 动物的类群"
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第三章 微生物"
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第四章 生物分类的方法"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j7l",
+      "volume": "七年级下册",
+      "planned_topic_count": 20,
+      "chapters": [
+        {
+          "unit": "第三单元 植物的生活",
+          "chapter": "第一章 被子植物的一生"
+        },
+        {
+          "unit": "第三单元 植物的生活",
+          "chapter": "第二章 植物体内的物质与能量变化"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第一章 人的生殖和发育"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第二章 人体的营养"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第三章 人体的呼吸"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第四章 人体内物质的运输"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第五章 人体内废物的排出"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j8u",
+      "volume": "八年级上册",
+      "planned_topic_count": 16,
+      "chapters": [
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第六章 人体生命活动的调节"
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第七章 健康地生活"
+        },
+        {
+          "unit": "第五单元 生物与环境",
+          "chapter": "第一章 生态系统"
+        },
+        {
+          "unit": "第五单元 生物与环境",
+          "chapter": "第二章 生态安全"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j8l",
+      "volume": "八年级下册",
+      "planned_topic_count": 16,
+      "chapters": [
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第一章 生物的生殖"
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第二章 生物的遗传与变异"
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第三章 生物的进化"
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第四章 生物多样性及其保护"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_b1",
+      "volume": "必修1 分子与细胞",
+      "planned_topic_count": 26,
+      "chapters": [
+        {
+          "chapter": "第1章 走近细胞"
+        },
+        {
+          "chapter": "第2章 组成细胞的分子"
+        },
+        {
+          "chapter": "第3章 细胞的基本结构"
+        },
+        {
+          "chapter": "第4章 细胞的物质输入和输出"
+        },
+        {
+          "chapter": "第5章 细胞的能量供应和利用"
+        },
+        {
+          "chapter": "第6章 细胞的生命历程"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_b2",
+      "volume": "必修2 遗传与进化",
+      "planned_topic_count": 24,
+      "chapters": [
+        {
+          "chapter": "第1章 遗传因子的发现"
+        },
+        {
+          "chapter": "第2章 基因和染色体的关系"
+        },
+        {
+          "chapter": "第3章 基因的本质"
+        },
+        {
+          "chapter": "第4章 基因的表达"
+        },
+        {
+          "chapter": "第5章 基因突变及其他变异"
+        },
+        {
+          "chapter": "第6章 生物的进化"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s1",
+      "volume": "选择性必修1 稳态与调节",
+      "planned_topic_count": 22,
+      "chapters": [
+        {
+          "chapter": "第1章 人体的内环境与稳态"
+        },
+        {
+          "chapter": "第2章 神经调节"
+        },
+        {
+          "chapter": "第3章 体液调节"
+        },
+        {
+          "chapter": "第4章 免疫调节"
+        },
+        {
+          "chapter": "第5章 植物生命活动的调节"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s2",
+      "volume": "选择性必修2 生物与环境",
+      "planned_topic_count": 17,
+      "chapters": [
+        {
+          "chapter": "第1章 种群及其动态"
+        },
+        {
+          "chapter": "第2章 群落及其演替"
+        },
+        {
+          "chapter": "第3章 生态系统及其稳定性"
+        },
+        {
+          "chapter": "第4章 人与环境"
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s3",
+      "volume": "选择性必修3 生物技术与工程",
+      "planned_topic_count": 18,
+      "chapters": [
+        {
+          "chapter": "第1章 发酵工程"
+        },
+        {
+          "chapter": "第2章 细胞工程"
+        },
+        {
+          "chapter": "第3章 基因工程"
+        },
+        {
+          "chapter": "第4章 生物技术的安全性与伦理问题"
+        }
+      ]
+    }
+  ],
+  "planned_topic_count": 179,
+  "planned_questions_per_topic": 2,
+  "coverage_boundary": "章级定位依据此前官方材料；2026更新后完整目录待核；高中知识已对照2025课标五模块正文。"
+}

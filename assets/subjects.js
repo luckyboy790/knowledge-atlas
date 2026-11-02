@@ -1,7 +1,14 @@
 /* 学科、相对路径和教材出处；原始数学/英语数据与诊断引擎不变。 */
 (function () {
   'use strict';
-  const names = {math:'数学', english:'英语', physics:'物理', chemistry:'化学', cs408:'408', med:'医学', tcm:'中医', herbal:'中药', uphysics:'大学物理', uchemistry:'大学化学'};
+  const names = {math:'数学', english:'英语', physics:'物理', chemistry:'化学', biology:'生物', geography:'地理', cs408:'408', med:'医学', tcm:'中医药'};
+  const aliases = {uphysics:'physics', uchemistry:'chemistry', herbal:'tcm'};
+  const rawNames = Object.assign({}, names, {tcm:'中医', herbal:'中药', uphysics:'大学物理', uchemistry:'大学化学'});
+  const groups = {physics:['physics','uphysics'], chemistry:['chemistry','uchemistry'], tcm:['tcm','herbal']};
+  function canonical(s) { return aliases[s] || s; }
+  function members(s) { s = canonical(s); return (groups[s] || [s]).slice(); }
+  function merged(s) { return !!groups[canonical(s)]; }
+  function mixedScience(s) { s = canonical(s); return s === 'physics' || s === 'chemistry'; }
   const courses = [
     {id:'ds',grade:17,name:'数据结构',summary:'算法、线性结构、树与图、查找与排序'},
     {id:'co',grade:18,name:'计算机组成原理',summary:'数据表示、存储系统、指令、CPU与I/O'},
@@ -55,21 +62,33 @@
       {id:'analysis',grade:67,name:'分析化学',summary:'误差评价、定量分析与仪器方法'}
     ]
   };
-  function read() {
-    const p = new URLSearchParams(location.search), explicit = p.get('subject');
-    if (names[explicit]) return explicit;
-    const id = p.get('target') || location.hash.slice(1);
-    return /^uphy_/.test(id) ? 'uphysics' : /^uch_/.test(id) ? 'uchemistry' : /^(med|tcm|herbal)_/.test(id) ? id.split('_')[0] : /^cs408_/.test(id) ? 'cs408' : /^cnc_/.test(id) ? 'chemistry' : /^cnp_/.test(id) ? 'physics' : /^cne_/.test(id) ? 'english' : 'math';
+  function inferred(id) {
+    id = String(id || '').trim().split(',')[0];
+    return /^uphy_/.test(id) ? 'uphysics' : /^uch_/.test(id) ? 'uchemistry' : /^(med|tcm|herbal)_/.test(id) ? id.split('_')[0] : /^cs408_/.test(id) ? 'cs408' : /^cnb_/.test(id) ? 'biology' : /^cng_/.test(id) ? 'geography' : /^cnc_/.test(id) ? 'chemistry' : /^cnp_/.test(id) ? 'physics' : /^cne_/.test(id) ? 'english' : /^cnm_/.test(id) ? 'math' : '';
   }
-  function of(t) { return t.subject || (/^uphy_/.test(t.id) ? 'uphysics' : /^uch_/.test(t.id) ? 'uchemistry' : /^(med|tcm|herbal)_/.test(t.id) ? t.id.split('_')[0] : /^cs408_/.test(t.id) ? 'cs408' : /^cne_/.test(t.id) ? 'english' : /^cnp_/.test(t.id) ? 'physics' : /^cnc_/.test(t.id) ? 'chemistry' : 'math'); }
+  function requested() {
+    const p = new URLSearchParams(location.search), explicit = p.get('subject');
+    if (rawNames[explicit]) return explicit;
+    let id = p.get('target') || location.hash.slice(1);
+    try { id = decodeURIComponent(id); } catch (_) { /* Preserve an invalid legacy fragment. */ }
+    return inferred(id) || 'math';
+  }
+  function read() { return canonical(requested()); }
+  function rawOf(t) { return inferred(t.id) || t.subject || 'math'; }
+  function of(t) { return canonical(rawOf(t)); }
+  function initialScope() {
+    const raw = requested();
+    return {subject:canonical(raw), stage:universityScience(raw) ? 'u' : '', member:raw === 'herbal' ? 'herbal' : ''};
+  }
   function link(href, subject) {
-    if (!href || href[0] === '#' || /^(?:https?:|data:|mailto:)/.test(href) || subject === 'math') return href;
+    if (!href || href[0] === '#' || /^(?:https?:|data:|mailto:)/.test(href)) return href;
     const parts = href.split('#'), base = parts.shift(), q = base.split('?');
     const params = new URLSearchParams(q[1] || '');
-    if (!params.has('subject')) params.set('subject', subject);
-    return q[0] + '?' + params.toString() + (parts.length ? '#' + parts.join('#') : '');
+    const wanted = canonical(params.get('subject') || subject || read());
+    if (wanted !== 'math' || params.has('subject')) params.set('subject', wanted);
+    return q[0] + (params.toString() ? '?' + params.toString() : '') + (parts.length ? '#' + parts.join('#') : '');
   }
-  function data(file, subject) { return (science(subject) || academic(subject)) && /^(topics|dependencies|questions)\.json$/.test(file) ? subject + '-' + file : file; }
+  function data(file, subject) { subject = canonical(subject); return (science(subject) || academic(subject)) && /^(topics|dependencies|questions)\.json$/.test(file) ? subject + '-' + file : file; }
   // 普通脚本可在完整解压后的 file:// 页面及 HTTP 子路径加载；不依赖 JSON fetch。
   const scriptUrl = typeof document !== 'undefined' && document.currentScript ? document.currentScript.src : '';
   const payloads = Object.create(null), pending = Object.create(null);
@@ -99,42 +118,70 @@
     // 每次读取返回独立对象，避免界面或引擎处理污染其他调用的数据。
     return pending[file].then(function() { return JSON.parse(payloads[file]); });
   }
-  // 合并独立的大学扩展；原始中小学/英语 JSON 保持字节不变。
+  function response(value) { return {ok:true, status:200, json:async function(){return value;}}; }
+  async function fetchRaw(url) { return response(await loadJson(url.split(/[?#]/)[0].split('/').pop())); }
+  // 只在展示层合并：原始来源、ID、教材定位及独立 JSON 均不改变。
   async function fetchData(url, subject) {
     const file = url.split(/[?#]/)[0].split('/').pop();
+    subject = canonical(subject || read());
+    const kind = /(?:^|-)(topics|dependencies|questions)\.json$/.exec(file);
     let value;
     if (subject === 'math' && /^(?:topics|dependencies|questions)\.json$/.test(file)) {
       const arrays = await Promise.all([loadJson(file), loadJson('math-university-' + file), loadJson('math-probability-' + file)]);
       if (!arrays.every(Array.isArray)) throw new Error('大学数学数据格式错误');
       value = arrays[0].concat(arrays[1], arrays[2]);
+    } else if (merged(subject) && kind) {
+      const arrays = await Promise.all(members(subject).map(function(s){return loadJson(s + '-' + kind[1] + '.json');}));
+      if (!arrays.every(Array.isArray)) throw new Error('合并学科数据格式错误');
+      value = [].concat.apply([], arrays);
+      if (kind[1] === 'dependencies') {
+        const bridges = await loadJson('subject-bridge-dependencies.json');
+        if (!Array.isArray(bridges)) throw new Error('跨课程先修数据格式错误');
+        value = value.concat(bridges.filter(function(e){return canonical(e.subject) === subject;}));
+      }
     } else value = await loadJson(file);
-    return {ok:true, status:200, json:async function(){return value;}};
+    return response(value);
   }
-  // 15/16/17 是三门大学数学课程的界面编码，进入引擎时同属一个学段，跨课程先修按拓扑序排列。
+  // 适配对象只进入引擎；大学课程共享学段编码，跨课程先修按拓扑排序。
   function engineTopics(topics) {
     return topics.map(function(t){
-      if (academic(of(t))) {
+      const s = of(t), adapted = Object.assign({}, t, {subject:s});
+      if (isAcademicTopic(t)) {
         const c = computingChapter(t);
-        // 同一学科的大学课程共享引擎学段，跨课程先修由拓扑关系决定。
-        return Object.assign({},t,{grade:coursesFor(of(t))[0].grade,chapter:c.label + ' ' + c.chapterNo + ' ' + c.chapterName.replace(/\s+/g,'·')});
+        return Object.assign(adapted, {grade:coursesFor(s)[0].grade,chapter:c.label + ' ' + c.chapterNo + ' ' + c.chapterName.replace(/\s+/g,'·')});
       }
-      if (of(t) === 'math' && t.grade >= 15) return Object.assign({}, t, {grade:15});
-      // 原引擎按「册名 第X章 章名」汇总，科学新册使用教材元数据适配，原数据不变。
-      if (science(of(t)) && t.grade >= 10 && t.textbook) {
+      if (s === 'math' && t.grade >= 15) return Object.assign(adapted, {grade:15});
+      if (science(s) && (t.grade >= 10 || biogeo(s)) && t.textbook) {
         const c = scienceChapter(t);
-        return Object.assign({}, t, {chapter:bookLabel(t).replace(/\s+/g, '·') + ' ' + c.chapterNo + ' ' + c.chapterName.replace(/\s+/g, '·')});
+        return Object.assign(adapted, {chapter:bookLabel(t).replace(/\s+/g, '·') + ' ' + c.chapterNo + ' ' + c.chapterName.replace(/\s+/g, '·')});
       }
-      return t;
+      return adapted;
     });
   }
-  function scienceGrade(grade) { return {8:'八年级',9:'九年级',10:'高一',11:'高二',12:'高三'}[grade] || String(grade); }
+  function scienceGrade(grade) { return {7:'七年级',8:'八年级',9:'九年级',10:'高一',11:'高二',12:'高三'}[grade] || String(grade); }
   function computing(s) { return s === 'cs408'; }
   function medical(s) { return Object.prototype.hasOwnProperty.call(medicalCourses, s); }
   function universityScience(s) { return Object.prototype.hasOwnProperty.call(universityScienceModules, s); }
   function curriculum(s) { return medical(s) || universityScience(s); }
   function academic(s) { return computing(s) || curriculum(s); }
-  function unitLabel(s) { return universityScience(s || read()) ? '模块' : '课程'; }
-  function coursesFor(s) { return computing(s) ? courses : medicalCourses[s] || universityScienceModules[s] || []; }
+  function unitLabel(s) { return universityScience(s || read()) || mixedScience(s || read()) ? '模块' : '课程'; }
+  function rawCoursesFor(s) { return computing(s) ? courses : medicalCourses[s] || universityScienceModules[s] || []; }
+  function coursesFor(s) {
+    s = canonical(s || read());
+    return members(s).reduce(function(all, member){return all.concat(rawCoursesFor(member));}, []);
+  }
+  function isUniversityTopic(t) { return universityScience(rawOf(t)) || mixedScience(of(t)) && t.grade >= 50; }
+  function isAcademicTopic(t) { return computing(of(t)) || medical(rawOf(t)) || isUniversityTopic(t); }
+  function stageKind(grade, subject) {
+    const s = canonical(subject || read());
+    if (grade <= 6) return 'primary';
+    if (grade <= 9) return 'junior';
+    return academic(s) || s === 'math' && grade >= 15 || mixedScience(s) && grade >= 50 ? 'university' : 'senior';
+  }
+  function stageCode(grade, subject) { return {primary:'p',junior:'j',senior:'h',university:'u'}[stageKind(grade, subject)]; }
+  function legacySessions(s) {
+    return ({physics:[['cnpDiagnose.session.v9','原物理'],['uphysicsDiagnose.session.v1','原大学物理']],chemistry:[['cncDiagnose.session.v9','原化学'],['uchemistryDiagnose.session.v1','原大学化学']],tcm:[['tcmDiagnose.session.v1','原中医'],['herbalDiagnose.session.v1','原中药']]}[canonical(s)] || []).map(function(row){return {key:row[0],label:row[1]};});
+  }
   function assessment(text, s) {
     s = s || read();
     if (!curriculum(s)) return text;
@@ -148,6 +195,16 @@
     return coursesFor(subject || read()).find(function(c){return c.id === (aliases[v] || v) || String(c.grade) === v || c.name === value;}) || null;
   }
   function courseName(value, subject) { const c = courseFrom(value, subject); return c ? c.name : String(value || ''); }
+  function courseTargets(topics, scope, subject) {
+    subject = canonical(subject || read());
+    const course = courseFrom(scope, subject), family = subject === 'tcm' && (scope === 'herbal' || scope === '中医') ? (scope === 'herbal' ? 'herbal' : 'tcm') : '';
+    const all = scope === 'all' || scope === names[subject] || subject === 'cs408' && scope === '四门综合' || mixedScience(subject) && (scope === 'university' || scope === '大学' || scope === 'u');
+    if (!course && !family && !all || !academic(subject) && !mixedScience(subject)) return null;
+    const list = topics.filter(function(t){return !t.external && of(t) === subject && isAcademicTopic(t) && (family ? rawOf(t) === family : all || t.module === course.id);});
+    if (!list.length) return null;
+    return {ids:list.map(function(t){return t.id;}),volumes:Array.from(new Set(list.map(function(t){return t.module;}))),label:family ? rawNames[family] + '课程' : (mixedScience(subject) ? '大学' + names[subject] : names[subject]) + ' · ' + (all ? '全部' + unitLabel(subject) : course.name)};
+  }
+
   function computingChapter(t) {
     const c = courseFrom(t.module || t.grade, of(t));
     const title = t.chapter || '';
@@ -159,25 +216,60 @@
     const b = t.textbook || {};
     let title = b.chapter || t.chapter || '';
     const match = /(第[一二三四五六七八九十百\d]+[章单元]+)\s*(.+)/.exec(title);
-    return {volume:b.book, label:bookLabel(t), chapterNo:match ? match[1] : '第1章', chapterName:match ? match[2] : title, section:b.section || ''};
+    let chapterNo = match ? match[1] : '第1章';
+    // 初中生物的章号可在不同单元内重启，真实单元号与章号共同确定章节。
+    if (biogeo(of(t)) && b.unit) {
+      const unit = /(第[一二三四五六七八九十百\d]+单元)/.exec(b.unit);
+      if (unit && chapterNo.indexOf(unit[1]) < 0) chapterNo = unit[1] + '·' + chapterNo;
+    }
+    return {volume:b.book, label:bookLabel(t), chapterNo:chapterNo, chapterName:match ? match[2] : title, section:b.section || ''};
   }
   function reference(t) {
     if (!t.textbook) return '';
     const b = t.textbook;
     const parts = [b.title || ('人教版《' + names[of(t)] + '》' + (b.volume || ''))];
-    if ((curriculum(of(t)) || /^cnm_ps\d+$/.test(t.id)) && b.edition && !/第[0-9一二三四五六七八九十]+版/.test(b.title || '')) parts.push(typeof b.edition === 'number' ? '第' + b.edition + '版' : b.edition);
+    if ((isAcademicTopic(t) || /^cnm_ps\d+$/.test(t.id)) && b.edition && !/第[0-9一二三四五六七八九十]+版/.test(b.title || '')) parts.push(typeof b.edition === 'number' ? '第' + b.edition + '版' : b.edition);
+    if (biogeo(of(t)) && b.unit) parts.push(b.unit);
     if (b.chapter && (!b.section || b.section.indexOf(b.chapter) < 0)) parts.push(b.chapter);
     if (b.section) parts.push(b.section);
     if (b.pages) parts.push('纸书第 ' + b.pages + ' 页');
     return parts.join(' · ');
   }
-  function science(s) { return s === 'physics' || s === 'chemistry'; }
+  function biogeo(s) { return s === 'biology' || s === 'geography'; }
+  function science(s) { return s === 'physics' || s === 'chemistry' || biogeo(s); }
+  // 新两科的整册与年级范围直接读教材元数据，不依赖数学的册次编码。
+  function schoolTargets(topics, scope, subject) {
+    const key = String(scope || '').trim();
+    const grades = {'七':7,'七年级':7,'7':7,'八':8,'八年级':8,'8':8,'高一':10,'高一年级':10,'10':10,'高二':11,'高二年级':11,'11':11,'高三':12,'高三年级':12,'12':12};
+    const g = grades[key];
+    const junior = /^([七八])(?:年级)?([上下])(?:册)?$/.exec(key);
+    const bookCode = function(value) {
+      const m = /^(选择性必修|选必|必修)第?([一二三123])(?:册)?/.exec(String(value || '').replace(/\s+/g, ''));
+      return m ? (m[1] === '必修' ? 'b' : 's') + ({一:'1',二:'2',三:'3'}[m[2]] || m[2]) : '';
+    };
+    const code = bookCode(key), all = key === 'all' || key === '全部' || key === names[subject];
+    const list = topics.filter(function(t) {
+      if (t.external || of(t) !== subject) return false;
+      if (all) return true;
+      if (g) return t.grade === g;
+      if (junior) return t.grade === (junior[1] === '七' ? 7 : 8) && t.semester === junior[2];
+      const b = t.textbook || {};
+      return b.book === key || b.volume === key || b.title === key || (code && t.grade >= 10 && bookCode(b.volume) === code);
+    });
+    if (!list.length) return null;
+    return {ids:list.map(function(t){return t.id;}),volumes:Array.from(new Set(list.map(function(t){return t.textbook.book;}))),label:all ? names[subject] + ' · 全部已收录知识' : g ? scienceGrade(g) + (g >= 10 ? '（建议编排）' : '') : bookLabel(list[0])};
+  }
   const specs = {physics:{grades:[8,9,10,11,12],start:'八',range:'初中至高中',books:'初中三册、高中必修与选择性必修六册',demo:'cnp_043',demoName:'欧姆定律',search:'牛顿运动定律、动量守恒、电磁感应'},chemistry:{grades:[9,10,11,12],start:'九',range:'初中至高中',books:'九年级上下册、高中必修与选择性必修五册',demo:'cnc_017',demoName:'质量守恒定律',search:'物质的量、化学平衡、有机化合物'}};
+  specs.biology = {grades:[7,8,10,11,12],start:'七',range:'初中至高中',books:'初中四册、高中必修与选择性必修五册',demo:'cnb_095',demoName:'净光合速率与环境限制',search:'细胞、光合作用、遗传、生态系统',checked:'2026-11-01',intro:'从初中生物学衔接到高中必修与选择性必修：按教材册次与已核验的官方材料查找知识，理解生命现象的结构、机制与证据，再沿先修关系复习。已知的 2026 教材目录更新与尚待核验的新正文逐册列在来源页；原创练习与学习建议已经 AI 检查，尚未经教师审核。'};
+  specs.geography = {grades:[7,8,10,11,12],start:'七',range:'初中至高中',books:'初中四册、高中必修与选择性必修五册',demo:'cng_122',demoName:'正午太阳高度与日影方向',search:'经纬度、气候、地貌、区域发展',checked:'2026-11-01',intro:'从初中地理衔接到高中必修与选择性必修：按教材册次理解空间位置、自然过程和人地关系，用原创题检查条件与推理，再回到教材复习。各册更新信息、目录和可读正文的核验范围分别列在来源页；内容已经 AI 检查，尚未经教师审核。'};
   specs.cs408 = {grades:[17,18,19,20],start:'ds',range:'计算机专业基础',books:'数据结构、计算机组成原理、操作系统、计算机网络',demo:'cs408_ds_001',demoName:'逻辑结构、存储结构与抽象数据类型',search:'KMP、Cache、缺页中断、TCP'};
   specs.med = {grades:medicalCourses.med.map(c=>c.grade),start:'anatomy',range:'本科基础课程',demo:'med_anatomy_001',demoName:'解剖学姿势、方位与切面',search:'动作电位、免疫、炎症、药代动力学'};
-  specs.tcm = {grades:medicalCourses.tcm.map(c=>c.grade),start:'basics',range:'本科中医学基础',demo:'tcm_basics_001',demoName:'整体观念',search:'阴阳、藏象、辨证、君臣佐使'};
+  specs.tcm = {grades:coursesFor('tcm').map(c=>c.grade),start:'basics',range:'本科中医与中药十门课程',demo:'tcm_basics_001',demoName:'整体观念',search:'藏象、辨证、君臣佐使、药性、鉴定、剂型'};
   specs.herbal = {grades:medicalCourses.herbal.map(c=>c.grade),start:'materia',range:'本科中药学核心课程',demo:'herbal_materia_001',demoName:'中药材、饮片与中成药',search:'药性、鉴定、黄酮、剂型'};
   specs.uphysics = {grades:universityScienceModules.uphysics.map(c=>c.grade),start:'mechanics',range:'本科基础物理',demo:'uphy_mechanics_001',demoName:'位矢、位移与瞬时运动量',search:'角动量、熵、高斯定理、量子数'};
   specs.uchemistry = {grades:universityScienceModules.uchemistry.map(c=>c.grade),start:'structure',range:'本科基础化学',demo:'uch_structure_004',demoName:'原子轨道的量子数',search:'化学势、缓冲溶液、手性、朗伯比尔定律'};
-  window.Subjects = {names, read, of, link, data, reference, science, scienceGrade, bookLabel, scienceChapter, specs, computing, medical, universityScience, curriculum, academic, unitLabel, assessment, courses, coursesFor, courseFrom, courseName, computingChapter, fetch: fetchData, engineTopics: engineTopics};
+  specs.physics.range = specs.chemistry.range = '初中、高中与大学';
+  specs.physics.books += '，以及大学六个模块';
+  specs.chemistry.books += '，以及大学七个模块';
+  window.Subjects = {canonical, members, merged, mixedScience, courseTargets, rawNames, rawOf, initialScope, rawCoursesFor, isUniversityTopic, isAcademicTopic, stageKind, stageCode, legacySessions, fetchRaw, names, read, of, link, data, reference, science, biogeo, schoolTargets, scienceGrade, bookLabel, scienceChapter, specs, computing, medical, universityScience, curriculum, academic, unitLabel, assessment, courses, coursesFor, courseFrom, courseName, computingChapter, fetch: fetchData, engineTopics: engineTopics};
 })();

@@ -7,7 +7,7 @@
 <script src="assets/subjects.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>学科知识图谱</title>
-<meta name="description" content="数学、英语、初高中物理化学、大学物理化学、408、医学、中医与中药知识图谱。核心知识、先修关系、原创测评及教材来源，已经 AI 检查，未经教师审核。">
+<meta name="description" content="数学、英语、初高中物理化学、生物、地理、大学物理化学、408、医学与中医药知识图谱。核心知识、先修关系、原创测评及教材来源，已经 AI 检查，未经教师审核。">
 <meta name="theme-color" content="#f7f6f3">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2315171c'/%3E%3Cpath d='M9.5 21.5 16 10.5l6.5 9' fill='none' stroke='%23fff' stroke-opacity='.55' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='9.5' cy='21.5' r='3.1' fill='%232fc7b4'/%3E%3Ccircle cx='16' cy='10.5' r='3.1' fill='%237ea4ff'/%3E%3Ccircle cx='22.5' cy='19.5' r='3.1' fill='%23f2b84b'/%3E%3C/svg%3E">
 <script>
@@ -17,6 +17,9 @@
   if (/^cnm_[A-Za-z0-9]+$/.test(id)) {
     document.documentElement.style.visibility = 'hidden';
     location.replace('explore/index.html#' + encodeURIComponent(id));
+  } else if (/^cn[bg]_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/index.html?subject=' + (/^cnb_/.test(id) ? 'biology' : 'geography') + '#' + encodeURIComponent(id));
   } else if (/^cne_[A-Za-z0-9]+$/.test(id)) {
     document.documentElement.style.visibility = 'hidden';
     location.replace('explore/index.html?subject=english#' + encodeURIComponent(id));
@@ -24,9 +27,9 @@
     document.documentElement.style.visibility = 'hidden';
     location.replace('explore/index.html?subject=physics#' + encodeURIComponent(id));
   } else if (/^(uphy|uch)_[a-z_]+_\d+$/.test(id)) {
-    location.replace('explore/index.html?subject=' + (/^uphy_/.test(id) ? 'uphysics' : 'uchemistry') + '#' + encodeURIComponent(id));
+    location.replace('explore/index.html?subject=' + (/^uphy_/.test(id) ? 'physics' : 'chemistry') + '#' + encodeURIComponent(id));
   } else if (/^(med|tcm|herbal)_[a-z]+_\d+$/.test(id)) {
-    location.replace('explore/index.html?subject=' + id.split('_')[0] + '#' + encodeURIComponent(id));
+    location.replace('explore/index.html?subject=' + (id.split('_')[0] === 'herbal' ? 'tcm' : id.split('_')[0]) + '#' + encodeURIComponent(id));
   } else if (/^cs408_[a-z]+_\d+$/.test(id)) {
     location.replace("explore/index.html?subject=cs408#" + encodeURIComponent(id));
   } else if (/^cnc_[A-Za-z0-9]+$/.test(id)) {
@@ -48,8 +51,8 @@
       <a class="subject-link on" data-subject="math" href="./index.html">数学</a>
       <a class="subject-link" data-subject="english" href="./index.html?subject=english">英语</a>
       <a class="subject-link" data-subject="physics" href="./index.html?subject=physics">物理</a>
-      <a class="subject-link" data-subject="chemistry" href="./index.html?subject=chemistry">化学</a><a class="subject-link" data-subject="uphysics" href="./index.html?subject=uphysics">大学物理</a><a class="subject-link" data-subject="uchemistry" href="./index.html?subject=uchemistry">大学化学</a><a class="subject-link" data-subject="cs408" href="index.html?subject=cs408">408</a>
-    <a class="subject-link" data-subject="med" href="./index.html?subject=med">医学</a><a class="subject-link" data-subject="tcm" href="./index.html?subject=tcm">中医</a><a class="subject-link" data-subject="herbal" href="./index.html?subject=herbal">中药</a></nav>
+      <a class="subject-link" data-subject="chemistry" href="./index.html?subject=chemistry">化学</a><a class="subject-link" data-subject="biology" href="./index.html?subject=biology">生物</a><a class="subject-link" data-subject="geography" href="./index.html?subject=geography">地理</a><a class="subject-link" data-subject="cs408" href="index.html?subject=cs408">408</a>
+    <a class="subject-link" data-subject="med" href="./index.html?subject=med">医学</a><a class="subject-link" data-subject="tcm" href="./index.html?subject=tcm">中医药</a></nav>
     <nav class="site-nav" aria-label="主导航">
       <a class="nav-link active" href="./index.html" aria-current="page">首页</a>
       <a class="nav-link" href="explore/index.html">知识图谱</a>
@@ -63,9 +66,9 @@
 <main class="home">
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-copy">
-      <p class="eyebrow">十个学科入口 · 从基础知识到大学课程</p>
+      <p class="eyebrow">九个学科入口 · 从基础知识到大学课程</p>
       <h1 id="hero-title"><span class="h1-line">先找到真正</span><span class="h1-line">没学会的<span class="h1-mark">那一步</span></span></h1>
-      <p class="lede">沿着先修关系自适应出题。数学从小学延伸至高等数学、线性代数、概率论与数理统计；大学部分为核心知识点集，英语覆盖三年级到高中，物理、化学衔接初中与高中必修、选择性必修，大学物理与大学化学按本科核心模块组织，408覆盖计算机专业基础四门课程，医学、中医与中药涵盖本科核心课程。从你选的知识点往回追，定位薄弱根因，并给出一条按学习顺序排起的路径。</p>
+      <p class="lede">沿着先修关系自适应出题。数学从小学延伸至高等数学、线性代数、概率论与数理统计；大学部分为核心知识点集，英语覆盖三年级到高中，物理与化学贯通初中、高中与大学核心模块，生物与地理衔接初中与高中必修、选择性必修，408覆盖计算机专业基础四门课程，医学与中医药涵盖本科核心课程。从你选的知识点往回追，定位薄弱根因，并给出一条按学习顺序排起的路径。</p>
       <div class="hero-actions">
         <a class="btn btn-primary btn-lg" href="diagnose/index.html">开始诊断<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
         <a class="btn btn-lg" href="explore/index.html">浏览知识图谱</a>
@@ -90,7 +93,7 @@
         <span class="step-no">01</span>
         <svg class="step-art" viewBox="0 0 220 64" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><rect class="sa-box" x="1" y="16" width="146" height="32" rx="10"/><circle class="sa-glass" cx="18" cy="31" r="5"/><path class="sa-glass" d="m21.8 34.8 3.6 3.6"/><rect class="sa-text" x="34" y="29" width="58" height="6" rx="3"/><path class="sa-caret" d="M98 24v16"/><path class="sa-line" d="M147 32h22"/><circle class="sa-ring" cx="190" cy="32" r="18"/><circle class="sa-ink" cx="190" cy="32" r="10"/></svg>
         <h3>选知识点</h3>
-        <p>数学从小学到高中、高等数学、线性代数和概率论与数理统计，英语从三年级到高中，物理和化学从初中延伸至高中，大学物理和大学化学设有独立模块，408包含四门专业基础课，医学、中医与中药按本科核心课程组织。搜索或按年级、课程和章节选择内容。</p>
+        <p>数学从小学到高中、高等数学、线性代数和概率论与数理统计，英语从三年级到高中，物理与化学从初中延伸至高中和大学模块，生物与地理覆盖初高中，408包含四门专业基础课，医学与中医药按本科核心课程组织。搜索或按年级、课程和章节选择内容。</p>
       </li>
       <li>
         <span class="step-no">02</span>
@@ -139,7 +142,7 @@
       <svg class="logo" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#15171c"/><path d="M9.5 21.5 16 10.5l6.5 9" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="21.5" r="3.1" fill="#2fc7b4"/><circle cx="16" cy="10.5" r="3.1" fill="#7ea4ff"/><circle cx="22.5" cy="19.5" r="3.1" fill="#f2b84b"/></svg>
       <p><strong>Toy 适配 · 非商业学习使用</strong>原作者 xiaoyang111222 · 项目 cn-math-taxonomy</p>
     </div>
-    <p>大学数学、初高中理化、大学理化、408 与医学、中医、中药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="sources.html">查看教材来源与覆盖范围</a></p>
+    <p>大学数学、物理与化学（初中至大学）、初高中生物与地理、408、医学与中医药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="sources.html">查看教材来源与覆盖范围</a></p>
     <p class="footer-links"><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">原项目源码</a><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">原项目 CC BY-NC 4.0</a><a href="LICENSE">许可证全文</a></p>
   </div>
 </footer>

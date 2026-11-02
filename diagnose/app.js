@@ -36,6 +36,8 @@
   let subject = 'math';
   let startQuery = '';
   let startStage = '';
+  let startCourse = '';
+  let startMember = '';
   let chapterOpen = false;
   let gradeSel = '七';     // 开始页「按年级 / 课程整体诊断」：年级
   let volSel = '';         // '' 整年级 / '上' / '下'
@@ -45,6 +47,7 @@
   let pathTipLock = false;
   let shareBlobUrl = null;
   let shareToken = 0;
+  let exportCache = {session:null,label:null,text:''};
 
   /* ------------------------------------------------------------ 小工具 */
   function h(tag, attrs) {
@@ -79,30 +82,11 @@
     node.setAttribute('focusable', 'false');
     return wrap;
   }
-  function sessionKey() { return Subjects.academic(subject) ? subject + 'Diagnose.session.v1' : subject === 'chemistry' ? 'cncDiagnose.session.v9' : subject === 'physics' ? 'cnpDiagnose.session.v9' : subject === 'english' ? LS_SESSION_EN : LS_SESSION; }
+  function sessionKey() { if (Subjects.merged(subject)) return subject + 'Diagnose.session.v17'; return Subjects.academic(subject) || Subjects.biogeo(subject) ? subject + 'Diagnose.session.v1' : subject === 'chemistry' ? 'cncDiagnose.session.v9' : subject === 'physics' ? 'cnpDiagnose.session.v9' : subject === 'english' ? LS_SESSION_EN : LS_SESSION; }
   function withSubject(href) {
     return Subjects.link(href, subject);
   }
-  function detectSubject() {
-    const params = new URLSearchParams(location.search);
-    const explicit = params.get('subject');
-    if (Subjects.names[explicit]) return explicit;
-    if (/^uphy_/.test(params.get('target') || location.hash.slice(1))) return 'uphysics';
-    if (/^uch_/.test(params.get('target') || location.hash.slice(1))) return 'uchemistry';
-    if (/^(med|tcm|herbal)_/.test(params.get('target') || location.hash.slice(1))) return (params.get('target') || location.hash.slice(1)).split('_')[0];
-    if (/^cs408_/.test(params.get('target') || location.hash.slice(1))) return 'cs408';
-    if (/^cnc_/.test(params.get('target') || location.hash.slice(1))) return 'chemistry';
-    if (/^cnp_/.test(params.get('target') || location.hash.slice(1))) return 'physics';
-    const target = params.get('target') || '';
-    let hashId = (location.hash || '').replace(/^#/, '');
-    try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
-    if (/(^|,)\s*cne_/.test(target) || /^cne_/.test(hashId)) {
-      params.set('subject', 'english');
-      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
-      return 'english';
-    }
-    return 'math';
-  }
+  function detectSubject() { return Subjects.read(); }
   function applySubjectChrome() {
     document.body.classList.toggle('subject-english', subject === 'english');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand, .site-footer a[href="../sources.html"]').forEach(function (link) {
@@ -117,6 +101,12 @@
       else link.removeAttribute('aria-current');
     });
     if (Subjects.science(subject) || Subjects.academic(subject)) { document.title = uiText('诊断 · ') + Subjects.names[subject]; gradeSel = Subjects.specs[subject].start; if (subject === 'chemistry' || Subjects.academic(subject)) volSel = '';  }
+    const initial = Subjects.initialScope(), params = new URLSearchParams(location.search);
+    startStage = params.get('stage') || initial.stage;
+    if (!['','p','j','h','u'].includes(startStage)) startStage='';
+    startMember = subject === 'tcm' && ['tcm','herbal'].includes(params.get('member')) ? params.get('member') : initial.member;
+    if (Subjects.mixedScience(subject) && startStage === 'u') gradeSel='university';
+    if (startMember === 'herbal') gradeSel='materia';
     if (subject === 'english') {
       document.title = uiText('诊断 · 英语');
       var juniorOk = '三四五六七八九'.indexOf(gradeSel) >= 0;
@@ -200,7 +190,7 @@
     const vols = {};
     topics.forEach(function (t) {
       if (t.external) return;
-      const c = Subjects.academic(subject) ? Subjects.computingChapter(t) : Subjects.science(subject) && t.grade >= 10 ? Subjects.scienceChapter(t) : E.parseChapter(t.chapter);
+      const c = Subjects.isAcademicTopic(t) ? Subjects.computingChapter(t) : Subjects.science(subject) && (t.grade >= 10 || Subjects.biogeo(subject)) ? Subjects.scienceChapter(t) : E.parseChapter(t.chapter);
       const v = vols[c.volume] || (vols[c.volume] = { chapters: [], byKey: {}, label:c.label, grade:t.grade });
       const key = c.chapterNo + ' ' + c.chapterName;
       let ch = v.byKey[key];
@@ -224,7 +214,7 @@
   function save() {
     if (demo || !session) return;
     lsSet(sessionKey(), {
-      v: 2, mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
+      v: Subjects.merged(subject) ? 3 : 2, subject:subject, recovery:sessionMeta.recovery, mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
       seed: session.seed, avoid: session.avoid, savedAt: new Date().toISOString()
     });
   }
@@ -240,12 +230,34 @@
     render();
   }
 
-  function restoreSession(saved) {
-    try {
-      session = E.replay(D.graph, saved.targets, saved.answers, { mode: saved.mode, limit: saved.limit, seed: saved.seed, avoid: saved.avoid });
-      sessionMeta = { label: saved.label || saved.targets.map(nameOf).join('、') };
-      return true;
-    } catch (e) { return false; }
+  function restoreSession(saved, originalKey) {
+    const checked = SessionCompatibility.inspect(D.graph, saved, E);
+    if (!checked.ok) return false;
+    session = checked.session;
+    sessionMeta = {label:saved.label || saved.targets.map(nameOf).join('、'),recovery:originalKey ? '已依据记录中的题目身份恢复，并按当前图谱重算关系推断；推断数量可能与原结果不同。旧记录仍单独保留。' : checked.orderChanged ? '已依据记录中的题目身份恢复。更正判定或先修变化可能改变后续顺序，关系推断已按当前图谱重算。' : saved.recovery};
+    resetUi();
+    if (originalKey) save();
+    return true;
+  }
+  function downloadSaved(key, label) {
+    let raw;
+    try { raw=localStorage.getItem(key); } catch (_) { return; }
+    if (!raw) return;
+    const url=URL.createObjectURL(new Blob([raw],{type:'application/json'}));
+    const a=h('a',{href:url,download:'saved-' + key + '.json'});
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(function(){URL.revokeObjectURL(url);},2000);
+  }
+  function savedCard(saved, key, label, legacy, hasCurrent) {
+    const checked=SessionCompatibility.inspect(D.graph,saved,E);
+    const card=h('div',{class:'banner saved-record','data-storage-key':key},h('b',{text:label}),h('span',{text:(saved.label || (Array.isArray(saved.targets) ? saved.targets.map(nameOf).join('、') : '') || '未命名记录') + '（已答 ' + (Array.isArray(saved.answers) ? saved.answers.length : 0) + ' 题）'}));
+    if (checked.ok) {
+      card.append(h('button',{class:'primary',onclick:function(){if(restoreSession(saved,legacy ? key : null)) render(); else renderStart('记录已变化，未恢复。原记录仍保留。');}},legacy ? (hasCurrent ? '恢复此份并替换当前进度' : '恢复此份旧记录') : '继续'));
+      if (legacy) card.append(h('span',{class:'small',text:'依据已记录题目恢复，关系推断按当前图谱重算；这份旧记录保持原样，不与其他旧档合并。'}));
+    } else card.append(h('span',{class:'small',text:checked.reason + ' 原记录保留，可下载后查看；请从当前目标重新开始。'}));
+    card.append(h('button',{onclick:function(){downloadSaved(key,label);}},legacy ? '下载原记录' : '下载此记录'));
+    if (!legacy) card.append(h('button',{onclick:function(){lsDel(key);renderStart();}},'放弃当前存档'));
+    return card;
   }
 
   function restart() {
@@ -319,6 +331,7 @@
     if (!session) return renderStart();
     const item = E.nextItem(D.graph, session);
     if (item) renderQuestion(item); else renderResult();
+    if (sessionMeta.recovery && root.firstChild) root.firstChild.prepend(h('p',{class:'banner recovery-note',text:sessionMeta.recovery}));
   }
 
   /* ------------------------------------------------------------ 开始页 */
@@ -328,19 +341,19 @@
       class: 'stage-tab' + (startStage === value ? ' on' : ''),
       role: 'tab',
       'aria-selected': startStage === value ? 'true' : 'false',
-      onclick: function () { startStage = value; renderStart(); }
+      onclick: function () { startStage = value; if (Subjects.academic(subject)) startMember=''; if (value !== 'u') startCourse=''; renderStart(); }
     }, label);
   }
 
   function renderStart(errMsg) {
     const page = h('div', { class: 'page page-start' });
     const saved = lsGet(sessionKey());
-    if (saved && saved.targets && D.graph.byId[saved.targets[0]]) {
-      page.append(h('div', { class: 'banner' },
-        h('b', { text: uiText('有一份未清除的诊断：') }), saved.label || saved.targets.map(nameOf).join('、'),
-        '（已答 ' + (saved.answers || []).length + ' 题）　',
-        h('button', { class: 'primary', onclick: function () { if (restoreSession(saved)) render(); else { lsDel(sessionKey()); renderStart('存档无法恢复，已清除。'); } } }, '继续'),
-        ' ', h('button', { onclick: function () { lsDel(sessionKey()); renderStart(); } }, '放弃存档')));
+    if (saved) page.append(savedCard(saved,sessionKey(),'当前进度',false,false));
+    const legacy = Subjects.legacySessions(subject).map(function(spec){return {spec:spec,saved:lsGet(spec.key)};}).filter(function(x){return !!x.saved;});
+    if (legacy.length) {
+      const old=h('section',{class:'legacy-records','aria-label':'合并前的独立记录'},h('h2',{text:'合并前的独立记录'}),h('p',{class:'muted small',text:'分别选择要恢复的旧记录。恢复前会逐题核对题目身份、选题参数与范围；更正判定后的历史答案保留，关系推断重新计算。未选择的旧档不会改变。'}));
+      legacy.forEach(function(x){old.append(savedCard(x.saved,x.spec.key,x.spec.label,true,!!saved));});
+      page.append(old);
     }
     if (errMsg) page.append(h('p', { class: 'err', text: errMsg }));
 
@@ -362,7 +375,7 @@
     page.append(h('header', { class: 'diag-intro' },
       h('p', { class: 'eyebrow', text: Subjects.names[subject] + uiText(' · 自适应诊断') }),
       h('h1', { text: uiText('选择诊断目标') }),
-      h('p', { class: 'lede' }, Subjects.academic(subject) ? '选一个想检查的知识点。首题答对时工具标为「已掌握」，答错后再用另一道题确认：两题都不会时标为「薄弱」并追查先修，第二题答对则标为「不稳」。这是基础抽查标签，不代表完整掌握。' : subject === 'english'
+      h('p', { class: 'lede' }, Subjects.academic(subject) || Subjects.science(subject) ? '选一个想检查的知识点。首题答对时工具标为「已掌握」，答错后再用另一道题确认：两题都不会时标为「薄弱」并追查先修，第二题答对则标为「不稳」。这是基础抽查标签，不代表完整掌握。' : subject === 'english'
         ? '选一个想学会或想检查的英语知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。'
         : '选一个想学会或想检查的知识点。第一题答对就算掌握；答错会再出一道同级或更容易的题——第二题也错才算薄弱，并回溯到先修；第二题答对则标为「不稳」。')));
     const startGrid = h('div', { class: 'start-grid' });
@@ -370,7 +383,9 @@
       h('div', { class: 'card-head' }, h('span', { class: 'card-no', text: 'A' }), h('h2', { text: uiText('按知识点诊断') })),
       h('p', { class: 'muted small card-sub' }, '从一个具体的知识点出发，沿先修往回追，找出最早没学会的地方。'),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': Subjects.academic(subject) ? Subjects.unitLabel(subject) + '筛选' : '学段' },
-        Subjects.academic(subject) ? [stageButton('', '全部')].concat(Subjects.coursesFor(subject).map(function(c){return stageButton(c.id,c.name);})) : Subjects.science(subject) ? [stageButton('', '全部'), stageButton('j','初中'), stageButton('h','高中')] : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')].concat(subject === 'math' ? [stageButton('u', '大学')] : [])),
+        Subjects.academic(subject) ? [stageButton('', '全部')].concat(Subjects.coursesFor(subject).map(function(c){return stageButton(c.id,c.name);})) : Subjects.science(subject) ? [stageButton('', '全部'), stageButton('j','初中'), stageButton('h','高中')].concat(Subjects.mixedScience(subject) ? [stageButton('u','大学')] : []) : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')].concat(subject === 'math' ? [stageButton('u', '大学')] : [])),
+      Subjects.mixedScience(subject) && startStage === 'u' ? h('label',{class:'scope-select'},'大学模块 ',h('select',{'aria-label':'大学模块',value:startCourse,onchange:function(e){startCourse=e.target.value;fillList(listBox);}},h('option',{value:''},'全部大学模块'),Subjects.coursesFor(subject).map(function(c){return h('option',{value:c.id,selected:c.id===startCourse},c.name);}))) : null,
+      subject === 'tcm' ? h('label',{class:'scope-select'},'课程组 ',h('select',{'aria-label':'中医药课程组',value:startMember,onchange:function(e){startMember=e.target.value;startStage='';renderStart();}},[['','全部十门课程'],['tcm','中医四门基础课程'],['herbal','中药六门核心课程']].map(function(row){return h('option',{value:row[0],selected:row[0]===startMember},row[1]);}))) : null,
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
         placeholder: Subjects.science(subject) || Subjects.academic(subject) ? '搜索知识点，例如：' + Subjects.specs[subject].search : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : '搜索知识点，例如：配方法、极限、矩阵对角化',
@@ -410,13 +425,10 @@
 
   function universityGrade(sel) { return subject === 'math' && (sel === '高等数学' || sel === '线性代数' || sel === '概率论与数理统计'); }
   function scopeTargets(scope) {
-    if (Subjects.academic(subject)) {
-      const all = scope === 'all' || scope === Subjects.names[subject] || (subject === 'cs408' && scope === '四门综合');
-      const course = Subjects.courseFrom(scope);
-      if (!all && !course) return null;
-      const list = D.topics.filter(function(t) { return !t.external && (all || t.module === course.id); });
-      return list.length ? {ids:list.map(function(t){return t.id;}),volumes:all ? Subjects.coursesFor(subject).map(function(c){return c.id;}) : [course.id],label:all ? Subjects.names[subject] + ' · 全部' + Subjects.unitLabel(subject) : Subjects.names[subject] + ' · ' + course.name} : null;
-    }
+    const course = Subjects.courseTargets(D.topics, scope, subject);
+    if (course) return course;
+    if (Subjects.academic(subject)) return null;
+    if (Subjects.biogeo(subject)) return Subjects.schoolTargets(D.topics, scope, subject);
     if (Subjects.science(subject)) {
       const gradeMap = {'高一':10,'高一年级':10,'10':10,'高二':11,'高二年级':11,'11':11,'高三':12,'高三年级':12,'12':12};
       const g = gradeMap[scope];
@@ -428,7 +440,7 @@
       };
       const code = bookCode(key);
       const list = D.topics.filter(function(t) {
-        if (t.external || t.grade < 10) return false;
+        if (t.external || t.grade < 10 || Subjects.isAcademicTopic(t)) return false;
         if (g) return t.grade === g;
         const b = t.textbook || {};
         return b.book === key || b.volume === key || b.title === key || (code && bookCode(b.volume) === code);
@@ -445,6 +457,7 @@
   function seniorRangeLabel(sel) { return universityGrade(sel) ? '整门课程' : String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
   function gradeScope() {
     if (Subjects.academic(subject)) return gradeSel;
+    if (Subjects.mixedScience(subject) && gradeSel === 'university') return volSel || 'university';
     if (Subjects.science(subject) && seniorGrade(gradeSel)) return volSel || gradeSel;
     if (seniorGrade(gradeSel)) return gradeSel;
     if ((subject === 'english' || subject === 'physics') && gradeSel === '九') return '九全';
@@ -492,7 +505,7 @@
       box.append(
         h('div', { class: 'card-head' }, h('span', { class: 'card-no', text: 'B' }), h('h2', { text: uiText('按年级 / 课程整体诊断') })),
         h('p', { class: 'muted small card-sub' }, '不选具体知识点，在一个年级、册或大学课程中抽查：每个知识点最多问 2 题，答错只在所选范围内回溯先修，最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
-        tabs('年级', Subjects.science(subject) ? Subjects.specs[subject].grades.map(function(g){var c={7:'七',8:'八',9:'九',10:'高一',11:'高二',12:'高三'}[g];return [c,Subjects.scienceGrade(g)];}) : subject === 'english'
+        tabs('年级', Subjects.science(subject) ? Subjects.specs[subject].grades.map(function(g){var c={7:'七',8:'八',9:'九',10:'高一',11:'高二',12:'高三'}[g];return [c,Subjects.scienceGrade(g)];}).concat(Subjects.mixedScience(subject) ? [['university','大学']] : []) : subject === 'english'
           ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
             ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
@@ -501,12 +514,14 @@
             ['高等数学', '高等数学'], ['线性代数', '线性代数'], ['概率论与数理统计', '概率论与数理统计'], ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
           ]), gradeSel, function (v) {
           gradeSel = v;
-          if (seniorGrade(v)) volSel = '';
+          if (seniorGrade(v) || v === 'university' || Subjects.courseFrom(volSel,subject)) volSel = '';
           else if ((subject === 'english' || subject === 'physics') && v === '九') volSel = '全';
           else if (volSel === '全') volSel = '';
         }),
         h('div', { class: 'tabs-gap' }),
-        Subjects.science(subject) && seniorGrade(gradeSel)
+        Subjects.mixedScience(subject) && gradeSel === 'university'
+          ? tabs('大学模块', [['','全部大学模块']].concat(Subjects.coursesFor(subject).map(function(c){return [c.id,c.name];})),volSel,function(v){volSel=v;})
+          : Subjects.science(subject) && seniorGrade(gradeSel)
           ? tabs('范围', [['','年级建议范围']].concat(volumeRows().filter(function(v){return D.tree[v[0]].grade === {'高一':10,'高二':11,'高三':12}[gradeSel];})), volSel, function(v){volSel=v;})
           : seniorGrade(gradeSel)
           ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
@@ -534,7 +549,7 @@
     let shown = 0;
     function volumeStage(key) {
       if (Subjects.academic(subject)) return key;
-      if (Subjects.science(subject) && D.tree[key]) return D.tree[key].grade >= 10 ? 'h' : 'j';
+      if (Subjects.science(subject) && D.tree[key]) return Subjects.stageCode(D.tree[key].grade,subject);
       if (universityGrade(key)) return 'u';
       if (key === '高一' || key === '高二' || key.indexOf('选必') === 0 || key.indexOf('必修') === 0) return 'h';
       if ('一二三四五六'.indexOf(key.charAt(0)) >= 0) return 'p';
@@ -542,12 +557,14 @@
     }
     volumeRows().forEach(function (vv) {
       if (startStage && volumeStage(vv[0]) !== startStage) return;
+      if (startCourse && vv[0] !== startCourse) return;
       const v = D.tree[vv[0]];
       if (!v) return;
       const chapters = [];
       v.chapters.forEach(function (ch) {
         const chHit = q && ch.label.toLowerCase().indexOf(q) >= 0;
         const rows = ch.topics.filter(function (x) {
+          if (startMember && Subjects.rawOf(x.t) !== startMember) return false;
           if (!q || chHit) return true;
           return (x.t.name + ' ' + x.t.description + ' ' + x.t.chapter).toLowerCase().indexOf(q) >= 0;
         });
@@ -556,10 +573,10 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const openVol = Subjects.academic(subject) ? (startStage || Subjects.specs[subject].start) : subject === 'chemistry' ? '九上' : subject === 'physics' ? '八上' : subject === 'english' ? '三上' : '一上';
-      const seniorOpen = Subjects.science(subject) ? (volumeRows().find(function(row){return D.tree[row[0]].grade >= 10;}) || [null])[0] : subject === 'english' ? '必修一' : '高一';
+      const openVol = Subjects.academic(subject) ? (startStage || Subjects.specs[subject].start) : Subjects.biogeo(subject) ? (volumeRows().find(function(row){return D.tree[row[0]].grade <= 9;}) || [null])[0] : subject === 'chemistry' ? '九上' : subject === 'physics' ? '八上' : subject === 'english' ? '三上' : '一上';
+      const seniorOpen = Subjects.science(subject) ? (volumeRows().find(function(row){return Subjects.stageCode(D.tree[row[0]].grade,subject) === 'h';}) || [null])[0] : subject === 'english' ? '必修一' : '高一';
       const juniorOpen = Subjects.science(subject) ? openVol : '七上';
-      const det = h('details', { class: 'vol', open: !!q || (startStage === 'u' ? vv[0] === '高等数学' : startStage === 'j' ? vv[0] === juniorOpen : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
+      const det = h('details', { class: 'vol', open: !!q || (startStage === 'u' ? vv[0] === (Subjects.mixedScience(subject) ? (startCourse || Subjects.coursesFor(subject)[0].id) : '高等数学') : startStage === 'j' ? vv[0] === juniorOpen : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
         const ch = c.ch;
@@ -589,7 +606,7 @@
   /* ------------------------------------------------------------ 出题页 */
   function reasonFor(item) {
     const id = item.topicId;
-    if (Subjects.academic(subject) && item.attempt === 2) return '第一题未通过，用另一道题继续确认；两题均未通过才标为薄弱，第二题答对则标为「不稳」。';
+    if ((Subjects.academic(subject) || Subjects.mixedScience(subject)) && item.attempt === 2) return '第一题未通过，用另一道题继续确认；两题均未通过才标为薄弱，第二题答对则标为「不稳」。';
     if (item.attempt === 2) return '第一题没答对，再出一道' + (item.question.difficulty === 'basic' ? '更基础' : '同级或更容易') + '的题确认：这一题也错才算薄弱，答对则标为「不稳」。';
     for (let i = session.answers.length - 1; i >= 0; i--) {
       const a = session.answers[i];
@@ -719,7 +736,7 @@
           h('button', { id: 'btn-skip2', onclick: function () { commit('skip'); } }, '不会')));
     }
 
-    card.append(h('div', { class: 'notice' }, Subjects.academic(subject) ? '根据参考答案检查本次选择。答题记录中可以更正判定；知识解释与争议点请结合教材和教师指导核实。' : '提示：自动判题只是近似的（数字、分数、多个答案会做规范化后比较），一切以参考答案为准；判错了可以手动更正。'));
+    card.append(h('div', { class: 'notice' }, Subjects.isAcademicTopic(t) ? '根据参考答案检查本次选择。答题记录中可以更正判定；知识解释与争议点请结合教材和教师指导核实。' : '提示：自动判题只是近似的（数字、分数、多个答案会做规范化后比较），一切以参考答案为准；判错了可以手动更正。'));
     card.append(h('div', { class: 'row no-print q-foot' },
       n > 0 ? h('button', { class: 'small', onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null,
       h('button', { class: 'small', onclick: function () { if (confirm(uiText('确定放弃当前诊断并回到开始页吗？'))) restart(); } }, '重新开始')));
@@ -786,7 +803,7 @@
     }
     var now = new Date();
     return {
-      siteName: Subjects.academic(subject) ? '学科知识图谱' : '中小学知识图谱',
+      siteName: '学科知识图谱',
       subject: subjectName,
       scope: shareScopeText(),
       mastered: sum.mastered.length,
@@ -915,11 +932,11 @@
     if (screen) {
       if (!sum.weak.length && !sum.shaky.length) headline = sum.untested.length
         ? '已测到的知识点没有发现薄弱点，另有 ' + sum.untested.length + ' 个没测到。'
-        : Subjects.curriculum(subject) ? '本次抽查及先修推断中没有发现薄弱点。请结合实际答题记录继续复习。' : '范围内的知识点都已掌握，没有发现薄弱点。';
+        : (Subjects.curriculum(subject) || Subjects.mixedScience(subject)) ? '本次抽查及先修推断中没有发现薄弱点。请结合实际答题记录继续复习。' : '范围内的知识点都已掌握，没有发现薄弱点。';
       else headline = '范围内共 ' + session.targets.length + ' 个知识点：薄弱 ' + sum.weak.length + '、不稳 ' + sum.shaky.length + '、未测 ' + sum.untested.length +
         '。先看下面的「按章汇总」，薄弱的章排在前面。';
     }
-    else if (!sum.roots.length && !sum.shaky.length && targetsMastered) headline = Subjects.curriculum(subject) ? uiText('本次目标知识点的题目作答正确，工具没有继续追问先修。这不代表完整掌握该课程。') : '目标知识点已掌握，没有发现需要补的先修。';
+    else if (!sum.roots.length && !sum.shaky.length && targetsMastered) headline = (Subjects.curriculum(subject) || Subjects.mixedScience(subject)) ? uiText('本次目标知识点的题目作答正确，工具没有继续追问先修。这不代表完整掌握该课程。') : '目标知识点已掌握，没有发现需要补的先修。';
     else if (!sum.roots.length && !sum.shaky.length) headline = '没有判出薄弱点，但目标尚未全部测到。';
     else if (!sum.roots.length) headline = '没有判出薄弱点，但有 ' + sum.shaky.length + ' 个知识点「不稳」（第一题没答对、第二题答对），建议巩固。';
     else headline = '共发现 ' + sum.roots.length + ' 个薄弱根因' + (sum.shaky.length ? '、' + sum.shaky.length + ' 个不稳的知识点' : '') + '，按下面的学习路径从前往后补。';
@@ -929,7 +946,7 @@
       h('p', { class: 'eyebrow', text: uiText('诊断结果') + (screen ? (Subjects.curriculum(subject) ? ' · 整体测评' : ' · 整体筛查') : '') }),
       h('h1', { class: 'result-title', text: sessionMeta.label }),
       h('p', { class: 'result-headline' }, headline),
-      Subjects.curriculum(subject) ? h('p',{class:'muted small'},uiText('“已掌握”包括直接答对和依据先修关系推断的条目；展开下方列表可区分两者。这里只评价本次课程知识作答。')) : null,
+      (Subjects.curriculum(subject) || Subjects.mixedScience(subject)) ? h('p',{class:'muted small'},uiText('“已掌握”包括直接答对和依据先修关系推断的条目；展开下方列表可区分两者。这里只评价本次课程知识作答。')) : null,
       h('div', { class: 'stats' },
         stat('ask', sum.asked, '已答题数'),
         stat('bad', sum.weak.length, '薄弱'),
@@ -946,6 +963,8 @@
         h('button', { id: 'btn-print', onclick: printPage }, '打印 / 另存为 PDF'),
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));
+    summaryCard.append(h('details',{class:'export-preview no-print',id:'export-preview',ontoggle:function(e){if(e.target.open)e.target.querySelector('pre').textContent=serializeExport();}},
+      h('summary',null,'查看导出数据'),h('p',{class:'muted small'},'这里显示与下载相同的本次 JSON 数据。若浏览器未能下载，可选中并复制保存；包含选题种子与避题历史，便于复核。'),h('pre',{id:'export-json'})));
     page.append(summaryCard);
     // 宽屏两栏：左边是根因、不稳和学习路径，右边固定显示路径图；窄屏与打印时回到单栏。
     const main = h('div', { class: 'result-main' });
@@ -967,25 +986,25 @@
 
     main.append(h('div', { class: 'card', id: 'shaky' },
       h('h2', { text: '不稳的知识点（' + sum.shaky.length + '）' }),
-      h('p', { class: 'muted small' }, (Subjects.academic(subject) ? '第一题未通过，第二题答对：本次表现不一致，需要结合题目内容继续确认。' : '第一题没答对，但第二题（同级或更容易）答对了：可能是粗心，也可能掌握得不牢。') + '它们会出现在学习路径里需要巩固，但工具没有继续向它们的先修回溯（只有两题都错才回溯）。'),
+      h('p', { class: 'muted small' }, ((Subjects.academic(subject) || Subjects.mixedScience(subject)) ? '第一题未通过，第二题答对：本次表现不一致，需要结合题目内容继续确认。' : '第一题没答对，但第二题（同级或更容易）答对了：可能是粗心，也可能掌握得不牢。') + '它们会出现在学习路径里需要巩固，但工具没有继续向它们的先修回溯（只有两题都错才回溯）。'),
       sum.shaky.length ? sum.shaky.map(function (id) { return topicItem(id, statusTags(id, rootSet, targetSet)); }) : h('p', { text: '没有。' })));
 
     main.append(h('div', { class: 'card', id: 'path' },
       h('h2', { text: '推荐学习路径' }),
-      h('p', { class: 'muted small' }, Subjects.academic(subject) ? uiText('从薄弱根因和「不稳」的知识点通向目标，按先修拓扑顺序排列，跨课程的基础也会放在依赖它的知识点前面。「未测」项建议先自查。') : '从根因（和「不稳」的点）出发到目标之间、尚未判定为掌握的知识点，按年级从低到高排列（同一年级里先修在前），从上往下学。「不稳」「未测」的点也在路径上，建议先巩固 / 自查。'),
+      h('p', { class: 'muted small' }, (Subjects.academic(subject) || Subjects.mixedScience(subject)) ? uiText('从薄弱根因和「不稳」的知识点通向目标，按先修拓扑顺序排列，跨课程的基础也会放在依赖它的知识点前面。「未测」项建议先自查。') : '从根因（和「不稳」的点）出发到目标之间、尚未判定为掌握的知识点，按年级从低到高排列（同一年级里先修在前），从上往下学。「不稳」「未测」的点也在路径上，建议先巩固 / 自查。'),
       sum.path.length ? h('ol', { class: 'path' }, sum.path.map(function (p) {
         return h('li', null, topicItem(p.id, statusTags(p.id, rootSet, targetSet)));
-      })) : h('p', { text: Subjects.curriculum(subject) ? '本次测评没有形成待补路径，可结合教材继续复习。' : '不需要补课。' })));
+      })) : h('p', { text: (Subjects.curriculum(subject) || Subjects.mixedScience(subject)) ? '本次测评没有形成待补路径，可结合教材继续复习。' : '不需要补课。' })));
 
     side.append(h('div', { class: 'card', id: 'graph' },
       h('h2', { text: '路径图' }),
-      h('p', { class: 'muted small' }, (Subjects.academic(subject) ? Subjects.names[subject] + '知识点以金色表示。' : '各学段使用不同颜色，大学数学为金色。') + '硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，实心块是目标。名称太长会省略，悬停或点按可看全名。学习路径列表是完整学习顺序。'),
+      h('p', { class: 'muted small' }, (Subjects.academic(subject) ? Subjects.names[subject] + '知识点以金色表示。' : '各学段使用不同颜色，大学内容为金色。') + '硬先修是实线，软先修是虚线，点线表示中间省略了没画出来的知识点。红框是薄弱根因，实心块是目标。名称太长会省略，悬停或点按可看全名。学习路径列表是完整学习顺序。'),
       h('ul', { class: 'legend' },
         !Subjects.academic(subject) ? h('li', null, h('i', { class: 'swatch sw-p' }), '小学') : null,
         !Subjects.academic(subject) ? h('li', null, h('i', { class: 'swatch sw-j' }), '初中') : null,
         !Subjects.academic(subject) ? h('li', null, h('i', { class: 'swatch sw-h' }), '高中') : null,
         Subjects.academic(subject) ? h('li', null, h('i', {class:'swatch sw-u'}), Subjects.names[subject]) : null,
-        subject === 'math' ? h('li', null, h('i', {class:'swatch sw-u'}), '大学') : null,
+        subject === 'math' || Subjects.mixedScience(subject) ? h('li', null, h('i', {class:'swatch sw-u'}), '大学') : null,
         h('li', null, h('i', { class: 'swatch sw-root' }), '薄弱根因'),
         h('li', null, h('i', { class: 'swatch sw-target' }), '目标'),
         h('li', null, h('i', { class: 'swatch line-hard' }), '硬先修（实线）'),
@@ -1044,7 +1063,7 @@
     const ids = new Set(session.mode === 'screen' ? [] : session.targets);
     sum.path.forEach(function (p) { ids.add(p.id); });
     if (subject === 'math' && session.targets.some(function(id){return /^cnm_ps\d+$/.test(id);})) return h('div',{class:'card',id:'standards'}, h('h2',{text:'教材复习出处'}), h('p',{class:'muted small'},'概率论与数理统计按教材章节定位，备考方向参考出版社公开目录；2027 年大纲全文尚未逐条核验。基础选择题只作抽查，不能代替证明、综合计算与整卷训练。'), h('p',null,h('a',{href:'../sources.html?subject=math#math-probability'},'查看教材版本与考研范围说明')), Array.from(ids).map(function(id){return h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id));}));
-    if (Subjects.science(subject) || Subjects.academic(subject)) return h('div', {class:'card',id:'standards'}, h('h2',{text:'教材复习出处'}), h('p',{class:'muted small'},Subjects.academic(subject) ? '按各条来源说明回到教材或标准文档复习；专题关联与未核实的章节位置已单独注明。题目与先修关系已进行 AI 检查，尚未经教师审核。' : '按教材章节回到原书复习；仅显示已核实的章节定位。题目与先修关系已进行 AI 检查，尚未经教师审核。'), Array.from(ids).map(function(id){return h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id));}));
+    if (Subjects.science(subject) || Subjects.academic(subject)) return h('div', {class:'card',id:'standards'}, h('h2',{text:'教材复习出处'}), h('p',{class:'muted small'},(Subjects.academic(subject) || Subjects.mixedScience(subject)) ? '按各条来源说明回到教材或标准文档复习；专题关联与未核实的章节位置已单独注明。题目与先修关系已进行 AI 检查，尚未经教师审核。' : Subjects.biogeo(subject) ? '按教材册次、单元与章查找知识。已读目录、配套资料和可读正文的核验层级分别说明；已知更新但尚未取得的新目录与正文、图谱原创细分主题等边界见来源页；题目与先修关系已经 AI 检查，尚未经教师审核。' : '按教材章节回到原书复习；仅显示已核实的章节定位。题目与先修关系已进行 AI 检查，尚未经教师审核。'), Array.from(ids).map(function(id){return h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id));}));
     const by = {};
     ids.forEach(function (id) {
       (D.graph.byId[id].standards || []).forEach(function (sd) { (by[sd.id] || (by[sd.id] = [])).push(id); });
@@ -1137,7 +1156,7 @@
         lay.nodes.forEach(function (n) {
           const topic = D.graph.byId[n.id];
           const grade = topic && typeof topic.grade === 'number' ? topic.grade : 7;
-          const kind = grade <= 6 ? 'primary' : grade <= 9 ? 'junior' : Subjects.academic(subject) || subject === 'math' && grade >= 15 ? 'university' : 'senior';
+          const kind = Subjects.stageKind(grade, subject);
           const name = nameOf(n.id);
           const bits = [name];
           if (n.isRoot) bits.push('薄弱根因');
@@ -1230,7 +1249,7 @@
   }
 
   /* ------------------------------------------------------------ 导出 / 打印 */
-  function exportJson() {
+  function buildExport() {
     const sum = E.summarize(D.graph, session);
     const stdIds = new Set();
     const brief = function (id) { return { id: id, name: nameOf(id) }; };
@@ -1244,7 +1263,7 @@
       subject: subject,
       label: sessionMeta.label,
       targets: session.targets.map(brief),
-      limit: session.limit, seed: session.seed, asked: sum.asked, finished: sum.finished, limitReached: sum.limitReached,
+      limit: session.limit, seed: session.seed, avoid: session.avoid, asked: sum.asked, finished: sum.finished, limitReached: sum.limitReached,
       answers: session.answers.map(function (a, i) {
         const q = E.questionById(D.graph, a.qid) || {};
         return {
@@ -1277,7 +1296,14 @@
       untested: sum.untested.map(function (id) { return Object.assign(brief(id), { external: !!D.graph.byId[id].external }); }),
       standards: Array.from(stdIds).sort().map(function (k) { return { id: k, text: D.stdById[k] ? D.stdById[k].text : '' }; })
     };
-    const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
+    return out;
+  }
+  function serializeExport() {
+    if (exportCache.session !== session || exportCache.label !== sessionMeta.label) exportCache={session:session,label:sessionMeta.label,text:JSON.stringify(buildExport(),null,2)};
+    return exportCache.text;
+  }
+  function exportJson() {
+    const blob = new Blob([serializeExport()], { type: 'application/json' });
     const a = h('a', { href: URL.createObjectURL(blob), download: 'diagnosis-' + new Date().toISOString().slice(0, 10) + '.json' });
     document.body.append(a);
     a.click();
@@ -1317,12 +1343,16 @@
         ((D.tree[vv[0]] || {}).chapters || []).forEach(function (ch) { if (ch.key === c.trim()) hit.push(ch); });
       });
       if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “七上 第一章”）');
+      if (Subjects.merged(subject) && hit.length > 1) return {ids:Array.from(new Set(hit.flatMap(function(ch){return ch.topics.map(function(x){return x.t.id;});}))),label:hit[0].volumeLabel + ' ' + c.trim().split(' ').slice(1).join(' ') + '（全部已收录主题）'};
       return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volumeLabel + ' ' + hit[0].label + '（整章）' };
     }
     const grade = (params.get('grade') || '').trim();
     const volume = (params.get('volume') || '').trim();
-    if (Subjects.academic(subject)) {
-      const requested = params.get('module') || params.get('course') || volume || grade;
+    const requestedModule = params.get('module') || params.get('course');
+    const courseScope = requestedModule || volume || grade;
+    if (Subjects.academic(subject) || Subjects.mixedScience(subject) && (requestedModule || Subjects.courseFrom(courseScope,subject) || ['all','university','大学'].includes(courseScope))) {
+      let requested = courseScope;
+      if (requested === 'all' && Subjects.initialScope().member === 'herbal') requested='herbal';
       if (!requested) return null;
       const cs = scopeTargets(requested);
       if (!cs) throw new Error('无法识别 ' + Subjects.names[subject] + ' ' + Subjects.unitLabel(subject) + '：' + requested + '。可用 ' + Subjects.coursesFor(subject).map(function(c){return c.id;}).join('、') + ' 或 all。');
@@ -1330,6 +1360,16 @@
     }
     if (grade || volume) {
       let scope = volume || grade;
+      if (Subjects.biogeo(subject)) {
+        const gradeMap = {'七':7,'七年级':7,'7':7,'八':8,'八年级':8,'8':8,'高一':10,'高一年级':10,'10':10,'高二':11,'高二年级':11,'11':11,'高三':12,'高三年级':12,'12':12};
+        const requestedGrade = gradeMap[grade];
+        if (volume && grade && !requestedGrade) throw new Error('无法识别年级：' + grade + '。可只使用 volume 指定教材册次。');
+        if (requestedGrade < 10 && /^[上下]$/.test(volume)) scope = ({7:'七',8:'八'}[requestedGrade]) + volume;
+        const direct = scopeTargets(scope);
+        if (!direct) throw new Error('未找到本学科的年级或册次：' + scope + '。请从教材目录选择，或使用七上、八下、必修一等册次。');
+        if (requestedGrade && volume && !direct.ids.every(function(id){return D.graph.byId[id].grade === requestedGrade;})) throw new Error('所选册次与该年级不一致。高中年级仅为建议编排，可只使用 volume 指定教材册次。');
+        return {ids:direct.ids,label:direct.label + '（整体筛查）',mode:'screen'};
+      }
       // 科学教材按本学科真实册次选取，不复用数学的「高一=必修一」编码。
       if (Subjects.science(subject)) {
         const requestedGrade = {'高一':10,'高二':11,'高三':12,'10':10,'11':11,'12':12}[grade];
@@ -1402,7 +1442,7 @@
       const saved = lsGet(sessionKey());
       const same = saved && JSON.stringify(saved.targets) === JSON.stringify(Array.from(new Set(resolved.ids))) &&
         (saved.mode || 'target') === (resolved.mode || 'target') && (seedParam == null || saved.seed === seedParam);
-      if (same && restoreSession(saved)) { render(); return; }
+      if (same) { if (restoreSession(saved)) render(); else renderStart('当前进度不能按新图谱安全恢复，原记录已保留。请下载原记录后自行选择新目标。'); return; }
       startSession(resolved.ids, resolved.label, limit, resolved.mode);
       return;
     }

@@ -23,9 +23,9 @@
       <a class="subject-link on" data-subject="math" href="./index.html">数学</a>
       <a class="subject-link" data-subject="english" href="./index.html?subject=english">英语</a>
       <a class="subject-link" data-subject="physics" href="./index.html?subject=physics">物理</a>
-      <a class="subject-link" data-subject="chemistry" href="./index.html?subject=chemistry">化学</a><a class="subject-link" data-subject="uphysics" href="./index.html?subject=uphysics">大学物理</a><a class="subject-link" data-subject="uchemistry" href="./index.html?subject=uchemistry">大学化学</a>
+      <a class="subject-link" data-subject="chemistry" href="./index.html?subject=chemistry">化学</a><a class="subject-link" data-subject="biology" href="./index.html?subject=biology">生物</a><a class="subject-link" data-subject="geography" href="./index.html?subject=geography">地理</a>
       <a class="subject-link" data-subject="cs408" href="./index.html?subject=cs408">408</a>
-    <a class="subject-link" data-subject="med" href="./index.html?subject=med">医学</a><a class="subject-link" data-subject="tcm" href="./index.html?subject=tcm">中医</a><a class="subject-link" data-subject="herbal" href="./index.html?subject=herbal">中药</a></nav>
+    <a class="subject-link" data-subject="med" href="./index.html?subject=med">医学</a><a class="subject-link" data-subject="tcm" href="./index.html?subject=tcm">中医药</a></nav>
     <nav class="site-nav" aria-label="主导航">
       <a class="nav-link" href="../index.html">首页</a>
       <a class="nav-link back active" href="./index.html" aria-current="page">知识图谱</a>
@@ -64,6 +64,10 @@
           <option value="12">选必一（选择性必修第一册）</option><option value="13">选必二（选择性必修第二册）</option><option value="14">选必三（选择性必修第三册）</option><option value="15">大学 · 高等数学</option><option value="16">大学 · 线性代数</option><option value="17">大学 · 概率论与数理统计</option>
         </select>
         <select id="fDomain" aria-label="领域"><option value="">全部领域</option></select>
+      </div>
+      <div id="book-filter-row" class="filter-row" hidden>
+        <select id="fBook" aria-label="教材册次"><option value="">全部教材册次</option></select>
+        <select id="fChapter" aria-label="教材章节"><option value="">全部章节</option></select>
       </div>
     </div>
     <div id="list" class="list"><p class="muted list-note">正在加载知识点…</p></div>
@@ -112,7 +116,7 @@
 <footer class="site-footer compact" id="about">
   <div class="footer-inner">
     <p><strong>Toy 适配 · 非商业学习使用</strong>｜原作者 xiaoyang111222 · 项目 cn-math-taxonomy</p>
-    <p>大学数学、初高中理化、大学理化、408 与医学、中医、中药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="../sources.html">查看教材来源与覆盖范围</a></p>
+    <p>大学数学、物理与化学（初中至大学）、初高中生物与地理、408、医学与中医药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="../sources.html">查看教材来源与覆盖范围</a></p>
     <p class="footer-links"><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">原项目源码</a><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">原项目 CC BY-NC 4.0</a><a href="../LICENSE">许可证全文</a></p>
   </div>
 </footer>

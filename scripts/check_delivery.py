@@ -64,7 +64,7 @@ for file in js_files:
     assert result.returncode == 0, (file, result.stderr)
 
 report = {
-    'date': '2026-10-31',
+    'date': '2026-11-02',
     'result': 'PASS',
     'html_files': len(html_files),
     'local_link_targets_checked': local_links,

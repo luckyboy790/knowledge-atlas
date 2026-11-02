@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS",
+  "reviewer": "root, independent of geography author",
+  "question_count": 28,
+  "source_file_sha256": "582950396fb59b2e516279b4b94e59030ae606964167d459d06bf96296414cf6",
+  "checks": [
+    {
+      "question_id": "cng_007_q1",
+      "question": "比例尺为1∶100000的地图上，两地直线距离为3厘米，实地直线距离是多少？",
+      "formula_or_method": "图距厘米×比例尺分母÷100000，换算为千米",
+      "inputs": {
+        "map_cm": 3,
+        "denominator": 100000
+      },
+      "derived_result": 3.0,
+      "independently_expected_choice": "3千米",
+      "actual_choice": "3千米",
+      "semantic_sha256": "d4ee4444e52d461125c6a1c9f133ed212d0176da96190cc971e2bacd57a1873c",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_008_q1",
+      "question": "某山顶海拔1200米，山脚海拔300米，山顶与山脚的相对高度是多少？",
+      "formula_or_method": "海拔差=山顶−山脚",
+      "inputs": {
+        "top_m": 1200,
+        "base_m": 300
+      },
+      "derived_result": 900,
+      "independently_expected_choice": "900米",
+      "actual_choice": "900米",
+      "semantic_sha256": "7dcb599fb0337fdd894c615d2cec7b4c35acda9f504f91d788606e520037c189",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_015_q1",
+      "question": "某日最高气温28℃、最低气温18℃，气温日较差是多少？",
+      "formula_or_method": "最高气温−最低气温",
+      "inputs": {
+        "max_c": 28,
+        "min_c": 18
+      },
+      "derived_result": 10,
+      "independently_expected_choice": "10℃",
+      "actual_choice": "10℃",
+      "semantic_sha256": "7110a6f7ee05b081e54a62bafee4270507f7bce14bd42c18540b937d04bd52e1",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_016_q2",
+      "question": "题设规定气温每升高100米降低0.6℃，山麓气温20℃，高出山麓1000米处估算气温是多少？",
+      "formula_or_method": "20−1000÷100×0.6；仅使用题设递减率",
+      "inputs": {
+        "base_c": 20,
+        "rise_m": 1000,
+        "rate_c_per_100m": 0.6
+      },
+      "derived_result": 14.0,
+      "independently_expected_choice": "14℃",
+      "actual_choice": "14℃",
+      "semantic_sha256": "1fa8218f990472958b18c775e506c5031d6d08471a4c7299c91f1fb43e8f6b05",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_019_q1",
+      "question": "某区域面积100平方千米、人口20000人，人口密度是多少？",
+      "formula_or_method": "人口÷面积",
+      "inputs": {
+        "population": 20000,
+        "area_km2": 100
+      },
+      "derived_result": 200.0,
+      "independently_expected_choice": "200人/平方千米",
+      "actual_choice": "200人/平方千米",
+      "semantic_sha256": "f5318d8f42c25ca68b5eb967ac7d8d8d33eed0e3a2aa519be1acd337232b6759",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_020_q1",
+      "question": "某地区一年出生率为12‰、死亡率为8‰，自然增长率是多少？",
+      "formula_or_method": "出生率−死亡率，单位保持千分数",
+      "inputs": {
+        "birth_per_mille": 12,
+        "death_per_mille": 8
+      },
+      "derived_result": 4,
+      "independently_expected_choice": "4‰",
+      "actual_choice": "4‰",
+      "semantic_sha256": "52697a520a0e4f4b627f12cab1e10c7d96865ad7c05a4228714c00bf7d56f0b0",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_020_q2",
+      "question": "某城市一年出生1.2万人、死亡1.2万人，迁入3万人、迁出1万人。忽略其他统计调整，该年人口总量的变化是？",
+      "formula_or_method": "自然增加+(迁入−迁出)",
+      "inputs": {
+        "birth": 1.2,
+        "death": 1.2,
+        "in": 3,
+        "out": 1
+      },
+      "derived_result": 2.0,
+      "independently_expected_choice": "增加2万人，来自迁移净增",
+      "actual_choice": "增加2万人，来自迁移净增",
+      "semantic_sha256": "d01d5947d27e7ea06c941309e0948a5e370b592f029aeb03d68bfdd0ebf26f51",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_028_q2",
+      "question": "某海峡临时不能通行，货船改走航线后航程从9000千米增加到11000千米。若日均航程都是500千米且不计停靠，航行时间增加多少？",
+      "formula_or_method": "新增航程÷日航程",
+      "inputs": {
+        "old_km": 9000,
+        "new_km": 11000,
+        "daily_km": 500
+      },
+      "derived_result": 4.0,
+      "independently_expected_choice": "4天",
+      "actual_choice": "4天",
+      "semantic_sha256": "a2ebb90c4e5635797cdc5933e8bb515c4746153ef8881770d2404be0e4954767",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_043_q2",
+      "question": "同一年且统计口径相同，甲城65岁及以上人口30万、总人口200万；乙城分别为20万、100万。哪项判断正确？",
+      "formula_or_method": "分别计算同口径老年人口占比，再比较",
+      "inputs": {
+        "a_elderly": 30,
+        "a_total": 200,
+        "b_elderly": 20,
+        "b_total": 100
+      },
+      "derived_result": {
+        "a_pct": 15.0,
+        "b_pct": 20.0
+      },
+      "independently_expected_choice": "乙老龄化比例20%，高于甲的15%",
+      "actual_choice": "乙老龄化比例20%，高于甲的15%",
+      "semantic_sha256": "dd9c884f70100920c70af57353cd22ac552fb089c5cc56e10eae5c082d1d1376",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_051_q2",
+      "question": "某城原有年供水100单位、需求110单位，调水后供水增加20单位，同时需求增长到140单位。忽略其他变化，应如何判断？",
+      "formula_or_method": "需求−(原供水+调水)",
+      "inputs": {
+        "initial_supply": 100,
+        "added": 20,
+        "demand": 140
+      },
+      "derived_result": 20,
+      "independently_expected_choice": "供水仍少于需求，需要继续节水和供需管理",
+      "actual_choice": "供水仍少于需求，需要继续节水和供需管理",
+      "semantic_sha256": "e41a804400d3848b71709898032c6406ad699e0d5996b5578361ea3343d20b64",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_105_q1",
+      "question": "某地区常住人口200万人，其中城镇常住人口120万人，按同口径计算城镇人口比重是多少？",
+      "formula_or_method": "城镇常住人口÷全部常住人口×100%",
+      "inputs": {
+        "urban": 120,
+        "total": 200
+      },
+      "derived_result": 60.0,
+      "independently_expected_choice": "60%",
+      "actual_choice": "60%",
+      "semantic_sha256": "666938e398de6e44f08513e4e158c53801145548de2beceee65c2624a75d2fac",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_120_q1",
+      "question": "按每15°相差1小时的地方时模型，同一时刻105°E为10:00，120°E为几点？",
+      "formula_or_method": "地方时每向东1°增加4分钟",
+      "inputs": {
+        "from_lon_e": 105,
+        "to_lon_e": 120,
+        "from_time": "10:00"
+      },
+      "derived_result": "11:00",
+      "independently_expected_choice": "11:00",
+      "actual_choice": "11:00",
+      "semantic_sha256": "a1b0c8be9977378dd337d3e39bfb38c7a635399248736b30aea240cd68e3a2f7",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_120_q2",
+      "question": "北京时间按120°E的区时计算。若忽略均时差并把北京城区经度近似取116°E，当北京时间为08:00时，该处地方时约是多少？",
+      "formula_or_method": "西移4°，时刻减16分钟；忽略均时差",
+      "inputs": {
+        "standard_lon_e": 120,
+        "local_lon_e": 116,
+        "standard_time": "08:00"
+      },
+      "derived_result": "07:44",
+      "independently_expected_choice": "07:44",
+      "actual_choice": "07:44",
+      "semantic_sha256": "7b09b78f100954689e5af9166b014e432abbe4bcca4978e9da2d0f601a0cfce7",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_121_q1",
+      "question": "北京时间采用东八区标准时间，其标准中央经线是哪一条？",
+      "formula_or_method": "时区号×15°",
+      "inputs": {
+        "east_zone": 8
+      },
+      "derived_result": 120,
+      "independently_expected_choice": "120°E",
+      "actual_choice": "120°E",
+      "semantic_sha256": "6cb797323e70d9618cf7715e02f4a810bfd57b7e35de9cfc9d3a45ec17e97620",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_121_q2",
+      "question": "不采用夏令时。东八区时间为2026年11月1日23:00，同一时刻东十区时间是什么？",
+      "formula_or_method": "东十区−东八区=+2小时，同时做日期进位",
+      "inputs": {
+        "source": "2026-11-01T23:00",
+        "offset_difference_hours": 2
+      },
+      "derived_result": "2026-11-02T01:00:00",
+      "independently_expected_choice": "2026年11月2日01:00",
+      "actual_choice": "2026年11月2日01:00",
+      "semantic_sha256": "b9bd35d3802d101d1c8ede2d684f56bda0553dd39d4e631c4e28c567d708435c",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_122_q1",
+      "question": "春分日直射点位于赤道，忽略折射，40°N地点的正午太阳高度是多少？",
+      "formula_or_method": "H=90°−|纬度−太阳赤纬|",
+      "inputs": {
+        "latitude": 40,
+        "declination": 0
+      },
+      "derived_result": 50,
+      "independently_expected_choice": "50°",
+      "actual_choice": "50°",
+      "semantic_sha256": "95bcdbd6331f0e51a13edacd7b2a73fcac9ade35da3ed0096f41bf540976f20f",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_122_q2",
+      "question": "北半球冬至日取太阳直射23.5°S。在40°N的水平地面上竖直立杆，忽略折射，当地太阳正午的太阳高度和杆影方向应是什么？",
+      "formula_or_method": "H=90°−|φ−δ|；φ>δ且太阳在地平线上时，正午太阳在南、杆影朝北",
+      "inputs": {
+        "latitude": 40,
+        "declination": -23.5
+      },
+      "derived_result": {
+        "altitude": 26.5,
+        "shadow": "北"
+      },
+      "independently_expected_choice": "26.5°，影子朝北",
+      "actual_choice": "26.5°，影子朝北",
+      "semantic_sha256": "178b3dbd28bc219946590a346d85edf8d24f10a0a7b51eb10b73276dba08ec54",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_123_q2",
+      "question": "在地球近似球体、忽略大气折射和地形遮挡、以太阳中心经过地平线作为日出日落的模型中，北半球夏至日比较40°N与60°N的昼长，哪项正确？",
+      "formula_or_method": "昼长=24/π×acos(−tanφ tanδ)，太阳中心、无折射理想模型",
+      "inputs": {
+        "declination": 23.5,
+        "latitudes": [
+          40,
+          60
+        ]
+      },
+      "derived_result": {
+        "40N_hours": 14.853120978442407,
+        "60N_hours": 18.51481589186388
+      },
+      "independently_expected_choice": "60°N更长",
+      "actual_choice": "60°N更长",
+      "semantic_sha256": "c9a7f302d7809bdb65c6c2475ed5f1f850dab446a2bafefa20bd810400cb9eda",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_151_q1",
+      "question": "某地区同年三次产业增加值依次为10、50、40单位，第二产业占总增加值多少？",
+      "formula_or_method": "第二产业增加值÷三次产业之和",
+      "inputs": {
+        "values": [
+          10,
+          50,
+          40
+        ]
+      },
+      "derived_result": 50.0,
+      "independently_expected_choice": "50%",
+      "actual_choice": "50%",
+      "semantic_sha256": "c89c3d0b7787b41c2965b099092d14c23d9c04380fe350e42d5b13ebad1207e6",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_151_q2",
+      "question": "某地第二产业增加值由40升到60单位，全地区增加值由100升到200单位。哪项正确？",
+      "formula_or_method": "分别计算产业增加值和占比的变化",
+      "inputs": {
+        "old_value": 40,
+        "new_value": 60,
+        "old_total": 100,
+        "new_total": 200
+      },
+      "derived_result": {
+        "old_share": 40.0,
+        "new_share": 30.0,
+        "value_increase_pct": 50.0
+      },
+      "independently_expected_choice": "第二产业绝对量增加，但占比由40%降到30%",
+      "actual_choice": "第二产业绝对量增加，但占比由40%降到30%",
+      "semantic_sha256": "94b86774410e407e1fa6f9926fcedf430499abf00edac89c8cf6fe088ecd21f7",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_154_q2",
+      "question": "某城市原供水100单位、用水需求100单位；调水新增30单位供给后，新项目使需求增加40单位。忽略其他变化，怎样判断？",
+      "formula_or_method": "新需求−新供给",
+      "inputs": {
+        "base_supply": 100,
+        "base_demand": 100,
+        "supply_change": 30,
+        "demand_change": 40
+      },
+      "derived_result": 10,
+      "independently_expected_choice": "形成10单位缺口，仍需管理需求和提高效率",
+      "actual_choice": "形成10单位缺口，仍需管理需求和提高效率",
+      "semantic_sha256": "73752189cd7251523596832671a06ffb39483d648835ebb3dcf655d45291d027",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_155_q2",
+      "question": "甲地工人日工资300元、日均合格产量100件；乙地分别为200元、50件。其他费用暂不计，比较单位产品直接人工成本，哪项正确？",
+      "formula_or_method": "日工资÷日均合格产量",
+      "inputs": {
+        "a_wage": 300,
+        "a_output": 100,
+        "b_wage": 200,
+        "b_output": 50
+      },
+      "derived_result": {
+        "a_cost_per_item": 3.0,
+        "b_cost_per_item": 4.0
+      },
+      "independently_expected_choice": "甲为3元/件、乙为4元/件，乙的低日工资不等于低单位人工成本",
+      "actual_choice": "甲为3元/件、乙为4元/件，乙的低日工资不等于低单位人工成本",
+      "semantic_sha256": "692810f1510fd2f8b974f9d92bbc70e5eb6b0ba5ebd4218ec2083656e4376b4f",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_160_q1",
+      "question": "某含水层每年补给100单位、净取水150单位，其他收支忽略。每年储量变化是多少？",
+      "formula_or_method": "补给−净取水",
+      "inputs": {
+        "recharge": 100,
+        "net_withdrawal": 150
+      },
+      "derived_result": -50,
+      "independently_expected_choice": "减少50单位",
+      "actual_choice": "减少50单位",
+      "semantic_sha256": "366323b2afa32b9674d5dbcc9d47cb6e33e1062422d1033fd417a42a67493b43",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_160_q2",
+      "question": "在简化模型中，某渔场一年自然净增加鱼类10吨，拟捕捞16吨，其他变化忽略。按此方案执行后，与年初相比存量怎样变化？",
+      "formula_or_method": "自然净增加−捕捞",
+      "inputs": {
+        "net_natural_increase": 10,
+        "harvest": 16
+      },
+      "derived_result": -6,
+      "independently_expected_choice": "减少6吨，应重新评估捕捞强度",
+      "actual_choice": "减少6吨，应重新评估捕捞强度",
+      "semantic_sha256": "3ead24cbd798c22a1554e055426e563bc7961534d905dd0d95089e3e7ff4dba1",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_162_q2",
+      "question": "某资源储备120单位，紧急情况下每日净消耗10单位且无新增补给，最多可支持多少天？",
+      "formula_or_method": "储备÷每日净消耗",
+      "inputs": {
+        "stock": 120,
+        "daily_net_use": 10
+      },
+      "derived_result": 12.0,
+      "independently_expected_choice": "12天",
+      "actual_choice": "12天",
+      "semantic_sha256": "84a6d4afa941ab6c288a393982ee51448e5e2f076bb66e0fc231fb95fd2afe7f",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_165_q2",
+      "question": "某地年粮食产量100万吨，储运损耗率从10%降为6%，产量和其他条件不变。可到达后续消费环节的粮食增加多少？",
+      "formula_or_method": "产量×(原损耗率−新损耗率)",
+      "inputs": {
+        "output_wan_tonnes": 100,
+        "old_loss": 0.1,
+        "new_loss": 0.06
+      },
+      "derived_result": 4.0,
+      "independently_expected_choice": "4万吨",
+      "actual_choice": "4万吨",
+      "semantic_sha256": "7e3ae0f249f4cf54eea3ed90deefd97302dff49cb7c4d1acf07bce42938ba7cc",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_172_q2",
+      "question": "某材料每轮使用后可回收90%，初始1000千克且无新料加入。按相同回收率连续回收3轮，可用材料剩多少？",
+      "formula_or_method": "初始质量×回收率的轮数次幂",
+      "inputs": {
+        "initial_kg": 1000,
+        "recovery": 0.9,
+        "rounds": 3
+      },
+      "derived_result": 729.0,
+      "independently_expected_choice": "729千克",
+      "actual_choice": "729千克",
+      "semantic_sha256": "bb38c899874fe538c31937d95ae49d00d37a28ad314d849884bcddc683143635",
+      "status": "PASS"
+    },
+    {
+      "question_id": "cng_173_q1",
+      "question": "某厂单位产品排放由10降至8单位，产量由100升至150。总排放怎样变化？",
+      "formula_or_method": "单位产品排放×产量；强度与总量分开",
+      "inputs": {
+        "old_intensity": 10,
+        "new_intensity": 8,
+        "old_output": 100,
+        "new_output": 150
+      },
+      "derived_result": {
+        "old_total": 1000,
+        "new_total": 1200
+      },
+      "independently_expected_choice": "由1000升至1200单位",
+      "actual_choice": "由1000升至1200单位",
+      "semantic_sha256": "3b8d78f1ab72f33bae964b03540c3bc8d31191e896e4c712dd48e62e4b2f6989",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "只检验列出的量化题与适用模型，不代表所有内容正确或最新版教材全文已核验。",
+    "输入来自独立读题，公式不调用作者计算清单或诊断引擎；题干数字或模型变化须重新人工检查。"
+  ]
+}

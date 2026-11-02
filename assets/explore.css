@@ -44,6 +44,8 @@ body.page-explore .site-header { position: relative; }
 .side-tools .stage-tab { flex: 1 1 0; padding: 5px 4px; min-width: 0; }
 .filter-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .filter-row select { font-size: 13.5px; }
+#book-filter-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+#book-filter-row select { min-width: 0; }
 .list { overflow: auto; flex: 1; padding: 6px 8px 20px; overscroll-behavior: contain; scrollbar-width: thin; }
 .list-note { padding: 12px; }
 

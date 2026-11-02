@@ -6,7 +6,7 @@
   'use strict';
   function applies(q) {
     // These explanations refer to content, not original option letters.
-    return /^(?:cn[pc]_|cnm_ps\d+|cs408_|med_|tcm_|herbal_|uphy_|uch_)/.test(q.topicId) || q.topicId === 'cnm_p024';
+    return /^(?:cn[pcbg]_|cnm_ps\d+|cs408_|med_|tcm_|herbal_|uphy_|uch_)/.test(q.topicId) || q.topicId === 'cnm_p024';
   }
   function ordered(q, seed) {
     const a = (q.choices || []).map(function (c) { return Object.assign({}, c); });

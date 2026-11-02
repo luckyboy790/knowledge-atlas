@@ -1,0 +1,1142 @@
+[
+  {
+    "topicId": "cng_003",
+    "prerequisiteId": "cng_002",
+    "strength": "hard",
+    "reason": "需要先理解经纬度的起算方向才能定位。"
+  },
+  {
+    "topicId": "cng_004",
+    "prerequisiteId": "cng_001",
+    "strength": "hard",
+    "reason": "需要明确太阳是地球光照的主要来源。"
+  },
+  {
+    "topicId": "cng_005",
+    "prerequisiteId": "cng_004",
+    "strength": "hard",
+    "reason": "先分清自转和公转的不同作用。"
+  },
+  {
+    "topicId": "cng_005",
+    "prerequisiteId": "cng_002",
+    "strength": "hard",
+    "reason": "季节和直射点移动需要理解纬度与半球。"
+  },
+  {
+    "topicId": "cng_009",
+    "prerequisiteId": "cng_008",
+    "strength": "hard",
+    "reason": "等高线标示海拔，坡度判断依赖高差。"
+  },
+  {
+    "topicId": "cng_009",
+    "prerequisiteId": "cng_007",
+    "strength": "hard",
+    "reason": "跨图比较水平距离需要比例尺。"
+  },
+  {
+    "topicId": "cng_010",
+    "prerequisiteId": "cng_006",
+    "strength": "hard",
+    "reason": "选用地图需要先读懂基本表达要素。"
+  },
+  {
+    "topicId": "cng_012",
+    "prerequisiteId": "cng_008",
+    "strength": "hard",
+    "reason": "地形分类需要海拔和相对高度概念。"
+  },
+  {
+    "topicId": "cng_015",
+    "prerequisiteId": "cng_014",
+    "strength": "hard",
+    "reason": "气温统计必须区分天气时刻和气候统计尺度。"
+  },
+  {
+    "topicId": "cng_016",
+    "prerequisiteId": "cng_008",
+    "strength": "hard",
+    "reason": "解释山地温差需要海拔与高差。"
+  },
+  {
+    "topicId": "cng_018",
+    "prerequisiteId": "cng_015",
+    "strength": "hard",
+    "reason": "识别气候需要气温年变化。"
+  },
+  {
+    "topicId": "cng_018",
+    "prerequisiteId": "cng_017",
+    "strength": "hard",
+    "reason": "识别气候需要降水及其季节分配。"
+  },
+  {
+    "topicId": "cng_020",
+    "prerequisiteId": "cng_019",
+    "strength": "soft",
+    "reason": "人口总量及指标的区分有助于理解增长率，但不是其逻辑前提。"
+  },
+  {
+    "topicId": "cng_024",
+    "prerequisiteId": "cng_012",
+    "strength": "hard",
+    "reason": "河流格局分析以地势高低为基础。"
+  },
+  {
+    "topicId": "cng_025",
+    "prerequisiteId": "cng_018",
+    "strength": "hard",
+    "reason": "分析农业与生活差异需要水热条件概念。"
+  },
+  {
+    "topicId": "cng_026",
+    "prerequisiteId": "cng_013",
+    "strength": "hard",
+    "reason": "需要先理解板块运动与地质活动。"
+  },
+  {
+    "topicId": "cng_028",
+    "prerequisiteId": "cng_011",
+    "strength": "hard",
+    "reason": "需要先理解大洲、大洋及相邻关系。"
+  },
+  {
+    "topicId": "cng_029",
+    "prerequisiteId": "cng_018",
+    "strength": "hard",
+    "reason": "作物分布分析需要气候水热条件。"
+  },
+  {
+    "topicId": "cng_030",
+    "prerequisiteId": "cng_017",
+    "strength": "hard",
+    "reason": "理解季风农业需要水汽和降水条件。"
+  },
+  {
+    "topicId": "cng_034",
+    "prerequisiteId": "cng_018",
+    "strength": "hard",
+    "reason": "需要理解温度和降水组合的气候特征。"
+  },
+  {
+    "topicId": "cng_041",
+    "prerequisiteId": "cng_040",
+    "strength": "hard",
+    "reason": "科考与保护措施需要针对极地环境特点。"
+  },
+  {
+    "topicId": "cng_041",
+    "prerequisiteId": "cng_014",
+    "strength": "hard",
+    "reason": "长期气候监测需要区别短时天气与长期趋势。"
+  },
+  {
+    "topicId": "cng_042",
+    "prerequisiteId": "cng_011",
+    "strength": "hard",
+    "reason": "描述国家位置需要大洲大洋空间关系。"
+  },
+  {
+    "topicId": "cng_043",
+    "prerequisiteId": "cng_019",
+    "strength": "hard",
+    "reason": "人口密度和人口总量需要先区分。"
+  },
+  {
+    "topicId": "cng_044",
+    "prerequisiteId": "cng_022",
+    "strength": "soft",
+    "reason": "文化多样性为理解民族分布和交往提供背景。"
+  },
+  {
+    "topicId": "cng_045",
+    "prerequisiteId": "cng_012",
+    "strength": "hard",
+    "reason": "地势分析需要地形与相对高度。"
+  },
+  {
+    "topicId": "cng_046",
+    "prerequisiteId": "cng_017",
+    "strength": "hard",
+    "reason": "需要理解水汽输送与降水。"
+  },
+  {
+    "topicId": "cng_046",
+    "prerequisiteId": "cng_018",
+    "strength": "hard",
+    "reason": "需要区分气候一般特征与当年异常。"
+  },
+  {
+    "topicId": "cng_047",
+    "prerequisiteId": "cng_016",
+    "strength": "hard",
+    "reason": "需要理解纬度、海拔等气温影响因素。"
+  },
+  {
+    "topicId": "cng_048",
+    "prerequisiteId": "cng_046",
+    "strength": "hard",
+    "reason": "河流季节变化常与流域降水相关。"
+  },
+  {
+    "topicId": "cng_049",
+    "prerequisiteId": "cng_048",
+    "strength": "hard",
+    "reason": "先理解流域水流联系与湖泊调蓄。"
+  },
+  {
+    "topicId": "cng_054",
+    "prerequisiteId": "cng_047",
+    "strength": "hard",
+    "reason": "种植选择需要了解区域水热差异。"
+  },
+  {
+    "topicId": "cng_054",
+    "prerequisiteId": "cng_050",
+    "strength": "hard",
+    "reason": "农业利用需满足土地适宜性。"
+  },
+  {
+    "topicId": "cng_059",
+    "prerequisiteId": "cng_047",
+    "strength": "hard",
+    "reason": "区域比较需要水热差异。"
+  },
+  {
+    "topicId": "cng_059",
+    "prerequisiteId": "cng_045",
+    "strength": "hard",
+    "reason": "区域比较需要地势差异。"
+  },
+  {
+    "topicId": "cng_060",
+    "prerequisiteId": "cng_059",
+    "strength": "hard",
+    "reason": "先理解区域划分是对多种特征的概括。"
+  },
+  {
+    "topicId": "cng_061",
+    "prerequisiteId": "cng_054",
+    "strength": "hard",
+    "reason": "具体区域农业分析以因地制宜原则为基础。"
+  },
+  {
+    "topicId": "cng_062",
+    "prerequisiteId": "cng_050",
+    "strength": "hard",
+    "reason": "黑土保护是土地质量保护的具体应用。"
+  },
+  {
+    "topicId": "cng_063",
+    "prerequisiteId": "cng_055",
+    "strength": "hard",
+    "reason": "需要理解工业区位与技术转型。"
+  },
+  {
+    "topicId": "cng_064",
+    "prerequisiteId": "cng_050",
+    "strength": "hard",
+    "reason": "需要理解植被保护与土地适宜性。"
+  },
+  {
+    "topicId": "cng_064",
+    "prerequisiteId": "cng_049",
+    "strength": "hard",
+    "reason": "需要理解黄土区侵蚀与河流泥沙联系。"
+  },
+  {
+    "topicId": "cng_065",
+    "prerequisiteId": "cng_021",
+    "strength": "hard",
+    "reason": "城市遗产保护需要理解聚落的文化价值。"
+  },
+  {
+    "topicId": "cng_066",
+    "prerequisiteId": "cng_046",
+    "strength": "hard",
+    "reason": "需要理解降水季节性与异常。"
+  },
+  {
+    "topicId": "cng_067",
+    "prerequisiteId": "cng_048",
+    "strength": "hard",
+    "reason": "理解河网区域联系需要水体流动与流域概念。"
+  },
+  {
+    "topicId": "cng_070",
+    "prerequisiteId": "cng_051",
+    "strength": "hard",
+    "reason": "绿洲开发需要理解水资源供需与生态需求。"
+  },
+  {
+    "topicId": "cng_071",
+    "prerequisiteId": "cng_070",
+    "strength": "hard",
+    "reason": "需要先理解干旱区绿洲与水源关系。"
+  },
+  {
+    "topicId": "cng_072",
+    "prerequisiteId": "cng_016",
+    "strength": "hard",
+    "reason": "高寒与海拔的关系是区域分析基础。"
+  },
+  {
+    "topicId": "cng_073",
+    "prerequisiteId": "cng_048",
+    "strength": "hard",
+    "reason": "理解源区功能需要河流上下游与补给概念。"
+  },
+  {
+    "topicId": "cng_073",
+    "prerequisiteId": "cng_072",
+    "strength": "hard",
+    "reason": "保护措施需要适应高寒生态条件。"
+  },
+  {
+    "topicId": "cng_074",
+    "prerequisiteId": "cng_058",
+    "strength": "hard",
+    "reason": "评价发展需要理解环境与经济社会的协调。"
+  },
+  {
+    "topicId": "cng_075",
+    "prerequisiteId": "cng_001",
+    "strength": "soft",
+    "reason": "在初中天体类型基础上提升到系统层级。"
+  },
+  {
+    "topicId": "cng_076",
+    "prerequisiteId": "cng_075",
+    "strength": "hard",
+    "reason": "分析宜居条件需要区分恒星与绕行天体。"
+  },
+  {
+    "topicId": "cng_079",
+    "prerequisiteId": "cng_013",
+    "strength": "soft",
+    "reason": "地层解释需考虑地质历史与后期构造改变。"
+  },
+  {
+    "topicId": "cng_081",
+    "prerequisiteId": "cng_016",
+    "strength": "soft",
+    "reason": "从近地层气温规律扩展到分层及适用范围。"
+  },
+  {
+    "topicId": "cng_082",
+    "prerequisiteId": "cng_081",
+    "strength": "hard",
+    "reason": "需要了解大气成分与分层。"
+  },
+  {
+    "topicId": "cng_082",
+    "prerequisiteId": "cng_077",
+    "strength": "hard",
+    "reason": "需要区分太阳辐射的能量来源与传递。"
+  },
+  {
+    "topicId": "cng_083",
+    "prerequisiteId": "cng_082",
+    "strength": "hard",
+    "reason": "热力环流建立在地面与大气受热差异上。"
+  },
+  {
+    "topicId": "cng_084",
+    "prerequisiteId": "cng_083",
+    "strength": "hard",
+    "reason": "气压差驱动水平流动是风向分析基础。"
+  },
+  {
+    "topicId": "cng_085",
+    "prerequisiteId": "cng_080",
+    "strength": "hard",
+    "reason": "循环连接大气圈、水圈与生物圈。"
+  },
+  {
+    "topicId": "cng_086",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "措施作用须对应水循环具体环节。"
+  },
+  {
+    "topicId": "cng_087",
+    "prerequisiteId": "cng_077",
+    "strength": "hard",
+    "reason": "海水热量主要与辐射和能量交换相关。"
+  },
+  {
+    "topicId": "cng_090",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "流水搬运物质属于水循环的重要地表作用。"
+  },
+  {
+    "topicId": "cng_093",
+    "prerequisiteId": "cng_008",
+    "strength": "soft",
+    "reason": "观察指标需要海拔与相对高度。"
+  },
+  {
+    "topicId": "cng_093",
+    "prerequisiteId": "cng_009",
+    "strength": "soft",
+    "reason": "地图辅助观察需要等高线知识。"
+  },
+  {
+    "topicId": "cng_094",
+    "prerequisiteId": "cng_018",
+    "strength": "soft",
+    "reason": "植被分析需要综合水热特征。"
+  },
+  {
+    "topicId": "cng_094",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "理解植被反馈需要水循环环节。"
+  },
+  {
+    "topicId": "cng_095",
+    "prerequisiteId": "cng_094",
+    "strength": "soft",
+    "reason": "植被与生物活动有助于理解土壤形成，但不是认识土壤组成的必要前提。"
+  },
+  {
+    "topicId": "cng_096",
+    "prerequisiteId": "cng_057",
+    "strength": "soft",
+    "reason": "在初中风险认识上增加致灾条件分析。"
+  },
+  {
+    "topicId": "cng_096",
+    "prerequisiteId": "cng_086",
+    "strength": "hard",
+    "reason": "城市洪涝分析需考虑地表径流变化。"
+  },
+  {
+    "topicId": "cng_097",
+    "prerequisiteId": "cng_013",
+    "strength": "soft",
+    "reason": "需要了解地震的地质背景。"
+  },
+  {
+    "topicId": "cng_098",
+    "prerequisiteId": "cng_096",
+    "strength": "hard",
+    "reason": "需要识别致灾过程和风险条件。"
+  },
+  {
+    "topicId": "cng_098",
+    "prerequisiteId": "cng_097",
+    "strength": "hard",
+    "reason": "需要区分不同灾害的过程和避让需求。"
+  },
+  {
+    "topicId": "cng_099",
+    "prerequisiteId": "cng_098",
+    "strength": "hard",
+    "reason": "技术应用需围绕具体减灾任务。"
+  },
+  {
+    "topicId": "cng_100",
+    "prerequisiteId": "cng_019",
+    "strength": "soft",
+    "reason": "从密度指标进阶到人口分布原因分析。"
+  },
+  {
+    "topicId": "cng_101",
+    "prerequisiteId": "cng_100",
+    "strength": "hard",
+    "reason": "迁移会改变人口空间分布。"
+  },
+  {
+    "topicId": "cng_102",
+    "prerequisiteId": "cng_085",
+    "strength": "soft",
+    "reason": "水循环提供资源可更新但区域可用量有限的背景例子。"
+  },
+  {
+    "topicId": "cng_102",
+    "prerequisiteId": "cng_100",
+    "strength": "hard",
+    "reason": "需要区分人口实际分布与区域承载条件。"
+  },
+  {
+    "topicId": "cng_103",
+    "prerequisiteId": "cng_102",
+    "strength": "hard",
+    "reason": "先理解承载条件，再区分合理容量的目标。"
+  },
+  {
+    "topicId": "cng_105",
+    "prerequisiteId": "cng_100",
+    "strength": "hard",
+    "reason": "城镇化涉及人口空间集中与变化。"
+  },
+  {
+    "topicId": "cng_106",
+    "prerequisiteId": "cng_104",
+    "strength": "hard",
+    "reason": "交通问题与城乡功能空间关系有关。"
+  },
+  {
+    "topicId": "cng_106",
+    "prerequisiteId": "cng_105",
+    "strength": "hard",
+    "reason": "需要了解城镇化过程及质量评价。"
+  },
+  {
+    "topicId": "cng_107",
+    "prerequisiteId": "cng_021",
+    "strength": "soft",
+    "reason": "从初中聚落保护进阶到文化景观分析。"
+  },
+  {
+    "topicId": "cng_108",
+    "prerequisiteId": "cng_054",
+    "strength": "soft",
+    "reason": "在因地制宜基础上区分限制与主导因素。"
+  },
+  {
+    "topicId": "cng_109",
+    "prerequisiteId": "cng_108",
+    "strength": "hard",
+    "reason": "区位变化需要先辨认原有条件及其作用。"
+  },
+  {
+    "topicId": "cng_111",
+    "prerequisiteId": "cng_110",
+    "strength": "hard",
+    "reason": "区位变化是对原有成本收益条件的调整。"
+  },
+  {
+    "topicId": "cng_113",
+    "prerequisiteId": "cng_110",
+    "strength": "soft",
+    "reason": "产业区位可为理解交通需求提供应用背景。"
+  },
+  {
+    "topicId": "cng_114",
+    "prerequisiteId": "cng_113",
+    "strength": "soft",
+    "reason": "交通需求与交通效应可互相对照，不是单向逻辑前提。"
+  },
+  {
+    "topicId": "cng_115",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "水环境问题需要理解输入输出与循环联系。"
+  },
+  {
+    "topicId": "cng_116",
+    "prerequisiteId": "cng_115",
+    "strength": "hard",
+    "reason": "可持续方案回应资源环境问题及社会反馈。"
+  },
+  {
+    "topicId": "cng_117",
+    "prerequisiteId": "cng_116",
+    "strength": "hard",
+    "reason": "国家区域战略分析需要可持续目标。"
+  },
+  {
+    "topicId": "cng_117",
+    "prerequisiteId": "cng_114",
+    "strength": "hard",
+    "reason": "区域协同需要理解交通与空间联系。"
+  },
+  {
+    "topicId": "cng_118",
+    "prerequisiteId": "cng_004",
+    "strength": "soft",
+    "reason": "在初中自转概念上增加观察视角。"
+  },
+  {
+    "topicId": "cng_119",
+    "prerequisiteId": "cng_118",
+    "strength": "hard",
+    "reason": "需理解公转与地轴相对姿态。"
+  },
+  {
+    "topicId": "cng_119",
+    "prerequisiteId": "cng_005",
+    "strength": "soft",
+    "reason": "初中季节与直射点范围为背景。"
+  },
+  {
+    "topicId": "cng_120",
+    "prerequisiteId": "cng_002",
+    "strength": "soft",
+    "reason": "经度起算和东西方向是计算基础。"
+  },
+  {
+    "topicId": "cng_120",
+    "prerequisiteId": "cng_118",
+    "strength": "hard",
+    "reason": "时间差的形成与自转相关。"
+  },
+  {
+    "topicId": "cng_121",
+    "prerequisiteId": "cng_120",
+    "strength": "hard",
+    "reason": "区时换算以经度时间关系为基础。"
+  },
+  {
+    "topicId": "cng_122",
+    "prerequisiteId": "cng_119",
+    "strength": "hard",
+    "reason": "计算需要当日太阳直射点纬度。"
+  },
+  {
+    "topicId": "cng_122",
+    "prerequisiteId": "cng_003",
+    "strength": "soft",
+    "reason": "带符号纬度与半球判断为计算背景。"
+  },
+  {
+    "topicId": "cng_123",
+    "prerequisiteId": "cng_119",
+    "strength": "hard",
+    "reason": "昼长分布与直射点所在半球有关。"
+  },
+  {
+    "topicId": "cng_124",
+    "prerequisiteId": "cng_123",
+    "strength": "hard",
+    "reason": "分带涉及极昼极夜及昼长变化。"
+  },
+  {
+    "topicId": "cng_124",
+    "prerequisiteId": "cng_122",
+    "strength": "hard",
+    "reason": "分带和热量分析需要太阳高度。"
+  },
+  {
+    "topicId": "cng_125",
+    "prerequisiteId": "cng_013",
+    "strength": "soft",
+    "reason": "内力活动的构造背景来自板块运动认识。"
+  },
+  {
+    "topicId": "cng_125",
+    "prerequisiteId": "cng_090",
+    "strength": "soft",
+    "reason": "已有流水过程有助于比较内外力。"
+  },
+  {
+    "topicId": "cng_126",
+    "prerequisiteId": "cng_125",
+    "strength": "hard",
+    "reason": "岩石转化需要理解内外力过程。"
+  },
+  {
+    "topicId": "cng_127",
+    "prerequisiteId": "cng_125",
+    "strength": "hard",
+    "reason": "需要结合构造与侵蚀。"
+  },
+  {
+    "topicId": "cng_127",
+    "prerequisiteId": "cng_079",
+    "strength": "hard",
+    "reason": "岩层新老关系帮助判断构造。"
+  },
+  {
+    "topicId": "cng_128",
+    "prerequisiteId": "cng_125",
+    "strength": "hard",
+    "reason": "断层和断块与构造运动相关。"
+  },
+  {
+    "topicId": "cng_129",
+    "prerequisiteId": "cng_090",
+    "strength": "hard",
+    "reason": "先掌握流水侵蚀搬运堆积基本机制。"
+  },
+  {
+    "topicId": "cng_129",
+    "prerequisiteId": "cng_125",
+    "strength": "hard",
+    "reason": "河谷演变需结合不同地表过程。"
+  },
+  {
+    "topicId": "cng_130",
+    "prerequisiteId": "cng_083",
+    "strength": "hard",
+    "reason": "锋面天气涉及冷暖空气的相对运动与升降。"
+  },
+  {
+    "topicId": "cng_131",
+    "prerequisiteId": "cng_084",
+    "strength": "hard",
+    "reason": "需要理解气压梯度力与半球偏转方向。"
+  },
+  {
+    "topicId": "cng_132",
+    "prerequisiteId": "cng_083",
+    "strength": "hard",
+    "reason": "纬度受热不均驱动大尺度环流。"
+  },
+  {
+    "topicId": "cng_132",
+    "prerequisiteId": "cng_084",
+    "strength": "hard",
+    "reason": "风带方向需要理解地转偏向。"
+  },
+  {
+    "topicId": "cng_133",
+    "prerequisiteId": "cng_132",
+    "strength": "hard",
+    "reason": "需先认识基本气压带风带。"
+  },
+  {
+    "topicId": "cng_133",
+    "prerequisiteId": "cng_119",
+    "strength": "hard",
+    "reason": "季节移动与直射点变化相关。"
+  },
+  {
+    "topicId": "cng_134",
+    "prerequisiteId": "cng_133",
+    "strength": "hard",
+    "reason": "需理解环流交替控制。"
+  },
+  {
+    "topicId": "cng_134",
+    "prerequisiteId": "cng_018",
+    "strength": "soft",
+    "reason": "初中水热综合判读提供背景。"
+  },
+  {
+    "topicId": "cng_135",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "水体相互联系是水循环的具体表现。"
+  },
+  {
+    "topicId": "cng_136",
+    "prerequisiteId": "cng_135",
+    "strength": "hard",
+    "reason": "河流可由多种陆地水体补给。"
+  },
+  {
+    "topicId": "cng_136",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "需理解储量和补给通量的不同。"
+  },
+  {
+    "topicId": "cng_137",
+    "prerequisiteId": "cng_089",
+    "strength": "hard",
+    "reason": "需区分洋流与海浪、潮汐。"
+  },
+  {
+    "topicId": "cng_137",
+    "prerequisiteId": "cng_087",
+    "strength": "hard",
+    "reason": "寒暖流定义需要相对海温比较。"
+  },
+  {
+    "topicId": "cng_138",
+    "prerequisiteId": "cng_137",
+    "strength": "hard",
+    "reason": "需了解洋流的热量与物质输送。"
+  },
+  {
+    "topicId": "cng_138",
+    "prerequisiteId": "cng_094",
+    "strength": "soft",
+    "reason": "初级生产与环境关系提供生态背景。"
+  },
+  {
+    "topicId": "cng_139",
+    "prerequisiteId": "cng_137",
+    "strength": "hard",
+    "reason": "海气作用涉及洋流及热量输送。"
+  },
+  {
+    "topicId": "cng_139",
+    "prerequisiteId": "cng_132",
+    "strength": "hard",
+    "reason": "大气环流是海气耦合的重要组成。"
+  },
+  {
+    "topicId": "cng_140",
+    "prerequisiteId": "cng_085",
+    "strength": "hard",
+    "reason": "整体性的重要联系由水循环实现。"
+  },
+  {
+    "topicId": "cng_140",
+    "prerequisiteId": "cng_095",
+    "strength": "hard",
+    "reason": "土壤与生物气候等相互作用提供具体机制。"
+  },
+  {
+    "topicId": "cng_141",
+    "prerequisiteId": "cng_134",
+    "strength": "hard",
+    "reason": "地域分异需要综合水热和环流。"
+  },
+  {
+    "topicId": "cng_141",
+    "prerequisiteId": "cng_094",
+    "strength": "hard",
+    "reason": "植被是环境差异的重要表现。"
+  },
+  {
+    "topicId": "cng_142",
+    "prerequisiteId": "cng_141",
+    "strength": "hard",
+    "reason": "垂直带谱需结合山地所处纬度背景。"
+  },
+  {
+    "topicId": "cng_142",
+    "prerequisiteId": "cng_016",
+    "strength": "soft",
+    "reason": "海拔与气温关系提供基本背景。"
+  },
+  {
+    "topicId": "cng_144",
+    "prerequisiteId": "cng_143",
+    "strength": "hard",
+    "reason": "须先明确区域单元与划分目的。"
+  },
+  {
+    "topicId": "cng_145",
+    "prerequisiteId": "cng_143",
+    "strength": "hard",
+    "reason": "区域比较需要明确空间单元。"
+  },
+  {
+    "topicId": "cng_145",
+    "prerequisiteId": "cng_019",
+    "strength": "soft",
+    "reason": "总量与密度的区分提供比较指标背景。"
+  },
+  {
+    "topicId": "cng_146",
+    "prerequisiteId": "cng_143",
+    "strength": "soft",
+    "reason": "区域发展分析需明确区域范围。"
+  },
+  {
+    "topicId": "cng_146",
+    "prerequisiteId": "cng_110",
+    "strength": "soft",
+    "reason": "区位多因素认识帮助解释发展差异。"
+  },
+  {
+    "topicId": "cng_147",
+    "prerequisiteId": "cng_140",
+    "strength": "hard",
+    "reason": "治理需要追踪多要素相互作用与反馈。"
+  },
+  {
+    "topicId": "cng_147",
+    "prerequisiteId": "cng_146",
+    "strength": "soft",
+    "reason": "地方自然约束为治理方案提供背景。"
+  },
+  {
+    "topicId": "cng_148",
+    "prerequisiteId": "cng_052",
+    "strength": "soft",
+    "reason": "不可再生性解释资源依赖风险。"
+  },
+  {
+    "topicId": "cng_148",
+    "prerequisiteId": "cng_111",
+    "strength": "soft",
+    "reason": "工业区位和技术变化为转型提供背景。"
+  },
+  {
+    "topicId": "cng_149",
+    "prerequisiteId": "cng_144",
+    "strength": "hard",
+    "reason": "城市辐射是区际联系的具体形式。"
+  },
+  {
+    "topicId": "cng_150",
+    "prerequisiteId": "cng_149",
+    "strength": "soft",
+    "reason": "辐射与吸引为理解网络分工提供背景。"
+  },
+  {
+    "topicId": "cng_150",
+    "prerequisiteId": "cng_112",
+    "strength": "hard",
+    "reason": "服务业需求差异帮助解释城市服务层级。"
+  },
+  {
+    "topicId": "cng_151",
+    "prerequisiteId": "cng_145",
+    "strength": "soft",
+    "reason": "区域比较中区分指标口径的方法为产业占比提供背景。"
+  },
+  {
+    "topicId": "cng_152",
+    "prerequisiteId": "cng_135",
+    "strength": "hard",
+    "reason": "需要理解水体交换和水量联系。"
+  },
+  {
+    "topicId": "cng_152",
+    "prerequisiteId": "cng_144",
+    "strength": "hard",
+    "reason": "流域是跨区域相互影响的典型系统。"
+  },
+  {
+    "topicId": "cng_153",
+    "prerequisiteId": "cng_152",
+    "strength": "hard",
+    "reason": "先明确流域上下游联系与共同目标。"
+  },
+  {
+    "topicId": "cng_153",
+    "prerequisiteId": "cng_116",
+    "strength": "soft",
+    "reason": "公平和持续性为成本收益分担提供背景。"
+  },
+  {
+    "topicId": "cng_154",
+    "prerequisiteId": "cng_152",
+    "strength": "hard",
+    "reason": "调配评价需要水系统与上下游联系。"
+  },
+  {
+    "topicId": "cng_154",
+    "prerequisiteId": "cng_102",
+    "strength": "soft",
+    "reason": "资源需求与承载条件是调配评价背景。"
+  },
+  {
+    "topicId": "cng_155",
+    "prerequisiteId": "cng_110",
+    "strength": "hard",
+    "reason": "产业转移以区位条件比较为基础。"
+  },
+  {
+    "topicId": "cng_156",
+    "prerequisiteId": "cng_155",
+    "strength": "hard",
+    "reason": "先了解产业环节转移过程。"
+  },
+  {
+    "topicId": "cng_156",
+    "prerequisiteId": "cng_151",
+    "strength": "soft",
+    "reason": "产业结构变化为评价承接成效提供背景。"
+  },
+  {
+    "topicId": "cng_157",
+    "prerequisiteId": "cng_144",
+    "strength": "hard",
+    "reason": "国际合作是区际联系在国际尺度的展开。"
+  },
+  {
+    "topicId": "cng_158",
+    "prerequisiteId": "cng_140",
+    "strength": "soft",
+    "reason": "整体性为理解生态服务相互联系提供背景。"
+  },
+  {
+    "topicId": "cng_159",
+    "prerequisiteId": "cng_146",
+    "strength": "soft",
+    "reason": "发展中的自然基础有助于理解资源价值的变化。"
+  },
+  {
+    "topicId": "cng_160",
+    "prerequisiteId": "cng_159",
+    "strength": "hard",
+    "reason": "先区分资源的存在、利用与约束。"
+  },
+  {
+    "topicId": "cng_161",
+    "prerequisiteId": "cng_115",
+    "strength": "hard",
+    "reason": "先了解环境问题来源与反馈。"
+  },
+  {
+    "topicId": "cng_162",
+    "prerequisiteId": "cng_159",
+    "strength": "hard",
+    "reason": "安全评价以供给需求和利用条件为基础。"
+  },
+  {
+    "topicId": "cng_163",
+    "prerequisiteId": "cng_162",
+    "strength": "hard",
+    "reason": "能源是资源安全的具体应用。"
+  },
+  {
+    "topicId": "cng_164",
+    "prerequisiteId": "cng_163",
+    "strength": "hard",
+    "reason": "系统保障是能源安全的转型问题。"
+  },
+  {
+    "topicId": "cng_165",
+    "prerequisiteId": "cng_050",
+    "strength": "soft",
+    "reason": "土地数量质量认识为粮食生产提供背景。"
+  },
+  {
+    "topicId": "cng_165",
+    "prerequisiteId": "cng_162",
+    "strength": "hard",
+    "reason": "粮食安全涉及持续供应与风险管理。"
+  },
+  {
+    "topicId": "cng_166",
+    "prerequisiteId": "cng_158",
+    "strength": "soft",
+    "reason": "生态服务有助于认识海洋空间的非市场价值。"
+  },
+  {
+    "topicId": "cng_166",
+    "prerequisiteId": "cng_053",
+    "strength": "soft",
+    "reason": "海洋资源类型是进一步分析的背景。"
+  },
+  {
+    "topicId": "cng_167",
+    "prerequisiteId": "cng_161",
+    "strength": "hard",
+    "reason": "需要理解环境危害的来源、路径与受体。"
+  },
+  {
+    "topicId": "cng_168",
+    "prerequisiteId": "cng_167",
+    "strength": "hard",
+    "reason": "跨区污染可能影响重要社会运行。"
+  },
+  {
+    "topicId": "cng_168",
+    "prerequisiteId": "cng_084",
+    "strength": "soft",
+    "reason": "风为理解大气污染传输提供背景。"
+  },
+  {
+    "topicId": "cng_169",
+    "prerequisiteId": "cng_158",
+    "strength": "hard",
+    "reason": "生态保护目标需要理解环境服务。"
+  },
+  {
+    "topicId": "cng_169",
+    "prerequisiteId": "cng_140",
+    "strength": "hard",
+    "reason": "连通与修复需考虑多要素联系。"
+  },
+  {
+    "topicId": "cng_170",
+    "prerequisiteId": "cng_082",
+    "strength": "hard",
+    "reason": "温室效应分析需要大气辐射过程。"
+  },
+  {
+    "topicId": "cng_170",
+    "prerequisiteId": "cng_014",
+    "strength": "soft",
+    "reason": "天气和气候时间尺度的区分是背景。"
+  },
+  {
+    "topicId": "cng_171",
+    "prerequisiteId": "cng_170",
+    "strength": "hard",
+    "reason": "区分应对路径需要理解变化驱动和风险。"
+  },
+  {
+    "topicId": "cng_172",
+    "prerequisiteId": "cng_160",
+    "strength": "soft",
+    "reason": "资源利用边界有助于理解节约与循环。"
+  },
+  {
+    "topicId": "cng_172",
+    "prerequisiteId": "cng_116",
+    "strength": "soft",
+    "reason": "可持续多维目标为生态文明提供背景。"
+  },
+  {
+    "topicId": "cng_173",
+    "prerequisiteId": "cng_145",
+    "strength": "hard",
+    "reason": "政策评价需要统一统计口径与尺度。"
+  },
+  {
+    "topicId": "cng_173",
+    "prerequisiteId": "cng_161",
+    "strength": "hard",
+    "reason": "治理目标需对应实际危害路径。"
+  },
+  {
+    "topicId": "cng_174",
+    "prerequisiteId": "cng_170",
+    "strength": "hard",
+    "reason": "全球气候联系是国际合作的具体问题。"
+  },
+  {
+    "topicId": "cng_174",
+    "prerequisiteId": "cng_157",
+    "strength": "soft",
+    "reason": "区域互补与合作机制提供背景。"
+  },
+  {
+    "topicId": "cng_175",
+    "prerequisiteId": "cng_139",
+    "strength": "hard",
+    "reason": "需先理解海温与风的双向耦合。"
+  },
+  {
+    "topicId": "cng_175",
+    "prerequisiteId": "cng_138",
+    "strength": "hard",
+    "reason": "需理解上升流输送深层海水的过程。"
+  },
+  {
+    "topicId": "cng_176",
+    "prerequisiteId": "cng_162",
+    "strength": "hard",
+    "reason": "矿产实例用于分析供应链风险。"
+  },
+  {
+    "topicId": "cng_176",
+    "prerequisiteId": "cng_159",
+    "strength": "hard",
+    "reason": "资源存在与可利用规模需要区分。"
+  },
+  {
+    "topicId": "cng_177",
+    "prerequisiteId": "cng_165",
+    "strength": "hard",
+    "reason": "需将耕地数量质量与粮食保障相联系。"
+  },
+  {
+    "topicId": "cng_177",
+    "prerequisiteId": "cng_145",
+    "strength": "hard",
+    "reason": "调查资料比较需要统一时间与指标口径。"
+  },
+  {
+    "topicId": "cng_178",
+    "prerequisiteId": "cng_053",
+    "strength": "soft",
+    "reason": "海洋资源类型为权益与利用讨论提供背景。"
+  },
+  {
+    "topicId": "cng_178",
+    "prerequisiteId": "cng_116",
+    "strength": "soft",
+    "reason": "海洋发展也需兼顾生态与社会目标。"
+  },
+  {
+    "topicId": "cng_179",
+    "prerequisiteId": "cng_178",
+    "strength": "soft",
+    "reason": "相关海洋概念有助于区分不同类型表述。"
+  }
+]

@@ -4,7 +4,7 @@
   function uiText(text) { return Subjects.assessment(text, subject); }
   var raw = location.hash.replace(/^#/, '');
   try { raw = decodeURIComponent(raw); } catch (e) { /* 保持原样 */ }
-  if (/^(?:cn[mepc]_[A-Za-z0-9]+|(?:cs408|med|tcm|herbal)_[a-z]+_\d+|(?:uphy|uch)_[a-z_]+_\d+)$/.test(raw)) return;
+  if (/^(?:cn[mepcbg]_[A-Za-z0-9]+|(?:cs408|med|tcm|herbal)_[a-z]+_\d+|(?:uphy|uch)_[a-z_]+_\d+)$/.test(raw)) return;
 
   var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
   var subject = Subjects.read();
@@ -43,16 +43,27 @@
 
   if (Subjects.science(subject)) {
     document.title = Subjects.names[subject] + ' · 学科知识图谱';
-    document.querySelector('.eyebrow').textContent = Subjects.names[subject] + ' · ' + Subjects.specs[subject].range + ' · 人教版教材';
-    document.querySelector('.lede').textContent = uiText('从初中衔接到高中必修与选择性必修：查看知识点的先修关系，做原创诊断题，再按册、章、节回到人教版教材复习。高中按现行教材目录构建；已核实 2025 年修订课标版本，并建立必做实验对应表。知识摘要、练习和先修建议未经教师审核。');
+    document.querySelector('.eyebrow').textContent = Subjects.names[subject] + ' · ' + Subjects.specs[subject].range + (Subjects.mixedScience(subject) ? ' · 中学与本科核心课程' : ' · 人教版教材');
+    document.querySelector('.lede').textContent = Subjects.biogeo(subject) ? Subjects.specs[subject].intro : '把初中、高中和大学核心知识连在同一张图中，按学段、教材册次或大学模块查找内容，再沿先修关系复习。中学按人教版教材组织，大学保留原有本科教材和模块；不同来源的版本与正文核验范围分别列出。新增衔接关系为原创学习建议，已经 AI 检查、尚未经教师审核。';
     document.querySelector('.hero-actions a.btn-primary').href = 'diagnose/index.html?subject=' + subject;
     document.querySelector('.hero-actions a.btn:not(.btn-primary)').href = 'explore/index.html?subject=' + subject;
     var demoLink = document.querySelector('.quiet-link a');
     demoLink.href = 'diagnose/index.html?subject=' + subject + '&target=' + Subjects.specs[subject].demo + '&demo=1';
     demoLink.textContent = '先看一遍演示：' + Subjects.specs[subject].demoName;
     document.querySelector('#n-standards + .stat-label').textContent = '参考教材册数';
-    document.querySelector('.stat-note').textContent = '按当前学科数据统计。高中每个知识点附教材册章出处；高一至高三是建议学习编排，学校教学顺序可能不同。教材核验日期：2026-10-29。';
+    document.querySelector('.stat-note').textContent = Subjects.biogeo(subject) ? '按当前学科数据统计。每个知识点附教材册、单元、章或节的出处；高一至高三仅为建议编排，请以学校教学进度为准。来源核验日期：' + Subjects.specs[subject].checked + '。' : '统计包含中学与大学内容。高中年级仅为建议编排；大学按模块组织，保留原书章节和版次。书目、目录与正文的核验范围、日期分别见来源页；新增先修关系不扩大原教材的审核范围。';
     document.querySelector('.steps li p').textContent = '按' + Subjects.specs[subject].books + '查找核心知识点，先查看教材出处。';
+    if (Subjects.mixedScience(subject)) {
+      var mixedSteps = document.querySelectorAll('.steps li p');
+      if (mixedSteps[1]) mixedSteps[1].textContent = '先检查目标。首题未通过时用另一道题确认，两题均未通过才继续追查先修。';
+      if (mixedSteps[2]) mixedSteps[2].textContent = '按先修顺序复习薄弱或不稳的知识，再回到教材与课堂训练。';
+      document.getElementById('grades-title').textContent = '按学段与大学模块进入';
+      document.getElementById('grades-title').nextElementSibling.textContent = '中学按年级和教材册次查找，大学按核心模块查找；跨学段先修关系可在同一张图中追查。';
+    }
+    if (Subjects.biogeo(subject)) {
+      document.getElementById('grades-title').textContent = '按教材册次进入';
+      document.getElementById('grades-title').nextElementSibling.textContent = '按初中四册与高中五册查找知识；高中年级只是建议学习编排，教材册次与章、节用于定位原书。';
+    }
   }
 
   if (Subjects.computing(subject)) {
@@ -81,7 +92,7 @@
     var spec = Subjects.specs[subject], name = Subjects.names[subject];
     var intro = {
       med:'以人卫五年制本科临床医学第十轮规划教材为版本依据，连接解剖、组织胚胎、生理、生化、免疫、微生物、病理、病理生理、药理和诊断学基础。先理解结构与机制，再用原创题检查课程知识。',
-      tcm:'依据已出版的 2026 年“十五五”规划教材，组织中医基础理论、中医诊断学、方剂学和针灸学基础。每个知识点注明中医理论语境，沿先修关系理解概念、辨证框架和组方结构。',
+      tcm:'依据已核验的中医与中药规划教材，连接中医基础理论、中医诊断学、方剂学、针灸学基础及中药学、鉴定、化学、炮制、药剂、药理十门课程。传统理论、现代药学、质量标准与证据评价分别标明语境；新增课程间先修关系用于学习衔接，原教材核验边界继续保留。',
       herbal:'依据已出版的 2026 年“十五五”规划教材，连接中药学、鉴定、化学、炮制、药剂和药理六门核心课程。传统药性、现代实验研究和药典质量标准分别标明依据。',
       uphysics:'依据出版社核验的本科物理教材，连接力学、热学、电磁学、振动与波、光学及相对论与量子基础。把模型、适用条件和计算关系放在一起，用原创题检查理解，再沿先修关系回到基础。',
       uchemistry:'依据出版社核验的本科化学教材，组织物质结构、热力学与平衡、动力学、溶液、电化学、有机及分析七个知识模块。说明近似条件、量纲与证据，结合原创题检查概念和定量关系。'
@@ -107,19 +118,24 @@
     document.getElementById('constellation').setAttribute('aria-label', name + Subjects.unitLabel(subject) + '先修关系总览');
   }
 
-  /* 学段：与浏览页、诊断页的配色一致 */
-  function stageKind(grade) {
-    if (grade <= 6) return 'primary';
-    if (grade <= 9) return 'junior';
-    return Subjects.academic(subject) || subject === 'math' && grade >= 15 ? 'university' : 'senior';
+
+  var initial = Subjects.initialScope();
+  if (initial.stage || initial.member) {
+    document.querySelectorAll('.hero-actions a').forEach(function(a){
+      var href = a.getAttribute('href');
+      a.setAttribute('href', href + (initial.stage ? '&stage=' + initial.stage : '&member=' + initial.member));
+    });
   }
+
+  /* 学段：与浏览页、诊断页的配色一致 */
+  function stageKind(grade) { return Subjects.stageKind(grade, subject); }
   function stageName(grade) {
     return { primary: '小学', junior: '初中', senior: '高中', university: Subjects.academic(subject) ? Subjects.names[subject] : '大学' }[stageKind(grade)];
   }
   var SENIOR_SHORT = subject === 'english'
     ? { 10: '必修一', 11: '必修二', 12: '必修三', 13: '选必一', 14: '选必二', 15: '选必三', 16: '选必四' }
     : Subjects.science(subject) ? {10:'高一',11:'高二',12:'高三'} : { 10: '高一', 11: '高二', 12: '选必一', 13: '选必二', 14: '选必三', 15: '高等数学', 16: '线性代数', 17: '概率论与数理统计' };
-  function gradeShort(grade) { return Subjects.academic(subject) ? Subjects.courseName(grade) : grade <= 9 ? CN[grade] + '年级' : (SENIOR_SHORT[grade] || String(grade)); }
+  function gradeShort(grade) { return Subjects.academic(subject) || Subjects.mixedScience(subject) && grade >= 50 ? Subjects.courseName(grade, subject) : grade <= 9 ? CN[grade] + '年级' : (SENIOR_SHORT[grade] || String(grade)); }
 
   function setText(id, value) {
     var node = document.getElementById(id);
@@ -231,13 +247,14 @@
 
     /* 按年级进入：按学段分组 */
     var cards = [];
-    function addCard(g, stage, title, klass, splitText, href) {
-      var count = topics.filter(function (topic) { return topic.grade === g; }).length;
+    function addCard(g, stage, title, klass, splitText, href, bookId) {
+      var count = topics.filter(function (topic) { return bookId ? topic.textbook && topic.textbook.book === bookId : topic.grade === g; }).length;
       cards.push({ g: g, stage: stage, title: title, klass: klass, split: splitText, href: href, count: count });
     }
     var from = Subjects.academic(subject) ? Subjects.specs[subject].grades[0] : Subjects.science(subject) ? Subjects.specs[subject].grades[0] : wantEnglish ? 3 : 1;
     var to = 9;
-    for (var g = from; g <= to; g++) {
+    for (var g = from; !Subjects.biogeo(subject) && g <= to; g++) {
+      if (Subjects.biogeo(subject) && Subjects.specs[subject].grades.indexOf(g) < 0) continue;
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
       var down = list.filter(function (topic) { return topic.semester === '下'; }).length;
@@ -246,13 +263,20 @@
       var href = wantEnglish ? 'explore/index.html?subject=english&grade=' + g : 'explore/index.html?grade=' + g;
       addCard(g, g <= 6 ? '小学' : '初中', CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
-    if (Subjects.academic(subject)) {
+    if (Subjects.biogeo(subject)) {
+      var schoolBooks = new Map();
+      topics.forEach(function(t){ if (!schoolBooks.has(t.textbook.book)) schoolBooks.set(t.textbook.book, t); });
+      schoolBooks.forEach(function(t, id) {
+        addCard(t.grade, t.grade <= 9 ? '初中' : '高中', Subjects.bookLabel(t), t.grade <= 9 ? 'is-junior' : 'is-senior', t.grade <= 9 ? '义务教育 · 按册与章浏览' : t.curriculum_level + ' · ' + Subjects.scienceGrade(t.grade) + '仅建议', 'explore/index.html?subject=' + subject + '&volume=' + encodeURIComponent(id), id);
+      });
+    } else if (Subjects.academic(subject)) {
       Subjects.coursesFor(subject).forEach(function(c) { addCard(c.grade, Subjects.names[subject], c.name, 'is-university', c.summary, 'explore/index.html?subject=' + subject + '&module=' + c.id); });
     } else if (Subjects.science(subject)) {
       [10,11,12].forEach(function(g) {
         var books = Array.from(new Set(topics.filter(function(t){return t.grade === g;}).map(Subjects.bookLabel)));
         if (books.length) addCard(g, '高中', Subjects.scienceGrade(g), 'is-senior', books.join(' · '), 'explore/index.html?subject=' + subject + '&grade=' + g);
       });
+      Subjects.coursesFor(subject).forEach(function(c){addCard(c.grade, '大学', c.name, 'is-university', c.summary, 'explore/index.html?subject=' + subject + '&module=' + c.id);});
     } else {
       if (wantEnglish) {
         addCard(10, '高中', '必修一', 'is-senior', '必修第一册', 'explore/index.html?subject=english&grade=10');

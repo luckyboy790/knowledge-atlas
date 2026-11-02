@@ -942,3 +942,8 @@ a.grade-card:hover .grade-go { color: var(--text); transform: translate(2px, -2p
   .grade-group-head { flex-direction: row; align-items: baseline; gap: 10px; padding-top: 0; }
   .grade-group-cards { grid-template-columns: 1fr 1fr; }
 }
+
+/* Unified subject source groups and explicit legacy record selection. */
+.saved-record{display:flex;flex-wrap:wrap;align-items:center;gap:10px;overflow-wrap:anywhere}.saved-record>span.small{flex-basis:100%;line-height:1.7}.legacy-records{margin:0 0 24px}.legacy-records>h2{font-size:1.15rem}.scope-select{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:12px 0}.scope-select select{max-width:100%;min-height:38px}.recovery-note{font-size:14px;line-height:1.7}
+
+.export-preview{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}.export-preview summary{cursor:pointer;font-weight:600}.export-preview pre{max-height:28rem;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;background:var(--bg-muted);border-radius:10px;font-size:12px;line-height:1.6}

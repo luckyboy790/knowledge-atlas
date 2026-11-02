@@ -1,0 +1,4724 @@
+{
+  "schema_version": 1,
+  "version": "v17",
+  "checked_date": "2026-11-02",
+  "status": "REVIEWED_WITH_SOURCE_LIMITATIONS",
+  "relation_status": "项目教学建议：根据两端实际知识内容提出并经独立AI逐边复核；不是官方教材逐条规定的先修表。",
+  "groups": {
+    "physics": [
+      "physics",
+      "uphysics"
+    ],
+    "chemistry": [
+      "chemistry",
+      "uchemistry"
+    ],
+    "tcm": [
+      "tcm",
+      "herbal"
+    ]
+  },
+  "display_names": {
+    "physics": "物理",
+    "chemistry": "化学",
+    "tcm": "中医药"
+  },
+  "strength_policy": {
+    "hard": "目标概念或操作直接使用该基础；作为项目建议的优先追查关系。",
+    "soft": "复习、实例或背景衔接；不能据此认定它是学习目标的必经门槛。"
+  },
+  "engine_behavior": "沿用原引擎：hard优先、soft随后进入先修追查；两类关系均可参与祖先推断与学习路径。关系和推断均可由后续直接作答修正，不能代替逐点证据。",
+  "counts": {
+    "physics": {
+      "hard": 19,
+      "soft": 17
+    },
+    "chemistry": {
+      "hard": 17,
+      "soft": 19
+    },
+    "tcm": {
+      "hard": 0,
+      "soft": 11
+    }
+  },
+  "records": [
+    {
+      "id": "hep-physics-upper",
+      "title": "普通物理学（第八版）上册",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+      "edition": "第八版",
+      "isbn": "9787040578904",
+      "publication_month": "2022-11",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": [
+        "turn321view0",
+        "turn323view0"
+      ],
+      "actual_read_scope": "网页书目信息及目录第 1—9 章；重点复读 §1-1、§1-5、§2-2、§2-4、§2-5、§3-1—3-3、§3-6、§4-2、§5-1—5-2、§6-1、§6-5、§7-1—7-4、§8-1—8-5、§9-1。网页抽取行 98—379。",
+      "summary": "目录将运动量与运动定律、动量和功、刚体及流体、相对论、气体动理论、热力学、静电场、恒流磁场和电磁感应列为相应学习内容，可核对候选桥的大学端定位。",
+      "limitations": "实读的是官方目录和书目信息；未读此书全文，目录顺序不等于逐条先修规定；2026-04 为印次时间，不作新版日期。"
+    },
+    {
+      "id": "hep-physics-lower",
+      "title": "普通物理学（第八版）下册",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+      "edition": "第八版",
+      "isbn": "9787040585704",
+      "publication_month": "2022-12",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": [
+        "turn321view1",
+        "turn323view1",
+        "turn332view3"
+      ],
+      "actual_read_scope": "网页书目信息和第 10—15 章目录；重点复读 §10-1、§11-1—11-2、§12-1—12-2、§12-7、§12-12、§13-1、§13-5、§15-1—15-3。网页抽取行 119—359。",
+      "summary": "可见振动表达式、波函数、几何与波动光学、早期量子论和核物理的定位，支持从中学定性模型走向大学函数表达和模型限制的衔接。",
+      "limitations": "未读完整教材正文；下册出版年月沿用本次高教社选书页显示，原数据对 Abook 日期差异的记录继续保留；最新印次不当新版。"
+    },
+    {
+      "id": "hep-general-chemistry",
+      "title": "大学化学（第3版）",
+      "publisher_or_institution": "高等教育出版社；天津大学大学化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+      "edition": "第3版",
+      "isbn": "9787040655612",
+      "publication_month": "2025-12",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": [
+        "turn320view0",
+        "turn323view2",
+        "turn336view0"
+      ],
+      "actual_read_scope": "书目信息及目录，重点复读 1.1.1 气体模型、4.1—4.5 溶液及平衡、6.2—6.5 原子/化学键/晶体、7.1—7.4 配位、8.5.3 高分子合成。网页抽取行 115—337。",
+      "summary": "同一总框架中列有气体、热化学、动力学、离子平衡、电化学、结构和配位等内容；高分子合成属于第 8 章材料化学。相关大学端映射与此一致。",
+      "limitations": "只核对书目信息及目录；不把全部原理细节说成已逐页验证，也不称其为全国所有高校唯一统一课本。"
+    },
+    {
+      "id": "hep-physical-chemistry-upper",
+      "title": "物理化学（第七版）（上册）",
+      "publisher_or_institution": "高等教育出版社；天津大学物理化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+      "edition": "第七版",
+      "isbn": "9787040618174",
+      "publication_month": "2024-04",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": [
+        "turn320view1",
+        "turn332view0"
+      ],
+      "actual_read_scope": "第 1—6 章目录，重点复读 §2.1 状态与过程概念、§2.7—2.8 反应焓、§4.8 活度、§5.1—5.2 方向及平衡、§6.1 相律。网页抽取行 100—339。",
+      "summary": "本书从热力学系统和状态量进入反应焓与热力学势，再处理多组分、化学平衡和相平衡，可支持这些桥的课程位置和由条件化热化学到一般热力学的范围差别。",
+      "limitations": "未读完整教材正文。页面规划教材标签和简介有不同表述，本轮不据此更改原版次信息；目录先后不作为 hard 的充分理由。"
+    },
+    {
+      "id": "hep-physical-chemistry-lower",
+      "title": "物理化学（第七版）（下册）",
+      "publisher_or_institution": "高等教育出版社；天津大学物理化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+      "edition": "第七版",
+      "isbn": "9787040620603",
+      "publication_month": "2024-05",
+      "latest_printing_month_observed": "2026-09",
+      "retrieval_refs": [
+        "turn329view1"
+      ],
+      "actual_read_scope": "书目信息及目录至 §11.9；重点复读 §7.1 电极与电量、§7.3 电导、§7.6—7.9 电池、§10.1 界面张力、§11.1 速率、§11.4 活化能。网页抽取行 114—322。",
+      "summary": "官方目录将电解质、电极过程、法拉第定律、电导、电池热力学以及反应速率和活化能列入大学内容；界面张力在单列的界面现象章中。",
+      "limitations": "本轮未读完整正文，也未把全部第 11—12 章目录都声称重新实读；用到的桥均在上述已读部分定位。"
+    },
+    {
+      "id": "hep-organic-chemistry",
+      "title": "有机化学（第七版）",
+      "publisher_or_institution": "高等教育出版社；天津大学有机化学教研室编",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+      "edition": "第七版",
+      "isbn": "9787040636840",
+      "publication_month": "2024-12",
+      "latest_printing_month_observed": "2026-04",
+      "retrieval_refs": [
+        "turn330view0",
+        "turn333view0",
+        "turn333view1"
+      ],
+      "actual_read_scope": "书目信息及第 1—20 章目录，重点复读 1.3—1.4、1.7、3.3.3、6.2、11.5.1、13.3.1—13.3.2。网页抽取行 118—560。",
+      "summary": "结构式与共价键放在入门部分，立体化学和各类官能团反应另行展开；醛酮亲核加成和羧酸衍生物酰基取代有不同课程位置。",
+      "limitations": "未读全文；机理边仅以目录为主题定位佐证，具体电子计数、结构识别和强弱关系来自本项目对节点内容的判断。"
+    },
+    {
+      "id": "hep-analytical-chemistry",
+      "title": "分析化学（化学“101计划”核心教材）",
+      "publisher_or_institution": "高等教育出版社",
+      "kind": "publisher_public_catalog",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+      "edition": "网页未标具体版次，以 ISBN 识别",
+      "isbn": "9787040657067",
+      "publication_month": "2025-12",
+      "latest_printing_month_observed": "2025-12",
+      "retrieval_refs": [
+        "turn330view1",
+        "turn332view1"
+      ],
+      "actual_read_scope": "书目信息及第 1—11 章目录的可见部分；重点复读 1.3 质量控制、2.3 校正、3.2 滴定、第 5 章原子光谱、6.1 质谱、8.1 色谱和9.2 氢核磁谱。网页抽取行 118—378。",
+      "summary": "目录区分分析数据处理、平衡与滴定、光谱、质谱、色谱及波谱内容，能核对校准、计量、能级、分配与结构鉴定桥的大学端位置。",
+      "limitations": "未读教材全文；不从仪器章节的排列推出统一强制先修顺序。"
+    },
+    {
+      "id": "sustech-phy105",
+      "title": "PHY105 大学物理（上）课程详述",
+      "publisher_or_institution": "南方科技大学物理系；学校官方镜像站",
+      "kind": "university_official_syllabus",
+      "url": "https://mirrors.sustech.edu.cn/courses/syllabus/PHY105.pdf",
+      "retrieval_refs": [
+        "turn329view0",
+        "turn332view2"
+      ],
+      "actual_read_scope": "PDF共 7 页；实读第 1 页课程身份、第 4 页先修要求和目标、第 5—6 页课程内容。重点为第 12、15—17 项；抽取行 169—235。",
+      "summary": "大纲要求高中物理、代数和三角学，并说明课内使用微积分；课程涉及运动、力、能量、动量、转动、可选流体、振动波与热学，学习成果要求使用微积分和矢量表达。",
+      "limitations": "这是南科大该门课的大纲，不能当作全国高校统一要求；支持整体基础范围，不逐条证明本项目的每条 hard 边。未据搜索抓取日期断言大纲修订时间。"
+    },
+    {
+      "id": "nju-general-chemistry",
+      "title": "南京大学“大学化学（英文）”教学大纲",
+      "publisher_or_institution": "南京大学化学学院",
+      "kind": "university_official_syllabus",
+      "url": "https://chem.nju.edu.cn/63/9e/c15337a549790/page17.htm",
+      "page_date_observed": "2026-02-10",
+      "retrieval_refs": [
+        "turn324search1",
+        "turn326view1"
+      ],
+      "actual_read_scope": "完整教学大纲正文（页面第 17/17 页），重点实读先修要求、课程简介、要求和教学内容；网页抽取行 61—164。",
+      "summary": "网页明确以高中化学为先修，讲授原子、化学键、热力学、平衡和动力学等大学原理；所用英文教材与本项目高教社教材不同，作课程衔接的补充证据。",
+      "limitations": "仅代表该校该课；未将其使用的英文教材说成本项目采用教材，也不据整体先修要求把所有高中节点全部设为硬依赖。"
+    },
+    {
+      "id": "cstu-analysis-syllabus",
+      "title": "《分析化学课程教学大纲》说明",
+      "publisher_or_institution": "长春科技学院基础教研部",
+      "kind": "university_official_syllabus_explanation",
+      "url": "https://www.cstu.edu.cn/jcb/info/1083/1096.htm",
+      "page_date_observed": "2017-11-01",
+      "retrieval_refs": [
+        "turn324search3",
+        "turn328view0"
+      ],
+      "actual_read_scope": "正文第二、第三部分，特别是课程关系、误差与数据处理、滴定分析和吸光光度部分；网页抽取行 58—123。",
+      "summary": "说明列出普通化学及高等数学基础，并具体联系浓度、平衡、酸碱度、配液和化学计量与分析内容；它还讨论空白、校准和数据质量。这支持按实际使用的概念安排分析入口。",
+      "limitations": "这是旧版大纲说明，只作为稳定教学依赖的佐证，不是2026最新课程认证；所列数学准备本任务未添加为跨学科边。"
+    },
+    {
+      "id": "bucm_basics_preface",
+      "title": "《中医基础理论》教学大纲（本科）—前言",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_4a.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn319view2"
+      ],
+      "read_scope": "正文前言与适用范围；网页行0–16。",
+      "finding": "课程包含藏象、气血津液、经络和病机等，并明确为中药、方剂等后续课程奠基。",
+      "boundary": "网页未标发布日期；仅支持稳定的学科衔接，不证明2026年第6版教材内容或所有节点都应设为hard。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_materia_preface",
+      "title": "《中药学》教学大纲（本科）—前言",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_21a.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn322view2"
+      ],
+      "read_scope": "适用范围、学习要求与授课要求；网页行0–23。",
+      "finding": "将中药学置于方剂学之前，要求用中医理论解释药性和功效主治，并比较配伍后的传统性能。",
+      "boundary": "未注明发布日期的教学网页，不作为最新版教材全文、现行药品清单或临床有效性依据。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_materia_outline",
+      "title": "《中药学》教学大纲（本科）—教学要求和内容",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_21b.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn319view1",
+        "turn331view0"
+      ],
+      "read_scope": "总论第三至第五章、解表/理气/活血化瘀/化痰止咳平喘/补虚药对应段落；实际读取网页行0–332，不转存全文。",
+      "finding": "目录分别组织四气、五味、升降浮沉、归经、配伍及各药类；补虚药以气血阴阳四类组织。",
+      "boundary": "历史或未标日期大纲含旧药物清单；只使用概念和课程分类，不沿用其药品收载、安全、用量或操作要求。不得充作2026版中药学逐章核验。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ucas_materia",
+      "title": "中药学概论课程大纲",
+      "publisher": "中国科学院大学教务系统",
+      "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/307177",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view3"
+      ],
+      "read_scope": "课程基本信息、预修课程和总论至第九章的内容；网页行0–83。",
+      "finding": "预修课程列中医基础理论和中医诊断学，分别列出药性、配伍及行气、活血、化痰等学习主题。",
+      "boundary": "课程层级的前修只能佐证学科关系，具体node级soft关系由本项目独立判断；未将此课程称为2026版指定教材。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ahtcm_formulas_tcm_2023",
+      "title": "方剂学教学大纲（中医学专业）",
+      "publisher": "安徽中医药大学中医学院审定、教务处印发",
+      "url": "https://gjjk.ahtcm.edu.cn/__local/C/8B/45/7B425128D2125A6475C975BFD1D_01590C3F_5F592.pdf",
+      "date": "2023-06",
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn322view0",
+        "turn322view1"
+      ],
+      "read_scope": "印刷第1–7页中的先修、总论组方/剂型和解表剂内容；检索文本行0–230。未宣称全23页均已逐项审读。",
+      "finding": "先修为中医基础、诊断和中药；总论包括剂型、君臣佐使与方剂变化；解表剂教学联系药物配伍。",
+      "boundary": "此2023大纲选用方剂学第5版；用于稳定课程关系，不替代项目记录的2026第6版目录，更不证明临床疗效。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "ahtcm_formulas_herbal_2023",
+      "title": "方剂学教学大纲（中药学专业）",
+      "publisher": "安徽中医药大学中医学院审定、教务处印发",
+      "url": "https://gjjk.ahtcm.edu.cn/__local/0/FE/1E/18660A3063DCE10054FD03DB389_A65ADCB0_482A9.pdf",
+      "date": "2023-06",
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view0"
+      ],
+      "read_scope": "课程基本信息与教学目标、所用教材；印刷第1页及其后教材段；文本行0–57。",
+      "finding": "中药学专业的方剂课程先修中医学基础和临床中药学，后续课程列中药药剂学及中成药学。",
+      "boundary": "使用科学出版社另一系列方剂教材；仅验证课程衔接，不混同本项目方剂第6版书目。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "bucm_pharmaceutics_outline",
+      "title": "《中药药剂学》教学大纲（本科）",
+      "publisher": "北京中医药大学远程教育学院",
+      "url": "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_79a1.htm",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn327view2"
+      ],
+      "read_scope": "前言、绪论与剂型分类、质量依据；网页行0–59，实际用作依据为8–22行。",
+      "finding": "分别讲授药剂学术语、剂型分类和药剂质量依据，支持将传统剂型概括与具体制剂知识衔接。",
+      "boundary": "只核概念衔接，不采用旧质量标准、工艺或操作细则；不是最新版中药药剂学全文证据。",
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    },
+    {
+      "id": "gxtcmu_processing_outline",
+      "title": "《中药炮制学》教学大纲",
+      "publisher": "广西中医药大学中药学国家级实验教学示范中心",
+      "url": "https://www.gxtcmu.edu.cn/zyxgjjsfzx/syjx/jxdg/zypzxjxdg",
+      "date": null,
+      "type": "official_university_syllabus",
+      "web_refs": [
+        "turn331view1"
+      ],
+      "read_scope": "前言开设目的；正文行226–234。",
+      "finding": "整体课程位于中医学基础、中药、方剂、鉴定与化学等之后。",
+      "boundary": "仅供排除判断：整门课程前后关系不足以证明当前抽象炮制节点需要某个方剂节点，故未据此新增炮制/鉴定跨块边。",
+      "used_for_new_edges": false,
+      "retrieved_date": "2026-11-02",
+      "full_text_of_selected_2026_book_verified": false,
+      "authority": "大学自有域名公开课程大纲；非培训机构或二手书商"
+    }
+  ],
+  "bridges": [
+    {
+      "topicId": "uphy_mechanics_001",
+      "prerequisiteId": "cnp_h004",
+      "strength": "hard",
+      "reason": "把运动量写成位矢的一阶、二阶导数，需要先区分速度、速度变化和加速度的矢量含义。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "高中有限时间变化率是概念基础；大学的极限与微分运算仍需另学。",
+      "target": {
+        "id": "uphy_mechanics_001",
+        "name": "位矢、位移与瞬时运动量",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第1章 运动和力",
+          "section": "§1-1（该节内主题：位矢、位移与瞬时运动量）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h004",
+        "name": "加速度与速度变化",
+        "textbook": {
+          "book": "p10r1",
+          "title": "人教版·物理·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第一章 运动的描述",
+          "section": "4. 速度变化快慢的描述——加速度",
+          "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_005",
+      "prerequisiteId": "cnp_h016",
+      "strength": "soft",
+      "reason": "复习高中合外力与加速度的对应关系，有助于在大学统一使用矢量形式、约束条件和惯性参考系。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "两端均讲牛顿第二定律，这条只作复习与条件衔接，不要求先完成高中同主题；本节点采用惯性系、质量恒定的经典质点模型。",
+      "target": {
+        "id": "uphy_mechanics_005",
+        "name": "惯性系中的牛顿运动定律",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第1章 运动和力",
+          "section": "§1-5（该节内主题：惯性系中的牛顿运动定律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h016",
+        "name": "牛顿第二定律",
+        "textbook": {
+          "book": "p10r1",
+          "title": "人教版·物理·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第四章 运动和力的关系",
+          "section": "3. 牛顿第二定律",
+          "source_url": "https://book.pep.com.cn/1441001121191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/708256b6-6f06-4d14-89c7-4df16dfe3b81.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_009",
+      "prerequisiteId": "cnp_h061",
+      "strength": "hard",
+      "reason": "把变力冲量写成时间积分时，需要先知道动量是带方向的 mv，末初动量之差不能用速率差替代。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "低速恒质量动量定义；不是要求先掌握大学的积分形式。",
+      "target": {
+        "id": "uphy_mechanics_009",
+        "name": "冲量与动量定理",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第2章 运动的守恒量和守恒定律",
+          "section": "§2-2（该节内主题：冲量与动量定理）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h061",
+        "name": "动量与动量变化",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第一章 动量守恒定律",
+          "section": "1. 动量",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_012",
+      "prerequisiteId": "cnp_h033",
+      "strength": "hard",
+      "reason": "变力功的线积分由沿路径的微小功累加而来，必须先掌握力与位移投影决定功及功的正负。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "恒力公式只作为微元推广的基础，不把恒力近似用于任意变力全程。",
+      "target": {
+        "id": "uphy_mechanics_012",
+        "name": "变力做功与线积分",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第2章 运动的守恒量和守恒定律",
+          "section": "§2-4（该节内主题：变力做功与线积分）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h033",
+        "name": "恒力做功与功率",
+        "textbook": {
+          "book": "p10r2",
+          "title": "人教版·物理·必修第二册",
+          "volume": "必修第二册",
+          "chapter": "第八章 机械能守恒定律",
+          "section": "1. 功与功率",
+          "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_014",
+      "prerequisiteId": "cnp_h034",
+      "strength": "soft",
+      "reason": "重力和理想弹簧的势能给出熟悉的实例，帮助理解任意保守力的势能函数、势能零点与力的梯度关系。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是从实例到一般势能函数的背景；掌握一般定义并不要求先学所有高中势能应用题。",
+      "target": {
+        "id": "uphy_mechanics_014",
+        "name": "保守力与势能函数",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第2章 运动的守恒量和守恒定律",
+          "section": "§2-5（该节内主题：保守力与势能函数）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h034",
+        "name": "重力势能与弹性势能",
+        "textbook": {
+          "book": "p10r2",
+          "title": "人教版·物理·必修第二册",
+          "volume": "必修第二册",
+          "chapter": "第八章 机械能守恒定律",
+          "section": "2. 重力势能",
+          "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_017",
+      "prerequisiteId": "cnp_h024",
+      "strength": "hard",
+      "reason": "刚体各点共用角速度而线速度随半径改变，必须先分清角速度、周期和 v=ωr 中的各量。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "仅比较同一刚体关于同一固定轴的转动；圆周模型不能直接替代所有刚体运动。",
+      "target": {
+        "id": "uphy_mechanics_017",
+        "name": "刚体定轴转动的角量",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第3章 刚体和流体的运动",
+          "section": "§3-1（该节内主题：刚体定轴转动的角量）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h024",
+        "name": "圆周运动的线速度、角速度和周期",
+        "textbook": {
+          "book": "p10r2",
+          "title": "人教版·物理·必修第二册",
+          "volume": "必修第二册",
+          "chapter": "第六章 圆周运动",
+          "section": "1. 圆周运动",
+          "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_019",
+      "prerequisiteId": "cnp_025",
+      "strength": "soft",
+      "reason": "杠杆的垂直力臂和力的转动效果，可帮助理解定轴力矩及其与角加速度的联系。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "静态杠杆平衡仅作直观背景，不能把两力平衡式当作一般转动动力学定律。",
+      "target": {
+        "id": "uphy_mechanics_019",
+        "name": "力矩与定轴转动定律",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第3章 刚体和流体的运动",
+          "section": "§3-2（该节内主题：力矩与定轴转动定律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_025",
+        "name": "杠杆平衡",
+        "textbook": {
+          "book": "phys8b",
+          "volume": "八年级下册",
+          "section": "第十二章 简单机械",
+          "pages": "104–107",
+          "pdf_page_offset": 6
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_023",
+      "prerequisiteId": "cnp_012",
+      "strength": "hard",
+      "reason": "由流管内的质量守恒得到连续性方程，需要用密度把通过截面的体积流量换成质量流量。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "ρAv 的解释适用于相应截面模型；只有密度不变时才化为 Av 恒定。",
+      "target": {
+        "id": "uphy_mechanics_023",
+        "name": "理想流体与连续性方程",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第3章 刚体和流体的运动",
+          "section": "§3-6（该节内主题：理想流体与连续性方程）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_012",
+        "name": "密度",
+        "textbook": {
+          "book": "phys8a",
+          "volume": "八年级上册",
+          "section": "第六章 质量与密度",
+          "pages": "144–147",
+          "pdf_page_offset": 8
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_mechanics_024",
+      "prerequisiteId": "cnp_019",
+      "strength": "soft",
+      "reason": "静止液体中压强随高度变化的规律，有助于理解伯努利方程中的压强项和重力项，并检查静止极限。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "流动结论仍须限定定常、不可压缩、无黏性及同一流线等条件，不能由静水公式直接推出任意流场。",
+      "target": {
+        "id": "uphy_mechanics_024",
+        "name": "伯努利方程及适用条件",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第3章 刚体和流体的运动",
+          "section": "§3-6（该节内主题：伯努利方程及适用条件）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_019",
+        "name": "液体压强",
+        "textbook": {
+          "book": "phys8b",
+          "volume": "八年级下册",
+          "section": "第九章 压强",
+          "pages": "45–50",
+          "pdf_page_offset": 6
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_thermodynamics_001",
+      "prerequisiteId": "cnp_h109",
+      "strength": "soft",
+      "reason": "高中固定气量的状态比例关系，为大学显式引入物质的量、粒子数与平衡态提供熟悉的模型背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "大学节点重新说明理想模型与状态量；这条只作衔接。固定气量比较与改变物质的量须分开，真实气体和相变区不无条件服从理想模型。",
+      "target": {
+        "id": "uphy_thermodynamics_001",
+        "name": "平衡态与理想气体物态方程",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第5章 气体动理论",
+          "section": "§5-1（该节内主题：平衡态与理想气体物态方程）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h109",
+        "name": "等压、等容变化与理想气体状态方程",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第二章 气体、固体和液体",
+          "section": "3. 气体的等压变化和等容变化",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_thermodynamics_002",
+      "prerequisiteId": "cnp_h062",
+      "strength": "hard",
+      "reason": "用分子碰壁解释气体压强，必须把分子动量改变量与壁面所受冲量、平均作用力联系起来。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是碰撞的动量交换基础；理想气体压强公式还需要大量分子、平衡和各向同性等统计假设。",
+      "target": {
+        "id": "uphy_thermodynamics_002",
+        "name": "气体压强与温度的微观意义",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第5章 气体动理论",
+          "section": "§5-2（该节内主题：气体压强与温度的微观意义）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h062",
+        "name": "冲量与动量定理",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第一章 动量守恒定律",
+          "section": "2. 动量定理",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_thermodynamics_009",
+      "prerequisiteId": "cnp_h113",
+      "strength": "soft",
+      "reason": "复习高中第一定律有助于识别大学过程积分中的热、功和内能，并避免跨阶段沿用不同的功符号约定。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这条为同一定律的符号衔接。原高中节点以外界对系统做功为正，大学物理节点以系统对外做功为正；须换号后比较 ΔU=Q+W 与 ΔU=Q−W。",
+      "target": {
+        "id": "uphy_thermodynamics_009",
+        "name": "热力学第一定律与符号约定",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第6章 热力学基础",
+          "section": "§6-1（该节内主题：热力学第一定律与符号约定）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h113",
+        "name": "热力学第一定律与正负约定",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第三章 热力学定律",
+          "section": "2. 热力学第一定律",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_thermodynamics_017",
+      "prerequisiteId": "cnp_h115",
+      "strength": "soft",
+      "reason": "高中关于热传递和循环热机方向的限制，帮助理解为什么仅让系统回到初态还不足以称过程可逆。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是过程方向的背景；可逆性须同时检查系统和环境，缓慢也不必可逆。",
+      "target": {
+        "id": "uphy_thermodynamics_017",
+        "name": "可逆与不可逆过程",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第6章 热力学基础",
+          "section": "§6-5（该节内主题：可逆与不可逆过程）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h115",
+        "name": "热力学第二定律与过程方向",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第三章 热力学定律",
+          "section": "4. 热力学第二定律",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_001",
+      "prerequisiteId": "cnp_h038",
+      "strength": "hard",
+      "reason": "判断库仑相互作用的吸引或排斥以及分配电荷，必须先识别电荷正负和起电过程中的电荷守恒。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不是把摩擦起电理解为凭空产生净电荷；点电荷公式仍需其空间尺度条件。",
+      "target": {
+        "id": "uphy_electromagnetism_001",
+        "name": "电荷守恒与库仑定律",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第7章 静止电荷的电场",
+          "section": "§7-1（该节内主题：电荷守恒与库仑定律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h038",
+        "name": "电荷守恒与起电方式",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第九章 静电场及其应用",
+          "section": "1. 电荷",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_002",
+      "prerequisiteId": "cnp_h040",
+      "strength": "hard",
+      "reason": "连续带电体的场由电荷微元贡献按矢量叠加，需要先掌握场强的试探电荷定义、方向与源电荷的区分。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "试探电荷不能显著扰动原场；叠加的是场强矢量，不是各场强大小。",
+      "target": {
+        "id": "uphy_electromagnetism_002",
+        "name": "电场强度与连续分布叠加",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第7章 静止电荷的电场",
+          "section": "§7-2（该节内主题：电场强度与连续分布叠加）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h040",
+        "name": "电场强度与电场线",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第九章 静电场及其应用",
+          "section": "3. 电场 电场强度",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_006",
+      "prerequisiteId": "cnp_h043",
+      "strength": "hard",
+      "reason": "把静电场力做功写成路径积分并定义电势差，需要先会按带符号电荷联系 W=qU 和单位电荷的能量变化。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "仅对静电场建立全局电势差；不能直接推广为时变感生电场的单值静电势。",
+      "target": {
+        "id": "uphy_electromagnetism_006",
+        "name": "电势与静电场环路定理",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第7章 静止电荷的电场",
+          "section": "§7-4（该节内主题：电势与静电场环路定理）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h043",
+        "name": "电势差与电场力做功",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十章 静电场中的能量",
+          "section": "2. 电势差",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_014",
+      "prerequisiteId": "cnp_h047",
+      "strength": "hard",
+      "reason": "从整个截面的 I=Δq/Δt 推广到局部电流密度和连续性方程，必须先区分电荷通过速率、载流子运动与约定电流方向。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "电子漂移方向不等于约定电流方向，漂移速度也不等于信号传播速度。",
+      "target": {
+        "id": "uphy_electromagnetism_014",
+        "name": "电流密度与电荷连续性",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第8章 恒定电流的磁场",
+          "section": "§8-1（该节内主题：电流密度与电荷连续性）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h047",
+        "name": "电源、电流与载流子模型",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十一章 电路及其应用",
+          "section": "1. 电源和电流",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_016",
+      "prerequisiteId": "cnp_h048",
+      "strength": "soft",
+      "reason": "高中均匀导线的电阻定律，可用于对照大学局部关系 J=σE 与宏观电阻率、几何尺寸之间的联系。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是宏观与局部表达的对照，不把先完成高中公式题设为必要条件；两种欧姆表达均须限定材料与状态。",
+      "target": {
+        "id": "uphy_electromagnetism_016",
+        "name": "欧姆定律的微分形式",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第8章 恒定电流的磁场",
+          "section": "§8-1（该节内主题：欧姆定律的微分形式）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h048",
+        "name": "电阻定律与电阻率",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十一章 电路及其应用",
+          "section": "2. 导体的电阻",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_017",
+      "prerequisiteId": "cnp_h056",
+      "strength": "soft",
+      "reason": "电流磁效应和直导线的右手关系，可为大学毕奥—萨伐尔积分的方向提供熟悉的检验实例。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "经验右手关系是辅助背景；一般电流元的方向和大小按叉积及积分处理，不能把无限长导线图像当作一般积分定律的逻辑前提。",
+      "target": {
+        "id": "uphy_electromagnetism_017",
+        "name": "毕奥—萨伐尔定律",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第8章 恒定电流的磁场",
+          "section": "§8-3（该节内主题：毕奥—萨伐尔定律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h056",
+        "name": "磁场、磁感线与电流磁效应",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十三章 电磁感应与电磁波初步",
+          "section": "1. 磁场 磁感线",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_019",
+      "prerequisiteId": "cnp_h057",
+      "strength": "hard",
+      "reason": "把匀强场穿过平面的磁通量推广到有向曲面积分，必须先分清 B 与磁通量及面积法线的作用。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "面积元的正负取向须一致；闭合面净通量为零不意味着各处磁场为零。",
+      "target": {
+        "id": "uphy_electromagnetism_019",
+        "name": "磁通量与磁场高斯定理",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第8章 恒定电流的磁场",
+          "section": "§8-4（该节内主题：磁通量与磁场高斯定理）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h057",
+        "name": "磁感应强度与磁通量",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十三章 电磁感应与电磁波初步",
+          "section": "2. 磁感应强度 磁通量",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_021",
+      "prerequisiteId": "cnp_h085",
+      "strength": "hard",
+      "reason": "大学把电场力和磁场力写入同一洛伦兹力矢量式，需要先掌握磁力对正负电荷的方向及磁力不做功。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "匀强磁场圆周结论还要求忽略其他力、初速垂直磁场和非相对论条件。",
+      "target": {
+        "id": "uphy_electromagnetism_021",
+        "name": "洛伦兹力与带电粒子运动",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第8章 恒定电流的磁场",
+          "section": "§8-5（该节内主题：洛伦兹力与带电粒子运动）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h085",
+        "name": "洛伦兹力与磁力不做功",
+        "textbook": {
+          "book": "p11s2",
+          "title": "人教版·物理·选择性必修第二册",
+          "volume": "选择性必修第二册",
+          "chapter": "第一章 安培力与洛伦兹力",
+          "section": "2. 磁场对运动电荷的作用力",
+          "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_electromagnetism_026",
+      "prerequisiteId": "cnp_h089",
+      "strength": "soft",
+      "reason": "高中磁通量变化率与感应电动势的关系，为大学带符号的时间导数与有向环路积分提供复习和表示衔接。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这条连接同一定律的不同表达，不设为额外硬门槛。符号依回路取向；运动回路使用总磁通变化律后不能重复追加同一动生项。",
+      "target": {
+        "id": "uphy_electromagnetism_026",
+        "name": "法拉第电磁感应定律",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第9章 电磁感应 电磁场理论",
+          "section": "§9-1（该节内主题：法拉第电磁感应定律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h089",
+        "name": "法拉第电磁感应定律",
+        "textbook": {
+          "book": "p11s2",
+          "title": "人教版·物理·选择性必修第二册",
+          "volume": "选择性必修第二册",
+          "chapter": "第二章 电磁感应",
+          "section": "2. 法拉第电磁感应定律",
+          "source_url": "https://book.pep.com.cn/1441001128201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_001",
+      "prerequisiteId": "cnp_h069",
+      "strength": "hard",
+      "reason": "建立 x 的二阶微分方程，要先能识别指向平衡位置且与位移成正比的回复力，并用牛顿定律联系加速度。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "限于线性回复力和所用理想模型；回复力是合力效果名称，不是另添一种力。",
+      "target": {
+        "id": "uphy_oscillations_waves_001",
+        "name": "简谐振动与微分方程",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第10章 机械振动和电磁振荡",
+          "section": "§10-1（该节内主题：简谐振动与微分方程）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h069",
+        "name": "回复力、加速度与振动能量",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第二章 机械振动",
+          "section": "3. 简谐运动的回复力和能量",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_002",
+      "prerequisiteId": "cnp_h068",
+      "strength": "hard",
+      "reason": "用初位移和初速度共同确定振幅、初相位，必须先理解振幅、周期、角频率与相位的含义。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "统一正弦或余弦表达式与参考时刻；仅初位移一般不足以唯一确定相位。",
+      "target": {
+        "id": "uphy_oscillations_waves_002",
+        "name": "初相位与初始条件",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第10章 机械振动和电磁振荡",
+          "section": "§10-1（该节内主题：初相位与初始条件）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h068",
+        "name": "简谐运动的振幅、周期与相位",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第二章 机械振动",
+          "section": "2. 简谐运动的描述",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_oscillations_waves_009",
+      "prerequisiteId": "cnp_h074",
+      "strength": "hard",
+      "reason": "理解 kx−ωt 型波函数同时描述空间分布和时间变化，需要先分清波形图、振动图以及波长、频率、传播速度。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "传播速度与介质质点振动速度不同；本节点讨论平面简谐行波。",
+      "target": {
+        "id": "uphy_oscillations_waves_009",
+        "name": "平面简谐波与传播方向",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第11章 机械波和电磁波",
+          "section": "§11-2（该节内主题：平面简谐波与传播方向）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h074",
+        "name": "波长、频率、波速与波形图",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第三章 机械波",
+          "section": "2. 波的描述",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower",
+        "sustech-phy105"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "sustech-phy105",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_optics_001",
+      "prerequisiteId": "cnp_h078",
+      "strength": "hard",
+      "reason": "在两介质间推算临界角和全反射条件，必须先正确使用折射率、法线角度及折射定律。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "使用两侧折射率比；临界角等号与超过临界角的情形要分开。",
+      "target": {
+        "id": "uphy_optics_001",
+        "name": "折射定律与全反射",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第12章 光学",
+          "section": "§12-1（该节内主题：折射定律与全反射）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h078",
+        "name": "光的折射与折射率",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第四章 光",
+          "section": "1. 光的折射",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_optics_002",
+      "prerequisiteId": "cnp_011",
+      "strength": "soft",
+      "reason": "凸透镜在不同物距下的像性质，可为大学薄透镜带符号方程、放大率和近轴近似提供直观检查。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "背景实例并不替代大学采用的成像符号约定，也不把凸透镜情形推广为任意厚透镜。",
+      "target": {
+        "id": "uphy_optics_002",
+        "name": "薄透镜成像与近轴条件",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第12章 光学",
+          "section": "§12-1（该节内主题：薄透镜成像与近轴条件）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_011",
+        "name": "凸透镜成像",
+        "textbook": {
+          "book": "phys8a",
+          "volume": "八年级上册",
+          "section": "第五章 透镜及其应用",
+          "pages": "114–115、122–124",
+          "pdf_page_offset": 8
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_optics_003",
+      "prerequisiteId": "cnp_h080",
+      "strength": "soft",
+      "reason": "高中双缝和薄膜的稳定干涉现象，有助于理解大学对相干性、分束获取相干光和偏振条件的进一步分析。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "只作为观察与概念背景；相同频率并不单独保证长期稳定干涉。",
+      "target": {
+        "id": "uphy_optics_003",
+        "name": "光的相干性",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第12章 光学",
+          "section": "§12-2（该节内主题：光的相干性）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h080",
+        "name": "光的干涉与薄膜干涉",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第四章 光",
+          "section": "3. 光的干涉",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_optics_011",
+      "prerequisiteId": "cnp_h082",
+      "strength": "soft",
+      "reason": "已经认识孔缝衍射及图样随尺寸变化，可帮助区分大学衍射模型中的近场、远场与几何光学近似。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不能将“明显衍射”的经验尺寸条件当作衍射存在的必要条件。",
+      "target": {
+        "id": "uphy_optics_011",
+        "name": "光的衍射与远场近似",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第12章 光学",
+          "section": "§12-7（该节内主题：光的衍射与远场近似）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h082",
+        "name": "光的衍射与分辨能力",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第四章 光",
+          "section": "5. 光的衍射",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_optics_018",
+      "prerequisiteId": "cnp_h083",
+      "strength": "soft",
+      "reason": "偏振片和横波性质的定性认识，给大学区分线偏振、圆偏振、椭圆偏振与自然光提供实验背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "高中节点中的激光特性不是这条关系所要求的内容；背景不等同于已掌握所有偏振态。",
+      "target": {
+        "id": "uphy_optics_018",
+        "name": "偏振状态与横波性质",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第12章 光学",
+          "section": "§12-12（该节内主题：偏振状态与横波性质）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h083",
+        "name": "光的偏振与激光特性",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第四章 光",
+          "section": "6. 光的偏振 激光",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_001",
+      "prerequisiteId": "cnp_h032",
+      "strength": "soft",
+      "reason": "高中对经典时空观适用范围和光速不变的初步认识，有助于进入大学对两个相对论原理的明确表述。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是观念准备，不要求先掌握洛伦兹变换或把高中简介当成严格推导。",
+      "target": {
+        "id": "uphy_modern_001",
+        "name": "狭义相对论的基本原理",
+        "textbook": {
+          "book": "uphy_general8_upper",
+          "title": "普通物理学（第八版）上册",
+          "volume": "上册",
+          "chapter": "第4章 相对论基础",
+          "section": "§4-2（该节内主题：狭义相对论的基本原理）",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=61df0fe9938b7cc2960ee357",
+          "edition": "第8版",
+          "isbn": "9787040578904",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h032",
+        "name": "相对论时空观与经典力学边界",
+        "textbook": {
+          "book": "p10r2",
+          "title": "人教版·物理·必修第二册",
+          "volume": "必修第二册",
+          "chapter": "第七章 万有引力与宇宙航行",
+          "section": "5. 相对论时空观与牛顿力学的局限性",
+          "source_url": "https://book.pep.com.cn/1441001122191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/55baa3cc-156f-4358-8e28-bfa21a864450.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-upper"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_008",
+      "prerequisiteId": "cnp_h107",
+      "strength": "hard",
+      "reason": "用 T 的四次方和温度倒数解释黑体辐射实验规律，必须先采用热力学绝对温度并正确换算温标。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "温差数值可相同不表示摄氏温度能直接用于温度比、幂次或倒数。",
+      "target": {
+        "id": "uphy_modern_008",
+        "name": "黑体辐射的实验规律",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第13章 早期量子论和量子力学基础",
+          "section": "§13-1（该节内主题：黑体辐射的实验规律）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h107",
+        "name": "热平衡与热力学温标",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第二章 气体、固体和液体",
+          "section": "1. 温度和温标",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_009",
+      "prerequisiteId": "cnp_h060",
+      "strength": "soft",
+      "reason": "复习单光子能量与光强的区别，有助于在大学同时处理光子的能量、频率和动量关系。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "大学节点重新给出光子量义，这条只作复习；不能用光强直接替代单个光子的能量或频率。",
+      "target": {
+        "id": "uphy_modern_009",
+        "name": "能量子与光子",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第13章 早期量子论和量子力学基础",
+          "section": "§13-1（该节内主题：能量子与光子）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h060",
+        "name": "能量量子化初步",
+        "textbook": {
+          "book": "p10r3",
+          "title": "人教版·物理·必修第三册",
+          "volume": "必修第三册",
+          "chapter": "第十三章 电磁感应与电磁波初步",
+          "section": "5. 能量量子化",
+          "source_url": "https://book.pep.com.cn/1441001123191/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/dcd8cc6b-5380-4008-a2d0-a061f24d34dd.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_013",
+      "prerequisiteId": "cnp_h061",
+      "strength": "hard",
+      "reason": "使用德布罗意关系 λ=h/p 时必须先识别粒子的动量，并取 p 为动量大小，不能把动能、速度、质量或带符号的动量分量直接代入。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "低速有 p=m|v|，高速需用相对论动量的大小；波长为正，高中低速动量表达不是所有粒子的通式。",
+      "target": {
+        "id": "uphy_modern_013",
+        "name": "德布罗意波与物质波",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第13章 早期量子论和量子力学基础",
+          "section": "§13-5（该节内主题：德布罗意波与物质波）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h061",
+        "name": "动量与动量变化",
+        "textbook": {
+          "book": "p11s1",
+          "title": "人教版·物理·选择性必修第一册",
+          "volume": "选择性必修第一册",
+          "chapter": "第一章 动量守恒定律",
+          "section": "1. 动量",
+          "source_url": "https://book.pep.com.cn/1441001127201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/346c3c04-1663-472c-849e-ff876dcf293f.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_025",
+      "prerequisiteId": "cnp_h121",
+      "strength": "hard",
+      "reason": "按核子与原子核质量差计算结合能，必须先明确质子数、中子数、质量数和核素身份。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "质量数只是核子计数；比较原子质量和核质量须一致处理电子质量，不以 A 代替精确质量。",
+      "target": {
+        "id": "uphy_modern_025",
+        "name": "原子核结合能与质量亏损",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第15章 原子核物理和粒子物理简介",
+          "section": "§15-2（该节内主题：原子核结合能与质量亏损）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h121",
+        "name": "原子核组成、核素与同位素",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第五章 原子核",
+          "section": "1. 原子核的组成",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uphy_modern_026",
+      "prerequisiteId": "cnp_h122",
+      "strength": "soft",
+      "reason": "高中半衰期的统计解释有助于理解大学指数存留规律以及衰变概率和活度的含义。（项目教学建议，非教材官方先修规定）",
+      "subject": "physics",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这条只提供统计观念背景；各种衰变类型不是建立指数存留模型的必要前提，半衰期也不预测单个核的确定衰变时刻。",
+      "target": {
+        "id": "uphy_modern_026",
+        "name": "放射性衰变与半衰期",
+        "textbook": {
+          "book": "uphy_general8_lower",
+          "title": "普通物理学（第八版）下册",
+          "volume": "下册",
+          "chapter": "第15章 原子核物理和粒子物理简介",
+          "section": "§15-3（该节内主题：放射性衰变与半衰期）",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=626198ec938b7cc2960ee9d3",
+          "edition": "第8版",
+          "isbn": "9787040585704",
+          "verification": "已核验出版社当前书目信息及完整公开目录，章号与节号按该目录定位；正文未逐页审读，释义与测评为原创整理。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnp_h122",
+        "name": "放射性衰变与半衰期",
+        "textbook": {
+          "book": "p12s3",
+          "title": "人教版·物理·选择性必修第三册",
+          "volume": "选择性必修第三册",
+          "chapter": "第五章 原子核",
+          "section": "2. 放射性元素的衰变",
+          "source_url": "https://book.pep.com.cn/1441001129201/mobile/index.html",
+          "verification": "依据现行人教版目录与可检索电子教材内容归纳；未核验最新印次逐页内容；非教材原题、未经教师审校",
+          "official_pdf_url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2109c25c-2e52-4da3-8ab3-18cbe632ec11.pkg/pdf.pdf"
+        }
+      },
+      "official_support_ids": [
+        "hep-physics-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physics-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_structure_001",
+      "prerequisiteId": "cnc_h014",
+      "strength": "soft",
+      "reason": "高中指定温压下的气体摩尔体积，可作为大学理想气体状态方程的特定状态实例，帮助联系 V/n 与温压。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这条是模型实例衔接，不是理解 pV=nRT 的额外硬门槛；22.4 L/mol 只属指定标准状况近似，不能用于任意温压或凝聚相。",
+      "target": {
+        "id": "uch_structure_001",
+        "name": "理想气体状态方程",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第1章 气体和等离子体",
+          "section": "1.1.1 理想气体状态方程式和分压定律",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h014",
+        "name": "气体摩尔体积与适用条件",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_structure_004",
+      "prerequisiteId": "cnc_h093",
+      "strength": "hard",
+      "reason": "用量子数区分允许的电子空间状态，需要先区分能层、能级、原子轨道及经典运动轨迹。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "大学补充 n、l、m_l 的允许取值和自旋；先修不是要求事先会全部量子数规则。",
+      "target": {
+        "id": "uch_structure_004",
+        "name": "原子轨道的量子数",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第6章 物质结构基础",
+          "section": "6.2.2 波函数和量子数",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h093",
+        "name": "能层、能级与原子轨道",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第一章 原子结构与性质",
+          "section": "第一节 原子结构",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_structure_012",
+      "prerequisiteId": "cnc_h029",
+      "strength": "hard",
+      "reason": "计算路易斯式中的形式电荷必须先能数价电子、成键电子对和孤电子，并保持粒子总电荷一致。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "形式电荷是电子分配记账，不等同氧化数或实际局部电荷。",
+      "target": {
+        "id": "uch_structure_012",
+        "name": "路易斯结构与形式电荷",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第6章 物质结构基础",
+          "section": "6.4.1 化学键的电子理论",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h029",
+        "name": "电子式与成键电子计数",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第三节 化学键",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_structure_020",
+      "prerequisiteId": "cnc_h105",
+      "strength": "hard",
+      "reason": "晶胞共享分摊以晶体的周期重复结构为前提，必须先区分晶体长程有序与外观规则。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "晶胞不是任意切下的小块；本节点的分摊数针对相应立方晶胞几何位置。",
+      "target": {
+        "id": "uch_structure_020",
+        "name": "晶胞与粒子分摊",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第6章 物质结构基础",
+          "section": "6.5.2 晶体的微观结构",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h105",
+        "name": "晶体、非晶体与晶体结构证据",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第一节 物质的聚集状态与晶体的常识",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_structure_023",
+      "prerequisiteId": "cnc_h111",
+      "strength": "hard",
+      "reason": "比较配位数与配体齿数，需要先识别中心离子、配体、直接配位原子及配合物总电荷。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "齿数与配体分子数不是一回事；计数必须针对具体结构而非只看化学式中配体个数。",
+      "target": {
+        "id": "uch_structure_023",
+        "name": "配位数与配体齿数",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第7章 配位化合物",
+          "section": "7.1.1 配位化合物的组成",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h111",
+        "name": "配位键与配合物",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第三章 晶体结构与性质",
+          "section": "第四节 配合物与超分子",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_thermodynamics_001",
+      "prerequisiteId": "cnc_h063",
+      "strength": "soft",
+      "reason": "高中反应焓及恒压反应热的实例，可帮助理解大学为何区分系统状态变化和热、功的传递途径。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "只提供熟悉的热化学情境；不把任意反应热直接等同焓变。",
+      "target": {
+        "id": "uch_thermodynamics_001",
+        "name": "状态函数与过程量",
+        "textbook": {
+          "book": "uch_physical_tju7a",
+          "title": "物理化学（第七版）（上册）",
+          "volume": "物理化学（第七版）（上册）",
+          "chapter": "第二章 热力学第一定律",
+          "section": "§2.1 基本概念及术语",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "edition": "第7版",
+          "isbn": "9787040618174",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h063",
+        "name": "反应热、焓变与体系条件",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第一章 化学反应的热效应",
+          "section": "第一节 反应热",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-upper",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_thermodynamics_006",
+      "prerequisiteId": "cnc_h064",
+      "strength": "hard",
+      "reason": "组合标准反应焓或用生成焓计算时，必须先能同步处理热化学方程式的计量倍数、反向符号与物态。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "比较或消去物质时物态、温度和计量基准须相容。",
+      "target": {
+        "id": "uch_thermodynamics_006",
+        "name": "赫斯定律与反应焓",
+        "textbook": {
+          "book": "uch_physical_tju7a",
+          "title": "物理化学（第七版）（上册）",
+          "volume": "物理化学（第七版）（上册）",
+          "chapter": "第二章 热力学第一定律",
+          "section": "§2.8 标准摩尔反应焓的计算",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "edition": "第7版",
+          "isbn": "9787040618174",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h064",
+        "name": "热化学方程式与燃烧焓",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第一章 化学反应的热效应",
+          "section": "第一节 反应热",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-upper",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_thermodynamics_016",
+      "prerequisiteId": "cnc_h071",
+      "strength": "soft",
+      "reason": "高中 Q 与 K 的比较，为大学把反应商改用活度并联系吉布斯能提供熟悉的方向判断背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "两端均练习 Q/K 判向，这条是浓度近似到活度形式的复习衔接；大学 Q 无量纲，不将带单位浓度原样放进对数，也不混用不同反应式的 K。",
+      "target": {
+        "id": "uch_thermodynamics_016",
+        "name": "反应商与反应方向",
+        "textbook": {
+          "book": "uch_physical_tju7a",
+          "title": "物理化学（第七版）（上册）",
+          "volume": "物理化学（第七版）（上册）",
+          "chapter": "第五章 化学平衡",
+          "section": "§5.1 化学反应的方向及平衡条件；§5.2 理想气体反应的等温方程及标准平衡常数",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "edition": "第7版",
+          "isbn": "9787040618174",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h071",
+        "name": "浓度商与反应方向",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第二节 化学平衡",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-upper",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_thermodynamics_021",
+      "prerequisiteId": "cnc_003",
+      "strength": "soft",
+      "reason": "纯净物与混合物的组成区分，可作为相律中区分组分、物种和相的起点。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是组成背景：一种纯物质可以有多相，均匀混合物也可能只有一相，不能把物种数直接作相数。",
+      "target": {
+        "id": "uch_thermodynamics_021",
+        "name": "相律与自由度",
+        "textbook": {
+          "book": "uch_physical_tju7a",
+          "title": "物理化学（第七版）（上册）",
+          "volume": "物理化学（第七版）（上册）",
+          "chapter": "第六章 相平衡",
+          "section": "§6.1 相律",
+          "source_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=65e35d5374ce561611bd9d5a",
+          "edition": "第7版",
+          "isbn": "9787040618174",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_003",
+        "name": "混合物与纯净物",
+        "textbook": {
+          "book": "chem9a",
+          "volume": "九年级上册",
+          "section": "第二单元 我们周围的空气",
+          "pages": "32",
+          "pdf_page_offset": 7
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-upper",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-upper",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_kinetics_001",
+      "prerequisiteId": "cnc_h068",
+      "strength": "soft",
+      "reason": "高中平均浓度速率及计量换算，可帮助理解大学以瞬时导数和带符号计量数统一表示同一反应速率。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "当前目标与高中均使用计量归一化，这条为平均到瞬时表示的衔接；恒容条件和单位须一致，反应级数不能由总反应计量数推断。",
+      "target": {
+        "id": "uch_kinetics_001",
+        "name": "反应速率的计量归一化",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第十一章 化学动力学",
+          "section": "§11.1 化学反应的反应速率及速率方程",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h068",
+        "name": "速率计量与实验测定",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第一节 化学反应速率",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_kinetics_009",
+      "prerequisiteId": "cnc_h069",
+      "strength": "hard",
+      "reason": "解释阿伦尼乌斯温度关系中的 E_a，必须先分清活化势垒、有效碰撞和反应初末态能量差。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "表观活化能不必等于单一基元势垒；升温计算用开尔文并限定模型温区。",
+      "target": {
+        "id": "uch_kinetics_009",
+        "name": "阿伦尼乌斯关系",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第十一章 化学动力学",
+          "section": "§11.4 温度对反应速率的影响，活化能",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h069",
+        "name": "活化能、有效碰撞与催化剂",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第二章 化学反应速率与化学平衡",
+          "section": "第一节 化学反应速率",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_kinetics_016",
+      "prerequisiteId": "cnc_h103",
+      "strength": "soft",
+      "reason": "分子间作用及其与物态性质的关系，有助于理解产生新界面为何需要表面自由能。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "这是微观背景；不把克服分子间作用等同于断开分子内共价键，也不据单一作用力估算任意界面张力。",
+      "target": {
+        "id": "uch_kinetics_016",
+        "name": "表面张力与表面功",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第十章 界面现象",
+          "section": "§10.1 界面张力",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h103",
+        "name": "分子间作用力与氢键",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第二章 分子结构与性质",
+          "section": "第三节 分子结构与物质的性质",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_solution_001",
+      "prerequisiteId": "cnc_h015",
+      "strength": "hard",
+      "reason": "比较各浓度标度及其随温度变化的性质，必须先分清 c=n/V 的分母是溶液总体积，热胀冷缩可改变该体积。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "质量摩尔浓度分母为溶剂质量，摩尔分数分母为总物质的量；比较标度本身不要求先做稀释计算。",
+      "target": {
+        "id": "uch_solution_001",
+        "name": "溶液组成的不同标度",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第4章 溶液和离子平衡",
+          "section": "4.1.2 溶液浓度的表示方法",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h015",
+        "name": "物质的量浓度与稀释",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_solution_006",
+      "prerequisiteId": "cnc_h076",
+      "strength": "soft",
+      "reason": "弱电解质在水中部分电离的实例，可帮助把酸碱反应重新看作质子在共轭物种间转移。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "质子理论范围更广，酸碱强弱不能仅由是否带电或溶液浓度判断；这不是学习质子定义的硬门槛。",
+      "target": {
+        "id": "uch_solution_006",
+        "name": "质子酸碱与共轭对",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第4章 溶液和离子平衡",
+          "section": "4.4.1 共轭酸碱对",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h076",
+        "name": "弱电解质的电离平衡",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第一节 电离平衡",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_solution_008",
+      "prerequisiteId": "cnc_h079",
+      "strength": "soft",
+      "reason": "高中常用浓度 pH 的定义和中性判断，可为大学细化为氢离子活度及温度相关条件提供复习背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "两端均讨论 pH 定义，这条不作额外硬门槛；浓度形式限于相应稀溶液近似，中性 pH 随该温度水离子积而变。",
+      "target": {
+        "id": "uch_solution_008",
+        "name": "pH的活度定义与中性条件",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第4章 溶液和离子平衡",
+          "section": "4.3 单相离子平衡",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h079",
+        "name": "pH与酸碱混合计算",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第二节 水的电离和溶液的pH",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_solution_016",
+      "prerequisiteId": "cnc_h082",
+      "strength": "soft",
+      "reason": "复习高中 K_sp 的计量指数和溶解度区别，有助于理解大学活度形式及其他平衡或非理想性的修正。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "两端的基本表达与溶解度任务重合，这条作为复习和扩展背景；不同盐型不能仅比较 K_sp 数值。",
+      "target": {
+        "id": "uch_solution_016",
+        "name": "溶度积与化学计量",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第4章 溶液和离子平衡",
+          "section": "4.5.1 溶度积；4.5.2 溶度积和溶解度",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h082",
+        "name": "难溶电解质与溶度积",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第四节 沉淀溶解平衡",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_electrochemistry_001",
+      "prerequisiteId": "cnc_h005",
+      "strength": "hard",
+      "reason": "按反应过程而非电极正负号定义阳极、阴极，必须先能用得失电子判断氧化和还原。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "阳极氧化、阴极还原保持不变，电极正负号随原电池或电解池工作方式而变。",
+      "target": {
+        "id": "uch_electrochemistry_001",
+        "name": "阳极、阴极与电池类型",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第七章 电化学",
+          "section": "§7.1 电极过程、电解质溶液及法拉第定律",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h005",
+        "name": "氧化还原与氧化剂还原剂",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第一章 物质及其变化",
+          "section": "第三节 氧化还原反应",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower",
+        "nju-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "nju-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_electrochemistry_002",
+      "prerequisiteId": "cnc_h086",
+      "strength": "soft",
+      "reason": "双液电池的电极、盐桥和电子/离子通路提供实物背景，帮助把装置转换为表示相界面的电池图式。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "图式排列约定不能保证所写方向必然自发；盐桥不是电子在溶液间的通道。",
+      "target": {
+        "id": "uch_electrochemistry_002",
+        "name": "电池符号与相界面",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第七章 电化学",
+          "section": "§7.9 原电池的设计",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h086",
+        "name": "双液原电池与电极反应",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第四章 化学反应与电能",
+          "section": "第一节 原电池",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_electrochemistry_010",
+      "prerequisiteId": "cnc_h006",
+      "strength": "hard",
+      "reason": "由电量换算产物量必须先根据半反应保持电子守恒，确定每摩尔产物对应的电子数。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "指定介质、产物及电流效率；不能只用原子守恒或默认全部电流用于目标反应。",
+      "target": {
+        "id": "uch_electrochemistry_010",
+        "name": "法拉第定律与电子计量",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第七章 电化学",
+          "section": "§7.1 电极过程、电解质溶液及法拉第定律",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h006",
+        "name": "氧化还原中的电子守恒",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第一章 物质及其变化",
+          "section": "第三节 氧化还原反应",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_electrochemistry_012",
+      "prerequisiteId": "cnc_h003",
+      "strength": "soft",
+      "reason": "电解质通过离子迁移导电的认识，为大学电导率测量提供载流粒子的化学背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "当前目标是电导、电导率与电导池几何的关系，电离强弱不是这些几何换算的必要步骤；电离强弱与浓度仍须区分。",
+      "target": {
+        "id": "uch_electrochemistry_012",
+        "name": "电导、电导率与几何因素",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第七章 电化学",
+          "section": "§7.3 电导、电导率和摩尔电导",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h003",
+        "name": "电解质与电离",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第一章 物质及其变化",
+          "section": "第二节 离子反应",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_electrochemistry_013",
+      "prerequisiteId": "cnc_h015",
+      "strength": "hard",
+      "reason": "用 Λ_m=κ/c 比较摩尔电导率时，必须先正确解释物质的量浓度及稀释后 c 的变化。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "统一体积、长度和浓度单位；摩尔电导率增大不等于溶液电导率也增大。",
+      "target": {
+        "id": "uch_electrochemistry_013",
+        "name": "摩尔电导率与稀释",
+        "textbook": {
+          "book": "uch_physical_tju7b",
+          "title": "物理化学（第七版）（下册）",
+          "volume": "物理化学（第七版）（下册）",
+          "chapter": "第七章 电化学",
+          "section": "§7.3 电导、电导率和摩尔电导",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=660452df74ce561611bd9e82",
+          "edition": "第7版",
+          "isbn": "9787040620603",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h015",
+        "name": "物质的量浓度与稀释",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-physical-chemistry-lower"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-physical-chemistry-lower",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_001",
+      "prerequisiteId": "cnc_h029",
+      "strength": "hard",
+      "reason": "画均裂、异裂及电子箭头时，必须先识别一根共价键中的电子对、孤电子对与总电荷。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "完整箭头与鱼钩箭头所代表电子数不同；不能从缺电子位置凭空画出电子来源。",
+      "target": {
+        "id": "uch_organic_001",
+        "name": "均裂、异裂与电子箭头",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第一章 绪论",
+          "section": "1.4.3 共价键的断裂和有机反应的类型",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h029",
+        "name": "电子式与成键电子计数",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第三节 化学键",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_005",
+      "prerequisiteId": "cnc_h114",
+      "strength": "hard",
+      "reason": "比较连接方式不同的有机结构及其反应类别，需要先能识别碳骨架和常见官能团。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "同分子式不足以确定官能团；羧基等完整结构不能任意拆成独立官能团套性质。",
+      "target": {
+        "id": "uch_organic_005",
+        "name": "构造异构与官能团",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第一章 绪论",
+          "section": "1.3 分子结构和结构式；1.7 有机化合物的分类",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h114",
+        "name": "有机化合物分类与官能团",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第一章 有机化合物的结构特点与研究方法",
+          "section": "第一节 有机化合物的结构特点",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_007",
+      "prerequisiteId": "cnc_h104",
+      "strength": "soft",
+      "reason": "四面体手性碳和镜像不重合的熟悉实例，有助于学习大学更一般的整体手性、对称性和非中心手性。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "有手性中心不保证整个分子手性；这条为实例背景，不把单个手性碳当作全部手性定义。",
+      "target": {
+        "id": "uch_organic_007",
+        "name": "手性与镜像重合",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第六章 立体化学",
+          "section": "6.2 手性和对称性",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h104",
+        "name": "手性与对映异构",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第二章 分子结构与性质",
+          "section": "第三节 分子结构与物质的性质",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_010",
+      "prerequisiteId": "cnc_h121",
+      "strength": "soft",
+      "reason": "高中对双键两端各连不同基团的顺反条件认识，可帮助进入大学用 CIP 统一标记 E/Z 的方法。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "E/Z 要按优先序比较，不能沿用“体积大”或“相同基团”作为通则。",
+      "target": {
+        "id": "uch_organic_010",
+        "name": "烯烃的E/Z构型",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第三章 烯烃和炔烃",
+          "section": "3.3.3 烯烃顺反异构体的命名",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h121",
+        "name": "烯烃的加成、氧化与顺反条件",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第二章 烃",
+          "section": "第二节 烯烃 炔烃",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_020",
+      "prerequisiteId": "cnc_h130",
+      "strength": "hard",
+      "reason": "分析羰基的亲核加成位点和产物，需要先识别醛、酮中的 C=O 结构及其可发生加成的特征。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不把所有含 C=O 的官能团都当作醛或酮；酯、酰胺还涉及不同的离去基团与机理。",
+      "target": {
+        "id": "uch_organic_020",
+        "name": "羰基亲核加成",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第十一章 醛、酮和醌",
+          "section": "11.5.1 羰基的亲核加成反应",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h130",
+        "name": "酮羰基与加成还原",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第三章 烃的衍生物",
+          "section": "第三节 醛 酮",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_022",
+      "prerequisiteId": "cnc_h132",
+      "strength": "hard",
+      "reason": "区分酰基亲核取代和醛酮加成，需要先识别酯、酰胺等羧酸衍生物及其羰基上的连接基团。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "水解现象只提供类别基础，具体机理和相对活性还取决于离去基团、共振及反应条件。",
+      "target": {
+        "id": "uch_organic_022",
+        "name": "酰基亲核取代",
+        "textbook": {
+          "book": "uch_organic_tju7",
+          "title": "有机化学（第七版）",
+          "volume": "有机化学（第七版）",
+          "chapter": "第十三章 羧酸衍生物",
+          "section": "13.3.1 酰基上的亲核取代反应；13.3.2 机理及相对反应活性",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67460048e4efbc722ba488ec",
+          "edition": "第7版",
+          "isbn": "9787040636840",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h132",
+        "name": "酯、酰胺与水解",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第三章 烃的衍生物",
+          "section": "第四节 羧酸 羧酸衍生物",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-organic-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-organic-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_organic_026",
+      "prerequisiteId": "cnc_h145",
+      "strength": "soft",
+      "reason": "双官能团单体逐次反应的缩聚实例，可帮助理解大学按增长机理区分链增长与逐步聚合。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "逐步聚合不能简单等同缩聚；是否脱去小分子与增长机理属于不同分类维度。",
+      "target": {
+        "id": "uch_organic_026",
+        "name": "链增长与逐步聚合的区分",
+        "textbook": {
+          "book": "uch_general_tju3",
+          "title": "大学化学（第3版）",
+          "volume": "大学化学（第3版）",
+          "chapter": "第8章 材料化学基础",
+          "section": "8.5.3 高分子化合物的合成",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68923aa7e119ac9729ca47c9",
+          "edition": "第3版",
+          "isbn": "9787040655612",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h145",
+        "name": "缩聚与双官能团单体",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第五章 合成高分子",
+          "section": "第一节 合成高分子的基本方法",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-general-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-general-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_002",
+      "prerequisiteId": "cnc_h022",
+      "strength": "soft",
+      "reason": "铁盐检验中的试剂空白、溶液本色与反应顺序对照，为分析化学的空白设置和质量控制提供具体实例。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "单一检验的对照只是背景，不等于已经完成基体效应、标准物质和全过程质量保证。",
+      "target": {
+        "id": "uch_analysis_002",
+        "name": "空白试验与质量控制",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第一章 分析化学概述",
+          "section": "1.3 分析质量保证与质量控制",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h022",
+        "name": "铁盐性质实验与对照",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第三章 铁 金属材料",
+          "section": "实验活动2 铁及其化合物的性质",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry",
+        "cstu-analysis-syllabus"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "cstu-analysis-syllabus",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_009",
+      "prerequisiteId": "cnc_h015",
+      "strength": "hard",
+      "reason": "把仪器响应反算为样品浓度，需要先正确解释浓度的定义和单位，使校准斜率对应明确的浓度—响应映射。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "按 c=(S−a)/b 反算须限定校准范围；只有涉及配制或稀释样品时才另用稀释守恒，不把稀释计算当作所有校准题的必需步骤。",
+      "target": {
+        "id": "uch_analysis_009",
+        "name": "外标校准与线性范围",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第二章 分析数据处理",
+          "section": "2.3 定量校正模型和方法",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h015",
+        "name": "物质的量浓度与稀释",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry",
+        "cstu-analysis-syllabus"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "cstu-analysis-syllabus",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_013",
+      "prerequisiteId": "cnc_h013",
+      "strength": "hard",
+      "reason": "判定化学计量点需要把配平方程式系数转为物质的量关系，而不是默认两种试剂的摩尔数相等。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "明确反应计量、完全程度和限制性反应物；信号终点与理论计量点仍需区分。",
+      "target": {
+        "id": "uch_analysis_013",
+        "name": "化学计量点与滴定终点",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第三章 化学平衡与滴定分析",
+          "section": "3.2.1 滴定分析简介",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h013",
+        "name": "摩尔质量与化学计量",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第二章 海水中的重要元素——钠和氯",
+          "section": "第三节 物质的量",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry",
+        "cstu-analysis-syllabus"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "cstu-analysis-syllabus",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_014",
+      "prerequisiteId": "cnc_h080",
+      "strength": "soft",
+      "reason": "高中滴定等量点、终点和指示剂选择的实例，有助于把大学完整滴定曲线与指示区间联系起来。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "它是常见酸碱滴定情境背景；弱酸强碱的计量点不必呈中性，完整曲线仍需联立平衡计算。",
+      "target": {
+        "id": "uch_analysis_014",
+        "name": "酸碱滴定曲线与指示范围",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第三章 化学平衡与滴定分析",
+          "section": "3.2.2 酸碱滴定法",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h080",
+        "name": "酸碱滴定的计量与终点",
+        "textbook": {
+          "book": "chem_h_s1",
+          "title": "人教版·化学·选择性必修1 化学反应原理",
+          "volume": "选择性必修1 化学反应原理",
+          "chapter": "第三章 水溶液中的离子反应与平衡",
+          "section": "第二节 水的电离和溶液的pH",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939331.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001131201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry",
+        "cstu-analysis-syllabus"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        },
+        {
+          "source_id": "cstu-analysis-syllabus",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_022",
+      "prerequisiteId": "cnc_h095",
+      "strength": "hard",
+      "reason": "区分原子吸收与原子发射测量，必须先把谱线与原子能级间吸收或释放特定能量的光子联系起来。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "还需气相自由原子或相应激发态条件；不能凭肉眼颜色替代仪器的谱线与干扰分析。",
+      "target": {
+        "id": "uch_analysis_022",
+        "name": "原子吸收与原子发射",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第五章 原子光谱法",
+          "section": "5.1 原子发射光谱法；5.2 原子吸收与原子荧光光谱法",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h095",
+        "name": "基态激发态与原子光谱",
+        "textbook": {
+          "book": "chem_h_s2",
+          "title": "人教版·化学·选择性必修2 物质结构与性质",
+          "volume": "选择性必修2 物质结构与性质",
+          "chapter": "第一章 原子结构与性质",
+          "section": "第一节 原子结构",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939329.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001132201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_023",
+      "prerequisiteId": "cnc_h023",
+      "strength": "soft",
+      "reason": "核素与同位素的认识，有助于解释质谱中由同位素组成造成的峰差及离子电荷与核素身份的区别。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "同位素是部分谱峰解释的背景，不是所有 m/z 换算的必要前提；质量数不等于精确质量，电荷数、加合与碎片还须分别判断。",
+      "target": {
+        "id": "uch_analysis_023",
+        "name": "质谱的质荷比与离子化",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第六章 质谱法",
+          "section": "6.1 质谱法基本原理",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h023",
+        "name": "核素与同位素",
+        "textbook": {
+          "book": "chem_h_b1",
+          "title": "人教版·化学·必修第一册",
+          "volume": "必修第一册",
+          "chapter": "第四章 物质结构 元素周期律",
+          "section": "第一节 原子结构与元素周期表",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939328.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001121191/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_024",
+      "prerequisiteId": "cnc_h117",
+      "strength": "soft",
+      "reason": "萃取等分离方法中的分配差异，为理解组分在固定相和流动相间作用不同导致保留差异提供背景。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "色谱并非只是一遍萃取；保留还随具体固定相、流动相和温度改变。",
+      "target": {
+        "id": "uch_analysis_024",
+        "name": "色谱保留与保留因子",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第八章 色谱分析",
+          "section": "8.1 色谱理论基础",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h117",
+        "name": "分离提纯与重结晶",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第一章 有机化合物的结构特点与研究方法",
+          "section": "第二节 研究有机化合物的一般方法",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "uch_analysis_027",
+      "prerequisiteId": "cnc_h118",
+      "strength": "soft",
+      "reason": "高中用氢谱区分化学环境的经验，有助于理解大学化学位移、积分与谱图结构分析。（项目教学建议，非教材官方先修规定）",
+      "subject": "chemistry",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "峰数不是在所有条件下直接等于氢的种类数；积分定量需要合适采集条件且处理重叠和交换。",
+      "target": {
+        "id": "uch_analysis_027",
+        "name": "核磁共振化学位移与积分",
+        "textbook": {
+          "book": "uch_analytical_101",
+          "title": "分析化学",
+          "volume": "分析化学",
+          "chapter": "第九章 核磁共振波谱法",
+          "section": "9.2 核磁共振氢谱分析",
+          "source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "catalog_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68a7529ee119ac9729e17a7c",
+          "edition": "未标版次（以ISBN识别）",
+          "isbn": "9787040657067",
+          "verification": "已核验出版社书目及相关公开目录；章、节名用于主题定位，摘要与题目为原创整理，教材正文未逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "cnc_h118",
+        "name": "分子式、红外与核磁共振证据",
+        "textbook": {
+          "book": "chem_h_s3",
+          "title": "人教版·化学·选择性必修3 有机化学基础",
+          "volume": "选择性必修3 有机化学基础",
+          "chapter": "第一章 有机化合物的结构特点与研究方法",
+          "section": "第二节 研究有机化合物的一般方法",
+          "source_url": "https://www.pep.com.cn/xw/zt/px/2019/huaxue/jiangyi/201906/t20190617_1939330.shtml",
+          "digital_textbook_url": "https://book.pep.com.cn/1442001133201/mobile/index.html",
+          "verification": "已按现行人教教材公开目录、出版社编写资料及可访问正文索引交叉整理；2026秋具体印次未逐页核验；2025修订课标仅核实版本信息，未逐条对照。"
+        }
+      },
+      "official_support_ids": [
+        "hep-analytical-chemistry"
+      ],
+      "source_locators": [
+        {
+          "source_id": "hep-analytical-chemistry",
+          "locator": "实际读取范围见对应来源记录；原书章/节定位见两端textbook"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_002",
+      "prerequisiteId": "tcm_diagnostics_014",
+      "reason": "先理解寒热辨证的病性含义，有助于解释四气为何是传统药性分类而非制品温度；不从四气直接推出退热等现代疗效。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "只连接传统病性与药性术语，不提供证候判定、个体选药，也不把药性解释为物理温度或现代作用机制。",
+      "target": {
+        "id": "herbal_materia_002",
+        "name": "四气的传统药性含义",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+          "section": "主题定位：四气的传统药性含义；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_diagnostics_014",
+        "name": "寒热辨证与病性",
+        "textbook": {
+          "title": "中医诊断学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524700210",
+          "book": "tcm_diagnostic6_2026",
+          "volume": "中医诊断学",
+          "chapter": "第五章 八纲辨证",
+          "section": "第一节 八纲基本证：寒热辨证",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_outline",
+        "bucm_materia_preface",
+        "ucas_materia"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "总论第四章 中药的性能，四气；网页行12–21"
+        },
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求1–2：以中医药理论解释药性、功效和主治；行18–20"
+        },
+        {
+          "source_id": "ucas_materia",
+          "locator": "预修课程：中医基础理论、中医诊断学；总论第五节 中药的性能；行13–23"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_004",
+      "prerequisiteId": "tcm_basics_021",
+      "reason": "气机的升降出入为理解升降浮沉的方向性语言提供背景；两者分别描述人体之气与药物传统作用趋向，不能视为同一物理运动。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "两组概念并非一一等价；不把传统气机当作药物颗粒沉浮、血流或药代过程。",
+      "target": {
+        "id": "herbal_materia_004",
+        "name": "升降浮沉与作用趋向",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+          "section": "主题定位：升降浮沉与作用趋向；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_basics_021",
+        "name": "气机与气化",
+        "textbook": {
+          "title": "中医基础理论（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524703235",
+          "book": "tcm_basic6_2026",
+          "volume": "中医基础理论",
+          "chapter": "第四章 精气血津液神",
+          "section": "第二节 气：运动与变化",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_basics_preface",
+        "bucm_materia_outline",
+        "bucm_materia_preface"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_basics_preface",
+          "locator": "前言：基础理论包含气血津液，并为中药、方剂奠基；行9–12"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "总论第四章第4、6项：升降浮沉及多种药性综合理解；行17–21"
+        },
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求1–2；行18–20"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_005",
+      "prerequisiteId": "tcm_basics_025",
+      "reason": "先了解经络系统的传统模型及其与解剖网络的区别，有助于理解归经的联系对象，避免将归经当作药物在器官中的浓度分布。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "经络是此处的传统理论对象；该边不证明某条现代组织分布或临床结局关系。",
+      "target": {
+        "id": "herbal_materia_005",
+        "name": "归经及其解释边界",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+          "section": "主题定位：归经及其解释边界；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_basics_025",
+        "name": "经络系统的传统组成",
+        "textbook": {
+          "title": "中医基础理论（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524703235",
+          "book": "tcm_basic6_2026",
+          "volume": "中医基础理论",
+          "chapter": "第五章 经络",
+          "section": "第一节 概述；第三、四节相关组成",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_basics_preface",
+        "bucm_materia_outline",
+        "bucm_materia_preface"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_basics_preface",
+          "locator": "前言：经络属于中医基础理论内容，为中药课程奠基；行9–12"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "总论第四章第5、6项：归经与综合药性；行18–21"
+        },
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求1–2；行18–20"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_016",
+      "prerequisiteId": "tcm_basics_021",
+      "reason": "气机的升降出入概念有助于理解理气药中“疏理气机、行气”的传统分类依据，避免把“气”按气体或单一现代生理指标理解。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "只解释传统功效语言；不将行气等同通气、排气或某一种药理机制，不推导个体适用性。",
+      "target": {
+        "id": "herbal_materia_016",
+        "name": "理气药与陈皮、枳实",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：理气药与陈皮、枳实；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_basics_021",
+        "name": "气机与气化",
+        "textbook": {
+          "title": "中医基础理论（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524703235",
+          "book": "tcm_basic6_2026",
+          "volume": "中医基础理论",
+          "chapter": "第四章 精气血津液神",
+          "section": "第二节 气：运动与变化",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_basics_preface",
+        "bucm_materia_outline",
+        "ucas_materia"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_basics_preface",
+          "locator": "前言气血津液及其为中药课程奠基；行9–12"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "各论第十五章 理气药：含义、功效与类别比较；行146–154"
+        },
+        {
+          "source_id": "ucas_materia",
+          "locator": "第六章 温里药和行气药，第4–6节；行53–59"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_020",
+      "prerequisiteId": "tcm_diagnostics_020",
+      "reason": "先区分气血不足与气滞、血瘀等运行失常，有助于理解活血化瘀药的传统分类，避免把活血、补血或现代抗凝作用混为一谈。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "血瘀与现代血栓并非直接等价；活血分类不等于抗凝、抗血小板或临床获益已经证实。",
+      "target": {
+        "id": "herbal_materia_020",
+        "name": "活血化瘀药与丹参、川芎",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：活血化瘀药与丹参、川芎；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_diagnostics_020",
+        "name": "气病、血病与气血同病辨证",
+        "textbook": {
+          "title": "中医诊断学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524700210",
+          "book": "tcm_diagnostic6_2026",
+          "volume": "中医诊断学",
+          "chapter": "第六章 病性辨证",
+          "section": "第三节 气血辨证",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_preface",
+        "bucm_materia_outline",
+        "ucas_materia"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求2：运用中医药理论分析功效、联系主治；行20"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "第十九章 活血化瘀药；行195–217"
+        },
+        {
+          "source_id": "ucas_materia",
+          "locator": "预修课程及第八章止血药与活血化瘀药；行13–14、69–77"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_021",
+      "prerequisiteId": "tcm_basics_032",
+      "reason": "痰饮作为传统病理产物的概念有助于理解化痰药的分类语境，避免将中医“痰”仅理解为可见的呼吸道分泌物。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不把传统痰饮统一替换为某一种现代物质、病因或呼吸道诊断；不含原料处理方法。",
+      "target": {
+        "id": "herbal_materia_021",
+        "name": "化痰止咳平喘药的分型",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：化痰止咳平喘药的分型；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_basics_032",
+        "name": "痰饮、瘀血与病理产物",
+        "textbook": {
+          "title": "中医基础理论（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=3ex2jpryac2b4iw",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524703235",
+          "book": "tcm_basic6_2026",
+          "volume": "中医基础理论",
+          "chapter": "第七章 病因",
+          "section": "第三节 病理产物性病因",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_basics_preface",
+        "bucm_materia_outline",
+        "ucas_materia"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_basics_preface",
+          "locator": "基础理论包含病因病机，为中药课程奠基；行9–12"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "第二十章 化痰止咳平喘药；行217–230"
+        },
+        {
+          "source_id": "ucas_materia",
+          "locator": "第九章 化痰药与止咳平喘药；行78–83"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_025",
+      "prerequisiteId": "tcm_diagnostics_019",
+      "reason": "阴虚与阳虚的理论区分有助于理解补虚药中补阴、补阳两个类别，避免把一切虚证或全部补虚药看成同一种不足与同一种作用。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不由一个寒热表现为个人判定阴虚或阳虚，不把补虚解释为营养补充或现代药理作用一致。",
+      "target": {
+        "id": "herbal_materia_025",
+        "name": "补虚药的四类与代表药",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：补虚药的四类与代表药；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_diagnostics_019",
+        "name": "阴虚证与阳虚证的理论区分",
+        "textbook": {
+          "title": "中医诊断学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524700210",
+          "book": "tcm_diagnostic6_2026",
+          "volume": "中医诊断学",
+          "chapter": "第六章 病性辨证",
+          "section": "第二节 阴阳虚损辨证",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_preface",
+        "bucm_materia_outline"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求1–2；行18–20"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "第二十四章 补虚药：补气、补血、补阴、补阳；行267–291"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_materia_025",
+      "prerequisiteId": "tcm_diagnostics_020",
+      "reason": "气血辨证中不足与运行失常的区分，有助于理解补气、补血在补虚药中的位置，并与理气、活血等传统分类区分。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "不把气虚、血虚直接对应某项化验指标；不从药类标签推导疗效、替换关系或个体选药。",
+      "target": {
+        "id": "herbal_materia_025",
+        "name": "补虚药的四类与代表药",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：补虚药的四类与代表药；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_diagnostics_020",
+        "name": "气病、血病与气血同病辨证",
+        "textbook": {
+          "title": "中医诊断学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2oi6077kmf0uopm",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524700210",
+          "book": "tcm_diagnostic6_2026",
+          "volume": "中医诊断学",
+          "chapter": "第六章 病性辨证",
+          "section": "第三节 气血辨证",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_preface",
+        "bucm_materia_outline",
+        "ucas_materia"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "授课要求2；行20"
+        },
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "第二十四章 补虚药；行267–291"
+        },
+        {
+          "source_id": "ucas_materia",
+          "locator": "预修课程：中医基础理论、中医诊断学；行13–14"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "tcm_formulas_002",
+      "prerequisiteId": "herbal_materia_007",
+      "reason": "七情配伍提供药物相互配合与制约的传统关系背景，有助于再理解君臣佐使的方中分工；七情类别与君臣佐使角色不能逐项等同。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "传统相须、相使、相畏等不自动证明现代药效协同、药动相互作用或风险消失；不构建具体处方。",
+      "target": {
+        "id": "tcm_formulas_002",
+        "name": "君臣佐使的配伍角色",
+        "textbook": {
+          "title": "方剂学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524702672",
+          "book": "tcm_formula6_2026",
+          "volume": "方剂学",
+          "chapter": "上篇 总论 第六章 方剂的组方法则与变化",
+          "section": "组方法则",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "prerequisite": {
+        "id": "herbal_materia_007",
+        "name": "七情配伍的关系类型",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：学科对象与药性术语（未据原书目录核定章序）",
+          "section": "主题定位：七情配伍的关系类型；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_outline",
+        "bucm_materia_preface",
+        "ahtcm_formulas_tcm_2023"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "总论第五章 中药的配伍；行23–25"
+        },
+        {
+          "source_id": "bucm_materia_preface",
+          "locator": "前言中药学为方剂学奠基；行12"
+        },
+        {
+          "source_id": "ahtcm_formulas_tcm_2023",
+          "locator": "印刷第1页先修中药学；第5页第六章君臣佐使与方剂变化；行13、29–31、145–152"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "tcm_formulas_007",
+      "prerequisiteId": "herbal_materia_009",
+      "reason": "先比较解表药的辛温、辛凉类别，有助于学习解表剂分类及方中药物的传统作用语境；单味药类别与整方类别、功用不能直接互换。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "桂枝是药物、桂枝汤是方剂，名称相近不等于同一实体；不从某味药的分类推定任意组合的整体性质或现代疗效。",
+      "target": {
+        "id": "tcm_formulas_007",
+        "name": "解表剂：辛温、辛凉与扶正解表",
+        "textbook": {
+          "title": "方剂学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524702672",
+          "book": "tcm_formula6_2026",
+          "volume": "方剂学",
+          "chapter": "下篇 各论 第一章 解表剂",
+          "section": "第一节 辛温解表剂；第二节 辛凉解表剂；第三节 扶正解表剂",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "prerequisite": {
+        "id": "herbal_materia_009",
+        "name": "解表药及薄荷、桂枝",
+        "textbook": {
+          "book": "herbal_book_materia6",
+          "title": "中药学",
+          "volume": "中药学",
+          "chapter": "主题定位：常用药类与代表药（未据原书目录核定章序）",
+          "section": "主题定位：解表药及薄荷、桂枝；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2x5bkxog52yy585",
+          "catalog_url": "https://www.bucmdf.edu.cn/ZW.php?newsid=6613613",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524700265",
+          "verification": "出版社官方微商城中医书院与高校2026秋教材清单交叉核实书名、主编、ISBN及第6版；出版月有3月与5月差异，保守记录2026年。未逐页读取教材，目录图片未转录；节点采用明确主题定位。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "official_support_ids": [
+        "bucm_materia_outline",
+        "ahtcm_formulas_tcm_2023"
+      ],
+      "source_locators": [
+        {
+          "source_id": "bucm_materia_outline",
+          "locator": "第八章 解表药；行33–46"
+        },
+        {
+          "source_id": "ahtcm_formulas_tcm_2023",
+          "locator": "印刷第6页解表剂概念、分类和配伍分析；行158–187"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    },
+    {
+      "topicId": "herbal_pharmaceutics_001",
+      "prerequisiteId": "tcm_formulas_005",
+      "reason": "方剂组成与剂型的区别，为进一步区分剂型、具体制剂和给药途径提供术语基础；这种衔接不证明现代制剂的释放、质量或等效性。（项目课程学习建议）",
+      "strength": "soft",
+      "subject": "tcm",
+      "inference_type": "project_teaching_suggestion",
+      "conditions": "仅限术语与分类衔接；现代质量要求、释药机制和制品等效须各自的药剂学证据，不由传统方名或剂型名推出。",
+      "target": {
+        "id": "herbal_pharmaceutics_001",
+        "name": "剂型、制剂与给药途径",
+        "textbook": {
+          "book": "herbal_book_pharmaceutics6",
+          "title": "中药药剂学",
+          "volume": "中药药剂学",
+          "chapter": "主题定位：剂型与制剂基础（未据原书目录核定章序）",
+          "section": "主题定位：剂型、制剂与给药途径；无原书节号或页码主张",
+          "source_url": "https://detail.youzan.com/show/goods?alias=3emqmhox7ne4dj9",
+          "catalog_url": "https://opac.ouc.edu.cn/mspace/searchDetailLocal/m2e9ca52024501868c9166c740ecbfc9e",
+          "edition": "第6版（新世纪第六版）",
+          "isbn": "9787524703259",
+          "verification": "官方微商城与中国海洋大学馆藏MARC交叉核实2026年第6版、ISBN及十五五/第十二版系列。馆藏摘要确认中药调剂、制药卫生、原辅料、剂型等主题；未逐页读取全书，不编造未读取的节号。 内容为原创课程学习摘要，未完成最新教材全文逐页核验。"
+        }
+      },
+      "prerequisite": {
+        "id": "tcm_formulas_005",
+        "name": "剂型与方剂组成的区别",
+        "textbook": {
+          "title": "方剂学（第6版）",
+          "source_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "catalog_url": "https://detail.youzan.com/show/goods?alias=2ft96gme9rlsg38",
+          "edition": "单书第6版；规划教材系列第12版",
+          "isbn": "9787524702672",
+          "book": "tcm_formula6_2026",
+          "volume": "方剂学",
+          "chapter": "上篇 总论 第四章 方剂的剂型",
+          "section": "液体剂型、固体剂型、半固体剂型",
+          "verification": "已核验出版社2026新版公开目录的对应主题；知识及题目为原创课程归纳，未逐页核验教材全文。"
+        }
+      },
+      "official_support_ids": [
+        "ahtcm_formulas_herbal_2023",
+        "ahtcm_formulas_tcm_2023",
+        "bucm_pharmaceutics_outline"
+      ],
+      "source_locators": [
+        {
+          "source_id": "ahtcm_formulas_herbal_2023",
+          "locator": "课程基本信息后续课程列中药药剂学；行12–17"
+        },
+        {
+          "source_id": "ahtcm_formulas_tcm_2023",
+          "locator": "印刷第5页总论第四章 方剂的剂型；行124–129"
+        },
+        {
+          "source_id": "bucm_pharmaceutics_outline",
+          "locator": "前言及第一章药剂学术语、剂型分类、质量依据；行8–22"
+        }
+      ],
+      "review": "validation/subject-merge-content-review.json"
+    }
+  ],
+  "selected_book_records": {
+    "science": "validation/subject-merge-reviews/science-source-records.json",
+    "tcm": "validation/subject-merge-reviews/tcm-source-records.json"
+  },
+  "full_review": "validation/subject-merge-content-review.json",
+  "limitations": [
+    "本轮合并原有内容，未改写知识点、题目或原教材审核标记。",
+    "官方书目、公开目录和高校大纲的实际读取范围分别列明；未重新逐页读取所有最新版教材。",
+    "大纲可能采用其他教材或发布较早，仅佐证稳定课程关联，不作全国唯一教材或2026新教材全文证据。",
+    "中医药关系区分传统理论、药物类别与现代制剂/证据，传统概念不等同现代机制或已证实疗效。",
+    "AI作者和独立AI复核已完成，教师审核和实测效度验证未完成。"
+  ]
+}

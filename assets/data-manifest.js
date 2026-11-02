@@ -5,6 +5,7 @@ window.ToyDataFiles = {
   "questions.json": "questions.b591c1df4fed.js",
   "id-aliases.json": "id-aliases.adbe5a20aef1.js",
   "cn-curriculum-standards.json": "cn-curriculum-standards.fbf01f6e794a.js",
+  "subject-bridge-dependencies.json": "subject-bridge-dependencies.6a59b1462a22.js",
   "math-university-topics.json": "math-university-topics.734df010f1a4.js",
   "math-university-dependencies.json": "math-university-dependencies.fb8d4a29c857.js",
   "math-university-questions.json": "math-university-questions.8c23c5bcf262.js",
@@ -52,5 +53,15 @@ window.ToyDataFiles = {
   "uchemistry-dependencies.json": "uchemistry-dependencies.18edf6452399.js",
   "uchemistry-questions.json": "uchemistry-questions.2e194b24a18f.js",
   "uchemistry-sources.json": "uchemistry-sources.843adf4af833.js",
-  "uchemistry-coverage.json": "uchemistry-coverage.a1a13bca6c70.js"
+  "uchemistry-coverage.json": "uchemistry-coverage.a1a13bca6c70.js",
+  "biology-topics.json": "biology-topics.e74f18928dfb.js",
+  "biology-dependencies.json": "biology-dependencies.b010cc08b609.js",
+  "biology-questions.json": "biology-questions.538c7fbcd8d8.js",
+  "biology-sources.json": "biology-sources.7c106613be72.js",
+  "biology-coverage.json": "biology-coverage.8728b213ebbf.js",
+  "geography-topics.json": "geography-topics.bf8c210a3743.js",
+  "geography-dependencies.json": "geography-dependencies.fc8f34de6a7d.js",
+  "geography-questions.json": "geography-questions.8a37d0e3d211.js",
+  "geography-sources.json": "geography-sources.1e43f3360a4b.js",
+  "geography-coverage.json": "geography-coverage.e7386b779f66.js"
 };

@@ -23,6 +23,9 @@
   var currentAlias = null;
   var stage = '';
   var grade = '';
+  var book = '';
+  var chapter = '';
+  var member = '';
   var domain = '';
   var query = '';
   var aliasHitIds = new Set();
@@ -80,7 +83,7 @@
     if (stem) nodes.push(stem);
     var choices = q1.choices || [];
     var anyFig = choices.some(function (c) { return c && c.figure; });
-    if (!anyFig && !Subjects.academic(subject)) return nodes;
+    if (!anyFig && !Subjects.isAcademicTopic(topic)) return nodes;
     var box = el('div', { class: 'sample-choices' + (q1.hideChoiceText ? ' fig-icons' : '') });
     choices.forEach(function (c) {
       var hideName = !!(q1.hideChoiceText && c.figure);
@@ -97,16 +100,8 @@
     return nodes;
   }
 
-  function stageKind(grade) {
-    if (grade <= 6) return 'primary';
-    if (grade <= 9) return 'junior';
-    return Subjects.academic(subject) || subject === 'math' && grade >= 15 ? 'university' : 'senior';
-  }
-  function stageLabel(grade) {
-    if (grade <= 6) return '小学';
-    if (grade <= 9) return '初中';
-    return Subjects.academic(subject) ? Subjects.names[subject] : subject === 'math' && grade >= 15 ? '大学' : '高中';
-  }
+  function stageKind(grade) { return Subjects.stageKind(grade, subject); }
+  function stageLabel(grade) { return {primary:'小学',junior:'初中',senior:'高中',university:Subjects.academic(subject) ? Subjects.names[subject] : '大学'}[stageKind(grade)]; }
   var EN_BOOK = {
     10: ['必修一', '必修一 · 必修第一册'],
     11: ['必修二', '必修二 · 必修第二册'],
@@ -117,7 +112,7 @@
     16: ['选必四', '选必四 · 选择性必修第四册']
   };
   function gradeWord(grade) {
-    if (Subjects.academic(subject)) return Subjects.courseName(grade);
+    if (Subjects.academic(subject) || Subjects.mixedScience(subject) && grade >= 50) return Subjects.courseName(grade, subject);
     if (Subjects.science(subject)) return Subjects.scienceGrade(grade);
     if (subject === 'math' && grade >= 15) return {15:'高等数学',16:'线性代数',17:'概率论与数理统计'}[grade] || String(grade);
     if (subject === 'english' && EN_BOOK[grade]) return EN_BOOK[grade][0];
@@ -129,7 +124,7 @@
     return CN[grade] + '年级';
   }
   function gradeLabel(topic) {
-    if (Subjects.academic(subject)) return Subjects.names[subject] + ' · ' + Subjects.courseName(topic.module || topic.grade);
+    if (Subjects.isAcademicTopic(topic)) return (Subjects.isUniversityTopic(topic) ? '大学' : Subjects.names[subject]) + ' · ' + Subjects.courseName(topic.module || topic.grade, subject);
     if (Subjects.science(subject) && topic.grade >= 10) return Subjects.scienceGrade(topic.grade) + '（建议） · ' + Subjects.bookLabel(topic);
     if (subject === 'math' && topic.grade >= 15) return '大学 · ' + gradeWord(topic.grade);
     if (subject === 'english' && EN_BOOK[topic.grade]) return EN_BOOK[topic.grade][1];
@@ -144,11 +139,13 @@
   function paint(grade, colors) {
     if (grade <= 6) return { bg: colors.primaryBg, border: colors.primary, cls: 'primary' };
     if (grade <= 9) return { bg: colors.juniorBg, border: colors.junior, cls: 'junior' };
-    if (Subjects.academic(subject) || subject === 'math' && grade >= 15) return {bg:colors.universityBg, border:colors.university, cls:'university'};
+    if (stageKind(grade) === 'university') return {bg:colors.universityBg, border:colors.university, cls:'university'};
     return { bg: colors.seniorBg, border: colors.senior, cls: 'senior' };
   }
 
   function chapterOf(topic) {
+    if (Subjects.isAcademicTopic(topic)) { var c = Subjects.computingChapter(topic); return c.chapterNo + ' ' + c.chapterName; }
+    if (Subjects.biogeo(subject) && topic.textbook) return [topic.textbook.unit, topic.textbook.chapter].filter(Boolean).join(' · ');
     if (Subjects.science(subject) && topic.grade >= 10 && topic.textbook && topic.textbook.chapter) return topic.textbook.chapter;
     var text = topic.chapter || '未分章';
     var primary = /^[一二三四五六七八九]年级[上下全]册\s+(.+)$/.exec(text);
@@ -229,6 +226,7 @@
     if (Array.prototype.some.call(domainSelect.options, function (option) { return option.value === domain; })) {
       domainSelect.value = domain;
     }
+    if (Subjects.biogeo(subject)) { $('fBook').value = book; $('fChapter').value = chapter; }
     syncDepthButtons();
   }
 
@@ -270,18 +268,15 @@
   }
 
   function passFilter(topic) {
-    if (subject === 'english') {
-      if (stage === 'p' && topic.grade > 6) return false;
-      if (stage === 'j' && (topic.grade < 7 || topic.grade > 9)) return false;
-      if (stage === 'h' && (topic.grade < 10 || (subject === 'math' && topic.grade >= 15))) return false;
-      if (stage === 'u' && topic.grade < 15) return false;
-    } else {
-      if (stage === 'p' && topic.grade > 6) return false;
-      if (stage === 'j' && (topic.grade < 7 || topic.grade > 9)) return false;
-      if (stage === 'h' && (topic.grade < 10 || (subject === 'math' && topic.grade >= 15))) return false;
-      if (stage === 'u' && topic.grade < 15) return false;
-    }
+    if (stage && Subjects.stageCode(topic.grade, subject) !== stage) return false;
+    if (member && Subjects.rawOf(topic) !== member) return false;
     if (grade && String(topic.grade) !== grade) return false;
+    if (chapter && Subjects.isAcademicTopic(topic)) { var unit = Subjects.computingChapter(topic); if (unit.volume + ' ' + unit.chapterNo !== chapter) return false; }
+    else if (chapter && Subjects.mixedScience(subject)) return false;
+    if (Subjects.biogeo(subject)) {
+      if (book && topic.textbook.book !== book) return false;
+      if (chapter) { var ch = Subjects.scienceChapter(topic); if (ch.volume + ' ' + ch.chapterNo !== chapter) return false; }
+    }
     if (domain && topic.domain !== domain) return false;
     if (query) {
       var blob = (topic.name + '\n' + topic.description + '\n' + (topic.chapter || '') + '\n' + topic.id + '\n' + topic.domain).toLowerCase();
@@ -296,7 +291,7 @@
     var volumeMap = new Map();
     topics.forEach(function (topic) {
       if (!passFilter(topic)) return;
-      var key = Subjects.science(subject) && topic.textbook ? topic.textbook.book : topic.grade + topic.semester;
+      var key = Subjects.isAcademicTopic(topic) ? topic.module : Subjects.science(subject) && topic.textbook ? topic.textbook.book : topic.grade + topic.semester;
       var volume = volumeMap.get(key);
       if (!volume) {
         volume = { label: gradeLabel(topic), grade: topic.grade, semester: topic.semester, chapters: [], chapterMap: new Map() };
@@ -319,7 +314,7 @@
     var shown = 0;
     var box = $('list');
     box.replaceChildren();
-    var filtering = !!(query || grade || stage || domain);
+    var filtering = !!(query || grade || stage || domain || book || chapter || member);
     volumes.forEach(function (volume) {
       var count = volume.chapters.reduce(function (sum, chapter) { return sum + chapter.topics.length; }, 0);
       shown += count;
@@ -439,14 +434,24 @@
         probabilityChapter ? ' · ' : '',
         el('a',{href:'../diagnose/index.html?grade=17'},'测评完整课程（含数一方向内容）')));
     }
+    if (Subjects.isAcademicTopic(topic)) {
+      var unit = Subjects.computingChapter(topic);
+      parts.push(el('p',{class:'small'}, el('a',{href:withSubject('../diagnose/index.html?chapter=' + encodeURIComponent(unit.volume + ' ' + unit.chapterNo))},'以本学习单元为目标'), ' · ', el('a',{href:withSubject('../diagnose/index.html?module=' + encodeURIComponent(unit.volume))},'测评本' + Subjects.unitLabel(subject))));
+    }
+    if (Subjects.biogeo(subject) && topic.textbook) {
+      var schoolChapter = Subjects.scienceChapter(topic);
+      parts.push(el('p', {class:'small'},
+        el('a',{href:withSubject('../diagnose/index.html?chapter=' + encodeURIComponent(schoolChapter.volume + ' ' + schoolChapter.chapterNo))},'以本章为目标'), ' · ',
+        el('a',{href:withSubject('../diagnose/index.html?volume=' + encodeURIComponent(topic.textbook.book))},'测评本册已收录知识')));
+    }
     parts.push(el('dl', { class: 'meta-grid' },
-      metaItem(Subjects.academic(subject) ? Subjects.unitLabel(subject) : '年级册次', gradeLabel(topic)),
+      metaItem(Subjects.isAcademicTopic(topic) ? Subjects.unitLabel(subject) : '年级册次', gradeLabel(topic)),
       metaItem('领域', topic.domain),
       metaItem('类型', TYPE_ZH[topic.type] || topic.type),
-      metaItem(Subjects.academic(subject) ? '学习单元' : '章节', topic.chapter, true)));
+      metaItem(Subjects.isAcademicTopic(topic) ? '学习单元' : '章节', topic.chapter, true)));
     if (topic.description) parts.push(el('p', { class: 'desc', text: topic.description }));
-    if ((Subjects.curriculum(subject) || subject === 'math' && /^cnm_ps\d+$/.test(topic.id)) && topic.epistemic_status) {
-      var context = {modern_biomedicine:'现代医学基础',traditional_tcm_theory:'中医药传统理论',modern_pharmaceutical_science:'现代药学与质量科学',evidence_methodology:'证据评价方法',educational_method_in_tcm_context:'中医药课程的学习与辨析方法',historical_philosophical_framework:'传统哲学与历史理论框架',historical_and_evidence_method:'学术史与证据评价方法',historical_traditional_classification:'历史与传统分类体系',modern_physics:'现代物理学',modern_chemistry:'现代化学',modern_mathematics:'现代数学'}[topic.epistemic_status];
+    if ((Subjects.isAcademicTopic(topic) || Subjects.biogeo(subject) || subject === 'math' && /^cnm_ps\d+$/.test(topic.id)) && topic.epistemic_status) {
+      var context = {modern_biomedicine:'现代医学基础',traditional_tcm_theory:'中医药传统理论',modern_pharmaceutical_science:'现代药学与质量科学',evidence_methodology:'证据评价方法',educational_method_in_tcm_context:'中医药课程的学习与辨析方法',historical_philosophical_framework:'传统哲学与历史理论框架',historical_and_evidence_method:'学术史与证据评价方法',historical_traditional_classification:'历史与传统分类体系',modern_physics:'现代物理学',modern_chemistry:'现代化学',modern_mathematics:'现代数学',modern_biology:'现代生物学',modern_geography:'现代地理学'}[topic.epistemic_status];
       if (context) parts.push(el('p',{class:'muted small',text:'知识语境：' + context}));
     }
     if (subject === 'math' && /^cnm_ps\d+$/.test(topic.id) && topic.exam_scope) {
@@ -474,7 +479,7 @@
         entry.note ? el('p', { class: 'muted', text: '说明：' + entry.note }) : null);
     }) : [el('p', { class: 'muted', text: '没有对应的课标条目。' })];
     if (topic.textbook) {
-      parts.push(el('section', {class:'textbook-source'}, el('h2', {text:'教材依据'}), el('p', {text:Subjects.reference(topic)}), el('a', {href:'../sources.html?subject=' + subject + '#' + topic.textbook.book}, '来源与核对说明'), el('p', {class:'muted',text:'知识摘要与题目为原创整理；先修关系是 AI 提出的学习建议，未经教师审核。'})));
+      parts.push(el('section', {class:'textbook-source'}, el('h2', {text:'教材依据'}), el('p', {text:Subjects.reference(topic)}), el('a', {href:'../sources.html?subject=' + subject + '#' + topic.textbook.book}, '来源与核对说明'), el('p', {class:'muted',text:'知识摘要与题目为原创整理；先修关系是 AI 提出的学习建议，未经教师审核。'}), Subjects.biogeo(subject) ? el('p',{class:'muted small',text:typeof topic.textbook.verification === 'string' ? topic.textbook.verification : '逐册核验范围及尚未取得的材料见来源页。'}) : null));
     } else parts.push(el('section', null, el('h2', { text: '课标条目' }), standardNodes));
 
     if (topic.diagnostic_question && topic.diagnostic_question.question) {
@@ -889,27 +894,37 @@
     if (domain && !seen[domain]) domain = '';
   }
 
-  function readSubject() {
-    var params = new URLSearchParams(location.search);
-    var explicit = params.get('subject');
-    if (Subjects.names[explicit]) return explicit;
-    if (/^uphy_/.test(readHash())) return 'uphysics';
-    if (/^uch_/.test(readHash())) return 'uchemistry';
-    if (/^(med|tcm|herbal)_/.test(readHash())) return readHash().split('_')[0];
-    if (/^cs408_/.test(readHash())) return 'cs408';
-    if (/^cnc_/.test(readHash())) return 'chemistry';
-    if (/^cnp_/.test(readHash())) return 'physics';
-    var hash = readHash();
-    if (/^cne_[A-Za-z0-9]+$/.test(hash)) {
-      params.set('subject', 'english');
-      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
-      return 'english';
-    }
-    return 'math';
+  function fillBookFilters() {
+    if (!Subjects.biogeo(subject)) return;
+    var books = new Map();
+    topics.forEach(function(t){ if (!books.has(t.textbook.book)) books.set(t.textbook.book, Subjects.bookLabel(t)); });
+    var select = $('fBook');
+    select.replaceChildren(el('option',{value:'',text:'全部教材册次'}));
+    books.forEach(function(label,id){ select.append(el('option',{value:id,text:label})); });
+    if (book && !books.has(book)) book = '';
+    var chapters = new Map();
+    topics.forEach(function(t){
+      if (!book || t.textbook.book !== book) return;
+      var c = Subjects.scienceChapter(t), key = c.volume + ' ' + c.chapterNo;
+      if (!chapters.has(key)) chapters.set(key,[t.textbook.unit,t.textbook.chapter].filter(Boolean).join(' · '));
+    });
+    var chapterSelect = $('fChapter');
+    chapterSelect.replaceChildren(el('option',{value:'',text:book ? '全部章节' : '先选教材册次'}));
+    chapters.forEach(function(label,key){ chapterSelect.append(el('option',{value:key,text:label})); });
+    if (chapter && !chapters.has(chapter)) chapter = '';
+    chapterSelect.disabled = !book;
+    select.value = book; chapterSelect.value = chapter;
   }
 
+  function readSubject() { return Subjects.read(); }
+
   function configureSubject() {
-    document.querySelectorAll('.university-legend').forEach(function(e){e.hidden = subject !== 'math' && !Subjects.academic(subject); if (Subjects.academic(subject)) { e.replaceChildren(el('i',{class:'swatch sw-u'}), document.createTextNode(Subjects.names[subject])); } });
+    if (subject === 'tcm') {
+      var family = el('select', {id:'fMember','aria-label':'中医药课程组'}, el('option',{value:'',text:'中医药全部课程'}), el('option',{value:'tcm',text:'中医四门基础课程'}), el('option',{value:'herbal',text:'中药六门核心课程'}));
+      $('fGrade').parentElement.append(family);
+      family.addEventListener('change',function(){member=family.value;grade='';$('fGrade').value='';renderList();highlight(false);});
+    }
+    document.querySelectorAll('.university-legend').forEach(function(e){e.hidden = subject !== 'math' && !Subjects.academic(subject) && !Subjects.mixedScience(subject); if (Subjects.academic(subject)) { e.replaceChildren(el('i',{class:'swatch sw-u'}), document.createTextNode(Subjects.names[subject])); } });
     document.body.classList.toggle('subject-english', subject === 'english');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand, .site-footer a[href="../sources.html"]').forEach(function (link) {
       var href = link.getAttribute('href');
@@ -937,12 +952,14 @@
     }
     if (Subjects.science(subject)) {
       document.title = '知识图谱 · ' + Subjects.names[subject];
-      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function(b){b.hidden = b.dataset.stage !== '' && b.dataset.stage !== 'j' && b.dataset.stage !== 'h';});
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function(b){b.hidden = b.dataset.stage !== '' && b.dataset.stage !== 'j' && b.dataset.stage !== 'h' && !(Subjects.mixedScience(subject) && b.dataset.stage === 'u');});
       var gs = $('fGrade');
-      gs.replaceChildren(el('option',{value:'',text:'全部年级'}));
+      gs.replaceChildren(el('option',{value:'',text:Subjects.mixedScience(subject) ? '全部年级与大学模块' : '全部年级'}));
       Subjects.specs[subject].grades.forEach(function(g){gs.append(el('option',{value:String(g),text:Subjects.scienceGrade(g) + (g >= 10 ? '（建议编排）' : '')}));});
+      Subjects.coursesFor(subject).forEach(function(c){gs.append(el('option',{value:String(c.grade),text:'大学 · ' + c.name}));});
       $('q').placeholder = Subjects.specs[subject].search;
       $('pick-sample').textContent = '先看看「' + Subjects.specs[subject].demoName + '」';
+      if (Subjects.biogeo(subject)) $('book-filter-row').hidden = false;
       return;
     }
     if (subject !== 'english') return;
@@ -977,27 +994,39 @@
   }
 
   function applyQuery() {
-    var params = new URLSearchParams(location.search);
-    if (Subjects.academic(subject)) {
-      var course = Subjects.courseFrom(params.get('module') || params.get('course') || params.get('grade'));
-      grade = course ? String(course.grade) : '';
-      domain = params.get('domain') || '';
-      return;
+    var params = new URLSearchParams(location.search), initial = Subjects.initialScope();
+    member = subject === 'tcm' && ['tcm','herbal'].indexOf(params.get('member')) >= 0 ? params.get('member') : initial.member;
+    if ($('fMember')) $('fMember').value = member;
+    if (Subjects.biogeo(subject)) {
+      chapter = params.get('chapter') || '';
+      book = params.get('volume') || (chapter ? chapter.split(' ')[0] : '');
     }
-    var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'math' ? /^(?:[1-9]|1[0-7])$/ : /^(?:[1-9]|1[0-6])$/;
-    if (gradeOk.test(gradeValue)) grade = gradeValue;
-    if (Subjects.science(subject) && grade && !Subjects.specs[subject].grades.map(String).includes(grade)) grade = '';
-    var stageValue = params.get('stage') || '';
-    if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h' || (subject === 'math' && stageValue === 'u')) stage = stageValue;
-    if (Subjects.science(subject) && stage !== 'j' && stage !== 'h') stage = '';
+    if (Subjects.academic(subject) || Subjects.mixedScience(subject)) chapter = params.get('chapter') || '';
+    var requestedCourse = params.get('module') || params.get('course') || params.get('volume') || params.get('grade') || (chapter ? chapter.split(' ')[0] : '');
+    var course = Subjects.courseFrom(requestedCourse, subject);
+    if (Subjects.mixedScience(subject) && (params.get('module') === 'all' || params.get('course') === 'all')) stage='u';
+    if (course && (Subjects.academic(subject) || Subjects.mixedScience(subject))) {
+      grade = String(course.grade);
+      member = ''; if ($('fMember')) $('fMember').value='';
+      if (Subjects.mixedScience(subject)) stage = 'u';
+    } else if (Subjects.academic(subject)) grade = '';
+    else {
+      var gradeValue = params.get('grade') || '';
+      var valid = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'math' ? /^(?:[1-9]|1[0-7])$/ : /^(?:[7-9]|1[0-2])$/;
+      if (valid.test(gradeValue)) grade = gradeValue;
+      if (Subjects.science(subject) && grade && !Subjects.specs[subject].grades.map(String).includes(grade)) grade = '';
+    }
+    var stageValue = params.get('stage') || initial.stage;
+    if (['p','j','h','u'].indexOf(stageValue) >= 0 && !Subjects.academic(subject)) stage = stageValue;
+    if (Subjects.science(subject) && stage !== 'j' && stage !== 'h' && !(Subjects.mixedScience(subject) && stage === 'u')) stage = '';
+    if (subject === 'english' && stage === 'u') stage = '';
     domain = params.get('domain') || '';
   }
 
   function bootSelection() {
-    var hash = readHash();
+    var hash = readHash() || new URLSearchParams(location.search).get('target');
     if (hash && resolveId(hash)) { select(hash, 'hash'); return; }
-    if (grade) {
+    if (grade || book || chapter) {
       var first = topics.filter(passFilter)[0];
       if (first) { select(first.id, 'user'); return; }
     }
@@ -1015,6 +1044,8 @@
       var button = event.target.closest('[data-stage]');
       if (!button || button.hidden) return;
       stage = button.getAttribute('data-stage');
+      if (!Subjects.biogeo(subject)) chapter='';
+      if (Subjects.biogeo(subject)) { book = ''; chapter = ''; fillBookFilters(); }
       if (subject === 'english') {
         var enGrade = parseInt(grade, 10);
         if (stage === 'p' && enGrade >= 7) grade = '';
@@ -1036,6 +1067,9 @@
     });
     $('fGrade').addEventListener('change', function () {
       grade = $('fGrade').value;
+      if (!Subjects.biogeo(subject)) chapter='';
+      if (grade && member) { member=''; if ($('fMember')) $('fMember').value=''; }
+      if (Subjects.biogeo(subject)) { book = ''; chapter = ''; fillBookFilters(); }
       if (subject === 'english') {
         var enGrade = parseInt(grade, 10);
         if (enGrade >= 3 && enGrade <= 6 && (stage === 'j' || stage === 'h')) stage = 'p';
@@ -1050,7 +1084,7 @@
       if (gradeNumber >= 1 && gradeNumber <= 6 && stage) stage = 'p';
       if (gradeNumber >= 7 && gradeNumber <= 9 && stage) stage = 'j';
       if (gradeNumber >= 10 && gradeNumber <= 14 && stage) stage = 'h';
-      if (subject === 'math' && gradeNumber >= 15 && stage) stage = 'u';
+      if (Subjects.stageKind(gradeNumber, subject) === 'university' && gradeNumber && stage) stage = 'u';
       syncControls();
       renderList();
       highlight(false);
@@ -1060,6 +1094,15 @@
       renderList();
       highlight(false);
     });
+    if (Subjects.biogeo(subject)) {
+      $('fBook').addEventListener('change', function(){
+        book = $('fBook').value; chapter = ''; grade = ''; stage = '';
+        fillBookFilters(); syncControls(); renderList(); highlight(false);
+      });
+      $('fChapter').addEventListener('change', function(){
+        chapter = $('fChapter').value; renderList(); highlight(false);
+      });
+    }
     $('depth-switch').addEventListener('click', function (event) {
       var button = event.target.closest('[data-depth]');
       if (!button) return;
@@ -1184,6 +1227,7 @@
   bind();
   load().then(function () { return loadQuestions(); }).then(function () {
     fillDomain();
+    fillBookFilters();
     syncControls();
     renderList();
     bootSelection();

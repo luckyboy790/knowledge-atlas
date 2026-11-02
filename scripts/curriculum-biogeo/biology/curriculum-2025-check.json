@@ -1,0 +1,119 @@
+{
+  "checked_date": "2026-11-01",
+  "source": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+  "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+  "source_kind": "国家课程标准的学校官网转载缓存正文，不是2026教材",
+  "modules": [
+    {
+      "book": "pep_biology_b1",
+      "read_printed_pages": "12—15",
+      "scope": "本模块内容要求、教学提示、学业要求全部实读",
+      "topic_id_range": [
+        "cnb_073",
+        "cnb_098"
+      ]
+    },
+    {
+      "book": "pep_biology_b2",
+      "read_printed_pages": "16—19",
+      "scope": "本模块内容要求、教学提示、学业要求全部实读",
+      "topic_id_range": [
+        "cnb_099",
+        "cnb_122"
+      ]
+    },
+    {
+      "book": "pep_biology_s1",
+      "read_printed_pages": "20—23",
+      "scope": "本模块内容要求、教学提示、学业要求全部实读",
+      "topic_id_range": [
+        "cnb_123",
+        "cnb_144"
+      ]
+    },
+    {
+      "book": "pep_biology_s2",
+      "read_printed_pages": "24—27",
+      "scope": "本模块内容要求、教学提示、学业要求全部实读",
+      "topic_id_range": [
+        "cnb_145",
+        "cnb_161"
+      ]
+    },
+    {
+      "book": "pep_biology_s3",
+      "read_printed_pages": "27—31",
+      "scope": "本模块内容要求、教学提示、学业要求全部实读",
+      "topic_id_range": [
+        "cnb_162",
+        "cnb_179"
+      ]
+    }
+  ],
+  "emphases": [
+    {
+      "requirement": "光合作用在碳中和中的作用需结合呼吸、分解与长期碳收支",
+      "topic_ids": [
+        "cnb_095",
+        "cnb_155",
+        "cnb_156"
+      ],
+      "status": "已在原创节点描述和掌握标准体现"
+    },
+    {
+      "requirement": "自然保护区与国家公园的保护意义",
+      "topic_ids": [
+        "cnb_160"
+      ],
+      "status": "已在原创节点描述和掌握标准体现"
+    }
+  ],
+  "limitations": [
+    "知识点为核心概念拆分，不代表全部教学活动已实施或评价",
+    "2025课标对照不等于核对2026纸书的新旧完整改动",
+    "缓存文本未下载成PDF，文件SHA不可得"
+  ],
+  "additional_alignment": [
+    {
+      "requirement": "条件反射与非条件反射、pH稳态、植物激素典型作用",
+      "topic_ids": [
+        "cnb_124",
+        "cnb_128",
+        "cnb_129",
+        "cnb_143"
+      ]
+    },
+    {
+      "requirement": "数量、生物量与能量金字塔",
+      "topic_ids": [
+        "cnb_154"
+      ]
+    },
+    {
+      "requirement": "培养基选择、微生物分离与CFU/显微计数口径",
+      "topic_ids": [
+        "cnb_163",
+        "cnb_164"
+      ]
+    },
+    {
+      "requirement": "脱分化再分化、干细胞与单克隆抗体模型",
+      "topic_ids": [
+        "cnb_166",
+        "cnb_168",
+        "cnb_169"
+      ]
+    },
+    {
+      "requirement": "课程标准关于禁止生殖性克隆人的要求",
+      "topic_ids": [
+        "cnb_178"
+      ]
+    }
+  ],
+  "coverage_not_exhaustive": [
+    "不同群落类型及其逐类适应特征尚未详细展开",
+    "全球环境问题覆盖碳收支、资源需求和生物多样性主干，未逐项设立全部专题节点",
+    "实验操作技能和探究项目不能由本图谱客观题替代"
+  ]
+}

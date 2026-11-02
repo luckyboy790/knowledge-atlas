@@ -1,0 +1,583 @@
+[
+  {
+    "topicId": "uphy_mechanics_001",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "把运动量写成位矢的一阶、二阶导数，需要先区分速度、速度变化和加速度的矢量含义。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_005",
+    "prerequisiteId": "cnp_h016",
+    "strength": "soft",
+    "reason": "复习高中合外力与加速度的对应关系，有助于在大学统一使用矢量形式、约束条件和惯性参考系。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_009",
+    "prerequisiteId": "cnp_h061",
+    "strength": "hard",
+    "reason": "把变力冲量写成时间积分时，需要先知道动量是带方向的 mv，末初动量之差不能用速率差替代。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_012",
+    "prerequisiteId": "cnp_h033",
+    "strength": "hard",
+    "reason": "变力功的线积分由沿路径的微小功累加而来，必须先掌握力与位移投影决定功及功的正负。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_014",
+    "prerequisiteId": "cnp_h034",
+    "strength": "soft",
+    "reason": "重力和理想弹簧的势能给出熟悉的实例，帮助理解任意保守力的势能函数、势能零点与力的梯度关系。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_017",
+    "prerequisiteId": "cnp_h024",
+    "strength": "hard",
+    "reason": "刚体各点共用角速度而线速度随半径改变，必须先分清角速度、周期和 v=ωr 中的各量。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_019",
+    "prerequisiteId": "cnp_025",
+    "strength": "soft",
+    "reason": "杠杆的垂直力臂和力的转动效果，可帮助理解定轴力矩及其与角加速度的联系。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_023",
+    "prerequisiteId": "cnp_012",
+    "strength": "hard",
+    "reason": "由流管内的质量守恒得到连续性方程，需要用密度把通过截面的体积流量换成质量流量。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_mechanics_024",
+    "prerequisiteId": "cnp_019",
+    "strength": "soft",
+    "reason": "静止液体中压强随高度变化的规律，有助于理解伯努利方程中的压强项和重力项，并检查静止极限。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_thermodynamics_001",
+    "prerequisiteId": "cnp_h109",
+    "strength": "soft",
+    "reason": "高中固定气量的状态比例关系，为大学显式引入物质的量、粒子数与平衡态提供熟悉的模型背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_thermodynamics_002",
+    "prerequisiteId": "cnp_h062",
+    "strength": "hard",
+    "reason": "用分子碰壁解释气体压强，必须把分子动量改变量与壁面所受冲量、平均作用力联系起来。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_thermodynamics_009",
+    "prerequisiteId": "cnp_h113",
+    "strength": "soft",
+    "reason": "复习高中第一定律有助于识别大学过程积分中的热、功和内能，并避免跨阶段沿用不同的功符号约定。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_thermodynamics_017",
+    "prerequisiteId": "cnp_h115",
+    "strength": "soft",
+    "reason": "高中关于热传递和循环热机方向的限制，帮助理解为什么仅让系统回到初态还不足以称过程可逆。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_001",
+    "prerequisiteId": "cnp_h038",
+    "strength": "hard",
+    "reason": "判断库仑相互作用的吸引或排斥以及分配电荷，必须先识别电荷正负和起电过程中的电荷守恒。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_002",
+    "prerequisiteId": "cnp_h040",
+    "strength": "hard",
+    "reason": "连续带电体的场由电荷微元贡献按矢量叠加，需要先掌握场强的试探电荷定义、方向与源电荷的区分。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_006",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "把静电场力做功写成路径积分并定义电势差，需要先会按带符号电荷联系 W=qU 和单位电荷的能量变化。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_014",
+    "prerequisiteId": "cnp_h047",
+    "strength": "hard",
+    "reason": "从整个截面的 I=Δq/Δt 推广到局部电流密度和连续性方程，必须先区分电荷通过速率、载流子运动与约定电流方向。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_016",
+    "prerequisiteId": "cnp_h048",
+    "strength": "soft",
+    "reason": "高中均匀导线的电阻定律，可用于对照大学局部关系 J=σE 与宏观电阻率、几何尺寸之间的联系。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_017",
+    "prerequisiteId": "cnp_h056",
+    "strength": "soft",
+    "reason": "电流磁效应和直导线的右手关系，可为大学毕奥—萨伐尔积分的方向提供熟悉的检验实例。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_019",
+    "prerequisiteId": "cnp_h057",
+    "strength": "hard",
+    "reason": "把匀强场穿过平面的磁通量推广到有向曲面积分，必须先分清 B 与磁通量及面积法线的作用。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_021",
+    "prerequisiteId": "cnp_h085",
+    "strength": "hard",
+    "reason": "大学把电场力和磁场力写入同一洛伦兹力矢量式，需要先掌握磁力对正负电荷的方向及磁力不做功。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_electromagnetism_026",
+    "prerequisiteId": "cnp_h089",
+    "strength": "soft",
+    "reason": "高中磁通量变化率与感应电动势的关系，为大学带符号的时间导数与有向环路积分提供复习和表示衔接。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_oscillations_waves_001",
+    "prerequisiteId": "cnp_h069",
+    "strength": "hard",
+    "reason": "建立 x 的二阶微分方程，要先能识别指向平衡位置且与位移成正比的回复力，并用牛顿定律联系加速度。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_oscillations_waves_002",
+    "prerequisiteId": "cnp_h068",
+    "strength": "hard",
+    "reason": "用初位移和初速度共同确定振幅、初相位，必须先理解振幅、周期、角频率与相位的含义。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_oscillations_waves_009",
+    "prerequisiteId": "cnp_h074",
+    "strength": "hard",
+    "reason": "理解 kx−ωt 型波函数同时描述空间分布和时间变化，需要先分清波形图、振动图以及波长、频率、传播速度。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_optics_001",
+    "prerequisiteId": "cnp_h078",
+    "strength": "hard",
+    "reason": "在两介质间推算临界角和全反射条件，必须先正确使用折射率、法线角度及折射定律。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_optics_002",
+    "prerequisiteId": "cnp_011",
+    "strength": "soft",
+    "reason": "凸透镜在不同物距下的像性质，可为大学薄透镜带符号方程、放大率和近轴近似提供直观检查。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_optics_003",
+    "prerequisiteId": "cnp_h080",
+    "strength": "soft",
+    "reason": "高中双缝和薄膜的稳定干涉现象，有助于理解大学对相干性、分束获取相干光和偏振条件的进一步分析。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_optics_011",
+    "prerequisiteId": "cnp_h082",
+    "strength": "soft",
+    "reason": "已经认识孔缝衍射及图样随尺寸变化，可帮助区分大学衍射模型中的近场、远场与几何光学近似。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_optics_018",
+    "prerequisiteId": "cnp_h083",
+    "strength": "soft",
+    "reason": "偏振片和横波性质的定性认识，给大学区分线偏振、圆偏振、椭圆偏振与自然光提供实验背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_001",
+    "prerequisiteId": "cnp_h032",
+    "strength": "soft",
+    "reason": "高中对经典时空观适用范围和光速不变的初步认识，有助于进入大学对两个相对论原理的明确表述。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_008",
+    "prerequisiteId": "cnp_h107",
+    "strength": "hard",
+    "reason": "用 T 的四次方和温度倒数解释黑体辐射实验规律，必须先采用热力学绝对温度并正确换算温标。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_009",
+    "prerequisiteId": "cnp_h060",
+    "strength": "soft",
+    "reason": "复习单光子能量与光强的区别，有助于在大学同时处理光子的能量、频率和动量关系。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_013",
+    "prerequisiteId": "cnp_h061",
+    "strength": "hard",
+    "reason": "使用德布罗意关系 λ=h/p 时必须先识别粒子的动量，并取 p 为动量大小，不能把动能、速度、质量或带符号的动量分量直接代入。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_025",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "按核子与原子核质量差计算结合能，必须先明确质子数、中子数、质量数和核素身份。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uphy_modern_026",
+    "prerequisiteId": "cnp_h122",
+    "strength": "soft",
+    "reason": "高中半衰期的统计解释有助于理解大学指数存留规律以及衰变概率和活度的含义。（项目教学建议，非教材官方先修规定）",
+    "subject": "physics"
+  },
+  {
+    "topicId": "uch_structure_001",
+    "prerequisiteId": "cnc_h014",
+    "strength": "soft",
+    "reason": "高中指定温压下的气体摩尔体积，可作为大学理想气体状态方程的特定状态实例，帮助联系 V/n 与温压。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_structure_004",
+    "prerequisiteId": "cnc_h093",
+    "strength": "hard",
+    "reason": "用量子数区分允许的电子空间状态，需要先区分能层、能级、原子轨道及经典运动轨迹。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_structure_012",
+    "prerequisiteId": "cnc_h029",
+    "strength": "hard",
+    "reason": "计算路易斯式中的形式电荷必须先能数价电子、成键电子对和孤电子，并保持粒子总电荷一致。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_structure_020",
+    "prerequisiteId": "cnc_h105",
+    "strength": "hard",
+    "reason": "晶胞共享分摊以晶体的周期重复结构为前提，必须先区分晶体长程有序与外观规则。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_structure_023",
+    "prerequisiteId": "cnc_h111",
+    "strength": "hard",
+    "reason": "比较配位数与配体齿数，需要先识别中心离子、配体、直接配位原子及配合物总电荷。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_thermodynamics_001",
+    "prerequisiteId": "cnc_h063",
+    "strength": "soft",
+    "reason": "高中反应焓及恒压反应热的实例，可帮助理解大学为何区分系统状态变化和热、功的传递途径。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_thermodynamics_006",
+    "prerequisiteId": "cnc_h064",
+    "strength": "hard",
+    "reason": "组合标准反应焓或用生成焓计算时，必须先能同步处理热化学方程式的计量倍数、反向符号与物态。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_thermodynamics_016",
+    "prerequisiteId": "cnc_h071",
+    "strength": "soft",
+    "reason": "高中 Q 与 K 的比较，为大学把反应商改用活度并联系吉布斯能提供熟悉的方向判断背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_thermodynamics_021",
+    "prerequisiteId": "cnc_003",
+    "strength": "soft",
+    "reason": "纯净物与混合物的组成区分，可作为相律中区分组分、物种和相的起点。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_kinetics_001",
+    "prerequisiteId": "cnc_h068",
+    "strength": "soft",
+    "reason": "高中平均浓度速率及计量换算，可帮助理解大学以瞬时导数和带符号计量数统一表示同一反应速率。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_kinetics_009",
+    "prerequisiteId": "cnc_h069",
+    "strength": "hard",
+    "reason": "解释阿伦尼乌斯温度关系中的 E_a，必须先分清活化势垒、有效碰撞和反应初末态能量差。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_kinetics_016",
+    "prerequisiteId": "cnc_h103",
+    "strength": "soft",
+    "reason": "分子间作用及其与物态性质的关系，有助于理解产生新界面为何需要表面自由能。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_solution_001",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "比较各浓度标度及其随温度变化的性质，必须先分清 c=n/V 的分母是溶液总体积，热胀冷缩可改变该体积。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_solution_006",
+    "prerequisiteId": "cnc_h076",
+    "strength": "soft",
+    "reason": "弱电解质在水中部分电离的实例，可帮助把酸碱反应重新看作质子在共轭物种间转移。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_solution_008",
+    "prerequisiteId": "cnc_h079",
+    "strength": "soft",
+    "reason": "高中常用浓度 pH 的定义和中性判断，可为大学细化为氢离子活度及温度相关条件提供复习背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_solution_016",
+    "prerequisiteId": "cnc_h082",
+    "strength": "soft",
+    "reason": "复习高中 K_sp 的计量指数和溶解度区别，有助于理解大学活度形式及其他平衡或非理想性的修正。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_electrochemistry_001",
+    "prerequisiteId": "cnc_h005",
+    "strength": "hard",
+    "reason": "按反应过程而非电极正负号定义阳极、阴极，必须先能用得失电子判断氧化和还原。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_electrochemistry_002",
+    "prerequisiteId": "cnc_h086",
+    "strength": "soft",
+    "reason": "双液电池的电极、盐桥和电子/离子通路提供实物背景，帮助把装置转换为表示相界面的电池图式。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_electrochemistry_010",
+    "prerequisiteId": "cnc_h006",
+    "strength": "hard",
+    "reason": "由电量换算产物量必须先根据半反应保持电子守恒，确定每摩尔产物对应的电子数。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_electrochemistry_012",
+    "prerequisiteId": "cnc_h003",
+    "strength": "soft",
+    "reason": "电解质通过离子迁移导电的认识，为大学电导率测量提供载流粒子的化学背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_electrochemistry_013",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "用 Λ_m=κ/c 比较摩尔电导率时，必须先正确解释物质的量浓度及稀释后 c 的变化。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_001",
+    "prerequisiteId": "cnc_h029",
+    "strength": "hard",
+    "reason": "画均裂、异裂及电子箭头时，必须先识别一根共价键中的电子对、孤电子对与总电荷。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_005",
+    "prerequisiteId": "cnc_h114",
+    "strength": "hard",
+    "reason": "比较连接方式不同的有机结构及其反应类别，需要先能识别碳骨架和常见官能团。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_007",
+    "prerequisiteId": "cnc_h104",
+    "strength": "soft",
+    "reason": "四面体手性碳和镜像不重合的熟悉实例，有助于学习大学更一般的整体手性、对称性和非中心手性。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_010",
+    "prerequisiteId": "cnc_h121",
+    "strength": "soft",
+    "reason": "高中对双键两端各连不同基团的顺反条件认识，可帮助进入大学用 CIP 统一标记 E/Z 的方法。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_020",
+    "prerequisiteId": "cnc_h130",
+    "strength": "hard",
+    "reason": "分析羰基的亲核加成位点和产物，需要先识别醛、酮中的 C=O 结构及其可发生加成的特征。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_022",
+    "prerequisiteId": "cnc_h132",
+    "strength": "hard",
+    "reason": "区分酰基亲核取代和醛酮加成，需要先识别酯、酰胺等羧酸衍生物及其羰基上的连接基团。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_organic_026",
+    "prerequisiteId": "cnc_h145",
+    "strength": "soft",
+    "reason": "双官能团单体逐次反应的缩聚实例，可帮助理解大学按增长机理区分链增长与逐步聚合。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_002",
+    "prerequisiteId": "cnc_h022",
+    "strength": "soft",
+    "reason": "铁盐检验中的试剂空白、溶液本色与反应顺序对照，为分析化学的空白设置和质量控制提供具体实例。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_009",
+    "prerequisiteId": "cnc_h015",
+    "strength": "hard",
+    "reason": "把仪器响应反算为样品浓度，需要先正确解释浓度的定义和单位，使校准斜率对应明确的浓度—响应映射。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_013",
+    "prerequisiteId": "cnc_h013",
+    "strength": "hard",
+    "reason": "判定化学计量点需要把配平方程式系数转为物质的量关系，而不是默认两种试剂的摩尔数相等。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_014",
+    "prerequisiteId": "cnc_h080",
+    "strength": "soft",
+    "reason": "高中滴定等量点、终点和指示剂选择的实例，有助于把大学完整滴定曲线与指示区间联系起来。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_022",
+    "prerequisiteId": "cnc_h095",
+    "strength": "hard",
+    "reason": "区分原子吸收与原子发射测量，必须先把谱线与原子能级间吸收或释放特定能量的光子联系起来。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_023",
+    "prerequisiteId": "cnc_h023",
+    "strength": "soft",
+    "reason": "核素与同位素的认识，有助于解释质谱中由同位素组成造成的峰差及离子电荷与核素身份的区别。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_024",
+    "prerequisiteId": "cnc_h117",
+    "strength": "soft",
+    "reason": "萃取等分离方法中的分配差异，为理解组分在固定相和流动相间作用不同导致保留差异提供背景。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "uch_analysis_027",
+    "prerequisiteId": "cnc_h118",
+    "strength": "soft",
+    "reason": "高中用氢谱区分化学环境的经验，有助于理解大学化学位移、积分与谱图结构分析。（项目教学建议，非教材官方先修规定）",
+    "subject": "chemistry"
+  },
+  {
+    "topicId": "herbal_materia_002",
+    "prerequisiteId": "tcm_diagnostics_014",
+    "reason": "先理解寒热辨证的病性含义，有助于解释四气为何是传统药性分类而非制品温度；不从四气直接推出退热等现代疗效。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_004",
+    "prerequisiteId": "tcm_basics_021",
+    "reason": "气机的升降出入为理解升降浮沉的方向性语言提供背景；两者分别描述人体之气与药物传统作用趋向，不能视为同一物理运动。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_005",
+    "prerequisiteId": "tcm_basics_025",
+    "reason": "先了解经络系统的传统模型及其与解剖网络的区别，有助于理解归经的联系对象，避免将归经当作药物在器官中的浓度分布。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_016",
+    "prerequisiteId": "tcm_basics_021",
+    "reason": "气机的升降出入概念有助于理解理气药中“疏理气机、行气”的传统分类依据，避免把“气”按气体或单一现代生理指标理解。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_020",
+    "prerequisiteId": "tcm_diagnostics_020",
+    "reason": "先区分气血不足与气滞、血瘀等运行失常，有助于理解活血化瘀药的传统分类，避免把活血、补血或现代抗凝作用混为一谈。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_021",
+    "prerequisiteId": "tcm_basics_032",
+    "reason": "痰饮作为传统病理产物的概念有助于理解化痰药的分类语境，避免将中医“痰”仅理解为可见的呼吸道分泌物。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_025",
+    "prerequisiteId": "tcm_diagnostics_019",
+    "reason": "阴虚与阳虚的理论区分有助于理解补虚药中补阴、补阳两个类别，避免把一切虚证或全部补虚药看成同一种不足与同一种作用。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_materia_025",
+    "prerequisiteId": "tcm_diagnostics_020",
+    "reason": "气血辨证中不足与运行失常的区分，有助于理解补气、补血在补虚药中的位置，并与理气、活血等传统分类区分。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "tcm_formulas_002",
+    "prerequisiteId": "herbal_materia_007",
+    "reason": "七情配伍提供药物相互配合与制约的传统关系背景，有助于再理解君臣佐使的方中分工；七情类别与君臣佐使角色不能逐项等同。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "tcm_formulas_007",
+    "prerequisiteId": "herbal_materia_009",
+    "reason": "先比较解表药的辛温、辛凉类别，有助于学习解表剂分类及方中药物的传统作用语境；单味药类别与整方类别、功用不能直接互换。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  },
+  {
+    "topicId": "herbal_pharmaceutics_001",
+    "prerequisiteId": "tcm_formulas_005",
+    "reason": "方剂组成与剂型的区别，为进一步区分剂型、具体制剂和给药途径提供术语基础；这种衔接不证明现代制剂的释放、质量或等效性。（项目课程学习建议）",
+    "strength": "soft",
+    "subject": "tcm"
+  }
+]

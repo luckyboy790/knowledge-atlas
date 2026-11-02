@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "result": "PASS",
+  "html_files": 4,
+  "local_link_targets_checked": 273,
+  "inline_scripts_checked": 2,
+  "application_scripts_checked": 18,
+  "limitations": [
+    "本检查验证本地资源目标与脚本语法，不代替真实浏览器交互和内容审阅。"
+  ]
+}

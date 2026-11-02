@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-02",
+  "reviewer": "/root",
+  "author": "/root/biogeo_geography",
+  "status": "PASS_WITH_SOURCE_LIMITATIONS",
+  "scope": "独立阅读11条新增关系、两端实际节点摘要/掌握要求、理由、强度与限制；未重做原题库全文审核。",
+  "author_edges_file_sha256": "a6e3f69a0cd5a8275843f5538e3343324cb6bdbeef75787a6bec1b3ff139adbf",
+  "edge_reviews": [
+    {
+      "topicId": "herbal_materia_002",
+      "prerequisiteId": "tcm_diagnostics_014",
+      "subject": "tcm",
+      "edge_sha256": "75791e8fb9604d7b229a84d59cd48b404ece0f04dd9682a4a0018a5173edbee1",
+      "topic_sha256": "bb7fe281ec1d10a390b416b7b1bc6cde1c9c7babd05f081384b8b1f63c61a942",
+      "prerequisite_sha256": "258fc08e07de50b14a13c413ca967467d0e110365db8fbff9307420ab0912349",
+      "verdict": "ACCEPTED",
+      "review_comment": "前置区分病性寒热与体温，后续以寒热描述传统药性，确有概念语境衔接；四气定义可独立学习，soft恰当。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_004",
+      "prerequisiteId": "tcm_basics_021",
+      "subject": "tcm",
+      "edge_sha256": "db7dc241322e196e604a17e0afcbaefefb9e7d739356af1240ab248e8baa209d",
+      "topic_sha256": "b8a7f4bcbced243edaa43064cecf5b49dc222612228cf82609d4ba7a66e8f345",
+      "prerequisite_sha256": "87c1bbc3732ee5c9e350801c09feb0532e5cb4006c1634bef63fe657ec04fe1e",
+      "verdict": "ACCEPTED",
+      "review_comment": "气机升降出入可辅助理解药物作用趋向。理由明确两种描述对象不同，不以共有方向词主张物理运动等价，接受soft。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_005",
+      "prerequisiteId": "tcm_basics_025",
+      "subject": "tcm",
+      "edge_sha256": "86f66219ad543eb2e08ee7687f0997dcbe50c09e7605cc1896dbceada37d4495",
+      "topic_sha256": "ee91fc7a83b317f2dfccfceed331f767100a88fe41000e5a910d036a07c7025d",
+      "prerequisite_sha256": "8dc6029daa6a7056c708e1a1dd0e54744512110eb42fada8235b981c39f2cc7c",
+      "verdict": "ACCEPTED",
+      "review_comment": "经络的模型层次能辅助理解归经的联系对象；不要求熟记全部循行，不把归经变为组织分布，方向和soft均接受。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_016",
+      "prerequisiteId": "tcm_basics_021",
+      "subject": "tcm",
+      "edge_sha256": "346c016d747672e54e5c70272e04762258d03b421497dd03d176d731c99c3e34",
+      "topic_sha256": "8c416ae013c9ed05746581a80d9b74d284ae61d45722536dbf9eef3b8d8c7032",
+      "prerequisite_sha256": "87c1bbc3732ee5c9e350801c09feb0532e5cb4006c1634bef63fe657ec04fe1e",
+      "verdict": "ACCEPTED",
+      "review_comment": "理气节点直接使用疏理气机与行气，前置说明该术语；属于类别解释的辅助基础，未把中医之气等同气体或指标。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_020",
+      "prerequisiteId": "tcm_diagnostics_020",
+      "subject": "tcm",
+      "edge_sha256": "84fd80a52f34e33b4102a3dfa5a3c615544d5c206c7d7401c6750fd0f60c78ff",
+      "topic_sha256": "eefb90370a2080b407b95fc17fe73fcc434c1fcc3d5e5071dbfdef4f91f0e05c",
+      "prerequisite_sha256": "53f42d0dfeba711bc73784d54af2ca852bb5f9017f43598873d38a7c11b47bdd",
+      "verdict": "ACCEPTED",
+      "review_comment": "血虚与血瘀的比较有助于区分补血与活血类别；既不推出抗凝机制也不据此选药，soft合理。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_021",
+      "prerequisiteId": "tcm_basics_032",
+      "subject": "tcm",
+      "edge_sha256": "89a8a4a9394acf6981afe3b1f96556725038d5ff61debda1ed4cc440eb079ed1",
+      "topic_sha256": "8f7a0e8b412a55a9d4125efa3cbdea25c8a9e06f461968afc3cfb2de35d4f275",
+      "prerequisite_sha256": "1b43580696f7d6cf0bbaf2c2569f76463f65409c2df3767c6624abea74bb7ca1",
+      "verdict": "ACCEPTED",
+      "review_comment": "两端都明确传统痰饮范围超出可见分泌物；前置病理概念为化痰分类提供背景，适合soft。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_025",
+      "prerequisiteId": "tcm_diagnostics_019",
+      "subject": "tcm",
+      "edge_sha256": "03eae43fd6535be809b5d73d86c924e3f7099c92d5cd2e3e37a674f1adc8f90d",
+      "topic_sha256": "79310d7f4ae7bfd458a3d6194ee3d68557f2b0a603714002c924e08a43e23a63",
+      "prerequisite_sha256": "97b5bbf5223fd3022cfaadeb4f5b2b3e85711973966b2fb6ceeddaa08312e9a2",
+      "verdict": "ACCEPTED",
+      "review_comment": "阴阳虚损为补虚四类中的阴阳两类提供语义对照，不把全部补虚当同种不足；无需先完成临床辨证，soft合适。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_materia_025",
+      "prerequisiteId": "tcm_diagnostics_020",
+      "subject": "tcm",
+      "edge_sha256": "e78ed6f71357329b65abc7990af3649f327079712562a56c8f28a158d73e340f",
+      "topic_sha256": "79310d7f4ae7bfd458a3d6194ee3d68557f2b0a603714002c924e08a43e23a63",
+      "prerequisite_sha256": "53f42d0dfeba711bc73784d54af2ca852bb5f9017f43598873d38a7c11b47bdd",
+      "verdict": "ACCEPTED",
+      "review_comment": "气血不足与运行失常的区分补充另一边的阴阳维度；目标解释不同分类部分，不是重复边，接受soft。",
+      "open_findings": []
+    },
+    {
+      "topicId": "tcm_formulas_002",
+      "prerequisiteId": "herbal_materia_007",
+      "subject": "tcm",
+      "edge_sha256": "0f688a76fd3c4970c4bf3a12a048ff277667a99783faf3e9b0580b1de49d4b23",
+      "topic_sha256": "c09929b26afe28891eeef462ceaa26fa8bff5869a6667a2528e3b5601c9c68f1",
+      "prerequisite_sha256": "f7a0a3d2029cbd1e1990d6c018096f575680bfe193c58cc7686b93549be14e8f",
+      "verdict": "ACCEPTED",
+      "review_comment": "七情讨论药物间关系，君臣佐使讨论整方角色。理由保留层级差异，没有一一对应推导，作为soft辅助衔接接受。",
+      "open_findings": []
+    },
+    {
+      "topicId": "tcm_formulas_007",
+      "prerequisiteId": "herbal_materia_009",
+      "subject": "tcm",
+      "edge_sha256": "28d5bac9f788bb0f5a62153c90c8e6259ec37b298a975e441d5ef7a109d6a1a5",
+      "topic_sha256": "e6831620339f0a4ff8bc36a9e7a896bbf98472524af5e3d2a9d5d873d947753c",
+      "prerequisite_sha256": "c9ac1bd92ba9b1b00825bc0c9a2de8cc1626b67ec087e460aed6ca260edb47e8",
+      "verdict": "ACCEPTED",
+      "review_comment": "单味解表药到解表剂是药到方的层级迁移；辛温辛凉可比较但整方功用不能由单味直接推出，soft及限制合适。",
+      "open_findings": []
+    },
+    {
+      "topicId": "herbal_pharmaceutics_001",
+      "prerequisiteId": "tcm_formulas_005",
+      "subject": "tcm",
+      "edge_sha256": "5ad6003be564f9206c5dc8336a79143ef5b6e0490269d2649a302a4a71182222",
+      "topic_sha256": "9b45f58de42fb97bfe88d7e0a9ab36920138d0509ed8e3dd6108111e3f9db0b4",
+      "prerequisite_sha256": "4a1d267faca5b4984f45e2bbe16f92dc1295ee77a29d596d0c73807cead07711",
+      "verdict": "ACCEPTED",
+      "review_comment": "组成与剂型的初步区分可迁移到剂型/具体制剂/途径三个信息层次；无现代释药或质量证明的错误推断，接受soft。",
+      "open_findings": []
+    }
+  ],
+  "root_read_sources": [
+    "https://jwba.ucas.ac.cn/sc/course/courseplan/307177",
+    "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_21b.htm",
+    "https://gjjk.ahtcm.edu.cn/__local/0/FE/1E/18660A3063DCE10054FD03DB389_A65ADCB0_482A9.pdf",
+    "https://jxjyxb.bucm.edu.cn/ibucm/zhengwen/update/1_79a1.htm"
+  ],
+  "source_scope": "实际读取课程前修/后续关系与药性、配伍、剂型等概念段落；不使用旧大纲的药品清单、处方或工艺参数，不增加2026教材正文已核验的主张。",
+  "limitations": [
+    "节点级关系是项目教学建议，非官方逐点规定。",
+    "全部11条为soft；原引擎仍会在hard之后追查soft并可能做关系推断，非“不参与追查”。",
+    "原有2条soft边形成较长替代路径仍保留，原文件不改。",
+    "未经教师审定。"
+  ]
+}

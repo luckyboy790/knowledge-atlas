@@ -1,0 +1,2036 @@
+[
+  {
+    "topicId": "cnb_003",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "观察细胞之前需能区分观察记录与推测"
+  },
+  {
+    "topicId": "cnb_004",
+    "prerequisiteId": "cnb_003",
+    "strength": "soft",
+    "reason": "细胞结构比较依赖正确的显微观察"
+  },
+  {
+    "topicId": "cnb_005",
+    "prerequisiteId": "cnb_004",
+    "strength": "hard",
+    "reason": "先定位细胞膜才能解释物质交换"
+  },
+  {
+    "topicId": "cnb_006",
+    "prerequisiteId": "cnb_004",
+    "strength": "hard",
+    "reason": "细胞核需放在细胞整体结构中认识"
+  },
+  {
+    "topicId": "cnb_007",
+    "prerequisiteId": "cnb_006",
+    "strength": "hard",
+    "reason": "遗传信息复制分配是理解细胞增殖的基础"
+  },
+  {
+    "topicId": "cnb_008",
+    "prerequisiteId": "cnb_007",
+    "strength": "soft",
+    "reason": "组织形成建立在细胞增殖和分化之上"
+  },
+  {
+    "topicId": "cnb_009",
+    "prerequisiteId": "cnb_005",
+    "strength": "soft",
+    "reason": "单细胞生物通过细胞边界与环境交换物质"
+  },
+  {
+    "topicId": "cnb_009",
+    "prerequisiteId": "cnb_002",
+    "strength": "hard",
+    "reason": "对刺激反应需要对照证据"
+  },
+  {
+    "topicId": "cnb_010",
+    "prerequisiteId": "cnb_008",
+    "strength": "hard",
+    "reason": "不同植物类群的比较需要器官和组织概念"
+  },
+  {
+    "topicId": "cnb_011",
+    "prerequisiteId": "cnb_010",
+    "strength": "soft",
+    "reason": "把种子繁殖与孢子繁殖作比较"
+  },
+  {
+    "topicId": "cnb_012",
+    "prerequisiteId": "cnb_004",
+    "strength": "soft",
+    "reason": "动物类群仍建立在细胞构成的生物体基础上"
+  },
+  {
+    "topicId": "cnb_013",
+    "prerequisiteId": "cnb_012",
+    "strength": "soft",
+    "reason": "比较身体分节特征有助于区分类群"
+  },
+  {
+    "topicId": "cnb_014",
+    "prerequisiteId": "cnb_013",
+    "strength": "soft",
+    "reason": "以有无脊柱区分脊椎和无脊椎动物"
+  },
+  {
+    "topicId": "cnb_015",
+    "prerequisiteId": "cnb_014",
+    "strength": "soft",
+    "reason": "在脊椎动物框架下比较类群特征"
+  },
+  {
+    "topicId": "cnb_016",
+    "prerequisiteId": "cnb_006",
+    "strength": "hard",
+    "reason": "理解成形细胞核与遗传信息并非同一概念"
+  },
+  {
+    "topicId": "cnb_017",
+    "prerequisiteId": "cnb_016",
+    "strength": "soft",
+    "reason": "与原核细菌比较认识真菌真核结构"
+  },
+  {
+    "topicId": "cnb_017",
+    "prerequisiteId": "cnb_004",
+    "strength": "hard",
+    "reason": "理解叶绿体与光合作用细胞的关系"
+  },
+  {
+    "topicId": "cnb_018",
+    "prerequisiteId": "cnb_016",
+    "strength": "soft",
+    "reason": "先区分细胞生物与无细胞结构的病毒"
+  },
+  {
+    "topicId": "cnb_019",
+    "prerequisiteId": "cnb_011",
+    "strength": "soft",
+    "reason": "已有类群比较为分类阶元提供具体例子"
+  },
+  {
+    "topicId": "cnb_019",
+    "prerequisiteId": "cnb_015",
+    "strength": "soft",
+    "reason": "认识共有特征与类群划分"
+  },
+  {
+    "topicId": "cnb_020",
+    "prerequisiteId": "cnb_019",
+    "strength": "hard",
+    "reason": "检索需要明确分类层级和共有特征"
+  },
+  {
+    "topicId": "cnb_021",
+    "prerequisiteId": "cnb_011",
+    "strength": "hard",
+    "reason": "种子植物通过种子延续生命"
+  },
+  {
+    "topicId": "cnb_021",
+    "prerequisiteId": "cnb_007",
+    "strength": "hard",
+    "reason": "萌发需要胚细胞生长和分裂"
+  },
+  {
+    "topicId": "cnb_022",
+    "prerequisiteId": "cnb_021",
+    "strength": "hard",
+    "reason": "先明确萌发的自身与外部条件"
+  },
+  {
+    "topicId": "cnb_022",
+    "prerequisiteId": "cnb_002",
+    "strength": "hard",
+    "reason": "用对照与重复控制无关变量"
+  },
+  {
+    "topicId": "cnb_023",
+    "prerequisiteId": "cnb_005",
+    "strength": "hard",
+    "reason": "根细胞吸收涉及细胞边界的物质交换"
+  },
+  {
+    "topicId": "cnb_024",
+    "prerequisiteId": "cnb_007",
+    "strength": "hard",
+    "reason": "芽发育要用增殖和分化解释"
+  },
+  {
+    "topicId": "cnb_024",
+    "prerequisiteId": "cnb_008",
+    "strength": "soft",
+    "reason": "枝条包含不同器官和组织"
+  },
+  {
+    "topicId": "cnb_025",
+    "prerequisiteId": "cnb_011",
+    "strength": "soft",
+    "reason": "被子植物生殖需联系花与种子"
+  },
+  {
+    "topicId": "cnb_026",
+    "prerequisiteId": "cnb_025",
+    "strength": "hard",
+    "reason": "种子形成通常建立在完成受精之后"
+  },
+  {
+    "topicId": "cnb_027",
+    "prerequisiteId": "cnb_023",
+    "strength": "soft",
+    "reason": "蒸腾与根吸水及向上运输相联系"
+  },
+  {
+    "topicId": "cnb_028",
+    "prerequisiteId": "cnb_004",
+    "strength": "hard",
+    "reason": "认识叶绿体与细胞结构"
+  },
+  {
+    "topicId": "cnb_028",
+    "prerequisiteId": "cnb_002",
+    "strength": "hard",
+    "reason": "理解遮光与未遮光的对照"
+  },
+  {
+    "topicId": "cnb_029",
+    "prerequisiteId": "cnb_021",
+    "strength": "soft",
+    "reason": "萌发需要呼吸提供能量"
+  },
+  {
+    "topicId": "cnb_029",
+    "prerequisiteId": "cnb_028",
+    "strength": "soft",
+    "reason": "比较合成储能和分解释能"
+  },
+  {
+    "topicId": "cnb_030",
+    "prerequisiteId": "cnb_028",
+    "strength": "hard",
+    "reason": "净积累首先取决于光合合成"
+  },
+  {
+    "topicId": "cnb_030",
+    "prerequisiteId": "cnb_029",
+    "strength": "hard",
+    "reason": "还需扣除呼吸消耗"
+  },
+  {
+    "topicId": "cnb_031",
+    "prerequisiteId": "cnb_007",
+    "strength": "soft",
+    "reason": "胚胎发育涉及分裂和分化"
+  },
+  {
+    "topicId": "cnb_032",
+    "prerequisiteId": "cnb_031",
+    "strength": "soft",
+    "reason": "青春期需放在人的发育历程中理解"
+  },
+  {
+    "topicId": "cnb_033",
+    "prerequisiteId": "cnb_008",
+    "strength": "soft",
+    "reason": "营养用于细胞组织与器官的维持"
+  },
+  {
+    "topicId": "cnb_034",
+    "prerequisiteId": "cnb_033",
+    "strength": "hard",
+    "reason": "不同营养物质的消化需求不同"
+  },
+  {
+    "topicId": "cnb_034",
+    "prerequisiteId": "cnb_005",
+    "strength": "hard",
+    "reason": "吸收涉及物质穿过细胞构成的边界"
+  },
+  {
+    "topicId": "cnb_035",
+    "prerequisiteId": "cnb_033",
+    "strength": "hard",
+    "reason": "合理膳食需要辨别各类营养作用"
+  },
+  {
+    "topicId": "cnb_036",
+    "prerequisiteId": "cnb_008",
+    "strength": "soft",
+    "reason": "呼吸系统由不同器官与组织协同组成"
+  },
+  {
+    "topicId": "cnb_037",
+    "prerequisiteId": "cnb_036",
+    "strength": "hard",
+    "reason": "扩散需结合肺泡与毛细血管的相邻结构"
+  },
+  {
+    "topicId": "cnb_037",
+    "prerequisiteId": "cnb_029",
+    "strength": "soft",
+    "reason": "区分通气与细胞内呼吸代谢"
+  },
+  {
+    "topicId": "cnb_038",
+    "prerequisiteId": "cnb_036",
+    "strength": "soft",
+    "reason": "气体交换后需要血液运输氧"
+  },
+  {
+    "topicId": "cnb_039",
+    "prerequisiteId": "cnb_038",
+    "strength": "hard",
+    "reason": "先理解血管流向与血液功能"
+  },
+  {
+    "topicId": "cnb_039",
+    "prerequisiteId": "cnb_037",
+    "strength": "hard",
+    "reason": "肺循环的含氧变化来自气体扩散"
+  },
+  {
+    "topicId": "cnb_040",
+    "prerequisiteId": "cnb_039",
+    "strength": "soft",
+    "reason": "血液将代谢产物送达肾脏"
+  },
+  {
+    "topicId": "cnb_040",
+    "prerequisiteId": "cnb_005",
+    "strength": "hard",
+    "reason": "重吸收涉及细胞对物质的选择性转运"
+  },
+  {
+    "topicId": "cnb_041",
+    "prerequisiteId": "cnb_008",
+    "strength": "soft",
+    "reason": "感觉器官属于由多种组织构成的功能结构"
+  },
+  {
+    "topicId": "cnb_042",
+    "prerequisiteId": "cnb_041",
+    "strength": "soft",
+    "reason": "感受器是感知刺激和启动反射的信息入口"
+  },
+  {
+    "topicId": "cnb_043",
+    "prerequisiteId": "cnb_042",
+    "strength": "hard",
+    "reason": "两类反射均需以相应神经环节为基础"
+  },
+  {
+    "topicId": "cnb_044",
+    "prerequisiteId": "cnb_042",
+    "strength": "hard",
+    "reason": "脑与脊髓的分工需要先理解反射中枢与信息通路"
+  },
+  {
+    "topicId": "cnb_045",
+    "prerequisiteId": "cnb_038",
+    "strength": "hard",
+    "reason": "激素常经血液等体液运输"
+  },
+  {
+    "topicId": "cnb_045",
+    "prerequisiteId": "cnb_042",
+    "strength": "soft",
+    "reason": "与神经调节作机制比较"
+  },
+  {
+    "topicId": "cnb_046",
+    "prerequisiteId": "cnb_018",
+    "strength": "hard",
+    "reason": "先认识病毒等病原体与细胞生物的区别"
+  },
+  {
+    "topicId": "cnb_046",
+    "prerequisiteId": "cnb_016",
+    "strength": "hard",
+    "reason": "细菌只有部分种类具有致病性"
+  },
+  {
+    "topicId": "cnb_047",
+    "prerequisiteId": "cnb_046",
+    "strength": "soft",
+    "reason": "免疫需要区分病原体与其传播过程"
+  },
+  {
+    "topicId": "cnb_048",
+    "prerequisiteId": "cnb_047",
+    "strength": "hard",
+    "reason": "免疫记忆建立在特异性识别和应答基础上"
+  },
+  {
+    "topicId": "cnb_049",
+    "prerequisiteId": "cnb_016",
+    "strength": "hard",
+    "reason": "识别细菌特有结构及其多样作用"
+  },
+  {
+    "topicId": "cnb_049",
+    "prerequisiteId": "cnb_018",
+    "strength": "hard",
+    "reason": "理解病毒与细菌不同"
+  },
+  {
+    "topicId": "cnb_050",
+    "prerequisiteId": "cnb_002",
+    "strength": "hard",
+    "reason": "评价健康证据需区分观察与解释"
+  },
+  {
+    "topicId": "cnb_050",
+    "prerequisiteId": "cnb_035",
+    "strength": "soft",
+    "reason": "营养是健康生活的一部分"
+  },
+  {
+    "topicId": "cnb_051",
+    "prerequisiteId": "cnb_001",
+    "strength": "hard",
+    "reason": "生物生命活动依赖环境中的物质和能量"
+  },
+  {
+    "topicId": "cnb_052",
+    "prerequisiteId": "cnb_051",
+    "strength": "hard",
+    "reason": "生态系统把生物与环境作为相互作用整体"
+  },
+  {
+    "topicId": "cnb_052",
+    "prerequisiteId": "cnb_017",
+    "strength": "soft",
+    "reason": "真菌可具有分解作用"
+  },
+  {
+    "topicId": "cnb_053",
+    "prerequisiteId": "cnb_052",
+    "strength": "hard",
+    "reason": "食物链需要先区分生产者与消费者"
+  },
+  {
+    "topicId": "cnb_054",
+    "prerequisiteId": "cnb_053",
+    "strength": "hard",
+    "reason": "能量和物质沿营养关系传递"
+  },
+  {
+    "topicId": "cnb_054",
+    "prerequisiteId": "cnb_029",
+    "strength": "hard",
+    "reason": "呼吸伴随能量利用与热散失"
+  },
+  {
+    "topicId": "cnb_055",
+    "prerequisiteId": "cnb_054",
+    "strength": "hard",
+    "reason": "系统联系涉及物质和能量交换"
+  },
+  {
+    "topicId": "cnb_055",
+    "prerequisiteId": "cnb_051",
+    "strength": "hard",
+    "reason": "环境变化能影响生物并产生反馈"
+  },
+  {
+    "topicId": "cnb_056",
+    "prerequisiteId": "cnb_055",
+    "strength": "hard",
+    "reason": "生态保护要考虑调节限度"
+  },
+  {
+    "topicId": "cnb_056",
+    "prerequisiteId": "cnb_053",
+    "strength": "hard",
+    "reason": "引种可能改变取食和竞争网络"
+  },
+  {
+    "topicId": "cnb_057",
+    "prerequisiteId": "cnb_025",
+    "strength": "soft",
+    "reason": "与植物受精过程比较生殖方式"
+  },
+  {
+    "topicId": "cnb_057",
+    "prerequisiteId": "cnb_007",
+    "strength": "hard",
+    "reason": "新个体形成依赖细胞增殖分化"
+  },
+  {
+    "topicId": "cnb_058",
+    "prerequisiteId": "cnb_013",
+    "strength": "soft",
+    "reason": "昆虫的发育需联系节肢动物外骨骼与蜕皮"
+  },
+  {
+    "topicId": "cnb_059",
+    "prerequisiteId": "cnb_014",
+    "strength": "hard",
+    "reason": "两栖幼体和成体结构差异提供发育基础"
+  },
+  {
+    "topicId": "cnb_059",
+    "prerequisiteId": "cnb_015",
+    "strength": "soft",
+    "reason": "鸟的生殖特征可联系鸟类结构"
+  },
+  {
+    "topicId": "cnb_059",
+    "prerequisiteId": "cnb_029",
+    "strength": "hard",
+    "reason": "胚胎需要呼吸供能"
+  },
+  {
+    "topicId": "cnb_060",
+    "prerequisiteId": "cnb_006",
+    "strength": "hard",
+    "reason": "性状遗传需联系遗传信息"
+  },
+  {
+    "topicId": "cnb_061",
+    "prerequisiteId": "cnb_006",
+    "strength": "hard",
+    "reason": "主要遗传信息在细胞核中的位置"
+  },
+  {
+    "topicId": "cnb_061",
+    "prerequisiteId": "cnb_060",
+    "strength": "hard",
+    "reason": "基因概念用于解释遗传性状"
+  },
+  {
+    "topicId": "cnb_062",
+    "prerequisiteId": "cnb_061",
+    "strength": "hard",
+    "reason": "基因型需先理解基因作为遗传单位"
+  },
+  {
+    "topicId": "cnb_063",
+    "prerequisiteId": "cnb_062",
+    "strength": "hard",
+    "reason": "先区分基因型与性状表现"
+  },
+  {
+    "topicId": "cnb_064",
+    "prerequisiteId": "cnb_061",
+    "strength": "hard",
+    "reason": "先理解染色体携带遗传信息"
+  },
+  {
+    "topicId": "cnb_064",
+    "prerequisiteId": "cnb_063",
+    "strength": "hard",
+    "reason": "利用等概率配子和随机组合推理"
+  },
+  {
+    "topicId": "cnb_065",
+    "prerequisiteId": "cnb_060",
+    "strength": "hard",
+    "reason": "性状同时受遗传与环境影响"
+  },
+  {
+    "topicId": "cnb_065",
+    "prerequisiteId": "cnb_061",
+    "strength": "hard",
+    "reason": "遗传变异涉及遗传信息或组合改变"
+  },
+  {
+    "topicId": "cnb_066",
+    "prerequisiteId": "cnb_002",
+    "strength": "hard",
+    "reason": "生命起源的模拟研究需要区分证据与外推"
+  },
+  {
+    "topicId": "cnb_067",
+    "prerequisiteId": "cnb_020",
+    "strength": "hard",
+    "reason": "亲缘推断需要多种分类证据"
+  },
+  {
+    "topicId": "cnb_068",
+    "prerequisiteId": "cnb_065",
+    "strength": "hard",
+    "reason": "自然选择作用于差异并需分析其可遗传性"
+  },
+  {
+    "topicId": "cnb_068",
+    "prerequisiteId": "cnb_060",
+    "strength": "hard",
+    "reason": "子代性状与亲代遗传信息相联系"
+  },
+  {
+    "topicId": "cnb_069",
+    "prerequisiteId": "cnb_068",
+    "strength": "hard",
+    "reason": "适应需用选择对遗传差异的作用解释"
+  },
+  {
+    "topicId": "cnb_070",
+    "prerequisiteId": "cnb_065",
+    "strength": "hard",
+    "reason": "同种内部遗传差异构成多样性基础"
+  },
+  {
+    "topicId": "cnb_070",
+    "prerequisiteId": "cnb_052",
+    "strength": "hard",
+    "reason": "不同生态系统构成更高层次多样性"
+  },
+  {
+    "topicId": "cnb_071",
+    "prerequisiteId": "cnb_070",
+    "strength": "hard",
+    "reason": "保护需兼顾遗传物种与生态系统层次"
+  },
+  {
+    "topicId": "cnb_071",
+    "prerequisiteId": "cnb_056",
+    "strength": "hard",
+    "reason": "栖息地保护与生态功能维护相联系"
+  },
+  {
+    "topicId": "cnb_072",
+    "prerequisiteId": "cnb_070",
+    "strength": "hard",
+    "reason": "评价应覆盖不同多样性层次"
+  },
+  {
+    "topicId": "cnb_072",
+    "prerequisiteId": "cnb_071",
+    "strength": "hard",
+    "reason": "保护方法应服务于具体价值和目标"
+  },
+  {
+    "topicId": "cnb_073",
+    "prerequisiteId": "cnb_016",
+    "strength": "soft",
+    "reason": "原核结构比较建立在细菌细胞知识上"
+  },
+  {
+    "topicId": "cnb_073",
+    "prerequisiteId": "cnb_004",
+    "strength": "soft",
+    "reason": "真核细胞结构作为比较对象"
+  },
+  {
+    "topicId": "cnb_074",
+    "prerequisiteId": "cnb_073",
+    "strength": "soft",
+    "reason": "不同细胞具有共同物质基础"
+  },
+  {
+    "topicId": "cnb_075",
+    "prerequisiteId": "cnb_074",
+    "strength": "hard",
+    "reason": "水和无机盐属于细胞物质组成"
+  },
+  {
+    "topicId": "cnb_076",
+    "prerequisiteId": "cnb_074",
+    "strength": "hard",
+    "reason": "先区分有机化合物种类"
+  },
+  {
+    "topicId": "cnb_077",
+    "prerequisiteId": "cnb_074",
+    "strength": "hard",
+    "reason": "蛋白质是由含氮等元素的有机分子构成"
+  },
+  {
+    "topicId": "cnb_078",
+    "prerequisiteId": "cnb_061",
+    "strength": "soft",
+    "reason": "基因与DNA关系提供核酸功能背景"
+  },
+  {
+    "topicId": "cnb_078",
+    "prerequisiteId": "cnb_074",
+    "strength": "hard",
+    "reason": "区分分子的基本组成单位"
+  },
+  {
+    "topicId": "cnb_079",
+    "prerequisiteId": "cnb_076",
+    "strength": "hard",
+    "reason": "磷脂是膜的基本构成"
+  },
+  {
+    "topicId": "cnb_079",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "膜蛋白功能受结构影响"
+  },
+  {
+    "topicId": "cnb_079",
+    "prerequisiteId": "cnb_005",
+    "strength": "soft",
+    "reason": "将初中膜功能深化到结构模型"
+  },
+  {
+    "topicId": "cnb_080",
+    "prerequisiteId": "cnb_073",
+    "strength": "hard",
+    "reason": "先区分细胞类型与特殊细胞"
+  },
+  {
+    "topicId": "cnb_080",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "核糖体功能联系蛋白质合成"
+  },
+  {
+    "topicId": "cnb_081",
+    "prerequisiteId": "cnb_080",
+    "strength": "hard",
+    "reason": "分泌途径建立在细胞器分工上"
+  },
+  {
+    "topicId": "cnb_081",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "囊泡运输依赖膜结构特性"
+  },
+  {
+    "topicId": "cnb_082",
+    "prerequisiteId": "cnb_078",
+    "strength": "hard",
+    "reason": "核酸承担信息功能"
+  },
+  {
+    "topicId": "cnb_082",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "染色质也含蛋白质"
+  },
+  {
+    "topicId": "cnb_082",
+    "prerequisiteId": "cnb_080",
+    "strength": "hard",
+    "reason": "核与核糖体等共同完成生命活动"
+  },
+  {
+    "topicId": "cnb_083",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "渗透分析需明确膜的选择透过性"
+  },
+  {
+    "topicId": "cnb_083",
+    "prerequisiteId": "cnb_075",
+    "strength": "hard",
+    "reason": "水与溶质状态影响细胞物质交换"
+  },
+  {
+    "topicId": "cnb_084",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "跨膜运输依赖膜及转运蛋白结构"
+  },
+  {
+    "topicId": "cnb_084",
+    "prerequisiteId": "cnb_083",
+    "strength": "soft",
+    "reason": "与水的跨膜净移动作比较"
+  },
+  {
+    "topicId": "cnb_085",
+    "prerequisiteId": "cnb_084",
+    "strength": "hard",
+    "reason": "需要与顺梯度被动运输相区分"
+  },
+  {
+    "topicId": "cnb_085",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "转运蛋白提供特定运输机制"
+  },
+  {
+    "topicId": "cnb_086",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "胞吞吐需要膜流动与融合特性"
+  },
+  {
+    "topicId": "cnb_086",
+    "prerequisiteId": "cnb_081",
+    "strength": "soft",
+    "reason": "分泌囊泡提供胞吐实例"
+  },
+  {
+    "topicId": "cnb_087",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "多数酶结构功能与蛋白质有关"
+  },
+  {
+    "topicId": "cnb_087",
+    "prerequisiteId": "cnb_078",
+    "strength": "hard",
+    "reason": "少数RNA也有催化作用"
+  },
+  {
+    "topicId": "cnb_088",
+    "prerequisiteId": "cnb_087",
+    "strength": "hard",
+    "reason": "酶催化和失活需结合结构功能"
+  },
+  {
+    "topicId": "cnb_088",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "对照设计用于分离目标因素"
+  },
+  {
+    "topicId": "cnb_089",
+    "prerequisiteId": "cnb_087",
+    "strength": "hard",
+    "reason": "ATP转化由相应酶催化"
+  },
+  {
+    "topicId": "cnb_089",
+    "prerequisiteId": "cnb_029",
+    "strength": "soft",
+    "reason": "代谢释放能量可参与ATP再生"
+  },
+  {
+    "topicId": "cnb_090",
+    "prerequisiteId": "cnb_089",
+    "strength": "hard",
+    "reason": "有氧呼吸能量转换需联系ATP"
+  },
+  {
+    "topicId": "cnb_090",
+    "prerequisiteId": "cnb_080",
+    "strength": "hard",
+    "reason": "有氧呼吸场所需认识线粒体与细胞质"
+  },
+  {
+    "topicId": "cnb_091",
+    "prerequisiteId": "cnb_090",
+    "strength": "hard",
+    "reason": "通过对比完全与不完全氧化认识能量收益"
+  },
+  {
+    "topicId": "cnb_091",
+    "prerequisiteId": "cnb_017",
+    "strength": "soft",
+    "reason": "酵母菌提供发酵实例"
+  },
+  {
+    "topicId": "cnb_092",
+    "prerequisiteId": "cnb_090",
+    "strength": "hard",
+    "reason": "需掌握葡萄糖有氧分解的物质关系"
+  },
+  {
+    "topicId": "cnb_092",
+    "prerequisiteId": "cnb_091",
+    "strength": "hard",
+    "reason": "需排除其他产二氧化碳过程"
+  },
+  {
+    "topicId": "cnb_092",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "数据推断需限定实验条件"
+  },
+  {
+    "topicId": "cnb_093",
+    "prerequisiteId": "cnb_080",
+    "strength": "hard",
+    "reason": "叶绿体结构是光合过程场所"
+  },
+  {
+    "topicId": "cnb_093",
+    "prerequisiteId": "cnb_028",
+    "strength": "soft",
+    "reason": "将初中光合作用深化到细胞器内部"
+  },
+  {
+    "topicId": "cnb_094",
+    "prerequisiteId": "cnb_093",
+    "strength": "hard",
+    "reason": "光反应依赖色素和类囊体膜"
+  },
+  {
+    "topicId": "cnb_094",
+    "prerequisiteId": "cnb_089",
+    "strength": "hard",
+    "reason": "ATP用于反应能量耦联"
+  },
+  {
+    "topicId": "cnb_095",
+    "prerequisiteId": "cnb_094",
+    "strength": "hard",
+    "reason": "总光合过程需理解光反应和碳固定联系"
+  },
+  {
+    "topicId": "cnb_095",
+    "prerequisiteId": "cnb_092",
+    "strength": "hard",
+    "reason": "净交换要扣除同范围的呼吸影响"
+  },
+  {
+    "topicId": "cnb_095",
+    "prerequisiteId": "cnb_030",
+    "strength": "soft",
+    "reason": "从初中合成消耗差额过渡到速率模型"
+  },
+  {
+    "topicId": "cnb_096",
+    "prerequisiteId": "cnb_082",
+    "strength": "hard",
+    "reason": "需明确染色质和染色体携带DNA"
+  },
+  {
+    "topicId": "cnb_096",
+    "prerequisiteId": "cnb_007",
+    "strength": "soft",
+    "reason": "从细胞数增加深化到周期机制"
+  },
+  {
+    "topicId": "cnb_097",
+    "prerequisiteId": "cnb_096",
+    "strength": "soft",
+    "reason": "再生涉及细胞增殖但不要求先会完整周期计数"
+  },
+  {
+    "topicId": "cnb_097",
+    "prerequisiteId": "cnb_082",
+    "strength": "hard",
+    "reason": "分化需联系信息表达"
+  },
+  {
+    "topicId": "cnb_098",
+    "prerequisiteId": "cnb_097",
+    "strength": "soft",
+    "reason": "不同细胞类型具有不同状态和功能，可作为理解更新的背景"
+  },
+  {
+    "topicId": "cnb_098",
+    "prerequisiteId": "cnb_096",
+    "strength": "soft",
+    "reason": "细胞更新与增殖协调，但不以周期计数为必要前提"
+  },
+  {
+    "topicId": "cnb_099",
+    "prerequisiteId": "cnb_063",
+    "strength": "soft",
+    "reason": "由初中配子组合概率深化到遗传定律"
+  },
+  {
+    "topicId": "cnb_099",
+    "prerequisiteId": "cnb_062",
+    "strength": "soft",
+    "reason": "表型比例需理解显隐性条件"
+  },
+  {
+    "topicId": "cnb_100",
+    "prerequisiteId": "cnb_099",
+    "strength": "hard",
+    "reason": "测交依据配子形成时等位基因分离"
+  },
+  {
+    "topicId": "cnb_101",
+    "prerequisiteId": "cnb_099",
+    "strength": "hard",
+    "reason": "每一对基因的分离是双基因分析基础"
+  },
+  {
+    "topicId": "cnb_101",
+    "prerequisiteId": "cnb_061",
+    "strength": "soft",
+    "reason": "独立性需联系基因所在染色体"
+  },
+  {
+    "topicId": "cnb_102",
+    "prerequisiteId": "cnb_101",
+    "strength": "hard",
+    "reason": "联合概率需要明确不同基因的独立性"
+  },
+  {
+    "topicId": "cnb_102",
+    "prerequisiteId": "cnb_100",
+    "strength": "hard",
+    "reason": "基因型与可见表型之间需要推断"
+  },
+  {
+    "topicId": "cnb_103",
+    "prerequisiteId": "cnb_096",
+    "strength": "hard",
+    "reason": "需明确复制与着丝粒计数规则"
+  },
+  {
+    "topicId": "cnb_103",
+    "prerequisiteId": "cnb_061",
+    "strength": "soft",
+    "reason": "同源染色体是遗传信息载体"
+  },
+  {
+    "topicId": "cnb_104",
+    "prerequisiteId": "cnb_103",
+    "strength": "hard",
+    "reason": "第二次分裂在同源染色体已分离的基础上进行"
+  },
+  {
+    "topicId": "cnb_105",
+    "prerequisiteId": "cnb_103",
+    "strength": "hard",
+    "reason": "染色体行为提供定位推理依据"
+  },
+  {
+    "topicId": "cnb_105",
+    "prerequisiteId": "cnb_099",
+    "strength": "soft",
+    "reason": "基因分离规律与染色体行为相互对应"
+  },
+  {
+    "topicId": "cnb_106",
+    "prerequisiteId": "cnb_105",
+    "strength": "hard",
+    "reason": "伴性遗传取决于基因所在染色体"
+  },
+  {
+    "topicId": "cnb_106",
+    "prerequisiteId": "cnb_102",
+    "strength": "hard",
+    "reason": "需要区分条件与总体样本空间"
+  },
+  {
+    "topicId": "cnb_106",
+    "prerequisiteId": "cnb_064",
+    "strength": "soft",
+    "reason": "需先理解X和Y的亲本来源"
+  },
+  {
+    "topicId": "cnb_107",
+    "prerequisiteId": "cnb_078",
+    "strength": "hard",
+    "reason": "需区分DNA和RNA"
+  },
+  {
+    "topicId": "cnb_107",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "实验结论需要选择性处理和对照"
+  },
+  {
+    "topicId": "cnb_108",
+    "prerequisiteId": "cnb_078",
+    "strength": "hard",
+    "reason": "DNA由脱氧核苷酸组成"
+  },
+  {
+    "topicId": "cnb_109",
+    "prerequisiteId": "cnb_108",
+    "strength": "hard",
+    "reason": "复制依赖碱基互补配对"
+  },
+  {
+    "topicId": "cnb_109",
+    "prerequisiteId": "cnb_096",
+    "strength": "soft",
+    "reason": "可与周期计数作对比，但半保留复制不以周期计数为必要前提"
+  },
+  {
+    "topicId": "cnb_110",
+    "prerequisiteId": "cnb_107",
+    "strength": "hard",
+    "reason": "不同生物遗传物质的证据边界"
+  },
+  {
+    "topicId": "cnb_110",
+    "prerequisiteId": "cnb_078",
+    "strength": "hard",
+    "reason": "需区别DNA和RNA"
+  },
+  {
+    "topicId": "cnb_111",
+    "prerequisiteId": "cnb_108",
+    "strength": "hard",
+    "reason": "转录需利用互补和链方向"
+  },
+  {
+    "topicId": "cnb_111",
+    "prerequisiteId": "cnb_110",
+    "strength": "hard",
+    "reason": "转录作用于相应遗传功能区域"
+  },
+  {
+    "topicId": "cnb_112",
+    "prerequisiteId": "cnb_111",
+    "strength": "hard",
+    "reason": "mRNA由转录形成"
+  },
+  {
+    "topicId": "cnb_112",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "多肽由氨基酸按序连接"
+  },
+  {
+    "topicId": "cnb_113",
+    "prerequisiteId": "cnb_111",
+    "strength": "hard",
+    "reason": "需要掌握DNA到RNA路径"
+  },
+  {
+    "topicId": "cnb_113",
+    "prerequisiteId": "cnb_112",
+    "strength": "hard",
+    "reason": "需要掌握RNA到蛋白质路径"
+  },
+  {
+    "topicId": "cnb_113",
+    "prerequisiteId": "cnb_109",
+    "strength": "hard",
+    "reason": "复制是信息自我传递路径"
+  },
+  {
+    "topicId": "cnb_114",
+    "prerequisiteId": "cnb_112",
+    "strength": "hard",
+    "reason": "蛋白质是基因影响性状的重要途径"
+  },
+  {
+    "topicId": "cnb_114",
+    "prerequisiteId": "cnb_097",
+    "strength": "hard",
+    "reason": "分化体现选择性表达"
+  },
+  {
+    "topicId": "cnb_114",
+    "prerequisiteId": "cnb_065",
+    "strength": "soft",
+    "reason": "需区分表型变化和遗传信息改变"
+  },
+  {
+    "topicId": "cnb_115",
+    "prerequisiteId": "cnb_114",
+    "strength": "hard",
+    "reason": "表观调控涉及基因表达而非仅序列"
+  },
+  {
+    "topicId": "cnb_115",
+    "prerequisiteId": "cnb_108",
+    "strength": "hard",
+    "reason": "区分碱基序列与附加调控标记"
+  },
+  {
+    "topicId": "cnb_116",
+    "prerequisiteId": "cnb_108",
+    "strength": "hard",
+    "reason": "突变涉及DNA序列变化"
+  },
+  {
+    "topicId": "cnb_116",
+    "prerequisiteId": "cnb_103",
+    "strength": "hard",
+    "reason": "重组可与减数分裂中的染色体行为联系"
+  },
+  {
+    "topicId": "cnb_116",
+    "prerequisiteId": "cnb_068",
+    "strength": "soft",
+    "reason": "变异形成与环境选择不是同一过程"
+  },
+  {
+    "topicId": "cnb_117",
+    "prerequisiteId": "cnb_116",
+    "strength": "hard",
+    "reason": "需要区分序列突变重组与更大尺度结构变化"
+  },
+  {
+    "topicId": "cnb_117",
+    "prerequisiteId": "cnb_103",
+    "strength": "hard",
+    "reason": "同源染色体交换提供比较框架"
+  },
+  {
+    "topicId": "cnb_118",
+    "prerequisiteId": "cnb_104",
+    "strength": "hard",
+    "reason": "染色体组数需联系配子形成和受精"
+  },
+  {
+    "topicId": "cnb_118",
+    "prerequisiteId": "cnb_117",
+    "strength": "soft",
+    "reason": "结构与数目变异可作比较，但前者不构成数目概念的必要前提"
+  },
+  {
+    "topicId": "cnb_119",
+    "prerequisiteId": "cnb_062",
+    "strength": "soft",
+    "reason": "携带状态与表型需结合显隐性"
+  },
+  {
+    "topicId": "cnb_119",
+    "prerequisiteId": "cnb_118",
+    "strength": "hard",
+    "reason": "部分遗传异常涉及染色体数目"
+  },
+  {
+    "topicId": "cnb_119",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "群体调查需关注取样偏差"
+  },
+  {
+    "topicId": "cnb_120",
+    "prerequisiteId": "cnb_067",
+    "strength": "soft",
+    "reason": "共同祖先证据可由初中扩展至分子层次"
+  },
+  {
+    "topicId": "cnb_120",
+    "prerequisiteId": "cnb_068",
+    "strength": "soft",
+    "reason": "协同进化需理解相互选择"
+  },
+  {
+    "topicId": "cnb_121",
+    "prerequisiteId": "cnb_102",
+    "strength": "soft",
+    "reason": "可对比基因型概率与等位基因计数，但频率计数不依赖双基因杂交计算"
+  },
+  {
+    "topicId": "cnb_121",
+    "prerequisiteId": "cnb_116",
+    "strength": "hard",
+    "reason": "遗传变化可提供频率改变来源"
+  },
+  {
+    "topicId": "cnb_122",
+    "prerequisiteId": "cnb_121",
+    "strength": "hard",
+    "reason": "物种形成需在种群遗传变化基础上理解"
+  },
+  {
+    "topicId": "cnb_122",
+    "prerequisiteId": "cnb_068",
+    "strength": "soft",
+    "reason": "选择可推动遗传差异累积"
+  },
+  {
+    "topicId": "cnb_122",
+    "prerequisiteId": "cnb_120",
+    "strength": "soft",
+    "reason": "共同祖先与协同进化可作为比较背景，不是生殖隔离定义的必要前提"
+  },
+  {
+    "topicId": "cnb_123",
+    "prerequisiteId": "cnb_038",
+    "strength": "soft",
+    "reason": "初中血液和毛细血管知识为区分血浆与组织液提供背景"
+  },
+  {
+    "topicId": "cnb_123",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "内外液的界定需要以细胞膜作为边界"
+  },
+  {
+    "topicId": "cnb_124",
+    "prerequisiteId": "cnb_123",
+    "strength": "hard",
+    "reason": "稳态需要明确被调节的是内环境组成和理化性质"
+  },
+  {
+    "topicId": "cnb_125",
+    "prerequisiteId": "cnb_044",
+    "strength": "soft",
+    "reason": "初中脑与脊髓分工可作为系统分类背景"
+  },
+  {
+    "topicId": "cnb_125",
+    "prerequisiteId": "cnb_124",
+    "strength": "soft",
+    "reason": "神经系统参与稳态的总体调节"
+  },
+  {
+    "topicId": "cnb_126",
+    "prerequisiteId": "cnb_084",
+    "strength": "hard",
+    "reason": "电位变化需要理解通道和电化学梯度"
+  },
+  {
+    "topicId": "cnb_126",
+    "prerequisiteId": "cnb_085",
+    "strength": "hard",
+    "reason": "离子梯度的长期维持涉及能量耦联"
+  },
+  {
+    "topicId": "cnb_127",
+    "prerequisiteId": "cnb_126",
+    "strength": "hard",
+    "reason": "突触效应需联系后膜电活动"
+  },
+  {
+    "topicId": "cnb_127",
+    "prerequisiteId": "cnb_086",
+    "strength": "hard",
+    "reason": "递质释放涉及囊泡与膜的作用"
+  },
+  {
+    "topicId": "cnb_128",
+    "prerequisiteId": "cnb_125",
+    "strength": "hard",
+    "reason": "分级调节需区分脑脊髓与外周通路"
+  },
+  {
+    "topicId": "cnb_128",
+    "prerequisiteId": "cnb_127",
+    "strength": "soft",
+    "reason": "突触机制可深化反射中枢联系，但反射弧可先于该细节理解"
+  },
+  {
+    "topicId": "cnb_128",
+    "prerequisiteId": "cnb_042",
+    "strength": "soft",
+    "reason": "初中反射弧提供结构背景"
+  },
+  {
+    "topicId": "cnb_129",
+    "prerequisiteId": "cnb_127",
+    "strength": "hard",
+    "reason": "理解记忆可塑性需要认识神经元间传递"
+  },
+  {
+    "topicId": "cnb_129",
+    "prerequisiteId": "cnb_125",
+    "strength": "soft",
+    "reason": "高级活动需联系脑结构分工"
+  },
+  {
+    "topicId": "cnb_130",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "激素识别涉及受体与细胞信息交流"
+  },
+  {
+    "topicId": "cnb_130",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "因果证据需要对照和结论边界"
+  },
+  {
+    "topicId": "cnb_130",
+    "prerequisiteId": "cnb_045",
+    "strength": "soft",
+    "reason": "初中激素概念提供信号调节背景"
+  },
+  {
+    "topicId": "cnb_131",
+    "prerequisiteId": "cnb_130",
+    "strength": "hard",
+    "reason": "需理解激素信号与靶组织作用"
+  },
+  {
+    "topicId": "cnb_131",
+    "prerequisiteId": "cnb_124",
+    "strength": "hard",
+    "reason": "血糖变化应按反馈模型解释"
+  },
+  {
+    "topicId": "cnb_131",
+    "prerequisiteId": "cnb_076",
+    "strength": "hard",
+    "reason": "糖原储存与葡萄糖利用需有物质基础"
+  },
+  {
+    "topicId": "cnb_132",
+    "prerequisiteId": "cnb_130",
+    "strength": "hard",
+    "reason": "分级联系由不同激素信号构成"
+  },
+  {
+    "topicId": "cnb_132",
+    "prerequisiteId": "cnb_124",
+    "strength": "hard",
+    "reason": "需区分负反馈与单向促进"
+  },
+  {
+    "topicId": "cnb_133",
+    "prerequisiteId": "cnb_125",
+    "strength": "hard",
+    "reason": "协同分析需分清神经系统路径"
+  },
+  {
+    "topicId": "cnb_133",
+    "prerequisiteId": "cnb_130",
+    "strength": "hard",
+    "reason": "还需识别经体液传送的信号"
+  },
+  {
+    "topicId": "cnb_134",
+    "prerequisiteId": "cnb_133",
+    "strength": "hard",
+    "reason": "体温调节整合神经与体液作用"
+  },
+  {
+    "topicId": "cnb_134",
+    "prerequisiteId": "cnb_124",
+    "strength": "hard",
+    "reason": "需用偏离与补偿解释相对稳定"
+  },
+  {
+    "topicId": "cnb_135",
+    "prerequisiteId": "cnb_083",
+    "strength": "hard",
+    "reason": "水重吸收与渗透条件有关"
+  },
+  {
+    "topicId": "cnb_135",
+    "prerequisiteId": "cnb_130",
+    "strength": "hard",
+    "reason": "需区分合成释放和靶器官作用"
+  },
+  {
+    "topicId": "cnb_135",
+    "prerequisiteId": "cnb_040",
+    "strength": "soft",
+    "reason": "初中滤过重吸收知识提供过程背景"
+  },
+  {
+    "topicId": "cnb_136",
+    "prerequisiteId": "cnb_047",
+    "strength": "soft",
+    "reason": "初中防线与特异性概念提供背景"
+  },
+  {
+    "topicId": "cnb_136",
+    "prerequisiteId": "cnb_124",
+    "strength": "soft",
+    "reason": "免疫作用需放在维持内部稳定的背景理解"
+  },
+  {
+    "topicId": "cnb_137",
+    "prerequisiteId": "cnb_136",
+    "strength": "hard",
+    "reason": "需区分免疫细胞与抗体分子"
+  },
+  {
+    "topicId": "cnb_137",
+    "prerequisiteId": "cnb_097",
+    "strength": "hard",
+    "reason": "效应细胞和记忆细胞形成涉及增殖分化"
+  },
+  {
+    "topicId": "cnb_137",
+    "prerequisiteId": "cnb_048",
+    "strength": "soft",
+    "reason": "初中免疫记忆概念可作背景"
+  },
+  {
+    "topicId": "cnb_138",
+    "prerequisiteId": "cnb_136",
+    "strength": "hard",
+    "reason": "细胞免疫需明确免疫细胞类型"
+  },
+  {
+    "topicId": "cnb_138",
+    "prerequisiteId": "cnb_137",
+    "strength": "soft",
+    "reason": "比较体液免疫有助于理解两类效应的分工"
+  },
+  {
+    "topicId": "cnb_139",
+    "prerequisiteId": "cnb_137",
+    "strength": "hard",
+    "reason": "需理解特异性识别和反应"
+  },
+  {
+    "topicId": "cnb_139",
+    "prerequisiteId": "cnb_138",
+    "strength": "hard",
+    "reason": "免疫效应对细胞的作用可能有保护或损伤后果"
+  },
+  {
+    "topicId": "cnb_140",
+    "prerequisiteId": "cnb_137",
+    "strength": "hard",
+    "reason": "主动与被动免疫的区别需要免疫记忆概念"
+  },
+  {
+    "topicId": "cnb_140",
+    "prerequisiteId": "cnb_138",
+    "strength": "hard",
+    "reason": "移植识别涉及细胞免疫效应"
+  },
+  {
+    "topicId": "cnb_140",
+    "prerequisiteId": "cnb_139",
+    "strength": "soft",
+    "reason": "免疫异常提供应用背景，但不是理解主动被动免疫的必要前提"
+  },
+  {
+    "topicId": "cnb_141",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "实验解释需明确处理变量与可支持的结论"
+  },
+  {
+    "topicId": "cnb_141",
+    "prerequisiteId": "cnb_024",
+    "strength": "soft",
+    "reason": "芽和伸长部位知识提供植物结构背景"
+  },
+  {
+    "topicId": "cnb_142",
+    "prerequisiteId": "cnb_141",
+    "strength": "soft",
+    "reason": "发现史有助于理解生长调节信号，但不必先于剂量响应"
+  },
+  {
+    "topicId": "cnb_142",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "促进与抑制需用对照作基准"
+  },
+  {
+    "topicId": "cnb_143",
+    "prerequisiteId": "cnb_142",
+    "strength": "hard",
+    "reason": "需认识浓度和器官差异"
+  },
+  {
+    "topicId": "cnb_143",
+    "prerequisiteId": "cnb_130",
+    "strength": "soft",
+    "reason": "动物激素的受体响应可作比较背景，不是植物激素分类的必要先修"
+  },
+  {
+    "topicId": "cnb_144",
+    "prerequisiteId": "cnb_142",
+    "strength": "hard",
+    "reason": "定向生长分析需要器官敏感性和剂量响应"
+  },
+  {
+    "topicId": "cnb_144",
+    "prerequisiteId": "cnb_093",
+    "strength": "soft",
+    "reason": "对照光的能量作用与信号作用"
+  },
+  {
+    "topicId": "cnb_145",
+    "prerequisiteId": "cnb_051",
+    "strength": "soft",
+    "reason": "种群需放在特定环境范围理解"
+  },
+  {
+    "topicId": "cnb_146",
+    "prerequisiteId": "cnb_145",
+    "strength": "hard",
+    "reason": "调查方法旨在估计密度或数量"
+  },
+  {
+    "topicId": "cnb_146",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "取样需要控制偏差并承认估计条件"
+  },
+  {
+    "topicId": "cnb_147",
+    "prerequisiteId": "cnb_145",
+    "strength": "hard",
+    "reason": "增长模型描述数量随时间变化"
+  },
+  {
+    "topicId": "cnb_148",
+    "prerequisiteId": "cnb_147",
+    "strength": "soft",
+    "reason": "增长模型有助于认识K，但容量概念可先于完整模型理解"
+  },
+  {
+    "topicId": "cnb_148",
+    "prerequisiteId": "cnb_051",
+    "strength": "soft",
+    "reason": "环境因子影响种群维持"
+  },
+  {
+    "topicId": "cnb_149",
+    "prerequisiteId": "cnb_051",
+    "strength": "soft",
+    "reason": "初中生物与环境相互作用提供背景"
+  },
+  {
+    "topicId": "cnb_149",
+    "prerequisiteId": "cnb_145",
+    "strength": "soft",
+    "reason": "数量变化数据需区分种群和物种"
+  },
+  {
+    "topicId": "cnb_150",
+    "prerequisiteId": "cnb_149",
+    "strength": "soft",
+    "reason": "种间关系有助于解释生态位，但不必先于空间结构和资源利用"
+  },
+  {
+    "topicId": "cnb_150",
+    "prerequisiteId": "cnb_145",
+    "strength": "hard",
+    "reason": "群落由不同种群组成"
+  },
+  {
+    "topicId": "cnb_151",
+    "prerequisiteId": "cnb_150",
+    "strength": "hard",
+    "reason": "演替关注群落组成结构的时间变化"
+  },
+  {
+    "topicId": "cnb_151",
+    "prerequisiteId": "cnb_051",
+    "strength": "soft",
+    "reason": "环境条件影响演替方向"
+  },
+  {
+    "topicId": "cnb_152",
+    "prerequisiteId": "cnb_150",
+    "strength": "hard",
+    "reason": "生态系统包含群落与环境"
+  },
+  {
+    "topicId": "cnb_152",
+    "prerequisiteId": "cnb_053",
+    "strength": "soft",
+    "reason": "初中食物网为营养结构提供背景"
+  },
+  {
+    "topicId": "cnb_153",
+    "prerequisiteId": "cnb_152",
+    "strength": "hard",
+    "reason": "能量收支需先明确营养角色"
+  },
+  {
+    "topicId": "cnb_153",
+    "prerequisiteId": "cnb_090",
+    "strength": "soft",
+    "reason": "呼吸能量释放提供背景，宏观收支不必先掌握各阶段场所"
+  },
+  {
+    "topicId": "cnb_154",
+    "prerequisiteId": "cnb_153",
+    "strength": "hard",
+    "reason": "传递效率需统一同化量口径"
+  },
+  {
+    "topicId": "cnb_154",
+    "prerequisiteId": "cnb_152",
+    "strength": "hard",
+    "reason": "食物链决定物质和能量传递路径"
+  },
+  {
+    "topicId": "cnb_155",
+    "prerequisiteId": "cnb_094",
+    "strength": "soft",
+    "reason": "细胞碳固定机制可深化宏观循环，但不必先掌握全部反应细节"
+  },
+  {
+    "topicId": "cnb_155",
+    "prerequisiteId": "cnb_090",
+    "strength": "soft",
+    "reason": "有氧呼吸机制可深化碳返回环境，但非理解宏观通量的必要前提"
+  },
+  {
+    "topicId": "cnb_155",
+    "prerequisiteId": "cnb_152",
+    "strength": "hard",
+    "reason": "分解者及环境属于碳循环系统"
+  },
+  {
+    "topicId": "cnb_156",
+    "prerequisiteId": "cnb_155",
+    "strength": "hard",
+    "reason": "净收支需要识别不同碳通量"
+  },
+  {
+    "topicId": "cnb_156",
+    "prerequisiteId": "cnb_095",
+    "strength": "hard",
+    "reason": "需区分总固定和扣除消耗后的净值"
+  },
+  {
+    "topicId": "cnb_156",
+    "prerequisiteId": "cnb_153",
+    "strength": "soft",
+    "reason": "能量收支可作比较背景，但净碳质量收支不要求先会该项计算"
+  },
+  {
+    "topicId": "cnb_157",
+    "prerequisiteId": "cnb_149",
+    "strength": "hard",
+    "reason": "信息可影响物种间相互作用"
+  },
+  {
+    "topicId": "cnb_157",
+    "prerequisiteId": "cnb_152",
+    "strength": "soft",
+    "reason": "与营养结构联系作比较"
+  },
+  {
+    "topicId": "cnb_158",
+    "prerequisiteId": "cnb_152",
+    "strength": "hard",
+    "reason": "稳定性指向系统结构和功能"
+  },
+  {
+    "topicId": "cnb_158",
+    "prerequisiteId": "cnb_149",
+    "strength": "hard",
+    "reason": "生物间联系参与系统调节"
+  },
+  {
+    "topicId": "cnb_158",
+    "prerequisiteId": "cnb_124",
+    "strength": "soft",
+    "reason": "负反馈思想可跨层次比较但对象不同"
+  },
+  {
+    "topicId": "cnb_159",
+    "prerequisiteId": "cnb_145",
+    "strength": "soft",
+    "reason": "种群数量可帮助比较总量与人均指标，但足迹不以完整种群动态为先修"
+  },
+  {
+    "topicId": "cnb_159",
+    "prerequisiteId": "cnb_156",
+    "strength": "soft",
+    "reason": "生态评价需明确核算边界"
+  },
+  {
+    "topicId": "cnb_160",
+    "prerequisiteId": "cnb_150",
+    "strength": "hard",
+    "reason": "保护需考虑资源利用与群落联系"
+  },
+  {
+    "topicId": "cnb_160",
+    "prerequisiteId": "cnb_122",
+    "strength": "hard",
+    "reason": "种群分隔与基因交流具有长期遗传意义"
+  },
+  {
+    "topicId": "cnb_160",
+    "prerequisiteId": "cnb_071",
+    "strength": "soft",
+    "reason": "初中就地迁地概念提供保护方式背景"
+  },
+  {
+    "topicId": "cnb_161",
+    "prerequisiteId": "cnb_152",
+    "strength": "hard",
+    "reason": "整体设计需识别系统各功能成分"
+  },
+  {
+    "topicId": "cnb_161",
+    "prerequisiteId": "cnb_155",
+    "strength": "hard",
+    "reason": "物质可经不同途径循环"
+  },
+  {
+    "topicId": "cnb_161",
+    "prerequisiteId": "cnb_158",
+    "strength": "hard",
+    "reason": "工程结果需评价长期结构功能和调节能力"
+  },
+  {
+    "topicId": "cnb_162",
+    "prerequisiteId": "cnb_091",
+    "strength": "hard",
+    "reason": "传统发酵需理解不彻底分解及其产物"
+  },
+  {
+    "topicId": "cnb_162",
+    "prerequisiteId": "cnb_016",
+    "strength": "soft",
+    "reason": "乳酸菌与醋酸菌属于细菌背景"
+  },
+  {
+    "topicId": "cnb_162",
+    "prerequisiteId": "cnb_017",
+    "strength": "soft",
+    "reason": "酵母是真菌而非细菌"
+  },
+  {
+    "topicId": "cnb_163",
+    "prerequisiteId": "cnb_016",
+    "strength": "soft",
+    "reason": "微生物生长需结合细胞代谢认识"
+  },
+  {
+    "topicId": "cnb_163",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "对照用于区分目标来源和污染"
+  },
+  {
+    "topicId": "cnb_164",
+    "prerequisiteId": "cnb_163",
+    "strength": "hard",
+    "reason": "分离计数需先排除污染并满足适宜培养条件"
+  },
+  {
+    "topicId": "cnb_164",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "数量估计需要清楚的测量口径"
+  },
+  {
+    "topicId": "cnb_165",
+    "prerequisiteId": "cnb_162",
+    "strength": "hard",
+    "reason": "需认识不同微生物代谢与产物"
+  },
+  {
+    "topicId": "cnb_165",
+    "prerequisiteId": "cnb_163",
+    "strength": "hard",
+    "reason": "过程控制需兼顾适宜条件与污染控制"
+  },
+  {
+    "topicId": "cnb_166",
+    "prerequisiteId": "cnb_097",
+    "strength": "hard",
+    "reason": "组织培养需区分细胞增殖与完整个体再生"
+  },
+  {
+    "topicId": "cnb_166",
+    "prerequisiteId": "cnb_114",
+    "strength": "hard",
+    "reason": "分化依赖选择性表达"
+  },
+  {
+    "topicId": "cnb_166",
+    "prerequisiteId": "cnb_163",
+    "strength": "hard",
+    "reason": "离体培养需适宜环境与污染控制"
+  },
+  {
+    "topicId": "cnb_167",
+    "prerequisiteId": "cnb_166",
+    "strength": "hard",
+    "reason": "获得完整杂种植株还需再生能力"
+  },
+  {
+    "topicId": "cnb_167",
+    "prerequisiteId": "cnb_079",
+    "strength": "hard",
+    "reason": "原生质体融合涉及生物膜"
+  },
+  {
+    "topicId": "cnb_167",
+    "prerequisiteId": "cnb_118",
+    "strength": "soft",
+    "reason": "可将融合后的染色体组合与倍性概念联系"
+  },
+  {
+    "topicId": "cnb_168",
+    "prerequisiteId": "cnb_096",
+    "strength": "soft",
+    "reason": "细胞周期提供增殖背景，但原代传代不以完整分裂计数为前提"
+  },
+  {
+    "topicId": "cnb_168",
+    "prerequisiteId": "cnb_097",
+    "strength": "hard",
+    "reason": "需区分细胞增殖与完整个体再生"
+  },
+  {
+    "topicId": "cnb_168",
+    "prerequisiteId": "cnb_163",
+    "strength": "hard",
+    "reason": "体外维持需控制营养环境与污染"
+  },
+  {
+    "topicId": "cnb_169",
+    "prerequisiteId": "cnb_137",
+    "strength": "hard",
+    "reason": "需理解B细胞与抗体特异性"
+  },
+  {
+    "topicId": "cnb_169",
+    "prerequisiteId": "cnb_168",
+    "strength": "hard",
+    "reason": "杂交细胞增殖依赖细胞培养"
+  },
+  {
+    "topicId": "cnb_169",
+    "prerequisiteId": "cnb_079",
+    "strength": "soft",
+    "reason": "细胞融合与膜的性质有关"
+  },
+  {
+    "topicId": "cnb_170",
+    "prerequisiteId": "cnb_104",
+    "strength": "hard",
+    "reason": "需理解精卵结合和亲本遗传来源"
+  },
+  {
+    "topicId": "cnb_170",
+    "prerequisiteId": "cnb_114",
+    "strength": "hard",
+    "reason": "相近基因型仍可有环境与表达差异"
+  },
+  {
+    "topicId": "cnb_170",
+    "prerequisiteId": "cnb_031",
+    "strength": "soft",
+    "reason": "胚胎发育与母体环境提供背景"
+  },
+  {
+    "topicId": "cnb_171",
+    "prerequisiteId": "cnb_082",
+    "strength": "hard",
+    "reason": "需理解细胞核承载主要遗传信息"
+  },
+  {
+    "topicId": "cnb_171",
+    "prerequisiteId": "cnb_080",
+    "strength": "hard",
+    "reason": "线粒体与细胞质成分有独立来源"
+  },
+  {
+    "topicId": "cnb_171",
+    "prerequisiteId": "cnb_114",
+    "strength": "hard",
+    "reason": "相同核基因不保证完全相同表型"
+  },
+  {
+    "topicId": "cnb_172",
+    "prerequisiteId": "cnb_108",
+    "strength": "hard",
+    "reason": "工具酶作用必须以DNA骨架与碱基配对结构为基础"
+  },
+  {
+    "topicId": "cnb_172",
+    "prerequisiteId": "cnb_087",
+    "strength": "hard",
+    "reason": "酶催化具有相应作用对象"
+  },
+  {
+    "topicId": "cnb_173",
+    "prerequisiteId": "cnb_172",
+    "strength": "hard",
+    "reason": "重组DNA构建涉及切割与连接"
+  },
+  {
+    "topicId": "cnb_173",
+    "prerequisiteId": "cnb_111",
+    "strength": "hard",
+    "reason": "表达元件首先影响转录"
+  },
+  {
+    "topicId": "cnb_173",
+    "prerequisiteId": "cnb_110",
+    "strength": "hard",
+    "reason": "需明确目标基因的功能片段含义"
+  },
+  {
+    "topicId": "cnb_174",
+    "prerequisiteId": "cnb_109",
+    "strength": "hard",
+    "reason": "PCR利用模板复制与碱基配对原理"
+  },
+  {
+    "topicId": "cnb_174",
+    "prerequisiteId": "cnb_087",
+    "strength": "hard",
+    "reason": "延伸依赖相应酶催化"
+  },
+  {
+    "topicId": "cnb_175",
+    "prerequisiteId": "cnb_173",
+    "strength": "hard",
+    "reason": "需理解载体与目标基因各自作用"
+  },
+  {
+    "topicId": "cnb_175",
+    "prerequisiteId": "cnb_174",
+    "strength": "soft",
+    "reason": "PCR是DNA检测方法之一，区分证据层次不以扩增计算为前提"
+  },
+  {
+    "topicId": "cnb_175",
+    "prerequisiteId": "cnb_112",
+    "strength": "hard",
+    "reason": "蛋白质形成仍需表达过程"
+  },
+  {
+    "topicId": "cnb_175",
+    "prerequisiteId": "cnb_002",
+    "strength": "soft",
+    "reason": "功能归因依赖恰当对照"
+  },
+  {
+    "topicId": "cnb_176",
+    "prerequisiteId": "cnb_077",
+    "strength": "hard",
+    "reason": "蛋白质结构与功能是设计基础"
+  },
+  {
+    "topicId": "cnb_176",
+    "prerequisiteId": "cnb_114",
+    "strength": "hard",
+    "reason": "基因通过表达产物影响性状"
+  },
+  {
+    "topicId": "cnb_176",
+    "prerequisiteId": "cnb_175",
+    "strength": "hard",
+    "reason": "设计结果需多层验证"
+  },
+  {
+    "topicId": "cnb_177",
+    "prerequisiteId": "cnb_175",
+    "strength": "soft",
+    "reason": "工程流程提供证据背景，但具体安全评价不以掌握完整流程为必要先修"
+  },
+  {
+    "topicId": "cnb_177",
+    "prerequisiteId": "cnb_122",
+    "strength": "hard",
+    "reason": "基因流受繁殖与隔离条件影响"
+  },
+  {
+    "topicId": "cnb_177",
+    "prerequisiteId": "cnb_160",
+    "strength": "soft",
+    "reason": "生态后果需考虑多样性与种间联系"
+  },
+  {
+    "topicId": "cnb_178",
+    "prerequisiteId": "cnb_171",
+    "strength": "soft",
+    "reason": "核移植提供机制背景，但生殖性目标与伦理不要求先会全部遗传来源细节"
+  },
+  {
+    "topicId": "cnb_178",
+    "prerequisiteId": "cnb_170",
+    "strength": "soft",
+    "reason": "不同胚胎技术目的与证据边界需区分"
+  },
+  {
+    "topicId": "cnb_179",
+    "prerequisiteId": "cnb_177",
+    "strength": "soft",
+    "reason": "转基因评价是情境案例，生物安全一般原则不以掌握该产品类别为必要先修"
+  },
+  {
+    "topicId": "cnb_179",
+    "prerequisiteId": "cnb_149",
+    "strength": "hard",
+    "reason": "扩散后果涉及种间关系"
+  },
+  {
+    "topicId": "cnb_179",
+    "prerequisiteId": "cnb_158",
+    "strength": "hard",
+    "reason": "生态风险需考虑系统响应和限度"
+  }
+]

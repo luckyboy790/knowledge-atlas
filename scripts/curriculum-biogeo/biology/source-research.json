@@ -1,0 +1,673 @@
+{
+  "checked_date": "2026-11-01",
+  "scope": "中国大陆人教版初中四册、高中必修及选择性必修五册",
+  "version_boundary": "初中采用2022课标修订六单元新编体系；八下2026新编已确认。官方2026春秋通报还确认七上、七下与高中五册有2026教材目录更新。已记录更新事实，但未取得更新后各册完整目录、正文与版权页；公开较早目录仅作章级定位参考，不能视为已逐项核验2026更新内容。高中五模块已对照2025日常修订课程标准正文（学校官网转载的可读缓存文本）；这不等于已读2026教材全文，也不自动证明纸书新版版次。",
+  "books": [
+    {
+      "id": "pep_biology_j7u",
+      "title": "义务教育教科书 生物学 七年级上册",
+      "volume": "七年级上册",
+      "publisher": "人民教育出版社",
+      "grade": 7,
+      "semester": "上",
+      "curriculum_level": "义务教育",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": "2024年教育部审定目录列入七至八年级四册",
+      "curriculum_basis": "义务教育生物学课程标准（2022年版）",
+      "printing": null,
+      "isbn": null,
+      "version_note": "2022课标修订的新编六单元体系；2024起逐册投入使用。八下2026年新编由2026年3月官方教材更新通报确认。 官方2026-08-24通报第16项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/t20240914_1995532.html",
+      "evidence_pdf_url": "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+      "verification": "已实读出版社新教材介绍、六单元22章框架图及编写者论文的册次分配；本图谱主题为原创知识细分，不冒充原书小节。未取得各册现行印次完整正文。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。",
+      "evidence_level": "官方编写说明与章级框架",
+      "read_scope": [
+        "出版社2024年新教材介绍全文及框架图",
+        "编写者论文PDF第2—3页的单元内容、册次安排；论文其余相关教材特点",
+        "已实读2026-08-24地方教育局教材目录更新通报第16项，未提供具体改动目录"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/W020240914365982129156.jpg",
+        "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8912139.html",
+        "https://www.pep.com.cn/rjdt/mtbd/202603/t20260304_2005510.shtml",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-08-24",
+        "notice_item": 16,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html"
+    },
+    {
+      "id": "pep_biology_j7l",
+      "title": "义务教育教科书 生物学 七年级下册",
+      "volume": "七年级下册",
+      "publisher": "人民教育出版社",
+      "grade": 7,
+      "semester": "下",
+      "curriculum_level": "义务教育",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": "2024年教育部审定目录列入七至八年级四册",
+      "curriculum_basis": "义务教育生物学课程标准（2022年版）",
+      "printing": null,
+      "isbn": null,
+      "version_note": "2022课标修订的新编六单元体系；2024起逐册投入使用。八下2026年新编由2026年3月官方教材更新通报确认。 官方2026-02-27通报第44项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/t20240914_1995532.html",
+      "evidence_pdf_url": "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+      "verification": "已实读出版社新教材介绍、六单元22章框架图及编写者论文的册次分配；本图谱主题为原创知识细分，不冒充原书小节。未取得各册现行印次完整正文。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。",
+      "evidence_level": "官方编写说明与章级框架",
+      "read_scope": [
+        "出版社2024年新教材介绍全文及框架图",
+        "编写者论文PDF第2—3页的单元内容、册次安排；论文其余相关教材特点",
+        "已实读2026-02-27地方教育局教材目录更新通报第44项，未提供具体改动目录"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/W020240914365982129156.jpg",
+        "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8912139.html",
+        "https://www.pep.com.cn/rjdt/mtbd/202603/t20260304_2005510.shtml",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-02-27",
+        "notice_item": 44,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html"
+    },
+    {
+      "id": "pep_biology_j8u",
+      "title": "义务教育教科书 生物学 八年级上册",
+      "volume": "八年级上册",
+      "publisher": "人民教育出版社",
+      "grade": 8,
+      "semester": "上",
+      "curriculum_level": "义务教育",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": "2024年教育部审定目录列入七至八年级四册",
+      "curriculum_basis": "义务教育生物学课程标准（2022年版）",
+      "printing": null,
+      "isbn": null,
+      "version_note": "2022课标修订的新编六单元体系；2024起逐册投入使用。八下2026年新编由2026年3月官方教材更新通报确认。 出版社2026年介绍确认八上新编教材自2025年秋使用；本次未找到另列2026目录更新的证据。",
+      "source_url": "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/t20240914_1995532.html",
+      "evidence_pdf_url": "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+      "verification": "已实读出版社新教材介绍、六单元22章框架图及编写者论文的册次分配；本图谱主题为原创知识细分，不冒充原书小节。未取得各册现行印次完整正文。",
+      "evidence_level": "官方编写说明与章级框架",
+      "read_scope": [
+        "出版社2024年新教材介绍全文及框架图",
+        "编写者论文PDF第2—3页的单元内容、册次安排；论文其余相关教材特点"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/W020240914365982129156.jpg",
+        "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8912139.html",
+        "https://www.pep.com.cn/rjdt/mtbd/202603/t20260304_2005510.shtml"
+      ],
+      "limitations": [
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ]
+    },
+    {
+      "id": "pep_biology_j8l",
+      "title": "义务教育教科书 生物学 八年级下册",
+      "volume": "八年级下册",
+      "publisher": "人民教育出版社",
+      "grade": 8,
+      "semester": "下",
+      "curriculum_level": "义务教育",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": "2024年教育部审定目录列入七至八年级四册",
+      "curriculum_basis": "义务教育生物学课程标准（2022年版）",
+      "printing": null,
+      "isbn": null,
+      "version_note": "2022课标修订的新编六单元体系；2024起逐册投入使用。八下2026年新编由2026年3月官方教材更新通报确认。",
+      "source_url": "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/t20240914_1995532.html",
+      "evidence_pdf_url": "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+      "verification": "已实读出版社新教材介绍、六单元22章框架图及编写者论文的册次分配；本图谱主题为原创知识细分，不冒充原书小节。未取得各册现行印次完整正文。",
+      "evidence_level": "官方编写说明与章级框架",
+      "read_scope": [
+        "出版社2024年新教材介绍全文及框架图",
+        "编写者论文PDF第2—3页的单元内容、册次安排；论文其余相关教材特点"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/cz/202409/W020240914365982129156.jpg",
+        "https://www.pep.com.cn/bks/kcjcjf/xszh/202503/W020250407382131634362.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8912139.html",
+        "https://www.pep.com.cn/rjdt/mtbd/202603/t20260304_2005510.shtml"
+      ],
+      "limitations": [
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年新编",
+        "notice_date": "2026-03-05",
+        "notice_item": 63,
+        "meaning": "新编投入使用已确认，完整版权页与逐节内容未取得"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8912139.html"
+    },
+    {
+      "id": "pep_biology_b1",
+      "title": "普通高中教科书 生物学 必修1 分子与细胞",
+      "volume": "必修1 分子与细胞",
+      "publisher": "人民教育出版社",
+      "grade": 10,
+      "semester": "上",
+      "curriculum_level": "必修",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": null,
+      "curriculum_basis": "普通高中生物学课程标准日常修订版（2017年版2025年修订）；已读对应模块正文并参考2020修订版作前后核对",
+      "printing": null,
+      "isbn": null,
+      "version_note": "五册必修/选择性必修体系；未将2025课程标准日常修订视为纸质教材新版。未取得能排除后续局部改动的2026版权页。 官方2026-08-24通报第21项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+      "evidence_pdf_url": "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+      "verification": "已实读出版社公开培训资料中的本册完整目录截图及官方课程标准对应模块正文；未取得2026在用印次全册正文，图谱主题为原创细分。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。 已实读2025日常修订课程标准本模块正文（印刷第12—15页，学校官网转载缓存）；课程标准校核不代替2026教材正文校核。",
+      "evidence_level": "官方培训资料完整目录与课程标准正文",
+      "read_scope": [
+        "出版社2019教材介绍图页1—9（原册67—75页）",
+        "2021公开培训PDF第19—20页新教材目录",
+        "官方2020修订课程标准PDF第20—24页（印刷11—15页）",
+        "已实读2026-08-24地方教育局教材目录更新通报第21项，未提供具体改动目录",
+        "2025日常修订课程标准印刷第12—15页：本模块内容要求、教学提示与学业要求，另读封面目录；学校官网转载附件的可读缓存文本"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/ebook/rjs11gzjksjssw/",
+        "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202506/W020250625697282575780.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+        "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-08-24",
+        "notice_item": 21,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+      "curriculum_current_evidence": {
+        "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+        "document_authority": "教育部国家课程标准；并以人教社2026培训消息交叉核对版本名称",
+        "repost_publisher": "木里藏族自治县中学",
+        "repost_date": "2025-11-10",
+        "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "read_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+        "read_printed_pages": "12—15",
+        "access": "发布页附件已核；旧域PDF网页缓存全文可读，直接下载404，新域附件403；未取得本地文件",
+        "local_sha256": null,
+        "limitation": "学校转载的课程标准，不是人民教育出版社2026教材正文"
+      },
+      "chapter_title_variants": [
+        {
+          "chapter": 4,
+          "display": "细胞的物质输入和输出",
+          "variant": "细胞的物质输入与输出",
+          "evidence": "2021培训目录与2023教育部课程目录分别出现和/与差异；保留别名，不推断2026目录已核。"
+        },
+        {
+          "chapter": 5,
+          "display": "细胞的能量供应和利用",
+          "variant": "细胞的能量供应与利用",
+          "evidence": "2021培训目录与2023教育部课程目录分别出现和/与差异；保留别名，不推断2026目录已核。"
+        }
+      ]
+    },
+    {
+      "id": "pep_biology_b2",
+      "title": "普通高中教科书 生物学 必修2 遗传与进化",
+      "volume": "必修2 遗传与进化",
+      "publisher": "人民教育出版社",
+      "grade": 10,
+      "semester": "下",
+      "curriculum_level": "必修",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": null,
+      "curriculum_basis": "普通高中生物学课程标准日常修订版（2017年版2025年修订）；已读对应模块正文并参考2020修订版作前后核对",
+      "printing": null,
+      "isbn": null,
+      "version_note": "五册必修/选择性必修体系；未将2025课程标准日常修订视为纸质教材新版。未取得能排除后续局部改动的2026版权页。 官方2026-02-27通报第42项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+      "evidence_pdf_url": "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+      "verification": "已实读出版社公开培训资料中的本册完整目录截图及官方课程标准对应模块正文；未取得2026在用印次全册正文，图谱主题为原创细分。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。 已实读2025日常修订课程标准本模块正文（印刷第16—19页，学校官网转载缓存）；课程标准校核不代替2026教材正文校核。",
+      "evidence_level": "官方培训资料完整目录与课程标准正文",
+      "read_scope": [
+        "出版社2019教材介绍图页1—9（原册67—75页）",
+        "2021公开培训PDF第57—59页新教材目录",
+        "官方2020修订课程标准PDF第24—28页（印刷15—19页）",
+        "已实读2026-02-27地方教育局教材目录更新通报第42项，未提供具体改动目录",
+        "2025日常修订课程标准印刷第16—19页：本模块内容要求、教学提示与学业要求，另读封面目录；学校官网转载附件的可读缓存文本"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/ebook/rjs11gzjksjssw/",
+        "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202506/W020250625697282575780.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html",
+        "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-02-27",
+        "notice_item": 42,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html",
+      "curriculum_current_evidence": {
+        "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+        "document_authority": "教育部国家课程标准；并以人教社2026培训消息交叉核对版本名称",
+        "repost_publisher": "木里藏族自治县中学",
+        "repost_date": "2025-11-10",
+        "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "read_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+        "read_printed_pages": "16—19",
+        "access": "发布页附件已核；旧域PDF网页缓存全文可读，直接下载404，新域附件403；未取得本地文件",
+        "local_sha256": null,
+        "limitation": "学校转载的课程标准，不是人民教育出版社2026教材正文"
+      }
+    },
+    {
+      "id": "pep_biology_s1",
+      "title": "普通高中教科书 生物学 选择性必修1 稳态与调节",
+      "volume": "选择性必修1 稳态与调节",
+      "publisher": "人民教育出版社",
+      "grade": 11,
+      "semester": "上",
+      "curriculum_level": "选择性必修",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": null,
+      "curriculum_basis": "普通高中生物学课程标准日常修订版（2017年版2025年修订）；已读对应模块正文并参考2020修订版作前后核对",
+      "printing": null,
+      "isbn": null,
+      "version_note": "五册必修/选择性必修体系；未将2025课程标准日常修订视为纸质教材新版。未取得能排除后续局部改动的2026版权页。 官方2026-08-24通报第22项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+      "evidence_pdf_url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+      "verification": "已实读出版社五册教材介绍、官方课程标准对应模块正文及教育部精品课目录中的本册章名；未取得本册现行印次完整目录与正文，图谱主题为原创细分。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。 已实读2025日常修订课程标准本模块正文（印刷第20—23页，学校官网转载缓存）；课程标准校核不代替2026教材正文校核。",
+      "evidence_level": "官方书目、教育部章名索引与课程标准正文",
+      "read_scope": [
+        "出版社2019教材介绍图页1—9（原册67—75页）",
+        "教育部2023公布精品课清单PDF第44页：第1、2、5章；2024公布清单检索原文：第3、4章",
+        "官方2020修订课程标准PDF第28—32页（印刷19—23页）",
+        "已实读2026-08-24地方教育局教材目录更新通报第22项，未提供具体改动目录",
+        "2025日常修订课程标准印刷第20—23页：本模块内容要求、教学提示与学业要求，另读封面目录；学校官网转载附件的可读缓存文本"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/ebook/rjs11gzjksjssw/",
+        "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202506/W020250625697282575780.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+        "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-08-24",
+        "notice_item": 22,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+      "curriculum_current_evidence": {
+        "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+        "document_authority": "教育部国家课程标准；并以人教社2026培训消息交叉核对版本名称",
+        "repost_publisher": "木里藏族自治县中学",
+        "repost_date": "2025-11-10",
+        "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "read_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+        "read_printed_pages": "20—23",
+        "access": "发布页附件已核；旧域PDF网页缓存全文可读，直接下载404，新域附件403；未取得本地文件",
+        "local_sha256": null,
+        "limitation": "学校转载的课程标准，不是人民教育出版社2026教材正文"
+      }
+    },
+    {
+      "id": "pep_biology_s2",
+      "title": "普通高中教科书 生物学 选择性必修2 生物与环境",
+      "volume": "选择性必修2 生物与环境",
+      "publisher": "人民教育出版社",
+      "grade": 11,
+      "semester": "下",
+      "curriculum_level": "选择性必修",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": null,
+      "curriculum_basis": "普通高中生物学课程标准日常修订版（2017年版2025年修订）；已读对应模块正文并参考2020修订版作前后核对",
+      "printing": null,
+      "isbn": null,
+      "version_note": "五册必修/选择性必修体系；未将2025课程标准日常修订视为纸质教材新版。未取得能排除后续局部改动的2026版权页。 官方2026-08-24通报第23项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+      "evidence_pdf_url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+      "verification": "已实读出版社五册教材介绍、官方课程标准对应模块正文及教育部精品课目录中的本册章名；未取得本册现行印次完整目录与正文，图谱主题为原创细分。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。 已实读2025日常修订课程标准本模块正文（印刷第24—27页，学校官网转载缓存）；课程标准校核不代替2026教材正文校核。",
+      "evidence_level": "官方书目、教育部章名索引与课程标准正文",
+      "read_scope": [
+        "出版社2019教材介绍图页1—9（原册67—75页）",
+        "教育部2023公布精品课清单PDF第44页：四章、生态工程第3节",
+        "官方2020修订课程标准PDF第32—36页（印刷23—27页）",
+        "出版社2021种群教学设计公开培训PDF，种群数量与调查方法正文",
+        "已实读2026-08-24地方教育局教材目录更新通报第23项，未提供具体改动目录",
+        "2025日常修订课程标准印刷第24—27页：本模块内容要求、教学提示与学业要求，另读封面目录；学校官网转载附件的可读缓存文本"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/ebook/rjs11gzjksjssw/",
+        "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202506/W020250625697282575780.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+        "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-08-24",
+        "notice_item": 23,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8951493.html",
+      "curriculum_current_evidence": {
+        "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+        "document_authority": "教育部国家课程标准；并以人教社2026培训消息交叉核对版本名称",
+        "repost_publisher": "木里藏族自治县中学",
+        "repost_date": "2025-11-10",
+        "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "read_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+        "read_printed_pages": "24—27",
+        "access": "发布页附件已核；旧域PDF网页缓存全文可读，直接下载404，新域附件403；未取得本地文件",
+        "local_sha256": null,
+        "limitation": "学校转载的课程标准，不是人民教育出版社2026教材正文"
+      }
+    },
+    {
+      "id": "pep_biology_s3",
+      "title": "普通高中教科书 生物学 选择性必修3 生物技术与工程",
+      "volume": "选择性必修3 生物技术与工程",
+      "publisher": "人民教育出版社",
+      "grade": 12,
+      "semester": "全",
+      "curriculum_level": "选择性必修",
+      "edition": null,
+      "edition_note": "未取得本册现行印次版权页，不猜测版次与年月。",
+      "approval": null,
+      "curriculum_basis": "普通高中生物学课程标准日常修订版（2017年版2025年修订）；已读对应模块正文并参考2020修订版作前后核对",
+      "printing": null,
+      "isbn": null,
+      "version_note": "五册必修/选择性必修体系；未将2025课程标准日常修订视为纸质教材新版。未取得能排除后续局部改动的2026版权页。 官方2026-02-27通报第43项列为2026年更新，更新后完整目录和正文尚未取得。",
+      "source_url": "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+      "evidence_pdf_url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+      "verification": "已实读出版社五册教材介绍、官方课程标准对应模块正文及教育部精品课目录中的本册章名；未取得本册现行印次完整目录与正文，图谱主题为原创细分。 已发现2026目录更新通报；上述较早章级定位不得解读为2026更新后目录已逐项一致性核验。 已实读2025日常修订课程标准本模块正文（印刷第27—31页，学校官网转载缓存）；课程标准校核不代替2026教材正文校核。",
+      "evidence_level": "官方书目、教育部章名索引与课程标准正文",
+      "read_scope": [
+        "出版社2019教材介绍图页1—9（原册67—75页）",
+        "教育部2023公布精品课清单PDF第44页：第1—3章；2025公布清单检索原文第485页：第4章",
+        "官方2020修订课程标准PDF第36—40页（印刷27—31页）",
+        "国家中小学智慧教育平台公开PDF的检索摘录：第4章；直接下载403，未作为全册已读",
+        "已实读2026-02-27地方教育局教材目录更新通报第43项，未提供具体改动目录",
+        "2025日常修订课程标准印刷第27—31页：本模块内容要求、教学提示与学业要求，另读封面目录；学校官网转载附件的可读缓存文本"
+      ],
+      "supporting_urls": [
+        "https://www.pep.com.cn/ebook/rjs11gzjksjssw/",
+        "https://www.pep.com.cn/xw/zt/xkzt/swpxhkj/hyzl/202105/W020210526306605422940.pdf",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202404/W020240402490580211463.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202506/W020250625697282575780.pdf",
+        "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html",
+        "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf"
+      ],
+      "limitations": [
+        "已知2026目录更新的具体改动尚待新目录与正文核验。",
+        "没有逐页读取该册最新版完整正文；摘要与题目是原创教学重述，并非教材原文或原题。",
+        "最近印次、ISBN、版权页年月尚待逐册实物或官方电子版权页核对。",
+        "覆盖核心概念和探究能力，不代表课文、栏目、活动和习题穷尽。"
+      ],
+      "verified_update": {
+        "label": "2026年更新",
+        "notice_date": "2026-02-27",
+        "notice_item": 43,
+        "meaning": "官方比对后报告教材目录发生变化；不等于版权页版次、印次或全部变更内容已核验"
+      },
+      "update_evidence_url": "https://jyj.wuhu.gov.cn/xwzx/tzgg/8910768.html",
+      "curriculum_current_evidence": {
+        "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+        "document_authority": "教育部国家课程标准；并以人教社2026培训消息交叉核对版本名称",
+        "repost_publisher": "木里藏族自治县中学",
+        "repost_date": "2025-11-10",
+        "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+        "read_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+        "read_printed_pages": "27—31",
+        "access": "发布页附件已核；旧域PDF网页缓存全文可读，直接下载404，新域附件403；未取得本地文件",
+        "local_sha256": null,
+        "limitation": "学校转载的课程标准，不是人民教育出版社2026教材正文"
+      }
+    }
+  ],
+  "curriculum_references": [
+    {
+      "title": "教育部2022年义务教育课程方案和课程标准通知",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "evidence_level": "官方发布通知"
+    },
+    {
+      "title": "2024年义务教育国家课程教学用书目录（人教生物七至八年级）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202408/W020240805496325238752.pdf",
+      "evidence_level": "正式审定书目"
+    },
+    {
+      "title": "普通高中生物学课程标准（2017年版2020年修订）",
+      "url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517519140545267.pdf",
+      "evidence_level": "对应五模块正文已读",
+      "read_scope": "PDF第20—40页；第27页未单独逐段复核，核心概念已涵盖于第25—26页"
+    },
+    {
+      "title": "人教社2026年关于2025日常修订课程标准示范培训的官方消息",
+      "url": "https://www.pep.com.cn/rjdt/rjdt/202602/t20260211_2005325.shtml",
+      "evidence_level": "2025日常修订与教材使用培训官方消息，已读官方检索原文",
+      "limitation": "培训消息不证明全套纸书产生新的版次；直接页面访问403"
+    },
+    {
+      "title": "普通高中生物学课程标准日常修订版（2017年版2025年修订）",
+      "url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+      "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+      "document_authority": "教育部国家课程标准",
+      "repost_publisher": "木里藏族自治县中学",
+      "repost_date": "2025-11-10",
+      "evidence_level": "官方学校转载的课程标准正文；非教材正文",
+      "read_scope": "封面、目录、课程性质与目标；印刷第12—31页的五模块全部内容要求、教学提示及学业要求。网页文本行262—828。",
+      "local_sha256": null,
+      "limitation": "实际可读为旧域PDF网页缓存；直接下载404，新域附件403，未取得本地PDF。未将学校转载者视为教材出版社。"
+    }
+  ],
+  "read_evidence": [
+    {
+      "file": "official-curriculum-paper.pdf",
+      "sha256": "4ddd1004bb57ddf13df4bcad9742a7f7d8b4ffea472609e227b2c46b9512e436",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-ebook-mobile.html",
+      "sha256": "ba4cfd299da42deaea76e3d1990c878aea05d6047f1035c4a2ef49e3bed6f933",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-intro.html",
+      "sha256": "8657378682f2a7a31845769712750f7375c4cdd0b08cb5f2e0f4ef8491fc90c2",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-junior-covers.jpg",
+      "sha256": "e458e4b4e2da6b2cda0ad6b297987d6cdb67685488084306b5dbd1adeac25050",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-junior-framework.jpg",
+      "sha256": "d861a7603c61713fbdf7965d32ce009deab5ef5553dae2754c8d73c721ef354a",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-moe-lesson-catalog.pdf",
+      "sha256": "69ad6136a67c6f19a78743a3609e51e3ffd21c4092009ea46c2669dbdb65fb9e",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-required1-intro.pdf",
+      "sha256": "05ee0acb512a77047aabe14142dfed49440faa8e35e0481a80937e41a41e2b66",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-biology-ebook.html",
+      "sha256": "3a625ac926013c63dc0a4601fb4fbaaf5e5b5c21e0eaac5108fc541312f4e3be",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-1.jpg",
+      "sha256": "6c510491764d8fc401cdf6ba981db2641c2ab5c3516f5c3d366e501cdbda672e",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-2.jpg",
+      "sha256": "1f14c046a297c1a4531637cb306c3f86923d8528d6b8108e2c46a11f80947b33",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-3.jpg",
+      "sha256": "e85212935dbbf3881e0707fd657081d26f641187eda86ab0028d3245194b43b7",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-4.jpg",
+      "sha256": "3fe95adfd5f9b5d4ddc2f5776173aab8aa1318bdfefbf7f883f4a77249415625",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-5.jpg",
+      "sha256": "d689880f03615e39b7783cfe3f159546c48560b130084b3e542545dfd4d786b1",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-6.jpg",
+      "sha256": "fc0c0cf28085d2abfacae055bc2faf0e34392c56d762d850f13c4f01ea189fc9",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-7.jpg",
+      "sha256": "32b8a225871097ba37e32ee2209a8ca5d99767af9610411172ebf000172404c0",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-8.jpg",
+      "sha256": "e18e9e6ada0ab11305ffa84145c6ff928b8ca8be821fb83b5876b53d0f2ae87b",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-ebook-page-9.jpg",
+      "sha256": "24da105e532c3bc56531368aadd84eb62ea6b3cde97e777eba8834948e4ad244",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-intro.html",
+      "sha256": "637859400d5d15ec451951ed539b70af55d1cdea693f399eaa33580ddda96def",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-selective-training.pdf",
+      "sha256": "1c829bff2ce6b4077f51075b23f3852dfb53f117edee76bf30c0be447c5bcd86",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-senior-standards.pdf",
+      "sha256": "8408986334a8826e6c7e1486c1ef1430cf47ad9e10174fd08f65d590f4d302a4",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "file": "official-training-index.html",
+      "sha256": "6e2db61f42c9bf86eedf86299a882306080e0956d615585b1754366d66c1bb0e",
+      "retention": "仅内部核验，不随原创交付复制原书图文"
+    },
+    {
+      "url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%8810%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+      "publish_url": "https://www.scmlzx.cn/news/202511/497838942620618752.html",
+      "sha256": null,
+      "source_kind": "学校官网转载课程标准；web缓存全文实读",
+      "read_scope": "封面目录及五模块印刷12—31页；网页行262—828",
+      "access_limit": "旧域直下404、新域附件403；只有缓存文本，不声称取得本地PDF",
+      "important_observations": [
+        "B1学业要求含光合作用与碳中和；在生态系统碳收支节点承接",
+        "S1内分泌腺例列垂体、甲状腺、肾上腺、胰岛、性腺",
+        "S2教学提示包括自然保护区、国家公园的建立意义"
+      ],
+      "retention": "仅记录原创释义与证据范围，不复制标准长篇正文"
+    }
+  ],
+  "blocked_sources": [
+    {
+      "url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/ec6ab12c-0b06-43a5-bf62-ee90b619f607.pkg/pdf.pdf",
+      "status": "直接访问403；仅检索原文摘录可读，不能视为完整正文"
+    },
+    {
+      "url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/d12ff6b6-b6cd-444a-9749-4642aa350482.pkg/pdf.pdf",
+      "status": "直接访问403；仅检索原文摘录可读，不能视为完整正文"
+    }
+  ],
+  "source_metadata_freeze": "2026-11-01 v3：2026更新边界、2025课标五模块实读、evidence_pdf_url语义、目录别名已集中定稿；之后仅修具体审核意见并记录差异。"
+}

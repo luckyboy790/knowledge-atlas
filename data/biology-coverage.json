@@ -1,0 +1,1766 @@
+{
+  "schema_version": "1.0",
+  "subject": "biology",
+  "checked_date": "2026-11-01",
+  "scope": "人教版初中四册及普通高中必修、选择性必修五册的核心知识；当前输出书册以books数组为准。",
+  "books": [
+    {
+      "book": "pep_biology_j7u",
+      "volume": "七年级上册",
+      "chapters": [
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第一章 认识生物",
+          "sections": [
+            {
+              "section": "本图谱主题：生物的基本特征与生命现象",
+              "topic_ids": [
+                "cnb_001"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：观察、调查与对照证据",
+              "topic_ids": [
+                "cnb_002"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第二章 认识细胞",
+          "sections": [
+            {
+              "section": "本图谱主题：显微镜的放大、成像与视野",
+              "topic_ids": [
+                "cnb_003"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：植物细胞与动物细胞的基本结构",
+              "topic_ids": [
+                "cnb_004"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：细胞膜与物质进出",
+              "topic_ids": [
+                "cnb_005"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：细胞核与遗传信息",
+              "topic_ids": [
+                "cnb_006"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第一单元 生物和细胞",
+          "chapter": "第三章 从细胞到生物体",
+          "sections": [
+            {
+              "section": "本图谱主题：细胞生长、分裂与分化",
+              "topic_ids": [
+                "cnb_007"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：组织、器官与系统的结构层次",
+              "topic_ids": [
+                "cnb_008"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：单细胞生物的生命活动",
+              "topic_ids": [
+                "cnb_009"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第一章 藻类与植物的类群",
+          "sections": [
+            {
+              "section": "本图谱主题：藻类、苔藓与蕨类的结构差异",
+              "topic_ids": [
+                "cnb_010"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：裸子植物与被子植物",
+              "topic_ids": [
+                "cnb_011"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第二章 动物的类群",
+          "sections": [
+            {
+              "section": "本图谱主题：无脊椎动物的对称与分节特征",
+              "topic_ids": [
+                "cnb_012"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：软体动物与节肢动物",
+              "topic_ids": [
+                "cnb_013"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：鱼、两栖动物与爬行动物",
+              "topic_ids": [
+                "cnb_014"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：鸟与哺乳动物的共同与特有特征",
+              "topic_ids": [
+                "cnb_015"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第三章 微生物",
+          "sections": [
+            {
+              "section": "本图谱主题：细菌的结构、繁殖与生态作用",
+              "topic_ids": [
+                "cnb_016"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：真菌的细胞特征与营养",
+              "topic_ids": [
+                "cnb_017"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：病毒的非细胞结构与寄生",
+              "topic_ids": [
+                "cnb_018"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第二单元 多种多样的生物",
+          "chapter": "第四章 生物分类的方法",
+          "sections": [
+            {
+              "section": "本图谱主题：分类阶元与亲缘关系",
+              "topic_ids": [
+                "cnb_019"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：分类检索与多种证据",
+              "topic_ids": [
+                "cnb_020"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j7l",
+      "volume": "七年级下册",
+      "chapters": [
+        {
+          "unit": "第三单元 植物的生活",
+          "chapter": "第一章 被子植物的一生",
+          "sections": [
+            {
+              "section": "本图谱主题：种子结构与萌发条件",
+              "topic_ids": [
+                "cnb_021"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：种子萌发实验的控制与证据",
+              "topic_ids": [
+                "cnb_022"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：根吸收水和无机盐",
+              "topic_ids": [
+                "cnb_023"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：芽的发育与植株生长",
+              "topic_ids": [
+                "cnb_024"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：传粉与受精的区别",
+              "topic_ids": [
+                "cnb_025"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：果实与种子的形成",
+              "topic_ids": [
+                "cnb_026"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第三单元 植物的生活",
+          "chapter": "第二章 植物体内的物质与能量变化",
+          "sections": [
+            {
+              "section": "本图谱主题：蒸腾作用与植物体内水运输",
+              "topic_ids": [
+                "cnb_027"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：光合作用的物质与能量变化",
+              "topic_ids": [
+                "cnb_028"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：植物呼吸作用与能量释放",
+              "topic_ids": [
+                "cnb_029"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：植物代谢与碳氧平衡",
+              "topic_ids": [
+                "cnb_030"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第一章 人的生殖和发育",
+          "sections": [
+            {
+              "section": "本图谱主题：人的受精、胚胎发育与出生",
+              "topic_ids": [
+                "cnb_031"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：青春期的发育与个体差异",
+              "topic_ids": [
+                "cnb_032"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第二章 人体的营养",
+          "sections": [
+            {
+              "section": "本图谱主题：人体所需营养物质",
+              "topic_ids": [
+                "cnb_033"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：食物的消化与营养吸收",
+              "topic_ids": [
+                "cnb_034"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：合理营养与食品信息判断",
+              "topic_ids": [
+                "cnb_035"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第三章 人体的呼吸",
+          "sections": [
+            {
+              "section": "本图谱主题：呼吸道、肺泡与气体交换结构",
+              "topic_ids": [
+                "cnb_036"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：呼吸运动与气体扩散",
+              "topic_ids": [
+                "cnb_037"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第四章 人体内物质的运输",
+          "sections": [
+            {
+              "section": "本图谱主题：血液成分与血管类型",
+              "topic_ids": [
+                "cnb_038"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：心脏与体循环、肺循环",
+              "topic_ids": [
+                "cnb_039"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第五章 人体内废物的排出",
+          "sections": [
+            {
+              "section": "本图谱主题：尿的形成与废物排出",
+              "topic_ids": [
+                "cnb_040"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j8u",
+      "volume": "八年级上册",
+      "chapters": [
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第六章 人体生命活动的调节",
+          "sections": [
+            {
+              "section": "本图谱主题：视觉、听觉与感觉的形成",
+              "topic_ids": [
+                "cnb_041"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：神经系统与反射弧",
+              "topic_ids": [
+                "cnb_042"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：非条件反射与条件反射",
+              "topic_ids": [
+                "cnb_043"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：脑与脊髓的功能分工",
+              "topic_ids": [
+                "cnb_044"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：激素调节与神经调节的联系",
+              "topic_ids": [
+                "cnb_045"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第四单元 人体生理与健康",
+          "chapter": "第七章 健康地生活",
+          "sections": [
+            {
+              "section": "本图谱主题：传染病流行的三个基本环节",
+              "topic_ids": [
+                "cnb_046"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：人体免疫的非特异性与特异性",
+              "topic_ids": [
+                "cnb_047"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：疫苗与免疫记忆的课程模型",
+              "topic_ids": [
+                "cnb_048"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：药品信息与科学用药判断",
+              "topic_ids": [
+                "cnb_049"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：健康生活与风险证据",
+              "topic_ids": [
+                "cnb_050"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第五单元 生物与环境",
+          "chapter": "第一章 生态系统",
+          "sections": [
+            {
+              "section": "本图谱主题：生物与环境的相互作用",
+              "topic_ids": [
+                "cnb_051"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：生态系统的组成",
+              "topic_ids": [
+                "cnb_052"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：食物链、食物网与营养关系",
+              "topic_ids": [
+                "cnb_053"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：生态系统中能量流动与物质循环",
+              "topic_ids": [
+                "cnb_054"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：生态系统自我调节与生物圈",
+              "topic_ids": [
+                "cnb_055"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第五单元 生物与环境",
+          "chapter": "第二章 生态安全",
+          "sections": [
+            {
+              "section": "本图谱主题：人类活动与生态安全",
+              "topic_ids": [
+                "cnb_056"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_j8l",
+      "volume": "八年级下册",
+      "chapters": [
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第一章 生物的生殖",
+          "sections": [
+            {
+              "section": "本图谱主题：有性生殖与无性生殖",
+              "topic_ids": [
+                "cnb_057"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：昆虫的完全变态与不完全变态",
+              "topic_ids": [
+                "cnb_058"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：两栖动物与鸟的生殖发育",
+              "topic_ids": [
+                "cnb_059"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第二章 生物的遗传与变异",
+          "sections": [
+            {
+              "section": "本图谱主题：性状、遗传与相对性状",
+              "topic_ids": [
+                "cnb_060"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：染色体、DNA与基因的关系",
+              "topic_ids": [
+                "cnb_061"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：显性、隐性与基因型",
+              "topic_ids": [
+                "cnb_062"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：一对等位基因的传递概率",
+              "topic_ids": [
+                "cnb_063"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：典型XX/XY染色体传递模型",
+              "topic_ids": [
+                "cnb_064"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：遗传变异与环境影响",
+              "topic_ids": [
+                "cnb_065"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第三章 生物的进化",
+          "sections": [
+            {
+              "section": "本图谱主题：生命起源研究的证据边界",
+              "topic_ids": [
+                "cnb_066"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：化石与共同祖先证据",
+              "topic_ids": [
+                "cnb_067"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：自然选择与可遗传差异",
+              "topic_ids": [
+                "cnb_068"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：适应的相对性与非目的性",
+              "topic_ids": [
+                "cnb_069"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        },
+        {
+          "unit": "第六单元 生命的延续和发展",
+          "chapter": "第四章 生物多样性及其保护",
+          "sections": [
+            {
+              "section": "本图谱主题：生物多样性的三个层次",
+              "topic_ids": [
+                "cnb_070"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：就地保护与迁地保护",
+              "topic_ids": [
+                "cnb_071"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            },
+            {
+              "section": "本图谱主题：生物多样性价值与保护评价",
+              "topic_ids": [
+                "cnb_072"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方编写说明与章级框架"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_b1",
+      "volume": "必修1 分子与细胞",
+      "chapters": [
+        {
+          "chapter": "第1章 走近细胞",
+          "sections": [
+            {
+              "section": "本图谱主题：细胞学说与原核、真核细胞",
+              "topic_ids": [
+                "cnb_073"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 组成细胞的分子",
+          "sections": [
+            {
+              "section": "本图谱主题：细胞中的元素和化合物",
+              "topic_ids": [
+                "cnb_074"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞中的水和无机盐",
+              "topic_ids": [
+                "cnb_075"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：糖类与脂质的结构功能",
+              "topic_ids": [
+                "cnb_076"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：蛋白质的氨基酸序列与空间结构",
+              "topic_ids": [
+                "cnb_077"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：核酸与核苷酸",
+              "topic_ids": [
+                "cnb_078"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 细胞的基本结构",
+          "sections": [
+            {
+              "section": "本图谱主题：细胞膜的结构与选择透过性",
+              "topic_ids": [
+                "cnb_079"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞器的分工",
+              "topic_ids": [
+                "cnb_080"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：分泌蛋白加工与生物膜系统",
+              "topic_ids": [
+                "cnb_081"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞核、染色质与信息传递",
+              "topic_ids": [
+                "cnb_082"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 细胞的物质输入和输出",
+          "sections": [
+            {
+              "section": "本图谱主题：渗透作用与植物细胞水分变化",
+              "topic_ids": [
+                "cnb_083"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：自由扩散与协助扩散",
+              "topic_ids": [
+                "cnb_084"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：主动运输与能量耦联",
+              "topic_ids": [
+                "cnb_085"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：胞吞、胞吐与囊泡运输",
+              "topic_ids": [
+                "cnb_086"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第5章 细胞的能量供应和利用",
+          "sections": [
+            {
+              "section": "本图谱主题：酶的本质与催化特性",
+              "topic_ids": [
+                "cnb_087"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：酶活性的条件与实验控制",
+              "topic_ids": [
+                "cnb_088"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：ATP与能量耦联",
+              "topic_ids": [
+                "cnb_089"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：有氧呼吸的阶段与场所",
+              "topic_ids": [
+                "cnb_090"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：无氧条件下的有机物分解",
+              "topic_ids": [
+                "cnb_091"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：呼吸速率与气体数据解释",
+              "topic_ids": [
+                "cnb_092"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：光合色素与叶绿体结构",
+              "topic_ids": [
+                "cnb_093"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：光反应与碳固定的联系",
+              "topic_ids": [
+                "cnb_094"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：净光合速率与环境限制",
+              "topic_ids": [
+                "cnb_095"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第6章 细胞的生命历程",
+          "sections": [
+            {
+              "section": "本图谱主题：细胞周期与有丝分裂计数",
+              "topic_ids": [
+                "cnb_096"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞分化与发育潜能",
+              "topic_ids": [
+                "cnb_097"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞衰老、凋亡与坏死",
+              "topic_ids": [
+                "cnb_098"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_b2",
+      "volume": "必修2 遗传与进化",
+      "chapters": [
+        {
+          "chapter": "第1章 遗传因子的发现",
+          "sections": [
+            {
+              "section": "本图谱主题：分离定律与假说演绎",
+              "topic_ids": [
+                "cnb_099"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：测交与基因型推断",
+              "topic_ids": [
+                "cnb_100"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：自由组合定律的适用条件",
+              "topic_ids": [
+                "cnb_101"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：独立遗传中的乘法与加法规则",
+              "topic_ids": [
+                "cnb_102"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 基因和染色体的关系",
+          "sections": [
+            {
+              "section": "本图谱主题：减数第一次分裂与同源染色体",
+              "topic_ids": [
+                "cnb_103"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：减数第二次分裂与受精",
+              "topic_ids": [
+                "cnb_104"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：基因在染色体上的证据",
+              "topic_ids": [
+                "cnb_105"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：伴X隐性遗传的条件概率",
+              "topic_ids": [
+                "cnb_106"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 基因的本质",
+          "sections": [
+            {
+              "section": "本图谱主题：遗传物质实验的证据逻辑",
+              "topic_ids": [
+                "cnb_107"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：DNA双螺旋与碱基配对",
+              "topic_ids": [
+                "cnb_108"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：DNA半保留复制",
+              "topic_ids": [
+                "cnb_109"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：基因的功能片段含义",
+              "topic_ids": [
+                "cnb_110"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 基因的表达",
+          "sections": [
+            {
+              "section": "本图谱主题：转录与模板链",
+              "topic_ids": [
+                "cnb_111"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：翻译、密码子与tRNA",
+              "topic_ids": [
+                "cnb_112"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：中心法则与信息流向",
+              "topic_ids": [
+                "cnb_113"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：选择性表达、环境与表型",
+              "topic_ids": [
+                "cnb_114"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：表观遗传与DNA序列不变的调控",
+              "topic_ids": [
+                "cnb_115"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第5章 基因突变及其他变异",
+          "sections": [
+            {
+              "section": "本图谱主题：基因突变与基因重组",
+              "topic_ids": [
+                "cnb_116"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：染色体结构变异",
+              "topic_ids": [
+                "cnb_117"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：染色体组与数目变异",
+              "topic_ids": [
+                "cnb_118"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：遗传病分类与调查边界",
+              "topic_ids": [
+                "cnb_119"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第6章 生物的进化",
+          "sections": [
+            {
+              "section": "本图谱主题：共同祖先与协同进化证据",
+              "topic_ids": [
+                "cnb_120"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：种群基因频率与进化",
+              "topic_ids": [
+                "cnb_121"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：选择、隔离与物种形成",
+              "topic_ids": [
+                "cnb_122"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方培训资料完整目录与课程标准正文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s1",
+      "volume": "选择性必修1 稳态与调节",
+      "chapters": [
+        {
+          "chapter": "第1章 人体的内环境与稳态",
+          "sections": [
+            {
+              "section": "本图谱主题：内环境的组成与物质交换",
+              "topic_ids": [
+                "cnb_123"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：稳态、负反馈与调节限度",
+              "topic_ids": [
+                "cnb_124"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 神经调节",
+          "sections": [
+            {
+              "section": "本图谱主题：神经系统分工与自主神经",
+              "topic_ids": [
+                "cnb_125"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：静息电位与动作电位",
+              "topic_ids": [
+                "cnb_126"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：化学突触的传递与方向",
+              "topic_ids": [
+                "cnb_127"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：反射弧与神经中枢分级调节",
+              "topic_ids": [
+                "cnb_128"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：大脑高级功能与学习记忆",
+              "topic_ids": [
+                "cnb_129"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 体液调节",
+          "sections": [
+            {
+              "section": "本图谱主题：激素作用的证据与靶细胞",
+              "topic_ids": [
+                "cnb_130"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：血糖平衡与胰岛激素",
+              "topic_ids": [
+                "cnb_131"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：甲状腺激素的分级与反馈调节",
+              "topic_ids": [
+                "cnb_132"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：神经调节与体液调节的协同",
+              "topic_ids": [
+                "cnb_133"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：体温调节与热量收支",
+              "topic_ids": [
+                "cnb_134"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：水盐平衡与抗利尿激素",
+              "topic_ids": [
+                "cnb_135"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 免疫调节",
+          "sections": [
+            {
+              "section": "本图谱主题：免疫系统的组成与功能",
+              "topic_ids": [
+                "cnb_136"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：体液免疫、抗体与记忆",
+              "topic_ids": [
+                "cnb_137"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞免疫与感染细胞清除",
+              "topic_ids": [
+                "cnb_138"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：免疫异常的类型与边界",
+              "topic_ids": [
+                "cnb_139"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：免疫预防、被动免疫与移植识别",
+              "topic_ids": [
+                "cnb_140"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第5章 植物生命活动的调节",
+          "sections": [
+            {
+              "section": "本图谱主题：生长素发现中的实验推理",
+              "topic_ids": [
+                "cnb_141"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生长素效应的浓度与器官差异",
+              "topic_ids": [
+                "cnb_142"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：多种植物激素及生长调节剂",
+              "topic_ids": [
+                "cnb_143"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：光、温度与重力的调节信息",
+              "topic_ids": [
+                "cnb_144"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s2",
+      "volume": "选择性必修2 生物与环境",
+      "chapters": [
+        {
+          "chapter": "第1章 种群及其动态",
+          "sections": [
+            {
+              "section": "本图谱主题：种群数量特征与动态收支",
+              "topic_ids": [
+                "cnb_145"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：样方取样与标记重捕估计",
+              "topic_ids": [
+                "cnb_146"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：种群增长模型与增长速率",
+              "topic_ids": [
+                "cnb_147"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：环境容量及其变化",
+              "topic_ids": [
+                "cnb_148"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 群落及其演替",
+          "sections": [
+            {
+              "section": "本图谱主题：种间关系与证据判断",
+              "topic_ids": [
+                "cnb_149"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：群落结构、丰富度与生态位",
+              "topic_ids": [
+                "cnb_150"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：初生演替、次生演替与方向",
+              "topic_ids": [
+                "cnb_151"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 生态系统及其稳定性",
+          "sections": [
+            {
+              "section": "本图谱主题：生态系统组成与营养结构",
+              "topic_ids": [
+                "cnb_152"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：同化量、呼吸与生产量",
+              "topic_ids": [
+                "cnb_153"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：能量传递效率与食物链富集",
+              "topic_ids": [
+                "cnb_154"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：碳循环的库、通量与人为输入",
+              "topic_ids": [
+                "cnb_155"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：净碳收支与碳中和贡献",
+              "topic_ids": [
+                "cnb_156"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生态系统信息传递的作用",
+              "topic_ids": [
+                "cnb_157"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：抵抗力、恢复力与调节限度",
+              "topic_ids": [
+                "cnb_158"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 人与环境",
+          "sections": [
+            {
+              "section": "本图谱主题：人口、资源需求与生态足迹",
+              "topic_ids": [
+                "cnb_159"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生物多样性保护与栖息地联系",
+              "topic_ids": [
+                "cnb_160"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生态工程的循环、协调与整体性",
+              "topic_ids": [
+                "cnb_161"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "pep_biology_s3",
+      "volume": "选择性必修3 生物技术与工程",
+      "chapters": [
+        {
+          "chapter": "第1章 发酵工程",
+          "sections": [
+            {
+              "section": "本图谱主题：传统发酵中的微生物与代谢",
+              "topic_ids": [
+                "cnb_162"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：培养条件、消毒灭菌与对照",
+              "topic_ids": [
+                "cnb_163"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：菌落、纯培养与活菌估计",
+              "topic_ids": [
+                "cnb_164"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：发酵工程的控制与产物评价",
+              "topic_ids": [
+                "cnb_165"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 细胞工程",
+          "sections": [
+            {
+              "section": "本图谱主题：植物组织培养与细胞全能性",
+              "topic_ids": [
+                "cnb_166"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：植物体细胞杂交与原生质体融合",
+              "topic_ids": [
+                "cnb_167"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：动物细胞培养与生长限制",
+              "topic_ids": [
+                "cnb_168"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：细胞融合与单克隆抗体",
+              "topic_ids": [
+                "cnb_169"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：体外受精、胚胎移植与分割",
+              "topic_ids": [
+                "cnb_170"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：体细胞核移植的遗传来源",
+              "topic_ids": [
+                "cnb_171"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 基因工程",
+          "sections": [
+            {
+              "section": "本图谱主题：限制酶与DNA连接酶的分工",
+              "topic_ids": [
+                "cnb_172"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：重组载体与表达元件",
+              "topic_ids": [
+                "cnb_173"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：PCR扩增的选择性与理论数量",
+              "topic_ids": [
+                "cnb_174"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：基因工程流程与多层证据",
+              "topic_ids": [
+                "cnb_175"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：蛋白质工程的设计与验证",
+              "topic_ids": [
+                "cnb_176"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 生物技术的安全性与伦理问题",
+          "sections": [
+            {
+              "section": "本图谱主题：转基因产品的证据评价",
+              "topic_ids": [
+                "cnb_177"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生殖性克隆的伦理问题",
+              "topic_ids": [
+                "cnb_178"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            },
+            {
+              "section": "本图谱主题：生物安全与负责任的科学应用",
+              "topic_ids": [
+                "cnb_179"
+              ],
+              "status": "主干概念已建；非全课文穷尽",
+              "evidence_level": "官方书目、教育部章名索引与课程标准正文"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topic_count": 179,
+  "question_count": 358,
+  "dependency_count": 339,
+  "excluded_content": [
+    "教材原图、原文、原题和逐页再现",
+    "未取得官方证据的版次、印次、ISBN与页码",
+    "完整实验操作训练、临床诊疗和个人医疗决策",
+    "全部栏目、项目、探究实践与拓展阅读的穷尽覆盖",
+    "高中不同群落类型及其逐类适应特征尚未详细展开；全球环境问题覆盖碳收支、资源需求和生物多样性等主干，未对全部专题逐项设点"
+  ],
+  "limitations": [
+    "初中采用2022课标修订六单元新编体系；八下2026新编已确认。官方2026春秋通报还确认七上、七下与高中五册有2026教材目录更新。已记录更新事实，但未取得更新后各册完整目录、正文与版权页；公开较早目录仅作章级定位参考，不能视为已逐项核验2026更新内容。高中五模块已对照2025日常修订课程标准正文（学校官网转载的可读缓存文本）；这不等于已读2026教材全文，也不自动证明纸书新版版次。",
+    "客观题只能检测部分概念表现，不能替代观察实验、项目实践与教师评价。",
+    "AI作者自查不能替代独立复核和教师审核。"
+  ]
+}

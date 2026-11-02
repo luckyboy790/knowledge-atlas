@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "group_count": 11,
+  "groups": [
+    "changed JavaScript and all inline HTML scripts parse",
+    "nine navigation entries, grouped provenance and original anchors",
+    "physics: all module, volume, chapter and original target routes select exact IDs",
+    "chemistry: all module, volume, chapter and original target routes select exact IDs",
+    "tcm: all module, volume, chapter and original target routes select exact IDs",
+    "legacy aliases default to the old university or herbal scope",
+    "explore separates school stages, university modules and tcm source families",
+    "source renderers load raw members exactly once while group totals use merged data",
+    "legacy records are listed separately, safe recovery copies one and blocked recovery preserves it",
+    "corrected historical judgments resume while wrong question identities and out-of-scope answers are rejected",
+    "export retains the complete replay inputs including avoid history"
+  ],
+  "assertions": 1109,
+  "details": {
+    "physics": {
+      "topics": 316,
+      "questions": 632,
+      "chapter_routes": 69
+    },
+    "chemistry": {
+      "topics": 355,
+      "questions": 710,
+      "chapter_routes": 81
+    },
+    "tcm": {
+      "topics": 213,
+      "questions": 426,
+      "chapter_routes": 44
+    }
+  },
+  "bridge_count": 83,
+  "scope": "JavaScript, exact UI route scopes, grouped source rendering and local record compatibility using DOM test doubles",
+  "limitations": [
+    "These checks do not assert browser layout or real clicks; those are recorded separately.",
+    "Original semantic validity and bridge review are independently validated by the root review."
+  ],
+  "checked_at": "2026-11-02T08:18:21.784Z",
+  "input_sha256": {
+    "assets/subjects.js": "5975c526fbf9b14c6d62718f397d060cff1d485aa1ee4af8775b00bca3101488",
+    "assets/home.js": "169a71ebb4d86ef3d6c441834df55f956f57d328a8e4c8dee4a09b3144dacd5c",
+    "explore/app.js": "c386c364153fa7f9d770728228d025c6b31ef57d39c22f8472f2f6126c3d6700",
+    "diagnose/app.js": "752d638f1c22e0c40d71effaed9bfef8d5ffef657862bb3efa2022cb06e82584",
+    "diagnose/session-compatibility.js": "f61e7ae392277bad41553dd6024a39f8d161a4b377958c5718c01b4081428eea",
+    "sources.html": "df3008809af073af85b340aa8efe8504814bea98cfe11ffc22d692b2f1e46de1",
+    "data/subject-bridge-dependencies.json": "0c94c29de7515eb4526404b03d9cd9adece6da0ed2a08f8bc1d4b99d0c0972df"
+  }
+}

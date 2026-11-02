@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "subject": "geography",
+  "checked_date": "2026-11-01",
+  "source_url": "https://www.scmlzx.net/uploadfile/2025/1110/%EF%BC%887%EF%BC%89%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E5%9C%B0%E7%90%86%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%E6%97%A5%E5%B8%B8%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%882017%E5%B9%B4%E7%89%882025%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.pdf",
+  "source_level": "学校正式公开转载的2025国家课程标准原文；课程教材研究所官方通报交叉确认修订存在",
+  "read_scope": "封面、课程结构、印刷页10—16五模块全部内容要求。非主教材全文。",
+  "scope": "按49项内容要求逐项建立核心节点和剩余实践边界；有映射不等于要求已全部达成。",
+  "modules": [
+    {
+      "module": "地理1",
+      "book": "geo_pep_b1",
+      "printed_pages": "10—11",
+      "requirements": [
+        {
+          "requirement": "1.1",
+          "topic_ids": [
+            "cng_075",
+            "cng_076",
+            "cng_077",
+            "cng_078"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.2",
+          "topic_ids": [
+            "cng_080"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.3",
+          "topic_ids": [
+            "cng_079"
+          ],
+          "status": "partial",
+          "note": "地层、化石和相对历史已写；完整地质年代表判读未展开。"
+        },
+        {
+          "requirement": "1.4",
+          "topic_ids": [
+            "cng_090",
+            "cng_091",
+            "cng_092",
+            "cng_093"
+          ],
+          "status": "partial",
+          "note": "覆盖3类地貌原理；没有真实图像和野外观察评价。"
+        },
+        {
+          "requirement": "1.5",
+          "topic_ids": [
+            "cng_081"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.6",
+          "topic_ids": [
+            "cng_082",
+            "cng_083",
+            "cng_084"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.7",
+          "topic_ids": [
+            "cng_085",
+            "cng_086"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.8",
+          "topic_ids": [
+            "cng_087",
+            "cng_088",
+            "cng_089"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.9",
+          "topic_ids": [
+            "cng_095"
+          ],
+          "status": "partial",
+          "note": "成土因素与组成已写；土壤标本观察未实施。"
+        },
+        {
+          "requirement": "1.10",
+          "topic_ids": [
+            "cng_094"
+          ],
+          "status": "partial",
+          "note": "环境关系已写；植被类型图像识别未完整展开。"
+        },
+        {
+          "requirement": "1.11",
+          "topic_ids": [
+            "cng_096",
+            "cng_097",
+            "cng_098"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.12",
+          "topic_ids": [
+            "cng_099"
+          ],
+          "status": "partial",
+          "note": "技术用途与场景判断已写；没有实操遥感或GIS任务。"
+        }
+      ]
+    },
+    {
+      "module": "地理2",
+      "book": "geo_pep_b2",
+      "printed_pages": "12",
+      "requirements": [
+        {
+          "requirement": "2.1",
+          "topic_ids": [
+            "cng_100",
+            "cng_101",
+            "cng_102",
+            "cng_103"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.2",
+          "topic_ids": [
+            "cng_104",
+            "cng_106"
+          ],
+          "status": "partial",
+          "note": "空间结构与职住联系已写；城乡融合具体案例未完整展开。"
+        },
+        {
+          "requirement": "2.3",
+          "topic_ids": [
+            "cng_107"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.4",
+          "topic_ids": [
+            "cng_105",
+            "cng_106"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.5",
+          "topic_ids": [
+            "cng_108",
+            "cng_109",
+            "cng_110",
+            "cng_111",
+            "cng_112"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.6",
+          "topic_ids": [
+            "cng_113",
+            "cng_114"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.7",
+          "topic_ids": [
+            "cng_117"
+          ],
+          "status": "partial",
+          "note": "流域协同和生态约束已写；国家战略专题地图判读未提供。"
+        },
+        {
+          "requirement": "2.8",
+          "topic_ids": [
+            "cng_178"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.9",
+          "topic_ids": [
+            "cng_179"
+          ],
+          "status": "attributed_curriculum_text",
+          "note": "准确归属中国课程标准的岛屿表述，不据此推导国际各方已一致。"
+        },
+        {
+          "requirement": "2.10",
+          "topic_ids": [
+            "cng_115",
+            "cng_116"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.11",
+          "topic_ids": [
+            "cng_099"
+          ],
+          "status": "partial",
+          "note": "跨册提供地理信息技术背景；人文地理专门GIS探究未实施。"
+        }
+      ]
+    },
+    {
+      "module": "自然地理基础",
+      "book": "geo_pep_s1",
+      "printed_pages": "13—14",
+      "requirements": [
+        {
+          "requirement": "1.1",
+          "topic_ids": [
+            "cng_118",
+            "cng_119",
+            "cng_120",
+            "cng_121",
+            "cng_122",
+            "cng_123",
+            "cng_124"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.2",
+          "topic_ids": [
+            "cng_126"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.3",
+          "topic_ids": [
+            "cng_125",
+            "cng_127",
+            "cng_128",
+            "cng_129"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.4",
+          "topic_ids": [
+            "cng_130",
+            "cng_131"
+          ],
+          "status": "partial",
+          "note": "文字模型覆盖天气系统；简易天气图判读未实施。"
+        },
+        {
+          "requirement": "1.5",
+          "topic_ids": [
+            "cng_132",
+            "cng_133",
+            "cng_134"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.6",
+          "topic_ids": [
+            "cng_135",
+            "cng_136"
+          ],
+          "status": "partial",
+          "note": "水体补给机制已写；学生绘制示意图的表现未测。"
+        },
+        {
+          "requirement": "1.7",
+          "topic_ids": [
+            "cng_137",
+            "cng_138"
+          ],
+          "status": "partial",
+          "note": "寒暖流与影响已写；世界洋流分布全图与所有主要洋流未穷尽。"
+        },
+        {
+          "requirement": "1.8",
+          "topic_ids": [
+            "cng_139",
+            "cng_175"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "1.9",
+          "topic_ids": [
+            "cng_140",
+            "cng_141",
+            "cng_142"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        }
+      ]
+    },
+    {
+      "module": "区域发展",
+      "book": "geo_pep_s2",
+      "printed_pages": "15",
+      "requirements": [
+        {
+          "requirement": "2.1",
+          "topic_ids": [
+            "cng_143"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.2",
+          "topic_ids": [
+            "cng_144",
+            "cng_145",
+            "cng_146"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.3",
+          "topic_ids": [
+            "cng_149",
+            "cng_150"
+          ],
+          "status": "partial",
+          "note": "城市网络原理与情境题已写；具体大都市全套空间案例未提供。"
+        },
+        {
+          "requirement": "2.4",
+          "topic_ids": [
+            "cng_151"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.5",
+          "topic_ids": [
+            "cng_148"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.6",
+          "topic_ids": [
+            "cng_147"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.7",
+          "topic_ids": [
+            "cng_155",
+            "cng_156",
+            "cng_154"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.8",
+          "topic_ids": [
+            "cng_152",
+            "cng_153"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "2.9",
+          "topic_ids": [
+            "cng_157"
+          ],
+          "status": "core_application_scenario",
+          "note": "结合一带一路的跨境交通合作情境；非完整真实项目绩效评估。"
+        }
+      ]
+    },
+    {
+      "module": "资源、环境与国家安全",
+      "book": "geo_pep_s3",
+      "printed_pages": "16",
+      "requirements": [
+        {
+          "requirement": "3.1",
+          "topic_ids": [
+            "cng_159",
+            "cng_160"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "3.2",
+          "topic_ids": [
+            "cng_176"
+          ],
+          "status": "dated_official_example",
+          "note": "按2025中国地质调查局公开例子写类型、地域与技术，不采用实时排名。"
+        },
+        {
+          "requirement": "3.3",
+          "topic_ids": [
+            "cng_177",
+            "cng_165"
+          ],
+          "status": "dated_official_example",
+          "note": "以2019标准时点三调公报说明分布与质量，不称2026实时统计。"
+        },
+        {
+          "requirement": "3.4",
+          "topic_ids": [
+            "cng_166",
+            "cng_178"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        },
+        {
+          "requirement": "3.5",
+          "topic_ids": [
+            "cng_170",
+            "cng_171",
+            "cng_174"
+          ],
+          "status": "partial",
+          "note": "温室效应、减缓适应及合作已写；碳循环的完整碳库通量图题未展开。"
+        },
+        {
+          "requirement": "3.6",
+          "topic_ids": [
+            "cng_169"
+          ],
+          "status": "partial",
+          "note": "生境和连通性保护已写；自然保护地具体制度和真实国家公园案例未完整展开。"
+        },
+        {
+          "requirement": "3.7",
+          "topic_ids": [
+            "cng_168"
+          ],
+          "status": "partial",
+          "note": "跨区域传输原理已写；具体跨国污染转移案例未完整展开。"
+        },
+        {
+          "requirement": "3.8",
+          "topic_ids": [
+            "cng_173",
+            "cng_167",
+            "cng_172"
+          ],
+          "status": "core_concepts_and_original_questions",
+          "note": "仅概念与文字题支持；不能替代课标要求的全部图表、实践和综合表现。"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "文字选择题不能替代观察、绘图、真实地图判读、实验和社会调查表现。",
+    "部分条款只有核心机制支撑，未覆盖完整案例或所有学习表现。",
+    "采用截至2026-11-01可核验的官方课程与配套目录结构，已知主教材新版更新另列：初中为2022课标第十二套教材，已核七上2024、七下与八上2025、八下2026新编通知；高中通报明确必修二与选择性必修三2025更新。各册章节主要据中国地图出版社对应人教版的官方配套图册目录，图册中高中课标标识仍为2017年版2020年修订，不能单独证明与2025更新后主教材细目完全相同。较早国家平台主书仅作实读片段的有限辅助。未取得九册最新版主教材完整版权页；更新后主教材目录与全文仍待核，不宣称最新正文或最新目录已逐页逐节核完。2025年高中课标日常修订与教材版次分开记录。 已另实读2025高中地理课标五模块内容要求，并据此补充拉尼娜、锂矿实例、耕地分布、海洋权益和课标所列岛屿对象；这项对照不替代主教材最新版目录/正文核验。"
+  ]
+}
