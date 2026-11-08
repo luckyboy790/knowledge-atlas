@@ -568,7 +568,8 @@
         const rows = ch.topics.filter(function (x) {
           if (startMember && Subjects.rawOf(x.t) !== startMember) return false;
           if (!q || chHit) return true;
-          return (x.t.name + ' ' + x.t.description + ' ' + x.t.chapter).toLowerCase().indexOf(q) >= 0;
+          return [x.t.name, x.t.originalName, x.t.description, x.t.chapter].join(' ').toLowerCase().includes(q) ||
+            AtlasTerms.matches(x.t.id, q);
         });
         if (rows.length) chapters.push({ ch: ch, rows: rows });
       });

@@ -127,6 +127,11 @@
     });
   }
 
+  if (subject !== 'english') {
+    const link = document.getElementById('terminology-link');
+    link.href = withSubject('explore/index.html?terms=1');
+    link.hidden = false;
+  }
   if (Subjects.usesK12(subject)) {
     const reviewedLink = document.getElementById('reviewed-exercises-link');
     reviewedLink.href = withSubject('explore/index.html?reviewed=1');

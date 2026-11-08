@@ -948,5 +948,5 @@ a.grade-card:hover .grade-go { color: var(--text); transform: translate(2px, -2p
 
 .export-preview{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}.export-preview summary{cursor:pointer;font-weight:600}.export-preview pre{max-height:28rem;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;background:var(--bg-muted);border-radius:10px;font-size:12px;line-height:1.6}
 
-.quiet-link #reviewed-exercises-link { margin-inline-start: 1.2em; }
-.quiet-link #reviewed-exercises-link::before { content: none; }
+.quiet-link :is(#reviewed-exercises-link, #terminology-link) { margin-inline-start: 1.2em; }
+.quiet-link :is(#reviewed-exercises-link, #terminology-link)::before { content: none; }

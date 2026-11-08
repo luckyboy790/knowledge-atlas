@@ -227,6 +227,16 @@
         value = value.concat(bridges.filter(function(e){return canonical(e.subject) === subject;}));
       }
     } else value = await loadJson(file);
+    if (file === 'cs408-topics.json') {
+      for (const topic of value) {
+        const label = topic.name.replace(/高速缓存（Cache）|\bCache\b/g, '高速缓存（Cache）')
+          .replace(/中央处理器（CPU）|\bCPU\b/g, '中央处理器（CPU）');
+        if (label !== topic.name) {
+          topic.originalName = topic.name;
+          topic.name = label;
+        }
+      }
+    }
     return response(value);
   }
   // 适配对象只进入引擎；大学课程共享学段编码，跨课程先修按拓扑排序。

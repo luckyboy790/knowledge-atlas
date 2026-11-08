@@ -40,6 +40,7 @@
   var questionsByTopic = new Map();
   var reviewedByTopic = new Map();
   var reviewedOnly = false;
+  var termsOnly = false;
 
   function $(id) { return document.getElementById(id); }
 
@@ -273,6 +274,7 @@
   }
 
   function passFilter(topic) {
+    if (termsOnly && !AtlasTerms.forTopic(topic.id).length) return false;
     if (reviewedOnly && !reviewedByTopic.has(topic.id)) return false;
     if (stage && Subjects.stageCode(topic.grade, subject) !== stage) return false;
     if (member && Subjects.rawOf(topic) !== member) return false;
@@ -285,8 +287,8 @@
     }
     if (domain && topic.domain !== domain) return false;
     if (query) {
-      var blob = (topic.name + '\n' + topic.description + '\n' + (topic.chapter || '') + '\n' + topic.id + '\n' + topic.domain + (topic.k12 ? '\n' + topic.k12.sourceId + '\n' + Subjects.k12Text(topic.k12.fields.aliases) : '')).toLowerCase();
-      if (blob.indexOf(query) < 0 && !aliasHitIds.has(topic.id)) return false;
+      var blob = (topic.name + '\n' + (topic.originalName || '') + '\n' + topic.description + '\n' + (topic.chapter || '') + '\n' + topic.id + '\n' + topic.domain + (topic.k12 ? '\n' + topic.k12.sourceId + '\n' + Subjects.k12Text(topic.k12.fields.aliases) : '')).toLowerCase();
+      if (!blob.includes(query) && !AtlasTerms.matches(topic.id, query) && !aliasHitIds.has(topic.id)) return false;
     }
     return true;
   }
@@ -405,6 +407,26 @@
     return el('div', { class: wide ? 'span-2' : '' }, el('dt', { text: label }), el('dd', { text: value || '—' }));
   }
 
+  function terminologySection(topic) {
+    const entries = AtlasTerms.forTopic(topic.id);
+    if (!entries.length) {
+      return el('details', {class:'term-lookup'}, el('summary', {text:'在术语在线查词'}),
+        el('form', {action:'https://www.termonline.cn/search', method:'get', target:'_blank', rel:'noopener noreferrer'},
+          el('label', null, '中文术语 ', el('input', {name:'searchText', value:topic.name, required:true})),
+          el('button', {type:'submit', text:'查询'})));
+    }
+    return el('section', {class:'official-terms'},
+      el('h2', {text:'中文术语'}),
+      el('ul', null, entries.map(function (term) {
+        return el('li', null,
+          el('a', {href:AtlasTerms.entryUrl(term), target:'_blank', rel:'noopener noreferrer', text:term.name}),
+          term.english ? el('span', {class:'term-english', lang:'en', text:' · ' + term.english}) : null,
+          term.other.length ? el('div', {text:term.other.map(item => item[0] + '：' + item[1]).join('，')}) : null,
+          el('small', {class:'muted', text:'《' + term.book + '》' + term.year + ' 年'}));
+      })),
+      el('a', {class:'small', href:'../sources.html?subject=' + subject + '#chinese-terminology', text:'全国科技名词委 · 对照说明'}));
+  }
+
   function renderDetail() {
     var box = $('detail');
     if (!selected || !byId.has(selected)) {
@@ -451,6 +473,7 @@
         el('a',{href:withSubject('../diagnose/index.html?chapter=' + encodeURIComponent(schoolChapter.volume + ' ' + schoolChapter.chapterNo))},'以本章为目标'), ' · ',
         el('a',{href:withSubject('../diagnose/index.html?volume=' + encodeURIComponent(topic.textbook.book))},'测评本册已收录知识')));
     }
+    if (subject !== 'english') parts.push(terminologySection(topic));
     const reviewed = reviewedByTopic.get(topic.id) || [];
     if (reviewed.length) {
       parts.push(el('section', {class:'reviewed-exercises'},
@@ -1034,6 +1057,9 @@
     $('reviewed-filter-row').hidden = !Subjects.usesK12(subject);
     reviewedOnly = Subjects.usesK12(subject) && params.get('reviewed') === '1';
     $('fReviewed').checked = reviewedOnly;
+    $('terms-filter-row').hidden = subject === 'english';
+    termsOnly = subject !== 'english' && params.get('terms') === '1';
+    $('fTerms').checked = termsOnly;
     member = subject === 'tcm' && ['tcm','herbal'].indexOf(params.get('member')) >= 0 ? params.get('member') : initial.member;
     if ($('fMember')) $('fMember').value = member;
     if (schoolBookFilters()) {
@@ -1065,14 +1091,15 @@
 
   function bootSelection() {
     var hash = readHash() || new URLSearchParams(location.search).get('target');
-    if (hash && resolveId(hash)) { select(hash, 'hash'); return; }
-    if (hash && Subjects.usesK12(subject)) {
+    var match = hash && resolveId(hash);
+    if (match && (!termsOnly || passFilter(byId.get(match.id)))) { select(hash, 'hash'); return; }
+    if (hash && !match && Subjects.usesK12(subject)) {
       renderDetail();
       $('detail').prepend(el('p',{class:'alias-note',text:'当前图谱找不到此编号。请按知识点名称搜索，或从教材册次重新选择。'}));
       renderGraph();
       return;
     }
-    if (reviewedOnly || grade || book || chapter) {
+    if (termsOnly || reviewedOnly || grade || book || chapter) {
       var first = topics.filter(passFilter)[0];
       if (first) { select(first.id, 'user'); return; }
     }
@@ -1081,14 +1108,16 @@
   }
 
   function bind() {
-    $('fReviewed').addEventListener('change', function () {
+    function changeFilter(event) {
       reviewedOnly = $('fReviewed').checked;
+      termsOnly = $('fTerms').checked;
+      const key = event.target.id === 'fTerms' ? 'terms' : 'reviewed';
       var url = new URL(location.href);
-      if (reviewedOnly) url.searchParams.set('reviewed','1');
-      else url.searchParams.delete('reviewed');
+      if (event.target.checked) url.searchParams.set(key,'1');
+      else url.searchParams.delete(key);
       try { history.replaceState(null, '', url.href); } catch (error) { /* Offline readers can disallow query changes. */ }
       renderList();
-      if (reviewedOnly && (!selected || !passFilter(byId.get(selected)))) {
+      if ((termsOnly || reviewedOnly) && (!selected || !passFilter(byId.get(selected)))) {
         var first = topics.find(passFilter);
         if (first) { select(first.id, 'user'); return; }
         selected = null;
@@ -1097,7 +1126,9 @@
         renderGraph();
       }
       highlight(false);
-    });
+    }
+    $('fReviewed').addEventListener('change', changeFilter);
+    $('fTerms').addEventListener('change', changeFilter);
     $('q').addEventListener('input', function () {
       query = $('q').value.trim().toLowerCase();
       renderList();
