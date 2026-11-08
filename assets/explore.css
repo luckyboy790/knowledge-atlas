@@ -449,3 +449,9 @@ details[open] > summary::before { transform: rotate(90deg); }
   .zoom-tools button.fit { padding: 0 9px; font-size: 0; gap: 0; }
   .zoom-tools button.fit svg { width: 16px; height: 16px; }
 }
+
+#reviewed-filter-row { font-size: .85rem; cursor: pointer; }
+#reviewed-filter-row input { width: auto; vertical-align: middle; }
+.reviewed-exercises ul { padding-inline-start: 1.25rem; }
+.reviewed-exercises li + li { margin-top: .6rem; }
+.reviewed-exercises a { overflow-wrap: anywhere; }

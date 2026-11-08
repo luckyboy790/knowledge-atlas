@@ -194,8 +194,11 @@
     const extra = (await Promise.all(extensions.map(s => loadJson(s + '-' + kind + '.json')))).flat();
     if (kind === 'topics') return graph.topics.concat(extra);
     if (kind === 'questions') {
-      const old = await loadJson((subject === 'math' ? '' : subject + '-') + 'questions.json');
-      return schoolQuestions(graph, old).concat(extra);
+      const [old, reviewed] = await Promise.all([
+        loadJson((subject === 'math' ? '' : subject + '-') + 'questions.json'),
+        loadJson('exercises-' + subject + '.json')
+      ]);
+      return schoolQuestions(graph, old).concat(reviewed, extra);
     }
     const university = new Set((await Promise.all(extensions.map(s => loadJson(s + '-topics.json')))).flat().map(t => t.id));
     const exists = id => graph.byId.has(id) || university.has(id);

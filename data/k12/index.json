@@ -216,7 +216,8 @@
         "math_2a_rjb_cpt29"
       ],
       "retainedIds": 147,
-      "sourceSHA256": "00ed25179bb4ad096c53b3965fe84a32afa708850de85db5ea4c9e0bacec8f14"
+      "sourceSHA256": "00ed25179bb4ad096c53b3965fe84a32afa708850de85db5ea4c9e0bacec8f14",
+      "selectedExercises": 182
     },
     "physics": {
       "books": 9,
@@ -227,7 +228,8 @@
       "nonLearningOrDuplicateEdges": 1,
       "omitted": [],
       "retainedIds": 24,
-      "sourceSHA256": "2108bcb685554ecb9e9cf61234d45c8accc9416624b8e52819d1ca7583055766"
+      "sourceSHA256": "2108bcb685554ecb9e9cf61234d45c8accc9416624b8e52819d1ca7583055766",
+      "selectedExercises": 45
     },
     "chemistry": {
       "books": 7,
@@ -238,7 +240,8 @@
       "nonLearningOrDuplicateEdges": 6,
       "omitted": [],
       "retainedIds": 13,
-      "sourceSHA256": "6441ec8e247f85350c0b3f594cde65ac9511e8b280ae7f8e093a1d59c82f3059"
+      "sourceSHA256": "6441ec8e247f85350c0b3f594cde65ac9511e8b280ae7f8e093a1d59c82f3059",
+      "selectedExercises": 52
     },
     "biology": {
       "books": 9,
@@ -249,7 +252,26 @@
       "nonLearningOrDuplicateEdges": 0,
       "omitted": [],
       "retainedIds": 0,
-      "sourceSHA256": "c775d68709aaca2c40dbb50fad1e8e9374ac192302fa3856c76b022c012a8996"
+      "sourceSHA256": "c775d68709aaca2c40dbb50fad1e8e9374ac192302fa3856c76b022c012a8996",
+      "selectedExercises": 45
     }
+  },
+  "exercises": {
+    "math": [
+      "exercises-math.json",
+      "exercises-math.a7b1462e202d.js"
+    ],
+    "physics": [
+      "exercises-physics.json",
+      "exercises-physics.28276f5abfcf.js"
+    ],
+    "chemistry": [
+      "exercises-chemistry.json",
+      "exercises-chemistry.999358c84e09.js"
+    ],
+    "biology": [
+      "exercises-biology.json",
+      "exercises-biology.7c3122dedec1.js"
+    ]
   }
 }

@@ -35,7 +35,7 @@ for filename in files:
     manifest[filename] = output
 
 book_index = json.loads((DATA / 'k12' / 'index.json').read_text())
-for books in book_index['books'].values():
+for books in [*book_index['books'].values(), book_index['exercises'].values()]:
     for key, filename in books:
         assert (DATA / 'k12' / filename).is_file()
         manifest[key] = '../k12/' + filename

@@ -9,6 +9,7 @@ const {fileURLToPath, pathToFileURL} = require('node:url');
 const root = path.join(__dirname, '..');
 const read = file => fs.readFileSync(path.join(root,file),'utf8');
 const engine = require('../diagnose/engine.js');
+const choiceOrder = require('../diagnose/choice-order.js');
 const window = {};
 const document = {currentScript:{src:pathToFileURL(path.join(root,'assets/subjects.js')).href},
   createElement:() => ({remove(){}}),head:{appendChild(script) {
@@ -46,6 +47,26 @@ async function check() {
       if (q.source==='k12-recall') assert(q.type==='self' && !q.answer.includes('[object Object]'));
     }
     const graph = engine.buildGraph(S.engineTopics(topics),edges,questions);
+    const published = questions.filter(q => q.source === 'k12-exercise');
+    const selected = JSON.parse(read('scripts/k12-exercise-selection.json'))[subject];
+    const plannedIds = Object.entries(selected).flatMap(([book,numbers]) =>
+      numbers.map(n => subject + '_' + book + '_rjb_exe' + n)).sort();
+    assert.equal(published.length, stats[subject].selectedExercises);
+    assert.deepEqual(Array.from(published,q=>q.sourceId).sort(), plannedIds);
+    const schoolIds = new Set(school.map(t=>t.id));
+    for (const q of published) {
+      assert(q.sourceBook && q.linkedTopicIds.includes(q.topicId));
+      assert(q.linkedTopicIds.every(id => schoolIds.has(id)));
+      assert.equal(q.linkedTopicIds.length, new Set(q.linkedTopicIds).size);
+      assert.equal(engine.questionById(graph,q.id).sourceId, q.sourceId);
+      const expectedVerdict = q.type === 'self' ? 'manual' : 'correct';
+      assert.equal(engine.judgeQuestion(q,q.answer).verdict, expectedVerdict, q.id);
+      if (q.type === 'choice') {
+        assert(q.choices.every(c=>c.text));
+        assert.equal(choiceOrder.ordered(q,'sample').map(c=>c.label).join(''), q.choices.map(c=>c.key).join(''));
+        assert.equal(engine.judgeQuestion(q,q.choices.find(c=>c.key !== q.answer).key).verdict, 'wrong');
+      }
+    }
     for (const t of topics) {
       engine.ancestors(graph,[t.id]);
       if (t.k12) assert(engine.isTestable(graph,t.id),t.k12.sourceId);

@@ -7,7 +7,7 @@
     const exploreUrl = Subjects.link('../explore/index.html', subject);
     const name = id => graph.byId[id].name;
     const page = (...children) => h('div', {class:'page page-question practice-page'}, ...children);
-    let queue = [], answers = [], label = '', seed = '';
+    let queue = [], answers = [], label = '', seed = '', exact = false;
     const bank = id => graph.bank[id] || [];
     function saved() {
       return new Map([...schedule.records(subject)].filter(([id]) => bank(id).length));
@@ -44,8 +44,14 @@
         return x[0]-y[0] || x[1]-y[1] || x[2]-y[2];
       })[0];
     }
-    function start(ids, review) {
+    function start(ids, review, question) {
+      exact = Boolean(question);
       answers = []; queue = []; seed = Math.random().toString(36).slice(2);
+      if (exact) {
+        label = '人工核验习题';
+        queue.push({topicId:ids[0], question, attempt:1});
+        return ask(queue[0]);
+      }
       label = review ? '到期复习' : '专项练习';
       for (const id of ids) {
         const first = choose(id, review ? 'standard' : 'basic');
@@ -64,7 +70,7 @@
       const ok = result === 'correct';
       schedule.record(subject, id, item.question.id, ok);
       answers.push({id, ok});
-      if (!ok && item.attempt === 1 && !queue.some(other => other.topicId === id && other.attempt > 1)) {
+      if (!exact && !ok && item.attempt === 1 && !queue.some(other => other.topicId === id && other.attempt > 1)) {
         const retry = choose(id, 'basic', [item.question.id]);
         if (retry) queue.push({topicId:id, question:retry, attempt:2});
       }
@@ -77,7 +83,7 @@
         h('h2', {}, '下次复习'), h('ul', {class:'practice-list'}, touched.map(id =>
           h('li', {}, name(id), h('time', {}, entries.get(id).due)))),
         h('p', {class:'muted small'}, schedule.persistent() ? '到期后从首页进入「今日复习」。' : '当前浏览器无法保存记录，离开页面后需重新开始。'),
-        link(dashboardUrl,'返回今日复习'), link(exploreUrl,'回到知识图谱'))));
+        link(dashboardUrl,'返回今日复习'), link(exact ? Subjects.link('../explore/index.html?reviewed=1#' + encodeURIComponent(id), subject) : exploreUrl,'回到知识图谱'))));
     }
     return {lobby, start, commit, get count(){return answers.length;}, get total(){return queue.length;}, get label(){return label;}, get seed(){return seed;}};
   };

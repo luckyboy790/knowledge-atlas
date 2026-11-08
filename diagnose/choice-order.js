@@ -5,6 +5,7 @@
 })(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
   function applies(q) {
+    if (q.source === 'k12-exercise') return false;
     // These explanations refer to content, not original option letters.
     return /^(?:cn[pcbg]_|cnm_ps\d+|cs408_|med_|tcm_|herbal_|uphy_|uch_)/.test(q.topicId) || q.topicId === 'cnm_p024';
   }

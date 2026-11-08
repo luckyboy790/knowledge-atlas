@@ -38,6 +38,8 @@
   var dagreReady = false;
   var FOLD_AT = 40;
   var questionsByTopic = new Map();
+  var reviewedByTopic = new Map();
+  var reviewedOnly = false;
 
   function $(id) { return document.getElementById(id); }
 
@@ -183,7 +185,8 @@
 
   function writeHash(id) {
     if (readHash() === id) return;
-    history.replaceState(null, '', location.pathname + location.search + '#' + id);
+    try { history.replaceState(null, '', '#' + encodeURIComponent(id)); }
+    catch (error) { location.hash = encodeURIComponent(id); }
   }
 
   function cssVar(name) {
@@ -270,6 +273,7 @@
   }
 
   function passFilter(topic) {
+    if (reviewedOnly && !reviewedByTopic.has(topic.id)) return false;
     if (stage && Subjects.stageCode(topic.grade, subject) !== stage) return false;
     if (member && Subjects.rawOf(topic) !== member) return false;
     if (grade && String(topic.grade) !== grade) return false;
@@ -446,6 +450,15 @@
       parts.push(el('p', {class:'small'},
         el('a',{href:withSubject('../diagnose/index.html?chapter=' + encodeURIComponent(schoolChapter.volume + ' ' + schoolChapter.chapterNo))},'以本章为目标'), ' · ',
         el('a',{href:withSubject('../diagnose/index.html?volume=' + encodeURIComponent(topic.textbook.book))},'测评本册已收录知识')));
+    }
+    const reviewed = reviewedByTopic.get(topic.id) || [];
+    if (reviewed.length) {
+      parts.push(el('section', {class:'reviewed-exercises'},
+        el('h2', {text:'人工核验习题（' + reviewed.length + '）'}),
+        el('ul', null, reviewed.map(function (q) {
+          const href = '../diagnose/index.html?practice=exercise&target=' + encodeURIComponent(topic.id) + '&qid=' + encodeURIComponent(q.id);
+          return el('li', null, el('a', {href:withSubject(href), text:q.prompt}));
+        }))));
     }
     parts.push(el('dl', { class: 'meta-grid' },
       metaItem(Subjects.isAcademicTopic(topic) ? Subjects.unitLabel(subject) : '年级册次', gradeLabel(topic)),
@@ -1018,6 +1031,9 @@
 
   function applyQuery() {
     var params = new URLSearchParams(location.search), initial = Subjects.initialScope();
+    $('reviewed-filter-row').hidden = !Subjects.usesK12(subject);
+    reviewedOnly = Subjects.usesK12(subject) && params.get('reviewed') === '1';
+    $('fReviewed').checked = reviewedOnly;
     member = subject === 'tcm' && ['tcm','herbal'].indexOf(params.get('member')) >= 0 ? params.get('member') : initial.member;
     if ($('fMember')) $('fMember').value = member;
     if (schoolBookFilters()) {
@@ -1056,7 +1072,7 @@
       renderGraph();
       return;
     }
-    if (grade || book || chapter) {
+    if (reviewedOnly || grade || book || chapter) {
       var first = topics.filter(passFilter)[0];
       if (first) { select(first.id, 'user'); return; }
     }
@@ -1065,6 +1081,23 @@
   }
 
   function bind() {
+    $('fReviewed').addEventListener('change', function () {
+      reviewedOnly = $('fReviewed').checked;
+      var url = new URL(location.href);
+      if (reviewedOnly) url.searchParams.set('reviewed','1');
+      else url.searchParams.delete('reviewed');
+      try { history.replaceState(null, '', url.href); } catch (error) { /* Offline readers can disallow query changes. */ }
+      renderList();
+      if (reviewedOnly && (!selected || !passFilter(byId.get(selected)))) {
+        var first = topics.find(passFilter);
+        if (first) { select(first.id, 'user'); return; }
+        selected = null;
+        if (location.hash) location.hash = '';
+        renderDetail();
+        renderGraph();
+      }
+      highlight(false);
+    });
     $('q').addEventListener('input', function () {
       query = $('q').value.trim().toLowerCase();
       renderList();
@@ -1211,6 +1244,12 @@
         var bucket = questionsByTopic.get(q.topicId);
         if (!bucket) questionsByTopic.set(q.topicId, bucket = []);
         bucket.push(q);
+        if (q.source === 'k12-exercise') {
+          q.linkedTopicIds.forEach(function (id) {
+            if (!reviewedByTopic.has(id)) reviewedByTopic.set(id, []);
+            reviewedByTopic.get(id).push(q);
+          });
+        }
       });
     } catch (e) { /* 题库读不到时，样题只显示原来的文字 */ }
   }

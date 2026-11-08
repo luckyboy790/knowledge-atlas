@@ -646,6 +646,8 @@
   function feedbackBlock(q) {
     return h('div', { class: 'feedback' },
       h('div', { class: 'refans' }, h('b', null, '参考答案：'), answerText(q)),
+      q.sourceAnswer && q.sourceAnswer.length > 1 && !['正确','错误'].includes(q.sourceAnswer) ?
+        h('div', {class:'explain'}, h('b', null, '发布版答案：'), q.sourceAnswer) : null,
       q.explanation ? h('div', { class: 'explain', id: 'explain' }, h('b', null, '解析：'), q.explanation) : null);
   }
 
@@ -673,7 +675,12 @@
         h('span', { class: 'tag', text: '本知识点第 ' + item.attempt + ' 题' })),
       practice ? null : h('div', { class: 'reason', text: reasonFor(item) }),
       h('div', { class: 'q-text', id: 'q-text', text: q.prompt }));
-    if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), t.k12 ? (q.source === 'k12-recall' ? ' · 根据图谱编制的自评题 · ' : ' · 站内原有练习 · ') : ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#' + (t.k12 ? 'k12-kgraph' : t.textbook.book),target:'_blank',rel:'noopener'},'查看来源')));
+    if (q.source === 'k12-exercise') {
+      card.append(h('p', {class:'muted small textbook-source'},
+        'K12-KGraph · 人工核验习题 · ' + q.sourceBook + ' · 原题编号 ',
+        h('code', null, q.sourceId), ' · ',
+        h('a', {href:'../sources.html?subject=' + subject + '#k12-exercises'}, '查看核验范围')));
+    } else if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), t.k12 ? (q.source === 'k12-recall' ? ' · 根据图谱编制的自评题 · ' : ' · 站内原有练习 · ') : ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#' + (t.k12 ? 'k12-kgraph' : t.textbook.book),target:'_blank',rel:'noopener'},'查看来源')));
     if (subject === 'math' && /^cnm_ps\d+$/.test(t.id) && t.exam_scope) card.append(h('p',{class:'muted small probability-scope'},'知识语境：现代数学 · 备考方向：' + t.exam_scope.label + '。' + t.exam_scope.verification + '。', h('a',{href:'../sources.html?subject=math#math-probability',target:'_blank',rel:'noopener'},'范围说明')));
     const stemFig = figureEl(q.figure);
     if (stemFig) {
@@ -1302,7 +1309,8 @@
         return {
           order: i + 1, topicId: a.id, name: nameOf(a.id), questionId: a.qid, difficulty: q.difficulty, type: q.type,
           prompt: q.prompt, userAnswer: a.text == null ? null : a.text, result: a.result,
-          referenceAnswer: q.answer,
+          source: q.source, sourceId: q.sourceId, sourceBook: q.sourceBook,
+          referenceAnswer: q.sourceAnswer || q.answer,
           userAnswerDisplay: a.text == null ? null : (q.type === 'choice' ? answerOfKey(q, a.text) : a.text),
           referenceAnswerDisplay: answerText(q),
           displayedChoices: q.type === 'choice' ? displayChoices(q) : undefined,
@@ -1454,12 +1462,21 @@
       return;
     }
     const params = new URLSearchParams(location.search);
-    if (['review','focus'].includes(params.get('practice')) && !params.has('demo')) {
+    const practiceMode = params.get('practice');
+    if (['review','focus','exercise'].includes(practiceMode) && !params.has('demo')) {
       practice = window.createPractice({subject, graph:D.graph, h, show, avoid:seenList(),
         ask:function(item){ resetUi(); renderQuestion(item); }});
       const id = params.get('target');
-      document.title = Subjects.names[subject] + ' · ' + (params.get('practice') === 'focus' ? '专项练习' : '今日复习');
-      if (params.get('practice') === 'focus' && D.graph.bank[id]?.length) practice.start([id], false);
+      const labels = {exercise:'人工核验习题',focus:'专项练习',review:'今日复习'};
+      document.title = Subjects.names[subject] + ' · ' + labels[practiceMode];
+      if (practiceMode === 'exercise') {
+        const q = E.questionById(D.graph, params.get('qid') || '');
+        if (q && q.source === 'k12-exercise' && q.linkedTopicIds.includes(id)) practice.start([id], false, q);
+        else {
+          practice = null;
+          renderStart('找不到与这个知识点对应的人工核验习题。请从图谱的习题列表重新选择。');
+        }
+      } else if (practiceMode === 'focus' && D.graph.bank[id]?.length) practice.start([id], false);
       else practice.lobby();
       return;
     }

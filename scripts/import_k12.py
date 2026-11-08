@@ -69,6 +69,71 @@ def cycle_edges(edges):
     return {(a, b) for a, b, _ in edges if comp[a] == comp[b]}
 
 
+def published_question(props):
+    stem, answer = props['stem'].strip(), props['answer'].strip()
+    # Retain the published option order: answers or explanations can refer to a letter.
+    options = list(re.finditer(r'(?<![A-Za-z0-9])([A-D])[.．、]\s*', stem))
+    key = re.fullmatch(r'([A-D])(?:[。.]|[（(].*[）)])?', answer, re.S)
+    if key and len(options) >= 2:
+        keys = ''.join(m[1] for m in options)
+        if keys == 'ABCD'[:len(keys)] and key[1] in keys:
+            spans = [m.start() for m in options] + [len(stem)]
+            choices = [{'key':m[1], 'text':stem[m.end():spans[i+1]].strip().rstrip('；;')} for i,m in enumerate(options)]
+            if all(c['text'] for c in choices):
+                return dict(type='choice', prompt=stem[:spans[0]].rstrip(), answer=key[1], choices=choices,
+                            sourceAnswer=answer)
+    verdict = re.match(r'^(正确|错误|对|错|√|×)(?=$|[。，；、（(])', answer)
+    if (props.get('type') == '判断题' and verdict and
+            not re.search(r'理由|为什么|解释|原因|\([2-9]\)|（[2-9]）', stem)):
+        choices = [{'key':'A','text':'正确'}, {'key':'B','text':'错误'}]
+        return dict(type='choice',prompt=stem,answer='A' if verdict[1] in ('正确','对','√') else 'B',
+                    choices=choices,sourceAnswer=answer)
+    kind = 'numeric' if re.fullmatch(r'-?\d+(?:\.\d+|/\d+)?', answer) and not re.search(r'为什么|说明|方法|解释|证明|竖式',stem) else 'self'
+    return dict(type=kind,prompt=stem,answer=answer)
+
+
+def write_exercises(subject, raw, nodes, ids):
+    selected = json.loads((ROOT / 'scripts' / 'k12-exercise-selection.json').read_text())[subject]
+    links = defaultdict(list)
+    for edge in raw['edges']:
+        if edge['type'] in ('tests_concept','tests_skill'):
+            for item in edge.get('target_name_to_ids', []):
+                origin = item.get('target')
+                if origin in ids and ids[origin] not in links[edge['source']]:
+                    links[edge['source']].append(ids[origin])
+    questions = []
+    for code, numbers in selected.items():
+        for number in numbers:
+            book_id = subject + '_' + code + '_rjb'
+            source_id = book_id + '_exe' + str(number)
+            node = nodes[source_id]
+            assert node['label'] == 'Exercise' and links[source_id], source_id
+            props = node['properties']
+            assert isinstance(props.get('answer'),str) and props['answer'].strip(), source_id
+            question = published_question(props)
+            if props.get('analysis'):
+                question['explanation'] = props['analysis'].strip()
+            # A source book and its exercise number yield a stable slot across future additions.
+            if code.startswith('xzxbx'):
+                book_code = 40 + int(code[-1])
+            elif code.startswith('bx'):
+                book_code = 30 + int(code[-1])
+            else:
+                book_code = int(code[0]) * 3 + {'a':0, 'b':1, '':2}[code[1:]]
+            slot = 100000 + 1000 * book_code + number
+            primary = links[source_id][0]
+            question.update(id=primary+'_q'+str(slot), topicId=primary, linkedTopicIds=links[source_id],
+                            source='k12-exercise', sourceId=source_id, sourceBook=nodes[book_id]['name'],
+                            difficulty={1:'basic',2:'basic',3:'standard',4:'advanced',5:'advanced'}[props['difficulty']])
+            questions.append(question)
+    assert len({q['sourceId'] for q in questions}) == len(questions)
+    key = 'exercises-' + subject + '.json'
+    js = 'window.ToyData.register(' + compact(key) + ',' + compact(compact(questions)) + ');\n'
+    file = f'exercises-{subject}.{sha256(js.encode()).hexdigest()[:12]}.js'
+    (OUT / file).write_text(js)
+    return [key,file], len(questions)
+
+
 def build(subject, source):
     prefix = SUBJECTS[subject]
     raw = json.loads(source)
@@ -157,7 +222,8 @@ def build(subject, source):
                  nonLearningOrDuplicateEdges=prereq_rows-len(deps), omitted=omitted,
                  retainedIds=sum(not v.startswith(prefix + '_k') for v in ids.values()),
                  sourceSHA256=sha256(source).hexdigest())
-    return filenames, stats
+    exercise_file, stats['selectedExercises'] = write_exercises(subject, raw, nodes, ids)
+    return filenames, stats, exercise_file
 
 
 def main():
@@ -165,13 +231,14 @@ def main():
     parser.add_argument('--from-dir', type=Path)
     args = parser.parse_args()
     OUT.mkdir(exist_ok=True)
-    manifest, stats = {}, {}
+    manifest, stats, exercises = {}, {}, {}
     for subject in SUBJECTS:
         source = ((args.from_dir / f'{subject}.json').read_bytes() if args.from_dir else
                   urlopen(f'{URL}/{subject}.json', timeout=90).read())
-        manifest[subject], stats[subject] = build(subject, source)
-    (OUT / 'index.json').write_text(json.dumps({'revision':REV,'books':manifest,'stats':stats},ensure_ascii=False,indent=2)+'\n')
+        manifest[subject], stats[subject], exercises[subject] = build(subject, source)
+    (OUT / 'index.json').write_text(json.dumps({'revision':REV,'books':manifest,'stats':stats,'exercises':exercises},ensure_ascii=False,indent=2)+'\n')
     keep = {file for rows in manifest.values() for _,file in rows}
+    keep.update(file for _,file in exercises.values())
     for file in OUT.glob('*.js'):
         if file.name not in keep:
             file.unlink()

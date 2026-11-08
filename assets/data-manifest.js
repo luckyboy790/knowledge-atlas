@@ -111,5 +111,9 @@ window.ToyDataFiles = {
   "k12-biology_bx2_rjb.json": "../k12/biology_bx2_rjb.3d59844e0465.js",
   "k12-biology_xzxbx1_rjb.json": "../k12/biology_xzxbx1_rjb.547e3253b35e.js",
   "k12-biology_xzxbx2_rjb.json": "../k12/biology_xzxbx2_rjb.41b2abe58d48.js",
-  "k12-biology_xzxbx3_rjb.json": "../k12/biology_xzxbx3_rjb.bf325887c7fb.js"
+  "k12-biology_xzxbx3_rjb.json": "../k12/biology_xzxbx3_rjb.bf325887c7fb.js",
+  "exercises-math.json": "../k12/exercises-math.a7b1462e202d.js",
+  "exercises-physics.json": "../k12/exercises-physics.28276f5abfcf.js",
+  "exercises-chemistry.json": "../k12/exercises-chemistry.999358c84e09.js",
+  "exercises-biology.json": "../k12/exercises-biology.7c3122dedec1.js"
 };

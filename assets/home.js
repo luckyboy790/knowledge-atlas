@@ -128,8 +128,11 @@
   }
 
   if (Subjects.usesK12(subject)) {
+    const reviewedLink = document.getElementById('reviewed-exercises-link');
+    reviewedLink.href = withSubject('explore/index.html?reviewed=1');
+    reviewedLink.hidden = false;
     document.querySelector('.lede').textContent = '按册、章和节查找 K12-KGraph 收录的知识点。点开一个主题，可以查看教材位置、先修关系，再用练习找出需要回顾的内容。';
-    document.querySelector('.stat-note').textContent = '中小学图谱由 K12-KGraph 项目发布。练习包括站内已有题目和依据图谱编制的自评题。';
+    document.querySelector('.stat-note').textContent = '中小学图谱由 K12-KGraph 项目发布。标有“人工核验习题”的题目来自项目发布数据，另有站内练习和图谱回忆自评题。';
     document.querySelector('#n-standards + .stat-label').textContent = '中小学教材册数';
     const steps = document.querySelectorAll('.steps li p');
     if (steps[1]) steps[1].textContent = '做题检查目标知识点，有第二道题时可再确认一次，然后沿先修关系查找需要复习的内容。';
