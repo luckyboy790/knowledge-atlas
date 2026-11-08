@@ -29,6 +29,7 @@
 
   const root = document.getElementById('root');
   let D = null;            // 数据：{topics, deps, stdById, graph, tree}
+  let practice = null;       // 专项练习独立于诊断存档
   let session = null;      // 引擎会话
   let sessionMeta = null;  // {label, chapterKey?}
   let demo = null;         // 演示模式：{oracle}
@@ -268,6 +269,7 @@
   }
 
   function commit(result) {
+    if (practice) return practice.commit(ui.helped && result === 'correct' ? 'assisted' : result);
     const item = E.nextItem(D.graph, session);
     session = E.applyAnswer(D.graph, session, item.topicId, result, { text: ui.answer });
     markSeen(item.question.id);
@@ -630,7 +632,7 @@
   }
 
   function displayChoices(q) {
-    return window.ChoiceOrder.ordered(q, session ? session.seed : 'preview');
+    return window.ChoiceOrder.ordered(q, practice ? practice.seed : session ? session.seed : 'preview');
   }
 
   function answerText(q) {
@@ -653,22 +655,23 @@
     const t = D.graph.byId[id];
     const key = id + '#' + item.attempt;
     if (ui.key !== key) ui = { key: key, phase: 'ask', answer: '', verdict: null, picked: null };
-    const n = session.answers.length;
+    const n = practice ? practice.count : session.answers.length;
+    const limit = practice ? practice.total : session.limit;
     const card = h('div', { class: 'card card-question' });
     card.append(
       h('div', { class: 'row q-meta' },
-        h('span', { class: 'q-target' }, '目标：' + sessionMeta.label),
+        h('span', { class: 'q-target' }, practice ? practice.label : '目标：' + sessionMeta.label),
         h('span', { class: 'grow' }),
-        h('span', { class: 'q-count' }, '第 ' + (n + 1) + ' 题 / 上限 ' + session.limit)),
-      h('div', { class: 'progress', role: 'progressbar', 'aria-label': '答题进度', 'aria-valuemin': '0', 'aria-valuemax': String(session.limit), 'aria-valuenow': String(n) },
-        h('i', { style: 'width:' + Math.round(n / session.limit * 100) + '%' })),
+        h('span', { class: 'q-count' }, '第 ' + (n + 1) + (practice ? ' 题 / 共 ' : ' 题 / 上限 ') + limit)),
+      h('div', { class: 'progress', role: 'progressbar', 'aria-label': '答题进度', 'aria-valuemin': '0', 'aria-valuemax': String(limit), 'aria-valuenow': String(n) },
+        h('i', { style: 'width:' + Math.round(n / limit * 100) + '%' })),
       h('p', { class: 'q-chapter', text: t.chapter }),
       h('h2', { class: 'q-title', text: t.name }),
       h('div', { class: 'row small q-tags' },
         h('span', { class: 'tag diff-' + q.difficulty, text: DIFF_LABEL[q.difficulty] || q.difficulty }),
         h('span', { class: 'tag', text: TYPE_LABEL[q.type] || q.type }),
         h('span', { class: 'tag', text: '本知识点第 ' + item.attempt + ' 题' })),
-      h('div', { class: 'reason', text: reasonFor(item) }),
+      practice ? null : h('div', { class: 'reason', text: reasonFor(item) }),
       h('div', { class: 'q-text', id: 'q-text', text: q.prompt }));
     if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#'+t.textbook.book,target:'_blank',rel:'noopener'},'查看来源')));
     if (subject === 'math' && /^cnm_ps\d+$/.test(t.id) && t.exam_scope) card.append(h('p',{class:'muted small probability-scope'},'知识语境：现代数学 · 备考方向：' + t.exam_scope.label + '。' + t.exam_scope.verification + '。', h('a',{href:'../sources.html?subject=math#math-probability',target:'_blank',rel:'noopener'},'范围说明')));
@@ -678,6 +681,10 @@
       if (qt) qt.insertAdjacentElement('afterend', stemFig);
     }
 
+    if (practice && item.attempt > 1 && ui.phase === 'ask' && t.description) {
+      card.append(h('details', {class:'practice-hint', ontoggle:function(e){ if (e.target.open) ui.helped = true; }},
+        h('summary', {}, '需要一点提示'), h('p', {}, t.description)));
+    }
     if (ui.phase === 'ask') {
       if (q.type === 'choice') {
         card.append(h('div', { class: 'choices' + (q.hideChoiceText ? ' fig-icons' : ''), id: 'choices' }, displayChoices(q).map(function (c) {
@@ -707,7 +714,7 @@
       }
       card.append(h('div', { class: 'row q-actions' },
         q.type === 'self' ? null : h('button', { class: 'primary', id: 'btn-submit', onclick: function () { judgeAndGo(item); } }, '提交答案'),
-        q.type === 'choice' ? null : h('button', { id: 'btn-peek', onclick: function () { ui.phase = 'self'; ui.verdict = null; renderQuestion(item); } }, '看参考答案并自评'),
+        q.type === 'choice' ? null : h('button', { id: 'btn-peek', onclick: function () { if (practice && !ui.answer.trim()) ui.helped = true; ui.phase = 'self'; ui.verdict = null; renderQuestion(item); } }, '看参考答案并自评'),
         h('button', { id: 'btn-skip', onclick: function () { ui.phase = 'skip'; renderQuestion(item); } }, '不会')));
     } else if (ui.phase === 'auto') {
       const ok = ui.verdict.verdict === 'correct';
@@ -718,7 +725,7 @@
         h('div', { class: 'row q-actions' },
           h('button', { class: 'primary', id: 'btn-next', onclick: function () { commit(ok ? 'correct' : 'wrong'); } }, '下一题'),
           h('button', { id: 'btn-flip', onclick: function () { commit(ok ? 'wrong' : 'correct'); } }, ok ? '判错了，我其实没做对' : '判错了，我其实做对了'),
-          h('button', { onclick: function () { ui.phase = 'ask'; renderQuestion(item); } }, '重新作答')));
+          practice ? null : h('button', { onclick: function () { ui.phase = 'ask'; renderQuestion(item); } }, '重新作答')));
     } else if (ui.phase === 'skip') {
       card.append(
         h('div', { class: 'muted your-answer' }, '你选择了「不会」。看一下答案和解析再继续：'),
@@ -736,10 +743,25 @@
           h('button', { id: 'btn-skip2', onclick: function () { commit('skip'); } }, '不会')));
     }
 
-    card.append(h('div', { class: 'notice' }, Subjects.isAcademicTopic(t) ? '根据参考答案检查本次选择。答题记录中可以更正判定；知识解释与争议点请结合教材和教师指导核实。' : '提示：自动判题只是近似的（数字、分数、多个答案会做规范化后比较），一切以参考答案为准；判错了可以手动更正。'));
-    card.append(h('div', { class: 'row no-print q-foot' },
-      n > 0 ? h('button', { class: 'small', onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null,
-      h('button', { class: 'small', onclick: function () { if (confirm(uiText('确定放弃当前诊断并回到开始页吗？'))) restart(); } }, '重新开始')));
+    if (practice) {
+      const nextButton = card.querySelector('#btn-next');
+      if (nextButton) nextButton.textContent = '记录并继续';
+    }
+    if (practice && id === 'cnm_221' && (ui.phase === 'skip' || ui.verdict?.verdict === 'wrong')) {
+      card.append(h('details', {class:'practice-hint'},
+        h('summary', {}, '看一遍配方过程'), h('p', {}, '例：用配方法解 x² + 8x = 9。'),
+        h('ol', {}, h('li', {}, '一次项系数是 8，取一半得到 4，再平方得到 16。'),
+          h('li', {}, '等式两边同时加 16，得到 x² + 8x + 16 = 25。'),
+          h('li', {}, '写成 (x + 4)² = 25，得到 x + 4 = ±5，所以 x = 1 或 −9。'))));
+    }
+    if (practice) {
+      card.append(h('div', {class:'q-foot'}, h('a', {href:withSubject('index.html?practice=review')}, '退出本轮练习')));
+    } else {
+      card.append(h('div', { class: 'notice' }, Subjects.isAcademicTopic(t) ? '根据参考答案检查本次选择。答题记录中可以更正判定；知识解释与争议点请结合教材和教师指导核实。' : '提示：自动判题只是近似的（数字、分数、多个答案会做规范化后比较），一切以参考答案为准；判错了可以手动更正。'));
+      card.append(h('div', { class: 'row no-print q-foot' },
+        n > 0 ? h('button', { class: 'small', onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null,
+        h('button', { class: 'small', onclick: function () { if (confirm(uiText('确定放弃当前诊断并回到开始页吗？'))) restart(); } }, '重新开始')));
+    }
     const page = h('div', { class: 'page page-question' });
     if (demo) page.append(demoBanner());
     page.append(card);
@@ -966,6 +988,14 @@
     summaryCard.append(h('details',{class:'export-preview no-print',id:'export-preview',ontoggle:function(e){if(e.target.open)e.target.querySelector('pre').textContent=serializeExport();}},
       h('summary',null,'查看导出数据'),h('p',{class:'muted small'},'这里显示与下载相同的本次 JSON 数据。若浏览器未能下载，可选中并复制保存；包含选题种子与避题历史，便于复核。'),h('pre',{id:'export-json'})));
     page.append(summaryCard);
+    if (!demo && session.answers.length) {
+      const missed = session.answers.filter(a => a.result !== 'correct').map(a => a.id);
+      const topics = [...new Set(missed.length ? missed : session.answers.map(a => a.id))];
+      page.append(h('section', {class:'card no-print practice-card'},
+        h('h2', {}, missed.length ? '再练一练刚才卡住的知识点' : '巩固刚才答过的知识点'),
+        h('p', {class:'muted small'}, '选一个知识点做一组短练习，完成后安排下次复习。'),
+        h('div', {class:'row'}, topics.map(id => h('a', {class:'btn',href:withSubject('index.html?practice=focus&target=' + encodeURIComponent(id))}, nameOf(id))))));
+    }
     // 宽屏两栏：左边是根因、不稳和学习路径，右边固定显示路径图；窄屏与打印时回到单栏。
     const main = h('div', { class: 'result-main' });
     const side = h('div', { class: 'result-side' });
@@ -1421,6 +1451,15 @@
       return;
     }
     const params = new URLSearchParams(location.search);
+    if (['review','focus'].includes(params.get('practice')) && !params.has('demo')) {
+      practice = window.createPractice({subject, graph:D.graph, h, show, avoid:seenList(),
+        ask:function(item){ resetUi(); renderQuestion(item); }});
+      const id = params.get('target');
+      document.title = Subjects.names[subject] + ' · ' + (params.get('practice') === 'focus' ? '专项练习' : '今日复习');
+      if (params.get('practice') === 'focus' && D.graph.bank[id]?.length) practice.start([id], false);
+      else practice.lobby();
+      return;
+    }
     let resolved = null;
     try { resolved = resolveTargets(params); } catch (e) { renderStart(e.message); return; }
     if (params.get('seed')) seedParam = params.get('seed');

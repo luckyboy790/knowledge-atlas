@@ -127,6 +127,16 @@
     });
   }
 
+  var reviewLink = document.getElementById('review-link');
+  reviewLink.href = withSubject('diagnose/index.html?practice=review');
+  function refreshDueCount() {
+    var count = AtlasPractice.dueEntries(AtlasPractice.records(subject)).length;
+    reviewLink.textContent = count ? '今日复习（' + count + '）' : '今日复习';
+  }
+  refreshDueCount();
+  window.addEventListener('pageshow', refreshDueCount);
+  window.addEventListener('storage', refreshDueCount);
+
   /* 学段：与浏览页、诊断页的配色一致 */
   function stageKind(grade) { return Subjects.stageKind(grade, subject); }
   function stageName(grade) {
