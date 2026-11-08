@@ -127,10 +127,18 @@
     });
   }
 
+  if (Subjects.usesK12(subject)) {
+    document.querySelector('.lede').textContent = '按册、章和节查找 K12-KGraph 收录的知识点。点开一个主题，可以查看教材位置、先修关系，再用练习找出需要回顾的内容。';
+    document.querySelector('.stat-note').textContent = '中小学图谱由 K12-KGraph 项目发布。练习包括站内已有题目和依据图谱编制的自评题。';
+    document.querySelector('#n-standards + .stat-label').textContent = '中小学教材册数';
+    const steps = document.querySelectorAll('.steps li p');
+    if (steps[1]) steps[1].textContent = '做题检查目标知识点，有第二道题时可再确认一次，然后沿先修关系查找需要复习的内容。';
+  }
+  let liveTopicIds = null;
   var reviewLink = document.getElementById('review-link');
   reviewLink.href = withSubject('diagnose/index.html?practice=review');
   function refreshDueCount() {
-    var count = AtlasPractice.dueEntries(AtlasPractice.records(subject)).length;
+    var count = AtlasPractice.dueEntries(AtlasPractice.records(subject)).filter(item => !liveTopicIds || liveTopicIds.has(item[0])).length;
     reviewLink.textContent = count ? '今日复习（' + count + '）' : '今日复习';
   }
   refreshDueCount();
@@ -225,6 +233,8 @@
     var wantEnglish = subject === 'english';
     topics = topics.filter(function (topic) { return Subjects.of(topic) === subject; });
     var allowed = new Set(topics.map(function (t) { return t.id; }));
+    liveTopicIds = allowed;
+    refreshDueCount();
     deps = deps.filter(function (edge) { return allowed.has(edge.topicId) && allowed.has(edge.prerequisiteId); });
     questions = questions.filter(function (question) { return allowed.has(question.topicId); });
     items = items.filter(function (item) { return String(item.id || '').indexOf('ces-') === 0 === wantEnglish; });
@@ -232,7 +242,7 @@
       'n-topics': topics.length,
       'n-edges': deps.length,
       'n-questions': questions.length,
-      'n-standards': Subjects.academic(subject) ? Subjects.coursesFor(subject).length : Subjects.science(subject) ? new Set(topics.map(function (t) { return t.textbook.book; })).size : items.length
+      'n-standards': Subjects.usesK12(subject) ? new Set(topics.filter(t => t.k12).map(t => t.textbook.book)).size : Subjects.academic(subject) ? Subjects.coursesFor(subject).length : Subjects.science(subject) ? new Set(topics.map(function (t) { return t.textbook.book; })).size : items.length
     });
 
     /* 先修关系总览 */

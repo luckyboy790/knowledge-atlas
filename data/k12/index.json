@@ -1,0 +1,255 @@
+{
+  "revision": "d8522c2b336ee435aa51daa39ca0dd736f56fa53",
+  "books": {
+    "math": [
+      [
+        "k12-math_1a_rjb.json",
+        "math_1a_rjb.ea20d7e8ed1e.js"
+      ],
+      [
+        "k12-math_1b_rjb.json",
+        "math_1b_rjb.f6cf8a6a4839.js"
+      ],
+      [
+        "k12-math_2a_rjb.json",
+        "math_2a_rjb.6ca0c6214dab.js"
+      ],
+      [
+        "k12-math_2b_rjb.json",
+        "math_2b_rjb.602cf35ce072.js"
+      ],
+      [
+        "k12-math_3a_rjb.json",
+        "math_3a_rjb.cfc6b191ae21.js"
+      ],
+      [
+        "k12-math_3b_rjb.json",
+        "math_3b_rjb.0dc832dc2f5d.js"
+      ],
+      [
+        "k12-math_4a_rjb.json",
+        "math_4a_rjb.12bb72f76386.js"
+      ],
+      [
+        "k12-math_4b_rjb.json",
+        "math_4b_rjb.5288bf2748d5.js"
+      ],
+      [
+        "k12-math_5a_rjb.json",
+        "math_5a_rjb.c5c1eb3fd10b.js"
+      ],
+      [
+        "k12-math_5b_rjb.json",
+        "math_5b_rjb.7df132b4ea56.js"
+      ],
+      [
+        "k12-math_6a_rjb.json",
+        "math_6a_rjb.a8092e973be3.js"
+      ],
+      [
+        "k12-math_6b_rjb.json",
+        "math_6b_rjb.7e72160f5a8d.js"
+      ],
+      [
+        "k12-math_7a_rjb.json",
+        "math_7a_rjb.48896bbd1159.js"
+      ],
+      [
+        "k12-math_7b_rjb.json",
+        "math_7b_rjb.8eeb20fc1c05.js"
+      ],
+      [
+        "k12-math_8a_rjb.json",
+        "math_8a_rjb.57b2de2722b2.js"
+      ],
+      [
+        "k12-math_8b_rjb.json",
+        "math_8b_rjb.005fd6dc968f.js"
+      ],
+      [
+        "k12-math_9a_rjb.json",
+        "math_9a_rjb.6a421182d261.js"
+      ],
+      [
+        "k12-math_9b_rjb.json",
+        "math_9b_rjb.db38f02bd906.js"
+      ],
+      [
+        "k12-math_bx1_rjb.json",
+        "math_bx1_rjb.9e30144ab032.js"
+      ],
+      [
+        "k12-math_bx2_rjb.json",
+        "math_bx2_rjb.5af5c0a6a66e.js"
+      ],
+      [
+        "k12-math_xzxbx1_rjb.json",
+        "math_xzxbx1_rjb.bd9f6c7fed07.js"
+      ],
+      [
+        "k12-math_xzxbx2_rjb.json",
+        "math_xzxbx2_rjb.1d7d3d9585ac.js"
+      ],
+      [
+        "k12-math_xzxbx3_rjb.json",
+        "math_xzxbx3_rjb.daede9050020.js"
+      ]
+    ],
+    "physics": [
+      [
+        "k12-physics_8a_rjb.json",
+        "physics_8a_rjb.16e36e7cfa29.js"
+      ],
+      [
+        "k12-physics_8b_rjb.json",
+        "physics_8b_rjb.e5be0f0ac2ad.js"
+      ],
+      [
+        "k12-physics_9_rjb.json",
+        "physics_9_rjb.4a6d6108beed.js"
+      ],
+      [
+        "k12-physics_bx1_rjb.json",
+        "physics_bx1_rjb.9156281e4f24.js"
+      ],
+      [
+        "k12-physics_bx2_rjb.json",
+        "physics_bx2_rjb.ab1754024758.js"
+      ],
+      [
+        "k12-physics_bx3_rjb.json",
+        "physics_bx3_rjb.ad4e0916efa0.js"
+      ],
+      [
+        "k12-physics_xzxbx1_rjb.json",
+        "physics_xzxbx1_rjb.148257e9783b.js"
+      ],
+      [
+        "k12-physics_xzxbx2_rjb.json",
+        "physics_xzxbx2_rjb.ea6a81a6a43b.js"
+      ],
+      [
+        "k12-physics_xzxbx3_rjb.json",
+        "physics_xzxbx3_rjb.fd580d0a4f90.js"
+      ]
+    ],
+    "chemistry": [
+      [
+        "k12-chemistry_9a_rjb.json",
+        "chemistry_9a_rjb.8006629b4ed5.js"
+      ],
+      [
+        "k12-chemistry_9b_rjb.json",
+        "chemistry_9b_rjb.74a99c410ff8.js"
+      ],
+      [
+        "k12-chemistry_bx1_rjb.json",
+        "chemistry_bx1_rjb.6cff1562c3cf.js"
+      ],
+      [
+        "k12-chemistry_bx2_rjb.json",
+        "chemistry_bx2_rjb.ac0eff8e8359.js"
+      ],
+      [
+        "k12-chemistry_xzxbx1_rjb.json",
+        "chemistry_xzxbx1_rjb.2486260abacf.js"
+      ],
+      [
+        "k12-chemistry_xzxbx2_rjb.json",
+        "chemistry_xzxbx2_rjb.e065a2dff95c.js"
+      ],
+      [
+        "k12-chemistry_xzxbx3_rjb.json",
+        "chemistry_xzxbx3_rjb.922ec1b9477c.js"
+      ]
+    ],
+    "biology": [
+      [
+        "k12-biology_7a_rjb.json",
+        "biology_7a_rjb.8d96a8011dc3.js"
+      ],
+      [
+        "k12-biology_7b_rjb.json",
+        "biology_7b_rjb.3c3ac5486227.js"
+      ],
+      [
+        "k12-biology_8a_rjb.json",
+        "biology_8a_rjb.f466274c9b40.js"
+      ],
+      [
+        "k12-biology_8b_rjb.json",
+        "biology_8b_rjb.704eaa54c2c8.js"
+      ],
+      [
+        "k12-biology_bx1_rjb.json",
+        "biology_bx1_rjb.204f12bec38c.js"
+      ],
+      [
+        "k12-biology_bx2_rjb.json",
+        "biology_bx2_rjb.3d59844e0465.js"
+      ],
+      [
+        "k12-biology_xzxbx1_rjb.json",
+        "biology_xzxbx1_rjb.547e3253b35e.js"
+      ],
+      [
+        "k12-biology_xzxbx2_rjb.json",
+        "biology_xzxbx2_rjb.41b2abe58d48.js"
+      ],
+      [
+        "k12-biology_xzxbx3_rjb.json",
+        "biology_xzxbx3_rjb.bf325887c7fb.js"
+      ]
+    ]
+  },
+  "stats": {
+    "math": {
+      "books": 23,
+      "topics": 1895,
+      "sourcePrerequisites": 853,
+      "diagnosticEdges": 853,
+      "cycleEdges": 0,
+      "nonLearningOrDuplicateEdges": 0,
+      "omitted": [
+        "math_2a_rjb_cpt27",
+        "math_2a_rjb_cpt28",
+        "math_2a_rjb_cpt29"
+      ],
+      "retainedIds": 147,
+      "sourceSHA256": "00ed25179bb4ad096c53b3965fe84a32afa708850de85db5ea4c9e0bacec8f14"
+    },
+    "physics": {
+      "books": 9,
+      "topics": 1571,
+      "sourcePrerequisites": 648,
+      "diagnosticEdges": 647,
+      "cycleEdges": 0,
+      "nonLearningOrDuplicateEdges": 1,
+      "omitted": [],
+      "retainedIds": 24,
+      "sourceSHA256": "2108bcb685554ecb9e9cf61234d45c8accc9416624b8e52819d1ca7583055766"
+    },
+    "chemistry": {
+      "books": 7,
+      "topics": 3062,
+      "sourcePrerequisites": 1344,
+      "diagnosticEdges": 1334,
+      "cycleEdges": 4,
+      "nonLearningOrDuplicateEdges": 6,
+      "omitted": [],
+      "retainedIds": 13,
+      "sourceSHA256": "6441ec8e247f85350c0b3f594cde65ac9511e8b280ae7f8e093a1d59c82f3059"
+    },
+    "biology": {
+      "books": 9,
+      "topics": 2059,
+      "sourcePrerequisites": 858,
+      "diagnosticEdges": 858,
+      "cycleEdges": 0,
+      "nonLearningOrDuplicateEdges": 0,
+      "omitted": [],
+      "retainedIds": 0,
+      "sourceSHA256": "c775d68709aaca2c40dbb50fad1e8e9374ac192302fa3856c76b022c012a8996"
+    }
+  }
+}

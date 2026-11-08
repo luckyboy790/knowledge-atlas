@@ -7,6 +7,15 @@
     a.classList.toggle('on', active);
     if (active) a.setAttribute('aria-current','true'); else a.removeAttribute('aria-current');
   });
+  if (Subjects.usesK12(subject)) {
+    var k12Notice = document.querySelector('.toy-notice span');
+    if (k12Notice) {
+      var origin = document.createElement('a');
+      origin.href = (/\/(explore|diagnose)\//.test(location.pathname) ? '../' : '') + 'sources.html?subject=' + subject + '#k12-kgraph';
+      origin.textContent = '数据来源与人工核验说明';
+      k12Notice.replaceChildren('中小学数学、物理、化学、生物采用 K12-KGraph。', origin);
+    }
+  }
   if (!Subjects.curriculum(subject)) return;
   document.body.classList.add('subject-curriculum', 'subject-' + subject);
   if (Subjects.medical(subject)) document.body.classList.add('subject-medical');

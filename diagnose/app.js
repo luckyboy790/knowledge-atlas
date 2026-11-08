@@ -191,7 +191,7 @@
     const vols = {};
     topics.forEach(function (t) {
       if (t.external) return;
-      const c = Subjects.isAcademicTopic(t) ? Subjects.computingChapter(t) : Subjects.science(subject) && (t.grade >= 10 || Subjects.biogeo(subject)) ? Subjects.scienceChapter(t) : E.parseChapter(t.chapter);
+      const c = Subjects.isAcademicTopic(t) ? Subjects.computingChapter(t) : (t.k12 || Subjects.science(subject) && (t.grade >= 10 || Subjects.biogeo(subject))) ? Subjects.scienceChapter(t) : E.parseChapter(t.chapter);
       const v = vols[c.volume] || (vols[c.volume] = { chapters: [], byKey: {}, label:c.label, grade:t.grade });
       const key = c.chapterNo + ' ' + c.chapterName;
       let ch = v.byKey[key];
@@ -673,7 +673,7 @@
         h('span', { class: 'tag', text: '本知识点第 ' + item.attempt + ' 题' })),
       practice ? null : h('div', { class: 'reason', text: reasonFor(item) }),
       h('div', { class: 'q-text', id: 'q-text', text: q.prompt }));
-    if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#'+t.textbook.book,target:'_blank',rel:'noopener'},'查看来源')));
+    if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), t.k12 ? (q.source === 'k12-recall' ? ' · 根据图谱编制的自评题 · ' : ' · 站内原有练习 · ') : ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#' + (t.k12 ? 'k12-kgraph' : t.textbook.book),target:'_blank',rel:'noopener'},'查看来源')));
     if (subject === 'math' && /^cnm_ps\d+$/.test(t.id) && t.exam_scope) card.append(h('p',{class:'muted small probability-scope'},'知识语境：现代数学 · 备考方向：' + t.exam_scope.label + '。' + t.exam_scope.verification + '。', h('a',{href:'../sources.html?subject=math#math-probability',target:'_blank',rel:'noopener'},'范围说明')));
     const stemFig = figureEl(q.figure);
     if (stemFig) {
@@ -896,7 +896,7 @@
   /* ------------------------------------------------------------ 结果页 */
   function standardsBlock(id) {
     const t = D.graph.byId[id];
-    if (t.textbook) return h('div', {class:'textbook-source small'}, h('b',null,'教材依据：'), Subjects.reference(t), ' · ', h('a',{href:'../sources.html?subject=' + subject + '#'+t.textbook.book},'来源说明'));
+    if (t.textbook) return h('div', {class:'textbook-source small'}, h('b',null,'教材依据：'), Subjects.reference(t), ' · ', h('a',{href:'../sources.html?subject=' + subject + '#' + (t.k12 ? 'k12-kgraph' : t.textbook.book)},'来源说明'));
     const list = t.standards || [];
     if (!list.length) return h('div', { class: 'muted small', text: t.external ? '小学阶段知识点，未对应第四学段课标条目。' : '没有对应的课标条目。' });
     return h('div', null, h('b', null, '课标条目：'), list.map(function (sd) {
@@ -1092,6 +1092,9 @@
   function standardsCard(sum) {
     const ids = new Set(session.mode === 'screen' ? [] : session.targets);
     sum.path.forEach(function (p) { ids.add(p.id); });
+    if (session.targets.some(id => D.graph.byId[id].k12)) return h('div',{class:'card',id:'standards'},
+      h('h2',{text:'教材复习出处'}),h('p',{class:'muted small'},'下列知识点来自本次目标和复习路径，可按册、章、节回到教材。'),
+      Array.from(ids).map(id => h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id))));
     if (subject === 'math' && session.targets.some(function(id){return /^cnm_ps\d+$/.test(id);})) return h('div',{class:'card',id:'standards'}, h('h2',{text:'教材复习出处'}), h('p',{class:'muted small'},'概率论与数理统计按教材章节定位，备考方向参考出版社公开目录；2027 年大纲全文尚未逐条核验。基础选择题只作抽查，不能代替证明、综合计算与整卷训练。'), h('p',null,h('a',{href:'../sources.html?subject=math#math-probability'},'查看教材版本与考研范围说明')), Array.from(ids).map(function(id){return h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id));}));
     if (Subjects.science(subject) || Subjects.academic(subject)) return h('div', {class:'card',id:'standards'}, h('h2',{text:'教材复习出处'}), h('p',{class:'muted small'},(Subjects.academic(subject) || Subjects.mixedScience(subject)) ? '按各条来源说明回到教材或标准文档复习；专题关联与未核实的章节位置已单独注明。题目与先修关系已进行 AI 检查，尚未经教师审核。' : Subjects.biogeo(subject) ? '按教材册次、单元与章查找知识。已读目录、配套资料和可读正文的核验层级分别说明；已知更新但尚未取得的新目录与正文、图谱原创细分主题等边界见来源页；题目与先修关系已经 AI 检查，尚未经教师审核。' : '按教材章节回到原书复习；仅显示已核实的章节定位。题目与先修关系已进行 AI 检查，尚未经教师审核。'), Array.from(ids).map(function(id){return h('p',null,h('b',null,nameOf(id)+'：'),standardsBlock(id));}));
     const by = {};
@@ -1289,7 +1292,7 @@
     const chapters = session.mode === 'screen' ? E.chapterSummary(D.graph, session) : null;
     const out = {
       tool: 'cn-math-taxonomy/diagnose', version: 2, mode: session.mode || 'target', generatedAt: new Date().toISOString(),
-      note: uiText('内容已经过 AI 审核，但尚未经教师审核。诊断只反映本次已答题目，不代表完整掌握程度或考试成绩。'),
+      note: Subjects.usesK12(subject) ? '中小学图谱来自 K12-KGraph。诊断结果依据本次作答与先修关系推断。' : uiText('内容已经过 AI 审核，但尚未经教师审核。诊断只反映本次已答题目，不代表完整掌握程度或考试成绩。'),
       subject: subject,
       label: sessionMeta.label,
       targets: session.targets.map(brief),
