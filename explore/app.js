@@ -455,6 +455,8 @@
       class: 'btn btn-primary btn-lg diag-btn',
       href: withSubject(diagHref)
     }, uiText('诊断这个知识点')));
+    const guide = GuidedMath.get(subject, topic.id);
+    if (guide) parts.push(el('a', {class:'btn diag-btn', href:withSubject('../diagnose/index.html?practice=guided&target=' + encodeURIComponent(topic.id))}, '分步练习'));
     if (!topic.external) parts.push(el('a', {class:'btn diag-btn', href:withSubject('../diagnose/index.html?practice=focus&target=' + encodeURIComponent(topic.id))}, '专项练习'));
     if (subject === 'math' && /^cnm_ps\d+$/.test(topic.id)) {
       var probabilityChapter = /^(\S+ 第\S+章)/.exec(topic.chapter || '');

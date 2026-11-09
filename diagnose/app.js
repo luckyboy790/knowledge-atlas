@@ -184,7 +184,7 @@
     const stdById = {};
     js[2].items.forEach(function (x) { stdById[x.id] = x; });
     const graph = E.buildGraph(Subjects.engineTopics(topics), deps, questions);
-    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {} };
+    D = { reviewed: (questions || []).filter(q => q.source === 'k12-exercise'), topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {} };
   }
 
   function buildTree(topics) {
@@ -269,7 +269,10 @@
   }
 
   function commit(result) {
-    if (practice) return practice.commit(ui.helped && result === 'correct' ? 'assisted' : result);
+    if (practice) {
+      const selfRated = ui.phase === 'self' || (ui.phase === 'auto' && (ui.verdict.verdict === 'correct') !== (result === 'correct'));
+      return practice.commit(ui.helped && result === 'correct' ? 'assisted' : result, selfRated);
+    }
     const item = E.nextItem(D.graph, session);
     session = E.applyAnswer(D.graph, session, item.topicId, result, { text: ui.answer });
     markSeen(item.question.id);
@@ -681,6 +684,8 @@
         'K12-KGraph · 人工核验习题 · ' + q.sourceBook + ' · 原题编号 ',
         h('code', null, q.sourceId), ' · ',
         h('a', {href:'../sources.html?subject=' + subject + '#k12-exercises'}, '查看核验范围')));
+    } else if (q.source === 'guided-variant') {
+      card.append(h('p', {class:'muted small textbook-source'}, '站内编写的独立变式题，尚未经教师审核。'));
     } else if (t.textbook) card.append(h('p', {class:'muted small textbook-source'}, Subjects.reference(t), t.k12 ? (q.source === 'k12-recall' ? ' · 根据图谱编制的自评题 · ' : ' · 站内原有练习 · ') : ' · 原创练习，', h('a',{href:'../sources.html?subject=' + subject + '#' + (t.k12 ? 'k12-kgraph' : t.textbook.book),target:'_blank',rel:'noopener'},'查看来源')));
     if (subject === 'math' && /^cnm_ps\d+$/.test(t.id) && t.exam_scope) card.append(h('p',{class:'muted small probability-scope'},'知识语境：现代数学 · 备考方向：' + t.exam_scope.label + '。' + t.exam_scope.verification + '。', h('a',{href:'../sources.html?subject=math#math-probability',target:'_blank',rel:'noopener'},'范围说明')));
     const stemFig = figureEl(q.figure);
@@ -755,7 +760,7 @@
       const nextButton = card.querySelector('#btn-next');
       if (nextButton) nextButton.textContent = '记录并继续';
     }
-    if (practice && id === 'cnm_221' && (ui.phase === 'skip' || ui.verdict?.verdict === 'wrong')) {
+    if (practice && !practice.guided && id === 'cnm_221' && (ui.phase === 'skip' || ui.verdict?.verdict === 'wrong')) {
       card.append(h('details', {class:'practice-hint'},
         h('summary', {}, '看一遍配方过程'), h('p', {}, '例：用配方法解 x² + 8x = 9。'),
         h('ol', {}, h('li', {}, '一次项系数是 8，取一半得到 4，再平方得到 16。'),
@@ -763,7 +768,7 @@
           h('li', {}, '写成 (x + 4)² = 25，得到 x + 4 = ±5，所以 x = 1 或 −9。'))));
     }
     if (practice) {
-      card.append(h('div', {class:'q-foot'}, h('a', {href:withSubject('index.html?practice=review')}, '退出本轮练习')));
+      card.append(h('div', {class:'q-foot'}, h('a', {href:practice.exitUrl || withSubject('index.html?practice=review')}, practice.exitLabel || '退出本轮练习')));
     } else {
       card.append(h('div', { class: 'notice' }, Subjects.isAcademicTopic(t) ? '根据参考答案检查本次选择。答题记录中可以更正判定；知识解释与争议点请结合教材和教师指导核实。' : '提示：自动判题只是近似的（数字、分数、多个答案会做规范化后比较），一切以参考答案为准；判错了可以手动更正。'));
       card.append(h('div', { class: 'row no-print q-foot' },
@@ -996,10 +1001,20 @@
     summaryCard.append(h('details',{class:'export-preview no-print',id:'export-preview',ontoggle:function(e){if(e.target.open)e.target.querySelector('pre').textContent=serializeExport();}},
       h('summary',null,'查看导出数据'),h('p',{class:'muted small'},'这里显示与下载相同的本次 JSON 数据。若浏览器未能下载，可选中并复制保存；包含选题种子与避题历史，便于复核。'),h('pre',{id:'export-json'})));
     page.append(summaryCard);
+    const priorities = [...sum.roots.map(r => r.id), ...sum.shaky, ...sum.weak];
+    const guidedId = priorities.find(id => GuidedMath.get(subject,id));
+    if (guidedId) {
+      const unit = GuidedMath.get(subject,guidedId);
+      const origin = screen ? null : session.targets.find(target => target !== guidedId && E.ancestors(D.graph,[target]).has(guidedId));
+      const href = 'index.html?practice=guided&target=' + encodeURIComponent(guidedId) + (origin ? '&origin=' + encodeURIComponent(origin) : '');
+      page.append(h('section',{class:'card no-print practice-card guided-entry'},
+        h('p',{class:'q-chapter'}, '从这里补起'), h('h2',{},nameOf(guidedId)), h('p',{},unit.goal + '。'),
+        h('a',{class:'btn btn-primary',href:withSubject(href)}, demo ? '自己练这个薄弱点' : '练这个薄弱点')));
+    }
     if (!demo && session.answers.length) {
       const missed = session.answers.filter(a => a.result !== 'correct').map(a => a.id);
-      const topics = [...new Set(missed.length ? missed : session.answers.map(a => a.id))];
-      page.append(h('section', {class:'card no-print practice-card'},
+      const topics = [...new Set(missed.length ? missed : session.answers.map(a => a.id))].filter(id => id !== guidedId);
+      if (topics.length) page.append(h('section', {class:'card no-print practice-card'},
         h('h2', {}, missed.length ? '再练一练刚才卡住的知识点' : '巩固刚才答过的知识点'),
         h('p', {class:'muted small'}, '选一个知识点做一组短练习，完成后安排下次复习。'),
         h('div', {class:'row'}, topics.map(id => h('a', {class:'btn',href:withSubject('index.html?practice=focus&target=' + encodeURIComponent(id))}, nameOf(id))))));
@@ -1464,6 +1479,18 @@
     }
     const params = new URLSearchParams(location.search);
     const practiceMode = params.get('practice');
+    if (practiceMode === 'guided' && !params.has('demo')) {
+      const id = params.get('target'), origin = params.get('origin'), from = params.get('from');
+      if (!D.graph.byId[id] || !GuidedMath.get(subject,id)) return renderStart('这个知识点暂未开放分步练习。');
+      practice = window.createGuidedPractice({subject,id,
+        origin:D.graph.byId[origin] && E.ancestors(D.graph,[origin]).has(id) ? origin : null,
+        recheck:params.get('stage') === 'check' && !!GuidedMath.get(subject,from) && E.ancestors(D.graph,[id]).has(from),
+        graph:D.graph,questions:D.reviewed,avoid:seenList(),h,show,
+        ask:function(item){ resetUi(); renderQuestion(item); }});
+      document.title = nameOf(id) + ' · 分步练习';
+      if (params.get('stage') === 'check') practice.check(); else practice.example();
+      return;
+    }
     if (['review','focus','exercise'].includes(practiceMode) && !params.has('demo')) {
       practice = window.createPractice({subject, graph:D.graph, h, show, avoid:seenList(),
         ask:function(item){ resetUi(); renderQuestion(item); }});

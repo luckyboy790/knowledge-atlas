@@ -33,7 +33,7 @@
     for (const [key, value] of memory) if (key.startsWith(base)) result.set(key.slice(base.length), value);
     return result;
   }
-  function record(subject, id, qid, correct, now = new Date()) {
+  function record(subject, id, qid, correct, now = new Date(), recheck = false) {
     const prior = records(subject).get(id);
     const today = dateKey(now);
     const advance = correct && prior && prior.due <= today;
@@ -41,6 +41,12 @@
     const due = correct && prior && !advance ? prior.due : nextDate(now, gaps[step]);
     const recent = [qid, ...(prior ? prior.recent : []).filter(x => x !== qid)].slice(0, 12);
     const value = {step, due, recent};
+    if (prior?.recheck || recheck) {
+      const old = prior?.recheck;
+      const attempts = Number.isSafeInteger(old?.attempts) && old.attempts >= 0 ? old.attempts : 0;
+      const passed = Number.isSafeInteger(old?.passed) && old.passed >= 0 && old.passed <= attempts ? old.passed : 0;
+      value.recheck = {attempts:attempts + Number(recheck), passed:passed + Number(recheck && correct)};
+    }
     const key = prefix + subject + '.' + id;
     try { localStorage.setItem(key, JSON.stringify(value)); memory.delete(key); }
     catch (_) { persistent = false; memory.set(key, value); }
