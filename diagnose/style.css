@@ -541,3 +541,20 @@ body.share-open { overflow: hidden; }
   a { color: inherit; text-decoration: none; }
   select { border: none; appearance: none; -webkit-appearance: none; background-image: none; }
 }
+
+.practice-card > .btn, .practice-card > button { margin: 0.25rem 0.55rem 0.25rem 0; }
+.practice-card h2 { margin-top: 1.25rem; }
+.practice-card h1 { font-size: clamp(1.7rem, 5vw, 2.6rem); }
+.practice-list { padding: 0; list-style: none; }
+.practice-list li { display: flex; justify-content: space-between; gap: 1em; padding: .65rem 0; border-bottom: 1px solid var(--line); }
+.practice-list time { flex-shrink: 0; font-variant-numeric: tabular-nums; color: var(--muted); }
+.practice-hint { margin: .8rem 0; color: var(--text-2); }
+.practice-hint summary { cursor: pointer; }
+
+.guided-card .q-text { margin: 1rem 0; }
+.guided-card h1:focus { outline: none; }
+.guided-entry h2 { margin-top: 0; }
+.guided-steps { padding-inline-start: 1.6rem; line-height: 1.65; }
+.guided-steps li { padding-inline-start: .3rem; margin-block: .6rem; }
+.guided-prompt { display: block; }
+.guided-card .row { margin-block: 1rem; }

@@ -34,6 +34,12 @@ for filename in files:
     (RUNTIME / output).write_text(source, encoding='utf-8')
     manifest[filename] = output
 
+book_index = json.loads((DATA / 'k12' / 'index.json').read_text())
+for books in [*book_index['books'].values(), book_index['exercises'].values()]:
+    for key, filename in books:
+        assert (DATA / 'k12' / filename).is_file()
+        manifest[key] = '../k12/' + filename
+
 (ROOT / 'assets' / 'data-manifest.js').write_text(
     '/* Generated runtime-data file map. */\nwindow.ToyDataFiles = '
     + json.dumps(manifest, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')

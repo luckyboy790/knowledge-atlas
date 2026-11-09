@@ -449,3 +449,17 @@ details[open] > summary::before { transform: rotate(90deg); }
   .zoom-tools button.fit { padding: 0 9px; font-size: 0; gap: 0; }
   .zoom-tools button.fit svg { width: 16px; height: 16px; }
 }
+
+#reviewed-filter-row, #terms-filter-row { font-size: .85rem; cursor: pointer; }
+#reviewed-filter-row input, #terms-filter-row input { width: auto; vertical-align: middle; }
+.reviewed-exercises ul { padding-inline-start: 1.25rem; }
+.reviewed-exercises li + li { margin-top: .6rem; }
+.reviewed-exercises a { overflow-wrap: anywhere; }
+
+.official-terms ul { list-style: none; padding: 0; }
+.official-terms li + li { margin-top: .65rem; }
+.official-terms small { display: block; }
+.term-english { overflow-wrap: anywhere; }
+.term-lookup { margin-block: 1rem; }
+.term-lookup form { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.term-lookup input { max-width: 100%; }

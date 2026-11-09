@@ -5,6 +5,7 @@
 <script src="../assets/theme.js"></script>
 <script src="../assets/data-manifest.js"></script>
 <script src="../assets/subjects.js"></script>
+<script src="../assets/terminology.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>知识图谱 · 学科知识图谱</title>
 <meta name="theme-color" content="#f7f6f3">
@@ -65,6 +66,8 @@
         </select>
         <select id="fDomain" aria-label="领域"><option value="">全部领域</option></select>
       </div>
+      <label id="terms-filter-row" hidden><input id="fTerms" type="checkbox"> 只看已对照中文术语的知识点</label>
+      <label id="reviewed-filter-row" hidden><input id="fReviewed" type="checkbox"> 只看有人工核验习题的知识点</label>
       <div id="book-filter-row" class="filter-row" hidden>
         <select id="fBook" aria-label="教材册次"><option value="">全部教材册次</option></select>
         <select id="fChapter" aria-label="教材章节"><option value="">全部章节</option></select>
@@ -116,13 +119,14 @@
 <footer class="site-footer compact" id="about">
   <div class="footer-inner">
     <p><strong>Toy 适配 · 非商业学习使用</strong>｜原作者 xiaoyang111222 · 项目 cn-math-taxonomy</p>
-    <p>大学数学、物理与化学（初中至大学）、初高中生物与地理、408、医学与中医药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="../sources.html">查看教材来源与覆盖范围</a></p>
+    <p>中小学数学、物理、化学和生物使用 K12-KGraph（CC BY-NC-SA 4.0）。其他课程与站内练习的来源分别列示。<a href="../sources.html">查看教材来源与覆盖范围</a></p>
     <p class="footer-links"><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">原项目源码</a><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">原项目 CC BY-NC 4.0</a><a href="../LICENSE">许可证全文</a></p>
   </div>
 </footer>
 <script src="../assets/vendor/cytoscape.min.js"></script>
 <script src="../assets/vendor/dagre.min.js"></script>
 <script src="../assets/vendor/cytoscape-dagre.js"></script>
+<script src="../assets/guided-math.js"></script>
 <script src="app.js"></script>
 <script src="../assets/medical-ui.js"></script></body>
 </html>

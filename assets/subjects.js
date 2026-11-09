@@ -120,17 +120,104 @@
   }
   function response(value) { return {ok:true, status:200, json:async function(){return value;}}; }
   async function fetchRaw(url) { return response(await loadJson(url.split(/[?#]/)[0].split('/').pop())); }
-  // 只在展示层合并：原始来源、ID、教材定位及独立 JSON 均不改变。
+  function usesK12(subject) { return ['math','physics','chemistry','biology'].includes(subject); }
+  const k12Cache = Object.create(null);
+  function schoolGraph(subject) {
+    if (!k12Cache[subject]) {
+      const keys = Object.keys(manifest).filter(key => key.startsWith('k12-' + subject + '_'));
+      k12Cache[subject] = Promise.all(keys.map(loadJson)).then(books => {
+        if (!books.length) throw new Error('找不到 K12-KGraph 教材');
+        const topics = [], dependencies = [], byId = new Map();
+        books.forEach(book => {
+          const [grade, semester, volumeKey, volume] = book.book;
+          book.topics.forEach(([id, sourceId, name, kind, description, locations, fields]) => {
+            const [number, chapterTitle, section] = locations[0] || ['', '仅定位到本册', ''];
+            const printed = /^(第[零〇一二三四五六七八九十百\d]+(?:章|单元))\s*(.*)$/.exec(chapterTitle);
+            const chapterNo = printed ? printed[1] : number ? '第' + number + '章' : '未分章';
+            const title = printed && printed[2] || chapterTitle;
+            const topic = {id, subject, name, grade, semester, external:false, standards:[],
+              domain:chapterTitle, type:kind, description:k12Text(description),
+              curriculum_level:volume.startsWith('选择') ? '选择性必修' : '必修',
+              chapter:volumeKey + ' ' + chapterNo + ' ' + title.replace(/\s+/g,'·'),
+              textbook:{book:volumeKey, volume, title:'人教版《' + names[subject] + '》' + volume, chapter:chapterTitle, section},
+              k12:{sourceId, locations, fields, chapterNo, chapterName:title, links:[]}};
+            topics.push(topic);
+            byId.set(id, topic);
+          });
+          book.dependencies.forEach(([prerequisiteId,topicId,evidence]) => {
+            dependencies.push({prerequisiteId, topicId, strength:'hard', source:'K12-KGraph',
+              reason:evidence || 'K12-KGraph 收录的直接先修关系。'});
+          });
+        });
+        books.forEach(book => book.relations.forEach(([from,to,type]) => {
+          byId.get(from).k12.links.push({id:to,type,out:true});
+          if (from !== to) byId.get(to).k12.links.push({id:from,type,out:false});
+        }));
+        return {topics, dependencies, byId};
+      });
+    }
+    return k12Cache[subject];
+  }
+
+  function k12Text(value) {
+    if (value == null) return '';
+    if (Array.isArray(value)) return value.map(k12Text).filter(Boolean).join('；');
+    if (typeof value === 'object') return Object.entries(value).map(([k,v]) => k + '：' + k12Text(v)).join('；');
+    return String(value);
+  }
+  function schoolQuestions(graph, previous) {
+    const questions = previous.filter(q => graph.byId.has(q.topicId));
+    const hasPractice = new Set(questions.map(q => q.topicId));
+    graph.topics.forEach(t => {
+      if (hasPractice.has(t.id)) return;
+      const f = t.k12.fields;
+      const add = (slot, prompt, answer) => {
+        const text = k12Text(answer);
+        if (!text.trim()) return;
+        questions.push({id:t.id + '_q' + slot, topicId:t.id, type:'self', difficulty:'basic',
+          prompt, answer:text, explanation:'', source:'k12-recall'});
+      };
+      const task = t.type === '实验' ? '概述实验做法或所需器材' : t.type === '技能' ? '说明怎样运用这项技能' : '用自己的话解释这个概念';
+      add(8001, '「' + t.name + '」：' + task + '。', t.description);
+      if (f.formula) add(8002, '写出「' + t.name + '」对应的公式。', f.formula);
+      if (f.conclusion) add(8003, '「' + t.name + '」的实验可以得出什么结论？', f.conclusion);
+      if (f.phenomena) add(8004, '「' + t.name + '」中可以观察到什么现象？', f.phenomena);
+      if (f.examples) add(8005, '为「' + t.name + '」举一个例子。', f.examples);
+    });
+    return questions;
+  }
+
+  async function k12Data(subject, kind) {
+    const graph = await schoolGraph(subject);
+    const extensions = subject === 'math' ? ['math-university','math-probability'] :
+      mixedScience(subject) ? ['u' + subject] : [];
+    const extra = (await Promise.all(extensions.map(s => loadJson(s + '-' + kind + '.json')))).flat();
+    if (kind === 'topics') return graph.topics.concat(extra);
+    if (kind === 'questions') {
+      const [old, reviewed] = await Promise.all([
+        loadJson((subject === 'math' ? '' : subject + '-') + 'questions.json'),
+        loadJson('exercises-' + subject + '.json')
+      ]);
+      return schoolQuestions(graph, old).concat(reviewed, extra);
+    }
+    const university = new Set((await Promise.all(extensions.map(s => loadJson(s + '-topics.json')))).flat().map(t => t.id));
+    const exists = id => graph.byId.has(id) || university.has(id);
+    const bridges = mixedScience(subject) ? (await loadJson('subject-bridge-dependencies.json')).filter(e => e.subject === subject) : [];
+    return graph.dependencies.concat(extra.concat(bridges).filter(e => exists(e.topicId) && exists(e.prerequisiteId)));
+  }
+
   async function fetchData(url, subject) {
     const file = url.split(/[?#]/)[0].split('/').pop();
     subject = canonical(subject || read());
     const kind = /(?:^|-)(topics|dependencies|questions)\.json$/.exec(file);
     let value;
-    if (subject === 'math' && /^(?:topics|dependencies|questions)\.json$/.test(file)) {
-      const arrays = await Promise.all([loadJson(file), loadJson('math-university-' + file), loadJson('math-probability-' + file)]);
-      if (!arrays.every(Array.isArray)) throw new Error('大学数学数据格式错误');
-      value = arrays[0].concat(arrays[1], arrays[2]);
-    } else if (merged(subject) && kind) {
+    if (subject === 'math' && file === 'id-aliases.json') {
+      const [old, current] = await Promise.all([loadJson(file), schoolGraph(subject)]);
+      const surviving = Object.entries(old.aliases).filter(([,alias]) => alias.targets.every(id => current.byId.has(id)));
+      value = {aliases:Object.fromEntries(surviving)};
+    } else if (usesK12(subject) && kind && (file === kind[1] + '.json' || file === subject + '-' + kind[1] + '.json')) {
+      value = await k12Data(subject, kind[1]);
+    } else if (!usesK12(subject) && merged(subject) && kind) {
       const arrays = await Promise.all(members(subject).map(function(s){return loadJson(s + '-' + kind[1] + '.json');}));
       if (!arrays.every(Array.isArray)) throw new Error('合并学科数据格式错误');
       value = [].concat.apply([], arrays);
@@ -140,12 +227,23 @@
         value = value.concat(bridges.filter(function(e){return canonical(e.subject) === subject;}));
       }
     } else value = await loadJson(file);
+    if (file === 'cs408-topics.json') {
+      for (const topic of value) {
+        const label = topic.name.replace(/高速缓存（Cache）|\bCache\b/g, '高速缓存（Cache）')
+          .replace(/中央处理器（CPU）|\bCPU\b/g, '中央处理器（CPU）');
+        if (label !== topic.name) {
+          topic.originalName = topic.name;
+          topic.name = label;
+        }
+      }
+    }
     return response(value);
   }
   // 适配对象只进入引擎；大学课程共享学段编码，跨课程先修按拓扑排序。
   function engineTopics(topics) {
     return topics.map(function(t){
       const s = of(t), adapted = Object.assign({}, t, {subject:s});
+      if (t.k12) return adapted;
       if (isAcademicTopic(t)) {
         const c = computingChapter(t);
         return Object.assign(adapted, {grade:coursesFor(s)[0].grade,chapter:c.label + ' ' + c.chapterNo + ' ' + c.chapterName.replace(/\s+/g,'·')});
@@ -214,6 +312,7 @@
   function bookLabel(t) { const b = t.textbook || {}; return b.volume || b.title || ''; }
   function scienceChapter(t) {
     const b = t.textbook || {};
+    if (t.k12) return {volume:b.book,label:b.volume,chapterNo:t.k12.chapterNo,chapterName:t.k12.chapterName,section:b.section};
     let title = b.chapter || t.chapter || '';
     const match = /(第[一二三四五六七八九十百\d]+[章单元]+)\s*(.+)/.exec(title);
     let chapterNo = match ? match[1] : '第1章';
@@ -260,7 +359,7 @@
     return {ids:list.map(function(t){return t.id;}),volumes:Array.from(new Set(list.map(function(t){return t.textbook.book;}))),label:all ? names[subject] + ' · 全部已收录知识' : g ? scienceGrade(g) + (g >= 10 ? '（建议编排）' : '') : bookLabel(list[0])};
   }
   const specs = {physics:{grades:[8,9,10,11,12],start:'八',range:'初中至高中',books:'初中三册、高中必修与选择性必修六册',demo:'cnp_043',demoName:'欧姆定律',search:'牛顿运动定律、动量守恒、电磁感应'},chemistry:{grades:[9,10,11,12],start:'九',range:'初中至高中',books:'九年级上下册、高中必修与选择性必修五册',demo:'cnc_017',demoName:'质量守恒定律',search:'物质的量、化学平衡、有机化合物'}};
-  specs.biology = {grades:[7,8,10,11,12],start:'七',range:'初中至高中',books:'初中四册、高中必修与选择性必修五册',demo:'cnb_095',demoName:'净光合速率与环境限制',search:'细胞、光合作用、遗传、生态系统',checked:'2026-11-01',intro:'从初中生物学衔接到高中必修与选择性必修：按教材册次与已核验的官方材料查找知识，理解生命现象的结构、机制与证据，再沿先修关系复习。已知的 2026 教材目录更新与尚待核验的新正文逐册列在来源页；原创练习与学习建议已经 AI 检查，尚未经教师审核。'};
+  specs.biology = {grades:[7,8,10,11,12],start:'七',range:'初中至高中',books:'初中四册、高中必修与选择性必修五册',demo:'cnb_k7acpt50',demoName:'细胞核',search:'细胞、光合作用、遗传、生态系统',checked:'2026-11-01',intro:'从初中生物学衔接到高中必修与选择性必修：按教材册次与已核验的官方材料查找知识，理解生命现象的结构、机制与证据，再沿先修关系复习。已知的 2026 教材目录更新与尚待核验的新正文逐册列在来源页；原创练习与学习建议已经 AI 检查，尚未经教师审核。'};
   specs.geography = {grades:[7,8,10,11,12],start:'七',range:'初中至高中',books:'初中四册、高中必修与选择性必修五册',demo:'cng_122',demoName:'正午太阳高度与日影方向',search:'经纬度、气候、地貌、区域发展',checked:'2026-11-01',intro:'从初中地理衔接到高中必修与选择性必修：按教材册次理解空间位置、自然过程和人地关系，用原创题检查条件与推理，再回到教材复习。各册更新信息、目录和可读正文的核验范围分别列在来源页；内容已经 AI 检查，尚未经教师审核。'};
   specs.cs408 = {grades:[17,18,19,20],start:'ds',range:'计算机专业基础',books:'数据结构、计算机组成原理、操作系统、计算机网络',demo:'cs408_ds_001',demoName:'逻辑结构、存储结构与抽象数据类型',search:'KMP、Cache、缺页中断、TCP'};
   specs.med = {grades:medicalCourses.med.map(c=>c.grade),start:'anatomy',range:'本科基础课程',demo:'med_anatomy_001',demoName:'解剖学姿势、方位与切面',search:'动作电位、免疫、炎症、药代动力学'};
@@ -271,5 +370,5 @@
   specs.physics.range = specs.chemistry.range = '初中、高中与大学';
   specs.physics.books += '，以及大学六个模块';
   specs.chemistry.books += '，以及大学七个模块';
-  window.Subjects = {canonical, members, merged, mixedScience, courseTargets, rawNames, rawOf, initialScope, rawCoursesFor, isUniversityTopic, isAcademicTopic, stageKind, stageCode, legacySessions, fetchRaw, names, read, of, link, data, reference, science, biogeo, schoolTargets, scienceGrade, bookLabel, scienceChapter, specs, computing, medical, universityScience, curriculum, academic, unitLabel, assessment, courses, coursesFor, courseFrom, courseName, computingChapter, fetch: fetchData, engineTopics: engineTopics};
+  window.Subjects = {k12Text, usesK12, canonical, members, merged, mixedScience, courseTargets, rawNames, rawOf, initialScope, rawCoursesFor, isUniversityTopic, isAcademicTopic, stageKind, stageCode, legacySessions, fetchRaw, names, read, of, link, data, reference, science, biogeo, schoolTargets, scienceGrade, bookLabel, scienceChapter, specs, computing, medical, universityScience, curriculum, academic, unitLabel, assessment, courses, coursesFor, courseFrom, courseName, computingChapter, fetch: fetchData, engineTopics: engineTopics};
 })();

@@ -502,7 +502,7 @@
     // 高中数学不拆上下册。高一/高二是必修两册，选必一/二/三是选择性必修三册。
     const hs = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(s);
     if (hs) return { volume: hs[1], chapterNo: hs[2], chapterName: hs[3], section: '' };
-    const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
+    const m = /^(\S+) (第\S+?(?:章|单元)) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
   }

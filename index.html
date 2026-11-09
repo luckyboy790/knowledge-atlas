@@ -7,7 +7,7 @@
 <script src="assets/subjects.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>学科知识图谱</title>
-<meta name="description" content="数学、英语、初高中物理化学、生物、地理、大学物理化学、408、医学与中医药知识图谱。核心知识、先修关系、原创测评及教材来源，已经 AI 检查，未经教师审核。">
+<meta name="description" content="数学、英语、初高中物理化学、生物、地理、大学物理化学、408、医学与中医药知识图谱。数学、物理、化学与生物的中小学图谱采用 K12-KGraph，可按册浏览并沿先修关系练习。">
 <meta name="theme-color" content="#f7f6f3">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2315171c'/%3E%3Cpath d='M9.5 21.5 16 10.5l6.5 9' fill='none' stroke='%23fff' stroke-opacity='.55' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='9.5' cy='21.5' r='3.1' fill='%232fc7b4'/%3E%3Ccircle cx='16' cy='10.5' r='3.1' fill='%237ea4ff'/%3E%3Ccircle cx='22.5' cy='19.5' r='3.1' fill='%23f2b84b'/%3E%3C/svg%3E">
 <script>
@@ -72,8 +72,9 @@
       <div class="hero-actions">
         <a class="btn btn-primary btn-lg" href="diagnose/index.html">开始诊断<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
         <a class="btn btn-lg" href="explore/index.html">浏览知识图谱</a>
+        <a class="btn btn-lg" id="review-link" href="diagnose/index.html?practice=review">今日复习</a>
       </div>
-      <p class="quiet-link"><a href="diagnose/index.html?target=cnm_221&amp;demo=1">先看一遍演示：配方法</a></p>
+      <p class="quiet-link"><a href="diagnose/index.html?target=cnm_221&amp;demo=1">先看一遍演示：配方法</a><a id="reviewed-exercises-link" hidden>人工核验习题</a><a id="terminology-link" hidden>中文术语</a></p>
     </div>
     <figure class="hero-visual">
       <div class="viz-head"><span class="viz-title">先修关系总览</span><span class="viz-count" id="viz-count"></span></div>
@@ -122,7 +123,7 @@
         <div class="stat-card"><div class="stat-num" id="n-questions">…</div><div class="stat-label">题目</div></div>
         <div class="stat-card"><div class="stat-num" id="n-standards">…</div><div class="stat-label">中小学课标条目</div></div>
       </div>
-      <p class="stat-note">数学统计包含中小学原数据与大学核心知识点集；课标数仅统计中小学，大学内容附教材章节，不对应中小学课标。</p>
+      <p class="stat-note">数学统计包含中小学与大学课程。中小学图谱采用 K12-KGraph。</p>
       <div id="load-error" class="load-error" hidden></div>
     </div>
   </section>
@@ -142,11 +143,12 @@
       <svg class="logo" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#15171c"/><path d="M9.5 21.5 16 10.5l6.5 9" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="21.5" r="3.1" fill="#2fc7b4"/><circle cx="16" cy="10.5" r="3.1" fill="#7ea4ff"/><circle cx="22.5" cy="19.5" r="3.1" fill="#f2b84b"/></svg>
       <p><strong>Toy 适配 · 非商业学习使用</strong>原作者 xiaoyang111222 · 项目 cn-math-taxonomy</p>
     </div>
-    <p>大学数学、物理与化学（初中至大学）、初高中生物与地理、408、医学与中医药扩展参考教材整理；先修关系与题目为学习辅助编写，未经教师审核。<a href="sources.html">查看教材来源与覆盖范围</a></p>
+    <p>中小学数学、物理、化学和生物使用 K12-KGraph（CC BY-NC-SA 4.0）。其他课程与站内练习的来源分别列示。<a href="sources.html">查看教材来源与覆盖范围</a></p>
     <p class="footer-links"><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">原项目源码</a><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">原项目 CC BY-NC 4.0</a><a href="LICENSE">许可证全文</a></p>
   </div>
 </footer>
 <script src="assets/constellation.js"></script>
+<script src="assets/practice-schedule.js"></script>
 <script src="assets/home.js"></script>
 <script src="assets/medical-ui.js"></script></body>
 </html>
